@@ -1,16 +1,26 @@
 {
   "project": "Linear A Open Corpus",
-  "version": "0.1.0",
-  "created": "2026-09-25",
-  "scope": "Unicode-encoded Linear A sign inventory; no inscription transcription data redistributed",
+  "version": "0.2.0-alpha",
+  "created": "2026-09-27",
+  "scope": "Corpus architecture, provenance/licensing framework, Unicode sign inventory, and SigLA ingestion foundation.",
   "unicode_block": "U+10600–U+1077F",
   "sign_count_in_generated_inventory": 341,
+  "upstream_sources": [
+    {
+      "source_id": "SIGLA",
+      "name": "SigLA: The Signs of Linear A",
+      "url": "https://sigla.phis.me/",
+      "license": "CC BY-NC-SA 4.0",
+      "role": "Primary planned corpus source"
+    }
+  ],
   "principles": [
     "Separate sign identity from interpretation.",
     "Do not treat Linear B correspondences as deciphered Linear A readings.",
     "Record provenance and licensing for every external dataset.",
-    "Do not redistribute copyrighted or unclearly licensed transcription corpora without permission."
+    "Preserve uncertainty and conflicting source claims.",
+    "Do not redistribute copyrighted or unclearly licensed material without permission.",
+    "Make original project material maximally open where legally possible."
   ],
-  "authoritative_reference": "Unicode Standard 18.0, Chapter 8.1 Linear A",
   "gorila_basis": "Godart & Olivier, Recueil des inscriptions en linéaire A (1976–1985)"
 }

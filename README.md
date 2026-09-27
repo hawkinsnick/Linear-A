@@ -1,33 +1,78 @@
 # Linear A Open Corpus
 
-An open, provenance-first research corpus for Minoan Linear A.
+An open, provenance-first, machine-readable research corpus for Minoan Linear A.
 
-## Initial release: 0.1.0
+## Project goal
 
-This release contains the Unicode-encoded Linear A sign inventory only. It is intentionally separated from inscription transcriptions and interpretive glosses.
+The long-term goal is a comprehensive, reproducible corpus of Linear A evidence that is free to access and reuse by everyone to the maximum extent legally possible.
 
-### Design principles
+The corpus distinguishes:
+- physical/document observations;
+- source transcriptions and classifications;
+- normalized representations;
+- computationally derived data;
+- scholarly interpretations and hypotheses.
 
-1. **Sign identity is not decipherment.**
-2. Linear B correspondences are stored separately from proposed Linear A readings.
-3. Every interpretive claim should carry a source and confidence/provenance.
-4. Copyright and licensing are tracked at the dataset level.
-5. Raw archaeological observations should remain distinguishable from hypotheses.
+It does not assume that Linear B correspondences constitute deciphered Linear A readings.
 
-### Files
+## Current release
 
-- `data/signs_unicode.csv` — Unicode Linear A characters and GORILA-based identifiers.
-- `data/metadata.json` — release metadata and corpus principles.
+0.2.0-alpha — corpus architecture and provenance foundation
 
-### Unicode
+This release expands the project from a Unicode sign inventory into a corpus architecture ready for systematic ingestion of openly licensed upstream data.
 
-The Unicode Standard defines Linear A at U+10600–U+1077F and states that its repertoire is broadly based on the GORILA catalog. Unicode character names use GORILA catalog numbers.
+## Current files
 
-Official reference:
-https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-8/
+- data/signs_unicode.csv — Unicode Linear A character inventory.
+- data/sites.csv — normalized site identifiers used by the corpus.
+- data/inscriptions.csv — document-level schema.
+- data/sign_occurrences.csv — individual sign-attestation schema.
+- data/bibliography.csv — normalized source bibliography.
+- data/provenance.csv — record-level source/provenance schema.
+- data/hypotheses.csv — explicit interpretive claims, kept separate from observations.
+- DATA-POLICY.md — corpus methodology.
+- DATA-LICENSE-MATRIX.md — licensing and attribution policy.
+- SOURCE-POLICY.md — upstream-source policy.
+- scripts/import_sigla.py — conservative SigLA ingestion scaffold.
+- scripts/validate_corpus.py — structural validation.
 
-### Planned datasets
+## SigLA
 
-Future releases may add inscription/document metadata, sign sequences, sign variants and paleography, numerical notation, bibliographic references, proposed readings and competing hypotheses, statistical observations, and analysis scripts.
+SigLA is a major upstream source for this project. It describes itself as an open-access database intended to be systematic and exhaustive, and its current site documents documents, signs, sequences, words, and palaeographic/contextual information.
 
-Inscription data will only be redistributed when its source licensing permits it. Otherwise, the repository will provide scripts/instructions to obtain the source locally.
+SigLA states that its dataset and drawings are available under CC BY-NC-SA 4.0.
+
+Source: https://sigla.phis.me/
+
+## Licensing philosophy
+
+The project is intended to be free for everyone.
+
+For material we create ourselves, we will use open licensing as far as legally possible. For upstream material, the upstream license remains controlling. We will not redistribute copyrighted or unclearly licensed material merely because it is useful to the project.
+
+See DATA-LICENSE-MATRIX.md.
+
+## Design principles
+
+1. Sign identity is not decipherment.
+2. Linear B correspondences are not automatically Linear A readings.
+3. Observation and interpretation remain separate.
+4. Every external record carries provenance.
+5. Uncertainty is preserved.
+6. Licensing is tracked at the record/source level.
+7. Conflicting scholarly claims remain distinguishable.
+8. Releases should be reproducible.
+9. Original project contributions should be maximally open.
+10. Citation is encouraged without unnecessarily restricting lawful reuse.
+
+## Roadmap
+
+- 0.1.0 — Unicode sign inventory.
+- 0.2.0 — corpus architecture, provenance, licensing framework, and SigLA import foundation.
+- 0.3.0 — validated SigLA corpus ingestion.
+- 0.4.0+ — broader source reconciliation, paleographic normalization, variants, numerals, bibliography expansion, and derived analytical datasets.
+- 1.0.0 — reproducible, release-versioned research corpus suitable for general computational and scholarly use.
+
+## Important legal note
+
+This repository is a research project, not legal advice. Always check the license attached to a source or record before redistributing derived material.

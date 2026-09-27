@@ -1,0 +1,22 @@
+site_id,site_name,site_code,modern_country,region,notes,source_ids
+ARKH,Arkhanes,ARKH,Greece,Crete,,SIGLA
+GO,Gournia,GO,Greece,Crete,,SIGLA
+HT,Haghia Triada,HT,Greece,Crete,,SIGLA
+HS,Haghios Stephanos,HS,Greece,Laconia,,SIGLA
+KE,Kea,KE,Greece,Cyclades,,SIGLA
+KH,Khania,KH,Greece,Crete,,SIGLA
+KN,Knossos,KN,Greece,Crete,,SIGLA
+KY,Kythera,KY,Greece,Ionian/Aegean,,SIGLA
+MA,Mallia,MA,Greece,Crete,,SIGLA
+ME,Melos,ME,Greece,Cyclades,,SIGLA
+MY,Mycenae,MY,Greece,Mainland Greece,,SIGLA
+PA,Palaikastro,PA,Greece,Crete,,SIGLA
+PAP,Papoura,PAP,Greece,Crete,,SIGLA
+PE,Petras,PE,Greece,Crete,,SIGLA
+PH,Phaistos,PH,Greece,Crete,,SIGLA
+PS,Psykhro,PS,Greece,Crete,,SIGLA
+PY,Pyrgos,PY,Greece,Crete,,SIGLA
+SY,Syme,SY,Greece,Crete,,SIGLA
+TH,Théra,TH,Greece,Cyclades,,SIGLA
+TY,Tylissos,TY,Greece,Crete,,SIGLA
+ZA,Zakros,ZA,Greece,Crete,,SIGLA
