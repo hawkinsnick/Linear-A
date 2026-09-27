@@ -69,6 +69,7 @@ See DATA-LICENSE-MATRIX.md.
 
 - 0.1.0 — Unicode sign inventory.
 - 0.2.0 — corpus architecture, provenance, licensing framework, and SigLA import foundation.
+- 0.3.0-alpha — validated SigLA decoder/importer; upstream payloads remain local and gitignored.
 - 0.3.0 — validated SigLA corpus ingestion.
 - 0.4.0+ — broader source reconciliation, paleographic normalization, variants, numerals, bibliography expansion, and derived analytical datasets.
 - 1.0.0 — reproducible, release-versioned research corpus suitable for general computational and scholarly use.
