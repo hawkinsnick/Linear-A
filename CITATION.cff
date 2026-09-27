@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Linear A Open Corpus"
+message: "If you use this corpus, please cite the repository and the underlying sources."
+type: dataset
+authors:
+  - family-names: "Project contributors"
+version: "0.1.0"
+date-released: 2026-09-25
+repository-code: "https://github.com/hawkinsnick/Linear-A"
+license: "CC0-1.0"
+keywords:
+  - Linear A
+  - Minoan
+  - GORILA
+  - epigraphy
+  - Aegean scripts
