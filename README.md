@@ -17,7 +17,7 @@ It does not assume that Linear B correspondences constitute deciphered Linear A 
 
 ## Current release
 
-0.2.0-alpha — corpus architecture and provenance foundation
+0.3.0-alpha — validated SigLA import foundation
 
 This release expands the project from a Unicode sign inventory into a corpus architecture ready for systematic ingestion of openly licensed upstream data.
 
