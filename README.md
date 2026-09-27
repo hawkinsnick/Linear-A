@@ -76,3 +76,22 @@ See DATA-LICENSE-MATRIX.md.
 ## Important legal note
 
 This repository is a research project, not legal advice. Always check the license attached to a source or record before redistributing derived material.
+
+
+## Reproducible SigLA import
+
+SigLA publishes its machine-readable corpus as a JavaScript payload containing OCaml Marshal data. Its published paper describes the underlying architecture as deliberately open and usable outside the web interface. The current payload is an implementation-level serialized representation rather than a documented JSON export.
+
+This repository includes a decoder and importer, but **does not bundle the upstream SigLA payload**.
+
+To obtain and process a current snapshot locally:
+
+\`\`\`bash
+python scripts/import_sigla.py --fetch
+\`\`\`
+
+The fetched source and generated corpus are stored under \`data/raw/\` and \`data/generated/\`, both of which are gitignored. Generated output retains SigLA provenance and **CC BY-NC-SA 4.0** licensing metadata.
+
+The importer is deliberately opt-in. Running ordinary project validation or analysis does not silently download another research group's corpus.
+
+See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for attribution and upstream-license handling.

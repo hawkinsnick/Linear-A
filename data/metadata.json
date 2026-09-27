@@ -1,8 +1,8 @@
 {
   "project": "Linear A Open Corpus",
-  "version": "0.2.0-alpha",
+  "version": "0.3.0-alpha",
   "created": "2026-09-27",
-  "scope": "Corpus architecture, provenance/licensing framework, Unicode sign inventory, and SigLA ingestion foundation.",
+  "scope": "Validated SigLA decoder/importer foundation; source payloads remain local and gitignored.",
   "unicode_block": "U+10600–U+1077F",
   "sign_count_in_generated_inventory": 341,
   "upstream_sources": [

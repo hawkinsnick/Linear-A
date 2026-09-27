@@ -44,3 +44,10 @@ Every release should identify:
 - schema version;
 - validation results;
 - applicable licenses.
+
+
+## Upstream data is not bundled by default
+
+For third-party corpora with explicit reuse terms, the project may provide reproducible import tooling without committing the upstream corpus itself. This keeps the public repository's boundary clear and makes acquisition of third-party research data an explicit user action.
+
+For SigLA specifically, the importer records the upstream snapshot hash, retrieval date, source identifier, attribution, and license in generated output. Re-encoding or normalizing the data does not create a new license grant over the upstream material.
