@@ -6,53 +6,27 @@ An open, provenance-first, machine-readable research corpus for Minoan Linear A.
 
 The long-term goal is a comprehensive, reproducible corpus of Linear A evidence that is free to access and reuse by everyone to the maximum extent legally possible.
 
-The corpus distinguishes:
-- physical/document observations;
-- source transcriptions and classifications;
-- normalized representations;
-- computationally derived data;
-- scholarly interpretations and hypotheses.
+The corpus distinguishes physical/document observations, source transcriptions and classifications, normalized representations, computationally derived data, and scholarly interpretations/hypotheses. It does not assume that Linear B correspondences constitute deciphered Linear A readings.
 
-It does not assume that Linear B correspondences constitute deciphered Linear A readings.
+## Current research state
 
-## Current release
+**0.7.0 — source-word analytical release**
 
-0.3.0-alpha — validated SigLA import foundation
+The project now includes a validated local SigLA decoding path, source reconciliation and uncertainty architecture, context-aware structural units, and analysis over SigLA's explicit serialized Word objects.
 
-This release expands the project from a Unicode sign inventory into a corpus architecture ready for systematic ingestion of openly licensed upstream data.
+Current validated snapshot invariants include:
+- 802 decoded documents
+- 5,144 sign attestations
+- 1,401 serialized SigLA Word objects
+- 1,283 nonempty source-defined words
+- 836 distinct source-word types
+- 168 recurrent source-word types
 
-## Current files
+Two separately implemented executable decoding paths, checked against the published reference field semantics and run on the same SigLA snapshot, agreed on all 5,144 attestations across 46,296 compared fields. This is a decoder/extraction validation claim, not an epigraphic or decipherment claim.
 
-- data/signs_unicode.csv — Unicode Linear A character inventory.
-- data/sites.csv — normalized site identifiers used by the corpus.
-- data/inscriptions.csv — document-level schema.
-- data/sign_occurrences.csv — individual sign-attestation schema.
-- data/bibliography.csv — normalized source bibliography.
-- data/provenance.csv — record-level source/provenance schema.
-- data/hypotheses.csv — explicit interpretive claims, kept separate from observations.
-- DATA-POLICY.md — corpus methodology.
-- DATA-LICENSE-MATRIX.md — licensing and attribution policy.
-- SOURCE-POLICY.md — upstream-source policy.
-- scripts/import_sigla.py — conservative SigLA ingestion scaffold.
-- scripts/validate_corpus.py — structural validation.
+See `docs/RESEARCH-HISTORY-0.3-0.7.md` for the consolidated post-0.2 research history and corrections.
 
-## SigLA
-
-SigLA is a major upstream source for this project. It describes itself as an open-access database intended to be systematic and exhaustive, and its current site documents documents, signs, sequences, words, and palaeographic/contextual information.
-
-SigLA states that its dataset and drawings are available under CC BY-NC-SA 4.0.
-
-Source: https://sigla.phis.me/
-
-## Licensing philosophy
-
-The project is intended to be free for everyone.
-
-For material we create ourselves, we will use open licensing as far as legally possible. For upstream material, the upstream license remains controlling. We will not redistribute copyrighted or unclearly licensed material merely because it is useful to the project.
-
-See DATA-LICENSE-MATRIX.md.
-
-## Design principles
+## Core design principles
 
 1. Sign identity is not decipherment.
 2. Linear B correspondences are not automatically Linear A readings.
@@ -63,36 +37,43 @@ See DATA-LICENSE-MATRIX.md.
 7. Conflicting scholarly claims remain distinguishable.
 8. Releases should be reproducible.
 9. Original project contributions should be maximally open.
-10. Citation is encouraged without unnecessarily restricting lawful reuse.
+10. Failed/superseded analytical models are documented rather than silently erased.
+
+## Source-word architecture
+
+0.6.0 established that SigLA's serialized document objects contain explicit Word lists. Source-word membership is therefore decoded from those lists and **not reconstructed from the unresolved f3 field**.
+
+0.7.0 reports distributional analyses over those source-defined words. No result is asserted to be a prefix, suffix, morpheme, grammatical rule, phonotactic rule, translation or decipherment.
+
+## f3
+
+The f3 field remains evidence-tiered and semantically unresolved. Earlier attempted boundary interpretations were tested and superseded. It is not used as a substitute for source-defined word membership.
+
+## Important 0.7 correction
+
+A site_id field in the initial 0.6 local export was derived from document-label prefixes. Public 0.7 documentation corrects this to `site_group_heuristic`. It is not canonical source-explicit site metadata.
+
+## SigLA and licensing
+
+SigLA is a major upstream source. SigLA-derived records and aggregates retain applicable CC BY-NC-SA 4.0 obligations. Raw SigLA payloads and drawings are not bundled. GORILA text/plates/images are not redistributed without rights.
+
+See `THIRD-PARTY-NOTICES.md`, `DATA-LICENSE-MATRIX.md`, and `SOURCE-POLICY.md`.
 
 ## Roadmap
 
 - 0.1.0 — Unicode sign inventory.
-- 0.2.0 — corpus architecture, provenance, licensing framework, and SigLA import foundation.
-- 0.3.0-alpha — validated SigLA decoder/importer; upstream payloads remain local and gitignored.
-- 0.3.0 — validated SigLA corpus ingestion.
-- 0.4.0+ — broader source reconciliation, paleographic normalization, variants, numerals, bibliography expansion, and derived analytical datasets.
+- 0.2.0 — corpus architecture, provenance and licensing framework.
+- 0.3.0 — reproducible SigLA decoder/import foundation.
+- 0.4.0 — source reconciliation, uncertainty, structural forensics and computational baselines.
+- 0.5.0 — context-aware corpus architecture.
+- 0.6.0 — explicit serialized SigLA Word-object layer.
+- 0.7.0 — source-word distributional analysis and methodology correction.
 - 1.0.0 — reproducible, release-versioned research corpus suitable for general computational and scholarly use.
-
-## Important legal note
-
-This repository is a research project, not legal advice. Always check the license attached to a source or record before redistributing derived material.
-
 
 ## Reproducible SigLA import
 
-SigLA publishes its machine-readable corpus as a JavaScript payload containing OCaml Marshal data. Its published paper describes the underlying architecture as deliberately open and usable outside the web interface. The current payload is an implementation-level serialized representation rather than a documented JSON export.
+The repository does not bundle the upstream SigLA payload. The importer remains opt-in; fetched source and generated corpus should remain under gitignored local paths. Derived material must retain provenance and applicable upstream licensing.
 
-This repository includes a decoder and importer, but **does not bundle the upstream SigLA payload**.
+## Legal note
 
-To obtain and process a current snapshot locally:
-
-\`\`\`bash
-python scripts/import_sigla.py --fetch
-\`\`\`
-
-The fetched source and generated corpus are stored under \`data/raw/\` and \`data/generated/\`, both of which are gitignored. Generated output retains SigLA provenance and **CC BY-NC-SA 4.0** licensing metadata.
-
-The importer is deliberately opt-in. Running ordinary project validation or analysis does not silently download another research group's corpus.
-
-See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for attribution and upstream-license handling.
+This repository is a research project, not legal advice. Check the license attached to a source or record before redistributing derived material.

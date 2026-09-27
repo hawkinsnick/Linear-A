@@ -1,0 +1,11 @@
+analysis,unit,status,requires,guardrail
+frequency_sign,attestation,yes,classified sign identity,does not require unit/context metadata
+adjacency_document_stream,document,yes_exploratory,ordered attestations,must be labeled structural adjacency
+adjacency_source_word,source_word,yes,validated source-word membership,Use explicit serialized SigLA Word membership only; exclude empty Word objects; never substitute f3.
+motif_source_word,source_word,yes,validated source-word membership,Use explicit serialized SigLA Word membership only; exclude empty Word objects; never substitute f3.
+document_type_stratification,document_context,yes_descriptive,validated document_type join,Preserve raw categories and provenance.
+period_stratification,document_context,yes_descriptive,validated period join,Preserve blanks/unknown/n-a.
+support_stratification,document_context,blocked,validated support/material join,no document-name inference
+site_stratification,site,blocked,reviewed canonical source-explicit site mapping,Do not substitute site_group_heuristic.
+paleographic_variant,occurrence,yes_if_source_explicit,visual/source-explicit variant evidence,canonical sign ID alone insufficient
+numeral_value,hypothesis,branched,source observation plus hypothesis branch,fraction K remains branched

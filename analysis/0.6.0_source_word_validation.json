@@ -1,0 +1,9 @@
+{
+  "snapshot":{"documents":802,"attestations":5144,"source_word_objects":1401},
+  "word_structure":{"bad_list_encodings":0,"empty_words":118,"duplicate_occurrence_words":0,
+    "word_length_distribution":{"0":118,"1":249,"2":460,"3":377,"4":145,"5":37,"6":11,"7":1,"8":1,"9":1,"19":1}},
+  "live_page_word_count_validation":{"HT 11a":{"raw":6,"web":6,"match":true},"HT 26a":{"raw":4,"web":4,"match":true},"MA 2a":{"raw":1,"web":1,"match":true},"HT 8a":{"raw":6,"web":6,"match":true},"KH Wc 2025":{"raw":0,"web":0,"match":true},"KH Wc 2114":{"raw":0,"web":0,"match":true}},
+  "all_live_cases_match":true,
+  "method":"Word membership comes from the document's explicit serialized Word list, not f3.",
+  "f3_status":"unresolved/evidence-tiered and analytically separate."
+}

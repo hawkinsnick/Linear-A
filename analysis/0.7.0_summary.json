@@ -1,0 +1,15 @@
+{
+  "version": "0.7.0",
+  "source_word_tokens_nonempty": 1283,
+  "distinct_word_types": 836,
+  "hapax_types": 668,
+  "recurrent_types": 168,
+  "length_distribution": {"1":249,"2":460,"3":377,"4":145,"5":37,"6":11,"7":1,"8":1,"9":1,"19":1},
+  "hamming1_edges": 4681,
+  "variable_slot_families": 79,
+  "added_sign_pairs": {"total":651,"initial":310,"final":341},
+  "position_null": {"permutations":1000,"tested_sign_position_cases":116,"positive_bh_q_le_005":22},
+  "slot_family_null": {"observed":79,"permutations":300,"null_mean":74.36666666666666,"null_sd":2.562703074042702,"empirical_upper_p":0.059800664451827246,"null_min":68,"null_max":81},
+  "portable_recurrent_types_ge2_heuristic_site_groups": 69,
+  "guardrail": "Distributional source-word structure only. No prefix/suffix/morpheme/grammar interpretation is asserted."
+}
