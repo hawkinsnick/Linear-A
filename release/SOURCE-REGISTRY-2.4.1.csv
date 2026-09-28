@@ -1,0 +1,9 @@
+source_id,source_name,role,lineage,license_or_rights,redistribution_policy,2_4_1_status
+sigla,SigLA,primary_palaeographic_and_epigraphic_source,GORILA_plus_SigLA_editorial_work,CC_BY-NC-SA_4.0,"derived/source material only with SigLA attribution and applicable NC-SA terms",ACTIVE
+lineara_eu,lineara.eu,comparison_and_coverage_audit,"merged lineara.xyz + SigLA",mixed_CC_BY_4.0_and_SigLA_CC_BY-NC-SA_4.0,"do not flatten licenses; source-specific terms travel with fields/assets",REFERENCE_AND_VALIDATION
+lineara_xyz,lineara.xyz,cross_representation_source,GORILA_Douros_derived,upstream_specific_terms,"retain provenance; not independent epigraphic evidence",REFERENCE_AND_EXISTING_REPLICATION
+linearaworkbench,Linear_A_Research_Workbench,toolset_benchmark,"lineara.xyz corpus plus auxiliary scholarship/assets",Apache_2.0_code_with_separate_upstream_rights,"benchmark features/code interfaces only; never assume bundled upstream assets inherit Apache license",BENCHMARK
+pyaegean,pyaegean,interoperability_and_toolset_benchmark,"multiple Aegean corpora including Workbench/lineara lineage",code_and_dataset_terms_differ,"audit each corpus/source independently before reuse",BENCHMARK
+gorila,GORILA,foundational_print_corpus,primary_edition,copyrighted_publication,"bibliographic/cross-reference metadata only unless permission/license permits",REFERENCE_ONLY
+younger,John_Younger_Linear_A_material,scholarly_commentary_and_readings,scholarly_secondary_source,copyrighted_scholarship,"cite/link; do not redistribute commentary without permission/license",REFERENCE_ONLY
+wikidata,Wikidata,site_coordinate_candidate,independent_structured_metadata,CC0,"usable with provenance and entity-level verification",CANDIDATE_CONTEXT
