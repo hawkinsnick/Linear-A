@@ -1,9 +1,130 @@
 {
-  "snapshot":{"documents":802,"attestations":5144,"source_word_objects":1401},
-  "word_structure":{"bad_list_encodings":0,"empty_words":118,"duplicate_occurrence_words":0,
-    "word_length_distribution":{"0":118,"1":249,"2":460,"3":377,"4":145,"5":37,"6":11,"7":1,"8":1,"9":1,"19":1}},
-  "live_page_word_count_validation":{"HT 11a":{"raw":6,"web":6,"match":true},"HT 26a":{"raw":4,"web":4,"match":true},"MA 2a":{"raw":1,"web":1,"match":true},"HT 8a":{"raw":6,"web":6,"match":true},"KH Wc 2025":{"raw":0,"web":0,"match":true},"KH Wc 2114":{"raw":0,"web":0,"match":true}},
-  "all_live_cases_match":true,
-  "method":"Word membership comes from the document's explicit serialized Word list, not f3.",
-  "f3_status":"unresolved/evidence-tiered and analytically separate."
+  "snapshot": {
+    "documents": 802,
+    "attestations": 5144,
+    "source_word_objects": 1401
+  },
+  "word_structure": {
+    "bad_list_encodings": 0,
+    "empty_words": 118,
+    "duplicate_occurrence_words": 0,
+    "word_length_distribution": {
+      "0": 118,
+      "1": 249,
+      "2": 460,
+      "3": 377,
+      "4": 145,
+      "5": 37,
+      "6": 11,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "19": 1
+    }
+  },
+  "live_page_word_count_validation": {
+    "HT 11a": {
+      "raw": 6,
+      "web": 6,
+      "match": true
+    },
+    "HT 26a": {
+      "raw": 4,
+      "web": 4,
+      "match": true
+    },
+    "MA 2a": {
+      "raw": 1,
+      "web": 1,
+      "match": true
+    },
+    "HT 8a": {
+      "raw": 6,
+      "web": 6,
+      "match": true
+    },
+    "KH Wc 2025": {
+      "raw": 0,
+      "web": 0,
+      "match": true
+    },
+    "KH Wc 2114": {
+      "raw": 0,
+      "web": 0,
+      "match": true
+    }
+  },
+  "all_live_cases_match": true,
+  "metadata": {
+    "document_types": {
+      "Tablet": 452,
+      "Roundel": 146,
+      "Plaque": 1,
+      "Nodule": 166,
+      "Pithos": 6,
+      "Sherd": 4,
+      "Graffiti": 3,
+      "Lamp": 1,
+      "Sealing": 7,
+      "Libation Table": 4,
+      "Pithoid jar": 1,
+      "Clay vase": 1,
+      "Cup": 2,
+      "Architecture": 1,
+      "Jewellery": 1,
+      "Stone weight": 1,
+      "Clay weight": 1,
+      "Metal engraving": 1,
+      "Label": 1,
+      "Libation table": 2
+    },
+    "periods": {
+      "LM I": 17,
+      "LM IB": 640,
+      "MH III-LH I": 1,
+      "(blank)": 24,
+      "LM IB-II": 2,
+      "LM IA": 18,
+      "MM IIA": 1,
+      "n/a": 1,
+      "MM IIIB": 28,
+      "LM IA?": 2,
+      "MM III": 5,
+      "LM II": 2,
+      "MM III?": 2,
+      "MM III-LM IA": 1,
+      "unknown": 2,
+      "MM IIB": 34,
+      "MM IIIA": 1,
+      "MM II": 19,
+      "LM I general": 2
+    },
+    "find_places": {
+      "Arkhanes": 10,
+      "GOURNIA": 2,
+      "Gournia": 2,
+      "Haghios Stephanos": 1,
+      "Haghia Triada": 372,
+      "Kea": 7,
+      "Khania": 220,
+      "Knossos": 37,
+      "Kythera": 1,
+      "Mallia": 20,
+      "Melos": 1,
+      "Mycenae": 1,
+      "Papoura": 1,
+      "Petras": 3,
+      "Phaistos": 64,
+      "Palaiokastro": 2,
+      "Psykhro": 1,
+      "Pyrgos": 2,
+      "Syme": 1,
+      "Thera": 7,
+      "Tylissos": 3,
+      "Zakros": 44
+    },
+    "dimensions_status": "withheld: local reference decoder float semantics not independently validated"
+  },
+  "method": "Word membership comes from the document's explicit serialized Word list, not f3.",
+  "f3_status": "unresolved/evidence-tiered and analytically separate."
 }
