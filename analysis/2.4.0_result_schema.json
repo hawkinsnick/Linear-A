@@ -1,0 +1,8 @@
+{
+  "schema_version": "2.4.0",
+  "result_status_allowed": ["EXECUTED_UNSCORED", "EXECUTED_SCORED"],
+  "required_condition_families": ["undegraded", "scale_only", "damage_only", "scale_plus_damage"],
+  "required_replicate_fields": ["condition","damage_rate","replicate","seed","documents","tokens_before_masking","tokens_observable","fully_masked_words","types","hapax_types","recurrent_types","hapax_fraction","masked_signs","words_initial_masked","words_final_masked","internal_signs_masked","hapax_target_abs_error","recurrence_target_within_tolerance"],
+  "scored_fields_reserved_until_gold_contract": ["frozen_prediction_retention","gold_supported_recovery","unsupported_detection_rate","observable_gold_missed_rate"],
+  "prohibited_claims": ["Linear A morpheme identity","Linear A affix identity","decipherment","phonetic proof"]
+}
