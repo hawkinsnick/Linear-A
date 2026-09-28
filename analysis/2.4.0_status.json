@@ -1,9 +1,11 @@
 {
-  "version": "2.4.0-preregistered",
-  "status": "BLOCKED_PENDING_AUTHENTICATED_2.3_BASELINE",
-  "degradation_engine": "scripts/run_linear_b_degradation_2_4.py",
-  "parameters": "analysis/2.4.0_degradation_parameters.json",
+  "version": "2.4.0",
+  "release_state": "PROTOCOL_COMPLETE",
+  "experiment_state": "BLOCKED_PENDING_AUTHENTICATED_2.3_BASELINE",
   "calibration_result": null,
   "gold_scoring_performed": false,
-  "note": "Protocol and generator are frozen before 2.3 performance is known."
+  "protocol_frozen_before_2.3_result": true,
+  "degradation_engine": "scripts/run_linear_b_degradation_2_4.py",
+  "parameters": "analysis/2.4.0_degradation_parameters.json",
+  "result_schema": "analysis/2.4.0_result_schema.json"
 }
