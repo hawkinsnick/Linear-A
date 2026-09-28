@@ -1,0 +1,9 @@
+branch_id,scope_id,variable,alternatives_json,status,analysis_domains_json
+B-HT17-NUM,HT17,numeral,"[""37"", ""38""]",open,"[""accounting"", ""numeral_frequency""]"
+B-HT34-516,HT34,sign_identity,"[""A516"", ""alternate_source_reading""]",open,"[""sign_frequency"", ""sequence""]"
+B-HT34-WORD,HT34,word_reading,"[""MIJAI"", ""MIJARU"", ""damaged/unknown""]",open,"[""word_frequency"", ""morphology""]"
+B-HT49,HT49a,reading,"[""SU-KI"", ""SU-[damaged]"", ""SU+VESST/source alternative""]",open,"[""sequence"", ""morphology""]"
+B-KH74,KH74,sign_identity,"[""A605"", ""alternate_compound_transcription""]",open,"[""sign_frequency"", ""logogram_analysis""]"
+B-KH8,KH8,sign_identity,"[""A567"", ""alternate_compound_transcription""]",open,"[""sign_frequency"", ""logogram_analysis""]"
+B-K,fraction_K,metrological_value,"[""1/10"", ""1/16"", ""unknown""]",hypothesis,"[""metrology"", ""accounting""]"
+B-KNZC6,KNZc6,layout_interpretation,"[""punctuation_separator_observed"", ""lexical_function_unknown""]",physical_feature_resolved_interpretation_open,"[""layout"", ""morphology""]"

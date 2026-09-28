@@ -1,0 +1,580 @@
+{
+  "snapshot": {
+    "records": 5144,
+    "confident": 4712,
+    "unreadable_or_unclassified": 388,
+    "erasures": 104,
+    "ghosts": 7,
+    "decoded_documents_total": 802,
+    "documents_represented_in_attestation_table": 787,
+    "decoded_documents_without_attestation_rows": 15,
+    "document_count_note": "The decoded document structure has 802 documents; the 5,144-row attestation fingerprint table contains rows for 787 document labels. These are distinct validated quantities."
+  },
+  "frequency": {
+    "distinct_classified_sign_ids_all": 334,
+    "distinct_classified_sign_ids_confident": 334,
+    "top30_overlap_all_vs_confident": 30,
+    "spearman_rank_rho_all_vs_confident": 0.999848,
+    "top20_all": [
+      [
+        "AB081",
+        177
+      ],
+      [
+        "AB008",
+        145
+      ],
+      [
+        "AB059",
+        118
+      ],
+      [
+        "A707",
+        116
+      ],
+      [
+        "AB030",
+        115
+      ],
+      [
+        "AB077",
+        113
+      ],
+      [
+        "AB028",
+        110
+      ],
+      [
+        "AB041",
+        108
+      ],
+      [
+        "AB067",
+        105
+      ],
+      [
+        "AB001",
+        105
+      ],
+      [
+        "AB006",
+        103
+      ],
+      [
+        "AB027",
+        100
+      ],
+      [
+        "AB003",
+        95
+      ],
+      [
+        "AB057",
+        95
+      ],
+      [
+        "AB002",
+        94
+      ],
+      [
+        "AB031",
+        92
+      ],
+      [
+        "AB080",
+        92
+      ],
+      [
+        "AB007",
+        91
+      ],
+      [
+        "AB060",
+        89
+      ],
+      [
+        "AB004",
+        86
+      ]
+    ],
+    "top20_confident": [
+      [
+        "AB081",
+        177
+      ],
+      [
+        "AB008",
+        144
+      ],
+      [
+        "AB059",
+        118
+      ],
+      [
+        "AB030",
+        115
+      ],
+      [
+        "A707",
+        114
+      ],
+      [
+        "AB077",
+        113
+      ],
+      [
+        "AB041",
+        108
+      ],
+      [
+        "AB028",
+        108
+      ],
+      [
+        "AB001",
+        105
+      ],
+      [
+        "AB067",
+        103
+      ],
+      [
+        "AB006",
+        102
+      ],
+      [
+        "AB027",
+        98
+      ],
+      [
+        "AB003",
+        95
+      ],
+      [
+        "AB002",
+        94
+      ],
+      [
+        "AB057",
+        93
+      ],
+      [
+        "AB031",
+        92
+      ],
+      [
+        "AB080",
+        92
+      ],
+      [
+        "AB007",
+        90
+      ],
+      [
+        "AB060",
+        89
+      ],
+      [
+        "AB004",
+        86
+      ]
+    ]
+  },
+  "document_position": {
+    "definition": "position within classified, non-ghost attestations in each document; NOT word position",
+    "counts_top20": [
+      {
+        "sign_id": "AB081",
+        "initial": 11,
+        "medial": 129,
+        "final": 5,
+        "singleton": 32
+      },
+      {
+        "sign_id": "AB008",
+        "initial": 53,
+        "medial": 80,
+        "final": 9,
+        "singleton": 3
+      },
+      {
+        "sign_id": "AB059",
+        "initial": 12,
+        "medial": 92,
+        "final": 10,
+        "singleton": 4
+      },
+      {
+        "sign_id": "A707",
+        "initial": 2,
+        "medial": 91,
+        "final": 19,
+        "singleton": 4
+      },
+      {
+        "sign_id": "AB030",
+        "initial": 10,
+        "medial": 84,
+        "final": 19,
+        "singleton": 2
+      },
+      {
+        "sign_id": "AB077",
+        "initial": 20,
+        "medial": 68,
+        "final": 20,
+        "singleton": 5
+      },
+      {
+        "sign_id": "AB028",
+        "initial": 23,
+        "medial": 79,
+        "final": 6,
+        "singleton": 2
+      },
+      {
+        "sign_id": "AB041",
+        "initial": 19,
+        "medial": 71,
+        "final": 6,
+        "singleton": 12
+      },
+      {
+        "sign_id": "AB067",
+        "initial": 10,
+        "medial": 86,
+        "final": 7,
+        "singleton": 2
+      },
+      {
+        "sign_id": "AB001",
+        "initial": 12,
+        "medial": 88,
+        "final": 3,
+        "singleton": 2
+      },
+      {
+        "sign_id": "AB006",
+        "initial": 4,
+        "medial": 91,
+        "final": 8,
+        "singleton": 0
+      },
+      {
+        "sign_id": "AB027",
+        "initial": 7,
+        "medial": 80,
+        "final": 13,
+        "singleton": 0
+      },
+      {
+        "sign_id": "AB003",
+        "initial": 9,
+        "medial": 80,
+        "final": 6,
+        "singleton": 0
+      },
+      {
+        "sign_id": "AB057",
+        "initial": 13,
+        "medial": 73,
+        "final": 8,
+        "singleton": 1
+      },
+      {
+        "sign_id": "AB002",
+        "initial": 3,
+        "medial": 67,
+        "final": 18,
+        "singleton": 6
+      },
+      {
+        "sign_id": "AB031",
+        "initial": 6,
+        "medial": 84,
+        "final": 2,
+        "singleton": 0
+      },
+      {
+        "sign_id": "AB080",
+        "initial": 6,
+        "medial": 79,
+        "final": 6,
+        "singleton": 1
+      },
+      {
+        "sign_id": "AB007",
+        "initial": 6,
+        "medial": 78,
+        "final": 7,
+        "singleton": 0
+      },
+      {
+        "sign_id": "AB060",
+        "initial": 11,
+        "medial": 68,
+        "final": 10,
+        "singleton": 0
+      },
+      {
+        "sign_id": "AB004",
+        "initial": 9,
+        "medial": 72,
+        "final": 2,
+        "singleton": 3
+      }
+    ]
+  },
+  "adjacency": {
+    "definition": "adjacent classified, non-ghost, non-erased attestations in document array order; NOT asserted lexical bigrams",
+    "distinct_pairs": 2331,
+    "top30": [
+      [
+        "AB081",
+        "AB002",
+        37
+      ],
+      [
+        "A707",
+        "A704",
+        26
+      ],
+      [
+        "AB031",
+        "AB076",
+        18
+      ],
+      [
+        "AB067",
+        "AB002",
+        17
+      ],
+      [
+        "AB008",
+        "AB051",
+        16
+      ],
+      [
+        "AB059",
+        "AB006",
+        16
+      ],
+      [
+        "AB081",
+        "AB056",
+        13
+      ],
+      [
+        "AB007",
+        "AB006",
+        13
+      ],
+      [
+        "AB001",
+        "AB027",
+        12
+      ],
+      [
+        "AB081",
+        "AB003",
+        12
+      ],
+      [
+        "AB073",
+        "AB006",
+        10
+      ],
+      [
+        "AB003",
+        "AB057",
+        10
+      ],
+      [
+        "AB081",
+        "AB030",
+        9
+      ],
+      [
+        "AB026",
+        "AB080",
+        9
+      ],
+      [
+        "AB027",
+        "AB017",
+        9
+      ],
+      [
+        "AB008",
+        "AB060",
+        8
+      ],
+      [
+        "AB056",
+        "AB055",
+        8
+      ],
+      [
+        "AB076",
+        "AB120",
+        8
+      ],
+      [
+        "AB027",
+        "AB059",
+        8
+      ],
+      [
+        "AB026",
+        "AB081",
+        8
+      ],
+      [
+        "AB008",
+        "AB053",
+        8
+      ],
+      [
+        "AB059",
+        "AB028",
+        8
+      ],
+      [
+        "A303",
+        "AB030",
+        8
+      ],
+      [
+        "AB028",
+        "AB076",
+        8
+      ],
+      [
+        "AB060",
+        "AB008",
+        7
+      ],
+      [
+        "AB008",
+        "AB041",
+        7
+      ],
+      [
+        "A703",
+        "A703",
+        7
+      ],
+      [
+        "AB077",
+        "AB003",
+        7
+      ],
+      [
+        "AB077",
+        "AB081",
+        7
+      ],
+      [
+        "AB067",
+        "AB060",
+        7
+      ]
+    ]
+  },
+  "site_document_counts": [
+    [
+      "HT",
+      369
+    ],
+    [
+      "KH",
+      215
+    ],
+    [
+      "PH",
+      63
+    ],
+    [
+      "ZA",
+      41
+    ],
+    [
+      "KN",
+      37
+    ],
+    [
+      "MA",
+      19
+    ],
+    [
+      "ARKH",
+      10
+    ],
+    [
+      "THE",
+      7
+    ],
+    [
+      "GO",
+      4
+    ],
+    [
+      "KE",
+      3
+    ],
+    [
+      "PE",
+      3
+    ],
+    [
+      "TY",
+      3
+    ],
+    [
+      "PK",
+      2
+    ],
+    [
+      "PYR",
+      2
+    ],
+    [
+      "?",
+      2
+    ],
+    [
+      "HS",
+      1
+    ],
+    [
+      "KY",
+      1
+    ],
+    [
+      "MI",
+      1
+    ],
+    [
+      "MY",
+      1
+    ],
+    [
+      "PA",
+      1
+    ],
+    [
+      "PS",
+      1
+    ],
+    [
+      "SY",
+      1
+    ]
+  ],
+  "interpretive_limits": [
+    "Attestation array order is not automatically a word boundary or linguistic sequence.",
+    "Sign IDs may include syllabograms, logograms, compounds or other classes; no phonetic value is assumed.",
+    "This safe analysis does not redistribute the 5,144-record SigLA-derived table.",
+    "Branch-specific corpus substitutions require occurrence-level alignment and are not fabricated where alignment is unresolved."
+  ]
+}

@@ -1,0 +1,44 @@
+assertion_id,document_id,field_name,raw_value,normalized_value,source_id,source_record,source_license,provenance_id,confidence,status,notes
+CA-00001,KH Wc 2025,site_id,KH,KH,SIGLA_CURRENT,document/KH Wc 2025,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00002,KH Wc 2025,document_type,Roundel,Roundel,SIGLA_CURRENT,document/KH Wc 2025,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00003,KH Wc 2025,period,LM IB,LM IB,SIGLA_CURRENT,document/KH Wc 2025,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00004,HT Wc 3020a,site_id,HT,HT,SIGLA_CURRENT,document/HT Wc 3020a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00005,HT Wc 3020a,document_type,Roundel,Roundel,SIGLA_CURRENT,document/HT Wc 3020a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00006,HT Wc 3020a,period,LM IB,LM IB,SIGLA_CURRENT,document/HT Wc 3020a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00007,KN Wc <24a>,site_id,KN,KN,SIGLA_CURRENT,document/KN Wc <24a>,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00008,KN Wc <24a>,document_type,Roundel,Roundel,SIGLA_CURRENT,document/KN Wc <24a>,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00009,HT 6a,site_id,HT,HT,SIGLA_CURRENT,document/HT 6a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00010,HT 6a,document_type,Tablet,Tablet,SIGLA_CURRENT,document/HT 6a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00011,HT 6a,period,LM IB,LM IB,SIGLA_CURRENT,document/HT 6a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00012,MA 2a,site_id,MA,MA,SIGLA_CURRENT,document/MA 2a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00013,MA 2a,document_type,Tablet,Tablet,SIGLA_CURRENT,document/MA 2a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00014,MA 2a,period,MM IIIB,MM IIIB,SIGLA_CURRENT,document/MA 2a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00015,HT 26a,site_id,HT,HT,SIGLA_CURRENT,document/HT 26a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00016,HT 26a,document_type,Tablet,Tablet,SIGLA_CURRENT,document/HT 26a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00017,HT 26a,period,LM IB,LM IB,SIGLA_CURRENT,document/HT 26a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00018,PE 2,site_id,PE,PE,SIGLA_CURRENT,document/PE 2,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00019,PE 2,document_type,Tablet,Tablet,SIGLA_CURRENT,document/PE 2,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00020,PE 2,period,LM IB,LM IB,SIGLA_CURRENT,document/PE 2,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00021,PH Wc 44,site_id,PH,PH,SIGLA_CURRENT,document/PH Wc 44,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00022,PH Wc 44,document_type,Roundel,Roundel,SIGLA_CURRENT,document/PH Wc 44,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00023,PH Wc 44,period,MM II,MM II,SIGLA_CURRENT,document/PH Wc 44,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00024,HT 8a,site_id,HT,HT,SIGLA_CURRENT,document/HT 8a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00025,HT 8a,document_type,Tablet,Tablet,SIGLA_CURRENT,document/HT 8a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00026,HT 8a,period,LM IB,LM IB,SIGLA_CURRENT,document/HT 8a,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00027,KN Zb 35,site_id,KN,KN,SIGLA_CURRENT,document/KN Zb 35,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00028,KN Zb 35,document_type,Pithos,Pithos,SIGLA_CURRENT,document/KN Zb 35,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00029,KN Zb 35,period,MM III,MM III,SIGLA_CURRENT,document/KN Zb 35,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00030,PS Za 2,site_id,PS,PS,SIGLA_CURRENT,document/PS Za 2,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00031,PS Za 2,document_type,Libation Table,Libation Table,SIGLA_CURRENT,document/PS Za 2,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00032,HT Zb 160,site_id,HT,HT,SIGLA_CURRENT,document/HT Zb 160,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00033,HT Zb 160,document_type,Pithos,Pithos,SIGLA_CURRENT,document/HT Zb 160,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00034,HT Zb 160,period,LM IB,LM IB,SIGLA_CURRENT,document/HT Zb 160,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00035,HT Wa 1028α,site_id,HT,HT,SIGLA_CURRENT,document/HT Wa 1028α,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00036,HT Wa 1028α,document_type,Nodule,Nodule,SIGLA_CURRENT,document/HT Wa 1028α,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00037,HT Wa 1028α,period,LM IB,LM IB,SIGLA_CURRENT,document/HT Wa 1028α,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00038,PH Wa 32,site_id,PH,PH,SIGLA_CURRENT,document/PH Wa 32,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00039,PH Wa 32,document_type,Nodule,Nodule,SIGLA_CURRENT,document/PH Wa 32,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00040,PH Wa 32,period,MM III,MM III,SIGLA_CURRENT,document/PH Wa 32,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00041,KH Wa 1016α,site_id,KH,KH,SIGLA_CURRENT,document/KH Wa 1016α,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00042,KH Wa 1016α,document_type,Nodule,Nodule,SIGLA_CURRENT,document/KH Wa 1016α,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.
+CA-00043,KH Wa 1016α,period,LM IB,LM IB,SIGLA_CURRENT,document/KH Wa 1016α,CC BY-NC-SA 4.0,P-SIGLA-2026-09-27,high,source_explicit,Current SigLA page exemplar.

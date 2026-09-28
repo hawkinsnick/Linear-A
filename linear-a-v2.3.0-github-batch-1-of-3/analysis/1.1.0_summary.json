@@ -1,0 +1,9 @@
+{
+  "version": "1.1.0-local",
+  "mapped_documents": 488,
+  "unmapped_documents": 0,
+  "canonical_sites": 19,
+  "candidates_surviving_all_leave_one_site_out_z_gt_1_96": 12,
+  "mapping_caveat": "Canonical labels are reviewed identifier mappings. Direct per-record export of SigLA raw find-place remains a separate provenance enhancement; identifier prefix is no longer mislabeled as raw source metadata.",
+  "postmortem_correction_2.1": "1.1 summary recorded 18; current mapping table contains 19 distinct canonical_site_id values. Corrected by recomputation."
+}

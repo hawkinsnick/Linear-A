@@ -1,0 +1,16 @@
+{
+  "legacy_rc7_strong_families": 224,
+  "legacy_basis": "sliding document-stream windows with old confidence handling; NOT directly commensurate",
+  "source_word_families_current_criterion": 79,
+  "source_word_null": {
+    "observed": 79,
+    "permutations": 300,
+    "null_mean": 74.36666666666666,
+    "null_sd": 2.562703074042702,
+    "empirical_upper_p": 0.059800664451827246,
+    "null_min": 68,
+    "null_max": 81
+  },
+  "interpretation": "The source-word analysis replaces guessed-boundary family discovery for linguistic follow-up. Counts are not a survival percentage because units and criteria differ.",
+  "old_confidence_bridging_bug": "Does not affect source-word membership analysis; 0.7.0 does not filter rows and concatenate a confident stream."
+}

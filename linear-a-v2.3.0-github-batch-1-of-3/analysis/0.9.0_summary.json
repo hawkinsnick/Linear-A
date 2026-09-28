@@ -1,0 +1,10 @@
+{
+  "version": "0.9.0-local",
+  "frozen_candidates": 12,
+  "evidence_dossiers": 12,
+  "type_multiverse_holm_005": 12,
+  "internal_negative_control_p005": 12,
+  "external_replication_status": "partial/methodological; no false claim of independent identity replication",
+  "known_answer_linear_b_calibration": "blocked pending license-reviewed aligned word corpus",
+  "release_interpretation": "candidate evidence framework, not decipherment"
+}

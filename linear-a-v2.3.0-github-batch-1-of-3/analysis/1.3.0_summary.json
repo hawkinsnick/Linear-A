@@ -1,0 +1,13 @@
+{
+  "version": "1.3.0-local",
+  "comparison_source": "mwenge/lineara.xyz LinearAInscriptions.js",
+  "source_blob_sha": "bf6a18dfd661cabdb0ec0be1e6728b8ce6fefbc8",
+  "parsed_word_entries": 8575,
+  "eligible_multisign_tokens": 1402,
+  "eligible_unique_types": 1009,
+  "frozen_candidates_tested": 12,
+  "type_direction_replicated_z_gt_1_96": 12,
+  "minimum_type_z": 2.2373254715,
+  "classification": "cross-representation replication; NOT independent epigraphic replication",
+  "dependency_caveat": "The comparison corpus principally derives from GORILA/Douros and therefore shares upstream evidence with the wider Linear A transcription tradition."
+}

@@ -1,0 +1,124 @@
+{
+  "version": "0.8.0-local",
+  "starting_0.7_positional_signals": 22,
+  "strict_robust_signals": 12,
+  "downgraded_or_context_sensitive": 10,
+  "strict_rule": "0.7 candidate AND type-deduplicated BH q<=0.05 AND minimum leave-one-document-out z>1.96 AND minimum leave-one-heuristic-group-out z>1.96 AND z>1.96 after removing the most frequent exact word type carrying that boundary sign.",
+  "strict_survivors": [
+    {
+      "sign": "AB008",
+      "position": "initial",
+      "token_z": 14.069731043127232,
+      "type_z": 12.544058557705252,
+      "min_doc_z": 13.66520997355311,
+      "min_group_z": 11.763033417391568,
+      "drop_dominant_z": 14.069731043127232
+    },
+    {
+      "sign": "AB081",
+      "position": "initial",
+      "token_z": 7.364129685525238,
+      "type_z": 3.0832591986140643,
+      "min_doc_z": 7.044345032391322,
+      "min_group_z": 2.073322757568226,
+      "drop_dominant_z": 4.986009645431951
+    },
+    {
+      "sign": "AB024",
+      "position": "final",
+      "token_z": 5.368998183401988,
+      "type_z": 4.398189826135237,
+      "min_doc_z": 4.920664278625262,
+      "min_group_z": 2.3745169959876127,
+      "drop_dominant_z": 5.368998183401988
+    },
+    {
+      "sign": "AB016",
+      "position": "initial",
+      "token_z": 4.816566623934508,
+      "type_z": 4.214216651673643,
+      "min_doc_z": 4.546652580684056,
+      "min_group_z": 2.42535625036333,
+      "drop_dominant_z": 4.028986170032226
+    },
+    {
+      "sign": "AB027",
+      "position": "final",
+      "token_z": 4.496227360125459,
+      "type_z": 3.960252471914766,
+      "min_doc_z": 4.062922393209255,
+      "min_group_z": 2.849176131171253,
+      "drop_dominant_z": 4.4962273601254585
+    },
+    {
+      "sign": "AB006",
+      "position": "final",
+      "token_z": 4.3157969039310125,
+      "type_z": 3.943177177523253,
+      "min_doc_z": 3.930478440360238,
+      "min_group_z": 2.109263470202207,
+      "drop_dominant_z": 4.3157969039310125
+    },
+    {
+      "sign": "AB037",
+      "position": "final",
+      "token_z": 4.048703871431964,
+      "type_z": 3.245137023153206,
+      "min_doc_z": 3.543660492274811,
+      "min_group_z": 2.725726726529937,
+      "drop_dominant_z": 3.463654374594268
+    },
+    {
+      "sign": "AB010",
+      "position": "initial",
+      "token_z": 3.763721064405667,
+      "type_z": 3.7000681257369576,
+      "min_doc_z": 3.243572872018525,
+      "min_group_z": 2.3932498098297526,
+      "drop_dominant_z": 3.763721064405668
+    },
+    {
+      "sign": "AB118",
+      "position": "final",
+      "token_z": 3.756095378904921,
+      "type_z": 2.410992871411768,
+      "min_doc_z": 3.3971214597720136,
+      "min_group_z": 3.089959666307465,
+      "drop_dominant_z": 2.7427327587043973
+    },
+    {
+      "sign": "AB028",
+      "position": "initial",
+      "token_z": 3.3900872877847523,
+      "type_z": 2.924701339582696,
+      "min_doc_z": 2.960536738418112,
+      "min_group_z": 2.498642239983516,
+      "drop_dominant_z": 2.6346950789190102
+    },
+    {
+      "sign": "AB004",
+      "position": "final",
+      "token_z": 3.287834806716681,
+      "type_z": 3.606862458449179,
+      "min_doc_z": 2.892999286338857,
+      "min_group_z": 2.4519856933007436,
+      "drop_dominant_z": 3.287834806716681
+    },
+    {
+      "sign": "AB065",
+      "position": "final",
+      "token_z": 3.2294084091995376,
+      "type_z": 2.5991318897816664,
+      "min_doc_z": 2.460487115808652,
+      "min_group_z": 2.460487115808652,
+      "drop_dominant_z": 2.9547707624338706
+    }
+  ],
+  "guardrails": [
+    "site_group_heuristic is not canonical geography",
+    "document type/period sensitivity is descriptive",
+    "robust positional concentration is not automatically morphology",
+    "no sign is labeled prefix/suffix/case marker"
+  ],
+  "external_comparison": "Davis 2026 reports two initial and four final signs under his refined morphology method; 0.8 does not map or adopt those linguistic conclusions."
+}

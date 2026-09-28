@@ -1,0 +1,23 @@
+find_place_raw,canonical_site_id,document_count,status
+Arkhanes,ARKH,10,mapped_explicitly
+GOURNIA,GO,2,mapped_explicitly
+Gournia,GO,2,mapped_explicitly
+Haghios Stephanos,HS,1,mapped_explicitly
+Haghia Triada,HT,372,mapped_explicitly
+Kea,KE,7,mapped_explicitly
+Khania,KH,220,mapped_explicitly
+Knossos,KN,37,mapped_explicitly
+Kythera,KY,1,mapped_explicitly
+Mallia,MA,20,mapped_explicitly
+Melos,ME,1,mapped_explicitly
+Mycenae,MY,1,mapped_explicitly
+Papoura,PAP,1,mapped_explicitly
+Petras,PE,3,mapped_explicitly
+Phaistos,PH,64,mapped_explicitly
+Palaiokastro,PA,2,mapped_explicitly
+Psykhro,PS,1,mapped_explicitly
+Pyrgos,PY,2,mapped_explicitly
+Syme,SY,1,mapped_explicitly
+Thera,TH,7,mapped_explicitly
+Tylissos,TY,3,mapped_explicitly
+Zakros,ZA,44,mapped_explicitly

@@ -1,0 +1,7 @@
+{
+  "version": "1.7.0-local",
+  "bootstrap_replicates": 1000,
+  "candidates_lower_95pct_bootstrap_z_gt_1_96": 6,
+  "unit": "documents resampled as clusters",
+  "interpretation": "robustness sensitivity, not a linguistic confidence interval"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2.3.0-local",
+  "status": "READY_FOR_PINNED_INPUT_BYTES",
+  "expected_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "blind_runner": "scripts/run_damos_blind_calibration.py",
+  "gold_reveal_performed": false,
+  "calibration_result": null,
+  "transport_attempts": [
+    "GitHub release tag and asset metadata verified",
+    "D\u0100MOS AJAX endpoints inaccessible through web execution layer",
+    "GitHub signed release-asset redirect visible but sandbox cross-host transfer blocked"
+  ],
+  "scientific_gate": "No Linear B performance claim until exact bytes pass SHA and blind predictions are frozen."
+}

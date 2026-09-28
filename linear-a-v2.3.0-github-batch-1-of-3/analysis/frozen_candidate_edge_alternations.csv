@@ -1,0 +1,13 @@
+sign_id,position,attested_edge_removal_type_pairs,marked_form_token_support,has_at_least_2_type_pairs
+AB004,final,6,7,True
+AB006,final,10,15,True
+AB008,initial,29,52,True
+AB010,initial,4,4,True
+AB016,initial,3,3,True
+AB024,final,7,11,True
+AB027,final,13,22,True
+AB028,initial,17,29,True
+AB037,final,16,19,True
+AB065,final,7,9,True
+AB081,initial,14,53,True
+AB118,final,1,1,False

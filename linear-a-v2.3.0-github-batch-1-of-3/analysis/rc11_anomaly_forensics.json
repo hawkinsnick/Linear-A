@@ -1,0 +1,1721 @@
+{
+  "snapshot": {
+    "attestations": 5144,
+    "candidate_groups": 1708
+  },
+  "coordinate_model_test": {
+    "clean_groups": 1359,
+    "anomalous_groups": 349,
+    "clean_fraction": 0.795667,
+    "anomalies_with_explicit_coincident_condition": 314,
+    "anomalies_without_those_conditions": 35,
+    "promotion_status": "not promoted"
+  },
+  "anomaly_mechanisms": {
+    "duplicate_positions": 317,
+    "mixed_shape": 295,
+    "has_unreadable": 125,
+    "has_doubtful": 13,
+    "has_erasure": 53,
+    "missing_positions": 49,
+    "has_ghost": 7,
+    "nonzero_start": 18
+  },
+  "shape_group_counts": {
+    "mixed": 304,
+    "wrapped": 1097,
+    "direct": 307
+  },
+  "shape_anomaly_counts": {
+    "mixed": 295,
+    "direct": 54
+  },
+  "duplicate_coordinate_patterns": [
+    {
+      "shapes": [
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 98
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 33
+    },
+    {
+      "shapes": [
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 28
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 25
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 15
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 14
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 10
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 9
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 8
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 6
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 1,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 5
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 1,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 5
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 5
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 5
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 5
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 4
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 4
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 4
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 4
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 7,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 4
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 8,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 3
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 1,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 7,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 1,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 2
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 13,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 11,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 7,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 1,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 10,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 12,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 12,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 8,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 11,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 10,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 8,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 10,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 8,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 1,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 10,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": true,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 9,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 4,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 11,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 6,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 2,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 5,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": false,
+      "count": 1
+    },
+    {
+      "shapes": [
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "direct",
+        "wrapped"
+      ],
+      "distinct_sign_count": 3,
+      "has_ghost": false,
+      "has_erasure": false,
+      "has_unreadable": true,
+      "count": 1
+    }
+  ],
+  "interpretation_rules": [
+    "Coincidence with unreadable/doubtful/erasure/ghost/flag5/mixed-shape is not treated as causal explanation.",
+    "Wrapped/direct forms remain uninterpreted.",
+    "A group is structurally clean only when positions are unique, zero-based, and contiguous.",
+    "No anomaly is silently repaired."
+  ],
+  "next_step": "Inspect the residual unexplained groups and duplicate-coordinate subtypes against raw f3 shapes/sign-reference structure before changing the model."
+}

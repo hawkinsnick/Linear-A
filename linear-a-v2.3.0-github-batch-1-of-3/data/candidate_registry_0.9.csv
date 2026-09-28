@@ -1,0 +1,13 @@
+candidate_id,sign_id,position,frozen_from,status,linguistic_interpretation
+AB004-final,AB004,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB006-final,AB006,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB024-final,AB024,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB027-final,AB027,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB037-final,AB037,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB065-final,AB065,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB118-final,AB118,final,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB008-initial,AB008,initial,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB010-initial,AB010,initial,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB016-initial,AB016,initial,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB028-initial,AB028,initial,0.8.0 strict composite screen,frozen_for_external_comparison,
+AB081-initial,AB081,initial,0.8.0 strict composite screen,frozen_for_external_comparison,

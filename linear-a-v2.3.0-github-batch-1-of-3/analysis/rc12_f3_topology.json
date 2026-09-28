@@ -1,0 +1,122 @@
+{
+  "attestations": 5144,
+  "groups": 1708,
+  "anomalies": 349,
+  "clean": 1359,
+  "residual_no_aux_conditions": 35,
+  "residual_classes": {
+    "duplicate": 21,
+    "missing+nonzero_start": 11,
+    "duplicate+missing+nonzero_start": 3
+  },
+  "topology_clean": [
+    [
+      "B0[I0,I0]",
+      243
+    ],
+    [
+      "B0[B0[I0,I0],I0]",
+      236
+    ],
+    [
+      "B0[B0[I0,I1],I0]",
+      231
+    ],
+    [
+      "B0[B0[I0,I2],I0]",
+      180
+    ],
+    [
+      "B0[B0[I1,I1],I0]",
+      174
+    ],
+    [
+      "B0[B0[I1,I0],I0]",
+      166
+    ],
+    [
+      "B0[B0[I1,I2],I0]",
+      133
+    ],
+    [
+      "B0[B0[I0,I3],I0]",
+      127
+    ],
+    [
+      "B0[B0[I1,I3],I0]",
+      100
+    ],
+    [
+      "B0[B0[I2,I1],I0]",
+      98
+    ]
+  ],
+  "topology_anomalous": [
+    [
+      "B0[I0,I0]",
+      939
+    ],
+    [
+      "B0[I1,I0]",
+      322
+    ],
+    [
+      "B0[B0[I0,I0],I0]",
+      252
+    ],
+    [
+      "B0[B0[I1,I0],I0]",
+      186
+    ],
+    [
+      "B0[B0[I2,I0],I0]",
+      107
+    ],
+    [
+      "B0[I3,I1]",
+      70
+    ],
+    [
+      "B0[B0[I0,I1],I0]",
+      43
+    ],
+    [
+      "B0[B0[I3,I0],I0]",
+      37
+    ],
+    [
+      "B0[I2,I0]",
+      35
+    ],
+    [
+      "B0[B0[I1,I1],I0]",
+      35
+    ]
+  ],
+  "topology_residual": [
+    [
+      "B0[I0,I0]",
+      54
+    ],
+    [
+      "B0[I1,I0]",
+      24
+    ],
+    [
+      "B0[I2,I1]",
+      3
+    ],
+    [
+      "B0[I0,I1]",
+      2
+    ]
+  ],
+  "shape_transitions": {
+    "wrapped->wrapped": 2045,
+    "wrapped->direct": 271,
+    "direct->direct": 1046,
+    "direct->wrapped": 74
+  },
+  "finding": "wrapped and direct are genuinely different raw block topologies; mixed groups dominate simple-coordinate anomalies, but raw topology alone does not establish their epigraphic semantics.",
+  "status": "global coordinate semantics unresolved; no promotion"
+}

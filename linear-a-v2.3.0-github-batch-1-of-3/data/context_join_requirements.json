@@ -1,0 +1,20 @@
+{
+  "required_document_fields": [
+    "document_id",
+    "site_id",
+    "document_type",
+    "support",
+    "material",
+    "period",
+    "source_id",
+    "provenance_id"
+  ],
+  "status": {
+    "site_id": "available/derivable and should use canonical sites.csv next",
+    "document_type": "schema exists but not populated in safe analytical fingerprint table",
+    "support": "same",
+    "material": "same",
+    "period": "same"
+  },
+  "rule": "Do not infer missing context fields from document identifiers. Join only source-explicit/provenanced metadata."
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.6.0-local",
+  "context_rows": 84,
+  "frozen_candidates": 12,
+  "candidates_seen_in_2plus_document_types_with_2plus_hits": 2,
+  "candidates_seen_in_2plus_periods_with_2plus_hits": 9,
+  "scope": "descriptive context conditioning; no semantic assignment",
+  "next_gate": "inferential context tests require document-level resampling and adequate stratum sizes"
+}

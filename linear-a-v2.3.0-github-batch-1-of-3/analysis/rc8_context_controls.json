@@ -1,0 +1,334 @@
+{
+  "snapshot": {
+    "attestations": 5144,
+    "document_labels": 787,
+    "decoded_documents": 802,
+    "sites_tested": 22
+  },
+  "controls": {
+    "certainty": "recompute families using confident-only attestations",
+    "boundary": "strict conservative runs where source bounds start=end=0; nonzero/unknown states break runs",
+    "site": "leave-one-site-prefix-out recomputation for every site",
+    "within_site": "family must independently meet recurrence thresholds inside a site",
+    "document_type": "not executed: safe fingerprint table lacks a validated document-type field"
+  },
+  "family_counts": {
+    "baseline": 225,
+    "confident_only": 218,
+    "strict_zero_boundary": 2,
+    "baseline_survive_confident": 218,
+    "baseline_survive_boundary": 2,
+    "stable_core": 1
+  },
+  "trigram_slot_distribution": {
+    "baseline": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "confident_only": {
+      "2": 89,
+      "0": 79,
+      "1": 43
+    },
+    "strict_zero_boundary": {
+      "0": 1,
+      "2": 1
+    },
+    "leave_out_?": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_ARKH": {
+      "2": 87,
+      "0": 78,
+      "1": 41
+    },
+    "leave_out_GO": {
+      "2": 92,
+      "0": 80,
+      "1": 44
+    },
+    "leave_out_HS": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_HT": {
+      "0": 8,
+      "2": 12,
+      "1": 3
+    },
+    "leave_out_KE": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_KH": {
+      "2": 78,
+      "0": 66,
+      "1": 41
+    },
+    "leave_out_KN": {
+      "2": 85,
+      "0": 78,
+      "1": 38
+    },
+    "leave_out_KY": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_MA": {
+      "2": 90,
+      "0": 80,
+      "1": 41
+    },
+    "leave_out_MI": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_MY": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_PA": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_PE": {
+      "2": 91,
+      "0": 81,
+      "1": 43
+    },
+    "leave_out_PH": {
+      "2": 85,
+      "0": 76,
+      "1": 40
+    },
+    "leave_out_PK": {
+      "2": 89,
+      "0": 77,
+      "1": 42
+    },
+    "leave_out_PS": {
+      "2": 90,
+      "0": 80,
+      "1": 43
+    },
+    "leave_out_PYR": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_SY": {
+      "2": 92,
+      "0": 80,
+      "1": 44
+    },
+    "leave_out_THE": {
+      "2": 92,
+      "0": 81,
+      "1": 44
+    },
+    "leave_out_TY": {
+      "2": 89,
+      "0": 78,
+      "1": 44
+    },
+    "leave_out_ZA": {
+      "2": 78,
+      "0": 63,
+      "1": 28
+    }
+  },
+  "portable_families_count": 111,
+  "top_portable": [
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* A306 AB069",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* A310 AB028",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* A703 A703",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* A704 A705",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* A707 A704",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* A707 AB030",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB001 AB027",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB001 AB081",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB002 A707",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB003 AB057",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB003 AB060",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB006 AB010",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB006 AB037",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB007 AB006",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB007 AB060",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB017 AB009",
+      "independently_strong_sites": 1,
+      "sites": "ZA"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB026 AB080",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB026 AB081",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB027 AB007",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB027 AB059",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB027 AB081",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB030 A703",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB030 AB131",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB031 AB026",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    },
+    {
+      "n": 3,
+      "slot": 0,
+      "pattern": "* AB031 AB076",
+      "independently_strong_sites": 1,
+      "sites": "HT"
+    }
+  ],
+  "guardrails": [
+    "Bounds states are used conservatively as segmentation controls, not assigned linguistic meanings.",
+    "Site-prefix leave-one-out tests robustness to prolific locations but not chronology or genre.",
+    "Within-site strength is not evidence of dialect or language.",
+    "Document-type control is explicitly deferred until validated metadata is joined.",
+    "No semantic/phonetic interpretation is made from slot position."
+  ]
+}

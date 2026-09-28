@@ -1,0 +1,694 @@
+{
+  "snapshot": {
+    "attestations": 5144,
+    "documents_with_attestations": 787,
+    "decoded_documents_total": 802
+  },
+  "null_model": {
+    "permutations": 300,
+    "preserves": "sign inventory of each document",
+    "destroys": "within-document local order"
+  },
+  "tests": {
+    "motif_candidates": 163,
+    "by_length": {
+      "3": 53,
+      "4": 69,
+      "5": 28,
+      "6": 13
+    }
+  },
+  "results": {
+    "robust_motifs_q05_confident2_docs2": 87,
+    "cross_site_robust_motifs": 11,
+    "robust_by_length": {
+      "4": 36,
+      "3": 50,
+      "5": 1
+    },
+    "top_robust": [
+      {
+        "n": 4,
+        "motif": "AB067 AB027 AB059 AB006",
+        "observed": 4,
+        "null_mean": 0.0033,
+        "z": 69.34,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 4,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 3,
+        "motif": "A324 AB007 AB060",
+        "observed": 3,
+        "null_mean": 0.0033,
+        "z": 51.9905,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB001 AB027 AB081 AB002",
+        "observed": 3,
+        "null_mean": 0.0033,
+        "z": 51.9905,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB051 AB027 AB017 AB009",
+        "observed": 3,
+        "null_mean": 0.0033,
+        "z": 51.9905,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "ZA"
+      },
+      {
+        "n": 4,
+        "motif": "AB028 AB055 AB080 AB027",
+        "observed": 3,
+        "null_mean": 0.0033,
+        "z": 51.9905,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB081 AB056 AB055",
+        "observed": 8,
+        "null_mean": 0.04,
+        "z": 40.6207,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 8,
+        "documents": 7,
+        "sites": 2,
+        "site_list": "HT;PH"
+      },
+      {
+        "n": 3,
+        "motif": "AB016 A310 AB028",
+        "observed": 4,
+        "null_mean": 0.01,
+        "z": 40.101,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 4,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 3,
+        "motif": "AB059 AB028 AB123",
+        "observed": 3,
+        "null_mean": 0.0067,
+        "z": 36.7835,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB031 AB076 AB120 AB302",
+        "observed": 3,
+        "null_mean": 0.0067,
+        "z": 36.7835,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB055 AB080 AB027 AB041",
+        "observed": 3,
+        "null_mean": 0.0067,
+        "z": 36.7835,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "ZA"
+      },
+      {
+        "n": 4,
+        "motif": "AB030 A703 A703 AB131",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "A703 A703 AB131 A707",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB120 AB302 AB030 AB131",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB302 AB030 AB131 AB023",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB003 AB060 AB024 AB008",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB010 AB073 AB006 AB041",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB081 AB056 AB055 AB003",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB011 AB005 AB081 AB002",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB028 AB016 AB118 AB120",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB060 AB164 AB037 AB004",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB004 AB131 AB031 AB002",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB031 AB076 AB120 AB030",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB008 AB053 AB030 AB059",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 2,
+        "site_list": "HT;ZA"
+      },
+      {
+        "n": 4,
+        "motif": "AB008 AB077 AB026 AB081",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB026 AB081 AB030 AB058",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB030 AB058 A584 AB031",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB058 A584 AB031 AB026",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 4,
+        "motif": "AB041 AB079 AB038 AB028",
+        "observed": 2,
+        "null_mean": 0.0033,
+        "z": 34.6411,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 1,
+        "site_list": "ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB078 AB076 AB010",
+        "observed": 3,
+        "null_mean": 0.01,
+        "z": 30.0506,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "HT"
+      },
+      {
+        "n": 3,
+        "motif": "AB016 AB016 AB026",
+        "observed": 3,
+        "null_mean": 0.01,
+        "z": 30.0506,
+        "p": 0.0033,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 1,
+        "site_list": "HT"
+      }
+    ],
+    "top_cross_site": [
+      {
+        "n": 3,
+        "motif": "AB081 AB056 AB055",
+        "observed": 8,
+        "z": 40.6207,
+        "q": 0.0034,
+        "confident_count": 8,
+        "documents": 7,
+        "sites": 2,
+        "site_list": "HT;PH"
+      },
+      {
+        "n": 4,
+        "motif": "AB008 AB053 AB030 AB059",
+        "observed": 2,
+        "z": 34.6411,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 2,
+        "site_list": "HT;ZA"
+      },
+      {
+        "n": 4,
+        "motif": "AB080 AB077 AB028 AB059",
+        "observed": 2,
+        "z": 24.495,
+        "q": 0.0034,
+        "confident_count": 2,
+        "documents": 2,
+        "sites": 2,
+        "site_list": "PK;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB051 AB027 AB017",
+        "observed": 4,
+        "z": 21.0881,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 4,
+        "sites": 2,
+        "site_list": "KH;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB003 AB057 AB027",
+        "observed": 4,
+        "z": 19.4329,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 4,
+        "sites": 2,
+        "site_list": "HT;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB053 AB030 AB059",
+        "observed": 3,
+        "z": 16.5269,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 3,
+        "site_list": "HT;PH;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB026 AB080 AB059",
+        "observed": 3,
+        "z": 15.1052,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 2,
+        "site_list": "HT;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB001 AB027 AB081",
+        "observed": 4,
+        "z": 9.6449,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 4,
+        "sites": 2,
+        "site_list": "HT;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "AB080 AB077 AB028",
+        "observed": 3,
+        "z": 9.6202,
+        "q": 0.0034,
+        "confident_count": 3,
+        "documents": 3,
+        "sites": 2,
+        "site_list": "PK;ZA"
+      },
+      {
+        "n": 3,
+        "motif": "A303 A707 A704",
+        "observed": 4,
+        "z": 8.7899,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 4,
+        "sites": 2,
+        "site_list": "HT;KH"
+      },
+      {
+        "n": 3,
+        "motif": "AB081 AB073 AB006",
+        "observed": 4,
+        "z": 6.5452,
+        "q": 0.0034,
+        "confident_count": 4,
+        "documents": 3,
+        "sites": 2,
+        "site_list": "HT;ZA"
+      }
+    ],
+    "network_top_nodes": [
+      {
+        "sign_id": "AB081",
+        "weighted_out": 140,
+        "weighted_in": 134,
+        "out_degree": 37,
+        "in_degree": 63
+      },
+      {
+        "sign_id": "AB008",
+        "weighted_out": 132,
+        "weighted_in": 88,
+        "out_degree": 43,
+        "in_degree": 47
+      },
+      {
+        "sign_id": "AB059",
+        "weighted_out": 103,
+        "weighted_in": 101,
+        "out_degree": 43,
+        "in_degree": 40
+      },
+      {
+        "sign_id": "A707",
+        "weighted_out": 93,
+        "weighted_in": 109,
+        "out_degree": 42,
+        "in_degree": 58
+      },
+      {
+        "sign_id": "AB030",
+        "weighted_out": 93,
+        "weighted_in": 102,
+        "out_degree": 51,
+        "in_degree": 47
+      },
+      {
+        "sign_id": "AB006",
+        "weighted_out": 95,
+        "weighted_in": 99,
+        "out_degree": 49,
+        "in_degree": 34
+      },
+      {
+        "sign_id": "AB001",
+        "weighted_out": 100,
+        "weighted_in": 91,
+        "out_degree": 38,
+        "in_degree": 43
+      },
+      {
+        "sign_id": "AB028",
+        "weighted_out": 101,
+        "weighted_in": 84,
+        "out_degree": 45,
+        "in_degree": 41
+      },
+      {
+        "sign_id": "AB067",
+        "weighted_out": 94,
+        "weighted_in": 91,
+        "out_degree": 41,
+        "in_degree": 51
+      },
+      {
+        "sign_id": "AB027",
+        "weighted_out": 87,
+        "weighted_in": 92,
+        "out_degree": 43,
+        "in_degree": 36
+      },
+      {
+        "sign_id": "AB077",
+        "weighted_out": 88,
+        "weighted_in": 88,
+        "out_degree": 41,
+        "in_degree": 43
+      },
+      {
+        "sign_id": "AB031",
+        "weighted_out": 90,
+        "weighted_in": 85,
+        "out_degree": 37,
+        "in_degree": 48
+      },
+      {
+        "sign_id": "AB003",
+        "weighted_out": 89,
+        "weighted_in": 86,
+        "out_degree": 39,
+        "in_degree": 43
+      },
+      {
+        "sign_id": "AB080",
+        "weighted_out": 84,
+        "weighted_in": 84,
+        "out_degree": 39,
+        "in_degree": 45
+      },
+      {
+        "sign_id": "AB041",
+        "weighted_out": 89,
+        "weighted_in": 76,
+        "out_degree": 44,
+        "in_degree": 39
+      },
+      {
+        "sign_id": "AB007",
+        "weighted_out": 82,
+        "weighted_in": 83,
+        "out_degree": 41,
+        "in_degree": 43
+      },
+      {
+        "sign_id": "AB057",
+        "weighted_out": 85,
+        "weighted_in": 80,
+        "out_degree": 47,
+        "in_degree": 35
+      },
+      {
+        "sign_id": "AB060",
+        "weighted_out": 78,
+        "weighted_in": 77,
+        "out_degree": 43,
+        "in_degree": 32
+      },
+      {
+        "sign_id": "AB004",
+        "weighted_out": 80,
+        "weighted_in": 74,
+        "out_degree": 45,
+        "in_degree": 38
+      },
+      {
+        "sign_id": "AB002",
+        "weighted_out": 69,
+        "weighted_in": 85,
+        "out_degree": 43,
+        "in_degree": 21
+      }
+    ]
+  },
+  "interpretation_guardrails": [
+    "A motif is a recurring attestation sequence under the current document order, not automatically a word.",
+    "Cross-site recurrence reduces but does not remove genre, chronology, scribal, and administrative confounds.",
+    "Document-preserving shuffling is only one null model.",
+    "Motifs spanning uncertain structural boundaries may be non-linguistic.",
+    "Sign identities are analyzed as source labels; no proposed phonetic reading is used."
+  ]
+}

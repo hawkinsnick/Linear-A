@@ -1,0 +1,24 @@
+{
+  "external_study": "Briakos 2026, University of Piraeus",
+  "external_corpus": {
+    "documents": "419 tablets",
+    "sign_tokens": 2481,
+    "source": "lineara.xyz/GORILA-derived"
+  },
+  "our_snapshot": {
+    "documents": 787,
+    "attestations": 5144,
+    "source": "SigLA snapshot supplied by user"
+  },
+  "overlap_in_methods": [
+    "sign frequency",
+    "positional distributions",
+    "adjacency/co-occurrence"
+  ],
+  "important_non_equivalence": [
+    "External study analyzes a 2,481-token tablet corpus; RC4 uses 5,144 SigLA attestations across 802 documents.",
+    "RC4's current position metric is document-level, not word-internal position.",
+    "RC4 carries SigLA native certainty and can compare all vs confident-only attestations."
+  ],
+  "novelty_target": "robustness to reading certainty and explicit source/reading branches, not merely rediscovery of distributional patterns"
+}

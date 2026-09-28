@@ -1,0 +1,10 @@
+{
+  "version": "0.5.0-alpha-local",
+  "context_records": 0,
+  "context_assertions": 0,
+  "structural_units": 0,
+  "reason": "Schemas and eligibility rules are established before importing record-level context. No values are guessed.",
+  "next_import_target": "current SigLA document metadata with field-level provenance, followed by independent comparison where available",
+  "f3_status": "unresolved/evidence-tiered from RC15",
+  "publication": "local only; no GitHub writes"
+}

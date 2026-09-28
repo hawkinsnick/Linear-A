@@ -1,0 +1,28 @@
+{
+  "current_sigla_semantics": {
+    "source_word_membership": "verified: Word View highlights syllabograms belonging to a word; sign colors alternate at word boundaries.",
+    "document_type": "verified searchable/displayed property",
+    "find_place": "verified displayed metadata",
+    "dimensions": "verified when available",
+    "period": "verified current document field; may be blank",
+    "sign_count_word_count": "verified displayed document summaries"
+  },
+  "verified_context_exemplars": 15,
+  "exemplar_document_types": {
+    "Roundel": 4,
+    "Tablet": 5,
+    "Pithos": 2,
+    "Libation Table": 1,
+    "Nodule": 3
+  },
+  "exemplar_periods": {
+    "LM IB": 9,
+    "(blank)": 2,
+    "MM IIIB": 1,
+    "MM II": 1,
+    "MM III": 2
+  },
+  "scope_warning": "These exemplars validate schema and importer targets; they are not a statistically representative metadata sample.",
+  "bulk_context_status": "blocked until a reproducible current-document metadata extraction is validated against the 802-document snapshot.",
+  "source_word_bulk_status": "blocked until source-word memberships are reproducibly extracted; f3 is not used as a substitute."
+}

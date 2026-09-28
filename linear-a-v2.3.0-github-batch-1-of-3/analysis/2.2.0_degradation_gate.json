@@ -1,0 +1,20 @@
+{
+  "version": "2.2.0-local",
+  "intended_experiment": "pseudo-Linear-A degradation of a known-answer Linear B corpus",
+  "status": "BLOCKED_BY_UNEXECUTED_2.1_KNOWN_ANSWER_BASELINE",
+  "reason": "A degradation experiment is interpretable only after the frozen detector has been executed on the undegraded known-answer corpus. The D\u0100MOS artifact identity is verified, but its bytes were not materialized in this environment.",
+  "prohibited_shortcuts": [
+    "do not use a hand-picked illustrative Linear B sample",
+    "do not tune degradation parameters against desired Linear A outcomes",
+    "do not treat synthetic-only behavior as known-answer calibration",
+    "do not infer detector precision/recall without gold morphology alignment"
+  ],
+  "frozen_future_sequence": [
+    "materialize and hash D\u0100MOS v2",
+    "extract source-defined Linear B word units without exposing morphology labels to detector",
+    "run frozen positional/edge detector on undegraded corpus",
+    "freeze predictions",
+    "join known Mycenaean morphology and score recovery/false positives",
+    "only then construct repeated degraded corpora matched to Linear A size, damage, recurrence, clustering and uncertainty"
+  ]
+}

@@ -1,0 +1,9 @@
+branch_id,metric,direct_effect,research_impact,recommended_handling
+B-HT17-NUM,numeral_frequency,one document/local numeral changes by +1,high for HT17 ledger; negligible corpus-wide count,branch required for accounting
+B-HT34-516,sign_frequency,one occurrence identity branch,local sequence affected; corpus-wide frequency delta <=1 occurrence,branch recommended
+B-HT34-WORD,word_frequency,one damaged word reading,lexical/morphological analyses affected locally,exclude from confident lexical training
+B-HT49,sequence,one damaged sequence,local n-grams affected,exclude or branch
+B-KH74,sign_frequency,one KH74 occurrence; A605 family has 3 traced occurrences overall,rare-sign analyses sensitive,branch required for rare-logogram work
+B-KH8,sign_frequency,A567 has one traced occurrence overall,singleton identity analyses maximally sensitive,branch required
+B-K,metrology,value changes 0.10 vs 0.0625,37.5% relative difference between proposed values,always branch
+B-KNZC6,layout,punctuation physically supported,linear tokenization alone loses spatial information,use layout-aware representation

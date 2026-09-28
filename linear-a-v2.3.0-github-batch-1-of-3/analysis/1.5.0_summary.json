@@ -1,0 +1,8 @@
+{
+  "version": "1.5.0-local",
+  "attested_edge_removal_pairs": 651,
+  "connected_components": 4,
+  "largest_component_size": 458,
+  "frozen_candidates_with_2plus_pairs": 11,
+  "interpretation": "structural edge alternation only; no stem/affix/paradigm claim"
+}

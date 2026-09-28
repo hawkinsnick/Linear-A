@@ -1,0 +1,629 @@
+{
+  "snapshot": {
+    "decoded_documents": 802,
+    "attestation_rows": 5144,
+    "documents_with_attestation_rows": 787
+  },
+  "methods": {
+    "adjacency_null": "500 document-preserving within-document sign-order permutations; candidates observed >=4",
+    "position": "document-level initial/final enrichment versus corpus slot proportions; descriptive z-score, signs n>=8",
+    "site_concentration": "normalized Shannon entropy across document-prefix sites; signs n>=10",
+    "frequency_uncertainty": "500 document bootstrap replicates for top 30 signs"
+  },
+  "results": {
+    "adjacency_candidates_tested": 198,
+    "adjacency_enriched_empirical_p_le_0_01": 72,
+    "top_enriched_adjacencies": [
+      {
+        "left": "AB081",
+        "right": "AB002",
+        "observed": 37,
+        "null_mean": 6.42,
+        "z": 13.52,
+        "p": 0.002,
+        "confident_count": 37
+      },
+      {
+        "left": "AB031",
+        "right": "AB076",
+        "observed": 18,
+        "null_mean": 1.98,
+        "z": 12.7,
+        "p": 0.002,
+        "confident_count": 18
+      },
+      {
+        "left": "A310",
+        "right": "AB028",
+        "observed": 5,
+        "null_mean": 0.21,
+        "z": 10.39,
+        "p": 0.002,
+        "confident_count": 5
+      },
+      {
+        "left": "A306",
+        "right": "AB069",
+        "observed": 5,
+        "null_mean": 0.25,
+        "z": 10.1,
+        "p": 0.002,
+        "confident_count": 5
+      },
+      {
+        "left": "AB016",
+        "right": "A310",
+        "observed": 4,
+        "null_mean": 0.18,
+        "z": 9.81,
+        "p": 0.002,
+        "confident_count": 4
+      },
+      {
+        "left": "AB056",
+        "right": "AB055",
+        "observed": 8,
+        "null_mean": 0.66,
+        "z": 9.5,
+        "p": 0.002,
+        "confident_count": 8
+      },
+      {
+        "left": "A707",
+        "right": "A704",
+        "observed": 26,
+        "null_mean": 6.18,
+        "z": 9.41,
+        "p": 0.002,
+        "confident_count": 26
+      },
+      {
+        "left": "AB081",
+        "right": "AB056",
+        "observed": 13,
+        "null_mean": 1.73,
+        "z": 8.57,
+        "p": 0.002,
+        "confident_count": 13
+      },
+      {
+        "left": "AB059",
+        "right": "AB006",
+        "observed": 16,
+        "null_mean": 3.23,
+        "z": 7.88,
+        "p": 0.002,
+        "confident_count": 16
+      },
+      {
+        "left": "AB067",
+        "right": "AB002",
+        "observed": 17,
+        "null_mean": 3.44,
+        "z": 7.78,
+        "p": 0.002,
+        "confident_count": 17
+      },
+      {
+        "left": "AB041",
+        "right": "AB118",
+        "observed": 6,
+        "null_mean": 0.57,
+        "z": 7.67,
+        "p": 0.002,
+        "confident_count": 6
+      },
+      {
+        "left": "AB008",
+        "right": "AB051",
+        "observed": 16,
+        "null_mean": 3.58,
+        "z": 7.53,
+        "p": 0.002,
+        "confident_count": 17
+      },
+      {
+        "left": "AB017",
+        "right": "AB009",
+        "observed": 6,
+        "null_mean": 0.62,
+        "z": 7.35,
+        "p": 0.002,
+        "confident_count": 6
+      },
+      {
+        "left": "AB007",
+        "right": "AB006",
+        "observed": 13,
+        "null_mean": 2.48,
+        "z": 7.25,
+        "p": 0.002,
+        "confident_count": 13
+      },
+      {
+        "left": "AB056",
+        "right": "AB030",
+        "observed": 6,
+        "null_mean": 0.63,
+        "z": 7.12,
+        "p": 0.002,
+        "confident_count": 6
+      },
+      {
+        "left": "AB076",
+        "right": "AB120",
+        "observed": 8,
+        "null_mean": 0.97,
+        "z": 6.93,
+        "p": 0.002,
+        "confident_count": 8
+      },
+      {
+        "left": "AB046",
+        "right": "AB007",
+        "observed": 4,
+        "null_mean": 0.29,
+        "z": 6.92,
+        "p": 0.002,
+        "confident_count": 4
+      },
+      {
+        "left": "AB016",
+        "right": "AB016",
+        "observed": 4,
+        "null_mean": 0.3,
+        "z": 6.58,
+        "p": 0.002,
+        "confident_count": 4
+      },
+      {
+        "left": "A325",
+        "right": "AB017",
+        "observed": 4,
+        "null_mean": 0.37,
+        "z": 6.37,
+        "p": 0.002,
+        "confident_count": 4
+      },
+      {
+        "left": "AB073",
+        "right": "AB055",
+        "observed": 7,
+        "null_mean": 1.06,
+        "z": 6.19,
+        "p": 0.002,
+        "confident_count": 7
+      }
+    ],
+    "position_abs_z_ge_3": 9,
+    "top_position_signs": [
+      {
+        "sign_id": "AB008",
+        "n": 144,
+        "z_initial": 10.93,
+        "z_final": -1.42
+      },
+      {
+        "sign_id": "AB046",
+        "n": 10,
+        "z_initial": 4.29,
+        "z_final": 1.09
+      },
+      {
+        "sign_id": "AB028",
+        "n": 109,
+        "z_initial": 3.98,
+        "z_final": -1.5
+      },
+      {
+        "sign_id": "A704",
+        "n": 72,
+        "z_initial": -2.79,
+        "z_final": 3.56
+      },
+      {
+        "sign_id": "AB180",
+        "n": 9,
+        "z_initial": 1.26,
+        "z_final": 3.5
+      },
+      {
+        "sign_id": "AB076",
+        "n": 43,
+        "z_initial": -1.64,
+        "z_final": 3.49
+      },
+      {
+        "sign_id": "AB002",
+        "n": 94,
+        "z_initial": -2.15,
+        "z_final": 3.41
+      },
+      {
+        "sign_id": "AB188",
+        "n": 14,
+        "z_initial": 3.27,
+        "z_final": -1.23
+      },
+      {
+        "sign_id": "AB081",
+        "n": 177,
+        "z_initial": -1.59,
+        "z_final": -3.11
+      }
+    ],
+    "most_site_concentrated_n_ge_10": [
+      {
+        "sign_id": "A411",
+        "n": 15,
+        "sites": 1,
+        "entropy": 0,
+        "top_site": "KH",
+        "share": 1.0
+      },
+      {
+        "sign_id": "AB188",
+        "n": 14,
+        "sites": 1,
+        "entropy": 0,
+        "top_site": "HT",
+        "share": 1.0
+      },
+      {
+        "sign_id": "A608",
+        "n": 12,
+        "sites": 1,
+        "entropy": 0,
+        "top_site": "HT",
+        "share": 1.0
+      },
+      {
+        "sign_id": "A309",
+        "n": 12,
+        "sites": 1,
+        "entropy": 0,
+        "top_site": "TY",
+        "share": 1.0
+      },
+      {
+        "sign_id": "A606",
+        "n": 10,
+        "sites": 1,
+        "entropy": 0,
+        "top_site": "KH",
+        "share": 1.0
+      },
+      {
+        "sign_id": "AB076",
+        "n": 43,
+        "sites": 2,
+        "entropy": 0.271,
+        "top_site": "HT",
+        "share": 0.953
+      },
+      {
+        "sign_id": "A624",
+        "n": 18,
+        "sites": 2,
+        "entropy": 0.31,
+        "top_site": "KH",
+        "share": 0.944
+      },
+      {
+        "sign_id": "A707",
+        "n": 115,
+        "sites": 6,
+        "entropy": 0.313,
+        "top_site": "HT",
+        "share": 0.861
+      },
+      {
+        "sign_id": "A706",
+        "n": 16,
+        "sites": 2,
+        "entropy": 0.337,
+        "top_site": "HT",
+        "share": 0.938
+      },
+      {
+        "sign_id": "A704",
+        "n": 72,
+        "sites": 6,
+        "entropy": 0.349,
+        "top_site": "HT",
+        "share": 0.847
+      },
+      {
+        "sign_id": "AB081",
+        "n": 177,
+        "sites": 11,
+        "entropy": 0.383,
+        "top_site": "HT",
+        "share": 0.785
+      },
+      {
+        "sign_id": "AB002",
+        "n": 94,
+        "sites": 7,
+        "entropy": 0.431,
+        "top_site": "HT",
+        "share": 0.798
+      },
+      {
+        "sign_id": "A305",
+        "n": 19,
+        "sites": 4,
+        "entropy": 0.44,
+        "top_site": "HT",
+        "share": 0.842
+      },
+      {
+        "sign_id": "AB026",
+        "n": 72,
+        "sites": 10,
+        "entropy": 0.459,
+        "top_site": "HT",
+        "share": 0.75
+      },
+      {
+        "sign_id": "A301",
+        "n": 47,
+        "sites": 7,
+        "entropy": 0.469,
+        "top_site": "HT",
+        "share": 0.745
+      },
+      {
+        "sign_id": "AB077",
+        "n": 113,
+        "sites": 13,
+        "entropy": 0.472,
+        "top_site": "HT",
+        "share": 0.717
+      },
+      {
+        "sign_id": "AB056",
+        "n": 41,
+        "sites": 5,
+        "entropy": 0.484,
+        "top_site": "HT",
+        "share": 0.78
+      },
+      {
+        "sign_id": "A703",
+        "n": 26,
+        "sites": 4,
+        "entropy": 0.499,
+        "top_site": "HT",
+        "share": 0.808
+      },
+      {
+        "sign_id": "AB120",
+        "n": 57,
+        "sites": 6,
+        "entropy": 0.507,
+        "top_site": "HT",
+        "share": 0.737
+      },
+      {
+        "sign_id": "AB031",
+        "n": 91,
+        "sites": 12,
+        "entropy": 0.51,
+        "top_site": "HT",
+        "share": 0.692
+      }
+    ],
+    "adjacency_enriched_bh_q_le_0_05": 93,
+    "top_fdr_adjacencies": [
+      {
+        "left": "AB081",
+        "right": "AB002",
+        "observed": 37,
+        "null_mean": 6.42,
+        "z": 13.52,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 37
+      },
+      {
+        "left": "AB031",
+        "right": "AB076",
+        "observed": 18,
+        "null_mean": 1.98,
+        "z": 12.7,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 18
+      },
+      {
+        "left": "A310",
+        "right": "AB028",
+        "observed": 5,
+        "null_mean": 0.21,
+        "z": 10.39,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 5
+      },
+      {
+        "left": "A306",
+        "right": "AB069",
+        "observed": 5,
+        "null_mean": 0.25,
+        "z": 10.1,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 5
+      },
+      {
+        "left": "AB016",
+        "right": "A310",
+        "observed": 4,
+        "null_mean": 0.18,
+        "z": 9.81,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 4
+      },
+      {
+        "left": "AB056",
+        "right": "AB055",
+        "observed": 8,
+        "null_mean": 0.66,
+        "z": 9.5,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 8
+      },
+      {
+        "left": "A707",
+        "right": "A704",
+        "observed": 26,
+        "null_mean": 6.18,
+        "z": 9.41,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 26
+      },
+      {
+        "left": "AB081",
+        "right": "AB056",
+        "observed": 13,
+        "null_mean": 1.73,
+        "z": 8.57,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 13
+      },
+      {
+        "left": "AB059",
+        "right": "AB006",
+        "observed": 16,
+        "null_mean": 3.23,
+        "z": 7.88,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 16
+      },
+      {
+        "left": "AB067",
+        "right": "AB002",
+        "observed": 17,
+        "null_mean": 3.44,
+        "z": 7.78,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 17
+      },
+      {
+        "left": "AB041",
+        "right": "AB118",
+        "observed": 6,
+        "null_mean": 0.57,
+        "z": 7.67,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 6
+      },
+      {
+        "left": "AB008",
+        "right": "AB051",
+        "observed": 16,
+        "null_mean": 3.58,
+        "z": 7.53,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 17
+      },
+      {
+        "left": "AB017",
+        "right": "AB009",
+        "observed": 6,
+        "null_mean": 0.62,
+        "z": 7.35,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 6
+      },
+      {
+        "left": "AB007",
+        "right": "AB006",
+        "observed": 13,
+        "null_mean": 2.48,
+        "z": 7.25,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 13
+      },
+      {
+        "left": "AB056",
+        "right": "AB030",
+        "observed": 6,
+        "null_mean": 0.63,
+        "z": 7.12,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 6
+      },
+      {
+        "left": "AB076",
+        "right": "AB120",
+        "observed": 8,
+        "null_mean": 0.97,
+        "z": 6.93,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 8
+      },
+      {
+        "left": "AB046",
+        "right": "AB007",
+        "observed": 4,
+        "null_mean": 0.29,
+        "z": 6.92,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 4
+      },
+      {
+        "left": "AB016",
+        "right": "AB016",
+        "observed": 4,
+        "null_mean": 0.3,
+        "z": 6.58,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 4
+      },
+      {
+        "left": "A325",
+        "right": "AB017",
+        "observed": 4,
+        "null_mean": 0.37,
+        "z": 6.37,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 4
+      },
+      {
+        "left": "AB073",
+        "right": "AB055",
+        "observed": 7,
+        "null_mean": 1.06,
+        "z": 6.19,
+        "p": 0.002,
+        "q": 0.009,
+        "confident_count": 7
+      }
+    ]
+  },
+  "cautions": [
+    "Permutation p-values are exploratory and multiple comparisons are not yet family-wise/FDR corrected.",
+    "Within-document shuffling preserves document composition but destroys all local ordering; it is one null model, not the only valid null.",
+    "Document-prefix site parsing is a transparent heuristic and should later be replaced by canonical site metadata.",
+    "Position is within the document's classified attestation stream, not within words.",
+    "Site concentration can reflect excavation/document-type sampling, not linguistic geography.",
+    "No semantic or phonetic interpretation is assigned to statistically exceptional signs or pairs."
+  ]
+}

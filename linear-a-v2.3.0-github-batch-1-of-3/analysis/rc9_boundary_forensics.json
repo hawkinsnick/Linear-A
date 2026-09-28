@@ -1,0 +1,86 @@
+{
+  "status": "RC9 boundary forensics; semantic mapping intentionally unresolved",
+  "validated_reference_fact": "Reference extractor labels f3 as word-boundary state and cites Bound.t = Here | Unsure | Not_here.",
+  "falsified_model": "The extracted start/end integers cannot themselves be the three Bound.t constructors: observed values extend from 0 through 19.",
+  "observed": {
+    "min_value": 0,
+    "max_value": 19,
+    "relations": {
+      "equal": 1976,
+      "descending": 1394,
+      "ascending": 1774
+    },
+    "widths": {
+      "-18": 1,
+      "-17": 1,
+      "-16": 1,
+      "-15": 1,
+      "-14": 1,
+      "-13": 1,
+      "-12": 1,
+      "-11": 1,
+      "-10": 1,
+      "-9": 1,
+      "-8": 1,
+      "-7": 1,
+      "-6": 2,
+      "-5": 11,
+      "-4": 29,
+      "-3": 113,
+      "-2": 371,
+      "-1": 856,
+      "0": 1976,
+      "1": 499,
+      "2": 341,
+      "3": 259,
+      "4": 200,
+      "5": 149,
+      "6": 108,
+      "7": 73,
+      "8": 44,
+      "9": 30,
+      "10": 20,
+      "11": 11,
+      "12": 8,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 5,
+      "17": 5,
+      "18": 3,
+      "19": 1
+    },
+    "adjacent_interval_relations": {
+      "gap": 1094,
+      "touch": 1367,
+      "overlap": 1497
+    }
+  },
+  "hypothesis_test": {
+    "name": "touch-contiguous",
+    "rule": "join adjacent classified attestations only when previous bounds.end == next bounds.start",
+    "status": "structural hypothesis, not validated word segmentation",
+    "segment_stats": {
+      "segments": 3352,
+      "mean_length": 1.408,
+      "max_length": 10,
+      "length_ge3": 347
+    },
+    "strong_variable_slot_families": 4,
+    "slot_distribution": {
+      "0": 2,
+      "2": 2
+    }
+  },
+  "required_next_evidence": [
+    "SigLA importer.ml or equivalent source defining how Bound.t becomes the serialized f3 pair.",
+    "Known document-level examples with explicit word dividers/spacing mapped to attestation bounds.",
+    "KN Zc 6 occurrence-level bounds aligned to Flouda's published punctuation."
+  ],
+  "rc8_status": "RC8 remains a conservative stress test. RC9 does not replace it with an unsupported enum mapping.",
+  "limits": [
+    "No integer-to-Here/Unsure/Not_here mapping is asserted.",
+    "Touch-contiguity is exported only as a hypothesis.",
+    "No linguistic word units are claimed."
+  ]
+}

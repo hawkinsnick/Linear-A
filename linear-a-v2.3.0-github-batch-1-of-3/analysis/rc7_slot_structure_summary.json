@@ -1,0 +1,585 @@
+{
+  "snapshot": {
+    "attestations": 5144,
+    "document_labels": 787,
+    "decoded_documents": 802
+  },
+  "definition": "Length 3-5 windows grouped when all positions except one are identical.",
+  "results": {
+    "candidate_families": 440,
+    "strong_families": 224,
+    "cross_site_strong_families": 166,
+    "strong_by_length": {
+      "3": 216,
+      "4": 8
+    },
+    "slot_distribution": {
+      "3:0": 80,
+      "3:2": 92,
+      "3:1": 44,
+      "4:0": 4,
+      "4:3": 4
+    },
+    "hamming1_edges": 102,
+    "null_family_counts": {
+      "3": {
+        "observed": 217,
+        "null_mean": 100.69,
+        "null_sd": 8.8,
+        "p_upper": 0.0099
+      },
+      "4": {
+        "observed": 8,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "p_upper": 0.0099
+      },
+      "5": {
+        "observed": 0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "p_upper": 1.0
+      }
+    },
+    "top_cross_site": [
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB008 AB051 *",
+        "total": 16,
+        "variants": {
+          "AB030": 1,
+          "AB004": 1,
+          "A638": 1,
+          "AB001": 1,
+          "A568": 1,
+          "AB120": 1,
+          "AB031": 2,
+          "AB017": 2,
+          "A303": 1,
+          "AB027": 1,
+          "A618": 1,
+          "AB054": 1,
+          "AB081": 1,
+          "AB070": 1
+        },
+        "documents": 15,
+        "sites": 6,
+        "site_list": "ARKH;HT;KH;PK;TY;ZA",
+        "entropy": 0.985,
+        "confident_total": 17,
+        "confident_variants": 15
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB059 AB006 *",
+        "total": 15,
+        "variants": {
+          "AB008": 1,
+          "AB100": 1,
+          "AB037": 4,
+          "A580": 1,
+          "A610": 1,
+          "A707": 1,
+          "AB041": 1,
+          "AB080": 1,
+          "AB028": 1,
+          "AB004": 2,
+          "A512": 1
+        },
+        "documents": 14,
+        "sites": 6,
+        "site_list": "ARKH;HT;KH;PE;PS;ZA",
+        "entropy": 0.937,
+        "confident_total": 15,
+        "confident_variants": 11
+      },
+      {
+        "n": 3,
+        "slot": 1,
+        "pattern": "AB008 * AB001",
+        "total": 8,
+        "variants": {
+          "AB041": 1,
+          "AB026": 1,
+          "AB027": 1,
+          "AB051": 1,
+          "AB007": 1,
+          "AB031": 1,
+          "AB073": 2
+        },
+        "documents": 8,
+        "sites": 6,
+        "site_list": "ARKH;HT;KN;MA;PH;ZA",
+        "entropy": 0.98,
+        "confident_total": 8,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB059 AB006",
+        "total": 14,
+        "variants": {
+          "AB030": 1,
+          "AB027": 4,
+          "AB026": 1,
+          "AB051": 1,
+          "AB057": 1,
+          "AB069": 1,
+          "AB046": 1,
+          "AB067": 1,
+          "AB004": 1,
+          "AB008": 2
+        },
+        "documents": 14,
+        "sites": 5,
+        "site_list": "ARKH;HT;KH;PE;ZA",
+        "entropy": 0.931,
+        "confident_total": 14,
+        "confident_variants": 10
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB060 AB008 *",
+        "total": 7,
+        "variants": {
+          "AB058": 1,
+          "AB026": 1,
+          "A705": 1,
+          "AB069": 1,
+          "AB080": 1,
+          "AB006": 1,
+          "AB059": 1
+        },
+        "documents": 7,
+        "sites": 5,
+        "site_list": "ARKH;HT;KH;KN;ZA",
+        "entropy": 1.0,
+        "confident_total": 7,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB059 AB027",
+        "total": 5,
+        "variants": {
+          "AB059": 1,
+          "AB001": 1,
+          "AB077": 1,
+          "AB066": 1,
+          "AB008": 1
+        },
+        "documents": 5,
+        "sites": 5,
+        "site_list": "ARKH;HT;KH;PK;ZA",
+        "entropy": 1.0,
+        "confident_total": 5,
+        "confident_variants": 5
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB027 AB008 *",
+        "total": 5,
+        "variants": {
+          "AB065": 1,
+          "AB057": 1,
+          "AB079": 1,
+          "AB009": 1,
+          "AB053": 1
+        },
+        "documents": 5,
+        "sites": 5,
+        "site_list": "ARKH;KH;KN;PE;ZA",
+        "entropy": 1.0,
+        "confident_total": 5,
+        "confident_variants": 5
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB081 AB003",
+        "total": 12,
+        "variants": {
+          "A626": 1,
+          "AB004": 1,
+          "AB077": 3,
+          "AB055": 1,
+          "A629": 1,
+          "AB066": 1,
+          "AB006": 2,
+          "A555": 1,
+          "AB060": 1
+        },
+        "documents": 12,
+        "sites": 4,
+        "site_list": "HT;KH;PE;ZA",
+        "entropy": 0.953,
+        "confident_total": 12,
+        "confident_variants": 9
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB003 AB057",
+        "total": 10,
+        "variants": {
+          "AB081": 1,
+          "AB013": 1,
+          "AB059": 1,
+          "AB030": 1,
+          "AB055": 1,
+          "A707": 1,
+          "AB050": 1,
+          "AB044": 1,
+          "AB007": 1,
+          "AB027": 1
+        },
+        "documents": 10,
+        "sites": 4,
+        "site_list": "HT;KN;PH;ZA",
+        "entropy": 1.0,
+        "confident_total": 10,
+        "confident_variants": 10
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB001 AB027 *",
+        "total": 11,
+        "variants": {
+          "AB009": 1,
+          "A707": 1,
+          "AB059": 1,
+          "AB081": 4,
+          "AB041": 1,
+          "A324": 1,
+          "AB004": 1,
+          "AB120": 1
+        },
+        "documents": 10,
+        "sites": 4,
+        "site_list": "GO;HT;KH;ZA",
+        "entropy": 0.911,
+        "confident_total": 11,
+        "confident_variants": 8
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB003 AB057 *",
+        "total": 10,
+        "variants": {
+          "AB120": 1,
+          "AB122": 1,
+          "AB027": 4,
+          "A703": 1,
+          "AB058": 1,
+          "AB059": 1,
+          "AB010": 1
+        },
+        "documents": 10,
+        "sites": 4,
+        "site_list": "HT;KN;PH;ZA",
+        "entropy": 0.898,
+        "confident_total": 10,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB081 AB003 *",
+        "total": 9,
+        "variants": {
+          "AB081": 1,
+          "AB057": 1,
+          "AB007": 1,
+          "AB028": 1,
+          "A303": 1,
+          "AB079": 1,
+          "AB053": 1,
+          "A574": 2
+        },
+        "documents": 9,
+        "sites": 4,
+        "site_list": "HT;KH;PE;ZA",
+        "entropy": 0.983,
+        "confident_total": 9,
+        "confident_variants": 8
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB008 AB060",
+        "total": 8,
+        "variants": {
+          "AB067": 1,
+          "AB055": 1,
+          "AB002": 1,
+          "AB066": 1,
+          "AB081": 1,
+          "AB077": 1,
+          "AB059": 1,
+          "AB065": 1
+        },
+        "documents": 8,
+        "sites": 4,
+        "site_list": "ARKH;HT;KH;ZA",
+        "entropy": 1.0,
+        "confident_total": 8,
+        "confident_variants": 8
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB008 AB060 *",
+        "total": 8,
+        "variants": {
+          "AB008": 2,
+          "AB006": 1,
+          "AB065": 2,
+          "AB010": 1,
+          "AB003": 1,
+          "AB069": 1
+        },
+        "documents": 8,
+        "sites": 4,
+        "site_list": "ARKH;HT;KH;ZA",
+        "entropy": 0.967,
+        "confident_total": 8,
+        "confident_variants": 6
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB059 AB028 *",
+        "total": 8,
+        "variants": {
+          "AB122": 1,
+          "AB123": 3,
+          "AB041": 1,
+          "AB009": 1,
+          "A301": 1,
+          "AB055": 1
+        },
+        "documents": 8,
+        "sites": 4,
+        "site_list": "HT;KH;SY;ZA",
+        "entropy": 0.931,
+        "confident_total": 8,
+        "confident_variants": 6
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB067 AB060 *",
+        "total": 7,
+        "variants": {
+          "A707": 1,
+          "AB003": 1,
+          "AB057": 1,
+          "A704": 1,
+          "A626": 1,
+          "AB059": 1,
+          "AB008": 1
+        },
+        "documents": 7,
+        "sites": 4,
+        "site_list": "HT;KH;PH;ZA",
+        "entropy": 1.0,
+        "confident_total": 7,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB008 AB009 *",
+        "total": 7,
+        "variants": {
+          "AB057": 1,
+          "A319": 1,
+          "A550": 1,
+          "A517": 1,
+          "AB027": 1,
+          "AB041": 1,
+          "AB069": 1
+        },
+        "documents": 7,
+        "sites": 4,
+        "site_list": "HT;KH;PE;PH",
+        "entropy": 1.0,
+        "confident_total": 7,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB059 AB028",
+        "total": 7,
+        "variants": {
+          "AB067": 1,
+          "A707": 1,
+          "AB050": 1,
+          "AB010": 2,
+          "AB008": 1,
+          "AB059": 1
+        },
+        "documents": 7,
+        "sites": 4,
+        "site_list": "HT;KH;SY;ZA",
+        "entropy": 0.976,
+        "confident_total": 7,
+        "confident_variants": 6
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB008 AB053 *",
+        "total": 8,
+        "variants": {
+          "AB058": 1,
+          "AB026": 1,
+          "AB030": 2,
+          "AB003": 1,
+          "AB057": 1,
+          "AB028": 2
+        },
+        "documents": 7,
+        "sites": 4,
+        "site_list": "HT;PE;PH;ZA",
+        "entropy": 0.967,
+        "confident_total": 8,
+        "confident_variants": 6
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB003 AB059 *",
+        "total": 7,
+        "variants": {
+          "AB078": 1,
+          "AB024": 2,
+          "AB001": 2,
+          "AB008": 1,
+          "AB080": 1
+        },
+        "documents": 7,
+        "sites": 4,
+        "site_list": "HT;KH;PH;ZA",
+        "entropy": 0.963,
+        "confident_total": 7,
+        "confident_variants": 5
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB008 AB053",
+        "total": 7,
+        "variants": {
+          "AB067": 1,
+          "AB010": 1,
+          "A704": 1,
+          "AB056": 1,
+          "AB054": 1,
+          "AB059": 1,
+          "AB027": 1
+        },
+        "documents": 6,
+        "sites": 4,
+        "site_list": "HT;PE;PH;ZA",
+        "entropy": 1.0,
+        "confident_total": 7,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB008 AB051",
+        "total": 7,
+        "variants": {
+          "AB054": 1,
+          "AB004": 1,
+          "AB016": 1,
+          "A707": 1,
+          "AB070": 1,
+          "AB010": 1,
+          "AB077": 1
+        },
+        "documents": 6,
+        "sites": 4,
+        "site_list": "HT;PK;TY;ZA",
+        "entropy": 1.0,
+        "confident_total": 8,
+        "confident_variants": 7
+      },
+      {
+        "n": 3,
+        "slot": 0,
+        "pattern": "* AB060 AB008",
+        "total": 6,
+        "variants": {
+          "AB008": 2,
+          "AB041": 1,
+          "AB078": 1,
+          "AB031": 1,
+          "AB067": 1
+        },
+        "documents": 6,
+        "sites": 4,
+        "site_list": "ARKH;HT;KN;ZA",
+        "entropy": 0.97,
+        "confident_total": 6,
+        "confident_variants": 5
+      },
+      {
+        "n": 3,
+        "slot": 1,
+        "pattern": "AB060 * AB008",
+        "total": 6,
+        "variants": {
+          "AB131": 1,
+          "AB024": 2,
+          "AB027": 1,
+          "AB069": 1,
+          "A512": 1
+        },
+        "documents": 6,
+        "sites": 4,
+        "site_list": "ARKH;HT;KN;ZA",
+        "entropy": 0.97,
+        "confident_total": 6,
+        "confident_variants": 5
+      },
+      {
+        "n": 3,
+        "slot": 2,
+        "pattern": "AB030 AB059 *",
+        "total": 6,
+        "variants": {
+          "AB059": 2,
+          "AB006": 1,
+          "AB069": 1,
+          "A307": 1,
+          "AB008": 1
+        },
+        "documents": 6,
+        "sites": 4,
+        "site_list": "ARKH;HT;PH;ZA",
+        "entropy": 0.97,
+        "confident_total": 6,
+        "confident_variants": 5
+      }
+    ]
+  },
+  "guardrails": [
+    "Variable slots are distributional properties, not morphology or syntax.",
+    "Windows may cross unrepresented boundaries.",
+    "Cross-site recurrence does not control chronology, genre, document type, or scribal tradition.",
+    "100-run shuffle is a coarse family-count null; future release should use more simulations/analytical controls.",
+    "No phonetic or semantic values used."
+  ]
+}

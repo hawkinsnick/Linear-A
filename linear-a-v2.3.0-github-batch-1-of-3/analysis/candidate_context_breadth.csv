@@ -1,0 +1,13 @@
+sign_id,position,document_types_with_2plus_hits,periods_with_2plus_hits,eligible_context_strata
+AB004,final,1,3,7
+AB006,final,1,3,7
+AB024,final,1,2,7
+AB027,final,1,2,7
+AB037,final,1,3,7
+AB065,final,1,1,7
+AB118,final,1,2,7
+AB008,initial,2,5,7
+AB010,initial,1,1,7
+AB016,initial,1,1,7
+AB028,initial,2,2,7
+AB081,initial,1,3,7

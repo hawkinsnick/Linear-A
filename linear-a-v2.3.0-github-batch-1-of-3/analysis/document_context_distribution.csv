@@ -1,0 +1,62 @@
+dimension,value,document_count
+document_type,Tablet,452
+document_type,Nodule,166
+document_type,Roundel,146
+document_type,Sealing,7
+document_type,Pithos,6
+document_type,Sherd,4
+document_type,Libation Table,4
+document_type,Graffiti,3
+document_type,Cup,2
+document_type,Libation table,2
+document_type,Plaque,1
+document_type,Lamp,1
+document_type,Pithoid jar,1
+document_type,Clay vase,1
+document_type,Architecture,1
+document_type,Jewellery,1
+document_type,Stone weight,1
+document_type,Clay weight,1
+document_type,Metal engraving,1
+document_type,Label,1
+period,LM IB,640
+period,MM IIB,34
+period,MM IIIB,28
+period,(blank),24
+period,MM II,19
+period,LM IA,18
+period,LM I,17
+period,MM III,5
+period,LM IB-II,2
+period,LM IA?,2
+period,LM II,2
+period,MM III?,2
+period,unknown,2
+period,LM I general,2
+period,MH III-LH I,1
+period,MM IIA,1
+period,n/a,1
+period,MM III-LM IA,1
+period,MM IIIA,1
+find_place,Haghia Triada,372
+find_place,Khania,220
+find_place,Phaistos,64
+find_place,Zakros,44
+find_place,Knossos,37
+find_place,Mallia,20
+find_place,Arkhanes,10
+find_place,Kea,7
+find_place,Thera,7
+find_place,Petras,3
+find_place,Tylissos,3
+find_place,GOURNIA,2
+find_place,Gournia,2
+find_place,Palaiokastro,2
+find_place,Pyrgos,2
+find_place,Haghios Stephanos,1
+find_place,Kythera,1
+find_place,Melos,1
+find_place,Mycenae,1
+find_place,Papoura,1
+find_place,Psykhro,1
+find_place,Syme,1

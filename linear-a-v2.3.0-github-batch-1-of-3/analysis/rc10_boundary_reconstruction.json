@@ -1,0 +1,101 @@
+{
+  "snapshot": {
+    "attestations": 5144,
+    "decoded_documents": 802
+  },
+  "raw_f3_structure": {
+    "decoded_coordinate_records": 5144,
+    "forms": {
+      "wrapped": 3448,
+      "direct": 1696
+    },
+    "interpretation": "In KN Zc 6 and many records, the pair is consistent with (position-like index, group-like index), but this is not globally validated.",
+    "wrapper_status": "unresolved: wrapped/direct distinction is preserved but no Bound.t or epigraphic meaning is assigned",
+    "validation_raw_all_attestations": {
+      "groups": 1708,
+      "unique_position_groups": 1391,
+      "zero_based_contiguous_groups": 1359,
+      "anomaly_groups": 349,
+      "note": "Validation uses all attestations so unreadable/erased records do not create artificial coordinate holes."
+    },
+    "validation_readable_filtered": {
+      "groups_with_readable_signs": 1616,
+      "unique_position_groups": 1344,
+      "zero_based_contiguous_groups": 1266,
+      "anomaly_groups": 350
+    },
+    "global_model_status": "hypothesis_only"
+  },
+  "kn_zc_6": {
+    "groups": {
+      "0": [
+        "AB034",
+        "AB037",
+        "AB053"
+      ],
+      "1": [
+        "AB008",
+        "AB007",
+        "AB001",
+        "AB067",
+        "AB037",
+        "AB003",
+        "AB081"
+      ],
+      "2": [
+        "AB030",
+        "AB057",
+        "AB055"
+      ],
+      "3": [
+        "AB065",
+        "AB081",
+        "AB006",
+        "AB003",
+        "AB081",
+        "AB055",
+        "AB010",
+        "AB028",
+        "AB079"
+      ]
+    },
+    "group_count": 4,
+    "result": "four coordinate-defined groups, consistent with the independently published description of multiple sign-groups and punctuation around the second group; this validates grouping structure, not linguistic function."
+  },
+  "variable_slot_analysis": {
+    "strong_within_source_groups": 144,
+    "strong_confident_only": 39,
+    "baseline_survive_confident": 39,
+    "cross_site": 109,
+    "by_length": {
+      "3": 118,
+      "4": 18,
+      "5": 8
+    },
+    "trigram_slot_distribution": {
+      "2": 51,
+      "0": 45,
+      "1": 22
+    },
+    "status": "exploratory under candidate second-coordinate grouping; not promoted to source-supported word/group analysis"
+  },
+  "correction_chain": {
+    "RC7": "document-stream frames were exploratory and could cross source groups.",
+    "RC8": "zero-state segmentation was a conservative stress test.",
+    "RC9": "integer-enum interpretation was falsified; touch-contiguity retained only as hypothesis.",
+    "RC10": "KN Zc 6 validates a coordinate/group-like reading locally, but corpus-wide anomalies prevent promotion to an authoritative global f3 model."
+  },
+  "limits": [
+    "Source-defined group does not automatically mean linguistic word.",
+    "The raw outer wrapper/direct distinction remains semantically unresolved.",
+    "Group coordinates do not by themselves identify punctuation type, spacing, or damage.",
+    "Document type, support, material, and period still require validated metadata joins."
+  ],
+  "status": "candidate coordinate model; authoritative global f3 semantics remain unresolved",
+  "required_next_evidence": [
+    "SigLA importer.ml or equivalent implementation defining the f3 serialized type.",
+    "Explanation of wrapped versus direct f3 forms.",
+    "Explanation of duplicate and non-contiguous coordinate pairs, including whether composites/damage account for them.",
+    "Additional object/transcription case studies beyond KN Zc 6."
+  ]
+}

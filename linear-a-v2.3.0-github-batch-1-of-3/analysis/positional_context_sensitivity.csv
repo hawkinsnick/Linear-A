@@ -1,0 +1,45 @@
+sign_id,position,dimension,eligible_categories,positive_direction_categories,details
+A309,initial,document_type,3,1,Tablet:4.64;Roundel:0.00;Nodule:0.00
+A309,initial,period,5,1,LM I:0.00;LM IB:4.64;(blank):0.00;MM IIIB:0.00;MM IIB:0.00
+AB001,initial,document_type,3,2,Tablet:2.77;Roundel:-0.58;Nodule:2.24
+AB001,initial,period,5,3,LM I:0.29;LM IB:3.37;(blank):-0.91;MM IIIB:0.00;MM IIB:0.11
+AB002,final,document_type,3,2,Tablet:7.27;Roundel:1.70;Nodule:0.00
+AB002,final,period,5,3,LM I:2.00;LM IB:7.16;(blank):1.00;MM IIIB:0.00;MM IIB:-1.00
+AB003,initial,document_type,3,3,Tablet:2.47;Roundel:2.00;Nodule:0.24
+AB003,initial,period,5,3,LM I:0.00;LM IB:2.95;(blank):0.24;MM IIIB:1.00;MM IIB:-0.71
+AB004,final,document_type,3,1,Tablet:3.38;Roundel:0.00;Nodule:0.00
+AB004,final,period,5,3,LM I:1.99;LM IB:3.16;(blank):0.47;MM IIIB:-0.58;MM IIB:-1.21
+AB006,final,document_type,3,2,Tablet:4.87;Roundel:-0.91;Nodule:1.41
+AB006,final,period,5,4,LM I:1.25;LM IB:4.27;(blank):-0.50;MM IIIB:1.69;MM IIB:0.24
+AB008,initial,document_type,3,2,Tablet:12.95;Roundel:3.50;Nodule:0.00
+AB008,initial,period,5,5,LM I:4.52;LM IB:12.02;(blank):3.52;MM IIIB:2.22;MM IIB:2.41
+AB009,final,document_type,3,2,Tablet:4.32;Roundel:0.22;Nodule:0.00
+AB009,final,period,5,2,LM I:-0.45;LM IB:4.53;(blank):-0.91;MM IIIB:1.00;MM IIB:0.00
+AB010,initial,document_type,3,1,Tablet:3.64;Roundel:0.00;Nodule:0.00
+AB010,initial,period,5,3,LM I:0.00;LM IB:3.36;(blank):0.00;MM IIIB:0.65;MM IIB:1.73
+AB016,initial,document_type,3,2,Tablet:4.44;Roundel:2.00;Nodule:0.00
+AB016,initial,period,5,2,LM I:-1.00;LM IB:5.04;(blank):0.00;MM IIIB:1.00;MM IIB:0.00
+AB017,final,document_type,3,1,Tablet:3.42;Roundel:0.00;Nodule:0.00
+AB017,final,period,5,2,LM I:-0.04;LM IB:3.44;(blank):1.73;MM IIIB:0.00;MM IIB:0.00
+AB024,final,document_type,3,2,Tablet:5.33;Roundel:0.00;Nodule:1.41
+AB024,final,period,5,3,LM I:0.72;LM IB:5.36;(blank):0.00;MM IIIB:0.00;MM IIB:1.73
+AB027,final,document_type,3,1,Tablet:4.70;Roundel:-1.30;Nodule:0.00
+AB027,final,period,5,3,LM I:1.96;LM IB:4.38;(blank):-0.71;MM IIIB:-1.00;MM IIB:0.75
+AB028,initial,document_type,3,2,Tablet:3.06;Roundel:-0.83;Nodule:2.83
+AB028,initial,period,5,3,LM I:-0.33;LM IB:2.99;(blank):-1.13;MM IIIB:0.50;MM IIB:2.74
+AB031,initial,document_type,3,1,Tablet:4.62;Roundel:-0.73;Nodule:0.00
+AB031,initial,period,5,1,LM I:-0.58;LM IB:5.24;(blank):-0.75;MM IIIB:0.00;MM IIB:-1.07
+AB037,final,document_type,3,2,Tablet:3.60;Roundel:0.65;Nodule:0.00
+AB037,final,period,5,4,LM I:0.93;LM IB:2.51;(blank):2.13;MM IIIB:2.65;MM IIB:-1.00
+AB060,final,document_type,3,2,Tablet:2.56;Roundel:2.26;Nodule:-0.58
+AB060,final,period,5,3,LM I:-0.10;LM IB:2.77;(blank):-0.76;MM IIIB:1.29;MM IIB:1.89
+AB065,final,document_type,3,1,Tablet:3.16;Roundel:0.00;Nodule:0.00
+AB065,final,period,5,3,LM I:1.00;LM IB:3.10;(blank):0.65;MM IIIB:0.00;MM IIB:0.00
+AB066,final,document_type,3,1,Tablet:3.45;Roundel:0.00;Nodule:0.00
+AB066,final,period,5,1,LM I:-1.00;LM IB:4.32;(blank):0.00;MM IIIB:0.00;MM IIB:0.00
+AB076,final,document_type,3,2,Tablet:3.17;Roundel:0.00;Nodule:2.83
+AB076,final,period,5,1,LM I:0.00;LM IB:4.10;(blank):0.00;MM IIIB:0.00;MM IIB:0.00
+AB081,initial,document_type,3,2,Tablet:7.49;Roundel:-0.50;Nodule:1.00
+AB081,initial,period,5,3,LM I:1.41;LM IB:7.46;(blank):1.70;MM IIIB:-1.00;MM IIB:0.00
+AB118,final,document_type,3,1,Tablet:3.76;Roundel:0.00;Nodule:0.00
+AB118,final,period,5,2,LM I:2.77;LM IB:3.09;(blank):0.00;MM IIIB:0.00;MM IIB:0.00

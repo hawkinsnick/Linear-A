@@ -1,0 +1,25 @@
+{
+  "version": "2.1.0-local",
+  "status": "ARTIFACT_IDENTITY_VERIFIED_BYTES_NOT_MATERIALIZED",
+  "source": "DAMOS (Database of Mycenaean at Oslo) via pyaegean damos-corpus-v2 derivative",
+  "license": "CC BY-NC-SA 4.0",
+  "expected_sha256": "eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "expected_scope": "~5,900 Linear B tablets with transliterations and metadata",
+  "frozen_test": "Apply the Linear A positional detector without tuning; compare predicted boundary concentration with known Mycenaean morphology only after predictions are frozen.",
+  "result": null,
+  "reason": "The checksum-pinned release asset could be identified and licensed, but its binary download could not be materialized in this execution environment. No substitute corpus or simulated success was used.",
+  "attempts": [
+    "checksum-pinned pyaegean DAMOS corpus asset identified but binary release asset not materialized",
+    "direct DAMOS JSON endpoint availability independently verified on current public site",
+    "container network path could not resolve github.com, so no corpus substitution was made"
+  ],
+  "direct_current_damos_note": "Current D\u0100MOS is actively updated; direct-current data must be snapshot-dated and must not be represented as the pinned derivative.",
+  "calibration_result": null,
+  "release_tag": "damos-corpus-v2",
+  "release_asset_id": 445059579,
+  "release_asset_size": 3104186,
+  "github_digest": "sha256:eab9ccdfc4324b62f015bccd5e3f917f256cab8c058840842127eadecfbca2d2",
+  "release_documents": 5932,
+  "release_documents_with_transliterated_text": 5890,
+  "review_note": "Direct GitHub tag/asset metadata resolves the pinned artifact. Full bytes were not available in the working container, so the blind known-answer experiment remains unexecuted."
+}

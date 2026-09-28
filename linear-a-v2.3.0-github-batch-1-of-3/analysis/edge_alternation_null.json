@@ -1,0 +1,9 @@
+{
+  "observed_edge_pairs": 651,
+  "null_mean": 587.238,
+  "null_sd": 8.476745319473224,
+  "z": 7.521990763780827,
+  "empirical_p_upper": 0.000999000999000999,
+  "null_replicates": 1000,
+  "null_definition": "shuffle signs within each distinct source-word type; then deduplicate; preserve type-level length and sign inventory"
+}

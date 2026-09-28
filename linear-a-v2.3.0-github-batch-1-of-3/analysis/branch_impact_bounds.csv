@@ -1,0 +1,9 @@
+branch_id,corpus_effect,bounded_conclusion,remaining_requirement
+B-HT17-NUM,not represented as classified sign branch in current safe aggregate,accounting/numeral analysis only,pending occurrence-aligned numeral layer
+B-HT34-516,at most one disputed occurrence in named case,global sign frequency changes by <=1 for involved identities,local sequence result can change
+B-HT34-WORD,damaged reading,excluded from confident lexical claims,requires word-boundary corpus
+B-HT49,damaged/local sequence,one local sequence changes,global structural frequency minimally affected
+B-KH74,rare sign/compound,one named occurrence classification branch; A605 family remains rare,rare-sign interpretation sensitive
+B-KH8,singleton form,one occurrence determines presence/absence of A567 class,maximally sensitive for claims about A567
+B-K,metrological value,does not alter sign identity frequency,numerical/metrological conclusions high sensitivity
+B-KNZC6,separator physically supported,does not change sign counts,layout/tokenization analysis changes

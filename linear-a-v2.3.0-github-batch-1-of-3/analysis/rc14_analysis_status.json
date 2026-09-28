@@ -1,0 +1,21 @@
+{
+  "retain": [
+    "decoder validation (5144 attestations / 46296 compared fields)",
+    "sign-frequency aggregates",
+    "certainty sensitivity",
+    "document-stream adjacency explicitly labeled structural",
+    "source-witness reconciliation",
+    "paleographic/source uncertainty branches"
+  ],
+  "retain_as_exploratory": [
+    "RC7 variable-slot families",
+    "candidate f3 second-coordinate grouping sensitivity",
+    "RC10/RC11 coordinate forensics"
+  ],
+  "supersede": [
+    "RC8 zero-boundary semantic interpretation",
+    "RC9 enum mapping (already rejected)",
+    "any claim that f3 pair universally means word position/index"
+  ],
+  "rule": "No decipherment, wordhood, morphology, or grammar claim follows from these structural analyses."
+}

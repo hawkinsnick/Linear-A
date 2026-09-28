@@ -1,0 +1,52 @@
+{
+  "candidate_groups": 1708,
+  "clean_groups": 1359,
+  "anomalous_groups": 349,
+  "clean_fraction": 0.795667,
+  "anomalies_with_coincident_conditions": 314,
+  "residual_without_conditions": 35,
+  "promotion_status": "not promoted",
+  "top_mechanisms": [
+    [
+      "duplicate_positions",
+      317
+    ],
+    [
+      "mixed_shape",
+      295
+    ],
+    [
+      "has_unreadable",
+      125
+    ],
+    [
+      "has_erasure",
+      53
+    ],
+    [
+      "missing_positions",
+      49
+    ],
+    [
+      "nonzero_start",
+      18
+    ],
+    [
+      "has_doubtful",
+      13
+    ],
+    [
+      "has_ghost",
+      7
+    ]
+  ],
+  "shape_group_counts": {
+    "mixed": 304,
+    "wrapped": 1097,
+    "direct": 307
+  },
+  "shape_anomaly_counts": {
+    "mixed": 295,
+    "direct": 54
+  }
+}

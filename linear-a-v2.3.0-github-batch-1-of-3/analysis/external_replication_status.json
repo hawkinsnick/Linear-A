@@ -1,0 +1,21 @@
+{
+  "status": "PARTIAL_METHOD_COMPARISON_ONLY",
+  "frozen_candidate_count": 12,
+  "davis_2026": {
+    "published_summary": "two signs especially common at word beginnings and four especially common at word ends; morphological interpretations proposed",
+    "identity_comparison": "BLOCKED: accessible abstract/summary does not enumerate all six sign identities"
+  },
+  "mollick_linearA": {
+    "status": "methodological comparator",
+    "corpus": "Linear A Explorer immutable snapshot; not independent primary reading",
+    "use": "comparison of ending null-model design; no identity replication claimed"
+  },
+  "tsirkas": {
+    "status": "corpus-validation comparator",
+    "use": "decoder/corpus adequacy and falsification culture; not a second source-word segmentation witness"
+  },
+  "known_answer_linear_b": {
+    "status": "BLOCKED_IN_0.9",
+    "reason": "No locally ingested, license-reviewed Linear B word corpus aligned to this exact positional test. Do not fabricate calibration."
+  }
+}
