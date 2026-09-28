@@ -1,0 +1,14 @@
+{
+  "version": "2.4.1",
+  "release_state": "SOURCE_AUDIT_AND_PROSPECTIVE_COHORT_FROZEN",
+  "original_sigla_snapshot": {
+    "documents": 802,
+    "attestations": 5144,
+    "sha256": "cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d"
+  },
+  "prospective_sigla_2026_labels": 24,
+  "candidate_outcomes_inspected": false,
+  "current_sigla_bytes_materialized": false,
+  "current_sigla_delta": null,
+  "frozen_2_3_2_4_hypotheses_unchanged": true
+}
