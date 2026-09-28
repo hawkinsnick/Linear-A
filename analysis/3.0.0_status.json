@@ -1,0 +1,23 @@
+{
+  "version": "3.0.0",
+  "release_state": "ARCHITECTURE_STABLE",
+  "corpus_complete": false,
+  "decipherment_claim": false,
+  "stable_contracts": [
+    "Research API v1",
+    "Experiment Gate v1",
+    "Aegean Epigraphy Interchange v0.1"
+  ],
+  "historical_corrections_preserved": [
+    "1.1 canonical site count 19 not 18",
+    "2.5 E-003 superseded 0.9 internal-position control",
+    "2.5 E-004 Holm arithmetic recheck passed"
+  ],
+  "open_scientific_gates": [
+    "DAMOS known-answer gold scoring",
+    "2.4 degraded-corpus execution",
+    "2026 prospective SigLA delta/outcome"
+  ],
+  "cross_script_core_extracted": false,
+  "next_major_direction": "populate evidence context, execute authenticated gates, build neutral clients/adapters"
+}

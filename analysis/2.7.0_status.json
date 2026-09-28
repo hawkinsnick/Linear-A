@@ -1,0 +1,13 @@
+{
+  "version": "2.7.0",
+  "release_state": "REPRODUCIBLE_PIPELINE_CONTRACT_FROZEN",
+  "stages": [
+    "structural_validation",
+    "witness_validation",
+    "statistical_execution",
+    "experiment_gates",
+    "claim_audit",
+    "manifest"
+  ],
+  "raw_restricted_inputs_committed": false
+}

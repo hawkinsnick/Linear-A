@@ -1,0 +1,8 @@
+{
+  "version": "2.8.0",
+  "release_state": "EXPERIMENT_GATE_MODEL_FROZEN",
+  "known_answer_linear_b": "BLOCKED_PENDING_AUTHENTICATED_EXECUTION_AND_GOLD_SCORING",
+  "sigla_2026_prospective": "BLOCKED_PENDING_PINNED_BYTES",
+  "degraded_linear_b": "BLOCKED_PENDING_2.3_BASELINE",
+  "blocked_is_not_failure": true
+}

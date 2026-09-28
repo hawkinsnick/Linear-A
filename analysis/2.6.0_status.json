@@ -1,0 +1,8 @@
+{
+  "version": "2.6.0",
+  "release_state": "EVIDENCE_API_CONTRACT_FROZEN",
+  "api_style": "read_only_file_backed",
+  "canonical_truth_endpoint": false,
+  "native_data_preserved": true,
+  "cross_script_contract": "Aegean Epigraphy Interchange v0.1"
+}

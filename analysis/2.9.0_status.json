@@ -1,0 +1,12 @@
+{
+  "version": "2.9.0",
+  "release_state": "PLATFORM_SURFACE_FROZEN",
+  "stable_contracts": [
+    "research-api-v1",
+    "experiment-gate-v1",
+    "aegean-interop-v0.1"
+  ],
+  "interactive_ui": "downstream_future_client",
+  "python_package": "future_adapter_client",
+  "corpus_truth_depends_on_ui": false
+}

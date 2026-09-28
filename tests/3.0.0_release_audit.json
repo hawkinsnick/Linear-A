@@ -1,0 +1,30 @@
+{
+  "passed": 24,
+  "total": 24,
+  "checks": {
+    "version_3": true,
+    "architecture_doc": true,
+    "research_api_v1": true,
+    "experiment_gate_v1": true,
+    "aegean_interop_v01": true,
+    "multi_witness_layer": true,
+    "lineage_independence": true,
+    "rights_policy": true,
+    "claim_registry": true,
+    "errata_preserved": true,
+    "holm_recheck_preserved": true,
+    "internal_control_superseded": true,
+    "site_count_correction_preserved": true,
+    "decoder_claim_bounded": true,
+    "source_words_bounded": true,
+    "f3_quarantined": true,
+    "cluster_bootstrap_conservative_result": true,
+    "known_answer_unresolved": true,
+    "degradation_unresolved": true,
+    "prospective_sigla_unresolved": true,
+    "no_morphology_claim": true,
+    "no_decipherment_claim": true,
+    "manifest_builder": true,
+    "claim_auditor": true
+  }
+}

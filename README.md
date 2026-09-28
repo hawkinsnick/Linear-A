@@ -10,7 +10,7 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**2.5.0 — statistical multiverse framework frozen after 2.4.x evidence-architecture expansion**
+**3.0.0 — architecture-stable provenance-first research platform**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 
@@ -155,6 +155,12 @@ Added an evidence-based capability benchmark against SigLA, lineara.xyz and the 
 
 ### 2.5.0 — statistical multiverse framework
 Froze an executable multiverse/document-cluster specification for the 12 historical candidates and performed a backward statistical inheritance audit. The displayed 0.9 Holm-adjusted table passes an arithmetic recheck. The 0.9 random-internal-position negative control is superseded because its boundary and internal-position populations have mismatched eligibility/support. The historical 1.7 6/12 cluster-bootstrap result remains the conservative structural result pending execution/freeze of the new 2.5 framework.
+
+### 2.6.0–2.9.0 — platform stabilization
+Froze Research API v1, reproducible pipeline semantics, machine-readable experiment gates and the client/adapter boundary. Blocked experiments remain first-class scientific states rather than being omitted or substituted.
+
+### 3.0.0 — architecture freeze
+First architecture-stable research-platform release. Freezes the evidence/witness/research/interchange layering, claim/errata guardrails and cross-script neutral boundary. Open scientific gates remain open: DĀMOS gold scoring, degraded-corpus execution and the prospective 2026 SigLA result. 3.0 is neither corpus-completeness nor decipherment.
 
 ## Research-history and correction records
 

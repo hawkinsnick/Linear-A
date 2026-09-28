@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linear A Research API response v1",
+  "type": "object",
+  "required": [
+    "api_version",
+    "resource",
+    "records"
+  ],
+  "properties": {
+    "api_version": {
+      "const": "1.0"
+    },
+    "resource": {
+      "enum": [
+        "documents",
+        "source_words",
+        "evidence",
+        "witness_assertions",
+        "disagreements",
+        "claims",
+        "experiments"
+      ]
+    },
+    "records": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
