@@ -1,0 +1,13 @@
+{
+  "scholarly_source": "SigLA — Salgarella & Castellan",
+  "derivative_provider": "pyaegean",
+  "release_tag": "sigla-corpus-v4",
+  "asset": "sigla-corpus.json",
+  "published_at": "2026-07-11T18:08:16Z",
+  "bytes": 1335389,
+  "sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "license": "CC BY-NC-SA 4.0 (SigLA-derived data)",
+  "materialized_in_current_environment": false,
+  "status": "ARTIFACT_IDENTITY_VERIFIED_BYTES_NOT_MATERIALIZED",
+  "note": "Derivative identity is pinned for reproducible acquisition. Scholarly attribution remains SigLA; pyaegean is the derivative/acquisition provider."
+}
