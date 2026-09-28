@@ -1,0 +1,16 @@
+{
+  "version": "3.0.3",
+  "claims_under_pressure": [
+    {
+      "claim_family": "source-word positional enrichment",
+      "tests_already_available": [
+        "permutation",
+        "leave-one-site-out",
+        "document-cluster bootstrap",
+        "cross-representation"
+      ],
+      "next_kill_test": "prospective current-SigLA replication",
+      "interpretation_ceiling": "structural; no morpheme/phonetic/language claim"
+    }
+  ]
+}

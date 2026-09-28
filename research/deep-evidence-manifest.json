@@ -1,0 +1,32 @@
+{
+  "manifest_version": "1.0",
+  "project": "Linear A",
+  "target_milestone": "3.1.0",
+  "principle": "A milestone is earned by new verified evidence, an executed falsifiable experiment, or an independently auditable control.",
+  "blockers": [
+    {
+      "id": "SIGLA_V4_BYTES",
+      "state": "BLOCKED",
+      "target": "pyaegean sigla-corpus-v4 asset 473681091",
+      "expected_bytes": 1335389,
+      "expected_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8"
+    },
+    {
+      "id": "PROSPECTIVE_SCORE",
+      "state": "BLOCKED",
+      "depends_on": "SIGLA_V4_BYTES"
+    }
+  ],
+  "unlock_conditions": [
+    "exact bytes independently rehashed",
+    "snapshot delta generated",
+    "24 frozen labels scored without retuning",
+    "all null/negative outcomes published"
+  ],
+  "claim_policy": {
+    "blocked_means_no_positive_claim": true,
+    "null_results_preserved": true,
+    "source_locator_required": true,
+    "rights_follow_data": true
+  }
+}
