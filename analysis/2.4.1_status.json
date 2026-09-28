@@ -10,5 +10,10 @@
   "candidate_outcomes_inspected": false,
   "current_sigla_bytes_materialized": false,
   "current_sigla_delta": null,
-  "frozen_2_3_2_4_hypotheses_unchanged": true
+  "frozen_2_3_2_4_hypotheses_unchanged": true,
+  "current_sigla_artifact_identity_verified": true,
+  "current_sigla_derivative": "pyaegean sigla-corpus-v4",
+  "current_sigla_expected_bytes": 1335389,
+  "current_sigla_expected_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "next_gate": "MATERIALIZE_PINNED_SIGLA_V4_BYTES_AND_VERIFY_SHA256"
 }
