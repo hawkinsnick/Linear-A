@@ -1,0 +1,14 @@
+{
+  "passed": 8,
+  "total": 8,
+  "checks": {
+    "original_snapshot_identity_recorded": true,
+    "prospective_membership_frozen": true,
+    "prospective_outcomes_unseen": true,
+    "sigla_license_recorded": true,
+    "mixed_source_licenses_not_flattened": true,
+    "independence_not_assumed": true,
+    "frozen_experiments_unchanged": true,
+    "current_snapshot_result_not_fabricated": true
+  }
+}
