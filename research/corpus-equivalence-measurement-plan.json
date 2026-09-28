@@ -1,0 +1,47 @@
+{
+  "version": "0.1",
+  "goal": "Replace coarse corpus-size matching with measured information-environment distributions.",
+  "dimensions": [
+    {
+      "id": "document_length",
+      "unit": "observable sign/token count per document",
+      "LA": "measurable",
+      "LB": "measurable",
+      "CM": "blocked_sparse_occurrences",
+      "CH": "blocked_no_checked_occurrences"
+    },
+    {
+      "id": "site_concentration",
+      "unit": "distribution across source-attributed sites",
+      "LA": "measurable_identifier_derived",
+      "LB": "measurable",
+      "CM": "partial",
+      "CH": "partial_catalogue_context"
+    },
+    {
+      "id": "damage_uncertainty",
+      "unit": "source-attributed damaged/uncertain occurrence rate",
+      "LA": "partial",
+      "LB": "requires representation review",
+      "CM": "blocked_sparse",
+      "CH": "blocked"
+    },
+    {
+      "id": "type_frequency_hapax",
+      "unit": "representation-specific sequence/type frequency",
+      "LA": "measurable_source_words",
+      "LB": "requires frozen comparable segmentation",
+      "CM": "blocked",
+      "CH": "blocked"
+    },
+    {
+      "id": "hand_concentration",
+      "unit": "document distribution by scholarly hand classification",
+      "LA": "unknown",
+      "LB": "measurable",
+      "CM": "unknown",
+      "CH": "unknown"
+    }
+  ],
+  "rule": "No metric enters a matched degradation target until its semantics and denominator are compatible across baseline and target."
+}

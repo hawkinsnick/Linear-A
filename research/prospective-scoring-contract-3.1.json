@@ -1,0 +1,50 @@
+{
+  "version": "3.0.5",
+  "target_release": "3.1.0",
+  "experiment": "2026 current-SigLA prospective replication",
+  "cohort_file": "analysis/2.4.1_prospective_sigla_cohort.csv",
+  "cohort_size": 24,
+  "stages": [
+    {
+      "order": 1,
+      "name": "authenticate_current_snapshot",
+      "must_complete_before_next": true
+    },
+    {
+      "order": 2,
+      "name": "descriptive_delta",
+      "script": "scripts/compare_sigla_snapshots_2_4_1.py",
+      "candidate_outcomes_evaluated": false,
+      "must_freeze_output_before_next": true
+    },
+    {
+      "order": 3,
+      "name": "prospective_candidate_scoring",
+      "state": "FROZEN_PENDING_INPUT"
+    }
+  ],
+  "immutable_after_current_snapshot_open": [
+    "candidate identities",
+    "position direction",
+    "selection cohort",
+    "primary success criterion",
+    "null-model family",
+    "exclusion rules"
+  ],
+  "reporting": [
+    "per-candidate numerator and denominator",
+    "effect size",
+    "uncertainty",
+    "null comparison",
+    "missing/unscorable cohort members",
+    "all 24 cohort labels",
+    "null and negative outcomes"
+  ],
+  "prohibitions": [
+    "drop a cohort document because it weakens a result",
+    "change sign normalization after inspecting outcomes",
+    "substitute f3-derived segmentation for explicit source-word semantics",
+    "describe structural replication as linguistic confirmation"
+  ],
+  "release_gate": "3.1.0 requires authenticated current bytes, frozen descriptive delta, and complete prospective scoring report."
+}
