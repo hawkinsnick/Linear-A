@@ -1,0 +1,22 @@
+{
+  "passed": 16,
+  "total": 16,
+  "checks": {
+    "candidate_family_frozen": true,
+    "token_model_declared": true,
+    "type_model_declared": true,
+    "document_cluster_model_declared": true,
+    "permutation_model_declared": true,
+    "bootstrap_seed_frozen": true,
+    "permutation_seed_frozen": true,
+    "holm_method_frozen": true,
+    "internal_control_superseded": true,
+    "holm_recheck_recorded": true,
+    "no_new_performance_claim_without_execution": true,
+    "no_known_answer_claim": true,
+    "no_prospective_sigla_claim": true,
+    "no_morphology_claim": true,
+    "no_decipherment_claim": true,
+    "upstream_rights_preserved": true
+  }
+}

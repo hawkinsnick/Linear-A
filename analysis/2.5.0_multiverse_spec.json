@@ -1,0 +1,51 @@
+{
+  "version": "2.5.0",
+  "status": "PREREGISTERED_EXECUTABLE_SPEC",
+  "input": "data/source_words.csv",
+  "candidate_registry": "data/candidate_registry_0.9.csv",
+  "units": [
+    "word_token",
+    "unique_word_type",
+    "document_cluster"
+  ],
+  "positions": [
+    "initial",
+    "final"
+  ],
+  "minimum_candidate_occurrences": 8,
+  "models": [
+    {
+      "id": "token_analytic",
+      "unit": "word_token",
+      "purpose": "descriptive continuity only"
+    },
+    {
+      "id": "type_analytic",
+      "unit": "unique_word_type",
+      "purpose": "deduplication sensitivity"
+    },
+    {
+      "id": "document_cluster_bootstrap",
+      "unit": "document",
+      "replicates": 5000,
+      "seed": 2500001,
+      "purpose": "primary composition-robust sensitivity"
+    },
+    {
+      "id": "within_word_permutation",
+      "unit": "word_token",
+      "replicates": 5000,
+      "seed": 2500002,
+      "purpose": "position null preserving word sign multiset"
+    }
+  ],
+  "multiplicity": {
+    "family": "12 frozen sign-position candidates",
+    "method": "Holm step-down",
+    "alpha": 0.05
+  },
+  "inherited_controls": {
+    "internal_position_0_9": "SUPERSEDED_DENOMINATOR_MISMATCH"
+  },
+  "interpretation": "structural robustness only; no morphology, phonetic value, language family, translation or decipherment claim"
+}

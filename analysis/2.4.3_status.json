@@ -1,0 +1,11 @@
+{
+  "version": "2.4.3",
+  "release_state": "CONTEXT_ARCHITECTURE_COMPLETE",
+  "scribe_layer": "schema_ready_source_population_pending",
+  "support_layer": "schema_ready_source_population_pending",
+  "findspot_layer": "schema_ready_source_population_pending",
+  "layout_layer": "schema_ready_source_population_pending",
+  "palaeography_layer": "schema_ready_source_population_pending",
+  "identifier_site_proxy_preserved_as_proxy": true,
+  "no_fabricated_context": true
+}

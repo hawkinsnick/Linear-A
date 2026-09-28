@@ -1,0 +1,13 @@
+{
+  "version": "2.5.0",
+  "release_state": "STATISTICAL_MULTIVERSE_FRAMEWORK_COMPLETE",
+  "headline_new_performance_claim": null,
+  "known_answer_calibration_result": null,
+  "sigla_2026_prospective_result": null,
+  "errata": [
+    "E-003 supersedes 0.9 internal-position negative control",
+    "E-004 clears displayed 0.9 Holm adjustment arithmetic"
+  ],
+  "primary_existing_conservative_result": "6/12 document-cluster-bootstrap survivors from 1.7 pending rerun under 2.5 executable framework",
+  "no_decipherment_claim": true
+}

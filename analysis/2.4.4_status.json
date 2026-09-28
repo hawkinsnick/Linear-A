@@ -1,0 +1,16 @@
+{
+  "version": "2.4.4",
+  "release_state": "INTEROPERABILITY_CONTRACT_FROZEN",
+  "canonical_formats": [
+    "CSV",
+    "JSON"
+  ],
+  "planned_adapters": [
+    "JSON-LD",
+    "EpiDoc",
+    "Parquet"
+  ],
+  "lossy_export_must_be_declared": true,
+  "provenance_required": true,
+  "license_required": true
+}

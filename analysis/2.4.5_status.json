@@ -1,0 +1,17 @@
+{
+  "version": "2.4.5",
+  "release_state": "BENCHMARK_BASELINE_FROZEN",
+  "comparison_is_ranking": false,
+  "known_strengths": [
+    "evidence_lineage",
+    "multi_witness_assertions",
+    "claim_audit",
+    "frozen_experimental_gates"
+  ],
+  "known_gaps": [
+    "interactive_UI",
+    "Python_API",
+    "broad_export_adapters",
+    "populated_palaeographic_context"
+  ]
+}

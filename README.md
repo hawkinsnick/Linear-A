@@ -10,7 +10,7 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**2.4.2 — multi-witness epigraphic infrastructure complete; source population continues rights-aware**
+**2.5.0 — statistical multiverse framework frozen after 2.4.x evidence-architecture expansion**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 
@@ -143,6 +143,18 @@ Froze the original SigLA analytical snapshot and a 24-label prospective cohort f
 
 ### 2.4.2 — multi-witness epigraphic layer
 Established separate schemas for canonical document identity, source-specific witness assertions, source lineage/independence and explicit disagreements/adjudication. Added a lineage-aware validator and hostile shared-upstream fixture so multiple digital reproductions of one upstream edition cannot be counted as independent epigraphic confirmations. Infrastructure is complete; source-by-source population remains ongoing and rights-aware.
+
+### 2.4.3 — archaeological and palaeographic context
+Formalized scribe, support, period, findspot, layout, damage, image/tracing and palaeographic context as provenance-bearing source assertions. The existing site mapping remains explicitly identifier-derived rather than being relabeled as direct excavation metadata.
+
+### 2.4.4 — interoperability foundation
+Froze a loss-aware interchange contract around documents, source-defined words, evidence instances, witness assertions, lineages and disagreements. CSV/JSON remain canonical working formats; JSON-LD, EpiDoc and Parquet are adapter targets. Lossy exports must be declared.
+
+### 2.4.5 — toolset benchmark baseline
+Added an evidence-based capability benchmark against SigLA, lineara.xyz and the Linear A Workbench/pyaegean ecosystem. The project records its current strengths in evidence lineage, claim auditing and experimental falsifiability, while explicitly recording gaps in interactive UI, Python API, broad export adapters and populated palaeographic context.
+
+### 2.5.0 — statistical multiverse framework
+Froze an executable multiverse/document-cluster specification for the 12 historical candidates and performed a backward statistical inheritance audit. The displayed 0.9 Holm-adjusted table passes an arithmetic recheck. The 0.9 random-internal-position negative control is superseded because its boundary and internal-position populations have mismatched eligibility/support. The historical 1.7 6/12 cluster-bootstrap result remains the conservative structural result pending execution/freeze of the new 2.5 framework.
 
 ## Research-history and correction records
 
