@@ -1,0 +1,9 @@
+lineage_id,source_id,parent_source_id,relationship,independence_class,basis
+sigla_editorial,SigLA,GORILA,editorial_revision,partially_independent,"SigLA is a palaeographic database with its own editorial/sign-instance work while using established inscription/catalogue traditions; individual claims require finer lineage review."
+lineara_xyz_gorila,lineara.xyz,GORILA,digital_reencoding,shared_upstream,"Digital transcription derived from GORILA/Douros lineage; useful cross-representation witness but not independent epigraphic confirmation."
+pyaegean_lineara,pyaegean,lineara.xyz,digital_reencoding,shared_upstream,"Bundled Linear A transcription derives through lineara.xyz/GORILA according to pyaegean NOTICE."
+pyaegean_sigla,pyaegean,SigLA,digital_reencoding,shared_upstream,"sigla-corpus release decodes SigLA payload; scholarly evidence remains SigLA."
+lineara_eu_sigla,lineara.eu,SigLA,merged_representation,shared_upstream,"SigLA tracing layer remains SigLA-derived."
+lineara_eu_xyz,lineara.eu,lineara.xyz,merged_representation,shared_upstream,"Word/transcription layer includes lineara.xyz-derived material."
+gorila,GORILA,,primary_edition,unknown,"Foundational edition; independence of individual readings must be evaluated against excavation/publication history."
+primary_object,physical_object,,primary_object,independent_epigraphic,"Direct reinspection of the inscribed object or independently documented primary image, when rights/provenance and inspection are recorded."
