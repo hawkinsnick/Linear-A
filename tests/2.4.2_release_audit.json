@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "total": 12,
+  "checks": {
+    "document_identity_schema": true,
+    "witness_assertion_schema": true,
+    "disagreement_schema": true,
+    "source_lineage_table": true,
+    "assertion_level_license": true,
+    "assertion_level_certainty": true,
+    "explicit_adjudication_state": true,
+    "shared_upstream_fixture": true,
+    "lineage_aware_validator": true,
+    "no_majority_truth_rule": true,
+    "frozen_experiments_unchanged": true,
+    "prospective_cohort_unchanged": true
+  }
+}
