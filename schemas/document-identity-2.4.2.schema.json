@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linear A multi-witness document identity 2.4.2",
+  "type": "object",
+  "required": [
+    "canonical_document_id",
+    "identity_status",
+    "aliases"
+  ],
+  "properties": {
+    "canonical_document_id": {
+      "type": "string"
+    },
+    "identity_status": {
+      "enum": [
+        "exact",
+        "probable",
+        "ambiguous",
+        "unresolved"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "source_document_id"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "source_document_id": {
+            "type": "string"
+          },
+          "source_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "match_basis": {
+            "enum": [
+              "exact_identifier",
+              "normalized_identifier",
+              "source_crosswalk",
+              "object_inventory",
+              "manual_review"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "certain",
+              "probable",
+              "uncertain"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "physical_object_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
