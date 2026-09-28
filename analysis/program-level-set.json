@@ -1,0 +1,15 @@
+{
+  "contract_version": "1.0",
+  "repository": "hawkinsnick/Linear-A",
+  "repository_version": "3.0.1",
+  "script": "linear-a",
+  "dimensions": {
+    "architecture": "STABLE",
+    "authenticated_evidence": "SUBSTANTIAL_SIGLA_SNAPSHOT",
+    "source_checked_coverage": "PARTIAL",
+    "executed_analysis": "MULTIPLE_STRUCTURAL_EXPERIMENTS_EXECUTED",
+    "external_control_validation": "BLOCKED_PENDING_LINEAR_B_GOLD_CALIBRATION",
+    "rights_provenance": "MATURE"
+  },
+  "global_ready_claim": false
+}
