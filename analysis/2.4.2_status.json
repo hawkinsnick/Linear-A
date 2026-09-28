@@ -1,0 +1,10 @@
+{
+  "version": "2.4.2",
+  "release_state": "MULTI_WITNESS_INFRASTRUCTURE_COMPLETE",
+  "data_population_state": "PARTIAL_PENDING_SOURCE_BY_SOURCE_INGESTION",
+  "canonical_truth_table_created": false,
+  "majority_vote_rule": false,
+  "shared_upstream_counts_as_independent": false,
+  "frozen_2_3_2_4_hypotheses_unchanged": true,
+  "prospective_2_4_1_cohort_unchanged": true
+}
