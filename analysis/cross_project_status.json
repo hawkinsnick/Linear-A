@@ -1,0 +1,11 @@
+{
+  "contract_version": "0.1",
+  "linear_a_repository": "hawkinsnick/Linear-A",
+  "cypro_minoan_repository": "hawkinsnick/Cypro-Minoan",
+  "repositories_remain_separate": true,
+  "shared_corpus": false,
+  "shared_signary": false,
+  "shared_segmentation_model": false,
+  "linear_b_deferred": true,
+  "next_shared_core_gate": "two-project demonstrated need for identical neutral validators"
+}
