@@ -1,0 +1,11 @@
+{
+  "passed": 5,
+  "total": 5,
+  "checks": {
+    "version": true,
+    "12_candidates": true,
+    "context_table": true,
+    "descriptive_only": true,
+    "calibration_blocker_preserved": true
+  }
+}

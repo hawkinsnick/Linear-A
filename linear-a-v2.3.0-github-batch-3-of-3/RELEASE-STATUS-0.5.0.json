@@ -1,0 +1,29 @@
+{
+  "version": "0.5.0-local",
+  "release_status": "finished local research release",
+  "core_advances": [
+    "provenance-bearing document-context schema",
+    "field-level context assertions",
+    "typed structural-unit schema separating source words from candidate f3 groups",
+    "machine-readable analysis eligibility",
+    "verified current SigLA metadata/word-view semantics",
+    "source-explicit exemplar context rows",
+    "explicit ban on f3-as-word substitution"
+  ],
+  "carried_forward": {
+    "decoder": "802 documents; 5144 attestations; two executable paths; 46296 fields; 0 differences",
+    "f3": "unresolved/evidence-tiered",
+    "licensing": "SigLA derivatives retain CC BY-NC-SA 4.0 obligations; safe package excludes raw payload/images/PDFs/full attestation table"
+  },
+  "not_claimed": [
+    "exhaustive current document metadata ingestion",
+    "bulk source-word extraction",
+    "document-type/period statistical conclusions from exemplar rows",
+    "decipherment or linguistic interpretation"
+  ],
+  "next_version_candidates": [
+    "0.5.1: reproducible full current SigLA document metadata importer",
+    "0.6.0: source-word corpus and context-stratified analyses after importer validation"
+  ],
+  "publication": "local only; no GitHub writes"
+}

@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "rows_5144": true,
+    "docs_787": true,
+    "permutations_300": true,
+    "motif_lengths_3_6": true,
+    "q_valid": true,
+    "robust_confident2": true,
+    "robust_docs2": true,
+    "cross_sites2": true,
+    "no_phonetic_values": true,
+    "no_raw_fingerprint": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "no_raw_sigla": true,
+    "network_nonempty": true,
+    "github_local_only": true
+  }
+}

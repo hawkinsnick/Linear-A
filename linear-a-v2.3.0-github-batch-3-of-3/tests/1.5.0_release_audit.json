@@ -1,0 +1,11 @@
+{
+  "passed": 5,
+  "total": 5,
+  "checks": {
+    "version": true,
+    "edge_table": true,
+    "candidate_table": true,
+    "neutral_language": true,
+    "components_written": true
+  }
+}

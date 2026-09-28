@@ -1,0 +1,45 @@
+{
+  "version": "0.4.0-rc15-local",
+  "cycle_status": "release-candidate freeze",
+  "decoder": {
+    "documents": 802,
+    "attestations": 5144,
+    "semantic_field_comparisons": 46296,
+    "differences": 0
+  },
+  "f3": {
+    "semantic_decoding": "unresolved",
+    "representation_policy": "evidence-tiered; preserve raw topology and uncertainty"
+  },
+  "analysis_policy": {
+    "retain": [
+      "decoder validation (5144 attestations / 46296 compared fields)",
+      "sign-frequency aggregates",
+      "certainty sensitivity",
+      "document-stream adjacency explicitly labeled structural",
+      "source-witness reconciliation",
+      "paleographic/source uncertainty branches"
+    ],
+    "retain_as_exploratory": [
+      "RC7 variable-slot families",
+      "candidate f3 second-coordinate grouping sensitivity",
+      "RC10/RC11 coordinate forensics"
+    ],
+    "supersede": [
+      "RC8 zero-boundary semantic interpretation",
+      "RC9 enum mapping (already rejected)",
+      "any claim that f3 pair universally means word position/index"
+    ],
+    "rule": "No decipherment, wordhood, morphology, or grammar claim follows from these structural analyses."
+  },
+  "licensing": {
+    "safe_package": "excludes raw SigLA payload, imagery, PDFs, full 5144-row derived table",
+    "SigLA_derivatives": "retain upstream CC BY-NC-SA 4.0 obligations"
+  },
+  "publication": "local only; no GitHub writes",
+  "remaining_blockers_for_final_0_4_0": [
+    "researcher/upstream clarification if available for f3 wrapped/direct semantics",
+    "validated document-type/support/material/period metadata join",
+    "decision whether 0.4.0 final should ship before or after those clarifications"
+  ]
+}

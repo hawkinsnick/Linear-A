@@ -1,0 +1,23 @@
+{
+  "passed": 17,
+  "total": 17,
+  "checks": {
+    "version": true,
+    "starts_22": true,
+    "strict_12": true,
+    "downgraded_10": true,
+    "matrix_22": true,
+    "type_control": true,
+    "loo_document": true,
+    "loo_group": true,
+    "dominant_ablation": true,
+    "context_output": true,
+    "remainder_output": true,
+    "no_affix_claim": true,
+    "site_guardrail": true,
+    "f3_guardrail": true,
+    "no_raw_sigla": true,
+    "no_images": true,
+    "no_pdfs": true
+  }
+}

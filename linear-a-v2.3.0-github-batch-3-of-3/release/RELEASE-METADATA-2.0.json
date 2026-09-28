@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0-local",
+  "date": "2026-09-27",
+  "claims": 17,
+  "frozen_positional_candidates": 12,
+  "document_bootstrap_lower_bound_survivors": 6,
+  "edge_relations": 651,
+  "edge_null_mean": 587.238,
+  "edge_null_p": 0.000999000999000999,
+  "known_answer_linear_b": "blocked/unexecuted",
+  "independent_epigraphic_replication": "not yet established",
+  "interpretive_status": "structural research infrastructure; no decipherment"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": 13,
+  "total": 13,
+  "checks": {
+    "attestations_5144": true,
+    "groups_nonzero": true,
+    "clean_plus_anom": true,
+    "unexplained_exported": true,
+    "coincidence_not_causation": true,
+    "no_silent_repair": true,
+    "model_status_explicit": true,
+    "wrapped_direct_uninterpreted": true,
+    "no_raw_sigla": true,
+    "no_full_fingerprint": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "github_local_only": true
+  }
+}

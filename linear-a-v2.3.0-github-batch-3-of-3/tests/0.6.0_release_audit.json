@@ -1,0 +1,23 @@
+{
+  "passed": 17,
+  "total": 17,
+  "checks": {
+    "version_060": true,
+    "documents_802": true,
+    "word_objects_1401": true,
+    "word_validation_6_of_6": true,
+    "no_bad_word_lists": true,
+    "no_duplicate_members": true,
+    "empty_words_disclosed": true,
+    "f3_separate": true,
+    "adjacency_tested": true,
+    "adjacency_fdr_positive": true,
+    "site_mapping_zero_unmapped": true,
+    "dimensions_withheld": true,
+    "license_notice": true,
+    "no_raw_sigla": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "github_local_only": true
+  }
+}

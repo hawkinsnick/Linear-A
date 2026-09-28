@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "rows_5144": true,
+    "docs_802": true,
+    "confident_4712": true,
+    "erasures_104": true,
+    "ghosts_7": true,
+    "top30_overlap_valid": true,
+    "rho_valid": true,
+    "no_raw_fingerprint_bundled": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "no_raw_sigla": true,
+    "adjacency_not_called_words": true,
+    "position_not_called_word_position": true,
+    "external_non_equivalence_documented": true,
+    "github_local_only": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": 5,
+  "total": 5,
+  "checks": {
+    "version": true,
+    "all_docs_mapped": true,
+    "mapping_file": true,
+    "geo_12": true,
+    "no_heuristic_as_raw": true
+  }
+}

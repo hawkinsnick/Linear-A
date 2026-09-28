@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "total": 12,
+  "checks": {
+    "rows_5144": true,
+    "values_exceed_enum": true,
+    "enum_mapping_rejected": true,
+    "touch_hypothesis_labeled": true,
+    "no_semantic_mapping": true,
+    "continuity_accounted": true,
+    "no_invalid_mapping_file": true,
+    "no_raw_fingerprint": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "no_raw_sigla": true,
+    "github_local_only": true
+  }
+}

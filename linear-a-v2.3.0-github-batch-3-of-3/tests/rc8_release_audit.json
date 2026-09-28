@@ -1,0 +1,19 @@
+{
+  "passed": 13,
+  "total": 13,
+  "checks": {
+    "rows_5144": true,
+    "baseline_nonempty": true,
+    "conf_control": true,
+    "boundary_control": true,
+    "site_loo_all": true,
+    "stable_subset": true,
+    "document_type_not_fabricated": true,
+    "join_rule_no_inference": true,
+    "no_raw_fingerprint": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "no_raw_sigla": true,
+    "github_local_only": true
+  }
+}

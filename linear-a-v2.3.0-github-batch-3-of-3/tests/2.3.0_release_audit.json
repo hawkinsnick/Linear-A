@@ -1,0 +1,13 @@
+{
+  "passed": 7,
+  "total": 7,
+  "checks": {
+    "version": true,
+    "runner_exists": true,
+    "expected_hash_in_runner": true,
+    "hard_hash_abort": true,
+    "gold_not_seen": true,
+    "no_result": true,
+    "protocol_freezes_predictions": true
+  }
+}

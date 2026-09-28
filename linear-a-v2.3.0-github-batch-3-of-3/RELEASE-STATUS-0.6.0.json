@@ -1,0 +1,32 @@
+{
+  "version": "0.6.0-local",
+  "source_words": {
+    "objects": 1401,
+    "nonempty": 1283,
+    "empty": 118,
+    "live_count_checks": "6/6",
+    "membership_method": "explicit serialized SigLA Word lists; no f3 inference"
+  },
+  "documents": {
+    "count": 802,
+    "metadata_fields_activated": [
+      "document_type",
+      "find_place (decoded and audited separately)",
+      "period"
+    ],
+    "dimensions": "withheld pending float validation"
+  },
+  "word_adjacency_null": {
+    "tested_pairs": 121,
+    "permutations": 500,
+    "positive_bh_q_le_005": 54,
+    "interpretation": "structural enrichment within SigLA-defined words under this null; not morphology/phonotactics"
+  },
+  "context": {
+    "document_types": 20,
+    "period_raw_categories": 19,
+    "site_mapping_unmapped_documents": "superseded: inherited site_id was a document-label-prefix heuristic"
+  },
+  "f3": "unresolved/evidence-tiered; analytically separate",
+  "publication": "local only; no GitHub writes"
+}

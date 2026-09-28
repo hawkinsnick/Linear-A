@@ -1,0 +1,24 @@
+{
+  "passed": 18,
+  "total": 18,
+  "checks": {
+    "version": true,
+    "context_rows": true,
+    "assertions_nonzero": true,
+    "source_word_schema": true,
+    "f3_not_word": true,
+    "word_analysis_conditional": true,
+    "exemplar_warning": true,
+    "bulk_context_blocked": true,
+    "bulk_words_blocked": true,
+    "decoder_claim": true,
+    "f3_unresolved": true,
+    "data_policy_05": true,
+    "third_party": true,
+    "no_raw_sigla": true,
+    "no_full_attestation": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "github_local_only": true
+  }
+}

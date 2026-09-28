@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0-local",
+  "release_date": "2026-09-27",
+  "title": "Linear A Open Corpus 1.0",
+  "scope": "provenance-first corpus infrastructure, validated SigLA decoding/source-word extraction, reconciliation history, and falsification-oriented structural analyses",
+  "core_counts": {
+    "documents": 802,
+    "attestations": 5144,
+    "source_word_objects": 1401,
+    "nonempty_source_words": 1283,
+    "distinct_source_word_types": 836
+  },
+  "candidate_pipeline": {
+    "0.7_fdr_positional": 22,
+    "0.8_strict_robust": 12,
+    "0.9_frozen": 12,
+    "0.9_type_holm_survivors": 12,
+    "0.9_internal_negative_control_survivors": 12
+  },
+  "not_claimed": [
+    "decipherment",
+    "translation",
+    "language-family identification",
+    "prefix/suffix identity",
+    "morpheme identity",
+    "phonetic proof",
+    "canonical site stratification",
+    "global f3 semantics",
+    "independent identity-level replication",
+    "known-answer Linear B calibration"
+  ],
+  "licensing": "Original project material open per repository licenses/policies; SigLA-derived material retains applicable CC BY-NC-SA 4.0 obligations; raw SigLA/GORILA protected source material excluded.",
+  "reproducibility_note": "1.0 freezes claims and analytical outputs; upstream licensed corpus acquisition remains opt-in/local."
+}

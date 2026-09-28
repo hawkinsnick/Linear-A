@@ -1,0 +1,10 @@
+{
+  "passed": 4,
+  "total": 4,
+  "checks": {
+    "version": true,
+    "pinned_input_preserved": true,
+    "no_fake_calibration": true,
+    "direct_current_distinguished": true
+  }
+}

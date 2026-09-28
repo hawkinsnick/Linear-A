@@ -1,0 +1,10 @@
+{
+  "passed": 4,
+  "total": 4,
+  "checks": {
+    "version": true,
+    "checksum_pinned": true,
+    "blocked_honestly": true,
+    "protocol": true
+  }
+}

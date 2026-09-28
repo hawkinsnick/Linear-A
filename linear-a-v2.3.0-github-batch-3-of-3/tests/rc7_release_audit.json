@@ -1,0 +1,20 @@
+{
+  "passed": 14,
+  "total": 14,
+  "checks": {
+    "rows_5144": true,
+    "docs_787": true,
+    "families_nonempty": true,
+    "strong_valid": true,
+    "cross_sites2": true,
+    "entropy_valid": true,
+    "null_100": true,
+    "edges_nonempty": true,
+    "no_raw_fingerprint": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "no_raw_sigla": true,
+    "no_linguistic_result_fields": true,
+    "github_local_only": true
+  }
+}

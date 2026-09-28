@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "version_050": true,
+    "context_schema": true,
+    "assertion_schema": true,
+    "unit_schema": true,
+    "eligibility_matrix": true,
+    "context_empty_by_design": true,
+    "assertions_empty_by_design": true,
+    "units_empty_by_design": true,
+    "f3_unresolved": true,
+    "rc8_rc9_not_revived": true,
+    "no_raw_sigla": true,
+    "no_full_attestation": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "github_local_only": true
+  }
+}

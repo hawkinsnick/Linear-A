@@ -1,0 +1,12 @@
+{
+  "passed": 6,
+  "total": 6,
+  "checks": {
+    "version": true,
+    "replication_12": true,
+    "all_directional": true,
+    "blob_pinned": true,
+    "dependency_disclosed": true,
+    "linear_b_blocker_preserved": true
+  }
+}

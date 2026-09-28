@@ -1,0 +1,14 @@
+{
+  "passed": 8,
+  "total": 8,
+  "checks": {
+    "version": true,
+    "mapping_rows_recomputed_488": true,
+    "all_mapping_rows_mapped": true,
+    "site_count_recomputed_19": true,
+    "summary_matches_mapping": true,
+    "damos_digest_matches_record": true,
+    "damos_size_recorded": true,
+    "no_calibration_result_fabricated": true
+  }
+}

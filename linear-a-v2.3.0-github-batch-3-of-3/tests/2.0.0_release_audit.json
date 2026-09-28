@@ -1,0 +1,15 @@
+{
+  "passed": 9,
+  "total": 9,
+  "checks": {
+    "version": true,
+    "claims17": true,
+    "interop": true,
+    "linear_b_open": true,
+    "independent_replication_open": true,
+    "no_decipherment": true,
+    "1.7audit": true,
+    "1.8audit": true,
+    "1.9audit": true
+  }
+}

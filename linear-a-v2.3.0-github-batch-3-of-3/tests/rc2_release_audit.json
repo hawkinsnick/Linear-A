@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "github_false": true,
+    "open_queue_9": true,
+    "rc2_case_ids_unique": true,
+    "unresolved_ids_unique": true,
+    "paleo_ids_unique": true,
+    "sensitivity_ids_unique": true,
+    "HT15_not_open_sign_substitution": true,
+    "MA10b_not_open_simple_substitution": true,
+    "HT17_numeral_open": true,
+    "fraction_K_still_open": true,
+    "KNZc6_still_open": true,
+    "no_images_bundled": true,
+    "no_pdfs_bundled": true,
+    "no_raw_sigla": true,
+    "all_paleo_evidence_explicit": true
+  }
+}

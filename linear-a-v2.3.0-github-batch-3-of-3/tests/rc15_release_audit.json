@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "snapshot_5144": true,
+    "groups_1708": true,
+    "rc12_residual_35": true,
+    "tier_total": true,
+    "f3_not_semantically_promoted": true,
+    "invalid_rc8_rc9_superseded": true,
+    "decoder_claim_preserved": true,
+    "safe_no_raw_sigla": true,
+    "safe_no_full_attestation": true,
+    "safe_no_images": true,
+    "safe_no_pdfs": true,
+    "license_policy_present": true,
+    "third_party_notice_present": true,
+    "github_local_only": true,
+    "remaining_blockers_explicit": true
+  }
+}

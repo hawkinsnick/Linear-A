@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "local_only": true,
+    "KNZc6_physical_separator_recorded": true,
+    "KNZc6_interpretation_still_open": true,
+    "HT17_branch_exists": true,
+    "K_three_state_branch": true,
+    "KH8_singleton_sensitivity": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "no_raw_sigla": true,
+    "branch_ids_unique": true,
+    "material_ids_unique": true,
+    "engine_has_certainty_filter": true,
+    "engine_no_network": true,
+    "observation_vs_interpretation_rule": true,
+    "validated_counts_preserved": true
+  }
+}

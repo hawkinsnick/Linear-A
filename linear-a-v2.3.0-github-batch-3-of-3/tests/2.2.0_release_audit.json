@@ -1,0 +1,12 @@
+{
+  "passed": 6,
+  "total": 6,
+  "checks": {
+    "version": true,
+    "gate_is_blocked": true,
+    "no_pseudo_result": true,
+    "reevaluation_present": true,
+    "site_summary_now_19": true,
+    "damos_identity_verified": true
+  }
+}

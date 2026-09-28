@@ -1,0 +1,10 @@
+{
+  "passed": 4,
+  "total": 4,
+  "checks": {
+    "version": true,
+    "null1000": true,
+    "obs651": true,
+    "guardrail": true
+  }
+}

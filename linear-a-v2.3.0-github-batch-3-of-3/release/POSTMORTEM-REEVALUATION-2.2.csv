@@ -1,0 +1,14 @@
+area,decision,reason
+decoder,KEEP,same-snapshot structural and semantic cross-check remains strong; not epigraphic validation
+source_words,KEEP,explicit serialized SigLA Word objects; independent of f3
+f3,QUARANTINE,global semantics unresolved; historical exploration retained only
+site_mapping,KEEP_WITH_ERRATUM,mapping table usable; stale 18-site summary corrected to 19; direct raw find-place provenance still desirable
+0.7_22_candidates,HISTORICAL_SCREEN,valid under its stated null; not final candidate set
+0.8_12_candidates,KEEP_AS_FROZEN_SCREEN,survive specified adversarial composite; not morphology
+0.9_type_level,KEEP,strong internal robustness under stated tests
+1.3_cross_representation,KEEP_WITH_LIMIT,12/12 directional replication; shared upstream ancestry prevents independent-epigraphic label
+1.5_edge_graph,KEEP,651 relations recompute from current data; structural only
+1.7_cluster_bootstrap,PROMOTE,only 6/12 retain lower 95% document-bootstrap z > 1.96; important downgrade of candidate confidence
+1.8_edge_null,KEEP_WITH_MODEL_LIMIT,excess over within-type shuffle null; null choice does not establish morphology
+linear_b_calibration,OPEN_HIGH_PRIORITY,artifact identity verified; experiment unexecuted
+pseudo_linear_a,BLOCKED,must follow real undegraded known-answer calibration

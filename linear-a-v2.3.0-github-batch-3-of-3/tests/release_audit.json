@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "total": 15,
+  "checks": {
+    "version_local_rc": true,
+    "github_not_published": true,
+    "visual_rows_unique_docs_issue": true,
+    "unresolved_ids_unique": true,
+    "provisional_ids_unique": true,
+    "HT113_not_unresolved_numeral": true,
+    "HT4_not_unresolved_numeral": true,
+    "HT17_numeral_remains_open": true,
+    "KNZc6_photo_identified": true,
+    "no_raw_sigla_payload": true,
+    "no_third_party_images": true,
+    "no_source_book_pdf": true,
+    "observation_adjudication_separated": true,
+    "paleography_not_inferred": true,
+    "boundary_not_inferred": true
+  }
+}

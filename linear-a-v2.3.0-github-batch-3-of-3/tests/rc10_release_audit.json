@@ -1,0 +1,20 @@
+{
+  "passed": 14,
+  "total": 14,
+  "checks": {
+    "snapshot_5144": true,
+    "knzc6_four_groups": true,
+    "global_model_hypothesis": true,
+    "status_unresolved": true,
+    "exploratory_analysis_labeled": true,
+    "wrapper_unresolved": true,
+    "anomalies_disclosed": true,
+    "next_evidence_defined": true,
+    "no_authoritative_word_coordinate_claim": true,
+    "no_raw_sigla": true,
+    "no_full_attestation_table": true,
+    "no_images": true,
+    "no_pdfs": true,
+    "github_local_only": true
+  }
+}

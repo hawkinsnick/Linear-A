@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "total": 12,
+  "checks": {
+    "version": true,
+    "required_artifacts": true,
+    "claim_registry_11": true,
+    "open_replication_recorded": true,
+    "linear_b_blocker_recorded": true,
+    "f3_unresolved": true,
+    "site_correction": true,
+    "no_decipherment_claim": true,
+    "dossiers_12": true,
+    "no_raw_sigla": true,
+    "no_images": true,
+    "no_pdfs": true
+  }
+}

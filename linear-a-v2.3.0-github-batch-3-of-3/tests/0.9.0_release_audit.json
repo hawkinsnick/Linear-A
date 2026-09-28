@@ -1,0 +1,15 @@
+{
+  "passed": 9,
+  "total": 9,
+  "checks": {
+    "version": true,
+    "registry_12": true,
+    "dossiers_12": true,
+    "multiverse_12": true,
+    "negative_12": true,
+    "external_honest": true,
+    "no_identity_overclaim": true,
+    "no_semantic_claim": true,
+    "no_raw_sigla": true
+  }
+}
