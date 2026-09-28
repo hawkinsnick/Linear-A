@@ -1,0 +1,23 @@
+{
+  "version": "2.4.1",
+  "purpose": "Descriptive old-vs-current SigLA delta before prospective candidate evaluation",
+  "required_outputs": [
+    "old_sha256",
+    "current_sha256",
+    "documents.old",
+    "documents.current",
+    "documents.added",
+    "documents.removed",
+    "documents.changed",
+    "attestations.old",
+    "attestations.current",
+    "attestations.net",
+    "source_word_groups.old",
+    "source_word_groups.current",
+    "source_word_groups.net",
+    "changed_document_details",
+    "candidate_outcomes_evaluated"
+  ],
+  "candidate_outcomes_evaluated_must_equal": false,
+  "interpretation": "A changed document is byte-semantically different in the decoded representation; this alone does not identify an epigraphic correction or linguistic change."
+}
