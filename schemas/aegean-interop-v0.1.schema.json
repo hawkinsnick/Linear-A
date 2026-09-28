@@ -13,6 +13,7 @@
       "enum": [
         "linear-a",
         "cypro-minoan",
+        "cretan-hieroglyphic",
         "linear-b",
         "other"
       ]
