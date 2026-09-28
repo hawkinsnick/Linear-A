@@ -40,8 +40,12 @@ def choose_documents(bydoc,rng,target=TARGET_TOKENS):
     return list(states[best_total])
 
 def mask_seq(seq,p,rng):
-    masked=tuple(MASK if rng.random()<p else x for x in seq)
-    return masked if any(x!=MASK for x in masked) else ()
+    flags=[rng.random()<p for _ in seq]
+    masked=tuple(MASK if flag else x for x,flag in zip(seq,flags))
+    info={"masked_signs":sum(flags),"masked_initial":bool(flags and flags[0]),
+          "masked_final":bool(flags and flags[-1]),
+          "masked_internal":sum(flags[1:-1]) if len(flags)>2 else 0}
+    return (masked if any(x!=MASK for x in masked) else ()), info
 
 def diagnostics(words, fully_masked_words=0):
     types=collections.Counter(words)
@@ -66,6 +70,9 @@ def main():
     if base.get("stage")!="BLIND_PREDICTION_FROZEN" or base.get("gold_morphology_seen") is not False:
         raise SystemExit("REFUSING RUN: unauthenticated or post-reveal 2.3 baseline manifest")
     bydoc=read_words(args.detector_input_words)
+    observed_tokens=sum(len(v) for v in bydoc.values())
+    if base.get("word_tokens") != observed_tokens:
+        raise SystemExit(f"REFUSING RUN: detector input has {observed_tokens} tokens but baseline manifest declares {base.get('word_tokens')}")
     args.out.mkdir(parents=True,exist_ok=True)
     summary=[]
     conditions=[]
@@ -85,12 +92,19 @@ def main():
             rng=random.Random(seed)
             chosen=choose_documents(bydoc,rng) if use_scale else list(bydoc)
             raw=[w for d in chosen for w in bydoc[d]]
-            masked=[mask_seq(w,p,rng) for w in raw]
-            fully_masked=sum(not x for x in masked)
-            damaged=[x for x in masked if x]
+            outcomes=[mask_seq(w,p,rng) for w in raw]
+            masked=[x for x,info in outcomes]; infos=[info for x,info in outcomes]
+            fully_masked=sum(not x for x in masked); damaged=[x for x in masked if x]
             row={"condition":condition,"damage_rate":p,"replicate":rep,"seed":seed,
-                 "documents":len(chosen),"tokens_before_masking":len(raw)}
-            row.update(diagnostics(damaged,fully_masked)); summary.append(row)
+                 "documents":len(chosen),"tokens_before_masking":len(raw),
+                 "masked_signs":sum(i["masked_signs"] for i in infos),
+                 "words_initial_masked":sum(i["masked_initial"] for i in infos),
+                 "words_final_masked":sum(i["masked_final"] for i in infos),
+                 "internal_signs_masked":sum(i["masked_internal"] for i in infos)}
+            row.update(diagnostics(damaged,fully_masked))
+            row["hapax_target_abs_error"]=abs((row["hapax_fraction"] if row["hapax_fraction"] is not None else 0)-0.7990430622009569)
+            row["recurrence_target_within_tolerance"]=row["hapax_target_abs_error"]<=0.05
+            summary.append(row)
     with (args.out/"DEGRADATION_DIAGNOSTICS.csv").open("w",newline="",encoding="utf8") as f:
         cw=csv.DictWriter(f,fieldnames=summary[0].keys());cw.writeheader();cw.writerows(summary)
     manifest={"stage":"DEGRADATION_CORPORA_GENERATED_NOT_SCORED","replicates":args.replicates,
