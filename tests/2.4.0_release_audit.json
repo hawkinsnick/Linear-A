@@ -1,17 +1,22 @@
 {
-  "passed": 11,
-  "total": 11,
+  "passed": 16,
+  "total": 16,
   "checks": {
     "empirical_targets_frozen": true,
     "whole_document_sampling": true,
+    "target_optimized_sampling": true,
     "damage_levels_frozen": true,
     "deterministic_seed": true,
     "replicate_count_frozen": true,
-    "requires_2_3_manifest": true,
+    "all_control_families_executable": true,
+    "fully_masked_denominator_reported": true,
+    "boundary_mask_reported": true,
+    "internal_mask_reported": true,
+    "recurrence_mismatch_reported": true,
+    "recurrence_not_manufactured": true,
+    "baseline_stage_gate": true,
+    "baseline_token_count_gate": true,
     "no_gold_scoring": true,
-    "no_calibration_result": true,
-    "all_preregistered_controls_executable": true,
-    "target_optimized_whole_document_sampling": true,
-    "fully_masked_denominator_reported": true
+    "no_calibration_result": true
   }
 }
