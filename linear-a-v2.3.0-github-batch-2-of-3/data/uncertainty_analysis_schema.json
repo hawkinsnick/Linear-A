@@ -1,0 +1,38 @@
+{
+  "branch_record": {
+    "required": [
+      "branch_id",
+      "scope_id",
+      "variable",
+      "alternatives",
+      "status",
+      "analysis_domains",
+      "provenance"
+    ],
+    "principle": "Alternatives are first-class data. A default branch is optional and must never erase alternatives."
+  },
+  "result_record": {
+    "required": [
+      "analysis_id",
+      "branch_configuration",
+      "metric",
+      "value",
+      "n",
+      "filters",
+      "source_snapshot"
+    ],
+    "principle": "Every reported analytical result identifies the exact branch configuration and filters."
+  },
+  "certainty_filters": [
+    "all_attestations",
+    "confident_only",
+    "exclude_unreadable",
+    "source_specific"
+  ],
+  "forbidden_shortcuts": [
+    "collapse unresolved alternatives into one corpus value",
+    "treat proposed sign value as observed sign identity",
+    "treat normalized word grouping as physical punctuation",
+    "treat SigLA tracing as independent photograph"
+  ]
+}

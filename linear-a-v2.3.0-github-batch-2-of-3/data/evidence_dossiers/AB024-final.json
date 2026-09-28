@@ -1,0 +1,306 @@
+{
+  "candidate_id": "AB024-final",
+  "sign_id": "AB024",
+  "position": "final",
+  "status": "strict_structural_candidate_0.8",
+  "supporting_word_tokens": 31,
+  "supporting_documents": 30,
+  "supporting_exact_types": 22,
+  "robustness": {
+    "sign_id": "AB024",
+    "position": "final",
+    "token_z": "5.368998183401988",
+    "type_dedup_z": "4.398189826135237",
+    "type_dedup_bh_q": "0.003139717425431711",
+    "loo_document_min_z": "4.920664278625262",
+    "loo_document_positive_fraction": "1.0",
+    "loo_heuristic_group_min_z": "2.3745169959876127",
+    "loo_heuristic_group_positive_fraction": "1.0",
+    "dominant_word_type_removed": "AB024",
+    "dominant_word_type_count": "5",
+    "dominant_type_removed_z": "5.368998183401988",
+    "strict_robust": "True"
+  },
+  "supporting_instances": [
+    {
+      "word_id": "SW-000006",
+      "document_id": "ARKH 1a",
+      "sequence": "AB073 AB067 AB031 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "ARKH"
+    },
+    {
+      "word_id": "SW-000017",
+      "document_id": "ARKH 3a",
+      "sequence": "AB077 AB024",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "ARKH"
+    },
+    {
+      "word_id": "SW-000072",
+      "document_id": "HT 103",
+      "sequence": "AB056 AB001 AB081 AB009 AB024",
+      "length": 5,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000074",
+      "document_id": "HT 103",
+      "sequence": "AB001 AB081 AB009 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000122",
+      "document_id": "HT 115a",
+      "sequence": "AB003 AB060 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000126",
+      "document_id": "HT 115b",
+      "sequence": "AB003 AB060 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000138",
+      "document_id": "HT 116a",
+      "sequence": "AB041 AB067 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000161",
+      "document_id": "HT 117b",
+      "sequence": "AB021 AB069 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000189",
+      "document_id": "HT 12",
+      "sequence": "AB078 AB069 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000210",
+      "document_id": "HT 122a",
+      "sequence": "AB003 AB053 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000255",
+      "document_id": "HT 127b",
+      "sequence": "AB024",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000290",
+      "document_id": "HT 135a",
+      "sequence": "AB006 AB021 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000292",
+      "document_id": "HT 135b",
+      "sequence": "AB034 AB059 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000418",
+      "document_id": "HT 29",
+      "sequence": "AB077 AB051 AB080 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000537",
+      "document_id": "HT 52b",
+      "sequence": "AB024",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000539",
+      "document_id": "HT 53a",
+      "sequence": "AB031 AB024",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000553",
+      "document_id": "HT 55a",
+      "sequence": "AB024",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000594",
+      "document_id": "HT 6a",
+      "sequence": "AB061 AB076 AB007 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000626",
+      "document_id": "HT 7b",
+      "sequence": "AB021 AB069 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000666",
+      "document_id": "HT 87",
+      "sequence": "AB021 AB069 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000727",
+      "document_id": "HT 94b",
+      "sequence": "AB003 AB059 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000748",
+      "document_id": "HT 96a",
+      "sequence": "AB008 AB003 AB060 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000754",
+      "document_id": "HT 96b",
+      "sequence": "AB008 AB003 AB060 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000814",
+      "document_id": "HT Wa 1019\u03b1",
+      "sequence": "AB003 AB059 AB024",
+      "length": 3,
+      "document_type": "Nodule",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000917",
+      "document_id": "KH 47",
+      "sequence": "AB016 AB024",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000925",
+      "document_id": "KH 5",
+      "sequence": "AB040 AB031 AB031 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000936",
+      "document_id": "KH 53",
+      "sequence": "AB024",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000946",
+      "document_id": "KH 6",
+      "sequence": "AB067 AB031 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000993",
+      "document_id": "KH 83",
+      "sequence": "AB008 AB007 AB024",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-001179",
+      "document_id": "PH 31b",
+      "sequence": "AB024",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "",
+      "site_group_heuristic": "PH"
+    },
+    {
+      "word_id": "SW-001199",
+      "document_id": "PH 7a",
+      "sequence": "AB057 AB026 AB080 AB024",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "MM IIB",
+      "site_group_heuristic": "PH"
+    }
+  ],
+  "interpretation_guardrail": "Positional concentration only; no affix/morpheme/grammar meaning assigned."
+}

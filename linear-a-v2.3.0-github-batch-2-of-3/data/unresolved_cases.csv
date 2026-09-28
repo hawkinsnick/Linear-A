@@ -1,0 +1,16 @@
+case_id,document_id,kind,dispute,next_evidence
+U001,HT17,numeral,37 vs 38,primary photo/plate
+U002,HT15,sign/fraction,L4L4 vs L3L3,direct source collation
+U003,HT17,sign,private-use/variant vs *164A,direct source collation
+U004,HT34,sign,SI*516 vs SII,direct source collation
+U005,HT34,sign,MIJAI vs MIJARU,direct source collation
+U006,HT49a,sign/tokenization,SUKI vs SU + VESST,direct source collation
+U007,KH74,sign,SI*805MI vs SI*301MI,photo/plate or independent witness
+U008,KH8,sign,QA2PU vs *510,photo/plate or independent witness
+U009,MA10b,compound sign,TI*412VAS vs *404TI,photo/plate or independent witness
+U010,HTZd157+156,boundary,TAJA|K vs TAJAK,visual divider check
+U011,KNZc6,boundary,single group vs split before IZU,identified photograph inspection
+U012,PKZa8,boundary,JASAUNAKANASI vs JASA|UNAKANASI,visual divider check
+U013,PRZa1,boundary,TANASUTEKE vs TANASUTE|KE,visual divider check
+U014,SYZb7,boundary,RAKINISE vs RAKI|NISE,visual divider check
+U015,fraction K,metrology,1/16 vs 1/10,hypothesis-layer scholarly adjudication

@@ -1,0 +1,22 @@
+{
+  "version": "0.4.0-rc3-local",
+  "github_published": false,
+  "sigla_validated": {
+    "documents": 802,
+    "attestations": 5144,
+    "semantic_comparisons": 46296,
+    "differences": 0
+  },
+  "rc2_open_queue": 9,
+  "rc3_physical_feature_resolutions": 1,
+  "rc3_remaining_epigraphic_or_value_branches": 7,
+  "branch_catalog_entries": 8,
+  "materiality_observations": 4,
+  "research_platform_status": "branch-aware analytical infrastructure operational",
+  "limits": [
+    "Safe RC does not bundle full SigLA-derived corpus.",
+    "Most remaining sign disputes lack independent object-level imagery accessible in this pass.",
+    "Analytical impact statements are bounded/local unless run against a locally generated full corpus.",
+    "No decipherment claim follows from frequency, layout, or source agreement."
+  ]
+}

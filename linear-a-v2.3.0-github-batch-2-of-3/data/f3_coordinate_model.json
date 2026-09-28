@@ -1,0 +1,22 @@
+{
+  "model": "candidate",
+  "candidate_fields": {
+    "first": "position-like index",
+    "second": "group-like index"
+  },
+  "local_validation": "KN Zc 6 cleanly forms four groups with zero-based positions.",
+  "global_validation": "not established",
+  "global_counts": {
+    "groups": 1708,
+    "unique_position_groups": 1391,
+    "zero_based_contiguous_groups": 1359,
+    "anomaly_groups": 349,
+    "note": "Validation uses all attestations so unreadable/erased records do not create artificial coordinate holes."
+  },
+  "outer_shape": {
+    "wrapped_count": 3448,
+    "direct_count": 1696,
+    "meaning": "unresolved"
+  },
+  "prohibition": "Do not label the pair as authoritative word/group coordinates until upstream implementation or equivalent evidence resolves anomalies."
+}

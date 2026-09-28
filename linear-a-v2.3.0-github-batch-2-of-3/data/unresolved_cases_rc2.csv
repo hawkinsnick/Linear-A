@@ -1,0 +1,10 @@
+case_id,document_id,kind,dispute,next_evidence
+U-RC2-01,HT17,numeral,37 vs 38,primary photograph/plate
+U-RC2-02,HT17,sign,AB164a exact form/reading relationship,independent visual witness
+U-RC2-03,HT34,sign,SI+A516 vs alternate reading,independent visual witness
+U-RC2-04,HT34,sign,MIJAI vs MIJARU occurrence alignment,independent visual witness
+U-RC2-05,HT49a,damage/sign,SU-[damaged] identity,primary photograph/plate
+U-RC2-06,KH74,sign/compound,A605 relationship to competing transcription,independent visual witness
+U-RC2-07,KH8,sign/compound,A567 relationship to competing transcription,independent visual witness
+U-RC2-08,KNZc6,layout/boundary,physical/spatial separation of sign clusters,inspect published object photograph at sufficient resolution
+U-RC2-09,fraction K,metrology,1/10 vs 1/16,remain hypothesis-layer pending stronger evidence

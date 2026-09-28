@@ -1,0 +1,40 @@
+[
+  {
+    "source_id": "SIGLA_HELP_CURRENT",
+    "role": "schema semantics",
+    "license": "CC BY-NC-SA 4.0",
+    "retrieved": "2026-09-27",
+    "supports": [
+      "document type searchable property",
+      "document metadata display",
+      "word view/source word concept",
+      "sign function/readability semantics"
+    ]
+  },
+  {
+    "source_id": "SIGLA_PAPER_2020",
+    "role": "schema semantics/history",
+    "license": "paper rights separate; dataset statements upstream",
+    "retrieved": "2026-09-27",
+    "supports": [
+      "document typology metadata concept",
+      "dimensions",
+      "sign/word density",
+      "document-type-specific analysis rationale"
+    ],
+    "caution": "historical corpus-state statements must not be projected onto the current corpus"
+  },
+  {
+    "source_id": "SIGLA_SNAPSHOT_LOCAL",
+    "role": "record-level attestation source",
+    "license": "CC BY-NC-SA 4.0",
+    "retrieved": "2026-09-27",
+    "supports": [
+      "802 decoded documents",
+      "5144 attestations",
+      "reading certainty/erasure/ghost fields",
+      "raw f3 topology"
+    ],
+    "distribution": "raw payload excluded from safe package"
+  }
+]

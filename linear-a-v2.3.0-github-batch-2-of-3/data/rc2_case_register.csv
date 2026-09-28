@@ -1,0 +1,15 @@
+case_id,document_id,original_issue,original_dispute,status,rc2_classification,evidence_basis,corpus_action
+RC2-01,HT15,sign/fraction,GRAL4L4 vs GRAL3L3,resolved_classification,fraction/compound-notation issue,SigLA-derived sign record + Salgarella published discussion,Do not count as ordinary sign-identity conflict
+RC2-02,MA10b,compound,TI*412VAS vs *404TI,resolved_classification,compound/adjacent vessel-sign structure,Consani explicitly lists 404VAS+A and 412VAS at MA10b.2,Retain exact source readings; remove from simple sign substitution bucket
+RC2-03,PKZa8,boundary,JASAUNAKANASI vs JASA|UNAKANASI,resolved_classification,source-specific segmentation disagreement,GORILA-derived standardized inscription has JA-SA | NA-KA-NA; other scholarship gives U-NA-KA-NA-SI,Store competing segmentation observations; no universal boundary
+RC2-04,SYZb7,boundary,RAKINISE vs RAKI|NISE,resolved_classification,damage+segmentation unresolved,independent sign index gives •-RA-KI-•-SE,Do not model as clean boundary-only conflict
+RC2-05,PRZa1,boundary,TANASUTEKE vs TANASUTE|KE,resolved_classification,damaged/lacuna sequence before KE,multiple independent transcriptions give TA-NA-SU-TE[ ]-KE,Damage state precedes segmentation hypothesis
+RC2-06,HTZd156,boundary/fraction,TAJA|K vs TAJAK,resolved_classification,syllabic TA-JA adjacent to fraction K,SigLA sign order + Corazza et al. transcription,Not a lexical word-boundary conflict
+RC2-07,KNZc6,boundary/layout,...UU|IZU vs continuous,visual_source_identified,painted cup spatial-layout question,Flouda 2013 open-access chapter includes actual object photograph; Festos reproduces painted inscription,Requires direct spatial inspection; don't force linear word boundary
+RC2-08,HT17,numeral,37 vs 38,open,genuine numerical witness conflict,SigLA-derived record gives 37,Primary plate/photo still required
+RC2-09,HT34,sign,SI*516 vs SII,open,sign identity/reading,SigLA tracing explicitly has A516 after SI,Need independent visual/plate witness
+RC2-10,HT34,sign,MIJAI vs MIJARU,open,sign identity/reading,current tracing contains damaged/uncertain positions,Need exact occurrence alignment + independent visual witness
+RC2-11,HT49a,sign/tokenization,SUKI vs SU/VESST,open,damage/sign identity,independent index has SU-[damaged] for HT49a.3,Need plate/photo
+RC2-12,KH74,sign,SI*805MI vs SI*301MI,open,sign/compound identity,SigLA-derived occurrence classed A605,Need independent visual/plate witness
+RC2-13,KH8,sign,QA2PU vs *510,open,sign/compound identity,SigLA-derived occurrence classed A567,Need independent visual/plate witness
+RC2-14,fraction K,metrology,1/16 vs 1/10,hypothesis_conflict,metrological interpretation,Corazza 2021 derives K=1/10; older HT Zd 156 progression motivates 1/16,Keep in hypothesis layer; sensitivity analysis required

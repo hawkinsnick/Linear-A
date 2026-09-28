@@ -1,0 +1,74 @@
+{
+  "version": "0.5.0-alpha-local",
+  "document_contexts": {
+    "columns": [
+      "context_id",
+      "document_id",
+      "site_id",
+      "document_type",
+      "support",
+      "material",
+      "period",
+      "scribe_or_hand",
+      "administrative_class",
+      "source_id",
+      "source_record",
+      "source_url",
+      "source_license",
+      "provenance_id",
+      "field_status",
+      "notes"
+    ],
+    "primary_key": "context_id",
+    "rule": "Every populated contextual field must be source-explicit or a separately identified project normalization."
+  },
+  "context_assertions": {
+    "columns": [
+      "assertion_id",
+      "document_id",
+      "field_name",
+      "raw_value",
+      "normalized_value",
+      "source_id",
+      "source_record",
+      "source_license",
+      "provenance_id",
+      "confidence",
+      "status",
+      "notes"
+    ],
+    "primary_key": "assertion_id",
+    "rule": "Conflicting source values coexist; no last-write-wins metadata."
+  },
+  "structural_units": {
+    "columns": [
+      "unit_id",
+      "document_id",
+      "unit_type",
+      "unit_index",
+      "start_occurrence",
+      "end_occurrence",
+      "member_occurrence_ids",
+      "boundary_basis",
+      "boundary_certainty",
+      "source_id",
+      "source_record",
+      "source_license",
+      "provenance_id",
+      "status",
+      "notes"
+    ],
+    "primary_key": "unit_id",
+    "unit_type_enum": [
+      "source_word",
+      "source_sign_group",
+      "physical_line",
+      "physical_separator_group",
+      "candidate_f3_group",
+      "analytical_window"
+    ],
+    "rule": "unit_type records evidentiary status; candidate_f3_group must never be silently promoted to source_word."
+  },
+  "analysis_eligibility": "data/analysis_eligibility.csv",
+  "f3_policy": "Carry forward RC15 evidence tiers. Preserve raw topology and candidate values; semantic interpretation unresolved."
+}

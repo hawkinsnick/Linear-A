@@ -1,0 +1,6 @@
+source,relationship,our_use,status
+Davis 2026 morphology,external linguistic analysis,methodological/identity comparison when exact sign identities and criteria are accessible,not_comparable_at_identity_level_from_summary_alone
+Tsirkas 2026 corpus-validation artifact,independent computational audit framework,"decoder semantics cross-check, divergence methodology, adequacy comparison",complementary
+SigLA,primary digital paleographic/source-word infrastructure,licensed derived corpus and explicit serialized Word objects,foundational_upstream
+DĀMOS,Linear B known-answer corpus,planned blind calibration,acquisition_blocked
+mwenge/lineara.xyz,alternative encoded Linear A representation,cross-representation replication,shared_upstream_dependency

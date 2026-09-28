@@ -1,0 +1,153 @@
+{
+  "candidate_id": "AB118-final",
+  "sign_id": "AB118",
+  "position": "final",
+  "status": "strict_structural_candidate_0.8",
+  "supporting_word_tokens": 14,
+  "supporting_documents": 14,
+  "supporting_exact_types": 8,
+  "robustness": {
+    "sign_id": "AB118",
+    "position": "final",
+    "token_z": "3.756095378904921",
+    "type_dedup_z": "2.410992871411768",
+    "type_dedup_bh_q": "0.025856496444731737",
+    "loo_document_min_z": "3.3971214597720136",
+    "loo_document_positive_fraction": "1.0",
+    "loo_heuristic_group_min_z": "3.089959666307465",
+    "loo_heuristic_group_positive_fraction": "1.0",
+    "dominant_word_type_removed": "AB001 AB041 AB118",
+    "dominant_word_type_count": "4",
+    "dominant_type_removed_z": "2.7427327587043973",
+    "strict_robust": "True"
+  },
+  "supporting_instances": [
+    {
+      "word_id": "SW-000004",
+      "document_id": "ARKH 1a",
+      "sequence": "AB008 AB058 AB073 AB118",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "ARKH"
+    },
+    {
+      "word_id": "SW-000014",
+      "document_id": "ARKH 2",
+      "sequence": "AB079 A301 AB009 AB045 AB021 AB118",
+      "length": 6,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "ARKH"
+    },
+    {
+      "word_id": "SW-000200",
+      "document_id": "HT 122a",
+      "sequence": "AB001 AB041 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000274",
+      "document_id": "HT 13",
+      "sequence": "AB001 AB041 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000281",
+      "document_id": "HT 131a",
+      "sequence": "AB028 AB016 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000488",
+      "document_id": "HT 44a",
+      "sequence": "AB028 AB016 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000640",
+      "document_id": "HT 85a",
+      "sequence": "AB001 AB041 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000775",
+      "document_id": "HT 99b",
+      "sequence": "AB001 AB041 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000863",
+      "document_id": "KH 10",
+      "sequence": "AB016 AB118",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000999",
+      "document_id": "KH 88",
+      "sequence": "AB021 AB118",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-001023",
+      "document_id": "KH 99",
+      "sequence": "AB008 AB041 AB118",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-001116",
+      "document_id": "PA 1",
+      "sequence": "AB008 AB081 AB065 AB003 AB118",
+      "length": 5,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "PA"
+    },
+    {
+      "word_id": "SW-001286",
+      "document_id": "ZA 14",
+      "sequence": "AB021 AB118",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001363",
+      "document_id": "ZA 5a",
+      "sequence": "AB021 AB118",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    }
+  ],
+  "interpretation_guardrail": "Positional concentration only; no affix/morpheme/grammar meaning assigned."
+}

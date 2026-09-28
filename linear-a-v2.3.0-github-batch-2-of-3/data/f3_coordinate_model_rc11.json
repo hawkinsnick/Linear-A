@@ -1,0 +1,7 @@
+{
+  "status": "not promoted",
+  "candidate": "(position-like index, group-like index)",
+  "clean_fraction": 0.795667,
+  "residual_unexplained_groups": 35,
+  "rule": "retain as candidate unless residual anomalies are explained by source-defined structure rather than post hoc repair"
+}

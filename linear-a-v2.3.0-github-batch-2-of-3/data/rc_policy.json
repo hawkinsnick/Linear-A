@@ -1,0 +1,19 @@
+{
+  "version": "0.4.0-rc1-local",
+  "publication_status": "local_only",
+  "observation_rules": [
+    "Never overwrite a source observation with an adjudication.",
+    "Photograph, plate/drawing, occurrence tracing, transcription, and analytical inference are distinct evidence levels.",
+    "SigLA-derived tracings retain SigLA CC BY-NC-SA 4.0 provenance.",
+    "A normalized word boundary is not evidence that a physical divider exists.",
+    "Canonical sign identity does not itself establish a palaeographic variant.",
+    "Proposed phonetic values and metrological values remain interpretation/hypothesis unless independently established."
+  ],
+  "analysis_gates": {
+    "frequency": "allowed with certainty/source sensitivity",
+    "morphology": "alternate boundary analyses required",
+    "accounting": "exclude or branch on unresolved HT17 numeral; document HT10a provisional status",
+    "metrology": "hypothesis layer only",
+    "decipherment": "not established by corpus"
+  }
+}

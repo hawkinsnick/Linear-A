@@ -1,0 +1,7 @@
+branch_id,analysis_domain,document_id,variable,branch_a,branch_b,status,rule
+SENS-NUM-HT17,accounting,HT17,numeral,37,38,required,Run affected totals/statistics under both values until visually adjudicated
+SENS-K,metrology,HTZd156/general,fraction_K,1/10,1/16,required,Treat both as hypotheses; never write either into observation layer
+SENS-PKZA8,morphology,PKZa8,segmentation,source A segmentation,source B segmentation,required,Do not concatenate normalized forms into source fact
+SENS-SYZB7,morphology,SYZb7,damage_segmentation,damaged sign sequence,proposed word split,required,Exclude from confident boundary training set
+SENS-PRZA1,morphology,PRZa1,damage_segmentation,TA-NA-SU-TE[ ]-KE,continuous/split hypotheses,required,Preserve lacuna before morphological analysis
+SENS-KNZC6,morphology/layout,KNZc6,reading_geometry,linear segmentation,spatial/radial layout,required,Treat spatial layout independently of lexical interpretation

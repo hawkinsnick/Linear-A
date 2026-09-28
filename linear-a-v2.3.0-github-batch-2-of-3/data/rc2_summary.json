@@ -1,0 +1,13 @@
+{
+  "version": "0.4.0-rc2-local",
+  "github_published": false,
+  "rc1_high_priority_cases": 15,
+  "rc2_open_queue": 9,
+  "classification_resolutions": 6,
+  "visual_source_identified": 1,
+  "hypothesis_conflicts": 1,
+  "open_cases": 6,
+  "paleographic_observations": 5,
+  "sensitivity_branches": 6,
+  "important_note": "Reduction in open queue includes reclassification of false/badly framed comparator conflicts; it does not mean the underlying Bronze Age reading has been proven."
+}

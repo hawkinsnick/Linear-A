@@ -1,0 +1,16 @@
+document_id,issue,evidence_level,assessment,notes
+HT10a,numeral 14/104,occurrence_tracing_plus_document_record,supports_14_provisionally,SigLA-derived tracing/document record; not independent primary photograph
+HT17,numeral 37/38,occurrence_tracing_plus_conflicting_secondary_witness,open,SigLA-derived tracing supports 37; conflicting published transcription requires primary plate/photo adjudication
+HT15,fraction/logogram disagreement,occurrence_tracing,open,SigLA-derived tracing exists; tracing alone does not independently adjudicate L3/L4 transcription convention
+HT34,two sign conflicts,occurrence_tracing,open,SigLA-derived occurrence tracing exists; retain both scholarly witnesses
+HT49a,SUKI vs SU/VESST,sign_attestation_tracing,open,SigLA-derived sign evidence exists; source segmentation/identity still needs direct collation
+KH74,SI*805MI vs SI*301MI,occurrence_tracing,open,SigLA-derived occurrence represented by A605; not independent photograph
+KH8,QA2PU vs *510,occurrence_tracing,open,SigLA-derived occurrence represented by A567; not independent photograph
+MA10b,TI*412VAS vs *404TI,occurrence_tracing,open,SigLA-derived occurrence-specific tracings exist; compound interpretation remains source-sensitive
+ARKH1b,JARE vs PARE,third_transcription_witness,supports_PARE_provisionally,independent GORILA-based transcription gives PA-RE; primary visual check still desirable
+APZa2,TA vs NU,third_transcription_witness,supports_NU_provisionally,van Soesbergen gives -NU; conflicting source retained
+KNZc6,word boundary,photograph_identified_plus_drawing,visual_source_identified,"published actual-object photograph and separate drawing identified; boundary must be inspected on object/photo, not inferred from word list"
+HTZd157+156,word boundary,occurrence_tracing,open,normalized/traced evidence insufficient to prove physical divider
+PKZa8,word boundary,published_object_context_sources,open,published literature and object context identified; exact divider still requires direct visual collation
+PRZa1,word boundary,published_drawing_context,open,scholarly discussion/drawings identified; exact contested divider not yet visually adjudicated
+SYZb7,word boundary,source_search_only,open,no sufficiently direct lawful visual evidence located in this pass

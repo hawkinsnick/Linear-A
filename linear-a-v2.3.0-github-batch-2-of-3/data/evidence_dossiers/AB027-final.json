@@ -1,0 +1,531 @@
+{
+  "candidate_id": "AB027-final",
+  "sign_id": "AB027",
+  "position": "final",
+  "status": "strict_structural_candidate_0.8",
+  "supporting_word_tokens": 56,
+  "supporting_documents": 48,
+  "supporting_exact_types": 37,
+  "robustness": {
+    "sign_id": "AB027",
+    "position": "final",
+    "token_z": "4.496227360125459",
+    "type_dedup_z": "3.960252471914766",
+    "type_dedup_bh_q": "0.003996003996003996",
+    "loo_document_min_z": "4.062922393209255",
+    "loo_document_positive_fraction": "1.0",
+    "loo_heuristic_group_min_z": "2.849176131171253",
+    "loo_heuristic_group_positive_fraction": "1.0",
+    "dominant_word_type_removed": "AB027",
+    "dominant_word_type_count": "8",
+    "dominant_type_removed_z": "4.4962273601254585",
+    "strict_robust": "True"
+  },
+  "supporting_instances": [
+    {
+      "word_id": "SW-000008",
+      "document_id": "ARKH 1b",
+      "sequence": "AB057 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "ARKH"
+    },
+    {
+      "word_id": "SW-000027",
+      "document_id": "ARKH 4b",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "ARKH"
+    },
+    {
+      "word_id": "SW-000047",
+      "document_id": "GO 2b",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "GO"
+    },
+    {
+      "word_id": "SW-000057",
+      "document_id": "HT 1",
+      "sequence": "AB008 AB060 AB006 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000085",
+      "document_id": "HT 109",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000092",
+      "document_id": "HT 10a",
+      "sequence": "AB001 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000099",
+      "document_id": "HT 10b",
+      "sequence": "AB001 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000151",
+      "document_id": "HT 117a",
+      "sequence": "AB073 AB026 AB059 AB060 AB027",
+      "length": 5,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000152",
+      "document_id": "HT 117a",
+      "sequence": "AB004 AB056 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000153",
+      "document_id": "HT 117a",
+      "sequence": "AB006 AB001 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000205",
+      "document_id": "HT 122a",
+      "sequence": "AB057 AB073 AB001 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000206",
+      "document_id": "HT 122a",
+      "sequence": "AB041 AB001 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000222",
+      "document_id": "HT 122b",
+      "sequence": "AB001 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000260",
+      "document_id": "HT 128a",
+      "sequence": "AB054 AB069 AB080 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000330",
+      "document_id": "HT 154Ja",
+      "sequence": "AB055 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000343",
+      "document_id": "HT 17",
+      "sequence": "AB041 AB001 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000353",
+      "document_id": "HT 20",
+      "sequence": "AB078 AB081 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000413",
+      "document_id": "HT 29",
+      "sequence": "AB003 AB057 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000425",
+      "document_id": "HT 3",
+      "sequence": "AB041 AB069 AB076 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000443",
+      "document_id": "HT 32",
+      "sequence": "AB058 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000457",
+      "document_id": "HT 37",
+      "sequence": "AB067 A310 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000467",
+      "document_id": "HT 39",
+      "sequence": "AB081 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000469",
+      "document_id": "HT 4",
+      "sequence": "A306 AB037 AB077 AB008 AB027",
+      "length": 5,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000471",
+      "document_id": "HT 4",
+      "sequence": "AB003 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000504",
+      "document_id": "HT 47b",
+      "sequence": "AB060 AB006 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000531",
+      "document_id": "HT 51a",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000544",
+      "document_id": "HT 53b",
+      "sequence": "AB081 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000551",
+      "document_id": "HT 55a",
+      "sequence": "AB080 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000586",
+      "document_id": "HT 66",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000624",
+      "document_id": "HT 7a",
+      "sequence": "AB001 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000643",
+      "document_id": "HT 85a",
+      "sequence": "AB001 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000681",
+      "document_id": "HT 88",
+      "sequence": "AB003 AB057 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000683",
+      "document_id": "HT 88",
+      "sequence": "AB001 AB059 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000700",
+      "document_id": "HT 8b",
+      "sequence": "AB003 AB057 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000755",
+      "document_id": "HT 96b",
+      "sequence": "AB016 AB118 AB060 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000850",
+      "document_id": "HT Zb 160",
+      "sequence": "AB051 AB029 AB027",
+      "length": 3,
+      "document_type": "Pithos",
+      "period": "LM IB",
+      "site_group_heuristic": "HT"
+    },
+    {
+      "word_id": "SW-000873",
+      "document_id": "KH 104",
+      "sequence": "AB001 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000910",
+      "document_id": "KH 4",
+      "sequence": "AB008 AB051 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000913",
+      "document_id": "KH 41",
+      "sequence": "AB077 AB059 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000945",
+      "document_id": "KH 6",
+      "sequence": "AB004 AB055 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000948",
+      "document_id": "KH 6",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-000987",
+      "document_id": "KH 8",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-001016",
+      "document_id": "KH 97a",
+      "sequence": "AB027",
+      "length": 1,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "KH"
+    },
+    {
+      "word_id": "SW-001091",
+      "document_id": "KN Zc 7",
+      "sequence": "AB051 AB060 AB027",
+      "length": 3,
+      "document_type": "Cup",
+      "period": "MM III?",
+      "site_group_heuristic": "KN"
+    },
+    {
+      "word_id": "SW-001117",
+      "document_id": "PE 1",
+      "sequence": "AB010 AB077 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "PE"
+    },
+    {
+      "word_id": "SW-001128",
+      "document_id": "PE 2",
+      "sequence": "AB005 AB049 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "PE"
+    },
+    {
+      "word_id": "SW-001139",
+      "document_id": "PH 15a",
+      "sequence": "AB080 AB004 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "MM IIB",
+      "site_group_heuristic": "PH"
+    },
+    {
+      "word_id": "SW-001213",
+      "document_id": "PK 1a",
+      "sequence": "AB066 AB059 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM I",
+      "site_group_heuristic": "PK"
+    },
+    {
+      "word_id": "SW-001272",
+      "document_id": "ZA 10b",
+      "sequence": "AB076 AB002 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001273",
+      "document_id": "ZA 10b",
+      "sequence": "AB003 AB057 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001297",
+      "document_id": "ZA 15a",
+      "sequence": "AB028 AB055 AB080 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001339",
+      "document_id": "ZA 23",
+      "sequence": "AB073 AB027",
+      "length": 2,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001359",
+      "document_id": "ZA 4a",
+      "sequence": "AB028 AB055 AB080 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001367",
+      "document_id": "ZA 5b",
+      "sequence": "AB028 AB055 AB080 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001385",
+      "document_id": "ZA 8",
+      "sequence": "AB008 AB059 AB027",
+      "length": 3,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    },
+    {
+      "word_id": "SW-001386",
+      "document_id": "ZA 8",
+      "sequence": "AB081 AB069 AB070 AB027",
+      "length": 4,
+      "document_type": "Tablet",
+      "period": "LM IB",
+      "site_group_heuristic": "ZA"
+    }
+  ],
+  "interpretation_guardrail": "Positional concentration only; no affix/morpheme/grammar meaning assigned."
+}

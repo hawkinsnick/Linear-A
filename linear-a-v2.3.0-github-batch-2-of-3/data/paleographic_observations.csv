@@ -1,0 +1,6 @@
+observation_id,document_id,canonical_or_source_sign,feature_type,observation,evidence_level,source,status
+PAL-001,KNZc6,,painted_cursive_medium,Painted signs on interior of ceramic cup; published discussion notes painted Linear A has a more cursive/calligraphic style than incised forms.,actual_object_photograph_and_published_drawing,Flouda 2013 / Festos.eu,observed_medium_level
+PAL-002,HT17,AB164a,source_variant_label,SigLA-derived tracing identifies AB164a in HT17.,occurrence_tracing,SigLA via lineara.eu,source_explicit
+PAL-003,HT34,A516,source_sign_form,Occurrence after SI is traced/classified A516.,occurrence_tracing,SigLA via lineara.eu,source_explicit
+PAL-004,KH74,A605,source_sign_form,KH74 exemplar is traced/classified A605.,occurrence_tracing,SigLA via lineara.eu,source_explicit
+PAL-005,KH8,A567,source_sign_form,KH8 exemplar is traced/classified A567.,occurrence_tracing,SigLA via lineara.eu,source_explicit

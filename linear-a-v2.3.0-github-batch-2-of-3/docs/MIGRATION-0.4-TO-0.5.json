@@ -1,0 +1,31 @@
+{
+  "from": "0.4.0-rc15-local",
+  "to": "0.5.0-alpha-local",
+  "preserved": [
+    "decoder structural validation",
+    "same-snapshot semantic cross-check",
+    "source reconciliation",
+    "uncertainty branches",
+    "f3 evidence tiers",
+    "licensing/provenance policies"
+  ],
+  "new": [
+    "document_contexts.csv",
+    "context_assertions.csv",
+    "structural_units.csv",
+    "analysis_eligibility.csv",
+    "explicit context metadata policy",
+    "explicit structural-unit policy"
+  ],
+  "blocked_until_data_join": [
+    "document-type stratified statistics",
+    "period stratification",
+    "support/material stratification",
+    "source-word adjacency/motif analysis"
+  ],
+  "superseded_models_remain_superseded": [
+    "RC8 zero-boundary semantic interpretation",
+    "RC9 enum mapping",
+    "universal f3 word-coordinate interpretation"
+  ]
+}

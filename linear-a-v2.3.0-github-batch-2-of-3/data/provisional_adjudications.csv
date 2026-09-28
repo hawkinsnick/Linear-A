@@ -1,0 +1,6 @@
+case_id,document_id,field,provisional_value,status,basis
+P001,HT10a,numeral,14,provisional_supported,current document/tracing evidence supports 14; retain 104 witness
+P002,ARKH1b,sign group,PA-RE,provisional_supported,additional GORILA-based witness supports Younger
+P003,APZa2,sign group ending,-NU,provisional_supported,additional van Soesbergen witness supports -NU
+P004,HT113,comparison classification,alignment/context defect likely,reclassified,record contains both 30 and 2 at distinct positions
+P005,HT4,comparison classification,alignment/context defect likely,reclassified,record contains both 2 and 1 at distinct positions

@@ -1,0 +1,7 @@
+case_id,document_id,issue,status,evidence,action
+RC3-01,KNZc6,layout/boundary,resolved_physical_separator_evidence,Flouda 2013 states beginning/end of second sign-group were divided by punctuation; actual cup photograph published.,Represent punctuation/layout explicitly; do not infer linguistic function beyond separator evidence.
+RC3-02,HT34,SI+A516,source_strengthened_open,Current SigLA-derived traced record explicitly orders AB41 SI then A516; record has five damaged signs.,Keep A516 observation; competing transcription remains source-specific pending independent object evidence.
+RC3-03,HT49a,SU-KI / damaged sequence,source_conflict_characterized,Independent GORILA-derived transcription gives SU-KI; separate sign index records SU-[damaged] at HT49a.3.,Model damage status and source readings separately; no forced winner.
+RC3-04,KH74,A605 / competing compound reading,source_strengthened_open,"A605 has three SigLA-traced occurrences, exemplar KH74; current host explicitly warns proposed values are not object-verified.","Keep A605 as source sign identity, proposed semantic/logographic values separate."
+RC3-05,KH8,A567 / competing compound reading,source_strengthened_open,"A567 has one SigLA-traced occurrence, exemplar KH8; proposed value is unverified.","Keep A567 as source sign identity, proposed semantic/logographic values separate."
+RC3-06,fraction K,1/10 vs 1/16,hypothesis_branch_required,Corazza et al. computational reconstruction supports 1/10; historical alternatives include 1/16.,No observational normalization; analyses must branch.

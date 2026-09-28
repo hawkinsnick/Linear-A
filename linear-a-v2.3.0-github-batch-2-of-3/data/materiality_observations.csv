@@ -1,0 +1,5 @@
+observation_id,document_id,feature,value,detail,source,evidence_level
+MAT-001,KNZc6,support,ceramic conical cup,diameter 8.4 cm; HM P2630,Flouda 2013,published_object_photograph
+MAT-002,KNZc6,technique,painted in ink,painted/cursive rather than incised,Flouda 2013 / Festos.eu,published_object_photograph
+MAT-003,KNZc6,layout,dextroverse spiral,from centre/base toward rim,Flouda 2013,published_analysis_of_object
+MAT-004,KNZc6,separator,punctuation mark,beginning/end of second sign-group divided by punctuation,Flouda 2013,published_analysis_of_object
