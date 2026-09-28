@@ -1,0 +1,17 @@
+{
+  "passed": 11,
+  "total": 11,
+  "checks": {
+    "empirical_targets_frozen": true,
+    "whole_document_sampling": true,
+    "damage_levels_frozen": true,
+    "deterministic_seed": true,
+    "replicate_count_frozen": true,
+    "requires_2_3_manifest": true,
+    "no_gold_scoring": true,
+    "no_calibration_result": true,
+    "all_preregistered_controls_executable": true,
+    "target_optimized_whole_document_sampling": true,
+    "fully_masked_denominator_reported": true
+  }
+}

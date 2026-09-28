@@ -1,0 +1,69 @@
+{
+  "version": "2.4.0-preregistered",
+  "experiment": "Linear-A-like degradation of frozen known-answer Linear B detector input",
+  "execution_gate": "REQUIRES_AUTHENTICATED_2.3_BLIND_BASELINE_AND_GOLD_SCORING_CONTRACT",
+  "linear_a_empirical_targets": {
+    "nonempty_word_tokens": 1283,
+    "documents_with_nonempty_words": 451,
+    "distinct_word_types": 836,
+    "hapax_types": 668,
+    "recurrent_types": 168,
+    "median_tokens_per_document": 2,
+    "mean_tokens_per_document": 2.844789356984479,
+    "mean_word_length_signs": 2.4738893219017926
+  },
+  "factors": {
+    "document_token_scale": {
+      "method": "seeded whole-document subset optimization minimizing absolute token-count error; no word-level sampling",
+      "target_tokens": 1283,
+      "preserve_document_clusters": true
+    },
+    "recurrence_pressure": {
+      "method": "diagnostic/rejection criterion, not token relabeling",
+      "target_hapax_fraction": 0.7990430622009569,
+      "tolerance_absolute": 0.05,
+      "note": "Do not alter Linear B word identities merely to force a vocabulary match."
+    },
+    "damage_missingness": {
+      "levels": [
+        0.0,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "method": "independent sign masking after document sampling; boundary and internal masks tracked separately",
+      "mask_symbol": "<MASK>",
+      "drop_fully_masked_words": false,
+      "fully_masked_handling": "count explicitly as missing-word outcomes; exclude from detector-facing sequences but retain denominator diagnostics"
+    }
+  },
+  "controls": [
+    "undegraded authenticated 2.3 detector input",
+    "document-scale-only degradation",
+    "damage-only degradation",
+    "combined document-scale plus damage degradation"
+  ],
+  "replicates": {
+    "per_condition": 1000,
+    "master_seed": 2400001
+  },
+  "frozen_detector_contract": {
+    "source": "scripts/run_damos_blind_calibration.py at the authenticated 2.3 baseline commit",
+    "tuning_after_gold_reveal": false,
+    "minimum_occurrence_threshold": 8,
+    "screen_threshold_z": 1.96
+  },
+  "reporting": [
+    "document/token/type/hapax/recurrent counts for every replicate",
+    "positive positional screens and directed edge-removal relations",
+    "retention/loss of authenticated 2.3 frozen predictions",
+    "gold-supported recovery metrics only after gold scoring contract is available",
+    "separate boundary-mask and internal-mask diagnostics"
+  ],
+  "interpretation_limits": [
+    "Degradation sensitivity does not establish Linear A morphology.",
+    "Failure under degraded Linear B bounds detector sensitivity under sparse evidence; it does not disprove structure in Linear A.",
+    "Success under degraded Linear B establishes robustness only to modeled degradation factors.",
+    "No 2.4 performance result may be reported before the 2.3 gate is satisfied."
+  ]
+}

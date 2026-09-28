@@ -1,0 +1,37 @@
+[
+  {
+    "path": "README-2.4.0.md",
+    "bytes": 447,
+    "sha256": "773015ce491446d5473e00a0eeb604ed8d625ed3a8f6fbc94e36cd6856256a22"
+  },
+  {
+    "path": "VERSION-2.4.0",
+    "bytes": 20,
+    "sha256": "c072d17116bdcfe0c426dac38e8e74c31f9466b152e5bb1b8b4701bbade2fa59"
+  },
+  {
+    "path": "analysis/2.4.0_degradation_parameters.json",
+    "bytes": 2846,
+    "sha256": "adc12db575a2a5720a0476c2c6a9ae0fd81cb51b46b230b58452bca54048fe23"
+  },
+  {
+    "path": "analysis/2.4.0_status.json",
+    "bytes": 371,
+    "sha256": "8f30ee6142534b3f562d0cbff932db3e25eee5ae351300584d7622321716c3f0"
+  },
+  {
+    "path": "docs/DEGRADED-CORPUS-CALIBRATION-2.4.md",
+    "bytes": 1741,
+    "sha256": "53b06160a359e41013bb5f2b25b146c44e88267a9b28c9258b84be01d42bd38f"
+  },
+  {
+    "path": "scripts/run_linear_b_degradation_2_4.py",
+    "bytes": 4862,
+    "sha256": "8449f1f56ef41aec0e4a3b9a9630cdff2c58fde3e8aef7e29e05764b082f2bff"
+  },
+  {
+    "path": "tests/2.4.0_release_audit.json",
+    "bytes": 480,
+    "sha256": "5129f8c3e98ac0727e9492f6ae28add16a2c75945d32985f31c830e5fe7bff32"
+  }
+]
