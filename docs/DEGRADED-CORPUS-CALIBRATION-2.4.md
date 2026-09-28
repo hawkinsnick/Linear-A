@@ -19,3 +19,7 @@ The preregistration uses the canonical source-word table: 1,283 nonempty tokens 
 
 ## Interpretation
 2.4 measures sensitivity to modeled evidence loss. It cannot establish affixes, morphemes, readings, language identity, or decipherment. A detector that survives modeled degradation is robust to those modeled conditions only.
+
+## Completion semantics
+
+Version 2.4.0 is release-complete when this protocol, executable engine, result schema, and audit are frozen. Experimental execution remains blocked until the authenticated 2.3 prerequisite exists; that distinction prevents a missing upstream dataset from being disguised as a negative or null result.
