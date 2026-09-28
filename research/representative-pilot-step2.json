@@ -1,0 +1,13 @@
+{
+  "step": 2,
+  "name": "representative-pilot",
+  "corpus": "Linear-A",
+  "version": "3.1.0",
+  "role": "undeciphered evidence-rich corpus",
+  "state": "READY",
+  "selection_rule": "Stratify existing 802 documents by site, document/sign-count band and source-defined word availability; preserve document clustering.",
+  "scientific_boundary": "Pilot supports robustness and representation tests, not linguistic identification.",
+  "freeze_policy": "Membership and selection rules freeze before target-result inspection.",
+  "cross_corpus_rule": "Pilot strata remain native; cross-script identity is never inferred by inclusion.",
+  "results": []
+}
