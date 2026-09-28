@@ -1,0 +1,35 @@
+{
+  "target_version": "3.1.0",
+  "milestone": "current SigLA prospective replication",
+  "state": "BLOCKED_PENDING_EXACT_BYTES",
+  "pinned_asset": {
+    "repository": "ryanpavlicek/pyaegean",
+    "tag": "sigla-corpus-v4",
+    "asset_id": 473681091,
+    "name": "sigla-corpus.json",
+    "bytes": 1335389,
+    "sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+    "identity_reverified": "2026-09-28"
+  },
+  "preregistered_cohort_labels": 24,
+  "candidate_outcomes_inspected": false,
+  "requirements": [
+    {
+      "id": "materialize_exact_bytes",
+      "satisfied": false
+    },
+    {
+      "id": "verify_sha256",
+      "satisfied": false
+    },
+    {
+      "id": "compute_snapshot_delta",
+      "satisfied": false
+    },
+    {
+      "id": "score_frozen_prospective_cohort",
+      "satisfied": false
+    }
+  ],
+  "claim_allowed": false
+}
