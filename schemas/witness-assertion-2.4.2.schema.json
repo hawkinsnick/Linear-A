@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linear A witness assertion 2.4.2",
+  "type": "object",
+  "required": [
+    "assertion_id",
+    "canonical_document_id",
+    "source_id",
+    "assertion_type",
+    "value",
+    "lineage_id",
+    "license_status"
+  ],
+  "properties": {
+    "assertion_id": {
+      "type": "string"
+    },
+    "canonical_document_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_record": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "assertion_type": {
+      "enum": [
+        "reading",
+        "sign_identity",
+        "word_boundary",
+        "separator",
+        "numeral",
+        "fraction",
+        "damage",
+        "erasure",
+        "scribe",
+        "support",
+        "period",
+        "site",
+        "find_area",
+        "find_spot",
+        "layout"
+      ]
+    },
+    "locus": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "value": {},
+    "certainty": {
+      "enum": [
+        "certain",
+        "probable",
+        "uncertain",
+        "unknown",
+        "not_stated"
+      ]
+    },
+    "lineage_id": {
+      "type": "string"
+    },
+    "license_status": {
+      "type": "string"
+    },
+    "redistributable": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
