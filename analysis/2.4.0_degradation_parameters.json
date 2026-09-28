@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0-preregistered",
+  "version": "2.4.0",
   "experiment": "Linear-A-like degradation of frozen known-answer Linear B detector input",
   "execution_gate": "REQUIRES_AUTHENTICATED_2.3_BLIND_BASELINE_AND_GOLD_SCORING_CONTRACT",
   "linear_a_empirical_targets": {
@@ -22,11 +22,12 @@
       "method": "diagnostic/rejection criterion, not token relabeling",
       "target_hapax_fraction": 0.7990430622009569,
       "tolerance_absolute": 0.05,
-      "note": "Do not alter Linear B word identities merely to force a vocabulary match."
+      "note": "Do not alter Linear B word identities merely to force a vocabulary match.",
+      "report_each_replicate_within_tolerance": true
     },
     "damage_missingness": {
       "levels": [
-        0.0,
+        0,
         0.05,
         0.1,
         0.2
@@ -65,5 +66,11 @@
     "Failure under degraded Linear B bounds detector sensitivity under sparse evidence; it does not disprove structure in Linear A.",
     "Success under degraded Linear B establishes robustness only to modeled degradation factors.",
     "No 2.4 performance result may be reported before the 2.3 gate is satisfied."
-  ]
+  ],
+  "execution_state": "PROTOCOL_COMPLETE_EXECUTION_PENDING_2.3",
+  "authentication": {
+    "baseline_manifest_stage": "BLIND_PREDICTION_FROZEN",
+    "requires_gold_morphology_seen_false": true,
+    "detector_input_token_count_must_equal_baseline_manifest_word_tokens": true
+  }
 }
