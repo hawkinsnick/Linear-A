@@ -10,7 +10,7 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**2.4.0 — degraded-corpus calibration protocol complete; execution pending the authenticated 2.3 baseline**
+**2.4.1 — corpus expansion/source audit in progress; 2.3/2.4 experimental gates remain frozen**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 
@@ -137,6 +137,9 @@ Froze the Linear-A-like degradation experiment before seeing the 2.3 answer. The
 **Release state:** protocol complete.  
 **Experiment state:** blocked pending the authenticated 2.3 baseline.  
 **Calibration result:** null.
+
+### 2.4.1 — corpus expansion and source audit
+Froze the original SigLA analytical snapshot and a 24-label prospective cohort from SigLA's May/June 2026 public update log before candidate-outcome inspection. Added a source/rights registry, source-lineage and evidence-instance schemas, and pinned the current pyaegean `sigla-corpus-v4` derivative identity (1,335,389 bytes; SHA-256 `9a5e4783…f03dd8`). The current bytes are not yet materialized locally, so no old-vs-new corpus delta or prospective structural result is claimed. Frozen 2.3/2.4 hypotheses remain unchanged.
 
 ## Research-history and correction records
 
