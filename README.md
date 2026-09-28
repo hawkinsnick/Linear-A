@@ -1,6 +1,6 @@
 # Linear A Open Corpus
 
-An open, provenance-first, machine-readable research corpus for Minoan Linear A.
+An open, provenance-first, machine-readable research corpus and experimental framework for Minoan Linear A.
 
 ## Project goal
 
@@ -10,21 +10,24 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**0.7.0 — source-word analytical release**
+**2.4.0 — degraded-corpus calibration protocol complete; execution pending the authenticated 2.3 baseline**
 
-The project now includes a validated local SigLA decoding path, source reconciliation and uncertainty architecture, context-aware structural units, and analysis over SigLA's explicit serialized Word objects.
+The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 
-Current validated snapshot invariants include:
+Current validated corpus invariants include:
 - 802 decoded documents
 - 5,144 sign attestations
 - 1,401 serialized SigLA Word objects
 - 1,283 nonempty source-defined words
 - 836 distinct source-word types
+- 668 hapax types
 - 168 recurrent source-word types
 
 Two separately implemented executable decoding paths, checked against the published reference field semantics and run on the same SigLA snapshot, agreed on all 5,144 attestations across 46,296 compared fields. This is a decoder/extraction validation claim, not an epigraphic or decipherment claim.
 
-See `docs/RESEARCH-HISTORY-0.3-0.7.md` for the consolidated post-0.2 research history and corrections.
+The current conservative structural result is narrower than the historical 0.8 screen: 12 sign/position combinations survived the 0.8 adversarial screen, but only **6/12** retain a document-cluster-bootstrap 2.5th-percentile enrichment z above 1.96 in 1.7. These remain structural candidates, not morphemes or affixes.
+
+The known-answer Linear B experiment remains unexecuted because the exact checksum-pinned DĀMOS v2 corpus bytes have not been materialized in the execution environment. Accordingly, 2.3 makes no calibration-performance claim, and 2.4 is complete as a preregistered protocol but has no experimental result.
 
 ## Core design principles
 
@@ -37,21 +40,17 @@ See `docs/RESEARCH-HISTORY-0.3-0.7.md` for the consolidated post-0.2 research hi
 7. Conflicting scholarly claims remain distinguishable.
 8. Releases should be reproducible.
 9. Original project contributions should be maximally open.
-10. Failed/superseded analytical models are documented rather than silently erased.
+10. Failed, blocked, corrected and superseded analyses are documented rather than silently erased.
 
 ## Source-word architecture
 
-0.6.0 established that SigLA's serialized document objects contain explicit Word lists. Source-word membership is therefore decoded from those lists and **not reconstructed from the unresolved f3 field**.
+0.6.0 established that SigLA's serialized document objects contain explicit Word lists. Source-word membership is decoded from those lists and **not reconstructed from the unresolved f3 field**.
 
-0.7.0 reports distributional analyses over those source-defined words. No result is asserted to be a prefix, suffix, morpheme, grammatical rule, phonotactic rule, translation or decipherment.
+No source-word result in this project is asserted to be a prefix, suffix, morpheme, grammatical rule, phonotactic rule, translation or decipherment unless future evidence independently establishes that interpretation.
 
 ## f3
 
-The f3 field remains evidence-tiered and semantically unresolved. Earlier attempted boundary interpretations were tested and superseded. It is not used as a substitute for source-defined word membership.
-
-## Important 0.7 correction
-
-A site_id field in the initial 0.6 local export was derived from document-label prefixes. Public 0.7 documentation corrects this to `site_group_heuristic`. It is not canonical source-explicit site metadata.
+The f3 field remains evidence-tiered and semantically unresolved. Earlier attempted boundary interpretations were tested and superseded. It is not used as a substitute for source-defined word membership. The 2.2 postmortem formally quarantines global f3 semantics.
 
 ## SigLA and licensing
 
@@ -59,16 +58,109 @@ SigLA is a major upstream source. SigLA-derived records and aggregates retain ap
 
 See `THIRD-PARTY-NOTICES.md`, `DATA-LICENSE-MATRIX.md`, and `SOURCE-POLICY.md`.
 
-## Roadmap
+## Changelog
 
-- 0.1.0 — Unicode sign inventory.
-- 0.2.0 — corpus architecture, provenance and licensing framework.
-- 0.3.0 — reproducible SigLA decoder/import foundation.
-- 0.4.0 — source reconciliation, uncertainty, structural forensics and computational baselines.
-- 0.5.0 — context-aware corpus architecture.
-- 0.6.0 — explicit serialized SigLA Word-object layer.
-- 0.7.0 — source-word distributional analysis and methodology correction.
-- 1.0.0 — reproducible, release-versioned research corpus suitable for general computational and scholarly use.
+The entries below summarize the research releases. Historical claims remain subject to later corrections and re-evaluations; later entries do not silently rewrite earlier releases.
+
+### 0.1.0 — initial sign inventory
+Established the initial open project and Unicode-oriented Linear A sign inventory.
+
+### 0.2.0 — corpus architecture and provenance
+Established the provenance-first corpus architecture, source/license tracking, uncertainty policy and separation between observation, normalization and interpretation.
+
+### 0.3.0 — reproducible SigLA decoding
+Developed the local opt-in SigLA importer and minimal Marshal decoding path. On the tested snapshot, two executable decoding implementations agreed across 5,144 attestations and 46,296 compared fields. Raw upstream payloads remained excluded.
+
+### 0.4.0 — reconciliation and structural forensics
+Introduced source-specific reconciliation, uncertainty, paleographic observations, numeral/hypothesis branches and structural exploratory work. Several early boundary/f3 models were falsified or superseded; f3 was retained as unresolved evidence-tiered structure rather than assigned global semantics.
+
+### 0.5.0 — context-aware architecture
+Added provenance-bearing document context, field-level assertions, typed structural units and analysis eligibility. Established the critical invariant that a candidate f3 group is not a source word.
+
+### 0.6.0 — explicit SigLA Word objects
+Decoded SigLA's explicit serialized Word lists independently of f3: 1,401 Word objects, including 1,283 nonempty and 118 empty objects. Six live-page word-count checks agreed 6/6.
+
+### 0.7.0 — source-word analytical release
+Measured 836 distinct types, 668 hapax types and 168 recurrent types among 1,283 nonempty source words. A within-word positional permutation screen produced 22 BH-FDR-positive sign/position cases. The release also corrected the inherited document-prefix `site_id` label to `site_group_heuristic`.
+
+### 0.8.0 — adversarial positional robustness
+Challenged the 22 positional signals with type deduplication, leave-one-document-out, leave-one-heuristic-group-out and dominant-word-type ablation. **12/22** survived the full strict screen; 10 were downgraded or context-sensitive.
+
+### 0.9.0 — frozen dossiers and multiverse
+Froze the 12 strict candidates and added per-candidate evidence dossiers, type-level multiverse testing and an internal-position negative control. Known-answer Linear B calibration was explicitly blocked rather than simulated.
+
+### 1.0.0 — first architecture freeze
+Froze the first complete research architecture: provenance schemas, decoder validation, source reconciliation, explicit Word extraction, structural analyses, evidence dossiers and a machine-readable claim registry. The release explicitly left independent replication, known-answer calibration and linguistic interpretation open.
+
+### 1.1.0 — canonical-site sensitivity
+Added an explicit reviewed document-to-site mapping and reran leave-one-site-out sensitivity for the 12 frozen candidates. A later 2.1 audit corrected the release summary from **18 to 19** distinct canonical site IDs; the analysis iterated over the mapping table itself.
+
+### 1.2.0 — known-answer calibration gate
+Froze the DĀMOS-based Linear B calibration protocol and exact checksum-pinned derivative identity. Execution remained blocked by corpus materialization rather than using an illustrative or synthetic substitute.
+
+### 1.3.0 — cross-representation replication
+Tested the 12 frozen signals against a pinned separately encoded Linear A representation: 1,402 eligible token occurrences and 1,009 unique types. All 12 reproduced their enriched boundary direction at type-level z > 1.96. This is **cross-representation replication, not independent epigraphic replication**, because important upstream ancestry is shared.
+
+### 1.4.0 — calibration acquisition and falsification discipline
+Verified the public DĀMOS route while preserving the distinction between the frozen derivative, live/current DĀMOS data and calibration outputs. The full pinned corpus still could not be materialized, and no miniature or synthetic substitute was promoted to a calibration result.
+
+### 1.5.0 — edge-alternation structure
+Found 651 attested directed one-edge-removal relations in four connected components. **11/12** frozen positional candidates participate in at least two such relations. These are form relations, not stems, affixes or paradigms.
+
+### 1.6.0 — context-conditioned structure
+Joined the frozen boundary signals to source-explicit document type and period metadata. Two of 12 candidates showed breadth across at least two document types and 9/12 across at least two period labels under the stated descriptive criterion. No semantic or chronological interpretation was assigned.
+
+### 1.7.0 — document-cluster bootstrap
+Resampled whole documents rather than treating words as independent. Across 1,000 cluster-bootstrap replicates, only **6/12** frozen candidates retained a 2.5th-percentile enrichment z above 1.96. This became the more conservative structural core in the later 2.2 re-evaluation.
+
+### 1.8.0 — edge-alternation null
+Compared the 651 directed edge-removal relations with a within-type sign-order shuffle null: null mean 587.2, SD 8.5, empirical upper-tail p = 0.000999. This supports excess order-sensitive form structure under that null, not morphology.
+
+### 1.9.0 — scholarly interoperability
+Formalized how the project represents external scholarship: preserve attribution and operational differences, do not rank researchers, and do not convert non-reproduction under this pipeline into claims that another scholar has been disproved.
+
+### 2.0.0 — second architecture freeze
+Froze the second research architecture and evidence ladder spanning source structure, internal enrichment, adversarial robustness, geographic sensitivity, cross-representation replication, form-network evidence and document-cluster robustness. Known-answer calibration and independent epigraphic replication remained open gates.
+
+### 2.1.0 — postmortem correction and DĀMOS provenance
+Corrected the stale 1.1 canonical-site count from 18 to **19** and changed the audit to recompute the invariant. A temporary DĀMOS provenance false alarm was also corrected by direct tag lookup: the pinned v2 asset identity and SHA-256 digest were verified. The corpus bytes still were not materialized, so no calibration result was claimed.
+
+### 2.2.0 — re-evaluation gate
+Performed a project-wide postmortem. Decoder/source-word structure was retained; global f3 semantics were quarantined; the 12-candidate set was retained only as the frozen adversarial screen; the **6/12 document-cluster-bootstrap survivors** were promoted as the conservative structural core; cross-representation evidence retained its non-independent limitation; and pseudo-Linear-A degradation was blocked until real known-answer calibration.
+
+### 2.3.0 — executable blind Linear B calibration gate
+Converted the known-answer protocol into an executable SHA-256-gated blind runner. Stage A can consume only detector-facing DĀMOS transliteration data, freezes predictions before gold reveal, and aborts on the wrong corpus hash. Exact input bytes have not yet been materialized, so `calibration_result` remains null.
+
+### 2.4.0 — preregistered degraded-corpus calibration
+Froze the Linear-A-like degradation experiment before seeing the 2.3 answer. The protocol uses whole-document optimized sampling toward the 1,283-token Linear A scale, deterministic 1,000-replicate conditions, 0/5/10/20% sign masking, undegraded/scale-only/damage-only/combined controls, explicit boundary/internal/full-mask diagnostics, recurrence mismatch reporting without manufacturing vocabulary agreement, authenticated 2.3 handoff checks and a machine-readable result schema.
+
+**Release state:** protocol complete.  
+**Experiment state:** blocked pending the authenticated 2.3 baseline.  
+**Calibration result:** null.
+
+## Research-history and correction records
+
+For more detail, see:
+- `docs/RESEARCH-HISTORY-0.3-0.7.md`
+- version-specific `README-<version>.md` files
+- `release/CLAIM-REGISTRY.csv`
+- `docs/ERRATA-2.1.0.md`
+- `release/POSTMORTEM-REEVALUATION-2.2.csv`
+
+## Next research gates
+
+The current roadmap is evidence-gated rather than outcome-gated:
+
+- execute the checksum-pinned 2.3 known-answer Linear B calibration when exact bytes can be authenticated;
+- execute the already-frozen 2.4 degradation protocol only after the 2.3 baseline and gold-scoring contract exist;
+- 2.5 — statistical multiverse and document-cluster modeling;
+- 2.6 — independent epigraphic leverage/adjudication;
+- 2.7 — structural-family and edge-network null models;
+- 2.8 — administrative/context structure;
+- 2.9 — hostile pre-release audit;
+- 3.0 — independently audited experimental framework.
+
+A negative calibration result is an informative result. It must not be tuned away.
 
 ## Reproducible SigLA import
 
