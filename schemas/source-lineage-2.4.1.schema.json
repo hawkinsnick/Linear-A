@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source lineage 2.4.1",
+  "type": "object",
+  "required": [
+    "lineage_id",
+    "source_id",
+    "relationship",
+    "independence_class"
+  ],
+  "properties": {
+    "lineage_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "parent_source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relationship": {
+      "enum": [
+        "primary_object",
+        "primary_edition",
+        "derived_transcription",
+        "editorial_revision",
+        "digital_reencoding",
+        "merged_representation",
+        "secondary_commentary",
+        "metadata_authority"
+      ]
+    },
+    "independence_class": {
+      "enum": [
+        "independent_epigraphic",
+        "partially_independent",
+        "shared_upstream",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "basis": {
+      "type": "string"
+    },
+    "citation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
