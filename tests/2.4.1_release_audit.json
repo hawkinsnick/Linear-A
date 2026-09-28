@@ -1,6 +1,6 @@
 {
-  "passed": 8,
-  "total": 8,
+  "passed": 14,
+  "total": 14,
   "checks": {
     "original_snapshot_identity_recorded": true,
     "prospective_membership_frozen": true,
@@ -9,6 +9,12 @@
     "mixed_source_licenses_not_flattened": true,
     "independence_not_assumed": true,
     "frozen_experiments_unchanged": true,
-    "current_snapshot_result_not_fabricated": true
+    "current_snapshot_result_not_fabricated": true,
+    "current_derivative_identity_pinned": true,
+    "evidence_instance_schema_present": true,
+    "source_lineage_schema_present": true,
+    "descriptive_delta_engine_frozen": true,
+    "delta_contract_blocks_candidate_outcomes": true,
+    "current_bytes_still_not_claimed_materialized": true
   }
 }
