@@ -1,0 +1,25 @@
+{
+  "version": "3.0.6",
+  "artifact": {
+    "name": "sigla-corpus.json",
+    "bytes": 1335389,
+    "sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+    "authentication": "PASS_EXACT_PREREGISTERED_ASSET"
+  },
+  "checks": {
+    "json_integrity": "PASS",
+    "documents": 802,
+    "attestations": 5144,
+    "duplicate_or_missing_document_ids": 0,
+    "malformed_core_types": 0,
+    "exact_duplicate_attestations_within_document": 0,
+    "word_indices": "CONSECUTIVE_WHERE_PRESENT",
+    "provenance_rights_metadata": "PASS"
+  },
+  "notes": [
+    "Explicit SigLA word membership must not be reconstructed from contiguous attestation runs.",
+    "Missing metadata remains missing and must not be imputed.",
+    "Observed sign-label/number multiplicity is retained as source semantics, not normalized away."
+  ],
+  "prospective_outcomes_inspected": false
+}
