@@ -1,0 +1,39 @@
+{
+  "step": "2.5",
+  "name": "family-evidence-baseline-v1",
+  "version": "3.1.1",
+  "state": "BASELINE_FROZEN",
+  "metrics": {
+    "documents": {
+      "value": 802,
+      "status": "measured"
+    },
+    "sign_attestations": {
+      "value": 5144,
+      "status": "measured"
+    },
+    "source_defined_words_nonempty": {
+      "value": 1283,
+      "status": "measured"
+    },
+    "sites": {
+      "value": 19,
+      "status": "measured_identifier_derived"
+    },
+    "hand_profile": {
+      "status": "unknown"
+    }
+  },
+  "rules": [
+    "Unknown is not zero.",
+    "Bounded is not complete.",
+    "Catalogue presence is not transcription coverage.",
+    "Only definition-compatible measured dimensions may be compared.",
+    "Source lineage and rights survive derived exports."
+  ],
+  "acquisition_queue": [
+    "Measure per-document context completeness: site, document class, source lineage, uncertainty and segmentation.",
+    "Export only dimensions with stable definitions for matched-degradation targets.",
+    "Preserve document-level clustering in all resampling."
+  ]
+}
