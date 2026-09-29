@@ -1,41 +1,5 @@
 {
   "version": "1.0",
-  "purpose": "Resolve frozen catalogue-level prospective cohort labels to decoded SigLA document IDs before outcome inspection.",
-  "rules": [
-    "Exact document-ID match first.",
-    "Whitespace-only normalization may be used when unique.",
-    "A catalogue-level label denoting multiple faces/sides expands to all corresponding decoded document IDs.",
-    "No face/side may be selected or discarded based on candidate outcome.",
-    "Ambiguous or unmatched labels remain unresolved and are reported; no fuzzy guessing."
-  ],
-  "known_examples": {
-    "KN Za10(a/b)": [
-      "KN Za 10a",
-      "KN Za 10b"
-    ],
-    "PK 1": [
-      "PK 1a",
-      "PK 1b"
-    ],
-    "GO2": [
-      "GO 2a",
-      "GO 2b"
-    ],
-    "KE 6": [
-      "KE 6a",
-      "KE 6b"
-    ],
-    "KH 93": [
-      "KH 93a",
-      "KH 93b"
-    ],
-    "THE 7": [
-      "THE 7a",
-      "THE 7b"
-    ],
-    "PH54": [
-      "PH 54"
-    ]
-  },
+  "rule": "Normalize trivial whitespace/punctuation only; a catalogue-level label denoting multiple source-defined faces/sides expands to ALL corresponding decoded documents. Never select/drop a side using candidate outcomes. Unresolved labels remain unresolved and are reported.",
   "candidate_outcomes_inspected": false
 }

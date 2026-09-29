@@ -11,15 +11,10 @@
     "documents": 802,
     "attestations": 5144,
     "duplicate_or_missing_document_ids": 0,
-    "malformed_core_types": 0,
-    "exact_duplicate_attestations_within_document": 0,
+    "field_type_integrity": "PASS",
     "word_indices": "CONSECUTIVE_WHERE_PRESENT",
+    "exact_duplicate_attestations_within_document": 0,
     "provenance_rights_metadata": "PASS"
   },
-  "notes": [
-    "Explicit SigLA word membership must not be reconstructed from contiguous attestation runs.",
-    "Missing metadata remains missing and must not be imputed.",
-    "Observed sign-label/number multiplicity is retained as source semantics, not normalized away."
-  ],
   "prospective_outcomes_inspected": false
 }
