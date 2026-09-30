@@ -1,6 +1,6 @@
 ## 3.0.12 — mapping/statistical repair and stronger scientific-claim guards
 
-Statistical repair protocol is separately frozen and synthetic-tested; historical 2.5 runner fails closed. SigLA descriptive delta is retained; prospective input independence and known-answer calibration remain blocked.
+Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked.
 
 ## 3.0.11 — current-state integrity and evidence gate reconciliation
 

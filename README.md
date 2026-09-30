@@ -2,7 +2,7 @@
 
 ## Current status — 3.0.12
 
-Statistical repair protocol is separately frozen and synthetic-tested; historical 2.5 runner fails closed. SigLA descriptive delta is retained; prospective input independence and known-answer calibration remain blocked.
+Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked.
 
 The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
 
@@ -25,7 +25,7 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**Architecture baseline: 3.0.0; current maintenance version: 3.0.11**
+**Architecture baseline: 3.0.0; current maintenance version: 3.0.12**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 

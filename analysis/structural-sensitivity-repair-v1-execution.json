@@ -1,0 +1,16 @@
+{
+  "version": "3.0.12",
+  "protocol_freeze_commit": "145094811b34e5675cd7e5ee5c56f5060c4f4614",
+  "protocol_sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+  "result_sha256": "0f154b27388faf3e255b1e8c1dfd694ff235f02ca1e221c598c6a8eab5476a9c",
+  "repeat_execution_sha256": "0f154b27388faf3e255b1e8c1dfd694ff235f02ca1e221c598c6a8eab5476a9c",
+  "repeat_execution_byte_identical": true,
+  "candidate_family": 12,
+  "bootstrap_lower_z_above_historical_1_96_diagnostic": 6,
+  "diagnostic_ceiling": "Conditional composition sensitivity on historically selected candidates, not a confidence interval for linguistic truth or a discovery result.",
+  "prior_quarantined_implementation_used": false,
+  "candidate_definitions_changed": false,
+  "prospective_cohort_outcomes_evaluated": false,
+  "known_answer_calibration_executed": false,
+  "source_rights": "SigLA-derived inputs and aggregates retain CC BY-NC-SA 4.0 obligations."
+}

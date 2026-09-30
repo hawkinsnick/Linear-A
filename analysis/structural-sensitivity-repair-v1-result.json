@@ -1,0 +1,473 @@
+{
+  "word_tokens": 1283,
+  "word_types": 836,
+  "documents": 451,
+  "results": [
+    {
+      "candidate_id": "AB004-final",
+      "sign_id": "AB004",
+      "position": "final",
+      "token": {
+        "observed": 37,
+        "expected": 25.852631578947364,
+        "variance": 11.49541705140043,
+        "occurrences": 63,
+        "z": 3.2878348067166825,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0011997600479904018,
+        "holm_p": 0.0035992801439712055,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 5,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 28,
+        "expected": 16.935964912280703,
+        "variance": 9.363472606955986,
+        "occurrences": 49,
+        "z": 3.6157223373640304,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0007998400319936012,
+        "holm_p": 0.004799040191961607,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 3,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 0.8173652946845132,
+        "median_z": 3.297180547422992,
+        "p975_z": 5.725066788112033,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB006-final",
+      "sign_id": "AB006",
+      "position": "final",
+      "token": {
+        "observed": 56,
+        "expected": 36.952777777777776,
+        "variance": 19.47786265432097,
+        "occurrences": 103,
+        "z": 4.315796903931015,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 41,
+        "expected": 24.86944444444443,
+        "variance": 15.568140432098755,
+        "occurrences": 79,
+        "z": 4.088188902825138,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0003999200159968006,
+        "holm_p": 0.0035992801439712055,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 1,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 2.2864420093279025,
+        "median_z": 4.307889090673832,
+        "p975_z": 6.2623212397030406,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB024-final",
+      "sign_id": "AB024",
+      "position": "final",
+      "token": {
+        "observed": 31,
+        "expected": 16.19429824561404,
+        "variance": 7.604514273622655,
+        "occurrences": 43,
+        "z": 5.3689981834019855,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 22,
+        "expected": 10.610964912280702,
+        "variance": 6.528125384733766,
+        "occurrences": 34,
+        "z": 4.457513706951114,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 3.3632715391950407,
+        "median_z": 5.379224234468624,
+        "p975_z": 7.285919242109164,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB027-final",
+      "sign_id": "AB027",
+      "position": "final",
+      "token": {
+        "observed": 56,
+        "expected": 36.8859649122807,
+        "variance": 18.07208371806708,
+        "occurrences": 92,
+        "z": 4.496227360125461,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 37,
+        "expected": 22.46929824561402,
+        "variance": 13.648472606955977,
+        "occurrences": 65,
+        "z": 3.933186706592014,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 2.275864730796442,
+        "median_z": 4.520862650474107,
+        "p975_z": 6.6680865782844405,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB037-final",
+      "sign_id": "AB037",
+      "position": "final",
+      "token": {
+        "observed": 44,
+        "expected": 28.34285714285713,
+        "variance": 14.955226757369608,
+        "occurrences": 78,
+        "z": 4.048703871431967,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 34,
+        "expected": 22.509523809523802,
+        "variance": 13.316337868480723,
+        "occurrences": 68,
+        "z": 3.1488039699332395,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0021995600879824036,
+        "holm_p": 0.009998000399920015,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 10,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 1.6997875374476197,
+        "median_z": 4.073770927974475,
+        "p975_z": 6.433909755853424,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB065-final",
+      "sign_id": "AB065",
+      "position": "final",
+      "token": {
+        "observed": 21,
+        "expected": 12.677777777777777,
+        "variance": 6.6409876543209885,
+        "occurrences": 33,
+        "z": 3.229408409199537,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0013997200559888023,
+        "holm_p": 0.0035992801439712055,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 6,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 17,
+        "expected": 10.511111111111113,
+        "variance": 5.946543209876544,
+        "occurrences": 29,
+        "z": 2.6609581739424715,
+        "eligible": true,
+        "one_sided_permutation_p": 0.007398520295940812,
+        "holm_p": 0.014797040591881624,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 36,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 0.8439037175383879,
+        "median_z": 3.1725583598026175,
+        "p975_z": 5.431433358109833,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB118-final",
+      "sign_id": "AB118",
+      "position": "final",
+      "token": {
+        "observed": 14,
+        "expected": 6.533333333333333,
+        "variance": 3.951666666666667,
+        "occurrences": 18,
+        "z": 3.756095378904921,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 8,
+        "expected": 4.2,
+        "variance": 2.562777777777778,
+        "occurrences": 12,
+        "z": 2.3737125276876836,
+        "eligible": true,
+        "one_sided_permutation_p": 0.02399520095980804,
+        "holm_p": 0.02399520095980804,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 119,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 1.5744982886419918,
+        "median_z": 3.774982529316784,
+        "p975_z": 5.756041693425765,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB008-initial",
+      "sign_id": "AB008",
+      "position": "initial",
+      "token": {
+        "observed": 130,
+        "expected": 57.4397869674186,
+        "variance": 26.596562360632138,
+        "occurrences": 142,
+        "z": 14.069731043127227,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 91,
+        "expected": 32.68978696741853,
+        "variance": 20.367395693965474,
+        "occurrences": 103,
+        "z": 12.920427327365037,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 12.037557502922228,
+        "median_z": 14.074358214407729,
+        "p975_z": 16.01882933122668,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB010-initial",
+      "sign_id": "AB010",
+      "position": "initial",
+      "token": {
+        "observed": 30,
+        "expected": 18.77777777777778,
+        "variance": 8.890432098765434,
+        "occurrences": 47,
+        "z": 3.7637210644056664,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 20,
+        "expected": 11.027777777777779,
+        "variance": 6.452932098765433,
+        "occurrences": 32,
+        "z": 3.532006335672598,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0005998800239952009,
+        "holm_p": 0.004199160167966407,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 2,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 1.5196309915619202,
+        "median_z": 3.736540876156677,
+        "p975_z": 5.908705567569775,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB016-initial",
+      "sign_id": "AB016",
+      "position": "initial",
+      "token": {
+        "observed": 22,
+        "expected": 10.45,
+        "variance": 5.750277777777779,
+        "occurrences": 30,
+        "z": 4.8165666239345075,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 16,
+        "expected": 7.449999999999999,
+        "variance": 4.194722222222223,
+        "occurrences": 21,
+        "z": 4.174596564110267,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0003999200159968006,
+        "holm_p": 0.0035992801439712055,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 1,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 2.9062435657499464,
+        "median_z": 4.810595680983001,
+        "p975_z": 6.518161987557838,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB028-initial",
+      "sign_id": "AB028",
+      "position": "initial",
+      "token": {
+        "observed": 55,
+        "expected": 39.74444444444444,
+        "variance": 20.250432098765426,
+        "occurrences": 104,
+        "z": 3.3900872877847545,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0011997600479904018,
+        "holm_p": 0.0035992801439712055,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 5,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 35,
+        "expected": 23.9111111111111,
+        "variance": 14.69487654320987,
+        "occurrences": 74,
+        "z": 2.892711092567128,
+        "eligible": true,
+        "one_sided_permutation_p": 0.003199360127974405,
+        "holm_p": 0.009998000399920015,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 15,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 1.1781075136230548,
+        "median_z": 3.3696265252027437,
+        "p975_z": 5.670967036456537,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    },
+    {
+      "candidate_id": "AB081-initial",
+      "sign_id": "AB081",
+      "position": "initial",
+      "token": {
+        "observed": 98,
+        "expected": 58.7677109440268,
+        "variance": 28.38209442605397,
+        "occurrences": 140,
+        "z": 7.364129685525227,
+        "eligible": true,
+        "one_sided_permutation_p": 0.0001999600079984003,
+        "holm_p": 0.0023995200959808036,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 0,
+        "eligibility_reason": "PASS"
+      },
+      "type": {
+        "observed": 37,
+        "expected": 25.101044277360053,
+        "variance": 15.145983314942871,
+        "occurrences": 76,
+        "z": 3.0574552652789,
+        "eligible": true,
+        "one_sided_permutation_p": 0.001999600079984003,
+        "holm_p": 0.009998000399920015,
+        "holm_family_size": 12,
+        "monte_carlo_exceedances": 9,
+        "eligibility_reason": "PASS"
+      },
+      "document_cluster_bootstrap": {
+        "p025_z": 5.355779865123585,
+        "median_z": 7.38581183144413,
+        "p975_z": 9.254119714407809,
+        "scorable_replicates": 5000,
+        "zero_variance_replicates": 0
+      }
+    }
+  ],
+  "protocol_id": "structural-sensitivity-repair-v1",
+  "protocol_sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+  "implementation_sha256": "7f5ada03f7b96715087db4974712c4bd7cb9993e9eee30b384b3b07226cdf341",
+  "words_sha256": "d2e36d78fefdb1c16ab60f4f8fdcb20a39eaae0075e07d78198db5c6e22ea86a",
+  "candidates_sha256": "bec2d293383643b1d17bd2a13d958090ce7db09f720c9e3a6a17c1a87c2215a9",
+  "permutation_replicates": 5000,
+  "bootstrap_replicates": 5000,
+  "prospective_outcomes_evaluated": false,
+  "linguistic_claim_allowed": false,
+  "interpretation": "Conditional descriptive structural sensitivity on the historical corpus. Candidates were selected using this corpus: Holm corrects the displayed fixed family only and does not undo selection bias. Neither view establishes independent replication, morphology, a language, or decipherment. Prospective 3.1 and known-answer calibration remain blocked."
+}

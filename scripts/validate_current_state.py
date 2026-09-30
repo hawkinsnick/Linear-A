@@ -69,6 +69,11 @@ def validate():
             require(result["prospective_outcomes_evaluated"] is False and result["linguistic_claim_allowed"] is False,"conditional repair promoted to stronger claim")
             with (R/"data/candidate_registry_0.9.csv").open(newline="",encoding="utf-8") as f:ids=[x["candidate_id"] for x in csv.DictReader(f)]
             require([x["candidate_id"] for x in result["results"]]==ids,"statistical candidate family drift")
+            for view in ("token","type"):
+                ps=[row[view]["one_sided_permutation_p"] for row in result["results"]];previous=0.0
+                for rank,index in enumerate(sorted(range(12),key=lambda i:ps[i])):
+                    previous=max(previous,min(1.0,(12-rank)*ps[index]))
+                    require(abs(previous-result["results"][index][view]["holm_p"])<1e-12,"Holm step-down output arithmetic drift")
             for row in result["results"]:
                 for view in ("token","type"):
                     x=row[view];require(0<=x["one_sided_permutation_p"]<=x["holm_p"]<=1 and x["holm_family_size"]==12,"invalid multiplicity output")

@@ -9,7 +9,7 @@
     "calibration_executed": false,
     "descriptive_sigla_delta_executed": true,
     "multiverse_2_5": "QUARANTINED",
-    "statistical_repair_v1": "FROZEN_NOT_YET_EXECUTED"
+    "statistical_repair_v1": "EXECUTED_CONDITIONAL_HISTORICAL_SENSITIVITY"
   },
   "evidence": [
     {
@@ -39,9 +39,17 @@
     {
       "path": "research/structural-sensitivity-repair-v1.json",
       "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3"
+    },
+    {
+      "path": "analysis/structural-sensitivity-repair-v1-result.json",
+      "sha256": "0f154b27388faf3e255b1e8c1dfd694ff235f02ca1e221c598c6a8eab5476a9c"
+    },
+    {
+      "path": "analysis/structural-sensitivity-repair-v1-execution.json",
+      "sha256": "de38160911bf578a2489a53d8dcb9fbd5476e68d191fb544b59a4d2df0aa1eb5"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Statistical repair protocol is separately frozen and synthetic-tested; historical 2.5 runner fails closed. SigLA descriptive delta is retained; prospective input independence and known-answer calibration remain blocked."
+  "summary": "Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked."
 }

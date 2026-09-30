@@ -14,3 +14,10 @@ jobs:
       - run: python scripts/audit_claims_3_0.py
       - run: python scripts/test_sigla_delta.py
       - run: python scripts/test_structural_sensitivity.py
+      - name: Reproduce pinned historical sensitivity result
+        run: |
+          python scripts/run_structural_sensitivity_v1.py --spec research/structural-sensitivity-repair-v1.json --words data/source_words.csv --candidates data/candidate_registry_0.9.csv --out /tmp/structural-result.json
+          python - <<'PY'
+          import pathlib
+          assert pathlib.Path('/tmp/structural-result.json').read_bytes() == pathlib.Path('analysis/structural-sensitivity-repair-v1-result.json').read_bytes(), 'Pinned historical sensitivity result drift'
+          PY
