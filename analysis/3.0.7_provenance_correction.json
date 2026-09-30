@@ -1,0 +1,22 @@
+{
+  "version": "3.0.7",
+  "finding": "The authenticated SigLA v4 _meta.source_sha256 value cc624f... identifies the upstream published web-app source payload named by _meta.source, not an authenticated prior decoded JSON artifact.",
+  "impact": "Prior work incorrectly described this value as the historical decoded-corpus JSON SHA. No prospective candidate outcomes were inspected in discovering or correcting this provenance error.",
+  "delta_gate": {
+    "state": "BLOCKED_PENDING_PRIOR_DECODED_ARTIFACT_IDENTITY",
+    "requirements": [
+      "prior decoded corpus bytes OR reproducible rebuild from authenticated prior source bytes using pinned decoder",
+      "independent SHA-256 for the prior decoded artifact",
+      "documented decoder/version and source lineage"
+    ],
+    "prohibited": [
+      "treat _meta.source_sha256 as prior decoded JSON hash without evidence",
+      "reconstruct baseline from downstream analysis CSVs",
+      "open prospective candidate outcomes before descriptive delta is frozen"
+    ]
+  },
+  "candidate_definitions_changed": false,
+  "cohort_changed": false,
+  "null_model_changed": false,
+  "success_criterion_changed": false
+}

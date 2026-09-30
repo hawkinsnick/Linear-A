@@ -1,0 +1,9 @@
+{
+  "version": "3.0.7",
+  "target_release": "3.1.0",
+  "stage1_current_snapshot": "PASS_EXACT_PREREGISTERED_ASSET",
+  "stage2_descriptive_delta": "BLOCKED_PENDING_PRIOR_DECODED_ARTIFACT_IDENTITY",
+  "stage3_prospective_scoring": "SEALED",
+  "rule": "Stage 2 compares decoded corpus artifacts. Source-payload hashes and decoded-artifact hashes are distinct provenance objects and must not be conflated.",
+  "prospective_outcomes_inspected": false
+}
