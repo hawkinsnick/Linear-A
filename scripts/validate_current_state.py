@@ -44,6 +44,37 @@ def validate():
         elif mutation=="provenance":bad["assertions"][0]["provenance"]=[]
         else:bad["unexpected"]=True
         require(not v.is_valid(bad),"interchange negative fixture accepted: "+mutation)
+    if "calibration_executed" in state["scientific_results"]:
+        require(state["scientific_results"]["calibration_executed"] is False,"unsupported current calibration claim")
+    if "prospective_outcomes_inspected" in state["scientific_results"]:
+        require(state["scientific_results"]["prospective_outcomes_inspected"] is False,"prospective seal unexpectedly opened")
+    if (R/"analysis/observation-source-mapping-audit.json").exists():
+        mapping=load("analysis/observation-source-mapping-audit.json")
+        require(mapping["records"]==5932 and mapping["nonempty_transcription_surfaces"]==5890 and mapping["null_or_empty_surfaces"]==42 and mapping["all_source_field_values_preserved"] is True,"corrected DAMOS surface coverage drift")
+        smoke=load("analysis/authenticated-document-count-smoke.json")
+        require(smoke["mapping_audit"]==mapping,"smoke/source mapping mismatch")
+        require(smoke["phonetic_eligibility"]["eligible"]==5890 and smoke["phonetic_eligibility"]["excluded_missing_transcription"]==42,"phonetic completeness exclusions drift")
+        require(smoke["input_unique_documents"]==5890 and smoke["realized"]["document_count"]==802 and smoke["repeat_run_identical"] is True,"corrected smoke counts/repeatability")
+        require(smoke["gold_revealed"] is False and smoke["calibration_executed"] is False and smoke["scientific_matched_environment_claim_allowed"] is False,"software smoke promoted to scientific result")
+    if (R/"research/structural-sensitivity-repair-v1.json").exists():
+        protocol=load("research/structural-sensitivity-repair-v1.json")
+        for path,key in [("scripts/run_structural_sensitivity_v1.py","implementation_sha256"),("data/source_words.csv","words_sha256"),("data/candidate_registry_0.9.csv","candidates_sha256")]:
+            require(hashlib.sha256((R/path).read_bytes()).hexdigest()==protocol[key],"statistical repair input/code pin drift")
+        require(protocol["permutation_replicates"]==protocol["bootstrap_replicates"]==5000,"statistical repetition policy drift")
+        result_path=R/"analysis/structural-sensitivity-repair-v1-result.json"
+        if result_path.exists():
+            result=json.loads(result_path.read_text())
+            require(result["protocol_sha256"]==hashlib.sha256((R/"research/structural-sensitivity-repair-v1.json").read_bytes()).hexdigest(),"statistical output protocol pin drift")
+            require(result["implementation_sha256"]==protocol["implementation_sha256"],"statistical output code pin drift")
+            require(result["prospective_outcomes_evaluated"] is False and result["linguistic_claim_allowed"] is False,"conditional repair promoted to stronger claim")
+            with (R/"data/candidate_registry_0.9.csv").open(newline="",encoding="utf-8") as f:ids=[x["candidate_id"] for x in csv.DictReader(f)]
+            require([x["candidate_id"] for x in result["results"]]==ids,"statistical candidate family drift")
+            for row in result["results"]:
+                for view in ("token","type"):
+                    x=row[view];require(0<=x["one_sided_permutation_p"]<=x["holm_p"]<=1 and x["holm_family_size"]==12,"invalid multiplicity output")
+                    if x["eligible"]:require(abs(x["one_sided_permutation_p"]-(x["monte_carlo_exceedances"]+1)/5001)<1e-12,"Monte Carlo p arithmetic drift")
+                    else:require(x["one_sided_permutation_p"]==1,"ineligible candidate p drift")
+                boot=row["document_cluster_bootstrap"];require(boot["scorable_replicates"]+boot["zero_variance_replicates"]==5000,"bootstrap accounting drift")
     counts=state["committed_evidence_counts"]
     if (R/"corpus/index.json").exists():
         idx=load("corpus/index.json");require(idx["version"]==version,"index version drift")

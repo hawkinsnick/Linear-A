@@ -1,0 +1,40 @@
+{
+  "protocol_id": "structural-sensitivity-repair-v1",
+  "version": "1.0",
+  "state": "FROZEN_BEFORE_REPLACEMENT_CORPUS_EXECUTION",
+  "supersedes_implementation_only": "scripts/run_multiverse_2_5.py",
+  "historical_analyses_preserved": true,
+  "words_sha256": "d2e36d78fefdb1c16ab60f4f8fdcb20a39eaae0075e07d78198db5c6e22ea86a",
+  "candidates_sha256": "bec2d293383643b1d17bd2a13d958090ce7db09f720c9e3a6a17c1a87c2215a9",
+  "implementation_sha256": "7f5ada03f7b96715087db4974712c4bd7cb9993e9eee30b384b3b07226cdf341",
+  "minimum_candidate_occurrences": 8,
+  "permutation_replicates": 5000,
+  "bootstrap_replicates": 5000,
+  "token_permutation_seed": 2500002,
+  "type_permutation_seed": 2500003,
+  "cluster_seed": 2500001,
+  "estimator": "For each word and candidate sign, p=k/L; observed boundary indicators are compared with sum(p), variance sum(p*(1-p)). Zero-variance views are unscorable. Singletons contribute deterministic expectation and zero variance.",
+  "null": "Independent uniform within-word permutations preserve each word multiset and length. Ordered first/final draws without replacement implement exactly the relevant boundary marginal of that permutation; all candidates share each simulated boundary draw.",
+  "bootstrap": "Resample complete documents with replacement; all candidate draws share the same document weights. Report conditional z quantiles and unscorable replicate counts; no significance interpretation of bootstrap quantiles.",
+  "percentile": "Empirical inverse CDF: sorted values at ceil(p*n)-1, bounded below by zero; median uses midpoint for even n.",
+  "pvalue": "One-sided observed boundary count enrichment, p=(exceedances+1)/(5000+1); ineligible candidates receive p=1 for the fixed family.",
+  "multiplicity": {
+    "method": "Holm step-down",
+    "family_size": 12,
+    "families": "Token and deduplicated-type views are separate declared diagnostic families; no combined discovery claim or selection of the stronger view.",
+    "alpha": 0.05
+  },
+  "negative_controls": [
+    "exact repeated-sign permutation enumeration",
+    "symmetric boundary null",
+    "homogeneous zero variance",
+    "absent candidate",
+    "duplicate candidate/input refusal",
+    "known Holm arithmetic",
+    "deterministic shared seeds"
+  ],
+  "candidate_definitions_changed": false,
+  "cohort_outcomes_inspected": false,
+  "replacement_corpus_outcomes_inspected_at_freeze": false,
+  "interpretation": "Conditional descriptive structural sensitivity on the historical corpus. Candidates were selected using this corpus: Holm corrects the displayed fixed family only and does not undo selection bias. Neither view establishes independent replication, morphology, a language, or decipherment. Prospective 3.1 and known-answer calibration remain blocked."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "repository_version": "3.0.11",
+  "repository_version": "3.0.12",
   "checked": "2026-09-30",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
@@ -8,7 +8,8 @@
     "prospective_outcomes_inspected": false,
     "calibration_executed": false,
     "descriptive_sigla_delta_executed": true,
-    "multiverse_2_5": "QUARANTINED"
+    "multiverse_2_5": "QUARANTINED",
+    "statistical_repair_v1": "FROZEN_NOT_YET_EXECUTED"
   },
   "evidence": [
     {
@@ -34,9 +35,13 @@
     {
       "path": "analysis/3.1.0_milestone-gate.json",
       "sha256": "d0ebb0b1db7b2a1573497fe427f1209cbf6af35ab7ba4cb5a41b731fa7f47c7d"
+    },
+    {
+      "path": "research/structural-sensitivity-repair-v1.json",
+      "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Authenticated SigLA v3/v4 descriptive comparison: 781 → 802 documents, 5,065 → 5,144 attestations, 1,376 → 1,401 source-word groups. Seven of 24 frozen cohort labels are present in v3. Historical analytical input identity/independence remains unresolved; prospective outcomes remain sealed. The 2.5 multiverse implementation remains quarantined."
+  "summary": "Statistical repair protocol is separately frozen and synthetic-tested; historical 2.5 runner fails closed. SigLA descriptive delta is retained; prospective input independence and known-answer calibration remain blocked."
 }

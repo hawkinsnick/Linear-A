@@ -1,8 +1,8 @@
 # Linear A Open Corpus
 
-## Current status — 3.0.11
+## Current status — 3.0.12
 
-Authenticated SigLA v3/v4 descriptive comparison: 781 → 802 documents, 5,065 → 5,144 attestations, 1,376 → 1,401 source-word groups. Seven of 24 frozen cohort labels are present in v3. Historical analytical input identity/independence remains unresolved; prospective outcomes remain sealed. The 2.5 multiverse implementation remains quarantined.
+Statistical repair protocol is separately frozen and synthetic-tested; historical 2.5 runner fails closed. SigLA descriptive delta is retained; prospective input independence and known-answer calibration remain blocked.
 
 The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
 

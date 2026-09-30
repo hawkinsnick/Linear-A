@@ -4,7 +4,7 @@ message: "If you use this corpus, please cite the specific release and the under
 type: dataset
 authors:
   - family-names: "Project contributors"
-version: "3.0.11"
+version: "3.0.12"
 date-released: 2026-09-30
 repository-code: "https://github.com/hawkinsnick/Linear-A"
 license: "NOASSERTION"

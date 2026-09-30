@@ -1,7 +1,7 @@
-# Linear A 2.5 quarantine
+# Historical Linear A 2.5 quarantine and replacement
 
-The current `scripts/run_multiverse_2_5.py` is **not scientifically executable**.
+The historical implementation remains scientifically invalid. Its active entry point now refuses all runs; its code is preserved under `scripts/history/` for audit only. No historical 2.5 output is supporting evidence.
 
-The audit in `analysis/3.0.8_multiverse-2.5-code-audit.json` identifies an invalid probability expression, an unused Holm correction, and a mismatch between the planned multiverse/permutation framing and the implemented document-cluster bootstrap.
+The replacement is `scripts/run_structural_sensitivity_v1.py`, governed by the separately frozen `research/structural-sensitivity-repair-v1.json`. It uses per-word k/L probability and sum p(1-p) variance, actual joint boundary permutations, two declared diagnostic views, fixed-family Holm correction, and shared document-cluster bootstrap draws. Exact and synthetic negative controls are tested before historical-corpus execution.
 
-No 2.5 result from this implementation may be used as evidence. A replacement must be preregistered before execution. This quarantine does not alter the frozen 3.1 prospective SigLA experiment.
+This is a conditional same-corpus sensitivity repair: the candidates were originally selected using this corpus. Multiplicity correction does not reverse that selection bias. No prospective, linguistic or independent-replication claim follows. The frozen 3.1 cohort remains sealed.

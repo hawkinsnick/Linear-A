@@ -13,3 +13,4 @@ jobs:
       - run: python scripts/validate_corpus.py
       - run: python scripts/audit_claims_3_0.py
       - run: python scripts/test_sigla_delta.py
+      - run: python scripts/test_structural_sensitivity.py
