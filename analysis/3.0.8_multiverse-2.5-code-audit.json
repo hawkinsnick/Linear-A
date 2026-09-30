@@ -1,0 +1,22 @@
+{
+  "version": "3.0.8",
+  "component": "scripts/run_multiverse_2_5.py",
+  "state": "QUARANTINED_NOT_EXECUTABLE",
+  "prospective_3_1_affected": false,
+  "findings": [
+    {
+      "severity": "critical",
+      "issue": "zscore probability expression algebraically reduces to sum(1/len(word)) across words and can exceed 1; resulting binomial expectation/variance is invalid."
+    },
+    {
+      "severity": "major",
+      "issue": "holm() is defined but unused; no multiplicity-adjusted output is produced."
+    },
+    {
+      "severity": "major",
+      "issue": "script name/plan implies a multiverse/permutation analysis, while implementation executes document-cluster bootstrap only."
+    }
+  ],
+  "decision": "Do not execute, publish, or interpret 2.5 outputs from this implementation. Preserve earlier validated analyses. Any replacement requires a separately frozen null model, estimator, multiplicity policy, seed/repetition policy, and negative controls before execution.",
+  "interpretation": "This is a code-audit failure, not evidence against or for any Linear A structural hypothesis."
+}
