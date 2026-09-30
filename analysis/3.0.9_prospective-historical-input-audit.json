@@ -1,0 +1,15 @@
+{
+  "version": "3.0.9",
+  "gate": "prospective-historical-input-identity",
+  "state": "BLOCKED_PENDING_HISTORICAL_INPUT_IDENTITY",
+  "finding": "The SHA-256 cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d previously labeled as the original SigLA snapshot hash is identified by the authenticated sigla-corpus-v4 artifact as _meta.source_sha256 for upstream database.js. It is not established as the SHA-256 of a historical decoded JSON artifact.",
+  "consequences": [
+    "Do not pass an upstream database.js object to the decoded-JSON comparator.",
+    "Do not claim an old-vs-current decoded corpus delta until the historical decoded analytical input is identified and authenticated.",
+    "Do not execute prospective candidate scoring until it is established that the historical analytical input predates/excludes the frozen 2026 cohort additions.",
+    "If historical independence cannot be demonstrated, retire the prospective-replication claim and retain the cohort only as a non-prospective descriptive sample or replace it with a genuinely future holdout."
+  ],
+  "current_artifact_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "candidate_outcomes_inspected": false,
+  "earlier_structural_results_affected": "NO_DIRECT_EFFECT; this finding concerns provenance/temporal independence of the planned 3.1 prospective experiment."
+}
