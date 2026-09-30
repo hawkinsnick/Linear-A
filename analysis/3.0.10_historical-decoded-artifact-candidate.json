@@ -1,0 +1,27 @@
+{
+  "version": "3.0.10",
+  "gate": "prospective-historical-input-identity",
+  "state": "CANDIDATE_PRIOR_DECODED_ARTIFACT_IDENTIFIED_TEMPORAL_INDEPENDENCE_UNPROVEN",
+  "candidate": {
+    "upstream_repository": "ryanpavlicek/pyaegean",
+    "release_tag": "sigla-corpus-v3",
+    "published_at": "2026-07-11T14:18:45Z",
+    "asset": "sigla-corpus.json",
+    "bytes": 1314328,
+    "sha256": "683fa0147f2b923a78f7c2c1da95cf42d8c05563f9ed53c5dfa8e520f4e38569"
+  },
+  "current": {
+    "release_tag": "sigla-corpus-v4",
+    "published_at": "2026-07-11T18:08:16Z",
+    "bytes": 1335389,
+    "sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8"
+  },
+  "decision": "DO_NOT_RUN_PROSPECTIVE_SCORING_YET",
+  "reason": "v3 is a legitimate earlier decoded artifact but its July 2026 release date does not establish that it predates or excludes May/June 2026 cohort additions.",
+  "next_proof_needed": [
+    "authenticate exact v3 bytes",
+    "run descriptive v3-v4 delta only",
+    "establish whether frozen cohort additions are absent from v3 or otherwise prove historical analytical input independence"
+  ],
+  "candidate_outcomes_inspected": false
+}
