@@ -1,29 +1,22 @@
 {
   "target_version": "3.1.0",
-  "milestone": "current SigLA prospective replication",
-  "state": "BLOCKED_PENDING_EXACT_BYTES",
-  "pinned_asset": {
-    "repository": "ryanpavlicek/pyaegean",
-    "tag": "sigla-corpus-v4",
-    "asset_id": 473681091,
-    "name": "sigla-corpus.json",
-    "bytes": 1335389,
-    "sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
-    "identity_reverified": "2026-09-28"
-  },
-  "preregistered_cohort_labels": 24,
-  "candidate_outcomes_inspected": false,
+  "milestone": "prospective replication",
+  "state": "BLOCKED_PENDING_HISTORICAL_ANALYTICAL_INPUT_IDENTITY",
   "requirements": [
     {
-      "id": "materialize_exact_bytes",
-      "satisfied": false
+      "id": "materialize_current_exact_bytes",
+      "satisfied": true
     },
     {
-      "id": "verify_sha256",
-      "satisfied": false
+      "id": "authenticate_candidate_v3_bytes",
+      "satisfied": true
     },
     {
-      "id": "compute_snapshot_delta",
+      "id": "candidate_v3_v4_descriptive_delta",
+      "satisfied": true
+    },
+    {
+      "id": "historical_analytical_input_identity_and_independence",
       "satisfied": false
     },
     {
@@ -31,5 +24,7 @@
       "satisfied": false
     }
   ],
-  "claim_allowed": false
+  "candidate_outcomes_inspected": false,
+  "claim_allowed": false,
+  "result_ref": null
 }

@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.4.1",
+  "old_sha256": "683fa0147f2b923a78f7c2c1da95cf42d8c05563f9ed53c5dfa8e520f4e38569",
+  "current_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "documents": {
+    "old": 781,
+    "current": 802,
+    "added": [
+      "GO 2a",
+      "GO 2b",
+      "KE 6a",
+      "KE 6b",
+      "KH 101",
+      "KH 102",
+      "KH 103",
+      "KH 104",
+      "KH 105",
+      "KH 93a",
+      "KH 93b",
+      "KN 49",
+      "KN 54",
+      "PH 54",
+      "THE 10",
+      "THE 11",
+      "THE 12",
+      "THE 7a",
+      "THE 7b",
+      "THE 8",
+      "THE 9"
+    ],
+    "removed": [],
+    "changed": [
+      "PE 2",
+      "PK 1a"
+    ]
+  },
+  "attestations": {
+    "old": 5065,
+    "current": 5144,
+    "net": 79
+  },
+  "source_word_groups": {
+    "old": 1376,
+    "current": 1401,
+    "net": 25
+  },
+  "changed_document_details": [
+    {
+      "id": "PE 2",
+      "attestations_old": 21,
+      "attestations_current": 29,
+      "words_old": 8,
+      "words_current": 8,
+      "metadata_changed": {},
+      "attestation_stream_changed": true
+    },
+    {
+      "id": "PK 1a",
+      "attestations_old": 44,
+      "attestations_current": 45,
+      "words_old": 13,
+      "words_current": 13,
+      "metadata_changed": {},
+      "attestation_stream_changed": true
+    }
+  ],
+  "candidate_outcomes_evaluated": false
+}

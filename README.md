@@ -1,5 +1,20 @@
 # Linear A Open Corpus
 
+## Current status — 3.0.11
+
+Authenticated SigLA v3/v4 descriptive comparison: 781 → 802 documents, 5,065 → 5,144 attestations, 1,376 → 1,401 source-word groups. Seven of 24 frozen cohort labels are present in v3. Historical analytical input identity/independence remains unresolved; prospective outcomes remain sealed. The 2.5 multiverse implementation remains quarantined.
+
+The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
+
+Validate this checkout with:
+
+```sh
+python -m pip install -r requirements-validation.txt
+python scripts/validate_current_state.py
+python scripts/test_current_state.py
+```
+
+
 An open, provenance-first, machine-readable research corpus and experimental framework for Minoan Linear A.
 
 ## Project goal
@@ -10,7 +25,7 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**3.0.0 — architecture-stable provenance-first research platform**
+**Architecture baseline: 3.0.0; current maintenance version: 3.0.11**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 
@@ -27,7 +42,7 @@ Two separately implemented executable decoding paths, checked against the publis
 
 The current conservative structural result is narrower than the historical 0.8 screen: 12 sign/position combinations survived the 0.8 adversarial screen, but only **6/12** retain a document-cluster-bootstrap 2.5th-percentile enrichment z above 1.96 in 1.7. These remain structural candidates, not morphemes or affixes.
 
-The known-answer Linear B experiment remains unexecuted because the exact checksum-pinned DĀMOS v2 corpus bytes have not been materialized in the execution environment. Accordingly, 2.3 makes no calibration-performance claim, and 2.4 is complete as a preregistered protocol but has no experimental result.
+The known-answer Linear B experiment remains unexecuted because authoritative linguistic gold and the required graphical baseline are missing. Exact DĀMOS v2 bytes have been authenticated. The historical 2.3/2.4 protocols have no calibration-performance result.
 
 ## Core design principles
 
@@ -175,7 +190,7 @@ For more detail, see:
 
 The current roadmap is evidence-gated rather than outcome-gated:
 
-- execute the checksum-pinned 2.3 known-answer Linear B calibration when exact bytes can be authenticated;
+- execute known-answer Linear B calibration only after legitimate gold, required graphical baseline and frozen prediction/scoring contracts exist;
 - execute the already-frozen 2.4 degradation protocol only after the 2.3 baseline and gold-scoring contract exist;
 - 2.5 — statistical multiverse and document-cluster modeling;
 - 2.6 — independent epigraphic leverage/adjudication;
@@ -193,3 +208,4 @@ The repository does not bundle the upstream SigLA payload. The importer remains 
 ## Legal note
 
 This repository is a research project, not legal advice. Check the license attached to a source or record before redistributing derived material.
+

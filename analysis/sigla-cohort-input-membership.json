@@ -1,0 +1,227 @@
+{
+  "version": "3.0.11",
+  "purpose": "Input membership only; no candidate outcomes evaluated",
+  "normalization": "Ignore whitespace and case; strip explicit (a/b), expand exact base label to source-defined a/b/c/d faces. Never select a face by outcome.",
+  "old_sha256": "683fa0147f2b923a78f7c2c1da95cf42d8c05563f9ed53c5dfa8e520f4e38569",
+  "current_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "cohort_labels": 24,
+  "rows": [
+    {
+      "label": "HT Zb 161",
+      "v3_documents": [
+        "HT Zb 161"
+      ],
+      "v4_documents": [
+        "HT Zb 161"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "KN Za10(a/b)",
+      "v3_documents": [
+        "KN Za 10a",
+        "KN Za 10b"
+      ],
+      "v4_documents": [
+        "KN Za 10a",
+        "KN Za 10b"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "KN Za 17",
+      "v3_documents": [
+        "KN Za 17"
+      ],
+      "v4_documents": [
+        "KN Za 17"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "KN Za 18",
+      "v3_documents": [
+        "KN Za 18"
+      ],
+      "v4_documents": [
+        "KN Za 18"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "PE 1",
+      "v3_documents": [
+        "PE 1"
+      ],
+      "v4_documents": [
+        "PE 1"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "PE 2",
+      "v3_documents": [
+        "PE 2"
+      ],
+      "v4_documents": [
+        "PE 2"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "PK 1",
+      "v3_documents": [
+        "PK 1a",
+        "PK 1b"
+      ],
+      "v4_documents": [
+        "PK 1a",
+        "PK 1b"
+      ],
+      "state": "PRESENT_IN_V3"
+    },
+    {
+      "label": "GO2",
+      "v3_documents": [],
+      "v4_documents": [
+        "GO 2a",
+        "GO 2b"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KE 6",
+      "v3_documents": [],
+      "v4_documents": [
+        "KE 6a",
+        "KE 6b"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KH 93",
+      "v3_documents": [],
+      "v4_documents": [
+        "KH 93a",
+        "KH 93b"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KH 101",
+      "v3_documents": [],
+      "v4_documents": [
+        "KH 101"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KH 102",
+      "v3_documents": [],
+      "v4_documents": [
+        "KH 102"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KH 103",
+      "v3_documents": [],
+      "v4_documents": [
+        "KH 103"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KH 104",
+      "v3_documents": [],
+      "v4_documents": [
+        "KH 104"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KH 105",
+      "v3_documents": [],
+      "v4_documents": [
+        "KH 105"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KN 49",
+      "v3_documents": [],
+      "v4_documents": [
+        "KN 49"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "KN 54",
+      "v3_documents": [],
+      "v4_documents": [
+        "KN 54"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "PH54",
+      "v3_documents": [],
+      "v4_documents": [
+        "PH 54"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "THE 7",
+      "v3_documents": [],
+      "v4_documents": [
+        "THE 7a",
+        "THE 7b"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "THE 8",
+      "v3_documents": [],
+      "v4_documents": [
+        "THE 8"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "THE 9",
+      "v3_documents": [],
+      "v4_documents": [
+        "THE 9"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "THE 10",
+      "v3_documents": [],
+      "v4_documents": [
+        "THE 10"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "THE 11",
+      "v3_documents": [],
+      "v4_documents": [
+        "THE 11"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    },
+    {
+      "label": "THE 12",
+      "v3_documents": [],
+      "v4_documents": [
+        "THE 12"
+      ],
+      "state": "ABSENT_FROM_V3_PRESENT_IN_V4"
+    }
+  ],
+  "candidate_outcomes_evaluated": false,
+  "historical_analytical_input_identity": "NOT_ESTABLISHED",
+  "interpretation": "An earlier derivative is not automatically the historical analytical input. Presence in v3 prevents treating the entire frozen cohort as unseen relative to v3."
+}

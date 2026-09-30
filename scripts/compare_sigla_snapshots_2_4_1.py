@@ -19,7 +19,14 @@ def canon(x):
     return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(",",":"))
 
 def docmap(c):
-    return {str(d["id"]):d for d in c.get("documents",[])}
+    if not isinstance(c,dict) or not isinstance(c.get("documents"),list):
+        raise SystemExit("REFUSING RUN: expected decoded corpus documents list")
+    docs=c["documents"]
+    if any(not isinstance(d,dict) or not isinstance(d.get("id"),str) or not d["id"].strip() or not isinstance(d.get("attestations"),list) for d in docs):
+        raise SystemExit("REFUSING RUN: malformed decoded document")
+    if len({d["id"] for d in docs})!=len(docs):
+        raise SystemExit("REFUSING RUN: duplicate document IDs")
+    return {d["id"]:d for d in docs}
 
 def word_groups(doc):
     groups={}
@@ -33,9 +40,12 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("old"); ap.add_argument("current"); ap.add_argument("--out",required=True)
     ap.add_argument("--expected-current-sha256")
+    ap.add_argument("--expected-old-sha256")
     a=ap.parse_args()
     if a.expected_current_sha256 and sha(a.current)!=a.expected_current_sha256:
         raise SystemExit("REFUSING RUN: current snapshot SHA-256 mismatch")
+    if a.expected_old_sha256 and sha(a.old)!=a.expected_old_sha256:
+        raise SystemExit("REFUSING RUN: old snapshot SHA-256 mismatch")
     old,new=load(a.old),load(a.current); om,nm=docmap(old),docmap(new)
     ok,nk=set(om),set(nm)
     common=sorted(ok&nk)
@@ -69,3 +79,4 @@ def main():
     }
     Path(a.out).write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 if __name__=="__main__": main()
+
