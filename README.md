@@ -4,7 +4,7 @@
 
 Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked.
 
-Family contract 1.2 aligns all five projects with [Phaistos Disc 1.0](https://github.com/hawkinsnick/Phaistos-Disc/releases/tag/v1.0.0). The shared readiness report preserves native sampling units, source rights and blocked linguistic controls. It authorizes no pooling or linguistic relationship claim. See [`research/family-readiness-v1.json`](research/family-readiness-v1.json).
+Family contract 1.2 aligns all five projects with [Phaistos Disc 1.2.1](https://github.com/hawkinsnick/Phaistos-Disc/releases/tag/v1.2.1). The shared readiness report preserves native sampling units, source rights and blocked linguistic controls. It authorizes no pooling or linguistic relationship claim. See [`research/family-readiness-v1.json`](research/family-readiness-v1.json).
 
 The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
 
