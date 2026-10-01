@@ -11,8 +11,9 @@ We will make our own original contributions as open as legally possible. We will
 | Layer | Intended treatment |
 |---|---|
 | Original project code | MIT License |
-| Original schema and documentation | CC BY 4.0 or CC0 where appropriate |
-| Original annotations/derived metadata | CC0 where legally appropriate |
+| Original executable schemas | MIT License |
+| Original non-software documentation/protocols | CC BY 4.0 under LICENSE-CONTENT.md; existing MIT/CC0 grants retained |
+| Original annotations/database contributions we control | CC BY 4.0 under LICENSE-CONTENT.md; source-derived content excluded and existing CC0 grants retained |
 | SigLA-derived dataset | Preserve SigLA's CC BY-NC-SA 4.0 terms and attribution |
 | SigLA drawings | Preserve SigLA's CC BY-NC-SA 4.0 terms and attribution |
 | GORILA-derived copyrighted text/images | Do not redistribute unless permission/license permits |
@@ -33,3 +34,10 @@ A transformation performed by this project does not automatically make the under
 When rights are unclear, the default is do not redistribute the questionable material. Provide a source reference or an importer/retrieval instruction instead.
 
 This document is a project data policy, not legal advice.
+
+## Scope of the project grant
+
+[LICENSE-CONTENT.md](LICENSE-CONTENT.md) grants CC BY 4.0 only for original
+contributions the repository owner has authority to license. Source-derived
+tables, aggregates and mixed exports do not become attribution-only material.
+Individual source and record notices remain authoritative for upstream content.
