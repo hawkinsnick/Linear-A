@@ -1,0 +1,14 @@
+{
+  "scope": "Frozen cohort input membership only; no candidate outcome scoring.",
+  "cohort_labels": 24,
+  "membership_counts": {
+    "ABSENT_FROM_V3_PRESENT_IN_V4": 17,
+    "PRESENT_IN_V3": 7
+  },
+  "historical_analytical_input_identity": "NOT_ESTABLISHED",
+  "entire_cohort_unseen_relative_to_v3": false,
+  "prospective_scoring_allowed": false,
+  "prospective_outcomes_evaluated": false,
+  "conditional_statistical_repair": "Separate same-corpus descriptive analysis; does not establish original analytical input identity or prospective independence.",
+  "next_proof": "Authenticate original analytical-input bytes and pre-analysis exposure history for every frozen label. Retain all 24 labels; do not silently remove the seven already present in v3."
+}

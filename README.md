@@ -1,6 +1,6 @@
 # Linear A Open Corpus
 
-## Current status — 3.0.14
+## Current status — 3.0.15
 
 Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked.
 
@@ -27,7 +27,7 @@ The corpus distinguishes physical/document observations, source transcriptions a
 
 ## Current research state
 
-**Architecture baseline: 3.0.0; current maintenance version: 3.0.14**
+**Architecture baseline: 3.0.0; current maintenance version: 3.0.15**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 
@@ -211,3 +211,7 @@ The repository does not bundle the upstream SigLA payload. The importer remains 
 
 This repository is a research project, not legal advice. Check the license attached to a source or record before redistributing derived material.
 
+
+### Evidence progress in 3.0.15
+
+Adds a reproducible input-membership independence audit: 7 of 24 frozen cohort labels occur in v3; 17 are absent. The conditional statistical repair and the original-input identity gate are distinguished. No prospective outcomes are scored; 3.1 remains sealed.

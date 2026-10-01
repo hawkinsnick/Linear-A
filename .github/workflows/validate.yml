@@ -21,3 +21,4 @@ jobs:
           import pathlib
           assert pathlib.Path('/tmp/structural-result.json').read_bytes() == pathlib.Path('analysis/structural-sensitivity-repair-v1-result.json').read_bytes(), 'Pinned historical sensitivity result drift'
           PY
+      - run: python scripts/test_prospective_independence.py

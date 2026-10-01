@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "repository_version": "3.0.14",
-  "checked": "2026-09-30",
+  "repository_version": "3.0.15",
+  "checked": "2026-10-01",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
   "scientific_results": {
@@ -47,9 +47,21 @@
     {
       "path": "analysis/structural-sensitivity-repair-v1-execution.json",
       "sha256": "de38160911bf578a2489a53d8dcb9fbd5476e68d191fb544b59a4d2df0aa1eb5"
+    },
+    {
+      "path": "analysis/prospective-independence-audit-v1.json",
+      "sha256": "042a1e9cb2f85fbca8652c7609bcc01686a9ffa5338aafbbcad431ac3db23132"
+    },
+    {
+      "path": "scripts/audit_prospective_independence.py",
+      "sha256": "23454d4c462ffd39a9f7e61a07e5f8c95e0e0793194c6c709269601b4206df40"
+    },
+    {
+      "path": "scripts/validate_current_state.py",
+      "sha256": "90adf7e593c07aa52d551eede4b2a6ce8573ed0b00da506924547c632cfca2a2"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked."
+  "summary": "Adds a reproducible input-membership independence audit: 7 of 24 frozen cohort labels occur in v3; 17 are absent. The conditional statistical repair and the original-input identity gate are distinguished. No prospective outcomes are scored; 3.1 remains sealed."
 }
