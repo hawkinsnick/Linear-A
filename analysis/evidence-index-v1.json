@@ -1,0 +1,146 @@
+{
+  "format": "research-evidence-index-v1",
+  "workbench_version": "1.0.0",
+  "project": "Linear-A",
+  "repository_version": "3.0.15",
+  "evidence": [
+    {
+      "path": "research/prospective-input-gate-3.1.json",
+      "sha256": "d48b99cddaa9f88bd88725ce0829a9e836b0fc6c92b2ed318713b4b239bfb527",
+      "bytes": 648,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "analysis/3.0.8_multiverse-2.5-code-audit.json",
+      "sha256": "19644a05c0019cd2f546b00e5a040af6f7b8e45afee9e3252abe17fea76fe2d5",
+      "bytes": 1098,
+      "category": "analysis",
+      "summary": {
+        "interpretation": "This is a code-audit failure, not evidence against or for any Linear A structural hypothesis."
+      }
+    },
+    {
+      "path": "analysis/sigla-v3-v4-descriptive-delta.json",
+      "sha256": "14c5496d79e40a31d1c6357edc286ab2a990c2b9ec6896a67dd1e363d38bd4d8",
+      "bytes": 1352,
+      "category": "analysis",
+      "summary": {}
+    },
+    {
+      "path": "analysis/3.0.10_historical-decoded-artifact-candidate.json",
+      "sha256": "a11db0c7896c544f3e550cf6b521e9bf3a26604a4885174935fde48cb23e5a67",
+      "bytes": 1159,
+      "category": "analysis",
+      "summary": {}
+    },
+    {
+      "path": "analysis/sigla-cohort-input-membership.json",
+      "sha256": "17374bb8d3fe0c94b932b4aea7fc8bf46798a5d21426ddbbbcfc315587ae53b1",
+      "bytes": 4800,
+      "category": "analysis",
+      "summary": {
+        "interpretation": "An earlier derivative is not automatically the historical analytical input. Presence in v3 prevents treating the entire frozen cohort as unseen relative to v3."
+      }
+    },
+    {
+      "path": "analysis/3.1.0_milestone-gate.json",
+      "sha256": "d0ebb0b1db7b2a1573497fe427f1209cbf6af35ab7ba4cb5a41b731fa7f47c7d",
+      "bytes": 700,
+      "category": "analysis",
+      "summary": {}
+    },
+    {
+      "path": "research/structural-sensitivity-repair-v1.json",
+      "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+      "bytes": 2774,
+      "category": "research",
+      "summary": {
+        "interpretation": "Conditional descriptive structural sensitivity on the historical corpus. Candidates were selected using this corpus: Holm corrects the displayed fixed family only and does not undo selection bias. Neither view establishes independent replication, morphology, a language, or decipherment. Prospective 3.1 and known-answer calibration remain blocked."
+      }
+    },
+    {
+      "path": "analysis/structural-sensitivity-repair-v1-result.json",
+      "sha256": "0f154b27388faf3e255b1e8c1dfd694ff235f02ca1e221c598c6a8eab5476a9c",
+      "bytes": 15134,
+      "category": "analysis",
+      "summary": {
+        "interpretation": "Conditional descriptive structural sensitivity on the historical corpus. Candidates were selected using this corpus: Holm corrects the displayed fixed family only and does not undo selection bias. Neither view establishes independent replication, morphology, a language, or decipherment. Prospective 3.1 and known-answer calibration remain blocked."
+      }
+    },
+    {
+      "path": "analysis/structural-sensitivity-repair-v1-execution.json",
+      "sha256": "de38160911bf578a2489a53d8dcb9fbd5476e68d191fb544b59a4d2df0aa1eb5",
+      "bytes": 951,
+      "category": "analysis",
+      "summary": {}
+    },
+    {
+      "path": "analysis/prospective-independence-audit-v1.json",
+      "sha256": "042a1e9cb2f85fbca8652c7609bcc01686a9ffa5338aafbbcad431ac3db23132",
+      "bytes": 757,
+      "category": "analysis",
+      "summary": {
+        "scope": "Frozen cohort input membership only; no candidate outcome scoring."
+      }
+    },
+    {
+      "path": "scripts/audit_prospective_independence.py",
+      "sha256": "23454d4c462ffd39a9f7e61a07e5f8c95e0e0793194c6c709269601b4206df40",
+      "bytes": 1859,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/validate_current_state.py",
+      "sha256": "90adf7e593c07aa52d551eede4b2a6ce8573ed0b00da506924547c632cfca2a2",
+      "bytes": 10408,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "research/family-readiness-v1.json",
+      "sha256": "e43686c4497875d0899920235b9b2e47315a19e8810ff610787dbb34bee57251",
+      "bytes": 13995,
+      "category": "research",
+      "summary": {
+        "scope": "Comparison readiness and software/governance alignment, not permission for cross-script inference. Exact snapshot commits pin native evidence; target versions describe the coordinated rollout. Snapshot versions may precede report-only maintenance."
+      }
+    },
+    {
+      "path": "research/workbench-guide.md",
+      "sha256": "e6a47f1584cbda66c5f15f8eccb6e7549b77a037d4f1ba4159d57a34a027cb42",
+      "bytes": 2038,
+      "category": "research",
+      "summary": {}
+    }
+  ],
+  "scientific_results": {
+    "prospective_outcomes_inspected": false,
+    "calibration_executed": false,
+    "descriptive_sigla_delta_executed": true,
+    "multiverse_2_5": "QUARANTINED",
+    "statistical_repair_v1": "EXECUTED_CONDITIONAL_HISTORICAL_SENSITIVITY"
+  },
+  "blocking_dependencies": [
+    "Prospective input identity/independence unresolved",
+    "Linguistic known-answer calibration unavailable"
+  ],
+  "metrics": {
+    "historical_word_sample_documents": {
+      "value": 451,
+      "unit": "source_document_ids",
+      "definition": "Distinct document IDs in the repaired historical source-word analysis; not the entire corpus.",
+      "status": "measured"
+    },
+    "historical_word_tokens": {
+      "value": 1283,
+      "unit": "source_defined_nonempty_word_tokens",
+      "definition": "Selected same-corpus historical words, not a prospective independent sample.",
+      "status": "measured"
+    }
+  },
+  "family_report_sha256": "e43686c4497875d0899920235b9b2e47315a19e8810ff610787dbb34bee57251",
+  "implementation_sha256": "3a567a5d8bdde774357c01636ed69e1699e892680e61ba94ada45dfffeca3c87",
+  "boundary": "Committed file integrity and attributed project records. Hashes do not establish epigraphic truth, image adequacy or independent human review. Native units stay separate; no pooled sign identities or linguistic inference."
+}
