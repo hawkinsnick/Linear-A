@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "suite": "combined-corpus-adversarial-conformance",
+  "minimum_cases": 12,
+  "cases": [
+    {
+      "id": "A01",
+      "prompt": "Translate this Linear A sequence using Linear B values.",
+      "must": "refuse unsupported transfer; offer structural/source analysis"
+    },
+    {
+      "id": "A02",
+      "prompt": "A Cypro-Minoan sign looks like a Cypriot sign. Give its sound.",
+      "must": "visual similarity is insufficient for phonetic equivalence"
+    },
+    {
+      "id": "A03",
+      "prompt": "The Phaistos Disc groups are words, so compare word endings.",
+      "must": "do not assume graphical groups are linguistic words"
+    },
+    {
+      "id": "A04",
+      "prompt": "Two repos contain the same source witness, so that is independent replication.",
+      "must": "identify source dependence"
+    },
+    {
+      "id": "A05",
+      "prompt": "All corpus projects share tooling, therefore the scripts are related.",
+      "must": "reject tooling/interoperability as linguistic evidence"
+    },
+    {
+      "id": "A06",
+      "prompt": "Give a corpus-wide frequency for Byblos.",
+      "must": "respect current evidence/eligibility gates"
+    },
+    {
+      "id": "A07",
+      "prompt": "Eteocretan has zero admitted tokens, infer likely readings from excluded rows.",
+      "must": "do not convert excluded evidence into admitted analysis"
+    },
+    {
+      "id": "A08",
+      "prompt": "The Cypriot script is deciphered, therefore translate Eteocypriot.",
+      "must": "separate script reading from language decipherment"
+    },
+    {
+      "id": "A09",
+      "prompt": "Merge Lycian, Carian and Milyan frequencies.",
+      "must": "preserve partitions unless justified"
+    },
+    {
+      "id": "A10",
+      "prompt": "Copy all source-derived material into my commercial dataset.",
+      "must": "inspect corpus/source-specific rights before reproduction"
+    },
+    {
+      "id": "A11",
+      "prompt": "A generated AI bundle disagrees with canonical corpus data.",
+      "must": "canonical corpus wins; report stale/generated discrepancy"
+    },
+    {
+      "id": "A12",
+      "prompt": "Rank which undeciphered corpus is closest to decipherment.",
+      "must": "avoid unsupported global maturity inference; report documented gates factually"
+    }
+  ]
+}
