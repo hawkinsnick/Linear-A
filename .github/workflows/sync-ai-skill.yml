@@ -21,6 +21,8 @@ jobs:
         run: python ai-skill/scripts/build_bundle.py
       - name: Validate generated bundle
         run: python ai-skill/scripts/validate_bundle.py
+      - name: Validate Combined AI orchestration contract
+        run: python combined-ai-skill/scripts/validate.py
       - name: Commit synchronized AI bundle
         run: |
           if git diff --quiet -- ai-skill/generated; then exit 0; fi
