@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "registry_version": "1.0.0",
+  "name": "Corpus Projects Registry",
+  "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "label": "Linear A",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "label": "Cypro-Minoan",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "label": "Linear B",
+      "status": "deciphered Mycenaean Greek control corpus",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglpyhs",
+      "label": "Cretan Hieroglyphic",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "label": "Phaistos Disc",
+      "status": "undeciphered/unique artifact",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "label": "Byblos syllabary",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "label": "Cypriot syllabic Greek",
+      "status": "deciphered script / Greek subset",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "label": "Eteocypriot",
+      "status": "poorly understood language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "label": "Eteocretan",
+      "status": "poorly understood language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "label": "Lycian, Carian and Milyan",
+      "status": "multi-partition corpus",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "label": "Phrygian",
+      "status": "attested Indo-European language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+"
+    }
+  ]
+}
