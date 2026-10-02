@@ -1,10 +1,10 @@
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.0.0
+version: 1.1.0
 ---
 
-# Combined Corpus Research AI — 1.0
+# Combined Corpus Research AI — 1.1
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
 
@@ -63,3 +63,6 @@ Use `references/fleet-benchmark.md` when discussing corpus maturity or evidence 
 
 ## Corpus Factory benchmark
 Before making fleet-wide maturity, coverage, or readiness claims, consult `../corpus-factory/fleet-gap-register.json` and `../corpus-factory/schemas/benchmark-status.schema.json`. Treat each member's `top_gap` as an unresolved research dependency, not a deficit that may be filled by inference. A corpus can satisfy parity with few surviving objects if coverage/accounting, provenance, rights, uncertainty, validation, independence, and AI authority are complete.
+
+## Pre-Expert Maximum routing
+When a registered member exposes `pre_expert_maximum_path`, consult that artifact before proposing expert review or describing unfinished work. Complete or explicitly disposition machine/source work first. Treat `human_only_boundary` as decisions that must not be silently resolved by the AI. A PRE_EXPERT_MAXIMUM contract is a work-boundary contract, not a claim that the corpus is scientifically complete or expert validated.
