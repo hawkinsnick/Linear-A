@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Linear A",
+  "required_authorities": [
+    {
+      "role": "current_status",
+      "path": "analysis/current-status.json",
+      "required": true
+    },
+    {
+      "role": "claims",
+      "path": "release/CLAIM-REGISTRY.csv",
+      "required": true
+    },
+    {
+      "role": "rights_matrix",
+      "path": "DATA-LICENSE-MATRIX.md",
+      "required": true
+    },
+    {
+      "role": "third_party",
+      "path": "THIRD-PARTY-NOTICES.md",
+      "required": true
+    }
+  ],
+  "behavioral_gates": [
+    "No decipherment claim",
+    "No Linear B value transfer as established Linear A reading",
+    "Quarantined/superseded analyses remain non-supporting",
+    "Calibration and independent-confirmation blockers must be disclosed",
+    "SigLA-derived rights preserved"
+  ]
+}
