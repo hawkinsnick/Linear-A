@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "description": "Minimum machine-readable contract for corpus-project benchmark status.",
+  "required": [
+    "repository",
+    "status_source",
+    "coverage",
+    "rights",
+    "evidence_layers",
+    "gates",
+    "ai"
+  ],
+  "fields": {
+    "repository": {
+      "required": [
+        "name",
+        "version"
+      ]
+    },
+    "status_source": {
+      "required": [
+        "path",
+        "checked"
+      ]
+    },
+    "coverage": {
+      "required": [
+        "unit",
+        "known_total",
+        "represented",
+        "admitted",
+        "independently_reviewed"
+      ],
+      "nullable": [
+        "known_total",
+        "admitted",
+        "independently_reviewed"
+      ]
+    },
+    "rights": {
+      "required": [
+        "project_original_policy",
+        "third_party_separate"
+      ]
+    },
+    "evidence_layers": {
+      "required": [
+        "source_observation",
+        "normalization",
+        "computation",
+        "interpretation"
+      ]
+    },
+    "gates": {
+      "required": [
+        "blocked_claims",
+        "next_gate"
+      ]
+    },
+    "ai": {
+      "required": [
+        "authority_profile",
+        "canonical_data_outranks_bundle"
+      ]
+    }
+  }
+}
