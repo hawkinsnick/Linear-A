@@ -8,7 +8,7 @@ tests=json.loads((R/"tests"/"adversarial-cases.json").read_text())
 manifest=json.loads((R/"manifest.json").read_text())
 skill=(R/"SKILL.md").read_text()
 members=reg.get("members",[])
-if reg.get("registry_version")!="1.0.0": errors.append("registry version must be 1.0.0")
+if reg.get("undefined")!="1.1.0": errors.append("registry version must be 1.1.0")
 if len(members)!=manifest.get("member_count"): errors.append("registry and manifest member counts differ")
 repos=[m.get("repository") for m in members]
 if len(repos)!=len(set(repos)): errors.append("duplicate repository in registry")
@@ -18,6 +18,11 @@ for member in members:
         if not member.get(key): errors.append("missing "+key+" for "+str(member.get("repository")))
     if member.get("required_skill_version")!="0.3.1":
         errors.append("member not pinned to hardened skill 0.3.1: "+str(member.get("repository")))
+pre=[m for m in members if m.get("pre_expert_maximum_path")]
+if len(pre)<8: errors.append("pre-expert maximum coverage unexpectedly low")
+for member in pre:
+    if not member.get("current_gate") or "PRE_EXPERT_MAXIMUM" not in member.get("current_gate",""):
+        errors.append("pre-expert member missing explicit current gate: "+str(member.get("repository")))
 cases=tests.get("cases",[])
 ids=[c.get("id") for c in cases]
 if len(cases)<12: errors.append("adversarial suite too small")
