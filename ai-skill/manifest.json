@@ -1,0 +1,10 @@
+{
+  "name": "linear-a-research",
+  "version": "0.1.0",
+  "canonical_project": "hawkinsnick/Linear-A",
+  "purpose": "vendor-neutral evidence-first AI research layer",
+  "governing_file": "SKILL.md",
+  "research_contract": "references/research-contract.md",
+  "adapters": ["adapters/chatgpt.md", "adapters/gemini.md", "adapters/generic.md"],
+  "data_policy": "canonical corpus remains outside the skill layer; release packaging may include only rights-compatible derived/reference files with provenance intact"
+}
