@@ -10,7 +10,10 @@
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -18,7 +21,10 @@
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -26,7 +32,10 @@
       "status": "deciphered Mycenaean Greek control corpus",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglpyhs",
@@ -34,7 +43,10 @@
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -42,7 +54,10 @@
       "status": "undeciphered/unique artifact",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
@@ -50,7 +65,10 @@
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -58,7 +76,10 @@
       "status": "deciphered script / Greek subset",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -66,7 +87,10 @@
       "status": "poorly understood language",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -74,7 +98,10 @@
       "status": "poorly understood language",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -82,7 +109,10 @@
       "status": "multi-partition corpus",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -90,7 +120,10 @@
       "status": "attested Indo-European language",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
     }
   ]
 }
