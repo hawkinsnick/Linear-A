@@ -1,7 +1,7 @@
 ---
 name: linear-a-research
 description: Evidence-first assistant for querying and interpreting the Linear A Open Corpus without treating structural patterns as decipherment.
-version: 0.1.0
+version: 0.3.1
 ---
 
 # Linear A Research Skill
@@ -50,3 +50,10 @@ Return tidy CSV/JSON/Markdown derived from supplied corpus data while retaining 
 ## Current project guardrails
 
 The 3.0.x platform contains validated corpus/extraction infrastructure and structural research, but it is not a decipherment. Known-answer Linear B calibration and independent epigraphic confirmation remain evidence gates where marked by current project status. Historical claims may be superseded; consult the current status and errata before relying on older release prose.
+
+## Academic-scrutiny gates
+- Linear A remains undeciphered
+- Do not convert Linear B correspondences into established Linear A readings
+- Quarantined and superseded analyses are not supporting evidence
+- Known-answer calibration and independent confirmation remain explicit gates
+- Preserve SigLA and other upstream rights
