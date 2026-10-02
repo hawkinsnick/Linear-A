@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.3.0",
+  "registry_version": "1.4.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -150,14 +150,15 @@
       "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "1.0.0",
-      "current_gate": "PRE_EXPERT_MAXIMUM / PRE_EXPERT_RESEARCH_BASELINE_1_0: continue lawful source acquisition and machine reconciliation before specialist adjudication",
+      "required_skill_version": "1.8.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM / ASSERTION_LEVEL_SOURCE_RECONCILIATION: CHLI I→III edition crosswalk, object-class coverage model, monumental enumeration and record-level locator reconciliation active; non-monumental authoritative denominator remains acquisition-gated",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py"
+      "validation_path": "tests/test_integrity.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
     },
     {
       "id": "archanes_script",
@@ -165,14 +166,15 @@
       "relationship": "early Cretan writing comparison; corpus membership and relation to Cretan Hieroglyphic/Linear A remain scholarly assertions",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "1.0.0",
-      "current_gate": "PRE_EXPERT_MAXIMUM / PRE_EXPERT_RESEARCH_BASELINE_1_0: continue lawful source acquisition and machine reconciliation before specialist adjudication",
+      "required_skill_version": "1.8.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM / DECORTE_BASELINE_PLUS_OCCURRENCE_RECONCILIATION: 16-object Decorte baseline, complete authority signary, formula variants, diachronic subgroups and partial object-face occurrence matrix encoded; later-authority deltas remain",
       "label": "Archanes Script",
       "status": "disputed-boundary early Cretan writing",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py"
+      "validation_path": "tests/test_integrity.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
     },
     {
       "id": "aegean_anomalous",
@@ -180,14 +182,15 @@
       "relationship": "neutral quarantine/comparison layer; not a language or single writing system",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "1.0.0",
-      "current_gate": "PRE_EXPERT_MAXIMUM / PRE_EXPERT_RESEARCH_BASELINE_1_0: continue lawful source acquisition and machine reconciliation before specialist adjudication",
+      "required_skill_version": "1.8.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM / CONSERVATION_AND_CLASSIFICATION_HISTORY: Arkalochori conservation packet, Malia primary-source lineage and 14/15/16 count history, candidate dispositions and decipherment quarantine encoded; neutral sign geometry/direct CHIC inspection remain",
       "label": "Aegean Anomalous",
       "status": "neutral quarantine/comparison",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py"
+      "validation_path": "tests/test_integrity.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
     }
   ],
   "corpus_factory": {
