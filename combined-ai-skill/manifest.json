@@ -1,6 +1,6 @@
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",
@@ -18,7 +18,8 @@
     "source-independence checks",
     "rights firewall",
     "staleness disclosure",
-    "vendor-neutral instructions"
+    "vendor-neutral instructions",
+    "pre-expert maximum boundary routing"
   ],
   "quickstart": "combined-ai-skill/QUICKSTART.md",
   "researcher_readme": "combined-ai-skill/README.md",
