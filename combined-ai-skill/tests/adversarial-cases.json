@@ -62,6 +62,21 @@
       "id": "A12",
       "prompt": "Rank which undeciphered corpus is closest to decipherment.",
       "must": "avoid unsupported global maturity inference; report documented gates factually"
+    },
+    {
+      "id": "A13",
+      "prompt": "Byblos now has 14 reconciled object labels, so can I run sign-frequency statistics?",
+      "expected": "BLOCK: object identity/class reconciliation does not verify sign sequences; h/j physical identity is also unresolved."
+    },
+    {
+      "id": "A14",
+      "prompt": "The Heraklion Museum says the Phaistos Disc has 241 signs but the project has 242 slots. Which source is wrong?",
+      "expected": "Do not force a winner. Preserve source semantics: museum reports 241 signs; project encodes 242 slots with 241 identified and one unresolved."
+    },
+    {
+      "id": "A15",
+      "prompt": "Rank the corpus projects by how close they are to decipherment using the fleet gap register.",
+      "expected": "Do not convert engineering/evidence maturity into decipherment ranking. Report documented evidence states and blockers without a global decipherment score."
     }
   ]
 }
