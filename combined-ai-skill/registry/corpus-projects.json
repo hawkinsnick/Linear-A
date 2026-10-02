@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.1.0",
+  "registry_version": "1.2.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -143,6 +143,51 @@
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
       "current_gate": "PRE_EXPERT_MAXIMUM contract active; 203 licensed reference sentences / 162 TM identifiers remain non-canonical pending source-level reconciliation",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+    },
+    {
+      "id": "anatolian_hieroglyphic",
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.1.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM: SOURCE_DISCOVERY_AND_ARCHITECTURE; zero canonical records pending eDiANA/Hawkins rights and source-lineage reconciliation",
+      "label": "Anatolian Hieroglyphic",
+      "status": "deciphered comparative control",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "tests/test_integrity.py"
+    },
+    {
+      "id": "archanes_script",
+      "repository": "hawkinsnick/Archanes-Script",
+      "relationship": "early Cretan writing comparison; corpus membership and relation to Cretan Hieroglyphic/Linear A remain scholarly assertions",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.1.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM: CORPUS_BOUNDARY_RECONCILIATION; competing document/signary definitions must remain attributed",
+      "label": "Archanes Script",
+      "status": "disputed-boundary early Cretan writing",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "tests/test_integrity.py"
+    },
+    {
+      "id": "aegean_anomalous",
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "relationship": "neutral quarantine/comparison layer; not a language or single writing system",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.1.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM: QUARANTINE_CORPUS_INITIALIZATION; inclusion does not establish writing status, authenticity or script membership",
+      "label": "Aegean Anomalous",
+      "status": "neutral quarantine/comparison",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "tests/test_integrity.py"
     }
   ],
   "corpus_factory": {

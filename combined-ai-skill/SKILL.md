@@ -1,10 +1,10 @@
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.1.0
+version: 1.2.0
 ---
 
-# Combined Corpus Research AI — 1.1
+# Combined Corpus Research AI — 1.2
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
 
@@ -66,3 +66,6 @@ Before making fleet-wide maturity, coverage, or readiness claims, consult `../co
 
 ## Pre-Expert Maximum routing
 When a registered member exposes `pre_expert_maximum_path`, consult that artifact before proposing expert review or describing unfinished work. Complete or explicitly disposition machine/source work first. Treat `human_only_boundary` as decisions that must not be silently resolved by the AI. A PRE_EXPERT_MAXIMUM contract is a work-boundary contract, not a claim that the corpus is scientifically complete or expert validated.
+
+## New comparative members
+Anatolian Hieroglyphic is a comparative control, Archanes is an early-Cretan disagreement-aware corpus, and Aegean Anomalous is a neutral quarantine layer. Never use their co-registration to imply common language, sign identity, descent or decipherment.
