@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "benchmark": "Linear-A governance/reproducibility parity",
+  "checked": "2026-10-02",
+  "members": [
+    {
+      "repo": "Linear-A",
+      "evidence_depth": "HIGH",
+      "coverage_state": "substantial decoded corpus; prospective/calibration gates remain",
+      "top_gap": "independent prospective/calibration evidence"
+    },
+    {
+      "repo": "Cypro-Minoan",
+      "evidence_depth": "LOW_MEDIUM",
+      "coverage_state": "21 rich records; 9 checked occurrences on 3 records",
+      "top_gap": "verified occurrence coverage denominator"
+    },
+    {
+      "repo": "Linear-B",
+      "evidence_depth": "HIGH",
+      "coverage_state": "~DAMOS-scale source mapping authenticated",
+      "top_gap": "non-leaky independently justified calibration gold"
+    },
+    {
+      "repo": "Cretan-hieroglpyhs",
+      "evidence_depth": "LOW",
+      "coverage_state": "331 catalogue identities; 5 critical readings on 2 objects",
+      "top_gap": "source-checked critical readings at scale"
+    },
+    {
+      "repo": "Phaistos-Disc",
+      "evidence_depth": "HIGH_FOR_SURVIVING_OBJECT",
+      "coverage_state": "1 object; 61 groups; 242 project slots; 1 unknown",
+      "top_gap": "independent expert review and count convention reconciliation"
+    },
+    {
+      "repo": "Byblos-syllabary",
+      "evidence_depth": "LOW",
+      "coverage_state": "14-object institutional baseline; 0 verified complete sequences",
+      "top_gap": "object identities and edition-collated sequences"
+    },
+    {
+      "repo": "Cypriot-syllabic-Greek",
+      "evidence_depth": "MEDIUM",
+      "coverage_state": "593-source snapshot; 592 records; 170 source-interpreted Greek",
+      "top_gap": "expand beyond frozen fascicle and independent review"
+    },
+    {
+      "repo": "Eteocypriot",
+      "evidence_depth": "LOW_MEDIUM",
+      "coverage_state": "26 candidates; 17 source-attributed entries",
+      "top_gap": "whole-corpus reconciliation and independent review"
+    },
+    {
+      "repo": "Eteocretan",
+      "evidence_depth": "LOW",
+      "coverage_state": "8 objects with readings; 0 analytically admitted rows",
+      "top_gap": "primary Dreros/Praisos collation"
+    },
+    {
+      "repo": "Lycian-and-Carian",
+      "evidence_depth": "HIGH_DIGITAL",
+      "coverage_state": "453 eDiAna catalogue entries in separate partitions",
+      "top_gap": "edition-level independent/source collation"
+    },
+    {
+      "repo": "Phrygian",
+      "evidence_depth": "MEDIUM",
+      "coverage_state": "203 UD sentences; 162 TM identifiers",
+      "top_gap": "TM/edition reconciliation and primary epigraphic confirmation"
+    }
+  ],
+  "required_capabilities": [
+    "machine_readable_status",
+    "coverage_denominator_or_explicit_unknown",
+    "source_lineage",
+    "rights_layer",
+    "admission_gate",
+    "uncertainty_layer",
+    "independence_tracking",
+    "reproducible_validation",
+    "ai_authority_profile",
+    "correction_history"
+  ],
+  "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts."
+}
