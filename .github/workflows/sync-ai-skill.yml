@@ -1,6 +1,8 @@
 name: Sync AI skill
 on:
   push:
+    branches: [main, ai-skill-v0.1]
+  pull_request:
     branches: [main]
     paths-ignore:
       - 'ai-skill/generated/**'
@@ -24,6 +26,7 @@ jobs:
       - name: Validate Combined AI orchestration contract
         run: python combined-ai-skill/scripts/validate.py
       - name: Commit synchronized AI bundle
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           if git diff --quiet -- ai-skill/generated; then exit 0; fi
           git config user.name "github-actions[bot]"
