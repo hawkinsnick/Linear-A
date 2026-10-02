@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.0.0",
+  "registry_version": "1.1.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -26,7 +26,8 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "9 source-checked occurrences; corpus-wide frequency remains blocked pending defensible verified coverage"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 9 source-checked occurrences on 3/21 rich records; frequency and cross-script phonetic claims remain blocked",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -48,7 +49,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities, 5 critical readings on 2 source-checked objects; structural/comparative claims remain blocked"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -70,7 +73,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; primary-edition/source reconciliation remains before human transcription and sign adjudication"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -81,7 +86,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; frozen IG XV 1 snapshot is reproducible while expansion sources and concordances remain non-expert work"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -92,7 +99,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; source expansion and concordance precede human language/readings adjudication"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -105,7 +114,8 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "0 analytically admitted rows until documented source collation supports admission"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; Dreros/Praisos/Azoria source acquisition precedes human reading/language adjudication; analytical admission remains zero",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -116,7 +126,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 453-record eDiAna snapshot precedes object concordance and edition comparison"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -129,7 +141,8 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "source-attributed bulk corpus import pending rights-safe acquisition and provenance alignment"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 203 licensed reference sentences / 162 TM identifiers remain non-canonical pending source-level reconciliation",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
     }
   ],
   "corpus_factory": {
