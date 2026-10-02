@@ -1,11 +1,15 @@
-# Family compatibility contract v1
+# Corpus fleet compatibility contract v2
 
-This repository is one member of a four-corpus research family. **Concerted evolution means compatible contracts, not identical version numbers or fabricated evidence parity.**
+The research ecosystem currently registers **11 independent corpus projects** in the Combined Corpus Research AI. Concerted evolution means compatible evidence, provenance, rights, uncertainty and validation contracts — not identical version numbers, row counts, scripts, languages, chronologies, or scientific readiness.
 
-Current member state: **READY_FOR_CONTEXT_AUDIT**
+## Pre-Expert Maximum
 
-Next admissible action: Compute document-level context completeness and emit compatible target dimensions.
+Large and very-large-gap members may expose a machine-readable `research/pre-expert-maximum.json`. That artifact separates work that can still be completed from authoritative sources and deterministic engineering from decisions that require human epigraphic, palaeographic, editorial or linguistic judgment.
 
-Blocked boundary: No linguistic identity claims.
+A Pre-Expert Maximum contract is **not** expert validation and is **not** corpus completeness. Source- or rights-blocked work remains blocked. Human-only decisions remain unasserted.
 
-Every family-level methodological change must be checked against Linear A, Cypro-Minoan, Cretan Hieroglyphic and Linear B before release. Native evidence remains authoritative and cross-script claims remain external assertions.
+## Compatibility boundary
+
+Native corpus evidence remains authoritative. Cross-corpus interoperability never establishes linguistic relationship, sign equivalence, chronology, decipherment or independent replication. Shared upstream witnesses and duplicated records must be treated as dependent evidence.
+
+The current registered fleet and member-specific gates are authoritative in `combined-ai-skill/registry/corpus-projects.json`.
