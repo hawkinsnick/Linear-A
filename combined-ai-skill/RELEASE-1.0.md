@@ -23,3 +23,8 @@ Combined Corpus Research AI 1.0 is an orchestration-contract release.
 3. 1.0 does not mean every third-party AI model has passed behavioral tests.
 4. 1.0 does not override member-corpus scientific gates or licensing.
 5. A future dedicated repository may host this package; relocation does not change its scientific contract.
+
+
+## 1.1 Pre-Expert Maximum integration
+
+The orchestrator now recognizes member-level Pre-Expert Maximum contracts. These contracts distinguish remaining deterministic/source work from decisions reserved for human specialists; they never imply expert validation or corpus completeness.
