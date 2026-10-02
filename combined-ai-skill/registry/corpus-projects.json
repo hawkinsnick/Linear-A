@@ -131,5 +131,11 @@
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
       "current_gate": "source-attributed bulk corpus import pending rights-safe acquisition and provenance alignment"
     }
-  ]
+  ],
+  "corpus_factory": {
+    "gap_register": "corpus-factory/fleet-gap-register.json",
+    "benchmark_schema": "corpus-factory/schemas/benchmark-status.schema.json",
+    "validator": "corpus-factory/validate_fleet.py",
+    "parity_rule": "rigor and traceability under surviving evidence, never equal row counts"
+  }
 }
