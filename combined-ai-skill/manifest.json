@@ -1,0 +1,27 @@
+{
+  "name": "Combined Corpus Research AI",
+  "version": "1.0.0",
+  "vendor_neutral": true,
+  "type": "multi-corpus-orchestrator",
+  "canonical_data": "member corpus projects",
+  "governing_instructions": "combined-ai-skill/SKILL.md",
+  "registry": "combined-ai-skill/registry/corpus-projects.json",
+  "comparability_contract": "combined-ai-skill/references/comparability-matrix.md",
+  "validation": "combined-ai-skill/scripts/validate.py",
+  "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
+  "member_count": 11,
+  "expansion_policy": "New corpus projects may be added by registry entry after providing an individual corpus skill and shared research contract.",
+  "guarantees": [
+    "no data duplication in orchestrator",
+    "member-native evidence authority",
+    "cross-corpus comparability gate",
+    "source-independence checks",
+    "rights firewall",
+    "staleness disclosure",
+    "vendor-neutral instructions"
+  ],
+  "quickstart": "combined-ai-skill/QUICKSTART.md",
+  "researcher_readme": "combined-ai-skill/README.md",
+  "required_member_skill_version": "0.3.1",
+  "ci_validation": ".github/workflows/sync-ai-skill.yml"
+}
