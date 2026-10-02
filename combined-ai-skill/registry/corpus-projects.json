@@ -24,7 +24,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
+      "current_gate": "9 source-checked occurrences; corpus-wide frequency remains blocked pending defensible verified coverage"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -101,7 +103,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
+      "current_gate": "0 analytically admitted rows until documented source collation supports admission"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -123,7 +127,9 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
+      "current_gate": "source-attributed bulk corpus import pending rights-safe acquisition and provenance alignment"
     }
   ]
 }
