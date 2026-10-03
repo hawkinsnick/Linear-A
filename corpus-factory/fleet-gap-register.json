@@ -23,9 +23,9 @@
     },
     {
       "repo": "Cretan-hieroglpyhs",
-      "evidence_depth": "LOW",
-      "coverage_state": "331 catalogue identities; 5 critical readings on 2 objects",
-      "top_gap": "source-checked critical readings at scale"
+      "evidence_depth": "LOW_WITH_REOPENED_DIRECT_ROUTE",
+      "coverage_state": "331 catalogue identities; existing 2-object canonical source pilot plus new INSCRIBE direct acquisition route for CHIC #202/#252/#313/#315/#328 pending canonical ingestion",
+      "top_gap": "ingest rights-firewalled INSCRIBE subset into canonical reading/object schema and expand across available CH objects"
     },
     {
       "repo": "Phaistos-Disc",
@@ -35,9 +35,9 @@
     },
     {
       "repo": "Byblos-syllabary",
-      "evidence_depth": "LOW",
-      "coverage_state": "14-object institutional baseline; 0 verified complete sequences",
-      "top_gap": "object identities and edition-collated sequences"
+      "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
+      "coverage_state": "institutional 14-label genealogy grounded as Dunand 1945 ten + 1978 four; h/j possible same physical stela; verified complete sequences still 0",
+      "top_gap": "resolve 15-count/provider discrepancy and acquire edition-collated sequences"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -53,9 +53,9 @@
     },
     {
       "repo": "Eteocretan",
-      "evidence_depth": "LOW",
-      "coverage_state": "8 objects with readings; 0 analytically admitted rows",
-      "top_gap": "primary Dreros/Praisos collation"
+      "evidence_depth": "LOW_WITH_DREROS_ROUTE",
+      "coverage_state": "12 attributed readings; Dreros 2 primary BCH inspected; Dreros 1 near-primary Lejeune witness now records Van Effenterre layout/uncertainty",
+      "top_gap": "obtain original Dreros 1 facsimile; Praisos critical-edition collation; Azoria item-level discovery"
     },
     {
       "repo": "Lycian-and-Carian",
@@ -65,36 +65,36 @@
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM",
-      "coverage_state": "203 UD sentences; 162 TM identifiers",
-      "top_gap": "TM/edition reconciliation and primary epigraphic confirmation"
+      "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
+      "coverage_state": "203 UD sentences / 162 TM IDs seed layer; TM reports 536 Phrygian text attestations as broader discovery benchmark",
+      "top_gap": "enumerate/reconcile broader TM discovery frontier and map edition/source dependence record-by-record"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
-      "evidence_depth": "DISCOVERY_ONLY",
-      "coverage_state": "314 monumental discovery entries; 0 canonical admissions; non-monumental denominator unknown",
-      "top_gap": "authoritative CHLI/eDiAna record reconciliation and non-monumental discovery",
+      "evidence_depth": "STRUCTURED_DIGITAL_IDENTITY",
+      "coverage_state": "287-entry eDiAna Hieroglyphic text-entry denominator established; 314-entry monumental discovery register remains a separate discovery view; explicit portable/non-monumental subset classified",
+      "top_gap": "classify/reconcile all 287 eDiAna entries to CHLI and decompose grouped sigla only with authority support",
       "status_source": "research/monumental-discovery-register.json"
     },
     {
       "repo": "Archanes-Script",
-      "evidence_depth": "SOURCE_SCOPED",
-      "coverage_state": "16-object Decorte baseline; authority-specific signary and formula variants; partial object-face matrix",
-      "top_gap": "object-face occurrence reconciliation and later-authority deltas",
+      "evidence_depth": "SOURCE_RECONCILED_PARTIAL",
+      "coverage_state": "16-object Decorte baseline; direct INSCRIBE museum/CHIC reconciliation for AS#01-04 subset; later-authority face crosswalk; AS#04 Bone/Ivory disagreement preserved",
+      "top_gap": "complete direct object reconciliation for remaining AS objects and later-authority occurrence deltas",
       "status_source": "research/corpus-quality-audit.json"
     },
     {
       "repo": "Aegean-anomalous",
-      "evidence_depth": "SOURCE_SCOPED",
-      "coverage_state": "Arkalochori and Malia anchors; attributed classification and counting disagreements; not one language or writing system",
-      "top_gap": "primary-source completion and neutral sign geometry",
+      "evidence_depth": "SOURCE_RECONCILED_ANCHORS",
+      "coverage_state": "Arkalochori conservation packet plus Malia direct INSCRIBE/CHIC #328 object metadata and 16-slot/13-distinct transnumeration; historical 14/15/16 count states preserved",
+      "top_gap": "reconcile Chapouthier boundary-bar segmentation against CHIC/INSCRIBE drawing state; lawful Arkalochori geometry",
       "status_source": "research/pre-expert-gate-summary.json"
     },
     {
       "repo": "Egyptian-Hieroglyphic-Corpus",
       "evidence_depth": "OPEN_IMAGE_PRE_ANNOTATION",
-      "coverage_state": "25 objects; 32 rights-verified museum images; 0 verified sign annotations/readings",
-      "top_gap": "source-checked sign-region annotations and reusable authoritative reading layer",
+      "coverage_state": "25 objects / 32 rights-verified museum images; individual AI skill + master membership complete; 0 verified sign annotations/readings",
+      "top_gap": "source-checked sign-region annotation and authoritative reusable reading/sign-list concordance layer",
       "status_source": "research/pre-expert-maximum.json"
     }
   ],
