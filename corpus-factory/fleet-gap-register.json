@@ -6,8 +6,9 @@
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "substantial decoded corpus; prospective/calibration gates remain",
-      "top_gap": "independent prospective/calibration evidence"
+      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups materialized locally; 13 unresolved-case entries have primary edition pages inspected; public aggregate audit and explicit representation gaps",
+      "top_gap": "SY Zb 7 primary image locator, disputed physical readings and independent prospective/calibration evidence",
+      "status_source": "analysis/pre-expert-source-audit.json"
     },
     {
       "repo": "Cypro-Minoan",
@@ -18,8 +19,9 @@
     {
       "repo": "Linear-B",
       "evidence_depth": "HIGH",
-      "coverage_state": "~DAMOS-scale source mapping authenticated",
-      "top_gap": "non-leaky independently justified calibration gold"
+      "coverage_state": "5,932 unchanged source IDs / 5,890 surfaces; complete local identity/missingness register, collision accounting and public aggregate audit",
+      "top_gap": "legitimate aligned linguistic gold export and authoritative graphical occurrence mapping",
+      "status_source": "analysis/pre-expert-source-audit.json"
     },
     {
       "repo": "Cretan-hieroglpyhs",

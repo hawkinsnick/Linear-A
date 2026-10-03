@@ -1,17 +1,17 @@
 {
   "project": "Linear A Open Corpus",
-  "version": "0.3.0-alpha",
+  "version": "3.0.15",
   "created": "2026-09-27",
-  "scope": "Validated SigLA decoder/importer foundation; source payloads remain local and gitignored.",
-  "unicode_block": "U+10600–U+1077F",
-  "sign_count_in_generated_inventory": 341,
+  "scope": "Authenticated decoded SigLA record-level materialization and aggregate audit tooling; source payloads and record derivatives remain local and gitignored.",
+  "unicode_block": "U+10600\u2013U+1077F",
+  "sign_count_in_generated_inventory": 376,
   "upstream_sources": [
     {
       "source_id": "SIGLA",
       "name": "SigLA: The Signs of Linear A",
       "url": "https://sigla.phis.me/",
       "license": "CC BY-NC-SA 4.0",
-      "role": "Primary planned corpus source"
+      "role": "Authenticated locally supplied decoded derivative; single upstream lineage"
     }
   ],
   "principles": [
@@ -22,5 +22,6 @@
     "Do not redistribute copyrighted or unclearly licensed material without permission.",
     "Make original project material maximally open where legally possible."
   ],
-  "gorila_basis": "Godart & Olivier, Recueil des inscriptions en linéaire A (1976–1985)"
+  "gorila_basis": "Godart & Olivier, Recueil des inscriptions en lin\u00e9aire A (1976\u20131985)",
+  "sign_inventory_count_boundary": "376 entries in checksum-pinned decoded derivative; not an independently verified palaeographic inventory"
 }

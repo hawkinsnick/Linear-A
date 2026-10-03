@@ -1,50 +1,65 @@
 {
   "schema_version": "1.0",
   "checked": "2026-10-03",
-  "state": "PRE_EXPERT_CEILING_NOT_YET_REACHED",
+  "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
   "principle": "Scientific experiment gates and corpus-engineering gates are independent. A sealed prospective experiment must remain sealed while source, provenance, catalogue, rights, and representation work continues.",
   "machine_resolvable": [
     {
       "id": "LA-CORPUS-001",
       "task": "Materialize a canonical record-level corpus layer from the authenticated SigLA snapshot without redistributing prohibited raw payloads.",
       "evidence": [
-        "data/source_inventory_0.5.json",
-        "scripts/import_sigla.py"
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
       ],
-      "status": "OPEN"
+      "status": "COMPLETE",
+      "completion_scope": "802 checksum-authenticated local canonical source records; not independently verified inscriptions."
     },
     {
       "id": "LA-CORPUS-002",
       "task": "Populate inscription, occurrence, provenance and site tables from authenticated source-derived fields with source/license lineage.",
       "evidence": [
-        "data/inscriptions.csv",
-        "data/sign_occurrences.csv",
-        "data/provenance.csv",
-        "data/sites.csv"
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
       ],
-      "status": "OPEN_EMPTY_TABLES"
+      "status": "COMPLETE",
+      "completion_scope": "802 inscription/provenance rows, 5,144 occurrence rows and source-label site counts exported locally; root historical CSV scaffolds remain historical."
     },
     {
       "id": "LA-CORPUS-003",
       "task": "Reconcile the 15 named unresolved cases against lawful primary images/plates or independent authoritative witnesses where accessible.",
       "evidence": [
-        "data/unresolved_cases.csv"
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md",
+        "analysis/pre-expert-primary-collation.json"
       ],
-      "status": "OPEN_SOURCE_COLLATION"
+      "status": "SOURCE_BLOCKED",
+      "completion_scope": "Primary-page AI inspection completed for 13 of 15 case entries; GORILA HT 17 source reading 38 verified. Physical disputed readings remain expert work; SY Zb 7 verified primary locator remains unavailable; K metrology remains interpretation.",
+      "blocker": "Available edition images do not supply a defensible expert adjudication of disputed physical sign/word identities; one case lacks a verified primary image locator, and metrology is a scholarly model boundary. No source-value guess may close these gates."
     },
     {
       "id": "LA-CORPUS-004",
       "task": "Complete source-level sign/transnumeration concordance and keep Linear B correspondences non-phonetic unless independently justified.",
-      "status": "OPEN"
+      "status": "COMPLETE",
+      "evidence": [
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
+      ],
+      "completion_scope": "376 source sign entries, 1,401 editorial groups and all 5,144 occurrence references exported; 4 unmatched source keys and 388 unkeyed occurrences preserved. Cross-script phonetic equivalence remains unestablished. Completion is the source-layer concordance and gap register, not independent adjudication or cross-script correspondence."
     },
     {
       "id": "LA-CORPUS-005",
       "task": "Refresh mutable repository metadata whose embedded content version predates the current repository state.",
       "evidence": [
-        "data/metadata.json",
-        "docs/CURRENT-STATE-INTEGRITY.md"
+        "analysis/pre-expert-source-audit.json",
+        "scripts/build_pre_expert_audit.py",
+        "docs/PRE-EXPERT-HANDOFF.md"
       ],
-      "status": "OPEN_METADATA_DRIFT"
+      "status": "COMPLETE",
+      "completion_scope": "Mutable metadata and current integrity documentation aligned to repository version; source inventory count now scoped to authenticated derivative."
     }
   ],
   "sealed_or_external": [
@@ -60,5 +75,7 @@
       "status": "HUMAN_OR_NEW_EVIDENCE"
     }
   ],
-  "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker."
+  "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker.",
+  "machine_pass_evidence": "analysis/pre-expert-source-audit.json",
+  "public_record_boundary": "Aggregate audit and reproduction code are committed. Authenticated record derivatives are local and ignored; no restricted raw payloads or record derivatives are newly published."
 }

@@ -1,0 +1,16 @@
+{
+  "checked": "2026-10-03",
+  "finding_boundary": "Targeted source search, not a proof that no export or accessible edition exists anywhere.",
+  "sources": [
+    {
+      "url": "https://sigla.phis.me/",
+      "role": "primary database terms",
+      "finding": "CC BY-NC-SA 4.0 attribution retained. Derived source lineage does not create independent confirmation."
+    },
+    {
+      "url": "https://cefael.efa.gr/",
+      "role": "primary edition host",
+      "finding": "Search-tool access failed; direct public HTML and explicitly linked page images work. Primary collation continues locally; no image republication grant assumed."
+    }
+  ]
+}

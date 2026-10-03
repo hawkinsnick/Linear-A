@@ -1,0 +1,160 @@
+{
+  "calibration_executed": false,
+  "documents": 802,
+  "duplicate_sign_keys": 0,
+  "field_coverage": {
+    "dimensions_cm": {
+      "denominator": 802,
+      "missing_or_empty": 168,
+      "present": 634
+    },
+    "period": {
+      "denominator": 802,
+      "missing_or_empty": 24,
+      "present": 778
+    },
+    "reference_url": {
+      "denominator": 802,
+      "missing_or_empty": 19,
+      "present": 783
+    },
+    "site": {
+      "denominator": 802,
+      "missing_or_empty": 0,
+      "present": 802
+    },
+    "typology": {
+      "denominator": 802,
+      "missing_or_empty": 0,
+      "present": 802
+    }
+  },
+  "group_counts": {
+    "period": {
+      "<UNKNOWN>": 24,
+      "LM I": 17,
+      "LM I general": 2,
+      "LM IA": 18,
+      "LM IA?": 2,
+      "LM IB": 640,
+      "LM IB-II": 2,
+      "LM II": 2,
+      "MH III-LH I": 1,
+      "MM II": 19,
+      "MM IIA": 1,
+      "MM IIB": 34,
+      "MM III": 5,
+      "MM III-LM IA": 1,
+      "MM III?": 2,
+      "MM IIIA": 1,
+      "MM IIIB": 28,
+      "n/a": 1,
+      "unknown": 2
+    },
+    "site": {
+      "Arkhanes": 10,
+      "GOURNIA": 2,
+      "Gournia": 2,
+      "Haghia Triada": 372,
+      "Haghios Stephanos": 1,
+      "Kea": 7,
+      "Khania": 220,
+      "Knossos": 37,
+      "Kythera": 1,
+      "Mallia": 20,
+      "Melos": 1,
+      "Mycenae": 1,
+      "Palaiokastro": 2,
+      "Papoura": 1,
+      "Petras": 3,
+      "Phaistos": 64,
+      "Psykhro": 1,
+      "Pyrgos": 2,
+      "Syme": 1,
+      "Thera": 7,
+      "Tylissos": 3,
+      "Zakros": 44
+    },
+    "typology": {
+      "Architecture": 1,
+      "Clay vase": 1,
+      "Clay weight": 1,
+      "Cup": 2,
+      "Graffiti": 3,
+      "Jewellery": 1,
+      "Label": 1,
+      "Lamp": 1,
+      "Libation Table": 4,
+      "Libation table": 2,
+      "Metal engraving": 1,
+      "Nodule": 166,
+      "Pithoid jar": 1,
+      "Pithos": 6,
+      "Plaque": 1,
+      "Roundel": 146,
+      "Sealing": 7,
+      "Sherd": 4,
+      "Stone weight": 1,
+      "Tablet": 452
+    }
+  },
+  "implementation_sha256": "889c90b3ae16afcd94b9f6e51dbdcd750f0e59138ae6fb58beee682190bc33f6",
+  "local_export_manifest": [
+    {
+      "file": "occurrences.json",
+      "records": 5144,
+      "sha256": "4601b252e0a8fddc18412b9a0c8a21bbdfe646e058b5425f106dd6222ac689df"
+    },
+    {
+      "file": "records.json",
+      "records": 802,
+      "sha256": "37036c54f687fcdda56ce6e3e3820b2c34aab21bf0edcf43fab43e7377c725b1"
+    },
+    {
+      "file": "sign-concordance.json",
+      "records": 376,
+      "sha256": "a3e216853a8ac2e28b9de8fedba7efee74ab248906e1120ac09a183ac01654c7"
+    },
+    {
+      "file": "source-metadata.json",
+      "records": 1,
+      "sha256": "b1f8fadb054caa17dd00086c7cbe4545dcf4418b5bd566e4f3c67d81f7638c7f"
+    },
+    {
+      "file": "source-words.json",
+      "records": 1401,
+      "sha256": "1b29587e49faf960475f145f656a4000e85bfa2fc58b8bf4fb8d93d7556de623"
+    }
+  ],
+  "numeral_quantities": "NOT_PROVIDED_BY_SOURCE",
+  "occurrence_kinds": {
+    "blank": 444,
+    "fraction": 328,
+    "logogram": 721,
+    "syllable": 3651
+  },
+  "occurrences": 5144,
+  "occurrences_with_sign_key_absent_from_sign_table": 4,
+  "occurrences_without_sign_key": 388,
+  "project": "Linear-A",
+  "prospective_outcomes_inspected": false,
+  "raw_flags": "PRESERVED_UNDECODED_NO_CERTAINTY_OR_DAMAGE_INFERENCE",
+  "redistributes_source_records": false,
+  "schema_version": "1.0",
+  "scope": "Exact authenticated derivative snapshot only; not all surviving inscriptions or physical objects.",
+  "source_attribution": "Ester Salgarella and Simon Castellan, https://sigla.phis.me (dataset and drawings published CC BY-NC-SA 4.0; the SigLA paper notes that copies can be hosted and the data used outside the interface)",
+  "source_independence": "ONE_DERIVATIVE_SOURCE_NOT_INDEPENDENT_VALIDATION",
+  "source_license": "CC BY-NC-SA 4.0",
+  "source_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "source_sign_entries": 376,
+  "source_word_boundary": "SOURCE_EDITORIAL_GROUPING_NOT_GORILA_EQUIVALENCE",
+  "source_word_groups": 1401,
+  "unique_source_ids": 802,
+  "unique_source_sign_keys": 376,
+  "unresolved_cases": {
+    "adjudicated": 0,
+    "total": 15,
+    "with_exact_whitespace_only_source_match": 10,
+    "without_match": 5
+  }
+}

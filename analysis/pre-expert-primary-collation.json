@@ -1,0 +1,458 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-03",
+  "scope": "15 existing unresolved cases only; no corpus-wide primary verification claim",
+  "method": "AI inspection of identified public primary edition page photographs/drawings and edition transcription. No image reproduction. Preserve source reading versus object reading.",
+  "cases": [
+    {
+      "case_id": "U001",
+      "document_id": "HT17",
+      "status": "SOURCE_READING_CHECKED_OBJECT_ADJUDICATION_OPEN",
+      "finding": "GORILA I printed page 35 explicitly gives 38 for HT 17. This settles what that edition prints, not whether the physical numeral or competing witness should be corrected.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 35,
+          "viewer_page": 71,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=71",
+          "locally_inspected_page_sha256": "61858dd25e751e1762e40f09b1cc4cb8de995eb551fb93501f32474ea6d3546a",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 34,
+          "viewer_page": 70,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=70",
+          "locally_inspected_page_sha256": "7df3fb2ccbae0a78c931954ae9bde742112d9262030a055365478ad2bfc579a2",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U002",
+      "document_id": "HT15",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 31,
+          "viewer_page": 67,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=67",
+          "locally_inspected_page_sha256": "afb154d21cef0bb93f747218c0ba05cbb54e317618bc1c40bfd37a2933858602",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 30,
+          "viewer_page": 66,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=66",
+          "locally_inspected_page_sha256": "cf221f2a3fcbafbec88201e83958d94846c8547703b2d8836e33795e34d3b00a",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U003",
+      "document_id": "HT17",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 35,
+          "viewer_page": 71,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=71",
+          "locally_inspected_page_sha256": "61858dd25e751e1762e40f09b1cc4cb8de995eb551fb93501f32474ea6d3546a",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 34,
+          "viewer_page": 70,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=70",
+          "locally_inspected_page_sha256": "7df3fb2ccbae0a78c931954ae9bde742112d9262030a055365478ad2bfc579a2",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U004",
+      "document_id": "HT34",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 65,
+          "viewer_page": 101,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=101",
+          "locally_inspected_page_sha256": "4bf2f23a28da9668d44cddd0d8adc25e903fb78e9baa461be9fbcab68ab91cea",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 64,
+          "viewer_page": 100,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=100",
+          "locally_inspected_page_sha256": "169970936bbf4e6446409d5f211859696d8460478b8e88d85d03010337d9658c",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U005",
+      "document_id": "HT34",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 65,
+          "viewer_page": 101,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=101",
+          "locally_inspected_page_sha256": "4bf2f23a28da9668d44cddd0d8adc25e903fb78e9baa461be9fbcab68ab91cea",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 64,
+          "viewer_page": 100,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=100",
+          "locally_inspected_page_sha256": "169970936bbf4e6446409d5f211859696d8460478b8e88d85d03010337d9658c",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U006",
+      "document_id": "HT49a",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 93,
+          "viewer_page": 129,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=129",
+          "locally_inspected_page_sha256": "bf12de96d167a7cd30342aae59f363fb48f3c49639153d505e78d349f01a1230",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 1,
+          "printed_page": 92,
+          "viewer_page": 128,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=128",
+          "locally_inspected_page_sha256": "48d2a33925dff041087a2524952664f9e1182a2833a4a3aee2e4c1585875c78d",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U007",
+      "document_id": "KH74",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 3,
+          "printed_page": 93,
+          "viewer_page": 117,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=117",
+          "locally_inspected_page_sha256": "0fd1abfb4c8084cef4ad106e64fc7b469921b48cac423e0a1c66163f4b9fb437",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 3,
+          "printed_page": 92,
+          "viewer_page": 116,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=116",
+          "locally_inspected_page_sha256": "7ea391623b5544c30eac712f2e3bddbf3a471af561a68468457ee90967de926f",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U008",
+      "document_id": "KH8",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 3,
+          "printed_page": 33,
+          "viewer_page": 57,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=57",
+          "locally_inspected_page_sha256": "904b8f53b5735746888f95137236746cb6d3ca7beb0c3096f2a5fad728f95fd0",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 3,
+          "printed_page": 32,
+          "viewer_page": 56,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=56",
+          "locally_inspected_page_sha256": "460a372255381b5d0e56c9fc57170d30558686007ce60692d9401fdcacd32161",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U009",
+      "document_id": "MA10b",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 5,
+          "printed_page": 50,
+          "viewer_page": 102,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=5&sp=102",
+          "locally_inspected_page_sha256": "1bfd8d5b34e37ee676664688980dba7500511f0608482e3ec7f77806133ff598",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 5,
+          "printed_page": 51,
+          "viewer_page": 103,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=5&sp=103",
+          "locally_inspected_page_sha256": "699d317553e448c0167f558b09b095229549b34f4f87645257632b1567dc620b",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U010",
+      "document_id": "HTZd157+156",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "GORILA IV pages 133 and 135 label HT Zd 156 and 157 separately. A concatenated research label is not admitted as an independently established physical join or cross-fragment divider.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 133,
+          "viewer_page": 175,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=175",
+          "locally_inspected_page_sha256": "dc6cd4bd82ebdf0f4611ab61b613cdc9b829eed420120af97fe9bb1417915044",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 135,
+          "viewer_page": 177,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=177",
+          "locally_inspected_page_sha256": "22c8f7f7cf024960991b4d8eeb91effc4029b05178bec206a0a2cf7279bf051f",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U011",
+      "document_id": "KNZc6",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 119,
+          "viewer_page": 161,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=161",
+          "locally_inspected_page_sha256": "fa1c2cb92baf4af28e7b22a11b3122a4ea5207f47fb8a52ec2ed2b8881ecb95e",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 120,
+          "viewer_page": 162,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=162",
+          "locally_inspected_page_sha256": "46f9b9889e6313caff468b4ffff9d0ae4ad214cac4b13e0babd171f80a979884",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U012",
+      "document_id": "PKZa8",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 26,
+          "viewer_page": 68,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=68",
+          "locally_inspected_page_sha256": "a18903bb16e4f872b39bf7227b8d7795fd872287e8d1790425791ea5c40c8bf2",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 27,
+          "viewer_page": 69,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=69",
+          "locally_inspected_page_sha256": "0e69650bdff4da060ff1d60c92fb7ba999643aa3d1586cd05317e05cdfa29315",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U013",
+      "document_id": "PRZa1",
+      "status": "EXPERT_REVIEW_REQUIRED_AFTER_PRIMARY_PAGE_INSPECTION",
+      "finding": "Relevant identified primary page inspected; conflicting encoding/sign/segmentation labels remain separate. No palaeographic adjudication or reconstructed reading entered.",
+      "evidence": [
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 46,
+          "viewer_page": 88,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=88",
+          "locally_inspected_page_sha256": "295e7f7c56d6a19de56173b0f4cd4c3a038a0c35f4fcd9e54b92535ca9c4c593",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 47,
+          "viewer_page": 89,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=89",
+          "locally_inspected_page_sha256": "23f8edc52f24fbf1bcb11b140a97487fcb2803fcd721477d7feb610a7c1763aa",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        },
+        {
+          "edition": "Godart & Olivier, GORILA",
+          "volume": 4,
+          "printed_page": 48,
+          "viewer_page": 90,
+          "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=90",
+          "locally_inspected_page_sha256": "f723fc68e734cadfe1b10e40d98d99d36ea481dde963e6cd164c3eec9117fbab",
+          "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+          "image_redistributed": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U014",
+      "document_id": "SYZb7",
+      "status": "SOURCE_BLOCKED_PRIMARY_LOCATOR_OR_INTERPRETATION",
+      "finding": "Absent from authenticated SigLA derivative. Targeted exact-siglum searches yielded secondary mentions and a scholarly sign example, but no verified primary image/plate locator adequate to adjudicate this divider. No proxy image substituted.",
+      "evidence": [],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    },
+    {
+      "case_id": "U015",
+      "document_id": "fraction K",
+      "status": "HUMAN_INTERPRETATION_BOUNDARY",
+      "finding": "Fraction K values are competing scholarly hypotheses, not a quantity supplied by SigLA. Corazza et al. DOI 10.1016/j.jas.2020.105214 provides a computational proposal, not definitive metrological adjudication.",
+      "evidence": [
+        {
+          "doi": "10.1016/j.jas.2020.105214",
+          "url": "https://doi.org/10.1016/j.jas.2020.105214",
+          "inspection": "PRIMARY_RESEARCH_ABSTRACT_AND_SEARCHABLE_RESULT",
+          "claim_class": "CONDITIONAL_SCHOLARLY_MODEL",
+          "raw_text_reproduced": false
+        }
+      ],
+      "expert_validated": false,
+      "physical_reading_adjudicated": false,
+      "original_dispute_retained": true
+    }
+  ],
+  "summary": {
+    "cases": 15,
+    "cases_with_primary_edition_pages_inspected": 13,
+    "edition_numeric_readings_checked": 1,
+    "physical_readings_adjudicated": 0,
+    "expert_validated": 0,
+    "primary_image_locator_unavailable_cases": 1,
+    "metrological_interpretation_cases": 1
+  }
+}

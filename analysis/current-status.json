@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository_version": "3.0.15",
-  "checked": "2026-10-01",
+  "checked": "2026-10-03",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
   "scientific_results": {
@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "e609dcd169ecc0e9630e7d7db55a6ce996cdd88182e4b1262b7b59978b71adec"
+      "sha256": "41a84b663e432db7453b14b6eb2b1cb2c2d307652b063a8a9069fc431de65d7a"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "c398fa96f82f1b9fdef140bdbc9933f595c6bd0720fe81992ec9d1af4219f2e9"
+      "sha256": "b68c5e637d86dadcbd5e73493bd782f8e2b6b5ef9d057c0a7cdaba6f5482c5f1"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "a46af9f354a4e558dcbc7a8c81deeec6769a4950ce2f174d83e69f14defef11e"
+      "sha256": "fa800f482ced6e0a53c916e5608c74addc15f5627ab19cedab72d2027ef32e0b"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -115,9 +115,53 @@
     {
       "path": ".github/workflows/release-change-ledger.yml",
       "sha256": "acad59395f7ff8b4353bc6eea69dfec6d8e6b342e08df87617c897dcd27d8a1f"
+    },
+    {
+      "path": "analysis/pre-expert-source-audit.json",
+      "sha256": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de"
+    },
+    {
+      "path": "research/pre-expert-maximum.json",
+      "sha256": "d17447e756e5c27a06bdd2944f08d3461b1b4c2c95bf9a3e6d688fe3a00ce1bf"
+    },
+    {
+      "path": "research/linear-a-b-control-interface.json",
+      "sha256": "33400a357e5b3953b73d66f35e1674bb514b2f15ef4e02443ce83993ac222d33"
+    },
+    {
+      "path": "research/pre-expert-source-access.json",
+      "sha256": "d235ad6e444e664949a4d29ca7ebe43c148d8d8c7bd2ccc7f39a50251f8b6656"
+    },
+    {
+      "path": "scripts/build_pre_expert_audit.py",
+      "sha256": "889c90b3ae16afcd94b9f6e51dbdcd750f0e59138ae6fb58beee682190bc33f6"
+    },
+    {
+      "path": "scripts/test_pre_expert_audit.py",
+      "sha256": "2c359642c4a7434d96dd1e18ed5d15c8c9d11b7bd33ac131500d1cc622c425c3"
+    },
+    {
+      "path": "scripts/validate_pre_expert_audit.py",
+      "sha256": "52814f2dcdb3975ab0cab1fc02ca08f5a9dac171cfffecef1934550397408e72"
+    },
+    {
+      "path": "docs/PRE-EXPERT-HANDOFF.md",
+      "sha256": "e1fec2602ac053eda1492220212b40be9ff2a351f2efa702742a067acc645c89"
+    },
+    {
+      "path": "analysis/pre-expert-primary-collation.json",
+      "sha256": "97c299242a89b83abe37d63702f13b2d5bbdebf0566d0697face391ffd438703"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Adds a reproducible input-membership independence audit: 7 of 24 frozen cohort labels occur in v3; 17 are absent. The conditional statistical repair and the original-input identity gate are distinguished. No prospective outcomes are scored; 3.1 remains sealed."
+  "summary": "Adds a reproducible input-membership independence audit: 7 of 24 frozen cohort labels occur in v3; 17 are absent. The conditional statistical repair and the original-input identity gate are distinguished. No prospective outcomes are scored; 3.1 remains sealed.",
+  "pre_expert_handoff": {
+    "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
+    "source_audit": "analysis/pre-expert-source-audit.json",
+    "contract": "research/pre-expert-maximum.json",
+    "reviewer_guide": "docs/PRE-EXPERT-HANDOFF.md",
+    "source_records_committed": false,
+    "primary_collation": "analysis/pre-expert-primary-collation.json"
+  }
 }
