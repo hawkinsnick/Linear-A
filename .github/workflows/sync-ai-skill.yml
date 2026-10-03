@@ -19,6 +19,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Validate fleet admission contract
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python combined-ai-skill/scripts/validate_fleet_admission.py
   sync:
     needs: admission
     runs-on: ubuntu-latest
@@ -37,10 +41,6 @@ jobs:
         run: python ai-skill/scripts/validate_bundle.py
       - name: Validate Combined AI orchestration contract
         run: python combined-ai-skill/scripts/validate.py
-      - name: Validate fleet admission contract
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: python combined-ai-skill/scripts/validate_fleet_admission.py
       - name: Commit synchronized AI bundle
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
