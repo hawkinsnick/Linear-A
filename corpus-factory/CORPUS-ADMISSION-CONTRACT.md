@@ -42,3 +42,8 @@ A new repository may exist as a staging project before these gates pass, but it 
 ## Release rule
 
 No new corpus may be promoted to 1.0.0 until all four gates pass. A failure reopens the admission gate; it must not be waived merely to advance a version number.
+
+
+## Enforcement
+
+The master `Sync AI skill` workflow runs both the local orchestration validator and `combined-ai-skill/scripts/validate_fleet_admission.py`. The fleet validator inspects each registered repository's current `main` tree and fails closed when required licensing or AI-skill paths are absent.
