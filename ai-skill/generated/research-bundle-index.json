@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.3.1",
+  "skill_version": "0.3.1",
+  "source_commit": "ab079bc7ea669537b090effa99231960a88b22ec",
+  "generated_at_utc": "2026-10-03T01:02:56+00:00",
+  "canonical_repository": true,
+  "contract": {
+    "corpus_is_authoritative": true,
+    "missing_means_unknown": true,
+    "cross_corpus_equivalence_requires_explicit_evidence": true,
+    "preserve_uncertainty": true,
+    "preserve_source_independence": true,
+    "preserve_rights": true
+  },
+  "artifacts": [
+    {
+      "role": "current_status",
+      "path": "analysis/current-status.json",
+      "sha256": "c9c5df5142329472e3e1f9e45655dc633539c2c058e5de9005e8414165e7ff2a",
+      "bytes": 4980
+    },
+    {
+      "role": "claims",
+      "path": "release/CLAIM-REGISTRY.csv",
+      "sha256": "7efcaeae87e880f4dccbe8b47e2deaa2a14b9635fb5864ad0bd7ea915d29944a",
+      "bytes": 5496
+    },
+    {
+      "role": "rights_matrix",
+      "path": "DATA-LICENSE-MATRIX.md",
+      "sha256": "75313a21a5c970389e0b0dfa527b1d30b5de3193409e7bedbbbf0246e972a6f9",
+      "bytes": 2226
+    },
+    {
+      "role": "third_party",
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "b6141a617f164f8bc5877bc2afa8234e2d96e1376a07786ca64f2bcd25b2aa63",
+      "bytes": 1522
+    }
+  ]
+}
