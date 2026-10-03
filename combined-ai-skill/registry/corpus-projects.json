@@ -199,7 +199,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "0.3.1",
-      "current_gate": "PRE_EXPERT_MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; no verified sign annotations, transcriptions, transliterations, or translations yet.",
+      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; no verified sign annotations, transcriptions, transliterations, or translations yet.",
       "label": "Egyptian Hieroglyphic",
       "status": "deciphered comparative/control corpus; current repository layer is pre-annotation image acquisition",
       "individual_skill_path": "ai-skill/SKILL.md",
