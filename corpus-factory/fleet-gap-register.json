@@ -68,6 +68,27 @@
       "evidence_depth": "MEDIUM",
       "coverage_state": "203 UD sentences; 162 TM identifiers",
       "top_gap": "TM/edition reconciliation and primary epigraphic confirmation"
+    },
+    {
+      "repo": "Anatolian-Hieroglyphic",
+      "evidence_depth": "DISCOVERY_ONLY",
+      "coverage_state": "314 monumental discovery entries; 0 canonical admissions; non-monumental denominator unknown",
+      "top_gap": "authoritative CHLI/eDiAna record reconciliation and non-monumental discovery",
+      "status_source": "research/monumental-discovery-register.json"
+    },
+    {
+      "repo": "Archanes-Script",
+      "evidence_depth": "SOURCE_SCOPED",
+      "coverage_state": "16-object Decorte baseline; authority-specific signary and formula variants; partial object-face matrix",
+      "top_gap": "object-face occurrence reconciliation and later-authority deltas",
+      "status_source": "research/corpus-quality-audit.json"
+    },
+    {
+      "repo": "Aegean-anomalous",
+      "evidence_depth": "SOURCE_SCOPED",
+      "coverage_state": "Arkalochori and Malia anchors; attributed classification and counting disagreements; not one language or writing system",
+      "top_gap": "primary-source completion and neutral sign geometry",
+      "status_source": "research/pre-expert-gate-summary.json"
     }
   ],
   "required_capabilities": [
@@ -82,5 +103,15 @@
     "ai_authority_profile",
     "correction_history"
   ],
-  "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts."
+  "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts.",
+  "excluded_projects": [
+    {
+      "repo": "Egyptian-Hieroglyphic-Corpus",
+      "reason": "Independent Egyptian image/camera project; outside the language corpus fleet and Combined AI."
+    },
+    {
+      "repo": "LightroomIsSlow",
+      "reason": "Independent photography performance project; outside the language corpus fleet and Combined AI."
+    }
+  ]
 }

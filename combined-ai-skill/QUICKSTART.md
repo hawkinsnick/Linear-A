@@ -1,13 +1,13 @@
 # Combined Corpus Research AI — Researcher Quickstart
 
-This guide is for researchers who want to ask evidence-grounded questions without learning the repositories' internal structure.
+This guide explains the research workflow after setup. For downloads and upload instructions, begin with [Start here](START-HERE.md). You can start with one text file, without Git or Python.
 
 ## Five-minute start
 
-1. Obtain the `combined-ai-skill` folder and the AI-ready bundle(s) for the corpus projects you want to use.
-2. Add those files to your AI workspace or project. ChatGPT, Claude, Gemini and other capable systems can use the same core instructions; product-specific upload controls may differ.
-3. Tell the AI: **Use combined-ai-skill/SKILL.md as the governing orchestration instructions and each member's ai-skill/SKILL.md as its corpus-specific instructions.**
-4. Ask your research question normally.
+1. [Download the starter](downloads/README.md) and attach its text file to your AI conversation or project.
+2. Use the first-message prompt in [Start here](START-HERE.md#3-send-this-first-message) to confirm that the assistant can read it and identify relevant corpora.
+3. Choose a corpus from the [download directory](CORPUS-DOWNLOADS.md). Make its individual instructions, index, source-state and selected canonical evidence accessible. The starter and an index alone do not supply inscription evidence.
+4. Ask your research question normally. [Prompts](PROMPTS.md) cover source tracing, edition comparisons and reproducibility.
 5. For cross-corpus questions, require the AI to show the comparability check before interpreting similarities.
 
 A good first prompt is: **“Which registered corpus projects are relevant to my question, what evidence can each currently provide, and which comparisons are allowed, gated or blocked?”**

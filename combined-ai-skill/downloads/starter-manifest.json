@@ -1,0 +1,93 @@
+{
+  "format": "combined-corpus-research-starter-v1",
+  "starter_version": "1.0.0",
+  "master_skill_version": "1.2.0",
+  "registry_version": "1.5.0",
+  "member_count": 14,
+  "member_evidence_included": false,
+  "independent_review_granted": false,
+  "build_script_sha256": "b4788d5c30e6e4830b9b6362960a9997ad92fbfe8ec9dc9a723b6512d505ca95",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+      "bytes": 582
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+      "bytes": 444
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+      "bytes": 969
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+      "bytes": 2487
+    },
+    {
+      "path": "combined-ai-skill/CORPUS-DOWNLOADS.md",
+      "sha256": "42a7186f67996bd4f0c515edb424a1f6f898aa82abfbae9ce2d7c826616eb265",
+      "bytes": 4281
+    },
+    {
+      "path": "combined-ai-skill/PROMPTS.md",
+      "sha256": "6b16b849b39737766d4f5b26dc47fc0b3d02f90592fef22bb63dbb0ca6e5977c",
+      "bytes": 2695
+    },
+    {
+      "path": "combined-ai-skill/QUICKSTART.md",
+      "sha256": "714359b8b92e857f781d061738db0d45192b35ec3a4f73e27c700b4e1aa8667c",
+      "bytes": 4889
+    },
+    {
+      "path": "combined-ai-skill/README.md",
+      "sha256": "7da227c2c8f2adefc56b7ac50d2a0ff94fbc38d399f2ad24af9e80c8bc9c5abc",
+      "bytes": 4125
+    },
+    {
+      "path": "combined-ai-skill/SKILL.md",
+      "sha256": "1878a028c5e8b8b45895cdb1334b1d02e51b552cdfaa8a67f4d0bb11d1c8635e",
+      "bytes": 5378
+    },
+    {
+      "path": "combined-ai-skill/START-HERE.md",
+      "sha256": "66c36ab099f051e54b17952ba88789df9e373c41845b66e1ad7551533557b91e",
+      "bytes": 7710
+    },
+    {
+      "path": "combined-ai-skill/manifest.json",
+      "sha256": "3bdf79702cf5ee09ff44638d357fa478d8767d123d7d0990f6ac4b834ee1228b",
+      "bytes": 1418
+    },
+    {
+      "path": "combined-ai-skill/references/comparability-matrix.md",
+      "sha256": "e7ed83a62d4728d4f183c306ce57ace2a58bf682cba85cb4a98979222c234f30",
+      "bytes": 1457
+    },
+    {
+      "path": "combined-ai-skill/references/fleet-benchmark.md",
+      "sha256": "7e230c04c58b6b318186ed5b9e48a3ff30f78ac2ab0d4ac66654b1ba0a93e5b7",
+      "bytes": 2373
+    },
+    {
+      "path": "combined-ai-skill/registry/corpus-projects.json",
+      "sha256": "ac0a698322a385b97ff2f1de0c93b1e4177924dbb1eaec4e8d83d2b8b68d63bf",
+      "bytes": 11630
+    },
+    {
+      "path": "corpus-factory/fleet-gap-register.json",
+      "sha256": "e8c5517c64467755b082203c7a2e6d47031e6d8cb77b2e2c2fa323a231491385",
+      "bytes": 4520
+    },
+    {
+      "path": "corpus-factory/schemas/benchmark-status.schema.json",
+      "sha256": "d882649cd49be376f6c1d7bf1890519f4ba993611aa42c99ab5819a9e7f17b8d",
+      "bytes": 1221
+    }
+  ],
+  "snapshot_sha256": "a5e03e59559d00152d2f560b58b202103a94c7053389813f2dcd76ec3fd31d7c"
+}
