@@ -67,3 +67,7 @@ A new corpus is not fleet-integrated merely because a repository exists. It must
 4. structural plus live cross-repository admission validation.
 
 No new corpus is promoted to 1.0.0 before all four gates pass. The live admission validator checks the current `main` tree of every registered repository rather than trusting registry declarations alone.
+
+## New Anatolian reference corpora
+
+Lydian, Sidetic and Pisidian are now routed through their individual corpus skills. Their initial releases provide attributed eDiAna digital source records, not independently collated epigraphic editions. Use each native status file for document/line counts and unresolved identity issues. The shared upstream source remains a dependency, and its CC BY-SA rights remain separate from project-original noncommercial terms.

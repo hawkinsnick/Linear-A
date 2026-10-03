@@ -21,6 +21,9 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
 | Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
 | Egyptian Hieroglyphic | [Open](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus) | [Download](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/blob/main/ai-skill/SKILL.md) |
+| Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
+| Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
+| Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 

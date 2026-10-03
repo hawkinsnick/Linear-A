@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "benchmark": "Linear-A governance/reproducibility parity",
-  "checked": "2026-10-02",
+  "checked": "2026-10-03",
   "members": [
     {
       "repo": "Linear-A",
@@ -96,6 +96,27 @@
       "coverage_state": "25 objects / 32 rights-verified museum images; individual AI skill + master membership complete; 0 verified sign annotations/readings",
       "top_gap": "source-checked sign-region annotation and authoritative reusable reading/sign-list concordance layer",
       "status_source": "research/pre-expert-maximum.json"
+    },
+    {
+      "repo": "Lydian",
+      "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
+      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery; Lydian catalog label collision for source IDs 0/22/23 remains unresolved",
+      "status_source": "analysis/current-status.json"
+    },
+    {
+      "repo": "Sidetic",
+      "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
+      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery",
+      "status_source": "analysis/current-status.json"
+    },
+    {
+      "repo": "Pisidian",
+      "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
+      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery",
+      "status_source": "analysis/current-status.json"
     }
   ],
   "required_capabilities": [
