@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.9.0",
+  "registry_version": "1.9.1",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -443,7 +443,8 @@
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.1"
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -477,7 +478,8 @@
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.0"
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -511,7 +513,8 @@
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.0"
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json"
     }
   ],
   "corpus_factory": {

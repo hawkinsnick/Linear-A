@@ -1,8 +1,8 @@
 {
   "format": "combined-corpus-research-starter-v1",
   "starter_version": "1.0.0",
-  "master_skill_version": "1.5.0",
-  "registry_version": "1.9.0",
+  "master_skill_version": "1.5.1",
+  "registry_version": "1.9.1",
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
@@ -35,8 +35,8 @@
     },
     {
       "path": "combined-ai-skill/EXPERT-REVIEW.md",
-      "sha256": "923e86d344f8bd761e0e051d0c5fd798b45fa591bb843eda3a7aa8352b78c0a4",
-      "bytes": 2972
+      "sha256": "1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878",
+      "bytes": 4219
     },
     {
       "path": "combined-ai-skill/PROMPTS.md",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "6f65046d2394f70a2d4550e59178cfac8b1106865019489253827990368ab56c",
-      "bytes": 7981
+      "sha256": "64af8be8c013d2e64a12186af402c25fc8131605d8f86d85b9e60fbe5688b807",
+      "bytes": 8616
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -65,7 +65,7 @@
     },
     {
       "path": "combined-ai-skill/manifest.json",
-      "sha256": "1e0b69520c8f1a60dc274ce82a0ce7e396e57d5ccae1f7519388623400496747",
+      "sha256": "91bffa7cb945470003a5fd20d675304ad9061138cce4a1028c72af3893c13213",
       "bytes": 1507
     },
     {
@@ -80,13 +80,13 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "4642a6099ee7809fe21a6627a362f819014a60f2f2cfc77f935704399f14ff85",
-      "bytes": 24857
+      "sha256": "f525a6b22406705724cd120e9afd97b588600d8dcb057e225dd3ef614661d0f1",
+      "bytes": 25046
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "3894a3a5a653dd0b93cbd85072d02b8357f23cc821c9e797061fcdf1eda9903a",
-      "bytes": 7872
+      "sha256": "4ff8f6bd16dab94707d5273d6dc2a4a1bd325531a5e2258851b9122b2290c5f9",
+      "bytes": 8229
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "d1d3d8b744c02b407112f253c3930dc3ccfdb1bbbb85ee2b784b7e38d04bb906"
+  "snapshot_sha256": "11170cc50b8888730584cac2acee46406bcf26ea9f2b963d3f5b654e060cbe40"
 }

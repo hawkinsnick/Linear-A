@@ -1,7 +1,7 @@
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.5.0
+version: 1.5.1
 ---
 
 # Combined Corpus Research AI — 1.4
@@ -81,3 +81,7 @@ Read `EXPERT-REVIEW.md` when preparing specialist validation. For members exposi
 Read each member's `analysis/pre-expert-source-audit.json`, `docs/PRE-EXPERT-HANDOFF.md`, and `research/linear-a-b-control-interface.json`. Local materialization is distinct from public record admission. Source-record counts are not physical-object counts; source-defined groups are not adjudicated linguistic words. Open source-collation or aligned-gold gates prevent claims of a completed pre-expert ceiling. Continue machine/source work until the native contract records a supported terminal disposition.
 
 For corpus-development work, apply `references/pre-expert-standing-order.md`.
+
+## Lydian, Sidetic and Pisidian source work
+
+Read each member’s `research/source-worklist.json` before preparing an exhaustive handoff. It accounts for every frozen record and citation while preserving unresolved edition joins. Consult linked source checks for precise locators and attributed competing readings. Inscription numbers may differ between editions; matching numbers alone do not establish identity. Museum inventory references in a publication are dated source assertions until independently reconciled. Acquired PDFs and targeted checks do not establish complete collation, redistribution permission or expert review.

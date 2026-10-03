@@ -8,7 +8,7 @@ tests=json.loads((R/"tests"/"adversarial-cases.json").read_text())
 manifest=json.loads((R/"manifest.json").read_text())
 skill=(R/"SKILL.md").read_text()
 members=reg.get("members",[])
-if reg.get("registry_version")!="1.9.0": errors.append("registry version must be 1.9.0")
+if reg.get("registry_version")!="1.9.1": errors.append("registry version must be 1.9.1")
 if len(members)!=manifest.get("member_count"): errors.append("registry and manifest member counts differ")
 repos=[m.get("repository") for m in members]
 if len(repos)!=len(set(repos)): errors.append("duplicate repository in registry")
@@ -30,7 +30,7 @@ for member in pre:
         errors.append("pre-expert member missing explicit current gate: "+str(member.get("repository")))
 for member in members:
     if member.get("repository") in {"hawkinsnick/Lydian","hawkinsnick/Sidetic","hawkinsnick/Pisidian"}:
-        for key in ["review_directory_path","review_manifest_path","review_packets_path","source_checks_path","review_validator_path"]:
+        for key in ["review_directory_path","review_manifest_path","review_packets_path","source_checks_path","source_worklist_path","review_validator_path"]:
             if not member.get(key): errors.append("missing expert handoff "+key)
 cases=tests.get("cases",[])
 ids=[c.get("id") for c in cases]

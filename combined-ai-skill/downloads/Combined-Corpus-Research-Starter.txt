@@ -1,8 +1,8 @@
 COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
-Master instruction version: 1.5.0
+Master instruction version: 1.5.1
 Registered corpus projects: 18
-Instruction snapshot SHA-256: d1d3d8b744c02b407112f253c3930dc3ccfdb1bbbb85ee2b784b7e38d04bb906
+Instruction snapshot SHA-256: 11170cc50b8888730584cac2acee46406bcf26ea9f2b963d3f5b654e060cbe40
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,12 +141,12 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 6f65046d2394f70a2d4550e59178cfac8b1106865019489253827990368ab56c
+SHA-256: 64af8be8c013d2e64a12186af402c25fc8131605d8f86d85b9e60fbe5688b807
 
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.5.0
+version: 1.5.1
 ---
 
 # Combined Corpus Research AI — 1.4
@@ -227,10 +227,14 @@ Read each member's `analysis/pre-expert-source-audit.json`, `docs/PRE-EXPERT-HAN
 
 For corpus-development work, apply `references/pre-expert-standing-order.md`.
 
+## Lydian, Sidetic and Pisidian source work
+
+Read each member’s `research/source-worklist.json` before preparing an exhaustive handoff. It accounts for every frozen record and citation while preserving unresolved edition joins. Consult linked source checks for precise locators and attributed competing readings. Inscription numbers may differ between editions; matching numbers alone do not establish identity. Museum inventory references in a publication are dated source assertions until independently reconciled. Acquired PDFs and targeted checks do not establish complete collation, redistribution permission or expert review.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
-SHA-256: 923e86d344f8bd761e0e051d0c5fd798b45fa591bb843eda3a7aa8352b78c0a4
+SHA-256: 1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878
 
 # Hand the corpus collection to expert reviewers
 
@@ -255,6 +259,10 @@ The expert records object identity, reading, uncertainty, classification and red
 For a collection handoff, save the repository commit or release, handoff manifest fingerprint and chosen record hashes for each language. A review against an older fingerprint must be rechecked against any changed evidence. Keep the review submission separate from a later documented correction or admission.
 
 Before describing the collection as ready for exhaustive expert validation, complete or explicitly disposition the remaining acquisition and collation tasks in each member's source-access log and pre-expert boundary file. The existing packets can support targeted review now; they do not imply that every primary edition has been acquired.
+
+## Follow the remaining source work
+
+Each member now has a [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/research/source-worklist.json), [Sidetic](https://github.com/hawkinsnick/Sidetic/blob/main/research/source-worklist.json) or [Pisidian](https://github.com/hawkinsnick/Pisidian/blob/main/research/source-worklist.json) worklist covering every captured record and citation. These lists separate targeted inspection from full collation. New checks include historical Lydian numbering differences, the Greek side of Sidetic S6, and attributed 2023 revisions of Pisidian N24/N25. Pisidian also accounts for all nine entries in that publication, with four provisional matches and five unresolved entries; Ramsay’s entries and Adiego2012’s numbering differences are linked for review; Ramsay no.17 must not be equated with modern N17 by number alone. Adiego2012’s N37 segmentation and classification limits also remain attributed proposals. The Sidetic Abydos register tracks two candidates across two publications, retaining competing first-graffito readings without increasing the frozen snapshot count. Open the record pages to compare the evidence and unresolved questions; no corrected reading has been admitted automatically.
 
 === END SOURCE FILE ===
 
@@ -295,11 +303,11 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 4642a6099ee7809fe21a6627a362f819014a60f2f2cfc77f935704399f14ff85
+SHA-256: f525a6b22406705724cd120e9afd97b588600d8dcb057e225dd3ef614661d0f1
 
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.9.0",
+  "registry_version": "1.9.1",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -742,7 +750,8 @@ SHA-256: 4642a6099ee7809fe21a6627a362f819014a60f2f2cfc77f935704399f14ff85
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.1"
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -776,7 +785,8 @@ SHA-256: 4642a6099ee7809fe21a6627a362f819014a60f2f2cfc77f935704399f14ff85
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.0"
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -810,7 +820,8 @@ SHA-256: 4642a6099ee7809fe21a6627a362f819014a60f2f2cfc77f935704399f14ff85
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.0"
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json"
     }
   ],
   "corpus_factory": {
@@ -881,7 +892,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 3894a3a5a653dd0b93cbd85072d02b8357f23cc821c9e797061fcdf1eda9903a
+SHA-256: 4ff8f6bd16dab94707d5273d6dc2a4a1bd325531a5e2258851b9122b2290c5f9
 
 {
   "schema_version": "1.0",
@@ -987,22 +998,22 @@ SHA-256: 3894a3a5a653dd0b93cbd85072d02b8357f23cc821c9e797061fcdf1eda9903a
     {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available",
-      "top_gap": "complete primary-edition acquisition and collation, object/inventory reconciliation and scoped independent review",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
       "status_source": "analysis/current-status.json"
     },
     {
       "repo": "Sidetic",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available",
-      "top_gap": "complete primary-edition acquisition and collation, object/inventory reconciliation and scoped independent review",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
       "status_source": "analysis/current-status.json"
     },
     {
       "repo": "Pisidian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available",
-      "top_gap": "complete primary-edition acquisition and collation, object/inventory reconciliation and scoped independent review",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
       "status_source": "analysis/current-status.json"
     }
   ],
@@ -1178,11 +1189,11 @@ This workflow is intentionally conservative. A scientifically meaningful BLOCKED
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/manifest.json ===
-SHA-256: 1e0b69520c8f1a60dc274ce82a0ce7e396e57d5ccae1f7519388623400496747
+SHA-256: 91bffa7cb945470003a5fd20d675304ad9061138cce4a1028c72af3893c13213
 
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",
