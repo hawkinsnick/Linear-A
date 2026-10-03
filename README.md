@@ -243,3 +243,7 @@ Download the research workbench ZIP, extract it, and open [workbench/evidence.ht
 ### Research workbench 1.1
 
 Download the [research workbench 1.1 package](https://github.com/hawkinsnick/Linear-A/releases/tag/research-workbench-v1.1.0), extract it, and open `workbench/evidence.html`. It adds snapshot-bound inspection collections and includes the immutable release correction tracker. The Disc explorer also presents readable scenario comparisons. This engineering release grants no scientific acceptance.
+
+## Pre-expert validation handoff
+
+See [the handoff](docs/PRE-EXPERT-HANDOFF.md), [source audit](analysis/pre-expert-source-audit.json) and [remaining gates](research/pre-expert-maximum.json). Authenticated source records are materialized locally with retained rights; aggregate engineering checks do not establish expert validation or open scientific gates.

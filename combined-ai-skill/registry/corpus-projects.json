@@ -26,7 +26,11 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802-entry local source layer and audit reproduced. 13 case entries have identified primary pages inspected, HT 17 edition reading 38 checked; expert physical adjudication and SY Zb 7 source access remain.",
+      "source_audit_path": "analysis/pre-expert-source-audit.json",
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -77,7 +81,11 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim.",
+      "source_audit_path": "analysis/pre-expert-source-audit.json",
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglpyhs",
