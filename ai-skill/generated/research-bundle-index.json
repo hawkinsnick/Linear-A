@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c1cd440aa59342265481c90afa37de45af586e56",
-  "generated_at_utc": "2026-10-03T20:07:45+00:00",
+  "source_commit": "ccc54182fc9efcb26eb6b7d7b89b930c67447758",
+  "generated_at_utc": "2026-10-03T20:11:55+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -46,7 +46,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "4b1e1aeca9c3a132eb9738fadbea601751075a4ae4390b4d1a85e9a37182cd70",
+      "sha256": "98afe2b46c06df95eca468ab1a3e278b7d99b2e29ea9e8d5b96a1fce28d18ca1",
       "bytes": 6691
     },
     {
