@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 91063aa00b4cbd472e8c6ba84d6825612100d284f8533a8c0e4f86de74875a63
+Instruction snapshot SHA-256: 7bd1ddee6ebb56972a67db37815c877a975acb765078db2c26b7039ed2a359d1
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: dfd43a489c9c332cb02e415c521f9e4552007d8d1b9b070a1f6472241b0a1510
+SHA-256: b812591798fe40350a5fea5849724bfe26b53be8953d5decb63468ee51110e65
 
 {
   "schema_version": "1.0.0",
@@ -745,7 +745,7 @@ SHA-256: dfd43a489c9c332cb02e415c521f9e4552007d8d1b9b070a1f6472241b0a1510
         "checked_on": "2026-10-03",
         "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.1."
       },
-      "review_directory_path": "review/README.md",
+      "review_directory_path": "review",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
@@ -780,7 +780,7 @@ SHA-256: dfd43a489c9c332cb02e415c521f9e4552007d8d1b9b070a1f6472241b0a1510
         "checked_on": "2026-10-03",
         "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
       },
-      "review_directory_path": "review/README.md",
+      "review_directory_path": "review",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
@@ -815,7 +815,7 @@ SHA-256: dfd43a489c9c332cb02e415c521f9e4552007d8d1b9b070a1f6472241b0a1510
         "checked_on": "2026-10-03",
         "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
       },
-      "review_directory_path": "review/README.md",
+      "review_directory_path": "review",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
@@ -1189,7 +1189,7 @@ This workflow is intentionally conservative. A scientifically meaningful BLOCKED
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/manifest.json ===
-SHA-256: 7ae405f5a9653f3fb2c93ee695c70539946891b1b118bdec1d53c395e4ed6510
+SHA-256: 9519861e3d581554296b8ca2bfd67357fb684a182e8c2cd6b1f7c96a132a85e8
 
 {
   "name": "Combined Corpus Research AI",
@@ -1203,7 +1203,7 @@ SHA-256: 7ae405f5a9653f3fb2c93ee695c70539946891b1b118bdec1d53c395e4ed6510
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
   "member_count": 18,
-  "expansion_policy": "New corpus projects must pass fleet admission before fleet-integrated status: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and live validation.",
+  "expansion_policy": "New corpus projects must pass fleet admission: component-specific licensing architecture with upstream rights preserved, an individual corpus AI skill/shared research contract, explicit master registry membership, and live validation of required paths.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",
