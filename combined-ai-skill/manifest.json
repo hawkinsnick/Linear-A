@@ -1,6 +1,6 @@
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",
@@ -10,7 +10,7 @@
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
   "member_count": 15,
-  "expansion_policy": "New corpus projects must pass fleet admission: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and validation.",
+  "expansion_policy": "New corpus projects are admitted only after component-specific licensing, an individual corpus AI skill, validation, and master registry integration.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",
