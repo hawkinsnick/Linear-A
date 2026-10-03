@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities, 5 critical readings on 2 source-checked objects; structural/comparative claims remain blocked"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities and existing canonical source pilot remain, while INSCRIBE now reopens direct CHIC-linked object/transnumeration acquisition for #202/#252/#313/#315/#328 pending canonical ingestion."
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -75,7 +75,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; primary-edition/source reconciliation remains before human transcription and sign adjudication"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; conventional 14-label corpus genealogy now institutionally grounded as Dunand 1945 ten + 1978 four, with h/j possible same-stela caution; 15-count discrepancy and verified sequences remain open."
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -114,7 +114,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; Dreros/Praisos/Azoria source acquisition precedes human reading/language adjudication; analytical admission remains zero",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; Dreros 2 primary BCH inspected and Dreros 1 now has a near-primary Lejeune critical witness reproducing Van Effenterre layout/uncertainties; original facsimile, Praisos collation and Azoria discovery remain.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json"
     },
     {
@@ -141,7 +141,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 203 licensed reference sentences / 162 TM identifiers remain non-canonical pending source-level reconciliation",
+      "current_gate": "PRE_EXPERT_MAXIMUM / DISCOVERY_FRONTIER_REOPENED: 162 UD-linked TM IDs are a seed layer against TM's 536-attestation Phrygian benchmark; broader identity enumeration, edition lineage and source-level reconciliation remain.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json"
     },
     {
@@ -151,7 +151,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: 314-entry monumental discovery list complete; eDiAna stable-ID Hieroglyphic identity spine now confirms non-monumental enumeration route; full ID harvest/classification and CHLI reconciliation remain.",
+      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: public eDiAna Hieroglyphic denominator is now 287 digital text entries with explicit portable/non-monumental subset; CHLI reconciliation, classification and authority-supported grouped-siglum decomposition remain.",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -167,7 +167,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Decorte baseline plus occurrence/diachronic model and Valerio 2024 object-face CHIC crosswalk; CMS and later-authority deltas continue.",
+      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: 16-object Decorte baseline; AS#01-04 subset now has direct INSCRIBE museum/CHIC reconciliation, with AS#04 Bone/Ivory authority disagreement preserved; remaining object/face and later-authority deltas continue.",
       "label": "Archanes Script",
       "status": "disputed-boundary early Cretan writing",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -183,7 +183,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Arkalochori conservation packet mature; Malia blocker narrowed to CHIC #328 pp.314-315; 14/15/16 segmentation history remains unresolved pending direct catalogue inspection.",
+      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Malia CHIC #328 now has direct INSCRIBE object metadata and 16-slot/13-distinct transnumeration; historical Chapouthier 14 and later 15 states remain for drawing-level segmentation reconciliation; Arkalochori geometry remains.",
       "label": "Aegean Anomalous",
       "status": "neutral quarantine/comparison",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -199,7 +199,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "0.3.1",
-      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; no verified sign annotations, transcriptions, transliterations, or translations yet.",
+      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; individual AI skill and master integration complete; no verified sign annotations, transcriptions, transliterations or translations yet.",
       "label": "Egyptian Hieroglyphic",
       "status": "deciphered comparative/control corpus; current repository layer is pre-annotation image acquisition",
       "individual_skill_path": "ai-skill/SKILL.md",
