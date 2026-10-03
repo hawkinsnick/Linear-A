@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.4.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 6b3d93f3cab9f43f8165b41f90b422302daf063736405560010c5aadbaa61143
+Instruction snapshot SHA-256: 0941c1932d17ae369b89c42009227cd47bcac9105ccf5b325d0504e356dca1f6
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -137,7 +137,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 0c05b55845d40bc19ee7b9e510f19050e3e8bc79cc497ea689b7b173ce83d2f9
+SHA-256: d3637a6c81e47313c3bc2dd279dcde46f84f25a264793383ff7d77dd7d9d7b41
 
 ---
 name: combined-corpus-research
@@ -213,6 +213,8 @@ Anatolian Hieroglyphic is a comparative control, Archanes is an early-Cretan dis
 
 ## Lydian, Sidetic and Pisidian reference routing
 Treat these new members as attributed eDiAna digital reference layers until their native gates admit primary-edition/object verification. Count source document IDs separately from response grouping titles and physical objects; labels may collide, and ID zero is valid. Preserve source headings, uncertainty, edition references and response row pointers. Source grammar and language assignments remain source assertions. The source snapshots and derived reference records retain CC BY-SA 4.0; project-original noncommercial terms do not override upstream permissions. Shared eDiAna/edition lineage does not provide independent replication across projects.
+
+For Lydian, Sidetic and Pisidian, consult `analysis/record-admission.json`, `research/admission-policy.json`, `research/edition-dependencies.json` and `research/source-issues.json` before analytical claims. Use `analysis/benchmark-status.json` for scoped coverage and `research/source-frontier.json` for later publications. Bibliography searches are candidates; missing row citations must remain visible. Syntactic uncertainty flags do not adjudicate damaged signs. Snapshot hash binding and regression tests establish engineering integrity, not independent epigraphic verification.
 
 === END SOURCE FILE ===
 
