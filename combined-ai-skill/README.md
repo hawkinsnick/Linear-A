@@ -1,4 +1,4 @@
-# Combined Corpus Research AI 1.0
+# Combined Corpus Research AI
 
 A vendor-neutral, evidence-first research orchestrator for the registered **corpus projects**.
 
@@ -6,11 +6,17 @@ It does not merge the corpora. It routes a question to each project's own AI ski
 
 ## Start here
 
-If you are a researcher rather than a developer, read [QUICKSTART.md](QUICKSTART.md). You do not need Git, Python, JSON or prompt engineering to ask research questions.
+**[Start here: download, upload, and ask your first question](START-HERE.md)**
+
+[Download the starter](downloads/README.md) · [Choose a corpus](CORPUS-DOWNLOADS.md) · [Research prompts](PROMPTS.md)
+
+One text file supplies the master instructions and corpus directory. Add the relevant member evidence for research findings. You do not need Git or Python to get started. The [research workflow](QUICKSTART.md) explains how to trace evidence and record reproducible results.
 
 For the governing research behavior, see [SKILL.md](SKILL.md). For the active projects, see [registry/corpus-projects.json](registry/corpus-projects.json). For cross-corpus limits, see [references/comparability-matrix.md](references/comparability-matrix.md).
 
 ## What to give your AI
+
+The beginner route is the [starter text file](downloads/README.md), followed by the member files selected for your question. Confirm what the assistant can read before relying on a result. Uploading context does not connect the assistant automatically to GitHub or install a plugin.
 
 Provide:
 1. this `combined-ai-skill` directory;
@@ -47,3 +53,5 @@ The architecture enforces corpus-native evidence authority, explicit cross-corpu
 ## Validation
 
 Run `python combined-ai-skill/scripts/validate.py` from the repository root for structural validation. Individual projects must additionally pass their own AI bundle validators. A Combined structural PASS never substitutes for member validation or scholarly review.
+
+Maintainers can rebuild the starter with `python combined-ai-skill/scripts/build_starter.py --write` and verify it with `--check`. The starter workflow also publishes an immutable ZIP for each instruction snapshot; it does not package member corpus data.

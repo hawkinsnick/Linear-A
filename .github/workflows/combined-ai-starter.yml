@@ -1,0 +1,98 @@
+name: Researcher starter downloads
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'combined-ai-skill/**'
+      - '!combined-ai-skill/downloads/**'
+      - 'corpus-factory/fleet-gap-register.json'
+      - 'corpus-factory/schemas/benchmark-status.schema.json'
+      - 'LICENSE'
+      - 'LICENSE-CODE'
+      - 'LICENSE-CONTENT.md'
+      - 'LICENSING.md'
+      - '.github/workflows/combined-ai-starter.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'combined-ai-skill/**'
+      - 'corpus-factory/fleet-gap-register.json'
+      - 'corpus-factory/schemas/benchmark-status.schema.json'
+      - 'LICENSE'
+      - 'LICENSE-CODE'
+      - 'LICENSE-CONTENT.md'
+      - 'LICENSING.md'
+      - '.github/workflows/combined-ai-starter.yml'
+  workflow_dispatch:
+concurrency:
+  group: researcher-starter-${{ github.ref }}
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python combined-ai-skill/scripts/validate.py
+      - name: Build starter archive
+        run: python combined-ai-skill/scripts/build_starter.py --write --zip-output "${{ runner.temp }}/Combined-Corpus-Research-Starter.zip"
+      - run: python -m unittest discover -s combined-ai-skill/tests -p 'test_starter.py' -v
+      - name: Check committed downloads on pull requests
+        if: github.event_name == 'pull_request'
+        run: git diff --exit-code -- combined-ai-skill/downloads combined-ai-skill/CORPUS-DOWNLOADS.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: combined-corpus-research-starter
+          path: |
+            ${{ runner.temp }}/Combined-Corpus-Research-Starter.zip
+            ${{ runner.temp }}/Combined-Corpus-Research-Starter.zip.sha256
+  publish:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh current text download
+        run: |
+          python combined-ai-skill/scripts/build_starter.py --write --check
+          if ! git diff --quiet -- combined-ai-skill/downloads combined-ai-skill/CORPUS-DOWNLOADS.md; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add combined-ai-skill/downloads combined-ai-skill/CORPUS-DOWNLOADS.md
+            git commit -m 'Refresh researcher starter downloads'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/download-artifact@v4
+        with:
+          name: combined-corpus-research-starter
+          path: starter-release
+      - name: Publish immutable instruction snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag=$(python -c "import json,zipfile; z=zipfile.ZipFile('starter-release/Combined-Corpus-Research-Starter.zip'); print('combined-ai-starter-'+json.loads(z.read('starter-manifest.json'))['snapshot_sha256'][:16])")
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo 'This instruction snapshot is already published.'
+          else
+            python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          with zipfile.ZipFile('starter-release/Combined-Corpus-Research-Starter.zip') as z:
+              Path('starter-release/Combined-Corpus-Research-Starter.txt').write_bytes(z.read('Combined-Corpus-Research-Starter.txt'))
+          Path('starter-release/NOTES.md').write_text('Researcher starter: download the text file or ZIP, attach the text file to your AI, and follow START-HERE.md.\n\nThis package contains master instructions and directory metadata only. Member corpus evidence and source-specific rights remain separate. The package manifest fingerprints its inputs; no scientific review is granted.\n', encoding='utf-8')
+          PY
+            gh release create "$tag" starter-release/Combined-Corpus-Research-Starter.zip starter-release/Combined-Corpus-Research-Starter.zip.sha256 starter-release/Combined-Corpus-Research-Starter.txt --target "$GITHUB_SHA" --latest=false --title 'Combined Corpus Research AI — researcher starter' --notes-file starter-release/NOTES.md
+          fi

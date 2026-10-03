@@ -26,7 +26,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 9 source-checked occurrences on 3/21 rich records; frequency and cross-script phonetic claims remain blocked",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; partial occurrence coverage is tracked in the native current-status and occurrence-coverage artifacts; frequency and cross-script phonetic claims remain blocked",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json"
     },
     {

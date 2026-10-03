@@ -4,10 +4,14 @@ on:
     branches: [main, corpus-factory-v1]
     paths:
       - 'corpus-factory/**'
+      - 'combined-ai-skill/registry/corpus-projects.json'
+      - '.github/workflows/validate-corpus-factory.yml'
   pull_request:
     branches: [main]
     paths:
       - 'corpus-factory/**'
+      - 'combined-ai-skill/registry/corpus-projects.json'
+      - '.github/workflows/validate-corpus-factory.yml'
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -17,3 +21,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python corpus-factory/validate_fleet.py
+      - run: python corpus-factory/test_validate_fleet.py

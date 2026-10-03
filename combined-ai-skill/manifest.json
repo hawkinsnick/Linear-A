@@ -24,5 +24,8 @@
   "quickstart": "combined-ai-skill/QUICKSTART.md",
   "researcher_readme": "combined-ai-skill/README.md",
   "required_member_skill_version": "0.3.1",
-  "ci_validation": ".github/workflows/sync-ai-skill.yml"
+  "ci_validation": ".github/workflows/sync-ai-skill.yml",
+  "researcher_entrypoint": "combined-ai-skill/START-HERE.md",
+  "starter_download": "combined-ai-skill/downloads/Combined-Corpus-Research-Starter.txt",
+  "starter_builder": "combined-ai-skill/scripts/build_starter.py"
 }

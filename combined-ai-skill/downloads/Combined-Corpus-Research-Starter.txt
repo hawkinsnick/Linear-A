@@ -1,0 +1,895 @@
+COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
+Starter format: 1.0.0
+Master instruction version: 1.2.0
+Registered corpus projects: 14
+Instruction snapshot SHA-256: a5e03e59559d00152d2f560b58b202103a94c7053389813f2dcd76ec3fd31d7c
+
+Scope: instructions and directory only. Member corpus evidence is supplied separately.
+AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
+Directory summaries are snapshot routing metadata, not current independently checked inscription facts.
+If a required member file cannot be accessed, identify what is missing and help select the next files.
+
+=== SOURCE FILE: combined-ai-skill/START-HERE.md ===
+SHA-256: 66c36ab099f051e54b17952ba88789df9e373c41845b66e1ad7551533557b91e
+
+# Start with the Combined Corpus Research AI
+
+Use your usual AI assistant to explore the corpus collection, find relevant evidence, and prepare reproducible research. Start with one file. Add the corpus evidence relevant to your question when you are ready.
+
+## 1. Download the starter
+
+**[Download the starter text file](https://github.com/hawkinsnick/Linear-A/raw/refs/heads/main/combined-ai-skill/downloads/Combined-Corpus-Research-Starter.txt)**
+
+Save it as `Combined-Corpus-Research-Starter.txt`. You do not need to open or edit it. If your browser displays the text instead of downloading it, use **Save page as** or **Save link as**. On a phone or tablet, use the browser's share/save control to save it to your files.
+
+Prefer a folder containing the instructions and their original supporting files? [Download the ZIP edition](downloads/README.md), then extract it. Windows: right-click the ZIP and choose **Extract All**. macOS: double-click the ZIP. On iPhone or iPad, tap the ZIP in Files. The starter text file is inside the extracted folder.
+
+The starter contains the master instructions, corpus directory, comparison rules, prompts, and licensing notices. Inscription records, images, member corpus evidence, and an AI account are supplied separately.
+
+## 2. Add the file to your AI
+
+Open a conversation in an AI assistant that can read uploaded text files. Use its file attachment or upload control to add `Combined-Corpus-Research-Starter.txt`. Upload the extracted text file rather than the ZIP unless your assistant explicitly supports opening archives.
+
+For ongoing work, you can keep the file and your related research sources in a project. In ChatGPT, project sources and instructions are shared across that project's chats; start your research conversation inside that project. You can also begin in an ordinary chat. File controls and availability vary by product and account.
+
+Uploading supplies research instructions as context. Follow the activation prompt below so the assistant knows how you want to use them.
+
+## 3. Send this first message
+
+Copy the following message and replace the words in square brackets with your topic:
+
+> Use the uploaded Combined-Corpus-Research-Starter.txt as the research instructions for this conversation, within your platform's rules. First confirm which uploaded files you can actually read, the starter snapshot, and how many corpus projects are registered. I am researching [your topic]. Which projects are relevant, what evidence files would we need, and what is one useful first question? Distinguish the starter directory from evidence you have actually inspected. Do not invent readings or citations.
+
+Expect a short orientation, the relevant corpus names, and a clear explanation of any evidence that still needs to be supplied. If the assistant reports inscription findings immediately without identifying accessible evidence, ask it to complete the access check first.
+
+## 4. Add evidence for your question
+
+Choose the relevant corpus in the [corpus download directory](CORPUS-DOWNLOADS.md). Start with one corpus; add others when your question requires comparison.
+
+**If your assistant can read GitHub files:** give it the corpus repository link and ask it to read the individual research instructions, authority profile, generated bundle index, and source-state file. It should report the files and version it successfully accessed before using the corpus. A link alone does not establish access.
+
+**If your assistant needs uploads:** download the corpus ZIP from the directory and extract it. Open its `ai-skill` folder. Upload `SKILL.md`, `references/authority-profile.json`, `generated/research-bundle-index.json`, and `generated/source-state.json` when present. Then ask:
+
+> I want to investigate [your question]. Read the uploaded corpus instructions and index. Tell me exactly which evidence files to upload next, using their folder paths, and what each will let us examine. Report any missing instructions or source-state files. Do not present index entries as inscription evidence.
+
+The assistant should select files for your question, rather than ask you to upload the whole collection. The index is a list of evidence files; those files must also be accessible. If an upload control does not accept a file type, ask which supported text or data export preserves the fields needed for the task. Do not silently discard uncertainty, source identifiers, or licensing information to make an upload work.
+
+Once the evidence is available, ask your question normally. [Research prompts](PROMPTS.md) provide starting points for source tracing, edition comparison, coverage, and reproducibility.
+
+## Know when the setup worked
+
+A useful response identifies the files it read and separates recorded evidence, source assertions, interpretations, and unknowns. It gives record identifiers and source locators where available. An uploaded file name, a public URL, or a confident answer is not proof that the underlying evidence was inspected.
+
+Save the corpus version or commit, relevant file names, and your question with any result you intend to cite. The [research workflow](QUICKSTART.md) explains the evidence and comparison checks in more detail.
+
+## When something gets in the way
+
+| What you see | What to do |
+|---|---|
+| The download opens in the browser | Save the text file, or use the ZIP edition. |
+| The assistant cannot find the starter | Attach it again in this chat or project, then ask it to identify a section it can read. |
+| The assistant only sees a ZIP file | Extract it and attach the starter text file. |
+| A repository link cannot be read | Use the corpus ZIP and upload the files selected for your question. |
+| A generated member index or source-state file is absent | Ask the assistant to report the missing bundle and use accessible canonical files without claiming bundle validation. |
+| The response says evidence is missing | Ask for the exact file paths or source acquisition needed; supply those files before drawing conclusions. |
+| A comparison is BLOCKED | Ask what specific evidence or methodological check would make it supportable. Descriptive work may still be possible. |
+| A file or corpus has changed | Download the current file again. Ask the assistant to identify the replacement it read; retain the earlier snapshot for prior results. |
+
+The master starter is maintained separately from member corpus evidence. A saved copy is a snapshot, and uploads do not automatically refresh from GitHub. Its snapshot identifier records the packaged instruction state. Each participating corpus has its own evidence version and review status.
+
+## Sharing and citation
+
+Cite the underlying corpus and publication for research claims, with the version or commit and record/source locators where practical. You may also name the Combined Corpus Research AI as part of your method; it is not the inscription's evidentiary source.
+
+The included licensing notices describe the project-original starter material. Member corpora and upstream sources retain their own terms. Follow your institution's policies when uploading unpublished, personal, or otherwise restricted research material to an AI service.
+
+This directory covers the language corpus collection. The Egyptian hieroglyphs camera/image project and LightroomIsSlow are separate projects.
+
+## Platform guidance
+
+The instructions are vendor-neutral. Use your assistant's supported file/context controls and the same access-check prompt. Product details change; current ChatGPT guidance is available in [Projects and chats](https://learn.chatgpt.com/docs/projects) and [Use ChatGPT](https://learn.chatgpt.com/docs/use-chatgpt) (checked 2 October 2026).
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/PROMPTS.md ===
+SHA-256: 6b16b849b39737766d4f5b26dc47fc0b3d02f90592fef22bb63dbb0ca6e5977c
+
+# Research prompts
+
+Use these after the starter is loaded. Replace the bracketed details with your question. The assistant should identify accessible evidence before presenting findings.
+
+## Find a starting point
+
+> I am researching [topic/object/site]. Identify the relevant corpus projects and the files you can actually access. Propose three questions that those files could support, and explain what would require further evidence.
+
+## Trace a statement
+
+> Trace [statement] to the uploaded corpus evidence. Give record identifiers and exact source locators. Separate the recorded assertion from later interpretation and identify any shared upstream source.
+
+## Compare editions
+
+> For [object or inscription], show the recorded reading versions side by side. Retain damage, uncertainty marks, and segmentation differences. Explain whether their line or token units can be aligned. Do not choose a preferred reading unless the corpus records a justified preference.
+
+## Understand coverage
+
+> What does this corpus currently cover? Distinguish catalogue identifiers, physical objects, reading versions, encoded occurrences, and independently reviewed material. State the denominator where known and the limits where it is unknown. Use accessible current corpus evidence rather than the master directory's summaries.
+
+## Run a reproducible calculation
+
+> Using [file and field], calculate [measure] only if the corpus permits it. State the input version, inclusion/exclusion rules, unit, and method. Label the result as a new computation and provide enough information to reproduce it.
+
+## Compare two corpora
+
+> Compare [corpus A] and [corpus B] for [specific feature]. First check units, representation, source dependence, and uncertainty. If those do not support inference, give a descriptive comparison and explain the blocker. Do not infer shared sign values or language relationships from similarity.
+
+## Turn a blocker into next steps
+
+> What evidence, source acquisition, review, or methodological change is missing for [question]? Separate work we can complete from existing sources from decisions that require epigraphic expertise.
+
+## Save a research record
+
+> Prepare a short research log containing my question, files actually inspected, corpus versions/commits, record and source identifiers, methods, findings, uncertainties, and blocked claims. Include applicable attribution and rights notes. Mark missing information as unknown.
+
+## Check the answer
+
+> Audit your previous answer against the accessible files. Which claims have direct support, which are interpretations, and which are unsupported? Correct unsupported claims and identify any citations you could not verify.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/SKILL.md ===
+SHA-256: 1878a028c5e8b8b45895cdb1334b1d02e51b552cdfaa8a67f4d0bb11d1c8635e
+
+---
+name: combined-corpus-research
+description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
+version: 1.2.0
+---
+
+# Combined Corpus Research AI — 1.2
+
+This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
+
+## Mandatory routing
+1. Identify which registered corpus project(s) can answer the question.
+2. Load each project's individual SKILL.md and generated research-bundle index before using its evidence.
+3. Treat each corpus's native identifiers, evidence model, uncertainty, exclusions, rights, and scientific gates as authoritative.
+4. For a single-corpus question, defer to that corpus skill unless cross-corpus context is necessary.
+5. For cross-corpus questions, run each corpus analysis independently first, then compare only fields whose semantics are demonstrably compatible.
+
+## Evidence firewall
+Never infer common sign value, language relationship, borrowing, chronology, morphology, decipherment, or independent replication from interoperability, visual similarity, string similarity, positional statistics, shared tooling, or repository membership alone.
+
+A shared upstream source, edition, transcription tradition, code path, derived dataset, or duplicated witness is not independent evidence. State dependencies.
+
+## Comparison gate
+Before comparing corpora, report:
+- research question;
+- corpora included and why;
+- unit of comparison in each corpus;
+- whether units are semantically comparable;
+- representation layer being compared;
+- source-independence status;
+- uncertainty/exclusion rules;
+- rights constraints;
+- known blockers.
+
+If comparability is not established, stop at a descriptive side-by-side account and label the inferential comparison BLOCKED.
+
+## Claim discipline
+Classify substantive statements as corpus fact, source/editorial assertion, reproducible computation, scholarly interpretation, AI-derived analysis, or unknown/blocked. Never upgrade one class into another silently.
+
+## Citation and reproducibility
+Use stable corpus/record/claim identifiers and source locators when available. Name the corpus project and repository artifact supporting material claims. For AI-derived calculations, state inputs, exclusions and method sufficiently to reproduce.
+
+## Rights firewall
+Rights remain source- and corpus-specific. Never treat inclusion in this combined skill as permission to redistribute content. Prefer references/locators over reproduction when rights are unclear or restrictive.
+
+## Staleness
+Check each participating project's generated source-state. A stale or absent bundle must be disclosed; canonical corpus files take precedence.
+
+## Default answer shape
+Answer the research question directly, then provide Evidence by corpus; Comparability; Result/status; Uncertainty and blockers; Reproducibility; Rights/attribution where relevant.
+
+## Translation/decipherment
+For undeciphered or poorly understood material, do not manufacture translations or phonetic readings. For deciphered scripts/languages, preserve editorial uncertainty and do not transfer established values to other scripts without explicit evidence.
+
+## Scope
+The active project set is defined by registry/corpus-projects.json. New corpus projects join only through explicit registry entries and must provide an individual skill plus the shared research contract.
+
+## Evidence-growth routing
+For members with an `evidence_growth_state` in the registry, read the member's current-status and authority-profile artifacts before reporting coverage or readiness. Treat growth targets as plans, not achieved evidence. Never infer increased scientific readiness from repository version, archive size, or source count alone; only canonical admission and verification gates can change claim status.
+
+## Fleet benchmark
+Use `references/fleet-benchmark.md` when discussing corpus maturity or evidence acceleration. Linear A is the governance/reproducibility benchmark, not a linguistic donor. Parity means comparable rigor and usability under the evidence actually surviving for each corpus, never equal record counts.
+
+## Corpus Factory benchmark
+Before making fleet-wide maturity, coverage, or readiness claims, consult `../corpus-factory/fleet-gap-register.json` and `../corpus-factory/schemas/benchmark-status.schema.json`. Treat each member's `top_gap` as an unresolved research dependency, not a deficit that may be filled by inference. A corpus can satisfy parity with few surviving objects if coverage/accounting, provenance, rights, uncertainty, validation, independence, and AI authority are complete.
+
+## Pre-Expert Maximum routing
+When a registered member exposes `pre_expert_maximum_path`, consult that artifact before proposing expert review or describing unfinished work. Complete or explicitly disposition machine/source work first. Treat `human_only_boundary` as decisions that must not be silently resolved by the AI. A PRE_EXPERT_MAXIMUM contract is a work-boundary contract, not a claim that the corpus is scientifically complete or expert validated.
+
+## New comparative members
+Anatolian Hieroglyphic is a comparative control, Archanes is an early-Cretan disagreement-aware corpus, and Aegean Anomalous is a neutral quarantine layer. Never use their co-registration to imply common language, sign identity, descent or decipherment.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
+SHA-256: 42a7186f67996bd4f0c515edb424a1f6f898aa82abfbae9ce2d7c826616eb265
+
+# Corpus downloads
+
+Choose the corpus relevant to your question. Each ZIP is a copy of that repository's current main branch; saved copies do not refresh automatically.
+
+Extract the ZIP before uploading files. The research instructions and index are in its `ai-skill` folder. The index lists evidence files but does not contain those files. [Setup and evidence selection](START-HERE.md#4-add-evidence-for-your-question) explains what to provide.
+
+| Corpus | Repository | Download ZIP | Individual instructions |
+|---|---|---|---|
+| Linear A | [Open](https://github.com/hawkinsnick/Linear-A) | [Download](https://github.com/hawkinsnick/Linear-A/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Linear-A/blob/main/ai-skill/SKILL.md) |
+| Cypro-Minoan | [Open](https://github.com/hawkinsnick/Cypro-Minoan) | [Download](https://github.com/hawkinsnick/Cypro-Minoan/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/ai-skill/SKILL.md) |
+| Linear B | [Open](https://github.com/hawkinsnick/Linear-B) | [Download](https://github.com/hawkinsnick/Linear-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Linear-B/blob/main/ai-skill/SKILL.md) |
+| Cretan Hieroglyphic | [Open](https://github.com/hawkinsnick/Cretan-hieroglpyhs) | [Download](https://github.com/hawkinsnick/Cretan-hieroglpyhs/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cretan-hieroglpyhs/blob/main/ai-skill/SKILL.md) |
+| Phaistos Disc | [Open](https://github.com/hawkinsnick/Phaistos-Disc) | [Download](https://github.com/hawkinsnick/Phaistos-Disc/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Phaistos-Disc/blob/main/ai-skill/SKILL.md) |
+| Byblos syllabary | [Open](https://github.com/hawkinsnick/Byblos-syllabary) | [Download](https://github.com/hawkinsnick/Byblos-syllabary/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Byblos-syllabary/blob/main/ai-skill/SKILL.md) |
+| Cypriot syllabic Greek | [Open](https://github.com/hawkinsnick/Cypriot-syllabic-Greek) | [Download](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/main/ai-skill/SKILL.md) |
+| Eteocypriot | [Open](https://github.com/hawkinsnick/Eteocypriot) | [Download](https://github.com/hawkinsnick/Eteocypriot/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Eteocypriot/blob/main/ai-skill/SKILL.md) |
+| Eteocretan | [Open](https://github.com/hawkinsnick/Eteocretan) | [Download](https://github.com/hawkinsnick/Eteocretan/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Eteocretan/blob/main/ai-skill/SKILL.md) |
+| Lycian, Carian and Milyan | [Open](https://github.com/hawkinsnick/Lycian-and-Carian) | [Download](https://github.com/hawkinsnick/Lycian-and-Carian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lycian-and-Carian/blob/main/ai-skill/SKILL.md) |
+| Phrygian | [Open](https://github.com/hawkinsnick/Phrygian) | [Download](https://github.com/hawkinsnick/Phrygian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Phrygian/blob/main/ai-skill/SKILL.md) |
+| Anatolian Hieroglyphic | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
+| Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
+| Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
+
+Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
+
+Egyptian-Hieroglyphic-Corpus and LightroomIsSlow are outside this directory.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
+SHA-256: ac0a698322a385b97ff2f1de0c93b1e4177924dbb1eaec4e8d83d2b8b68d63bf
+
+{
+  "schema_version": "1.0.0",
+  "registry_version": "1.5.0",
+  "name": "Corpus Projects Registry",
+  "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "label": "Linear A",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "label": "Cypro-Minoan",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; partial occurrence coverage is tracked in the native current-status and occurrence-coverage artifacts; frequency and cross-script phonetic claims remain blocked",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "label": "Linear B",
+      "status": "deciphered Mycenaean Greek control corpus",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglpyhs",
+      "label": "Cretan Hieroglyphic",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities, 5 critical readings on 2 source-checked objects; structural/comparative claims remain blocked"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "label": "Phaistos Disc",
+      "status": "undeciphered/unique artifact",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "label": "Byblos syllabary",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; primary-edition/source reconciliation remains before human transcription and sign adjudication"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "label": "Cypriot syllabic Greek",
+      "status": "deciphered script / Greek subset",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; frozen IG XV 1 snapshot is reproducible while expansion sources and concordances remain non-expert work"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "label": "Eteocypriot",
+      "status": "poorly understood language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; source expansion and concordance precede human language/readings adjudication"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "label": "Eteocretan",
+      "status": "poorly understood language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; Dreros/Praisos/Azoria source acquisition precedes human reading/language adjudication; analytical admission remains zero",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "label": "Lycian, Carian and Milyan",
+      "status": "multi-partition corpus",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 453-record eDiAna snapshot precedes object concordance and edition comparison"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "label": "Phrygian",
+      "status": "attested Indo-European language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 203 licensed reference sentences / 162 TM identifiers remain non-canonical pending source-level reconciliation",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+    },
+    {
+      "id": "anatolian_hieroglyphic",
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "2.0.0-rc.2",
+      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: 314-entry monumental discovery list complete; eDiAna stable-ID Hieroglyphic identity spine now confirms non-monumental enumeration route; full ID harvest/classification and CHLI reconciliation remain.",
+      "label": "Anatolian Hieroglyphic",
+      "status": "deciphered comparative control",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "tests/test_integrity.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+    },
+    {
+      "id": "archanes_script",
+      "repository": "hawkinsnick/Archanes-Script",
+      "relationship": "early Cretan writing comparison; corpus membership and relation to Cretan Hieroglyphic/Linear A remain scholarly assertions",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "2.0.0-rc.2",
+      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Decorte baseline plus occurrence/diachronic model and Valerio 2024 object-face CHIC crosswalk; CMS and later-authority deltas continue.",
+      "label": "Archanes Script",
+      "status": "disputed-boundary early Cretan writing",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "tests/test_integrity.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+    },
+    {
+      "id": "aegean_anomalous",
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "relationship": "neutral quarantine/comparison layer; not a language or single writing system",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "2.0.0-rc.2",
+      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Arkalochori conservation packet mature; Malia blocker narrowed to CHIC #328 pp.314-315; 14/15/16 segmentation history remains unresolved pending direct catalogue inspection.",
+      "label": "Aegean Anomalous",
+      "status": "neutral quarantine/comparison",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "tests/test_integrity.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+    }
+  ],
+  "corpus_factory": {
+    "gap_register": "corpus-factory/fleet-gap-register.json",
+    "benchmark_schema": "corpus-factory/schemas/benchmark-status.schema.json",
+    "validator": "corpus-factory/validate_fleet.py",
+    "parity_rule": "rigor and traceability under surviving evidence, never equal row counts"
+  }
+}
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/references/comparability-matrix.md ===
+SHA-256: e7ed83a62d4728d4f183c306ce57ace2a58bf682cba85cb4a98979222c234f30
+
+# Cross-Corpus Comparability Matrix — 1.0
+
+This matrix governs *types* of comparison. It does not pre-authorize any substantive historical or linguistic conclusion.
+
+| Question type | Default | Requirement to proceed |
+|---|---|---|
+| Repository/evidence coverage | ALLOWED | Define each corpus's native counting unit |
+| Provenance/rights architecture | ALLOWED | Compare policies/fields, not rights grants |
+| Sign/string frequency | GATED | Compatible sampling units, exclusions and representation layers |
+| Positional/structural pattern | GATED | Compatible segmentation/unit definitions and declared null model |
+| Palaeographic similarity | GATED | Source-quality images/observations and explicit feature method |
+| Phonetic/sign-value equivalence | BLOCKED by default | Independent positive evidence beyond shape/interoperability |
+| Lexical similarity | BLOCKED by default | Established readings plus method controlling chance/borrowing/dependence |
+| Genetic language relationship | BLOCKED by default | Accepted linguistic evidence and comparative method |
+| Decipherment transfer | BLOCKED | Independent decipherment evidence; values from another script are not sufficient |
+| Chronological inference | GATED | Independently supported dating/provenance |
+| Independent replication | GATED | Demonstrated source/witness/method independence |
+
+When requirements are unmet, descriptive comparison remains permissible if limitations are explicit.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/references/fleet-benchmark.md ===
+SHA-256: 7e230c04c58b6b318186ed5b9e48a3ff30f78ac2ab0d4ac66654b1ba0a93e5b7
+
+# Corpus fleet benchmark — Linear A parity target
+
+The corpus projects use Linear A as an engineering and research-governance benchmark, not as a linguistic source for other scripts.
+
+Every member should converge on these capabilities where its surviving evidence permits:
+
+1. **Coverage accounting** — explicit universe/denominator where knowable; discovery leads separated from admitted evidence.
+2. **Source lineage** — stable object, record, source and locator identifiers; hashes for captured inputs; duplicates and derivative editions linked.
+3. **Evidence layers** — observation/source transcription, normalization, computation and interpretation remain distinct.
+4. **Admission gates** — machine-readable reasons for inclusion/exclusion; uncertainty and damage preserved.
+5. **Independent verification** — source checking and human review recorded separately; shared witnesses never count as replication.
+6. **Rights integrity** — source-specific permissions govern redistribution; public access alone is not permission.
+7. **Reproducibility** — import/validation scripts, deterministic exports, current-status evidence and correction history.
+8. **Negative results** — blocked, failed, quarantined and superseded analyses remain visible.
+9. **AI authority** — individual skill indexes canonical status, evidence, rights and gates; generated state is rebuildable and never outranks corpus data.
+10. **Cross-corpus safety** — Combined AI compares only semantically compatible units and never infers decipherment, sign values or linguistic relationship from interoperability.
+
+## Parity rule
+
+Parity means comparable rigor and research usability, not equal record counts. A corpus with five surviving inscriptions can meet the benchmark if those five are exhaustively identified, source-collated, provenance-complete, rights-clear, uncertainty-preserving and reproducibly validated. A corpus with hundreds of unverified rows cannot.
+
+## Evidence acceleration
+
+For every member, acquisition proceeds in this order: discover -> identify rights -> capture/hash or record locator -> parse without semantic invention -> reconcile object identity -> validate -> independently/source-check -> admit under declared policy -> regenerate AI bundle -> update Combined registry.
+
+No maturity claim may be upgraded merely because more records were imported.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: corpus-factory/fleet-gap-register.json ===
+SHA-256: e8c5517c64467755b082203c7a2e6d47031e6d8cb77b2e2c2fa323a231491385
+
+{
+  "schema_version": "1.0",
+  "benchmark": "Linear-A governance/reproducibility parity",
+  "checked": "2026-10-02",
+  "members": [
+    {
+      "repo": "Linear-A",
+      "evidence_depth": "HIGH",
+      "coverage_state": "substantial decoded corpus; prospective/calibration gates remain",
+      "top_gap": "independent prospective/calibration evidence"
+    },
+    {
+      "repo": "Cypro-Minoan",
+      "evidence_depth": "LOW_MEDIUM",
+      "coverage_state": "21 rich records; 9 checked occurrences on 3 records",
+      "top_gap": "verified occurrence coverage denominator"
+    },
+    {
+      "repo": "Linear-B",
+      "evidence_depth": "HIGH",
+      "coverage_state": "~DAMOS-scale source mapping authenticated",
+      "top_gap": "non-leaky independently justified calibration gold"
+    },
+    {
+      "repo": "Cretan-hieroglpyhs",
+      "evidence_depth": "LOW",
+      "coverage_state": "331 catalogue identities; 5 critical readings on 2 objects",
+      "top_gap": "source-checked critical readings at scale"
+    },
+    {
+      "repo": "Phaistos-Disc",
+      "evidence_depth": "HIGH_FOR_SURVIVING_OBJECT",
+      "coverage_state": "1 object; 61 groups; 242 project slots; 1 unknown",
+      "top_gap": "independent expert review and count convention reconciliation"
+    },
+    {
+      "repo": "Byblos-syllabary",
+      "evidence_depth": "LOW",
+      "coverage_state": "14-object institutional baseline; 0 verified complete sequences",
+      "top_gap": "object identities and edition-collated sequences"
+    },
+    {
+      "repo": "Cypriot-syllabic-Greek",
+      "evidence_depth": "MEDIUM",
+      "coverage_state": "593-source snapshot; 592 records; 170 source-interpreted Greek",
+      "top_gap": "expand beyond frozen fascicle and independent review"
+    },
+    {
+      "repo": "Eteocypriot",
+      "evidence_depth": "LOW_MEDIUM",
+      "coverage_state": "26 candidates; 17 source-attributed entries",
+      "top_gap": "whole-corpus reconciliation and independent review"
+    },
+    {
+      "repo": "Eteocretan",
+      "evidence_depth": "LOW",
+      "coverage_state": "8 objects with readings; 0 analytically admitted rows",
+      "top_gap": "primary Dreros/Praisos collation"
+    },
+    {
+      "repo": "Lycian-and-Carian",
+      "evidence_depth": "HIGH_DIGITAL",
+      "coverage_state": "453 eDiAna catalogue entries in separate partitions",
+      "top_gap": "edition-level independent/source collation"
+    },
+    {
+      "repo": "Phrygian",
+      "evidence_depth": "MEDIUM",
+      "coverage_state": "203 UD sentences; 162 TM identifiers",
+      "top_gap": "TM/edition reconciliation and primary epigraphic confirmation"
+    },
+    {
+      "repo": "Anatolian-Hieroglyphic",
+      "evidence_depth": "DISCOVERY_ONLY",
+      "coverage_state": "314 monumental discovery entries; 0 canonical admissions; non-monumental denominator unknown",
+      "top_gap": "authoritative CHLI/eDiAna record reconciliation and non-monumental discovery",
+      "status_source": "research/monumental-discovery-register.json"
+    },
+    {
+      "repo": "Archanes-Script",
+      "evidence_depth": "SOURCE_SCOPED",
+      "coverage_state": "16-object Decorte baseline; authority-specific signary and formula variants; partial object-face matrix",
+      "top_gap": "object-face occurrence reconciliation and later-authority deltas",
+      "status_source": "research/corpus-quality-audit.json"
+    },
+    {
+      "repo": "Aegean-anomalous",
+      "evidence_depth": "SOURCE_SCOPED",
+      "coverage_state": "Arkalochori and Malia anchors; attributed classification and counting disagreements; not one language or writing system",
+      "top_gap": "primary-source completion and neutral sign geometry",
+      "status_source": "research/pre-expert-gate-summary.json"
+    }
+  ],
+  "required_capabilities": [
+    "machine_readable_status",
+    "coverage_denominator_or_explicit_unknown",
+    "source_lineage",
+    "rights_layer",
+    "admission_gate",
+    "uncertainty_layer",
+    "independence_tracking",
+    "reproducible_validation",
+    "ai_authority_profile",
+    "correction_history"
+  ],
+  "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts.",
+  "excluded_projects": [
+    {
+      "repo": "Egyptian-Hieroglyphic-Corpus",
+      "reason": "Independent Egyptian image/camera project; outside the language corpus fleet and Combined AI."
+    },
+    {
+      "repo": "LightroomIsSlow",
+      "reason": "Independent photography performance project; outside the language corpus fleet and Combined AI."
+    }
+  ]
+}
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: corpus-factory/schemas/benchmark-status.schema.json ===
+SHA-256: d882649cd49be376f6c1d7bf1890519f4ba993611aa42c99ab5819a9e7f17b8d
+
+{
+  "schema_version": "1.0",
+  "description": "Minimum machine-readable contract for corpus-project benchmark status.",
+  "required": [
+    "repository",
+    "status_source",
+    "coverage",
+    "rights",
+    "evidence_layers",
+    "gates",
+    "ai"
+  ],
+  "fields": {
+    "repository": {
+      "required": [
+        "name",
+        "version"
+      ]
+    },
+    "status_source": {
+      "required": [
+        "path",
+        "checked"
+      ]
+    },
+    "coverage": {
+      "required": [
+        "unit",
+        "known_total",
+        "represented",
+        "admitted",
+        "independently_reviewed"
+      ],
+      "nullable": [
+        "known_total",
+        "admitted",
+        "independently_reviewed"
+      ]
+    },
+    "rights": {
+      "required": [
+        "project_original_policy",
+        "third_party_separate"
+      ]
+    },
+    "evidence_layers": {
+      "required": [
+        "source_observation",
+        "normalization",
+        "computation",
+        "interpretation"
+      ]
+    },
+    "gates": {
+      "required": [
+        "blocked_claims",
+        "next_gate"
+      ]
+    },
+    "ai": {
+      "required": [
+        "authority_profile",
+        "canonical_data_outranks_bundle"
+      ]
+    }
+  }
+}
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/QUICKSTART.md ===
+SHA-256: 714359b8b92e857f781d061738db0d45192b35ec3a4f73e27c700b4e1aa8667c
+
+# Combined Corpus Research AI — Researcher Quickstart
+
+This guide explains the research workflow after setup. For downloads and upload instructions, begin with [Start here](START-HERE.md). You can start with one text file, without Git or Python.
+
+## Five-minute start
+
+1. [Download the starter](downloads/README.md) and attach its text file to your AI conversation or project.
+2. Use the first-message prompt in [Start here](START-HERE.md#3-send-this-first-message) to confirm that the assistant can read it and identify relevant corpora.
+3. Choose a corpus from the [download directory](CORPUS-DOWNLOADS.md). Make its individual instructions, index, source-state and selected canonical evidence accessible. The starter and an index alone do not supply inscription evidence.
+4. Ask your research question normally. [Prompts](PROMPTS.md) cover source tracing, edition comparisons and reproducibility.
+5. For cross-corpus questions, require the AI to show the comparability check before interpreting similarities.
+
+A good first prompt is: **“Which registered corpus projects are relevant to my question, what evidence can each currently provide, and which comparisons are allowed, gated or blocked?”**
+
+## Good research questions
+
+- “Find the evidence relevant to this sign or sequence and distinguish source observations from later interpretation.”
+- “Compare positional patterns across these two corpora, but stop if their units or segmentation are not comparable.”
+- “Trace this statement to corpus records and source locators.”
+- “Reproduce this statistic and list its inputs and exclusions.”
+- “Which apparent replications share an upstream source or witness?”
+- “What specific evidence is missing before this blocked comparison could proceed?”
+- “Show disagreements among editions without selecting a preferred reading unless the corpus records a justified preference.”
+
+## What a trustworthy answer should show
+
+For substantive work, expect the answer to identify the corpus project(s), evidence layer, relevant IDs/locators where available, evidentiary status, uncertainty/exclusions, source-independence limitations, reproducibility method for new calculations, and rights/attribution constraints when reproduction is involved.
+
+For cross-corpus work, expect a **Comparability** section stating each corpus's unit of analysis, representation layer, source dependence and whether the requested inference is permitted.
+
+## Undeciphered and poorly understood material
+
+The system must not manufacture translations, phonetic values, morphemes or language relationships. Recurrence, position, visual resemblance or correspondence with a deciphered script may be reported as evidence only at the level actually established by the corpus.
+
+A deciphered writing system also does not imply that every language written in it is understood. This is especially important for Eteocypriot.
+
+## Deciphered corpora and controls
+
+For Linear B, Cypriot syllabic Greek and other readable material, the system still separates transcription, normalization, restoration, linguistic interpretation and translation. Established readings from one script cannot be transferred automatically to another.
+
+## When the AI says BLOCKED
+
+Do not ask it to “take its best guess.” Instead ask:
+
+**“What evidence, source acquisition, review, calibration or methodological change would be necessary to unblock this question?”**
+
+That converts a negative result into a research agenda.
+
+## Staleness and validation
+
+Before relying on a generated bundle, inspect its source-state and research-bundle index. The source commit should identify the corpus state represented by the bundle. If generated material conflicts with canonical corpus files, canonical evidence wins and the discrepancy should be reported.
+
+Individual corpus validators protect corpus-specific authorities. The Combined validator protects the registry and orchestration contract. Neither proves that an ancient reading is epigraphically correct or peer reviewed.
+
+## Rights and citation
+
+The Combined skill is not a licence umbrella. Every corpus and upstream source keeps its own terms. Ask the AI to identify the source and applicable rights before reproducing substantial source-derived material.
+
+For scholarly citation, cite the underlying corpus record/source or publication rather than citing the Combined AI as though it were the evidence.
+
+## Suggested reproducible workflow
+
+**Question → route to corpus project(s) → validate bundle state → retrieve native evidence → classify evidence → check source independence → check comparability → compute only if permitted → report result and blockers → record corpus versions/commits and methods.**
+
+This workflow is intentionally conservative. A scientifically meaningful BLOCKED result is preferable to a fluent unsupported conclusion.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: combined-ai-skill/manifest.json ===
+SHA-256: 3bdf79702cf5ee09ff44638d357fa478d8767d123d7d0990f6ac4b834ee1228b
+
+{
+  "name": "Combined Corpus Research AI",
+  "version": "1.2.0",
+  "vendor_neutral": true,
+  "type": "multi-corpus-orchestrator",
+  "canonical_data": "member corpus projects",
+  "governing_instructions": "combined-ai-skill/SKILL.md",
+  "registry": "combined-ai-skill/registry/corpus-projects.json",
+  "comparability_contract": "combined-ai-skill/references/comparability-matrix.md",
+  "validation": "combined-ai-skill/scripts/validate.py",
+  "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
+  "member_count": 14,
+  "expansion_policy": "New corpus projects may be added by registry entry after providing an individual corpus skill and shared research contract.",
+  "guarantees": [
+    "no data duplication in orchestrator",
+    "member-native evidence authority",
+    "cross-corpus comparability gate",
+    "source-independence checks",
+    "rights firewall",
+    "staleness disclosure",
+    "vendor-neutral instructions",
+    "pre-expert maximum boundary routing"
+  ],
+  "quickstart": "combined-ai-skill/QUICKSTART.md",
+  "researcher_readme": "combined-ai-skill/README.md",
+  "required_member_skill_version": "0.3.1",
+  "ci_validation": ".github/workflows/sync-ai-skill.yml",
+  "researcher_entrypoint": "combined-ai-skill/START-HERE.md",
+  "starter_download": "combined-ai-skill/downloads/Combined-Corpus-Research-Starter.txt",
+  "starter_builder": "combined-ai-skill/scripts/build_starter.py"
+}
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: LICENSE ===
+SHA-256: a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674
+
+# License by material
+
+Project-original software: PolyForm Noncommercial 1.0.0 (`LICENSE-CODE`).
+
+Project-original corpus data, metadata, documentation and project-authored research outputs: CC BY-NC 4.0 (`LICENSE-CONTENT.md`), to the extent contributors own the applicable rights.
+
+Third-party/source-derived material retains upstream terms. Public-domain material remains public domain. See `LICENSING.md` and `NOTICE`.
+
+Noncommercial sharing/reuse with attribution is encouraged. Project-original licenses do not grant commercial bundling or use in commercial products/services.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: LICENSE-CODE ===
+SHA-256: ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15
+
+PolyForm Noncommercial License 1.0.0
+
+https://polyformproject.org/licenses/noncommercial/1.0.0
+
+The official PolyForm Noncommercial License 1.0.0 governs project-original software in this repository.
+
+Required Notice: Copyright (c) 2026 hawkinsnick corpus project contributors
+
+For the complete controlling license text, see the URL above. A copy may also be retained verbatim in release packages. Third-party software retains its own license.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: LICENSE-CONTENT.md ===
+SHA-256: b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e
+
+# Project-original content license
+
+To the extent the project contributors own the applicable copyright or database rights, project-original corpus data, metadata, documentation, annotations, and project-authored research outputs are licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+Canonical license: https://creativecommons.org/licenses/by-nc/4.0/
+
+You may share and adapt the licensed project-original material for noncommercial purposes with appropriate attribution, identification of the license, and indication of changes as required by CC BY-NC 4.0.
+
+Suggested attribution: “Data/material from the hawkinsnick corpus project, with repository name and version or commit where practicable.”
+
+This license does not apply to third-party/source-derived components except where the relevant rights holder has separately placed them under compatible terms. See LICENSING.md, NOTICE, source metadata, and rights matrices.
+
+=== END SOURCE FILE ===
+
+=== SOURCE FILE: LICENSING.md ===
+SHA-256: ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8
+
+# Licensing and reuse policy
+
+This repository is free to access, study, share, and reuse for noncommercial purposes, subject to the component-specific terms below.
+
+## Project-original software
+Code authored for this project is offered under the PolyForm Noncommercial License 1.0.0. Noncommercial use, modification, and redistribution are permitted under that license. Commercial use requires separate written permission from the applicable copyright holder.
+
+## Project-original corpus data, metadata, and documentation
+To the extent the project contributors own the relevant copyright or database rights, project-original corpus data, metadata, documentation, annotations, and project-authored research outputs are offered under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+You may share and adapt that project-original material for noncommercial purposes provided appropriate attribution is given, the license is identified, and changes are indicated as required by CC BY-NC 4.0.
+
+Suggested attribution: “Data/material from the hawkinsnick corpus project, with repository name and version or commit where practicable.”
+
+## Commercial products and services
+The licenses above do not grant permission to bundle, embed, redistribute, or use project-original licensed material as part of a commercial software product, paid service, commercial API, commercial AI/data product, or other use primarily intended for commercial advantage or monetary compensation. Contact the copyright holder for separate commercial permission.
+
+## Third-party and public-domain material
+This policy does not relicense material the project does not own. Third-party transcriptions, editions, photographs, drawings, datasets, software, Unicode data, database exports, and other imported/source-derived material retain their original licenses, terms, attribution requirements, and restrictions. Public-domain material remains public domain. Consult NOTICE, source-level rights fields, rights matrices, and third-party notices before reuse.
+
+Where a third-party license is more permissive or more restrictive than this project policy, that third-party license governs that component.
+
+## No endorsement
+Attribution does not imply endorsement by the project or contributors.
+
+## Existing copies
+This policy applies to material distributed under these terms. It does not revoke permissions already granted for copies previously released under an earlier irrevocable license.
+
+=== END SOURCE FILE ===
