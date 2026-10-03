@@ -75,8 +75,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "960a1cc1555851b6f8f02e332827d139f283f76d9c7f0f57adb0229769aacc8c",
-      "bytes": 12741
+      "sha256": "51dfba76fdf57c5e72a9a651e07bd2817f2ee42155e8bb1c1cac75aefb1d2c83",
+      "bytes": 13285
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
@@ -89,5 +89,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "a5d9e5c4f59e832eb48862acd27aeaddf5a5b55cc0e893fa4c5e087d15f02aa8"
+  "snapshot_sha256": "a5de406063be92a69f90ca1f35c84e2ff139839be9991fc36e839388bcc003cc"
 }
