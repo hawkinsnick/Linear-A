@@ -89,6 +89,13 @@
       "coverage_state": "Arkalochori and Malia anchors; attributed classification and counting disagreements; not one language or writing system",
       "top_gap": "primary-source completion and neutral sign geometry",
       "status_source": "research/pre-expert-gate-summary.json"
+    },
+    {
+      "repo": "Egyptian-Hieroglyphic-Corpus",
+      "evidence_depth": "OPEN_IMAGE_PRE_ANNOTATION",
+      "coverage_state": "25 objects; 32 rights-verified museum images; 0 verified sign annotations/readings",
+      "top_gap": "source-checked sign-region annotations and reusable authoritative reading layer",
+      "status_source": "research/pre-expert-maximum.json"
     }
   ],
   "required_capabilities": [
@@ -101,14 +108,13 @@
     "independence_tracking",
     "reproducible_validation",
     "ai_authority_profile",
-    "correction_history"
+    "correction_history",
+    "licensing_architecture",
+    "individual_ai_skill",
+    "master_ai_registration"
   ],
   "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts.",
   "excluded_projects": [
-    {
-      "repo": "Egyptian-Hieroglyphic-Corpus",
-      "reason": "Independent Egyptian image/camera project; outside the language corpus fleet and Combined AI."
-    },
     {
       "repo": "LightroomIsSlow",
       "reason": "Independent photography performance project; outside the language corpus fleet and Combined AI."
