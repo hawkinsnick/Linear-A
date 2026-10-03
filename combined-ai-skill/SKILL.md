@@ -1,7 +1,7 @@
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.5.1
+version: 1.3.0
 ---
 
 # Combined Corpus Research AI — 1.4
