@@ -5,7 +5,7 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-EXCLUDED = {"Egyptian-Hieroglyphic-Corpus", "LightroomIsSlow"}
+EXCLUDED = {"LightroomIsSlow"}
 RULE = "Parity is rigor and traceability under surviving evidence, never equal row counts."
 
 
@@ -22,6 +22,10 @@ def validate(register, combined):
             errors.append(f"duplicate repo {name}")
         seen.add(name)
     repositories = [m.get("repository", "") for m in combined.get("members", [])]
+    contract_fields = {"individual_skill_path","bundle_index_path","authority_profile_path","validation_path","required_contract","required_skill_version"}
+    for member in combined.get("members", []):
+        missing = sorted(k for k in contract_fields if not member.get(k))
+        if missing: errors.append(f"fleet contract missing {missing} for {member.get('repository')}")
     if not repositories or any(not name.startswith("hawkinsnick/") for name in repositories):
         errors.append("invalid or empty Combined AI corpus membership")
     if len(repositories) != len(set(repositories)):
@@ -35,7 +39,7 @@ def validate(register, combined):
         errors.append(f"separate projects included in corpus fleet: {sorted(EXCLUDED & (seen | expected))}")
     exclusions = {m.get("repo") for m in register.get("excluded_projects", []) if m.get("reason")}
     if exclusions != EXCLUDED:
-        errors.append("separate-project exclusions must name Egyptian and Lightroom with reasons")
+        errors.append("separate-project exclusions must name Lightroom with reason")
     if register.get("rule") != RULE:
         errors.append("parity rule changed")
     return errors
@@ -48,7 +52,7 @@ def main():
     if errors:
         print("\n".join(errors))
         return 1
-    print(f"PASS: {len(register['members'])} corpus projects; membership matches Combined AI; separate projects excluded")
+    print(f"PASS: {len(register['members'])} corpus projects; fleet/master parity and AI contract fields validated; separate projects excluded")
     return 0
 
 
