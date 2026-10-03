@@ -12,6 +12,7 @@ if reg.get("registry_version")!="2.0.0": errors.append("registry version must be
 if len(members)!=manifest.get("member_count"): errors.append("registry and manifest member counts differ")
 repos=[m.get("repository") for m in members]
 if len(repos)!=len(set(repos)): errors.append("duplicate repository in registry")
+if "hawkinsnick/LightroomIsSlow" in repos: errors.append("LightroomIsSlow is a photography performance project and must never be registered as a language corpus")
 required=("repository","label","individual_skill_path","bundle_index_path","required_contract","required_skill_version","authority_profile_path","validation_path")
 for member in members:
     for key in required:
