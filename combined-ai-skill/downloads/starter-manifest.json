@@ -2,7 +2,7 @@
   "format": "combined-corpus-research-starter-v1",
   "starter_version": "1.0.0",
   "master_skill_version": "1.2.0",
-  "registry_version": "1.6.0",
+  "registry_version": "1.7.0",
   "member_count": 15,
   "member_evidence_included": false,
   "independent_review_granted": false,
@@ -75,8 +75,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "51dfba76fdf57c5e72a9a651e07bd2817f2ee42155e8bb1c1cac75aefb1d2c83",
-      "bytes": 13285
+      "sha256": "47929505976a5df3adf9a0e405ef7ef49e4be0ddde1ed6c36553c8328c5c2b54",
+      "bytes": 18640
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
@@ -89,5 +89,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "a5de406063be92a69f90ca1f35c84e2ff139839be9991fc36e839388bcc003cc"
+  "snapshot_sha256": "8ee416aa241dce01aa634075cf66ecb797633900b4d87cd9ff6676b6e9636f35"
 }
