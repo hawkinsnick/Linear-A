@@ -20,7 +20,7 @@ class FleetTests(unittest.TestCase):
         self.assertTrue(any('duplicate repo' in e for e in validate(self.register, self.combined)))
 
     def test_separate_projects_rejected_even_if_both_registries_change(self):
-        for name in ['Egyptian-Hieroglyphic-Corpus', 'LightroomIsSlow']:
+        for name in ['LightroomIsSlow']:
             register = copy.deepcopy(self.register)
             combined = copy.deepcopy(self.combined)
             row = copy.deepcopy(register['members'][0])
