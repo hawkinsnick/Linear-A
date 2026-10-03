@@ -14,7 +14,7 @@ def tree(repo):
     req=urllib.request.Request(url,headers=headers)
     with urllib.request.urlopen(req,timeout=30) as r: payload=json.load(r)
     if payload.get("truncated"): raise RuntimeError(f"Git tree truncated for {repo}")
-    return {x.get("path") for x in payload.get("tree",[]) if x.get("type")=="blob"}
+    return {x.get("path"): x.get("type") for x in payload.get("tree",[])}
 for member in registry.get("members",[]):
     repo=member.get("repository"); admission=member.get("admission",{})
     if admission.get("contract")!="corpus-factory/CORPUS-ADMISSION-CONTRACT.md": errors.append(f"{repo}: missing admission contract declaration")
@@ -28,7 +28,10 @@ for member in registry.get("members",[]):
     try: paths=tree(repo)
     except Exception as exc:
         errors.append(f"{repo}: cannot inspect main tree: {exc}"); continue
-    missing=sorted((required_license|skill_paths)-paths)
+    required_files=required_license|skill_paths-{member.get("review_directory_path")}
+    missing=sorted(p for p in required_files if paths.get(p)!="blob")
+    review_dir=member.get("review_directory_path")
+    if review_dir and paths.get(review_dir)!="tree": missing.append(review_dir+" [directory]")
     if missing: errors.append(f"{repo}: missing required admission paths: {', '.join(missing)}")
 if errors:
     print("\n".join(errors)); sys.exit(1)
