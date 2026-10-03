@@ -1,8 +1,8 @@
 COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
-Master instruction version: 1.5.1
+Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 11170cc50b8888730584cac2acee46406bcf26ea9f2b963d3f5b654e060cbe40
+Instruction snapshot SHA-256: 91063aa00b4cbd472e8c6ba84d6825612100d284f8533a8c0e4f86de74875a63
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,12 +141,12 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 64af8be8c013d2e64a12186af402c25fc8131605d8f86d85b9e60fbe5688b807
+SHA-256: 3e812a460ae1b1c5bfce126b536ff0b03d3d0fa4d4be2dc6b2ce00ce3fa79e5f
 
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.5.1
+version: 1.3.0
 ---
 
 # Combined Corpus Research AI — 1.4
@@ -303,11 +303,11 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: f525a6b22406705724cd120e9afd97b588600d8dcb057e225dd3ef614661d0f1
+SHA-256: dfd43a489c9c332cb02e415c521f9e4552007d8d1b9b070a1f6472241b0a1510
 
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.9.1",
+  "registry_version": "2.0.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -1189,11 +1189,11 @@ This workflow is intentionally conservative. A scientifically meaningful BLOCKED
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/manifest.json ===
-SHA-256: 91bffa7cb945470003a5fd20d675304ad9061138cce4a1028c72af3893c13213
+SHA-256: 7ae405f5a9653f3fb2c93ee695c70539946891b1b118bdec1d53c395e4ed6510
 
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.5.1",
+  "version": "1.3.0",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",
@@ -1203,7 +1203,7 @@ SHA-256: 91bffa7cb945470003a5fd20d675304ad9061138cce4a1028c72af3893c13213
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
   "member_count": 18,
-  "expansion_policy": "New corpus projects are admitted only after component-specific licensing, an individual corpus AI skill, validation, and master registry integration.",
+  "expansion_policy": "New corpus projects must pass fleet admission before fleet-integrated status: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and live validation.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",

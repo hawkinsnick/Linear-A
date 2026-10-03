@@ -1,8 +1,8 @@
 {
   "format": "combined-corpus-research-starter-v1",
   "starter_version": "1.0.0",
-  "master_skill_version": "1.5.1",
-  "registry_version": "1.9.1",
+  "master_skill_version": "1.3.0",
+  "registry_version": "2.0.0",
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
@@ -55,7 +55,7 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "64af8be8c013d2e64a12186af402c25fc8131605d8f86d85b9e60fbe5688b807",
+      "sha256": "3e812a460ae1b1c5bfce126b536ff0b03d3d0fa4d4be2dc6b2ce00ce3fa79e5f",
       "bytes": 8616
     },
     {
@@ -65,8 +65,8 @@
     },
     {
       "path": "combined-ai-skill/manifest.json",
-      "sha256": "91bffa7cb945470003a5fd20d675304ad9061138cce4a1028c72af3893c13213",
-      "bytes": 1507
+      "sha256": "7ae405f5a9653f3fb2c93ee695c70539946891b1b118bdec1d53c395e4ed6510",
+      "bytes": 1592
     },
     {
       "path": "combined-ai-skill/references/comparability-matrix.md",
@@ -80,7 +80,7 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "f525a6b22406705724cd120e9afd97b588600d8dcb057e225dd3ef614661d0f1",
+      "sha256": "dfd43a489c9c332cb02e415c521f9e4552007d8d1b9b070a1f6472241b0a1510",
       "bytes": 25046
     },
     {
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "11170cc50b8888730584cac2acee46406bcf26ea9f2b963d3f5b654e060cbe40"
+  "snapshot_sha256": "91063aa00b4cbd472e8c6ba84d6825612100d284f8533a8c0e4f86de74875a63"
 }
