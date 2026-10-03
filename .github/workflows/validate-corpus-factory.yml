@@ -22,3 +22,7 @@ jobs:
           python-version: '3.12'
       - run: python corpus-factory/validate_fleet.py
       - run: python corpus-factory/test_validate_fleet.py
+      - name: Validate corpus admission contract against registered repositories
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python combined-ai-skill/scripts/validate_fleet_admission.py
