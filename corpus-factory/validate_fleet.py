@@ -22,10 +22,13 @@ def validate(register, combined):
             errors.append(f"duplicate repo {name}")
         seen.add(name)
     repositories = [m.get("repository", "") for m in combined.get("members", [])]
-    contract_fields = {"individual_skill_path","bundle_index_path","authority_profile_path","validation_path","required_contract","required_skill_version"}
+    contract_fields = {"individual_skill_path","bundle_index_path","authority_profile_path","validation_path","required_contract","required_skill_version","admission"}
     for member in combined.get("members", []):
         missing = sorted(k for k in contract_fields if not member.get(k))
         if missing: errors.append(f"fleet contract missing {missing} for {member.get('repository')}")
+        admission=member.get("admission",{})
+        if admission.get("status")!="PASS": errors.append(f"fleet admission not PASS for {member.get('repository')}")
+        if admission.get("contract")!="corpus-factory/CORPUS-ADMISSION-CONTRACT.md": errors.append(f"wrong admission contract for {member.get('repository')}")
     if not repositories or any(not name.startswith("hawkinsnick/") for name in repositories):
         errors.append("invalid or empty Combined AI corpus membership")
     if len(repositories) != len(set(repositories)):
