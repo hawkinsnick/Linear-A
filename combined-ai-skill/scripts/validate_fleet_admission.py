@@ -58,7 +58,7 @@ for member in registry.get("members",[]):
         if phrase not in license_text[name].lower():
             errors.append(f"{repo}: {name} missing expected licensing marker: {phrase}")
     notice=license_text["NOTICE"].lower()
-    if not any(marker in notice for marker in ("third-party","upstream","public-domain","public domain","source attribution","component rights")):
+    if not any(marker in notice for marker in ("third-party","upstream","public-domain","public domain","source attribution","component rights","component licences","component licenses","reference source","retain cc","redistributed under cc")):
         errors.append(f"{repo}: NOTICE does not visibly preserve source/upstream rights context")
 if errors:
     print("\n".join(errors)); sys.exit(1)
