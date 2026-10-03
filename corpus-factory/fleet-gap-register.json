@@ -100,22 +100,22 @@
     {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
-      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery; Lydian catalog label collision for source IDs 0/22/23 remains unresolved",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available",
+      "top_gap": "complete primary-edition acquisition and collation, object/inventory reconciliation and scoped independent review",
       "status_source": "analysis/current-status.json"
     },
     {
       "repo": "Sidetic",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
-      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available",
+      "top_gap": "complete primary-edition acquisition and collation, object/inventory reconciliation and scoped independent review",
       "status_source": "analysis/current-status.json"
     },
     {
       "repo": "Pisidian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
-      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available",
+      "top_gap": "complete primary-edition acquisition and collation, object/inventory reconciliation and scoped independent review",
       "status_source": "analysis/current-status.json"
     }
   ],

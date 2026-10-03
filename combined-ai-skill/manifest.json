@@ -1,6 +1,6 @@
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",
@@ -27,5 +27,6 @@
   "ci_validation": ".github/workflows/sync-ai-skill.yml",
   "researcher_entrypoint": "combined-ai-skill/START-HERE.md",
   "starter_download": "combined-ai-skill/downloads/Combined-Corpus-Research-Starter.txt",
-  "starter_builder": "combined-ai-skill/scripts/build_starter.py"
+  "starter_builder": "combined-ai-skill/scripts/build_starter.py",
+  "expert_review_guide": "combined-ai-skill/EXPERT-REVIEW.md"
 }

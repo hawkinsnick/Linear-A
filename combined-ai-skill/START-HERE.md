@@ -74,3 +74,7 @@ This directory covers the corpus collection, including the Egyptian Hieroglyphic
 ## Platform guidance
 
 The instructions are vendor-neutral. Use your assistant's supported file/context controls and the same access-check prompt. Product details change; current ChatGPT guidance is available in [Projects and chats](https://learn.chatgpt.com/docs/projects) and [Use ChatGPT](https://learn.chatgpt.com/docs/use-chatgpt) (checked 2 October 2026).
+
+## Prepare expert validation
+
+Use the [expert review guide](EXPERT-REVIEW.md) to select records and prepare a source-bound request. Lydian, Sidetic and Pisidian have individual review pages you can browse without installing software. The guide explains what reviewers should assess and which evidence is still pending.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.8.0",
+  "registry_version": "1.9.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -406,7 +406,7 @@
     {
       "repository": "hawkinsnick/Lydian",
       "label": "Lydian",
-      "status": "source-attributed digital reference; edition/object collation pending",
+      "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
@@ -428,13 +428,19 @@
         "individual_ai_skill": true,
         "master_ai_member": true,
         "checked_on": "2026-10-03",
-        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
-      }
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.1."
+      },
+      "review_directory_path": "review/README.md",
+      "review_manifest_path": "review/handoff-manifest.json",
+      "review_packets_path": "review/packets.json",
+      "source_checks_path": "research/source-checks.json",
+      "review_validator_path": "scripts/validate_review.py",
+      "native_version": "0.3.1"
     },
     {
       "repository": "hawkinsnick/Sidetic",
       "label": "Sidetic",
-      "status": "source-attributed digital reference; edition/object collation pending",
+      "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
@@ -456,13 +462,19 @@
         "individual_ai_skill": true,
         "master_ai_member": true,
         "checked_on": "2026-10-03",
-        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
-      }
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
+      },
+      "review_directory_path": "review/README.md",
+      "review_manifest_path": "review/handoff-manifest.json",
+      "review_packets_path": "review/packets.json",
+      "source_checks_path": "research/source-checks.json",
+      "review_validator_path": "scripts/validate_review.py",
+      "native_version": "0.3.0"
     },
     {
       "repository": "hawkinsnick/Pisidian",
       "label": "Pisidian",
-      "status": "source-attributed digital reference; edition/object collation pending",
+      "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
@@ -484,8 +496,14 @@
         "individual_ai_skill": true,
         "master_ai_member": true,
         "checked_on": "2026-10-03",
-        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
-      }
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
+      },
+      "review_directory_path": "review/README.md",
+      "review_manifest_path": "review/handoff-manifest.json",
+      "review_packets_path": "review/packets.json",
+      "source_checks_path": "research/source-checks.json",
+      "review_validator_path": "scripts/validate_review.py",
+      "native_version": "0.3.0"
     }
   ],
   "corpus_factory": {

@@ -13,6 +13,7 @@ SOURCE_PATHS = (
     "combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
     "combined-ai-skill/QUICKSTART.md", "combined-ai-skill/README.md",
     "combined-ai-skill/SKILL.md", "combined-ai-skill/manifest.json",
+    "combined-ai-skill/EXPERT-REVIEW.md",
     "combined-ai-skill/registry/corpus-projects.json",
     "combined-ai-skill/references/comparability-matrix.md",
     "combined-ai-skill/references/fleet-benchmark.md",
@@ -76,7 +77,7 @@ def build(root=ROOT):
               "Directory summaries are snapshot routing metadata, not current independently checked inscription facts.\n"
               "If a required member file cannot be accessed, identify what is missing and help select the next files.\n\n")
     order = ["combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
-             "combined-ai-skill/SKILL.md", "combined-ai-skill/CORPUS-DOWNLOADS.md",
+             "combined-ai-skill/SKILL.md", "combined-ai-skill/EXPERT-REVIEW.md", "combined-ai-skill/CORPUS-DOWNLOADS.md",
              "combined-ai-skill/registry/corpus-projects.json",
              "combined-ai-skill/references/comparability-matrix.md",
              "combined-ai-skill/references/fleet-benchmark.md",
@@ -102,7 +103,7 @@ def build(root=ROOT):
                      "QUICKSTART.md": sources["combined-ai-skill/QUICKSTART.md"],
                      "downloads/README.md": download_readme.encode(),
                      "CORPUS-DOWNLOADS.md": sources["combined-ai-skill/CORPUS-DOWNLOADS.md"],
-                     "PROMPTS.md": sources["combined-ai-skill/PROMPTS.md"], "starter-manifest.json": index_bytes,
+                     "PROMPTS.md": sources["combined-ai-skill/PROMPTS.md"], "EXPERT-REVIEW.md": sources["combined-ai-skill/EXPERT-REVIEW.md"], "starter-manifest.json": index_bytes,
                      **{"source-files/" + path: data for path, data in sources.items()},
                      "source-files/combined-ai-skill/downloads/README.md": download_readme.encode()}
     archive = io.BytesIO()
