@@ -55,3 +55,15 @@ The architecture enforces corpus-native evidence authority, explicit cross-corpu
 Run `python combined-ai-skill/scripts/validate.py` from the repository root for structural validation. Individual projects must additionally pass their own AI bundle validators. A Combined structural PASS never substitutes for member validation or scholarly review.
 
 Maintainers can rebuild the starter with `python combined-ai-skill/scripts/build_starter.py --write` and verify it with `--check`. The starter workflow also publishes an immutable ZIP for each instruction snapshot; it does not package member corpus data.
+
+
+## Corpus admission
+
+A new corpus is not fleet-integrated merely because a repository exists. It must pass the [Corpus Fleet Admission Contract](../corpus-factory/CORPUS-ADMISSION-CONTRACT.md):
+
+1. component-specific licensing architecture with upstream rights preserved;
+2. an individual corpus AI skill, research-bundle index, authority profile, and validator;
+3. explicit membership in the master registry; and
+4. structural plus live cross-repository admission validation.
+
+No new corpus is promoted to 1.0.0 before all four gates pass. The live admission validator checks the current `main` tree of every registered repository rather than trusting registry declarations alone.
