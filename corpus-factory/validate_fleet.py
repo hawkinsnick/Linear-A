@@ -55,7 +55,7 @@ def main():
     if errors:
         print("\n".join(errors))
         return 1
-    print(f"PASS: {len(register['members'])} corpus projects; fleet/master parity and AI contract fields validated; separate projects excluded")
+    print(f"PASS: {len(register['members'])} corpus projects; fleet/master parity and AI contract fields validated; non-corpus projects excluded")
     return 0
 
 
