@@ -9,8 +9,8 @@
   "comparability_contract": "combined-ai-skill/references/comparability-matrix.md",
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
-  "member_count": 14,
-  "expansion_policy": "New corpus projects may be added by registry entry after providing an individual corpus skill and shared research contract.",
+  "member_count": 15,
+  "expansion_policy": "New corpus projects must pass fleet admission: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and validation.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",
