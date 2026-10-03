@@ -20,7 +20,8 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Anatolian Hieroglyphic | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
 | Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
 | Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
+| Egyptian Hieroglyphic | [Open](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus) | [Download](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
-Egyptian-Hieroglyphic-Corpus and LightroomIsSlow are outside this directory.
+The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its future camera/OCR application remains separate. LightroomIsSlow is outside this directory.

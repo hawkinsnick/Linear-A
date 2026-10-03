@@ -1,8 +1,8 @@
 COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.2.0
-Registered corpus projects: 14
-Instruction snapshot SHA-256: a5e03e59559d00152d2f560b58b202103a94c7053389813f2dcd76ec3fd31d7c
+Registered corpus projects: 15
+Instruction snapshot SHA-256: 19164b4d19743fe2524d304f887e518998e58bbce206ee960cb25e3d81a2ba6e
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -10,7 +10,7 @@ Directory summaries are snapshot routing metadata, not current independently che
 If a required member file cannot be accessed, identify what is missing and help select the next files.
 
 === SOURCE FILE: combined-ai-skill/START-HERE.md ===
-SHA-256: 66c36ab099f051e54b17952ba88789df9e373c41845b66e1ad7551533557b91e
+SHA-256: e15623e67b4f6198a7e14168eba40ed2cb2ab9fff9c5e137c81fb032e5440ee9
 
 # Start with the Combined Corpus Research AI
 
@@ -83,7 +83,7 @@ Cite the underlying corpus and publication for research claims, with the version
 
 The included licensing notices describe the project-original starter material. Member corpora and upstream sources retain their own terms. Follow your institution's policies when uploading unpublished, personal, or otherwise restricted research material to an AI service.
 
-This directory covers the language corpus collection. The Egyptian hieroglyphs camera/image project and LightroomIsSlow are separate projects.
+This directory covers the corpus collection, including the Egyptian Hieroglyphic Corpus as a comparative/control member. A future Egyptian camera/OCR application is a separate software product and must not be treated as scholarly corpus authority. LightroomIsSlow is separate from the corpus fleet.
 
 ## Platform guidance
 
@@ -214,7 +214,7 @@ Anatolian Hieroglyphic is a comparative control, Archanes is an early-Cretan dis
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: 42a7186f67996bd4f0c515edb424a1f6f898aa82abfbae9ce2d7c826616eb265
+SHA-256: 3ef07683078636c89b47ebf23847a2f9e75e702ea9739e8fa803fb812cabf748
 
 # Corpus downloads
 
@@ -238,19 +238,20 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Anatolian Hieroglyphic | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
 | Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
 | Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
+| Egyptian Hieroglyphic | [Open](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus) | [Download](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
-Egyptian-Hieroglyphic-Corpus and LightroomIsSlow are outside this directory.
+The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its future camera/OCR application remains separate. LightroomIsSlow is outside this directory.
 
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: ac0a698322a385b97ff2f1de0c93b1e4177924dbb1eaec4e8d83d2b8b68d63bf
+SHA-256: 960a1cc1555851b6f8f02e332827d139f283f76d9c7f0f57adb0229769aacc8c
 
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.5.0",
+  "registry_version": "1.6.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -441,6 +442,22 @@ SHA-256: ac0a698322a385b97ff2f1de0c93b1e4177924dbb1eaec4e8d83d2b8b68d63bf
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "validation_path": "tests/test_integrity.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+    },
+    {
+      "id": "egyptian_hieroglyphic",
+      "repository": "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
+      "relationship": "Egyptian hieroglyphic comparative and computer-vision control; no Aegean genetic relationship implied",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; no verified sign annotations, transcriptions, transliterations, or translations yet.",
+      "label": "Egyptian Hieroglyphic",
+      "status": "deciphered comparative/control corpus; current repository layer is pre-annotation image acquisition",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "MACHINE_WORK_ACTIVE"
     }
   ],
   "corpus_factory": {
@@ -511,7 +528,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: e8c5517c64467755b082203c7a2e6d47031e6d8cb77b2e2c2fa323a231491385
+SHA-256: c74d3ff60945d3297d4c9f149c5c3a2756e31371cd6b9ac03885424a2e4a46a7
 
 {
   "schema_version": "1.0",
@@ -604,6 +621,13 @@ SHA-256: e8c5517c64467755b082203c7a2e6d47031e6d8cb77b2e2c2fa323a231491385
       "coverage_state": "Arkalochori and Malia anchors; attributed classification and counting disagreements; not one language or writing system",
       "top_gap": "primary-source completion and neutral sign geometry",
       "status_source": "research/pre-expert-gate-summary.json"
+    },
+    {
+      "repo": "Egyptian-Hieroglyphic-Corpus",
+      "evidence_depth": "OPEN_IMAGE_PRE_ANNOTATION",
+      "coverage_state": "25 objects; 32 rights-verified museum images; 0 verified sign annotations/readings",
+      "top_gap": "source-checked sign-region annotations and reusable authoritative reading layer",
+      "status_source": "research/pre-expert-maximum.json"
     }
   ],
   "required_capabilities": [
@@ -616,14 +640,13 @@ SHA-256: e8c5517c64467755b082203c7a2e6d47031e6d8cb77b2e2c2fa323a231491385
     "independence_tracking",
     "reproducible_validation",
     "ai_authority_profile",
-    "correction_history"
+    "correction_history",
+    "licensing_architecture",
+    "individual_ai_skill",
+    "master_ai_registration"
   ],
   "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts.",
   "excluded_projects": [
-    {
-      "repo": "Egyptian-Hieroglyphic-Corpus",
-      "reason": "Independent Egyptian image/camera project; outside the language corpus fleet and Combined AI."
-    },
     {
       "repo": "LightroomIsSlow",
       "reason": "Independent photography performance project; outside the language corpus fleet and Combined AI."
@@ -778,7 +801,7 @@ This workflow is intentionally conservative. A scientifically meaningful BLOCKED
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/manifest.json ===
-SHA-256: 3bdf79702cf5ee09ff44638d357fa478d8767d123d7d0990f6ac4b834ee1228b
+SHA-256: 62049d02fc1eb161f49e5df118944a7c77eef3602d510946083edddba244cb39
 
 {
   "name": "Combined Corpus Research AI",
@@ -791,8 +814,8 @@ SHA-256: 3bdf79702cf5ee09ff44638d357fa478d8767d123d7d0990f6ac4b834ee1228b
   "comparability_contract": "combined-ai-skill/references/comparability-matrix.md",
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
-  "member_count": 14,
-  "expansion_policy": "New corpus projects may be added by registry entry after providing an individual corpus skill and shared research contract.",
+  "member_count": 15,
+  "expansion_policy": "New corpus projects must pass fleet admission: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and validation.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",

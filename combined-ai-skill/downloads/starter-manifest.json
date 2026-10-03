@@ -2,11 +2,11 @@
   "format": "combined-corpus-research-starter-v1",
   "starter_version": "1.0.0",
   "master_skill_version": "1.2.0",
-  "registry_version": "1.5.0",
-  "member_count": 14,
+  "registry_version": "1.6.0",
+  "member_count": 15,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "b4788d5c30e6e4830b9b6362960a9997ad92fbfe8ec9dc9a723b6512d505ca95",
+  "build_script_sha256": "f8f07070a590a6060edf3eb25c32bf4d42bf13e3eb0004b8f98ad8f1c41462a3",
   "source_files": [
     {
       "path": "LICENSE",
@@ -30,8 +30,8 @@
     },
     {
       "path": "combined-ai-skill/CORPUS-DOWNLOADS.md",
-      "sha256": "42a7186f67996bd4f0c515edb424a1f6f898aa82abfbae9ce2d7c826616eb265",
-      "bytes": 4281
+      "sha256": "3ef07683078636c89b47ebf23847a2f9e75e702ea9739e8fa803fb812cabf748",
+      "bytes": 4672
     },
     {
       "path": "combined-ai-skill/PROMPTS.md",
@@ -55,13 +55,13 @@
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
-      "sha256": "66c36ab099f051e54b17952ba88789df9e373c41845b66e1ad7551533557b91e",
-      "bytes": 7710
+      "sha256": "e15623e67b4f6198a7e14168eba40ed2cb2ab9fff9c5e137c81fb032e5440ee9",
+      "bytes": 7866
     },
     {
       "path": "combined-ai-skill/manifest.json",
-      "sha256": "3bdf79702cf5ee09ff44638d357fa478d8767d123d7d0990f6ac4b834ee1228b",
-      "bytes": 1418
+      "sha256": "62049d02fc1eb161f49e5df118944a7c77eef3602d510946083edddba244cb39",
+      "bytes": 1493
     },
     {
       "path": "combined-ai-skill/references/comparability-matrix.md",
@@ -75,13 +75,13 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "ac0a698322a385b97ff2f1de0c93b1e4177924dbb1eaec4e8d83d2b8b68d63bf",
-      "bytes": 11630
+      "sha256": "960a1cc1555851b6f8f02e332827d139f283f76d9c7f0f57adb0229769aacc8c",
+      "bytes": 12741
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "e8c5517c64467755b082203c7a2e6d47031e6d8cb77b2e2c2fa323a231491385",
-      "bytes": 4520
+      "sha256": "c74d3ff60945d3297d4c9f149c5c3a2756e31371cd6b9ac03885424a2e4a46a7",
+      "bytes": 4816
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -89,5 +89,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "a5e03e59559d00152d2f560b58b202103a94c7053389813f2dcd76ec3fd31d7c"
+  "snapshot_sha256": "19164b4d19743fe2524d304f887e518998e58bbce206ee960cb25e3d81a2ba6e"
 }
