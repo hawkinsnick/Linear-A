@@ -80,7 +80,7 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "df159a2e254282c8f2e901c21e68dd3d189caa8d5250d16a98a830ed3ca410fc",
+      "sha256": "d4df10fa0b15f4852fe893907ff30c5f09a5031a7b10bfc040541a54efc62016",
       "bytes": 23967
     },
     {
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "4d35f912503c63e9ab575e501d1a15058cd56e0abaa31c0ef7a2bee36da091c8"
+  "snapshot_sha256": "f017d32b2e3d2ba0a23ac1ddea747e564264acfca3dcd7e2ef998a6fe7ab2262"
 }

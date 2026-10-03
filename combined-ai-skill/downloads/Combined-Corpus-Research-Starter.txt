@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.5.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 4d35f912503c63e9ab575e501d1a15058cd56e0abaa31c0ef7a2bee36da091c8
+Instruction snapshot SHA-256: f017d32b2e3d2ba0a23ac1ddea747e564264acfca3dcd7e2ef998a6fe7ab2262
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -291,7 +291,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: df159a2e254282c8f2e901c21e68dd3d189caa8d5250d16a98a830ed3ca410fc
+SHA-256: d4df10fa0b15f4852fe893907ff30c5f09a5031a7b10bfc040541a54efc62016
 
 {
   "schema_version": "1.0.0",
@@ -723,14 +723,14 @@ SHA-256: df159a2e254282c8f2e901c21e68dd3d189caa8d5250d16a98a830ed3ca410fc
         "individual_ai_skill": true,
         "master_ai_member": true,
         "checked_on": "2026-10-03",
-        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.1."
       },
       "review_directory_path": "review/README.md",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
-      "native_version": "0.3.0"
+      "native_version": "0.3.1"
     },
     {
       "repository": "hawkinsnick/Sidetic",
