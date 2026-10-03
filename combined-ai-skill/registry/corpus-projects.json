@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.8.0",
+  "registry_version": "2.0.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -438,7 +438,7 @@
         "checked_on": "2026-10-03",
         "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.1."
       },
-      "review_directory_path": "review/README.md",
+      "review_directory_path": "review",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
@@ -473,7 +473,7 @@
         "checked_on": "2026-10-03",
         "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
       },
-      "review_directory_path": "review/README.md",
+      "review_directory_path": "review",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
@@ -508,7 +508,7 @@
         "checked_on": "2026-10-03",
         "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
       },
-      "review_directory_path": "review/README.md",
+      "review_directory_path": "review",
       "review_manifest_path": "review/handoff-manifest.json",
       "review_packets_path": "review/packets.json",
       "source_checks_path": "research/source-checks.json",
