@@ -1,8 +1,8 @@
 COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
-Master instruction version: 1.2.0
-Registered corpus projects: 15
-Instruction snapshot SHA-256: 8ee416aa241dce01aa634075cf66ecb797633900b4d87cd9ff6676b6e9636f35
+Master instruction version: 1.4.0
+Registered corpus projects: 18
+Instruction snapshot SHA-256: 6b3d93f3cab9f43f8165b41f90b422302daf063736405560010c5aadbaa61143
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -137,15 +137,15 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 1878a028c5e8b8b45895cdb1334b1d02e51b552cdfaa8a67f4d0bb11d1c8635e
+SHA-256: 0c05b55845d40bc19ee7b9e510f19050e3e8bc79cc497ea689b7b173ce83d2f9
 
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.2.0
+version: 1.4.0
 ---
 
-# Combined Corpus Research AI — 1.2
+# Combined Corpus Research AI — 1.4
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
 
@@ -211,10 +211,13 @@ When a registered member exposes `pre_expert_maximum_path`, consult that artifac
 ## New comparative members
 Anatolian Hieroglyphic is a comparative control, Archanes is an early-Cretan disagreement-aware corpus, and Aegean Anomalous is a neutral quarantine layer. Never use their co-registration to imply common language, sign identity, descent or decipherment.
 
+## Lydian, Sidetic and Pisidian reference routing
+Treat these new members as attributed eDiAna digital reference layers until their native gates admit primary-edition/object verification. Count source document IDs separately from response grouping titles and physical objects; labels may collide, and ID zero is valid. Preserve source headings, uncertainty, edition references and response row pointers. Source grammar and language assignments remain source assertions. The source snapshots and derived reference records retain CC BY-SA 4.0; project-original noncommercial terms do not override upstream permissions. Shared eDiAna/edition lineage does not provide independent replication across projects.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: 3ef07683078636c89b47ebf23847a2f9e75e702ea9739e8fa803fb812cabf748
+SHA-256: 132c1a89fe315a9472dc48fa6a579b3e1cea7d24c7fe241bf157e32c66dd7923
 
 # Corpus downloads
 
@@ -239,6 +242,9 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
 | Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
 | Egyptian Hieroglyphic | [Open](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus) | [Download](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/blob/main/ai-skill/SKILL.md) |
+| Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
+| Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
+| Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
@@ -247,11 +253,11 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 47929505976a5df3adf9a0e405ef7ef49e4be0ddde1ed6c36553c8328c5c2b54
+SHA-256: c17f071d14715924a4f11ef1ed8d3e77c3d95d2de1492632af675c2579184ac5
 
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.7.0",
+  "registry_version": "1.8.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -653,6 +659,90 @@ SHA-256: 47929505976a5df3adf9a0e405ef7ef49e4be0ddde1ed6c36553c8328c5c2b54
         "individual_ai_skill": true,
         "master_ai_member": true
       }
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "label": "Lydian",
+      "status": "source-attributed digital reference; edition/object collation pending",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
+      }
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "label": "Sidetic",
+      "status": "source-attributed digital reference; edition/object collation pending",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
+      }
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "label": "Pisidian",
+      "status": "source-attributed digital reference; edition/object collation pending",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
+      }
     }
   ],
   "corpus_factory": {
@@ -723,12 +813,12 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: f75c9f34f2e474e68e1c057c68848db2341b40fa88fc43c18b1c5c12946c3221
+SHA-256: 533c3fa9c600530944f2a568c2221a2d04215b10bb1fd764246aa3b00d857b3e
 
 {
   "schema_version": "1.0",
   "benchmark": "Linear-A governance/reproducibility parity",
-  "checked": "2026-10-02",
+  "checked": "2026-10-03",
   "members": [
     {
       "repo": "Linear-A",
@@ -823,6 +913,27 @@ SHA-256: f75c9f34f2e474e68e1c057c68848db2341b40fa88fc43c18b1c5c12946c3221
       "coverage_state": "25 objects / 32 rights-verified museum images; individual AI skill + master membership complete; 0 verified sign annotations/readings",
       "top_gap": "source-checked sign-region annotation and authoritative reusable reading/sign-list concordance layer",
       "status_source": "research/pre-expert-maximum.json"
+    },
+    {
+      "repo": "Lydian",
+      "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
+      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery; Lydian catalog label collision for source IDs 0/22/23 remains unresolved",
+      "status_source": "analysis/current-status.json"
+    },
+    {
+      "repo": "Sidetic",
+      "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
+      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery",
+      "status_source": "analysis/current-status.json"
+    },
+    {
+      "repo": "Pisidian",
+      "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects",
+      "top_gap": "primary-edition/object identity reconciliation, source reading checks and later-source discovery",
+      "status_source": "analysis/current-status.json"
     }
   ],
   "required_capabilities": [
@@ -838,7 +949,8 @@ SHA-256: f75c9f34f2e474e68e1c057c68848db2341b40fa88fc43c18b1c5c12946c3221
     "correction_history",
     "licensing_architecture",
     "individual_ai_skill",
-    "master_ai_registration"
+    "master_ai_registration",
+    "component_specific_licensing"
   ],
   "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts.",
   "excluded_projects": [
@@ -996,11 +1108,11 @@ This workflow is intentionally conservative. A scientifically meaningful BLOCKED
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/manifest.json ===
-SHA-256: 62049d02fc1eb161f49e5df118944a7c77eef3602d510946083edddba244cb39
+SHA-256: 306ecb1c2bc0beaf9b3445ca609d9585e2d417b1fc8b1a2218d4c7c742a4b664
 
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",
@@ -1009,8 +1121,8 @@ SHA-256: 62049d02fc1eb161f49e5df118944a7c77eef3602d510946083edddba244cb39
   "comparability_contract": "combined-ai-skill/references/comparability-matrix.md",
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
-  "member_count": 15,
-  "expansion_policy": "New corpus projects must pass fleet admission: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and validation.",
+  "member_count": 18,
+  "expansion_policy": "New corpus projects are admitted only after component-specific licensing, an individual corpus AI skill, validation, and master registry integration.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",

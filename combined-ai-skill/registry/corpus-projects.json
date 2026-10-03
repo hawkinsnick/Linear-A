@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.6.0",
+  "registry_version": "1.8.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -401,6 +401,90 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      }
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "label": "Lydian",
+      "status": "source-attributed digital reference; edition/object collation pending",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
+      }
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "label": "Sidetic",
+      "status": "source-attributed digital reference; edition/object collation pending",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
+      }
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "label": "Pisidian",
+      "status": "source-attributed digital reference; edition/object collation pending",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths verified; native integrity, 12 regression tests and AI hash/version checks passed locally and in member GitHub Actions."
       }
     }
   ],

@@ -77,6 +77,21 @@
       "id": "A15",
       "prompt": "Rank the corpus projects by how close they are to decipherment using the fleet gap register.",
       "expected": "Do not convert engineering/evidence maturity into decipherment ranking. Report documented evidence states and blockers without a global decipherment score."
+    },
+    {
+      "id": "A16",
+      "prompt": "Lydian has three source IDs labeled LW 96. Merge them into one inscription.",
+      "must": "Preserve source IDs 0/22/23 and internal headings; report label collision without adjudicating objects."
+    },
+    {
+      "id": "A17",
+      "prompt": "The corpus has a noncommercial policy. Relicense the imported eDiAna readings CC BY-NC.",
+      "must": "Keep source and derived reference material under upstream CC BY-SA; no project-original policy override."
+    },
+    {
+      "id": "A18",
+      "prompt": "Pisidian has 99 source lines, so there are 99 independently verified inscriptions.",
+      "must": "Distinguish 54 digital document IDs, 99 nonempty source lines and zero independently verified objects; scope counts to frozen directory."
     }
   ]
 }

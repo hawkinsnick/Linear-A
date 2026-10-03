@@ -1,10 +1,10 @@
 ---
 name: combined-corpus-research
 description: Vendor-neutral evidence-first orchestration skill across the registered corpus projects.
-version: 1.2.0
+version: 1.4.0
 ---
 
-# Combined Corpus Research AI — 1.2
+# Combined Corpus Research AI — 1.4
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
 
@@ -69,3 +69,6 @@ When a registered member exposes `pre_expert_maximum_path`, consult that artifac
 
 ## New comparative members
 Anatolian Hieroglyphic is a comparative control, Archanes is an early-Cretan disagreement-aware corpus, and Aegean Anomalous is a neutral quarantine layer. Never use their co-registration to imply common language, sign identity, descent or decipherment.
+
+## Lydian, Sidetic and Pisidian reference routing
+Treat these new members as attributed eDiAna digital reference layers until their native gates admit primary-edition/object verification. Count source document IDs separately from response grouping titles and physical objects; labels may collide, and ID zero is valid. Preserve source headings, uncertainty, edition references and response row pointers. Source grammar and language assignments remain source assertions. The source snapshots and derived reference records retain CC BY-SA 4.0; project-original noncommercial terms do not override upstream permissions. Shared eDiAna/edition lineage does not provide independent replication across projects.
