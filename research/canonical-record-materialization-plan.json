@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-03",
+  "purpose": "Define canonical record materialization without opening the sealed 3.1 prospective experiment.",
+  "authenticated_input": {
+    "source": "SigLA snapshot",
+    "license": "CC BY-NC-SA 4.0",
+    "document_count": 802,
+    "attestation_count": 5144,
+    "source_word_groups": 1401,
+    "raw_distribution": "excluded from safe package"
+  },
+  "target_tables": [
+    {
+      "path": "data/inscriptions.csv",
+      "key": "document_id",
+      "minimum_lineage": [
+        "source_id",
+        "source_record",
+        "source_url",
+        "source_license",
+        "provenance_id"
+      ]
+    },
+    {
+      "path": "data/sign_occurrences.csv",
+      "key": "occurrence_id",
+      "minimum_lineage": [
+        "document_id",
+        "sequence_index",
+        "sign_id",
+        "source_id",
+        "source_record",
+        "source_license",
+        "provenance_id"
+      ]
+    },
+    {
+      "path": "data/provenance.csv",
+      "key": "provenance_id",
+      "minimum_lineage": [
+        "source_id",
+        "source_record",
+        "source_version",
+        "license",
+        "transformation"
+      ]
+    },
+    {
+      "path": "data/document_site_mapping.csv",
+      "key": "document_id",
+      "minimum_lineage": [
+        "site evidence/source"
+      ]
+    }
+  ],
+  "rules": [
+    "Materialization may use only authenticated source-derived fields and project transformations.",
+    "Do not infer phonetic Linear A values from Linear B correspondences.",
+    "Preserve uncertainty/erasure/ghost/variant information where source supplies it.",
+    "Do not redistribute raw upstream payload when repository rights policy excludes it.",
+    "Do not inspect or score sealed prospective outcomes during materialization."
+  ],
+  "status": "READY_FOR_IMPLEMENTATION"
+}
