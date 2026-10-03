@@ -69,7 +69,7 @@ Cite the underlying corpus and publication for research claims, with the version
 
 The included licensing notices describe the project-original starter material. Member corpora and upstream sources retain their own terms. Follow your institution's policies when uploading unpublished, personal, or otherwise restricted research material to an AI service.
 
-This directory covers the language corpus collection. The Egyptian hieroglyphs camera/image project and LightroomIsSlow are separate projects.
+This directory covers the corpus collection, including the Egyptian Hieroglyphic Corpus as a comparative/control member. A future Egyptian camera/OCR application is a separate software product and must not be treated as scholarly corpus authority. LightroomIsSlow is separate from the corpus fleet.
 
 ## Platform guidance
 
