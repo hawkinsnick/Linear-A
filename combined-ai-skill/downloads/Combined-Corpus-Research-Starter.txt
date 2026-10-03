@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.5.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: f017d32b2e3d2ba0a23ac1ddea747e564264acfca3dcd7e2ef998a6fe7ab2262
+Instruction snapshot SHA-256: d1d3d8b744c02b407112f253c3930dc3ccfdb1bbbb85ee2b784b7e38d04bb906
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 9a966688931556a32c5953e41132facd1f4537e3f1443a46400c332f19eb75c3
+SHA-256: 6f65046d2394f70a2d4550e59178cfac8b1106865019489253827990368ab56c
 
 ---
 name: combined-corpus-research
@@ -222,6 +222,10 @@ For Lydian, Sidetic and Pisidian, consult `analysis/record-admission.json`, `res
 
 ## Collection expert validation handoff
 Read `EXPERT-REVIEW.md` when preparing specialist validation. For members exposing `review_manifest_path`, read the current manifest and selected record packets before drafting a request. Bind requests to the evidence fingerprint and record hashes. Cite source inspections separately from independent reviews; disclose missing edition locators and access barriers. Preserve reviewer decisions by dimension. Do not fabricate reviewer identity, treat structural validation as authenticated expertise, or auto-admit evidence. Other members retain their native review protocols; do not assume the new three-member packet format exists fleet-wide.
+## Linear A / Linear B pre-expert handoff
+Read each member's `analysis/pre-expert-source-audit.json`, `docs/PRE-EXPERT-HANDOFF.md`, and `research/linear-a-b-control-interface.json`. Local materialization is distinct from public record admission. Source-record counts are not physical-object counts; source-defined groups are not adjudicated linguistic words. Open source-collation or aligned-gold gates prevent claims of a completed pre-expert ceiling. Continue machine/source work until the native contract records a supported terminal disposition.
+
+For corpus-development work, apply `references/pre-expert-standing-order.md`.
 
 === END SOURCE FILE ===
 
@@ -291,7 +295,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: d4df10fa0b15f4852fe893907ff30c5f09a5031a7b10bfc040541a54efc62016
+SHA-256: 4642a6099ee7809fe21a6627a362f819014a60f2f2cfc77f935704399f14ff85
 
 {
   "schema_version": "1.0.0",
@@ -321,7 +325,11 @@ SHA-256: d4df10fa0b15f4852fe893907ff30c5f09a5031a7b10bfc040541a54efc62016
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802-entry local source layer and audit reproduced. 13 case entries have identified primary pages inspected, HT 17 edition reading 38 checked; expert physical adjudication and SY Zb 7 source access remain.",
+      "source_audit_path": "analysis/pre-expert-source-audit.json",
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -372,7 +380,11 @@ SHA-256: d4df10fa0b15f4852fe893907ff30c5f09a5031a7b10bfc040541a54efc62016
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim.",
+      "source_audit_path": "analysis/pre-expert-source-audit.json",
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglpyhs",
@@ -869,7 +881,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 019a2017845c2396bc566421ac500dd028990f10d891dbd6cc7920d47c46123b
+SHA-256: 3894a3a5a653dd0b93cbd85072d02b8357f23cc821c9e797061fcdf1eda9903a
 
 {
   "schema_version": "1.0",
@@ -879,8 +891,9 @@ SHA-256: 019a2017845c2396bc566421ac500dd028990f10d891dbd6cc7920d47c46123b
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "substantial decoded corpus; prospective/calibration gates remain",
-      "top_gap": "independent prospective/calibration evidence"
+      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups materialized locally; 13 unresolved-case entries have primary edition pages inspected; public aggregate audit and explicit representation gaps",
+      "top_gap": "SY Zb 7 primary image locator, disputed physical readings and independent prospective/calibration evidence",
+      "status_source": "analysis/pre-expert-source-audit.json"
     },
     {
       "repo": "Cypro-Minoan",
@@ -891,8 +904,9 @@ SHA-256: 019a2017845c2396bc566421ac500dd028990f10d891dbd6cc7920d47c46123b
     {
       "repo": "Linear-B",
       "evidence_depth": "HIGH",
-      "coverage_state": "~DAMOS-scale source mapping authenticated",
-      "top_gap": "non-leaky independently justified calibration gold"
+      "coverage_state": "5,932 unchanged source IDs / 5,890 surfaces; complete local identity/missingness register, collision accounting and public aggregate audit",
+      "top_gap": "legitimate aligned linguistic gold export and authoritative graphical occurrence mapping",
+      "status_source": "analysis/pre-expert-source-audit.json"
     },
     {
       "repo": "Cretan-hieroglpyhs",

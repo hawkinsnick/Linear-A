@@ -141,6 +141,73 @@
       "bytes": 732,
       "category": ".github",
       "summary": {}
+    },
+    {
+      "path": "analysis/pre-expert-source-audit.json",
+      "sha256": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
+      "bytes": 4254,
+      "category": "analysis",
+      "summary": {
+        "scope": "Exact authenticated derivative snapshot only; not all surviving inscriptions or physical objects."
+      }
+    },
+    {
+      "path": "research/pre-expert-maximum.json",
+      "sha256": "d17447e756e5c27a06bdd2944f08d3461b1b4c2c95bf9a3e6d688fe3a00ce1bf",
+      "bytes": 4601,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/linear-a-b-control-interface.json",
+      "sha256": "33400a357e5b3953b73d66f35e1674bb514b2f15ef4e02443ce83993ac222d33",
+      "bytes": 1422,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/pre-expert-source-access.json",
+      "sha256": "d235ad6e444e664949a4d29ca7ebe43c148d8d8c7bd2ccc7f39a50251f8b6656",
+      "bytes": 648,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "scripts/build_pre_expert_audit.py",
+      "sha256": "889c90b3ae16afcd94b9f6e51dbdcd750f0e59138ae6fb58beee682190bc33f6",
+      "bytes": 10504,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/test_pre_expert_audit.py",
+      "sha256": "2c359642c4a7434d96dd1e18ed5d15c8c9d11b7bd33ac131500d1cc622c425c3",
+      "bytes": 2525,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/validate_pre_expert_audit.py",
+      "sha256": "52814f2dcdb3975ab0cab1fc02ca08f5a9dac171cfffecef1934550397408e72",
+      "bytes": 1959,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "docs/PRE-EXPERT-HANDOFF.md",
+      "sha256": "e1fec2602ac053eda1492220212b40be9ff2a351f2efa702742a067acc645c89",
+      "bytes": 3602,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "analysis/pre-expert-primary-collation.json",
+      "sha256": "97c299242a89b83abe37d63702f13b2d5bbdebf0566d0697face391ffd438703",
+      "bytes": 21854,
+      "category": "analysis",
+      "summary": {
+        "scope": "15 existing unresolved cases only; no corpus-wide primary verification claim"
+      }
     }
   ],
   "scientific_results": {
