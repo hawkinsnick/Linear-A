@@ -8,7 +8,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
 STARTER = "Combined-Corpus-Research-Starter"
-EXCLUDED = {"hawkinsnick/Egyptian-Hieroglyphic-Corpus", "hawkinsnick/LightroomIsSlow"}
+EXCLUDED = {"hawkinsnick/LightroomIsSlow"}
 SOURCE_PATHS = (
     "combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
     "combined-ai-skill/QUICKSTART.md", "combined-ai-skill/README.md",
@@ -37,7 +37,7 @@ def directory(members):
         url = "https://github.com/" + repo
         lines.append(f"| {member['label']} | [Open]({url}) | [Download]({url}/archive/refs/heads/main.zip) | [Read]({url}/blob/main/{member['individual_skill_path']}) |")
     lines += ["", "Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.", "",
-              "Egyptian-Hieroglyphic-Corpus and LightroomIsSlow are outside this directory.", ""]
+              "The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its future camera/OCR application remains separate. LightroomIsSlow is outside this directory.", ""]
     return "\n".join(lines)
 
 
