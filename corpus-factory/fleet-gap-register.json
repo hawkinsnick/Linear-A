@@ -111,7 +111,8 @@
     "correction_history",
     "licensing_architecture",
     "individual_ai_skill",
-    "master_ai_registration"
+    "master_ai_registration",
+    "component_specific_licensing"
   ],
   "rule": "Parity is rigor and traceability under surviving evidence, never equal row counts.",
   "excluded_projects": [
