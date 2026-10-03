@@ -1,6 +1,6 @@
 {
   "name": "Combined Corpus Research AI",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "canonical_data": "member corpus projects",

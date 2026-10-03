@@ -23,7 +23,7 @@ for member in registry.get("members",[]):
     skill_paths={member.get("individual_skill_path"),member.get("bundle_index_path"),member.get("authority_profile_path"),member.get("validation_path")}
     if None in skill_paths or "" in skill_paths:
         errors.append(f"{repo}: incomplete individual AI skill declaration"); continue
-    for key in ["review_directory_path","review_manifest_path","review_packets_path","source_checks_path","review_validator_path"]:
+    for key in ["review_directory_path","review_manifest_path","review_packets_path","source_checks_path","source_worklist_path","review_validator_path"]:
         if member.get(key):skill_paths.add(member[key])
     try: paths=tree(repo)
     except Exception as exc:
