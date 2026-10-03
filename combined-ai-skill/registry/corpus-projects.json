@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "registry_version": "1.6.0",
+  "registry_version": "1.7.0",
   "name": "Corpus Projects Registry",
   "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
   "members": [
@@ -13,7 +13,20 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -27,7 +40,20 @@
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
       "current_gate": "PRE_EXPERT_MAXIMUM contract active; partial occurrence coverage is tracked in the native current-status and occurrence-coverage artifacts; frequency and cross-script phonetic claims remain blocked",
-      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -38,7 +64,20 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglpyhs",
@@ -51,7 +90,20 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities and existing canonical source pilot remain, while INSCRIBE now reopens direct CHIC-linked object/transnumeration acquisition for #202/#252/#313/#315/#328 pending canonical ingestion."
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities and existing canonical source pilot remain, while INSCRIBE now reopens direct CHIC-linked object/transnumeration acquisition for #202/#252/#313/#315/#328 pending canonical ingestion.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -62,7 +114,20 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
@@ -75,7 +140,20 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; conventional 14-label corpus genealogy now institutionally grounded as Dunand 1945 ten + 1978 four, with h/j possible same-stela caution; 15-count discrepancy and verified sequences remain open."
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; conventional 14-label corpus genealogy now institutionally grounded as Dunand 1945 ten + 1978 four, with h/j possible same-stela caution; 15-count discrepancy and verified sequences remain open.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -88,7 +166,20 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; frozen IG XV 1 snapshot is reproducible while expansion sources and concordances remain non-expert work"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; frozen IG XV 1 snapshot is reproducible while expansion sources and concordances remain non-expert work",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -101,7 +192,20 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; source expansion and concordance precede human language/readings adjudication"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; source expansion and concordance precede human language/readings adjudication",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -115,7 +219,20 @@
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
       "current_gate": "PRE_EXPERT_MAXIMUM contract active; Dreros 2 primary BCH inspected and Dreros 1 now has a near-primary Lejeune critical witness reproducing Van Effenterre layout/uncertainties; original facsimile, Praisos collation and Azoria discovery remain.",
-      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -128,7 +245,20 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 453-record eDiAna snapshot precedes object concordance and edition comparison"
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 453-record eDiAna snapshot precedes object concordance and edition comparison",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -142,7 +272,20 @@
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
       "current_gate": "PRE_EXPERT_MAXIMUM / DISCOVERY_FRONTIER_REOPENED: 162 UD-linked TM IDs are a seed layer against TM's 536-attestation Phrygian benchmark; broader identity enumeration, edition lineage and source-level reconciliation remain.",
-      "pre_expert_maximum_path": "research/pre-expert-maximum.json"
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -158,7 +301,20 @@
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "validation_path": "tests/test_integrity.py",
-      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "id": "archanes_script",
@@ -174,7 +330,20 @@
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "validation_path": "tests/test_integrity.py",
-      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "id": "aegean_anomalous",
@@ -190,7 +359,20 @@
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "validation_path": "tests/test_integrity.py",
-      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE"
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     },
     {
       "id": "egyptian_hieroglyphic",
@@ -206,7 +388,20 @@
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
-      "evidence_growth_state": "MACHINE_WORK_ACTIVE"
+      "evidence_growth_state": "MACHINE_WORK_ACTIVE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      }
     }
   ],
   "corpus_factory": {
