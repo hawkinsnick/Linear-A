@@ -10,7 +10,7 @@
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
   "member_count": 18,
-  "expansion_policy": "New corpus projects must pass fleet admission before fleet-integrated status: component-specific licensing architecture, an individual corpus AI skill/shared research contract, explicit master registry membership, and live validation.",
+  "expansion_policy": "New corpus projects must pass fleet admission: component-specific licensing architecture with upstream rights preserved, an individual corpus AI skill/shared research contract, explicit master registry membership, and live validation of required paths.",
   "guarantees": [
     "no data duplication in orchestrator",
     "member-native evidence authority",
