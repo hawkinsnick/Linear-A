@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-03",
+  "state": "PRE_EXPERT_CEILING_NOT_YET_REACHED",
+  "principle": "Scientific experiment gates and corpus-engineering gates are independent. A sealed prospective experiment must remain sealed while source, provenance, catalogue, rights, and representation work continues.",
+  "machine_resolvable": [
+    {
+      "id": "LA-CORPUS-001",
+      "task": "Materialize a canonical record-level corpus layer from the authenticated SigLA snapshot without redistributing prohibited raw payloads.",
+      "evidence": [
+        "data/source_inventory_0.5.json",
+        "scripts/import_sigla.py"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "LA-CORPUS-002",
+      "task": "Populate inscription, occurrence, provenance and site tables from authenticated source-derived fields with source/license lineage.",
+      "evidence": [
+        "data/inscriptions.csv",
+        "data/sign_occurrences.csv",
+        "data/provenance.csv",
+        "data/sites.csv"
+      ],
+      "status": "OPEN_EMPTY_TABLES"
+    },
+    {
+      "id": "LA-CORPUS-003",
+      "task": "Reconcile the 15 named unresolved cases against lawful primary images/plates or independent authoritative witnesses where accessible.",
+      "evidence": [
+        "data/unresolved_cases.csv"
+      ],
+      "status": "OPEN_SOURCE_COLLATION"
+    },
+    {
+      "id": "LA-CORPUS-004",
+      "task": "Complete source-level sign/transnumeration concordance and keep Linear B correspondences non-phonetic unless independently justified.",
+      "status": "OPEN"
+    },
+    {
+      "id": "LA-CORPUS-005",
+      "task": "Refresh mutable repository metadata whose embedded content version predates the current repository state.",
+      "evidence": [
+        "data/metadata.json",
+        "docs/CURRENT-STATE-INTEGRITY.md"
+      ],
+      "status": "OPEN_METADATA_DRIFT"
+    }
+  ],
+  "sealed_or_external": [
+    {
+      "id": "LA-EXP-3.1",
+      "task": "Prospective replication scoring",
+      "status": "SEALED",
+      "reason": "Historical analytical input identity/independence unresolved; do not inspect outcomes."
+    },
+    {
+      "id": "LA-EXPERT",
+      "task": "Palaeographic adjudication, uncertain sign identity, disputed segmentation/metrology where sources do not resolve conflict",
+      "status": "HUMAN_OR_NEW_EVIDENCE"
+    }
+  ],
+  "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker."
+}
