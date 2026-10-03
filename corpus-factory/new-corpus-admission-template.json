@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Bootstrap requirements for every new corpus repository before fleet admission",
+  "required_root_files": [
+    "LICENSE",
+    "LICENSE-CODE",
+    "LICENSE-CONTENT.md",
+    "LICENSING.md",
+    "NOTICE"
+  ],
+  "default_project_owned_licensing": {
+    "software": "PolyForm Noncommercial 1.0.0",
+    "content": "CC BY-NC 4.0",
+    "scope_caveat": "Only rights actually owned by project contributors; third-party and public-domain components retain upstream status."
+  },
+  "required_ai_skill_paths": [
+    "ai-skill/SKILL.md",
+    "ai-skill/generated/research-bundle-index.json",
+    "ai-skill/references/authority-profile.json"
+  ],
+  "required_registry_fields": [
+    "repository",
+    "label",
+    "individual_skill_path",
+    "bundle_index_path",
+    "required_contract",
+    "required_skill_version",
+    "authority_profile_path",
+    "validation_path",
+    "admission"
+  ],
+  "admission_contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+  "release_gate": "No 1.0.0 promotion until licensing, individual AI skill, master membership, and validation all pass."
+}
