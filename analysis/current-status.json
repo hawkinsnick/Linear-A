@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "repository_version": "3.0.15",
-  "checked": "2026-10-03",
+  "checked": "2026-10-04",
   "milestone": "EXECUTABLE_CURRENT_STATE_INTEGRITY",
   "committed_evidence_counts": {},
   "scientific_results": {
@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "aacf7b4656498eba94635f3a5dfff27e10c2086d87ce5249f642085de289c8e7"
+      "sha256": "5a3c07f7e18c1b55fd893166d8a5354dd8255771b915d36605319d0a779b733e"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "e8fc18c6ab97df34ed4bb34d1d8530b91b24fcc5437290f3eaee9309643f1b49"
+      "sha256": "9bba8f08e0566e7650e49f16543a43f23ca119c1821a22c8b3434f98a71a3038"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "849bf4a6f45c1d0e73530c366174c5a631e5ed6fea459672403d07da0eb9f878"
+      "sha256": "217f43d1db8e41d20ac00d99c2fe93dfc6898766f7199e68895cded1a007ed73"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "9175c6caedd9d1d18dccb7cc49b1a895c08faa247fead21d4b671642e53c613b"
+      "sha256": "de3bee0a9de4febe5e0e884e4c39d80ec2c40f8efe1685aa3a53790af5630e3b"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -174,12 +174,44 @@
     },
     {
       "path": "docs/EDITION-CONCORDANCE.md",
-      "sha256": "26e4749aa4bfaf236371898dcb45f9197a89e6e3f5c5feba8c1c3f686a2ed6e2"
+      "sha256": "81ac22ad625cd30cd76e9f7296879d2824fbef310f29b532e1dd10541aa162e5"
+    },
+    {
+      "path": "research/critical-pilot.json",
+      "sha256": "cbb889de2cb7d1bd4aa80c44907b865e9aa37dbd10e793602274cfb31bcac6e8"
+    },
+    {
+      "path": "analysis/critical-pilot-audit.json",
+      "sha256": "906fdeb3d56e95808e6d252637c71ab0897317cabfac63a761721a4ee360d643"
+    },
+    {
+      "path": "research/critical-disagreement-comparison.csv",
+      "sha256": "fbc8813175289ea19c40ba171bfa033f8d0b5016b9780ba3f300a06333afc2aa"
+    },
+    {
+      "path": "reviews/critical-pilot-review.tsv",
+      "sha256": "23d708b7ad08ae15ca8c1232dafd0005c6917e5c3751885eb42f0277a5abfe41"
+    },
+    {
+      "path": "docs/CRITICAL-PILOT.md",
+      "sha256": "d5311a9c8ddcb6ef16207ca45d4dbd7c80bc7365b26ca31a98901fdfe5d2802b"
+    },
+    {
+      "path": "scripts/build_critical_pilot.py",
+      "sha256": "7cdf310e7552f2ff9c2fcd276682cd377fc49c55106d06d8bce602b173dff5e9"
+    },
+    {
+      "path": "scripts/test_critical_pilot.py",
+      "sha256": "11ab428f295596f360593c6ca3ab35c1d1e319639b7fa40fd65e058d1e33b3e4"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "71401753f835436a3173814d2f7b8e5034236ab4aacfbedccfd76aeeb2bb0a02"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Adds a reproducible input-membership independence audit: 7 of 24 frozen cohort labels occur in v3; 17 are absent. The conditional statistical repair and the original-input identity gate are distinguished. No prospective outcomes are scored; 3.1 remains sealed.",
+  "summary": "Adds a bounded ten-entry critical metadata and disagreement pilot with exact authenticated source pointers, edition page hashes, 31 attributed assertions and seven printed quantities. Fifteen legacy alternatives remain separate from source evidence; 25 review items are unreviewed. Raison–Pope, full critical transcription, physical identities and independent review remain open. Historical sensitivity results and sealed prospective experiments are unchanged.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",
@@ -194,5 +226,15 @@
     "guide": "docs/EDITION-CONCORDANCE.md",
     "raison_pope_entry_resolution": "UNRESOLVED",
     "expert_validation_added": false
+  },
+  "critical_pilot_checkpoint": {
+    "scope": "10 exact source entries; 31 attributed field assertions; metadata and disagreement pilot, not full critical transcription",
+    "audit": "analysis/critical-pilot-audit.json",
+    "guide": "docs/CRITICAL-PILOT.md",
+    "comparison": "research/critical-disagreement-comparison.csv",
+    "review_queue": "reviews/critical-pilot-review.tsv",
+    "review_items": 25,
+    "expert_validation_added": false,
+    "raison_pope_entry_resolution": "UNRESOLVED"
   }
 }

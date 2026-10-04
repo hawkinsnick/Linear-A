@@ -46,3 +46,7 @@ The first command replays every row from the authenticated input and registered 
 ## Rights and attribution
 
 The source-derived identifier/locator table retains **CC BY-NC-SA 4.0** and attribution to **Ester Salgarella and Simon Castellan, SigLA**, through the authenticated **Ryan Pavlicek/pyaegean** derivative. Original code and documentation follow their repository component terms. Source-specific terms govern; this table is not relicensed by the project's original-content license. Edition metadata and original summaries add no license to redistribute edition text or images.
+
+## Subsequent bounded critical pilot
+
+The concordance's original primary-case counts are retained for reproducibility. [The separate critical pilot](CRITICAL-PILOT.md) adds field-level evidence for ten declared source entries, including ARKH 2 and KN Zb 40. Consult its audit alongside this accounting map for newer inspection coverage. Neither checkpoint establishes Raison–Pope entry matches or certified physical-object identities.

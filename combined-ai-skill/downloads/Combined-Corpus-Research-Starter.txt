@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 1dcabda786cb08e721b8272b95178b36423982df5255aa9a116512a39dfb4693
+Instruction snapshot SHA-256: a9d29a3b77af4596faf496c835ef6b32425d58748e7e310a5bf1bcdc6e1f80ae
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 8f033cc503477b7c37bd3f1ca897f2f5c68e95d1e3f729263fff482f445eb4ba
+SHA-256: f24a00872d5433c7c68cf16bc2f57894b8ac56d9fdc880184a1e35decceb6906
 
 {
   "schema_version": "1.0.0",
@@ -335,9 +335,11 @@ SHA-256: 8f033cc503477b7c37bd3f1ca897f2f5c68e95d1e3f729263fff482f445eb4ba
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802-entry local source layer and audit reproduced. 13 case entries have identified primary pages inspected, HT 17 edition reading 38 checked; expert physical adjudication and SY Zb 7 source access remain.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; Ten-entry critical metadata pilot with exact source pointers and 31 attributed field assertions; 15 legacy disagreements retained with source-trace gaps; 25 unreviewed review items. Raison–Pope, full critical transcription, physical identities and independent expert review remain open.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
-      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
+      "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
+      "critical_pilot_guide_path": "docs/CRITICAL-PILOT.md"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -916,7 +918,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: f081a69f180c548664a96cc17fe7ee8ac3838112275c6d42fe06d89cb0dab15f
+SHA-256: ad74bc74b46688caedbaa2f5e6634e28162775b26446c475212261d5af032b61
 
 {
   "schema_version": "1.0",
@@ -926,9 +928,9 @@ SHA-256: f081a69f180c548664a96cc17fe7ee8ac3838112275c6d42fe06d89cb0dab15f
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups; all-record edition-status map: 755 GORILA page links, 24 RILA-S1 publication links, 23 unusable references; 10 prior primary case entries join 8 source records. Raison\u2013Pope entry joins unresolved.",
-      "top_gap": "lawful Raison\u2013Pope concordance acquisition; exact RILA-S1 item matches; extend GORILA primary collation; reconcile physical identities and numerical quantities",
-      "status_source": "analysis/edition-concordance-audit.json"
+      "coverage_state": "802 authenticated source entries / 5,144 attestations; all-record edition-status accounting plus 10-entry critical metadata pilot: 31 attributed assertions, 7 printed quantities on 2 entries, 15 preserved comparisons, 25 unreviewed review items. Raison\u2013Pope entry joins unresolved.",
+      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "status_source": "analysis/critical-pilot-audit.json"
     },
     {
       "repo": "Cypro-Minoan",

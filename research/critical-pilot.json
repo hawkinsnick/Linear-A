@@ -1,0 +1,1519 @@
+{
+  "format": "linear-a-critical-pilot-v1",
+  "checked": "2026-10-04",
+  "scope": "10 declared source entries, not 10 certified objects; bounded critical metadata and disagreement pilot, not a complete critical transcription.",
+  "selection_reason": "Eight exact source entries behind the existing inspected disagreement cases, plus ARKH 2 and KN Zb 40 to add Arkhanes, another vessel form and a quantity-bearing tablet. Convenience/problem-driven selection, not a representative sample.",
+  "declared_source_ids": [
+    "HT 15",
+    "HT 17",
+    "HT 34",
+    "HT 49a",
+    "KH 74",
+    "KH 8",
+    "MA 10b",
+    "KN Zc 6",
+    "ARKH 2",
+    "KN Zb 40"
+  ],
+  "source_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "source_attribution": "Ester Salgarella and Simon Castellan, SigLA, via Ryan Pavlicek/pyaegean sigla-corpus-v4",
+  "source_url": "https://github.com/ryanpavlicek/pyaegean/releases/download/sigla-corpus-v4/sigla-corpus.json",
+  "source_derived_metadata_license": "CC BY-NC-SA 4.0",
+  "rights": "Mixed dossier retains source-specific terms: SigLA metadata/excerpts CC BY-NC-SA 4.0; original brief annotations and tools under repository contribution terms; no GORILA pages, full transcriptions or Flouda text reproduced. No new grant over third-party material.",
+  "legacy_queue_sha256": "21f326f53f605e4703cbcb787373701ed594ef9fc1c49ce67c0d6b64f7396004",
+  "pages": [
+    {
+      "name": "ARKH2-photo",
+      "volume": 3,
+      "viewer_page": 30,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=30",
+      "image_sha256": "bb175cfa28ecba595f59f495b89264d35d41801e4b00f37bb00c3d258c8333aa",
+      "html_sha256": "efe8f99e19bac460de419d8989461282c1c6f045ec40f103ef793e2df1193217",
+      "bytes": 66482,
+      "image_redistributed": false,
+      "page_id": "ARKH2-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 6,
+      "document_ids": [
+        "ARKH 2"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "ARKH2-tracing",
+      "volume": 3,
+      "viewer_page": 31,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=31",
+      "image_sha256": "cfc868feba9b8e3bd387666c84e4240e384ab7b7651e04186739c4e25750a7f8",
+      "html_sha256": "f46bb7a18eeaa01ecd248cec9c5d72ac4eff28d34096fd045b6e1ad9127504e2",
+      "bytes": 44782,
+      "image_redistributed": false,
+      "page_id": "ARKH2-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 7,
+      "document_ids": [
+        "ARKH 2"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "KNZb40-photo",
+      "volume": 4,
+      "viewer_page": 125,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=125",
+      "image_sha256": "2b6e90791c867bded1a04dedbc6fc2313e18ce395b25fa06d4d3805e17c1ddb9",
+      "html_sha256": "063a21262d3feb681c80cc664c9e694da530083105107ff57ec3ba2f4f658bdc",
+      "bytes": 132447,
+      "image_redistributed": false,
+      "page_id": "KNZb40-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 83,
+      "document_ids": [
+        "KN Zb 40"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "KNZb40-tracing",
+      "volume": 4,
+      "viewer_page": 126,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=126",
+      "image_sha256": "f1dcbfaf7e310f83c46f3ff2b5bf7bbf0f7e0518647b1bf40810a1e278839162",
+      "html_sha256": "befdae2019e570a522582c63facff7e4453af01dfd1e9b4b1ed7aebf69a6bf3f",
+      "bytes": 6883,
+      "image_redistributed": false,
+      "page_id": "KNZb40-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": null,
+      "document_ids": [],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "NO_TARGET_ENTRY_BLANK_PAGE",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "HT17-tracing",
+      "volume": 1,
+      "viewer_page": 71,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=71",
+      "image_sha256": "61858dd25e751e1762e40f09b1cc4cb8de995eb551fb93501f32474ea6d3546a",
+      "html_sha256": "f3400635ccb76c12eb61187690a3e3150da6cdb0c6d139d8962412326122d74b",
+      "bytes": 45943,
+      "image_redistributed": false,
+      "page_id": "HT17-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 35,
+      "document_ids": [
+        "HT 17"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "KNZc6-photo",
+      "volume": 4,
+      "viewer_page": 161,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=161",
+      "image_sha256": "fa1c2cb92baf4af28e7b22a11b3122a4ea5207f47fb8a52ec2ed2b8881ecb95e",
+      "html_sha256": "c9c55dc69bfd31dc24f5a74e0c06c517ee51328b8cadfe8f4969ea918023a634",
+      "bytes": 144275,
+      "image_redistributed": false,
+      "page_id": "KNZc6-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 119,
+      "document_ids": [
+        "KN Zc 6"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "HT15-photo",
+      "volume": 1,
+      "viewer_page": 66,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=66",
+      "image_sha256": "cf221f2a3fcbafbec88201e83958d94846c8547703b2d8836e33795e34d3b00a",
+      "html_sha256": "da0d2549177809afe3bba252d03748e356ff34e4c1afd52005000795a9bb11a6",
+      "bytes": 63386,
+      "image_redistributed": false,
+      "page_id": "HT15-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 30,
+      "document_ids": [
+        "HT 15"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "HT17-photo",
+      "volume": 1,
+      "viewer_page": 70,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=70",
+      "image_sha256": "7df3fb2ccbae0a78c931954ae9bde742112d9262030a055365478ad2bfc579a2",
+      "html_sha256": "c93e98f7e62162245bf359c40cd867cddeecf34f056ed740d29140656c51021a",
+      "bytes": 83716,
+      "image_redistributed": false,
+      "page_id": "HT17-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 34,
+      "document_ids": [
+        "HT 17"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "HT34-photo",
+      "volume": 1,
+      "viewer_page": 100,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=100",
+      "image_sha256": "169970936bbf4e6446409d5f211859696d8460478b8e88d85d03010337d9658c",
+      "html_sha256": "4ade1ac79a5802b352679c674794b0fa21f0378139cafb06d146efb041f195c9",
+      "bytes": 72565,
+      "image_redistributed": false,
+      "page_id": "HT34-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 64,
+      "document_ids": [
+        "HT 34"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "HT49a-photo",
+      "volume": 1,
+      "viewer_page": 128,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=128",
+      "image_sha256": "48d2a33925dff041087a2524952664f9e1182a2833a4a3aee2e4c1585875c78d",
+      "html_sha256": "9213c340eefdd0c30f44ab8983bede4daae5da1a637c10644576fd4f6a45834d",
+      "bytes": 67742,
+      "image_redistributed": false,
+      "page_id": "HT49a-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 92,
+      "document_ids": [
+        "HT 49a"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "KH74-photo",
+      "volume": 3,
+      "viewer_page": 116,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=116",
+      "image_sha256": "7ea391623b5544c30eac712f2e3bddbf3a471af561a68468457ee90967de926f",
+      "html_sha256": "f95f09154b6bba76c0cf98a164ba2ef3b3ac64cd06d9207e08724c7fbe9686e1",
+      "bytes": 76633,
+      "image_redistributed": false,
+      "page_id": "KH74-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 92,
+      "document_ids": [
+        "KH 74"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "KH8-photo",
+      "volume": 3,
+      "viewer_page": 56,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=56",
+      "image_sha256": "460a372255381b5d0e56c9fc57170d30558686007ce60692d9401fdcacd32161",
+      "html_sha256": "56eb3fabce1f5988cb53e02453736caefeb96b08890d7817475ef460b24adabe",
+      "bytes": 62641,
+      "image_redistributed": false,
+      "page_id": "KH8-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 32,
+      "document_ids": [
+        "KH 8"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "MA10b-photo",
+      "volume": 5,
+      "viewer_page": 102,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=5&sp=102",
+      "image_sha256": "1bfd8d5b34e37ee676664688980dba7500511f0608482e3ec7f77806133ff598",
+      "html_sha256": "82c971070c0d683cc01f9deb3ebf578011772dbb393fa6fe87f2d6ab2427ad75",
+      "bytes": 75391,
+      "image_redistributed": false,
+      "page_id": "MA10b-photo",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 50,
+      "document_ids": [
+        "MA 10b"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    },
+    {
+      "name": "KNZc6-tracing",
+      "volume": 4,
+      "viewer_page": 162,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=4&sp=162",
+      "image_sha256": "46f9b9889e6313caff468b4ffff9d0ae4ad214cac4b13e0babd171f80a979884",
+      "html_sha256": "c29b15eb9f0001b2b05d4497d46d58b3721c7d06c9e6f2f0b82e05c8d64ad14c",
+      "bytes": 69095,
+      "image_redistributed": false,
+      "page_id": "KNZc6-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 120,
+      "document_ids": [
+        "KN Zc 6"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04"
+    }
+  ],
+  "scholarly_sources": [
+    {
+      "source_id": "FLOUDA2013",
+      "citation": "Georgia Flouda, Materiality of Minoan Writing: Modes of display and perception, in K. E. Piquette and R. D. Whitehouse (eds), Writing as Material Practice, 2013, pp. 143–174, DOI 10.5334/bai.h.",
+      "doi": "10.5334/bai.h",
+      "lineage": "FLOUDA_SCHOLARSHIP_CITES_GORILA_NOT_ASSUMED_INDEPENDENT",
+      "consultation": "PUBLIC_SCHOLARLY_REPRINT_HTML_AND_FIGURE15",
+      "figure_pixels_inspected": true,
+      "file_acquired": false,
+      "author_upload_url": "https://www.researchgate.net/publication/269402322_Flouda_G_2013_Materiality_of_Minoan_Writing_Modes_of_display_and_perception_In_Whitehouse_R_D_and_Piquette_K_E_eds_Writing_as_Material_Practice_Substance_surface_and_medium_Pp_1-31_London_Ubiquity_Pre",
+      "institutional_pdf_url": "https://discovery.ucl.ac.uk/id/eprint/1508561/8/Piquette_Writing%20as%20Material%20Practice%20Substance%2C%20Surface%20and%20Medium_book_VoR.pdf",
+      "publisher_url": "https://www.ubiquitypress.com/site/chapters/10.5334/bai.h/",
+      "access_barriers": [
+        "Publisher page direct request HTTP 403; no bypass attempted.",
+        "Institutional PDF direct request HTTP 403; web PDF parser rejected 15,064,351-byte content as too large.",
+        "OAPEN source book record direct request HTTP 403. Public LibreTexts scholarly reprint HTML and linked Figure 15 acquired successfully; original publisher/institutional PDF barriers remain."
+      ],
+      "consulted": "2026-10-04",
+      "text_redistributed": false,
+      "reprint_html_acquired": true,
+      "original_pdf_acquired": false,
+      "reprint_rights": "LibreTexts platform metadata does not establish an unrestricted image grant; no source HTML, text or image is redistributed.",
+      "reprint_evidence": [
+        {
+          "evidence_id": "FLOUDA-FIGURES-HTML",
+          "url": "https://socialsci.libretexts.org/Bookshelves/Anthropology/Archaeology/Book:_Writing_as_Material_Practice_-_Substance_Surface_and_Medium_(Piquette_et_al.)/08:_Materiality_of_Minoan_Writing-_Modes_of_Display_and_Perception_(Georgia_Flouda)/8.02:_Introduction_and_Figures",
+          "sha256": "8aa76816aaa6683500f1a945711e67fc6e0a2158e49ed1e59af3319e92864ced",
+          "bytes": 149067,
+          "consulted": "2026-10-04",
+          "target_entry_present": true,
+          "locator": "Figure 15a caption; Figure 15b is KN Zc 7 and excluded",
+          "redistributed": false,
+          "acquired_filename": "flouda-figures.html"
+        },
+        {
+          "evidence_id": "FLOUDA-DISCUSSION-HTML",
+          "url": "https://socialsci.libretexts.org/Bookshelves/Anthropology/Archaeology/Book:_Writing_as_Material_Practice_-_Substance_Surface_and_Medium_(Piquette_et_al.)/08:_Materiality_of_Minoan_Writing-_Modes_of_Display_and_Perception_(Georgia_Flouda)/8.04:_Linear_A_-_The_social_and_cultural_construction_of_Neopalatial_literacy",
+          "sha256": "2b1840e01c2ce8376ff8643494ce877ba5534c283aa720e1f3df2eb869bfd3a3",
+          "bytes": 153227,
+          "consulted": "2026-10-04",
+          "target_entry_present": true,
+          "locator": "Alignment and Directionality; paragraphs on cups KN Zc 6–7",
+          "redistributed": false,
+          "acquired_filename": "flouda-discussion.html"
+        },
+        {
+          "evidence_id": "FLOUDA-FIGURE15",
+          "url": "https://socialsci.libretexts.org/@api/deki/files/26432/Screen_Shot_2019-11-08_at_4.05.57_PM.png?revision=1",
+          "sha256": "a2d35b5b91fae97b749147e87a6e8dc761bbd706ef5a569d3d0c154c7753733b",
+          "bytes": 371170,
+          "consulted": "2026-10-04",
+          "target_entry_present": true,
+          "locator": "Left panel a = KN Zc 6; right panel b = KN Zc 7 excluded",
+          "redistributed": false,
+          "acquired_filename": "flouda-cups.png"
+        },
+        {
+          "evidence_id": "FLOUDA-FIGURE16A-NEGATIVE",
+          "url": "https://socialsci.libretexts.org/@api/deki/files/26436/Screen_Shot_2019-11-08_at_4.06.30_PM.png?revision=1",
+          "sha256": "11838611cc065d03933c64e7ff3735738e8333a2d9773cb7f5bb9c389898aea1",
+          "bytes": 201197,
+          "consulted": "2026-10-04",
+          "target_entry_present": false,
+          "locator": "Figure 16a, Mavrospelio gold ring KN Zf 13, not KN Zc 6; no target assertion attached",
+          "redistributed": false,
+          "acquired_filename": "flouda-ring-negative.png"
+        }
+      ],
+      "earlier_consultation": "Indexed author-uploaded/institutional text supplied original pp. 160/162 locators; this checkpoint adds direct public reprint HTML and Figure 15 image inspection, not original PDF inspection."
+    }
+  ],
+  "entries": [
+    {
+      "source_record_id": "HT 15",
+      "source_pointer": "/documents/77",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          5.1,
+          6.9,
+          0.9
+        ]
+      },
+      "source_attestation_count": 12,
+      "assertions": [
+        {
+          "assertion_id": "HT15-1",
+          "field": "inventory_label",
+          "value": "HM 16",
+          "source_id": "HT15-photo",
+          "locator_detail": "Target entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "HT15-2",
+          "field": "dimension_caption",
+          "value": "5,10 × 6,90 × 0,90 cm",
+          "source_id": "HT15-photo",
+          "locator_detail": "Target entry dimension caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        }
+      ],
+      "gorila_page_ids": [
+        "HT15-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 3,
+        "blank_slots": 1,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "HT 17",
+      "source_pointer": "/documents/91",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          4.6,
+          5.6,
+          0.7
+        ]
+      },
+      "source_attestation_count": 11,
+      "assertions": [
+        {
+          "assertion_id": "HT17-1",
+          "field": "inventory_label",
+          "value": "HM 23",
+          "source_id": "HT17-photo",
+          "locator_detail": "Target entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "HT17-2",
+          "field": "dimension_caption",
+          "value": "4,60 × 5,60 × 0,70 cm",
+          "source_id": "HT17-photo",
+          "locator_detail": "Target entry dimension caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        },
+        {
+          "assertion_id": "HT17-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "source_id": "HT17-tracing",
+          "locator_detail": "Upper HT 17 entry",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "HT17-4",
+          "field": "vacat_rows",
+          "value": [
+            4
+          ],
+          "source_id": "HT17-tracing",
+          "locator_detail": "HT 17 row 4; HT 18 lower panel excluded",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "HT17-5",
+          "field": "editorial_quantities",
+          "value": [
+            {
+              "edition_group": "1–2",
+              "quantity": 38
+            },
+            {
+              "edition_group": "2",
+              "quantity": 10
+            },
+            {
+              "edition_group": "3",
+              "quantity": 5
+            }
+          ],
+          "source_id": "HT17-tracing",
+          "locator_detail": "Upper HT 17 grouped rows",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Printed edition numbers; the lower HT 18 entry is excluded. The legacy quantity 37 is retained as an untraced project alternative."
+        }
+      ],
+      "gorila_page_ids": [
+        "HT17-tracing",
+        "HT17-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 3,
+        "blank_slots": 1,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "HT 34",
+      "source_pointer": "/documents/116",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          5.0,
+          7.6,
+          0.9
+        ]
+      },
+      "source_attestation_count": 29,
+      "assertions": [
+        {
+          "assertion_id": "HT34-1",
+          "field": "inventory_label",
+          "value": "HM 22",
+          "source_id": "HT34-photo",
+          "locator_detail": "Target entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "HT34-2",
+          "field": "dimension_caption",
+          "value": "5,00 × 7,60 × 0,90 cm",
+          "source_id": "HT34-photo",
+          "locator_detail": "Target entry dimension caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        },
+        {
+          "assertion_id": "HT34-3",
+          "field": "damage_presentation",
+          "value": "A central region is hatched as missing in the edition drawing.",
+          "source_id": "HT34-photo",
+          "locator_detail": "Right-hand facsimile",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Drawing convention observation only; lost sign count and restored content remain unknown."
+        }
+      ],
+      "gorila_page_ids": [
+        "HT34-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 4,
+        "blank_slots": 3,
+        "fraction_slots": 7,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "HT 49a",
+      "source_pointer": "/documents/136",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          5.5,
+          9.2,
+          0.7
+        ]
+      },
+      "source_attestation_count": 32,
+      "assertions": [
+        {
+          "assertion_id": "HT49a-1",
+          "field": "inventory_label",
+          "value": "HM 55",
+          "source_id": "HT49a-photo",
+          "locator_detail": "Target entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "HT49a-2",
+          "field": "dimension_caption",
+          "value": "5,50 × [3,00]+[6,20] × 0,70 cm",
+          "source_id": "HT49a-photo",
+          "locator_detail": "Target entry dimension caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        }
+      ],
+      "gorila_page_ids": [
+        "HT49a-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 12,
+        "blank_slots": 7,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "KH 74",
+      "source_pointer": "/documents/466",
+      "source_context": {
+        "site": "Khania",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          3.6,
+          3.6,
+          1.2
+        ]
+      },
+      "source_attestation_count": 7,
+      "assertions": [
+        {
+          "assertion_id": "KH74-1",
+          "field": "dimension_caption",
+          "value": "[3,60] × [3,60] × 1,20 cm",
+          "source_id": "KH74-photo",
+          "locator_detail": "Upper entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "KH74-2",
+          "field": "damage_caption",
+          "value": "Upper edge is cut, as described by the edition.",
+          "source_id": "KH74-photo",
+          "locator_detail": "Upper entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        }
+      ],
+      "gorila_page_ids": [
+        "KH74-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 3,
+        "blank_slots": 1,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "KH 8",
+      "source_pointer": "/documents/475",
+      "source_context": {
+        "site": "Khania",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          7.7,
+          6.8,
+          1.3
+        ]
+      },
+      "source_attestation_count": 15,
+      "assertions": [
+        {
+          "assertion_id": "KH8-1",
+          "field": "dimension_caption",
+          "value": "[7,70] × [6,80] × 1,30 cm",
+          "source_id": "KH8-photo",
+          "locator_detail": "Dimension caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "KH8-2",
+          "field": "damage_caption",
+          "value": "Lower edge is cut, as described by the edition.",
+          "source_id": "KH8-photo",
+          "locator_detail": "Caption below drawing",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        }
+      ],
+      "gorila_page_ids": [
+        "KH8-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 3,
+        "blank_slots": 3,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "MA 10b",
+      "source_pointer": "/documents/651",
+      "source_context": {
+        "site": "Mallia",
+        "typology": "Tablet",
+        "period": "MM IIIB",
+        "dimensions_cm": [
+          8.5,
+          2.5,
+          2.8
+        ]
+      },
+      "source_attestation_count": 10,
+      "assertions": [
+        {
+          "assertion_id": "MA10b-1",
+          "field": "surface_presentation",
+          "value": "The edition heading is MA 10, with photographs labelled a, b, c and d; this source record refers to b.",
+          "source_id": "MA10b-photo",
+          "locator_detail": "Second photograph labelled b",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "A face label is not an independent object; no equivalence of other source records is asserted."
+        }
+      ],
+      "gorila_page_ids": [
+        "MA10b-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 1,
+        "blank_slots": 1,
+        "fraction_slots": 1,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "KN Zc 6",
+      "source_pointer": "/documents/644",
+      "source_context": {
+        "site": "Knossos",
+        "typology": "Cup",
+        "period": "MM III?",
+        "dimensions_cm": null
+      },
+      "source_attestation_count": 23,
+      "assertions": [
+        {
+          "assertion_id": "KNZc6-1",
+          "field": "layout_presentation",
+          "value": "Interior curved inscription shown in two vessel photographs; the following page supplies a curved drawing and linearized presentation.",
+          "source_id": "KNZc6-photo",
+          "locator_detail": "Two photographs",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "No glyph coordinates, linguistic boundaries or expert reading order established."
+        },
+        {
+          "assertion_id": "KNZc6-2",
+          "field": "layout_presentation",
+          "value": "Curved facsimile above a linearized presentation with dot marks.",
+          "source_id": "KNZc6-tracing",
+          "locator_detail": "Upper drawing and bottom transcription",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "No exact sign boundary or linguistic word segmentation is adjudicated."
+        },
+        {
+          "assertion_id": "KNZc6-3",
+          "field": "inventory_label",
+          "value": "HM P2630",
+          "source_id": "FLOUDA2013",
+          "locator_detail": "Original p. 160 (indexed publication), reprint Figure 15a caption",
+          "level": "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT",
+          "limitation": "Attributed Flouda report checked in a public scholarly HTML reprint. Figure 15 was inspected separately; original PDF not acquired. No independent source lineage, modern inventory certification or exact linguistic boundary asserted.",
+          "supplementary_evidence_ids": [
+            "FLOUDA-FIGURES-HTML",
+            "FLOUDA-FIGURE15"
+          ]
+        },
+        {
+          "assertion_id": "KNZc6-4",
+          "field": "rim_diameter_cm",
+          "value": 8.4,
+          "source_id": "FLOUDA2013",
+          "locator_detail": "Original p. 160 (indexed publication), reprint Figure 15a caption",
+          "level": "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT",
+          "limitation": "Attributed Flouda report checked in a public scholarly HTML reprint. Figure 15 was inspected separately; original PDF not acquired. No independent source lineage, modern inventory certification or exact linguistic boundary asserted.",
+          "supplementary_evidence_ids": [
+            "FLOUDA-FIGURES-HTML",
+            "FLOUDA-FIGURE15"
+          ]
+        },
+        {
+          "assertion_id": "KNZc6-5",
+          "field": "find_context",
+          "value": "House basement at Knossos, reported jointly for cups KN Zc 6–7.",
+          "source_id": "FLOUDA2013",
+          "locator_detail": "Original p. 160 (indexed publication), reprint Alignment and Directionality, opening cup paragraph",
+          "level": "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT",
+          "limitation": "Attributed Flouda report checked in a public scholarly HTML reprint. Figure 15 was inspected separately; original PDF not acquired. No independent source lineage, modern inventory certification or exact linguistic boundary asserted.",
+          "supplementary_evidence_ids": [
+            "FLOUDA-DISCUSSION-HTML"
+          ]
+        },
+        {
+          "assertion_id": "KNZc6-6",
+          "field": "reading_layout",
+          "value": "Author reports an outward dextroverse spiral, with sign tops towards the cup base.",
+          "source_id": "FLOUDA2013",
+          "locator_detail": "Original p. 162 (indexed publication), reprint Alignment and Directionality, reading-order and punctuation paragraph",
+          "level": "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT",
+          "limitation": "Attributed Flouda report checked in a public scholarly HTML reprint. Figure 15 was inspected separately; original PDF not acquired. No independent source lineage, modern inventory certification or exact linguistic boundary asserted.",
+          "supplementary_evidence_ids": [
+            "FLOUDA-DISCUSSION-HTML"
+          ]
+        },
+        {
+          "assertion_id": "KNZc6-7",
+          "field": "punctuation",
+          "value": "Author reports punctuation delimiting the second sign group of KN Zc 6.",
+          "source_id": "FLOUDA2013",
+          "locator_detail": "Original p. 162 (indexed publication), reprint Alignment and Directionality, reading-order and punctuation paragraph",
+          "level": "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT",
+          "limitation": "Attributed Flouda report checked in a public scholarly HTML reprint. Figure 15 was inspected separately; original PDF not acquired. No independent source lineage, modern inventory certification or exact linguistic boundary asserted.",
+          "supplementary_evidence_ids": [
+            "FLOUDA-DISCUSSION-HTML"
+          ]
+        }
+      ],
+      "gorila_page_ids": [
+        "KNZc6-photo",
+        "KNZc6-tracing"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 4,
+        "blank_slots": 1,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "ARKH 2",
+      "source_pointer": "/documents/2",
+      "source_context": {
+        "site": "Arkhanes",
+        "typology": "Tablet",
+        "period": "LM I",
+        "dimensions_cm": [
+          4.9,
+          7.5,
+          0.7
+        ]
+      },
+      "source_attestation_count": 23,
+      "assertions": [
+        {
+          "assertion_id": "ARKH2-1",
+          "field": "inventory_label",
+          "value": "HM 1673",
+          "source_id": "ARKH2-photo",
+          "locator_detail": "Target entry caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "ARKH2-2",
+          "field": "dimension_caption",
+          "value": "4,90 × 7,50 × 0,70 cm",
+          "source_id": "ARKH2-photo",
+          "locator_detail": "Target entry dimension caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        },
+        {
+          "assertion_id": "ARKH2-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "source_id": "ARKH2-tracing",
+          "locator_detail": "Upper diplomatic drawing",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "ARKH2-4",
+          "field": "editorial_quantities",
+          "value": [
+            {
+              "edition_group": "1–2",
+              "quantity": 5
+            },
+            {
+              "edition_group": "2–3",
+              "quantity": 12
+            },
+            {
+              "edition_group": "3–4",
+              "quantity": 6
+            },
+            {
+              "edition_group": "5–6",
+              "quantity": 4
+            }
+          ],
+          "source_id": "ARKH2-tracing",
+          "locator_detail": "Lower grouped edition presentation",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Printed edition numbers; not sign-series numbers, linguistic words or physical numeral adjudications."
+        }
+      ],
+      "gorila_page_ids": [
+        "ARKH2-photo",
+        "ARKH2-tracing"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 6,
+        "blank_slots": 0,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    },
+    {
+      "source_record_id": "KN Zb 40",
+      "source_pointer": "/documents/642",
+      "source_context": {
+        "site": "Knossos",
+        "typology": "Pithoid jar",
+        "period": "LM II",
+        "dimensions_cm": null
+      },
+      "source_attestation_count": 6,
+      "assertions": [
+        {
+          "assertion_id": "KNZb40-1",
+          "field": "inventory_label",
+          "value": "HM 21391",
+          "source_id": "KNZb40-photo",
+          "locator_detail": "Caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "KNZb40-2",
+          "field": "vessel_caption",
+          "value": "Pithoid jar",
+          "source_id": "KNZb40-photo",
+          "locator_detail": "Caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "KNZb40-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2
+          ],
+          "source_id": "KNZb40-photo",
+          "locator_detail": "Numbered transcription rows",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Two presentations on one edition page are not independent witnesses or two inscriptions."
+        }
+      ],
+      "gorila_page_ids": [
+        "KNZb40-photo"
+      ],
+      "object_identity_certified": false,
+      "expert_validated": false,
+      "reading_adjudicated": false,
+      "join_status": "UNASSESSED",
+      "restoration_status": "NO_NEW_RESTORATION_ENTERED",
+      "archaeological_find_context_status": "NOT_SOURCE_COLLATED_IN_THIS_PILOT",
+      "period_status": "SIGLA_SOURCE_REPORTED_NOT_INDEPENDENTLY_DATED",
+      "source_encoding_diagnostics": {
+        "editorial_groups": 2,
+        "blank_slots": 0,
+        "fraction_slots": 0,
+        "account_quantity_field": "NOT_SUPPLIED",
+        "line_and_glyph_coordinates": "NOT_SUPPLIED",
+        "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "U001",
+      "legacy_document_id": "HT17",
+      "legacy_kind": "numeral",
+      "legacy_alternatives": "37 vs 38",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "HT 17",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "EDITION_QUANTITY_CHECKED_LEGACY_37_ATTRIBUTION_UNTRACED",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U002",
+      "legacy_document_id": "HT15",
+      "legacy_kind": "sign/fraction",
+      "legacy_alternatives": "L4L4 vs L3L3",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "HT 15",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/77/attestations/7",
+          "fields": {
+            "sign": "*120 || (L3+L3)",
+            "kind": "logogram",
+            "series": "A",
+            "number": 586,
+            "word": null
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U003",
+      "legacy_document_id": "HT17",
+      "legacy_kind": "sign",
+      "legacy_alternatives": "private-use/variant vs *164A",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "HT 17",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/91/attestations/1",
+          "fields": {
+            "sign": "*164",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 164,
+            "word": 0
+          }
+        },
+        {
+          "source_pointer": "/documents/91/attestations/5",
+          "fields": {
+            "sign": "VIN",
+            "kind": "logogram",
+            "series": "AB",
+            "number": 164,
+            "word": null
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U004",
+      "legacy_document_id": "HT34",
+      "legacy_kind": "sign",
+      "legacy_alternatives": "SI*516 vs SII",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "HT 34",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/116/attestations/3",
+          "fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 41,
+            "word": 1
+          }
+        },
+        {
+          "source_pointer": "/documents/116/attestations/4",
+          "fields": {
+            "sign": "*28+[?]",
+            "kind": "syllable",
+            "series": "A",
+            "number": 516,
+            "word": 1
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U005",
+      "legacy_document_id": "HT34",
+      "legacy_kind": "sign",
+      "legacy_alternatives": "MIJAI vs MIJARU",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "HT 34",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/116/attestations/7",
+          "fields": {
+            "sign": "(*73?+*57?) | *77",
+            "kind": "logogram",
+            "series": "A",
+            "number": 552,
+            "word": null
+          }
+        },
+        {
+          "source_pointer": "/documents/116/attestations/18",
+          "fields": {
+            "sign": "(*73?+*57?) | *26",
+            "kind": "logogram",
+            "series": "A",
+            "number": 550,
+            "word": null
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U006",
+      "legacy_document_id": "HT49a",
+      "legacy_kind": "sign/tokenization",
+      "legacy_alternatives": "SUKI vs SU + VESST",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "HT 49a",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/136/attestations/8",
+          "fields": {
+            "sign": "SU",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 58,
+            "word": 4
+          }
+        },
+        {
+          "source_pointer": "/documents/136/attestations/9",
+          "fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 67,
+            "word": 4
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U007",
+      "legacy_document_id": "KH74",
+      "legacy_kind": "sign",
+      "legacy_alternatives": "SI*805MI vs SI*301MI",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "KH 74",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/466/attestations/5",
+          "fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 41,
+            "word": 2
+          }
+        },
+        {
+          "source_pointer": "/documents/466/attestations/6",
+          "fields": {
+            "sign": "*301 || *73",
+            "kind": "logogram",
+            "series": "A",
+            "number": 605,
+            "word": null
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U008",
+      "legacy_document_id": "KH8",
+      "legacy_kind": "sign",
+      "legacy_alternatives": "QA2PU vs *510",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "KH 8",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/475/attestations/14",
+          "fields": {
+            "sign": "*16+[?]+*50",
+            "kind": "logogram",
+            "series": "A",
+            "number": 510,
+            "word": null
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U009",
+      "legacy_document_id": "MA10b",
+      "legacy_kind": "compound sign",
+      "legacy_alternatives": "TI*412VAS vs *404TI",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "MA 10b",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/651/attestations/5",
+          "fields": {
+            "sign": "*412VAS+{E}",
+            "kind": "logogram",
+            "series": "A",
+            "number": 658,
+            "word": null
+          }
+        },
+        {
+          "source_pointer": "/documents/651/attestations/7",
+          "fields": {
+            "sign": "*404VAS+{*08}",
+            "kind": "logogram",
+            "series": "A",
+            "number": 654,
+            "word": null
+          }
+        },
+        {
+          "source_pointer": "/documents/651/attestations/8",
+          "fields": {
+            "sign": "*37 || *412VAS",
+            "kind": "logogram",
+            "series": "A",
+            "number": 524,
+            "word": null
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U010",
+      "legacy_document_id": "HTZd157+156",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "TAJA|K vs TAJAK",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U011",
+      "legacy_document_id": "KNZc6",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "single group vs split before IZU",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": "KN Zc 6",
+      "source_join_status": "EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [
+        {
+          "source_pointer": "/documents/644/attestations/10",
+          "fields": {
+            "sign": "NI",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 30,
+            "word": 2
+          }
+        },
+        {
+          "source_pointer": "/documents/644/attestations/11",
+          "fields": {
+            "sign": "JA",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 57,
+            "word": 2
+          }
+        },
+        {
+          "source_pointer": "/documents/644/attestations/12",
+          "fields": {
+            "sign": "NU",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 55,
+            "word": 2
+          }
+        },
+        {
+          "source_pointer": "/documents/644/attestations/19",
+          "fields": {
+            "sign": "U",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 10,
+            "word": 3
+          }
+        },
+        {
+          "source_pointer": "/documents/644/attestations/20",
+          "fields": {
+            "sign": "",
+            "kind": "blank",
+            "series": "",
+            "number": null,
+            "word": 3
+          }
+        },
+        {
+          "source_pointer": "/documents/644/attestations/21",
+          "fields": {
+            "sign": "I",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 28,
+            "word": 3
+          }
+        },
+        {
+          "source_pointer": "/documents/644/attestations/22",
+          "fields": {
+            "sign": "*79",
+            "kind": "syllable",
+            "series": "AB",
+            "number": 79,
+            "word": 3
+          }
+        }
+      ],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U012",
+      "legacy_document_id": "PKZa8",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "JASAUNAKANASI vs JASA|UNAKANASI",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U013",
+      "legacy_document_id": "PRZa1",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "TANASUTEKE vs TANASUTE|KE",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U014",
+      "legacy_document_id": "SYZb7",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "RAKINISE vs RAKI|NISE",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U015",
+      "legacy_document_id": "fraction K",
+      "legacy_kind": "metrology",
+      "legacy_alternatives": "1/16 vs 1/10",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "INTERPRETATION_ONLY_NOT_A_DOCUMENT",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    }
+  ],
+  "raison_pope_status": "UNRESOLVED_EDITION_CONTENT_NOT_ACQUIRED",
+  "expert_validation_added": false,
+  "physical_readings_adjudicated": 0,
+  "independently_verified_object_count": 0,
+  "canonical_readings_added": 0,
+  "prospective_outcomes_inspected": false,
+  "next_review_requirements": [
+    "Verify the edition captions and quantities against the linked primary pages; distinguish source errors from object readings.",
+    "Trace each legacy alternative to its exact witness and locator; do not equate project alternatives with verified edition readings.",
+    "Verify fragment/face joins, restorations and modern inventory identities against catalogue or object evidence.",
+    "Acquire a lawful Raison–Pope edition and establish entry-level crosswalks before claiming parity.",
+    "Expand the critical transcription and graphical uncertainty layer beyond this bounded metadata pilot."
+  ]
+}

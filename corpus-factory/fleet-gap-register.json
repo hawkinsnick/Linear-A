@@ -6,9 +6,9 @@
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups; all-record edition-status map: 755 GORILA page links, 24 RILA-S1 publication links, 23 unusable references; 10 prior primary case entries join 8 source records. Raison\u2013Pope entry joins unresolved.",
-      "top_gap": "lawful Raison\u2013Pope concordance acquisition; exact RILA-S1 item matches; extend GORILA primary collation; reconcile physical identities and numerical quantities",
-      "status_source": "analysis/edition-concordance-audit.json"
+      "coverage_state": "802 authenticated source entries / 5,144 attestations; all-record edition-status accounting plus 10-entry critical metadata pilot: 31 attributed assertions, 7 printed quantities on 2 entries, 15 preserved comparisons, 25 unreviewed review items. Raison\u2013Pope entry joins unresolved.",
+      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "status_source": "analysis/critical-pilot-audit.json"
     },
     {
       "repo": "Cypro-Minoan",

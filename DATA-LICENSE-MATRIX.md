@@ -45,3 +45,7 @@ Individual source and record notices remain authoritative for upstream content.
 ## Edition-concordance metadata
 
 `research/edition-concordance.csv` is a source-derived identifier/locator table under SigLA CC BY-NC-SA 4.0, credited to Ester Salgarella and Simon Castellan via Ryan Pavlicek/pyaegean. The accompanying route registry contains factual bibliographic metadata and original summaries; no edition pages or transcriptions are redistributed. This scoped publication does not open the ignored raw-source or reading exports.
+
+## Critical pilot layers
+
+`research/critical-pilot.json` and `research/critical-disagreement-comparison.csv` retain CC BY-NC-SA 4.0 on SigLA-derived context, IDs and targeted source excerpts, with Ester Salgarella/Simon Castellan attribution via Ryan Pavlicek/pyaegean. Mixed generated dossiers retain these field-level terms. Original brief observations and factual bibliographic locators do not grant rights in the primary editions. No GORILA images, full edition transcriptions or Flouda publication text are republished. The review queue contains original questions and unreviewed decision fields; it confers no scholarly approval.
