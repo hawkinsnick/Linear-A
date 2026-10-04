@@ -148,7 +148,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: denominator ledger keeps 14 publication labels, 18 surfaces, 126 line targets, BYB-G's 6 reported/5 certainly textual columns, zero verified sequences and unknown physical-monument count distinct.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact catalogue routes bind the 10-label 1945 and 4-label later cohorts to three records, while primary pages collated and verified sequences remain zero and physical-monument count remains unknown.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -162,12 +162,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "research/core-counting-unit-ledger.json",
+      "source_audit_path": "research/core-primary-access-route-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "8b06b5b9e31fc7a1420722cb41149651d9f7cfd1",
-        "published_commit": "1fc23a8ae6b5b52803bbdd2a401ed0cc79136dd9",
+        "source_commit": "55801c6b2660f422c006c64c612506eb072c9d98",
+        "published_commit": "55801c6b2660f422c006c64c612506eb072c9d98",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -234,7 +234,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: page-hashed Praisos layouts distinguish 31 source lines across three publication identities from 41 project rows across four reading versions; alternatives and grouped rows are not independent objects.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact Anemi resource 000070579 / volume 000070579_3.pdf is bound to eight coverage leads; delivery failure means zero pages collated, readings added or analytical admissions.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -249,12 +249,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/praisos-layout-unit-audit.json",
+      "source_audit_path": "analysis/guarducci-route-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "99cc391bb44de0825427e0c1d0d8252af7cbca5e",
-        "published_commit": "21aa4de741940da3bc9e73ac7ba02d6856408991",
+        "source_commit": "85d351d89a3737b35988cfe23addaba551c3472c",
+        "published_commit": "85d351d89a3737b35988cfe23addaba551c3472c",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -295,7 +295,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 305 TITUS headings and 272 numeric stems remain distinct; 23 explicit co-listed label edges include 18 integer-to-suffix and 5 letter-to-Roman relations, none certified physical.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: declared normalization makes TM1001271 the unique exact G-12 text match among 162 UD TM groups; dependent text correspondence does not certify external catalogue or physical identity.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -310,12 +310,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/titus-heading-hierarchy-audit.json",
+      "source_audit_path": "analysis/g12-reference-fingerprint-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "aa3c19858a19c11e1c6a13d91a1fc76edbcbb23f",
-        "published_commit": "118f8c22ba7fefacc3222e9b9abe42d0ef4e191b",
+        "source_commit": "94b76ed7872f32f8c89c8f1395eb440afa8dc42c",
+        "published_commit": "94b76ed7872f32f8c89c8f1395eb440afa8dc42c",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },

@@ -37,10 +37,10 @@
     },
     {
       "repo": "Byblos-syllabary",
-      "evidence_depth": "LOW_WITH_DENOMINATORS_RECONCILED",
-      "coverage_state": "14 publication labels / 18 surfaces / 126 line targets; BYB-G has 6 reported columns but only 5 certainly textual; h/j possible coreference leaves physical-monument count unknown; verified sequences remain zero",
-      "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
-      "status_source": "research/core-counting-unit-ledger.json"
+      "evidence_depth": "LOW_WITH_EXACT_EDITION_ROUTES",
+      "coverage_state": "10 labels in the 1945 cohort and 4 in the later cohort are bound to 3 exact catalogue records; available states are borrow-restricted, metadata/snippet-only or bibliographic-only; 0 primary pages and 0 sequences collated",
+      "top_gap": "lawful original edition/plate collation, object identity and source/provider scope reconciliation",
+      "status_source": "research/core-primary-access-route-audit.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -56,10 +56,10 @@
     },
     {
       "repo": "Eteocretan",
-      "evidence_depth": "LOW_WITH_PRIMARY_LAYOUT_UNITS",
-      "coverage_state": "11 coverage entries / 12 reading versions; page-hashed Praisos evidence distinguishes 31 source lines across 3 identities from 41 rows across 4 versions; Praisos 1 grouping and Praisos 2 alternatives remain explicit",
-      "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
-      "status_source": "analysis/praisos-layout-unit-audit.json"
+      "evidence_depth": "LOW_WITH_EXACT_CRITICAL_EDITION_ROUTE",
+      "coverage_state": "Anemi resource 000070579 / volume 000070579_3.pdf supplies an exact institutional route for 8 coverage leads; gateway/time-out failure leaves 0 primary pages collated and 0 readings or admissions added",
+      "top_gap": "lawful Guarducci pp. 134-142 collation; Azoria inventory and uncertain-language adjudication",
+      "status_source": "analysis/guarducci-route-audit.json"
     },
     {
       "repo": "Lycian-and-Carian",
@@ -69,10 +69,10 @@
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 305 TITUS headings / 272 numeric stems / 12 multi-heading stems; 23 explicit co-listed label edges include 5 Roman subdivisions under present letter parents",
-      "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
-      "status_source": "analysis/titus-heading-hierarchy-audit.json"
+      "evidence_depth": "MEDIUM_WITH_REPRODUCIBLE_TEXT_JOIN",
+      "coverage_state": "TM1001271 is the unique exact normalized G-12 text match among 162 UD TM groups under a declared lossy normalization; this is dependent text correspondence, not external catalogue or physical identity certification",
+      "top_gap": "inspect authoritative TM identity, reconcile headings to actual objects and primary editions; canonical admission remains empty",
+      "status_source": "analysis/g12-reference-fingerprint-audit.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
