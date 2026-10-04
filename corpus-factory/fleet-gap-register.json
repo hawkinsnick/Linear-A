@@ -37,10 +37,10 @@
     },
     {
       "repo": "Byblos-syllabary",
-      "evidence_depth": "LOW_WITH_EXACT_EDITION_ROUTES",
-      "coverage_state": "10 labels in the 1945 cohort and 4 in the later cohort are bound to 3 exact catalogue records; available states are borrow-restricted, metadata/snippet-only or bibliographic-only; 0 primary pages and 0 sequences collated",
-      "top_gap": "lawful original edition/plate collation, object identity and source/provider scope reconciliation",
-      "status_source": "research/core-primary-access-route-audit.json"
+      "evidence_depth": "LOW_WITH_BIBLIOGRAPHIC_CONFLICT_AUDIT",
+      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52–58 versus KeiBi pp. 51–59; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
+      "top_gap": "inspect the physical article and plates; then reconcile pagination, object identity and provider scope",
+      "status_source": "research/dunand-1978-bibliographic-conflict-audit.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -56,10 +56,10 @@
     },
     {
       "repo": "Eteocretan",
-      "evidence_depth": "LOW_WITH_EXACT_CRITICAL_EDITION_ROUTE",
-      "coverage_state": "Anemi resource 000070579 / volume 000070579_3.pdf supplies an exact institutional route for 8 coverage leads; gateway/time-out failure leaves 0 primary pages collated and 0 readings or admissions added",
-      "top_gap": "lawful Guarducci pp. 134-142 collation; Azoria inventory and uncertain-language adjudication",
-      "status_source": "analysis/guarducci-route-audit.json"
+      "evidence_depth": "LOW_WITH_REPORTED_EDITION_NUMBER_CONCORDANCE",
+      "coverage_state": "Lejeune 1947 p. 276 n. 4 reports Guarducci nos. 1–6: 3 historically named crosswalks plus 3 number-only short fragments perhaps Eteocretan; script classes remain attributed",
+      "top_gap": "lawful Guarducci pp. 137–142 collation; physical identity, Azoria inventory and uncertain-language adjudication",
+      "status_source": "analysis/praisos-guarducci-number-audit.json"
     },
     {
       "repo": "Lycian-and-Carian",
@@ -69,10 +69,10 @@
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM_WITH_REPRODUCIBLE_TEXT_JOIN",
-      "coverage_state": "TM1001271 is the unique exact normalized G-12 text match among 162 UD TM groups under a declared lossy normalization; this is dependent text correspondence, not external catalogue or physical identity certification",
-      "top_gap": "inspect authoritative TM identity, reconcile headings to actual objects and primary editions; canonical admission remains empty",
-      "status_source": "analysis/g12-reference-fingerprint-audit.json"
+      "evidence_depth": "MEDIUM_WITH_EXPLICIT_LINEAGE_DENOMINATOR",
+      "coverage_state": "3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined; independently collated lineages and canonical admissions remain zero",
+      "top_gap": "extend record-specific edition lineage, inspect authoritative TM identities and reconcile headings to objects",
+      "status_source": "analysis/explicit-source-lineage-audit.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
