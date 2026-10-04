@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "checked": "2026-10-03",
+  "checked": "2026-10-04",
   "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
   "principle": "Scientific experiment gates and corpus-engineering gates are independent. A sealed prospective experiment must remain sealed while source, provenance, catalogue, rights, and representation work continues.",
   "machine_resolvable": [
@@ -77,5 +77,6 @@
   ],
   "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker.",
   "machine_pass_evidence": "analysis/pre-expert-source-audit.json",
-  "public_record_boundary": "The full 802-entry authenticated derivative remains local and ignored. The declared critical pilot publishes only ten selected SigLA source entries / 168 attestation slots and source-derived comparison metadata under retained CC BY-NC-SA 4.0 with attribution. No GORILA images, complete edition transcription, restricted payload or independent expert approval is published. See analysis/critical-pilot-audit.json for the current bounded public export."
+  "public_record_boundary": "All 802 entries, 5,144 slots, 1,401 editorial groups and 376 source sign entries from one authenticated SigLA derivative are public as licensed source-only JSONL under CC BY-NC-SA 4.0 with attribution. Primary-edition images remain private. The ten-entry critical pilot supplies separate edition evidence; Raison\u2013Pope reconciliation, physical object identities and independent expert review remain open.",
+  "public_source_layer_audit": "analysis/public-sigla-layer-audit.json"
 }

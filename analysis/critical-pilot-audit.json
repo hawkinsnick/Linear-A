@@ -3,7 +3,7 @@
   "scope": "10 declared source entries, not 10 certified objects; bounded critical metadata and disagreement pilot, not a complete critical transcription.",
   "source_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
   "input_hashes": {
-    "research/critical-pilot.json": "d31b1ffacf86369efdef6966344f0423e66be56959ae69dc88493cebc640de16",
+    "research/critical-pilot.json": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
     "data/unresolved_cases.csv": "21f326f53f605e4703cbcb787373701ed594ef9fc1c49ce67c0d6b64f7396004",
     "research/edition-concordance.csv": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2"
   },
@@ -20,15 +20,15 @@
     "Cup": 1,
     "Pithoid jar": 1
   },
-  "inspected_page_images": 14,
-  "identified_target_page_images": 13,
+  "inspected_page_images": 20,
+  "identified_target_page_images": 19,
   "blank_adjacent_page_negative_checks": 1,
   "supplementary_reprint_acquisitions": 4,
   "supplementary_target_figures_inspected": 1,
   "supplementary_non_target_figure_negative_checks": 1,
-  "field_assertions": 31,
+  "field_assertions": 51,
   "assertion_levels": {
-    "PRIMARY_EDITION_REPORTED": 26,
+    "PRIMARY_EDITION_REPORTED": 46,
     "ATTRIBUTED_SCHOLARLY_REPORT_PUBLIC_REPRINT": 5
   },
   "entries_with_primary_edition_quantities": 2,
@@ -47,11 +47,13 @@
   "raison_pope_status": "UNRESOLVED_EDITION_CONTENT_NOT_ACQUIRED",
   "prospective_outcomes_inspected": false,
   "generated_hashes": {
-    "research/critical-disagreement-comparison.csv": "fbc8813175289ea19c40ba171bfa033f8d0b5016b9780ba3f300a06333afc2aa",
+    "research/critical-disagreement-comparison.csv": "ace231649df152c54037d7a0951d5bb3372e0e5eaefcdc083bad21ad54459692",
     "reviews/critical-pilot-review.tsv": "23d708b7ad08ae15ca8c1232dafd0005c6917e5c3751885eb42f0277a5abfe41",
-    "docs/CRITICAL-PILOT.md": "f5a681ed16c5834bdeed112656afa5871b0024fa4f81985e397e401233acb632",
+    "docs/CRITICAL-PILOT.md": "b8807716db072f423028dd1b9b2f9c3e6eefa14ba3697001109c88fd87221d24",
     "research/critical-pilot-sigla-witness.json": "41cc266334f626e357a8c303aa97f9c8ac1cfb8044dd716f8d8e9913e5abd0f8",
-    "research/critical-pilot-sigla-slots.csv": "e39694f89de8a71571f1871150050c86377928caf161c4c1178eacbe9fcd4ab3"
+    "research/critical-pilot-sigla-slots.csv": "e39694f89de8a71571f1871150050c86377928caf161c4c1178eacbe9fcd4ab3",
+    "research/critical-pilot-quantity-components.csv": "8e45088362347690bdda04cd6a999ad40b6582105636905cd527b5fa89f2b9d9",
+    "research/critical-pilot-metadata-comparison.csv": "c5cfd19f7ec7f69393ff2a14eca15e966249b2769cc54ee8bb1dae3b5e9790da"
   },
   "boundary": "A bounded, source-traced metadata and disagreement pilot. Reproducibility verifies identity/encoding/view integrity, not physical epigraphy, source independence, full critical transcription or scholarly parity.",
   "public_source_witness_entries": 10,
@@ -62,5 +64,21 @@
     "blank": 18,
     "fraction": 8
   },
-  "source_editorial_groups": 41
+  "source_editorial_groups": 41,
+  "quantity_component_observations": 41,
+  "quantity_component_entries": 6,
+  "symbolic_component_observations": 9,
+  "uncertain_or_damaged_terminal_observations": 7,
+  "unqualified_printed_integer_observations": 25,
+  "quantity_collation_status_counts": {
+    "PRINTED_AMOUNT_COMPONENTS_COLLATED": 6,
+    "NO_NORMALIZED_AMOUNT_IN_CONSULTED_TARGET_PRESENTATION": 2,
+    "FACSIMILE_NUMERALS_NOT_NORMALIZED_OR_ADJUDICATED": 2
+  },
+  "dimension_comparison_status_counts": {
+    "NUMERIC_COMPONENTS_MATCH_SOURCE_ORDER": 4,
+    "SOURCE_SCALAR_VS_EDITION_FRAGMENT_EXPRESSION_UNRESOLVED": 1,
+    "NUMERIC_COMPONENTS_MATCH_BRACKETS_RETAINED": 3,
+    "NO_PRIMARY_DIMENSION_CAPTION_COLLATED": 2
+  }
 }

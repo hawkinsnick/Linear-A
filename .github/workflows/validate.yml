@@ -16,6 +16,9 @@ jobs:
       - run: python scripts/test_edition_concordance.py
       - run: python scripts/build_critical_pilot.py --check
       - run: python scripts/test_critical_pilot.py
+      - run: python scripts/build_public_sigla_layer.py --check
+      - run: python scripts/build_gorila_route_audit.py --check
+      - run: python scripts/test_source_layers.py
       - run: python scripts/validate_corpus.py
       - run: python scripts/audit_claims_3_0.py
       - run: python scripts/test_sigla_delta.py
@@ -43,6 +46,7 @@ jobs:
           cmp /tmp/pre-expert-source-audit.json analysis/pre-expert-source-audit.json
           python scripts/build_edition_concordance.py /tmp/sigla-corpus.json --check
           python scripts/build_critical_pilot.py /tmp/sigla-corpus.json --check
+          python scripts/build_public_sigla_layer.py /tmp/sigla-corpus.json --check
 
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'

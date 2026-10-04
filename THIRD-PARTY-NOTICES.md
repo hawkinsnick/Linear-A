@@ -33,3 +33,7 @@ No third-party license is replaced or broadened by this project.
 analytical aggregates are derived from the locally retrieved SigLA snapshot.
 They retain the applicable CC BY-NC-SA 4.0 attribution/share-alike/noncommercial
 obligations. The raw SigLA database payload and drawings are not bundled.
+
+## Full authenticated public SigLA layer
+
+The three `research/sigla-source-*.jsonl` files contain all 802 source entries, 5,144 attestation slots, 1,401 editorial groups and 376 sign entries from the pinned derivative, under CC BY-NC-SA 4.0. Attribution: Ester Salgarella and Simon Castellan, SigLA, via Ryan Pavlicek/pyaegean. Every record retains license, attribution and snapshot provenance. These datasets and the mixed source-derived amount/dimension comparisons are excluded from software and original-contribution license grants. `research/gorila-route-acquisition.json` retains these terms on SigLA-derived IDs/routes; primary edition images remain private. See docs/PUBLIC-SIGLA-LAYER.md and docs/GORILA-ROUTE-ACQUISITION.md.

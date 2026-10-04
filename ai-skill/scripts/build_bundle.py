@@ -7,6 +7,17 @@ ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/"ai-skill"/"generated"; OUT.mkdir(parents=True,exist_ok=True)
 sha=os.environ.get("SOURCE_COMMIT") or subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()
 CANDIDATES=[
+ ('public_sigla_layer_audit', 'analysis/public-sigla-layer-audit.json'),
+ ('public_sigla_documents', 'research/sigla-source-documents.jsonl'),
+ ('public_sigla_groups', 'research/sigla-source-groups.jsonl'),
+ ('public_sigla_signs', 'research/sigla-source-signs.jsonl'),
+ ('public_sigla_guide', 'docs/PUBLIC-SIGLA-LAYER.md'),
+ ('gorila_route_acquisition', 'research/gorila-route-acquisition.json'),
+ ('gorila_route_audit', 'analysis/gorila-route-audit.json'),
+ ('gorila_route_guide', 'docs/GORILA-ROUTE-ACQUISITION.md'),
+ ('critical_quantity_components', 'research/critical-pilot-quantity-components.csv'),
+ ('critical_metadata_comparison', 'research/critical-pilot-metadata-comparison.csv'),
+
  ("critical_pilot_sigla_witness","research/critical-pilot-sigla-witness.json"),
  ("critical_pilot_sigla_slots","research/critical-pilot-sigla-slots.csv"),
  ("critical_pilot","research/critical-pilot.json"),

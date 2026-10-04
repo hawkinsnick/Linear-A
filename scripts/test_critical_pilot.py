@@ -7,6 +7,28 @@ class PilotTests(unittest.TestCase):
  def reject(self,operation,pattern):
   p=copy.deepcopy(self.p);operation(p)
   with self.assertRaisesRegex(ValueError,pattern):m.validate(p)
+ def test_damaged_and_symbolic_amounts_have_no_complete_numeric_value(self):
+  base={'integer_component':30,'symbolic_component_status':'ABSENT','terminal_status':'NO_MARKED_LOSS'}
+  self.assertEqual(m.complete_printed_integer(base),30)
+  for state in ['OPEN_BRACKET','UNCERTAIN_BRACKETED_CONTINUATION','EDITION_COMMENTARY_QUESTIONS_COMPLETENESS']:
+   self.assertIsNone(m.complete_printed_integer(dict(base,terminal_status=state)))
+  self.assertIsNone(m.complete_printed_integer(dict(base,symbolic_component_status='PRESENT_UNTRANSCRIBED')))
+ def test_fractional_or_restored_normalization_cannot_be_imported(self):
+  self.reject(lambda p:next(a for e in p['entries'] for a in e['assertions'] if a['field']=='editorial_quantity_components')['value'][0].update(normalized_quantity=0.5),'schema drift')
+ def test_bracketed_dimensions_and_fragment_expressions_remain_distinct(self):
+  parts=m.dimension_components('5,50 × [3,00]+[6,20] × 0,70 cm')
+  self.assertIsNone(parts[1]['scalar']);self.assertTrue(parts[1]['fragment_expression']);self.assertEqual(parts[1]['literal'],'[3,00]+[6,20]')
+  parts=m.dimension_components('[8,50] × 2,50 × 2,80 cm');self.assertTrue(parts[0]['bracketed'])
+  with self.assertRaises(ValueError):m.dimension_components('8,50] × 2,50 × 2,80 cm')
+ def test_face_relationship_cannot_become_object_certification(self):
+  self.reject(lambda p:next(a for e in p['entries'] for a in e['assertions'] if a['field']=='edition_counting_unit')['value'].update(physical_identity_certified=True),'face relation')
+ def test_neighboring_panels_are_excluded_and_source_witness_is_unchanged(self):
+  out=m.calculate();rows=list(csv.DictReader(io.StringIO(out[m.OUTPUTS[6]])))
+  self.assertFalse(any(r['source_record_id'] in ['KH 75','KH 76','HT 18'] for r in rows))
+  self.assertEqual({r['source_record_id'] for r in rows},{'HT 15','HT 17','HT 34','HT 49a','KH 8','ARKH 2'})
+  self.assertTrue(all(r['complete_physical_amount_certified']=='false' for r in rows))
+  meta=list(csv.DictReader(io.StringIO(out[m.OUTPUTS[7]])));ht=next(r for r in meta if r['source_record_id']=='HT 49a')
+  self.assertEqual(ht['dimension_comparison_status'],'SOURCE_SCALAR_VS_EDITION_FRAGMENT_EXPRESSION_UNRESOLVED')
  def test_committed_views_replay(self):
   for path,value in m.calculate().items():self.assertEqual((m.ROOT/path).read_bytes(),value.encode())
  def test_acquired_asset_wrong_bytes_and_path_escape_rejected(self):

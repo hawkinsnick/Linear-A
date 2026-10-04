@@ -299,6 +299,132 @@
       "finding": "IDENTIFIED_ENTRY_PRESENT",
       "lineage": "GORILA_EDITION",
       "consulted": "2026-10-04"
+    },
+    {
+      "name": "HT15-tracing",
+      "volume": 1,
+      "viewer_page": 67,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=67",
+      "image_sha256": "afb154d21cef0bb93f747218c0ba05cbb54e317618bc1c40bfd37a2933858602",
+      "html_sha256": "4d4414f674e5300bb59539cbbb1f52fb5a60856851453e90d14135a0a17aa37b",
+      "bytes": 33689,
+      "image_redistributed": false,
+      "page_id": "HT15-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 31,
+      "document_ids": [
+        "HT 15"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04",
+      "historical_case_image_digest_reconfirmed": true
+    },
+    {
+      "name": "HT34-tracing",
+      "volume": 1,
+      "viewer_page": 101,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=101",
+      "image_sha256": "4bf2f23a28da9668d44cddd0d8adc25e903fb78e9baa461be9fbcab68ab91cea",
+      "html_sha256": "edcbbb727b1ae1b0bf3b9b1021f6e6336f2ba00b0f48ed2662c03efed74a2b09",
+      "bytes": 48789,
+      "image_redistributed": false,
+      "page_id": "HT34-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 65,
+      "document_ids": [
+        "HT 34"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04",
+      "historical_case_image_digest_reconfirmed": true
+    },
+    {
+      "name": "HT49a-tracing",
+      "volume": 1,
+      "viewer_page": 129,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=129",
+      "image_sha256": "bf12de96d167a7cd30342aae59f363fb48f3c49639153d505e78d349f01a1230",
+      "html_sha256": "aa068ee256313792d5d54b5880e7ebe6f30be02c5b2a3dd887965274fee04334",
+      "bytes": 50519,
+      "image_redistributed": false,
+      "page_id": "HT49a-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 93,
+      "document_ids": [
+        "HT 49a"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04",
+      "historical_case_image_digest_reconfirmed": true
+    },
+    {
+      "name": "KH74-tracing",
+      "volume": 3,
+      "viewer_page": 117,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=117",
+      "image_sha256": "0fd1abfb4c8084cef4ad106e64fc7b469921b48cac423e0a1c66163f4b9fb437",
+      "html_sha256": "21736c470800e237c7ba0bfc85e3f01093a1ced02056a9a5c9a4d34dc63866d7",
+      "bytes": 48114,
+      "image_redistributed": false,
+      "page_id": "KH74-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 93,
+      "document_ids": [
+        "KH 74"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04",
+      "historical_case_image_digest_reconfirmed": true
+    },
+    {
+      "name": "KH8-tracing",
+      "volume": 3,
+      "viewer_page": 57,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&sp=57",
+      "image_sha256": "904b8f53b5735746888f95137236746cb6d3ca7beb0c3096f2a5fad728f95fd0",
+      "html_sha256": "7b96729bfca3a9c026b761aff590bbe8f0e7457ce3f99ba4392624b74f9cd042",
+      "bytes": 39448,
+      "image_redistributed": false,
+      "page_id": "KH8-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 33,
+      "document_ids": [
+        "KH 8"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04",
+      "historical_case_image_digest_reconfirmed": true
+    },
+    {
+      "name": "MA10b-tracing",
+      "volume": 5,
+      "viewer_page": 103,
+      "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=5&sp=103",
+      "image_sha256": "699d317553e448c0167f558b09b095229549b34f4f87645257632b1567dc620b",
+      "html_sha256": "acdc7fcdd1a165f0a6512d42c060cea88dc3e7822a278b7be7e2168c9bb0d901",
+      "bytes": 70941,
+      "image_redistributed": false,
+      "page_id": "MA10b-tracing",
+      "edition": "Godart & Olivier, GORILA",
+      "printed_page": 51,
+      "document_ids": [
+        "MA 10b"
+      ],
+      "inspection": "AI_VISUAL_PAGE_INSPECTION_NOT_EXPERT_AUTOPSY",
+      "finding": "IDENTIFIED_ENTRY_PRESENT",
+      "lineage": "GORILA_EDITION",
+      "consulted": "2026-10-04",
+      "historical_case_image_digest_reconfirmed": true
     }
   ],
   "scholarly_sources": [
@@ -405,10 +531,66 @@
           "locator_detail": "Target entry dimension caption",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        },
+        {
+          "assertion_id": "HT15-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_id": "HT15-tracing",
+          "locator_detail": "Upper target diplomatic presentation; numbered rows are not linguistic words or object counts.",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "HT15-4",
+          "field": "printed_damage_commentary",
+          "value": "Row 3 numeral commentary allows additional/reconstructed strokes or a larger quantity; row 5 is marked vestigia.",
+          "source_id": "HT15-tracing",
+          "locator_detail": "Comment below upper tracing and vestigia label on row 5",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "The printed 570 is retained as an integer component; commentary does not certify a complete physical amount."
+        },
+        {
+          "assertion_id": "HT15-5",
+          "field": "editorial_quantity_components",
+          "value": [
+            {
+              "edition_group": "1–2",
+              "integer_component": 684,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "2–3",
+              "integer_component": 570,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "EDITION_COMMENTARY_QUESTIONS_COMPLETENESS",
+              "note": "Printed 570; row 3 commentary raises reconstruction/additional numeral strokes or larger amount."
+            },
+            {
+              "edition_group": "4 / second amount",
+              "integer_component": 400,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            }
+          ],
+          "source_id": "HT15-tracing",
+          "locator_detail": "Lower grouped target presentation; repeated row numbers disambiguated by amount order",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Arabic integer components only. Non-Arabic quantity signs are left untranscribed; no rational fraction, restored tail, total, balance or SigLA quantity mapping is inferred."
         }
       ],
       "gorila_page_ids": [
-        "HT15-photo"
+        "HT15-photo",
+        "HT15-tracing"
       ],
       "object_identity_certified": false,
       "expert_validated": false,
@@ -582,7 +764,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "PRINTED_AMOUNT_COMPONENTS_COLLATED"
     },
     {
       "source_record_id": "HT 17",
@@ -663,6 +846,37 @@
           "locator_detail": "Upper HT 17 grouped rows",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Printed edition numbers; the lower HT 18 entry is excluded. The legacy quantity 37 is retained as an untraced project alternative."
+        },
+        {
+          "assertion_id": "HT17-6",
+          "field": "editorial_quantity_components",
+          "value": [
+            {
+              "edition_group": "1–2",
+              "integer_component": 38,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "2",
+              "integer_component": 10,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "3",
+              "integer_component": 5,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            }
+          ],
+          "source_id": "HT17-tracing",
+          "locator_detail": "Lower target grouped presentation",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Re-expresses the already inspected edition quantities as explicit components; not additional independent evidence."
         }
       ],
       "gorila_page_ids": [
@@ -829,7 +1043,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "PRINTED_AMOUNT_COMPONENTS_COLLATED"
     },
     {
       "source_record_id": "HT 34",
@@ -872,10 +1087,110 @@
           "locator_detail": "Right-hand facsimile",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Drawing convention observation only; lost sign count and restored content remain unknown."
+        },
+        {
+          "assertion_id": "HT34-4",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "source_id": "HT34-tracing",
+          "locator_detail": "Upper target diplomatic presentation; numbered rows are not linguistic words or object counts.",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "HT34-5",
+          "field": "printed_damage_commentary",
+          "value": "Lower presentation includes an open ending after 200 and uncertain bracketed continuation after 30.",
+          "source_id": "HT34-tracing",
+          "locator_detail": "Lower entry rows 3 and 6",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "No restoration is imported; suffixes and symbolic quantity signs remain unresolved."
+        },
+        {
+          "assertion_id": "HT34-6",
+          "field": "editorial_quantity_components",
+          "value": [
+            {
+              "edition_group": "3 / first amount",
+              "integer_component": 200,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "OPEN_BRACKET",
+              "note": ""
+            },
+            {
+              "edition_group": "3 / second amount",
+              "integer_component": 2,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "4 / amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "5",
+              "integer_component": 245,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6 / first amount",
+              "integer_component": 100,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6 / second amount",
+              "integer_component": 70,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6 / third amount",
+              "integer_component": 30,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "UNCERTAIN_BRACKETED_CONTINUATION",
+              "note": "Bracketed continuation is retained as uncertain; no reconstructed unit count added."
+            },
+            {
+              "edition_group": "7 / first amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "7 / second amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            }
+          ],
+          "source_id": "HT34-tracing",
+          "locator_detail": "Lower grouped target presentation; repeated row numbers disambiguated by amount order",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Arabic integer components only. Non-Arabic quantity signs are left untranscribed; no rational fraction, restored tail, total, balance or SigLA quantity mapping is inferred."
         }
       ],
       "gorila_page_ids": [
-        "HT34-photo"
+        "HT34-photo",
+        "HT34-tracing"
       ],
       "object_identity_certified": false,
       "expert_validated": false,
@@ -1272,7 +1587,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "PRINTED_AMOUNT_COMPONENTS_COLLATED"
     },
     {
       "source_record_id": "HT 49a",
@@ -1306,10 +1622,150 @@
           "locator_detail": "Target entry dimension caption",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Source order and brackets retained; axis meanings, restoration and physical joins are not inferred. No sum of fragment dimensions."
+        },
+        {
+          "assertion_id": "HT49a-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_id": "HT49a-tracing",
+          "locator_detail": "Upper target diplomatic presentation; numbered rows are not linguistic words or object counts.",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "HT49a-4",
+          "field": "printed_damage_labels",
+          "value": [
+            "sup. mut.",
+            "inf. mut.",
+            "vest."
+          ],
+          "source_id": "HT49a-tracing",
+          "locator_detail": "Upper and lower entry; marginal labels and vestigia markers",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "HT49a-5",
+          "field": "editorial_quantity_components",
+          "value": [
+            {
+              "edition_group": "2",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "OPEN_BRACKET",
+              "note": ""
+            },
+            {
+              "edition_group": "3 / first amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "3 / second amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "4",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "OPEN_BRACKET",
+              "note": ""
+            },
+            {
+              "edition_group": "5",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6 / first amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6 / second amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6 / third amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "6–7",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "7 / first amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "7 / second amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "8 / first amount",
+              "integer_component": 5,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "8 / second amount",
+              "integer_component": 4,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "8 / third amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "OPEN_BRACKET",
+              "note": ""
+            }
+          ],
+          "source_id": "HT49a-tracing",
+          "locator_detail": "Lower grouped target presentation; repeated row numbers disambiguated by amount order",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Arabic integer components only. Non-Arabic quantity signs are left untranscribed; no rational fraction, restored tail, total, balance or SigLA quantity mapping is inferred."
         }
       ],
       "gorila_page_ids": [
-        "HT49a-photo"
+        "HT49a-photo",
+        "HT49a-tracing"
       ],
       "object_identity_certified": false,
       "expert_validated": false,
@@ -1750,7 +2206,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "PRINTED_AMOUNT_COMPONENTS_COLLATED"
     },
     {
       "source_record_id": "KH 74",
@@ -1784,10 +2241,34 @@
           "locator_detail": "Upper entry caption",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "KH74-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2
+          ],
+          "source_id": "KH74-tracing",
+          "locator_detail": "Upper target diplomatic presentation; numbered rows are not linguistic words or object counts.",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "KH74-4",
+          "field": "printed_damage_labels",
+          "value": [
+            "inf. mut."
+          ],
+          "source_id": "KH74-tracing",
+          "locator_detail": "Upper KH 74 entry only; KH 75 and KH 76 panels excluded",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
         }
       ],
       "gorila_page_ids": [
-        "KH74-photo"
+        "KH74-photo",
+        "KH74-tracing"
       ],
       "object_identity_certified": false,
       "expert_validated": false,
@@ -1897,7 +2378,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "NO_NORMALIZED_AMOUNT_IN_CONSULTED_TARGET_PRESENTATION"
     },
     {
       "source_record_id": "KH 8",
@@ -1931,10 +2413,102 @@
           "locator_detail": "Caption below drawing",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Edition-level assertion; no physical autopsy or certified modern inventory identity."
+        },
+        {
+          "assertion_id": "KH8-3",
+          "field": "numbered_rows",
+          "value": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "source_id": "KH8-tracing",
+          "locator_detail": "Upper target diplomatic presentation; numbered rows are not linguistic words or object counts.",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "KH8-4",
+          "field": "printed_damage_labels",
+          "value": [
+            "sup. mut."
+          ],
+          "source_id": "KH8-tracing",
+          "locator_detail": "Target KH 8 entry",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition presentation checked by AI; no physical autopsy, independent source or expert approval."
+        },
+        {
+          "assertion_id": "KH8-5",
+          "field": "editorial_quantity_components",
+          "value": [
+            {
+              "edition_group": "2 / first amount",
+              "integer_component": 2,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "2 / second amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "3 / first amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "3 / second amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "3 / third amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "4 / first amount",
+              "integer_component": null,
+              "symbolic_component_status": "PRESENT_UNTRANSCRIBED",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "4 / second amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "4 / third amount",
+              "integer_component": 1,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "OPEN_BRACKET",
+              "note": ""
+            }
+          ],
+          "source_id": "KH8-tracing",
+          "locator_detail": "Lower grouped target presentation; repeated row numbers disambiguated by amount order",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Arabic integer components only. Non-Arabic quantity signs are left untranscribed; no rational fraction, restored tail, total, balance or SigLA quantity mapping is inferred."
         }
       ],
       "gorila_page_ids": [
-        "KH8-photo"
+        "KH8-photo",
+        "KH8-tracing"
       ],
       "object_identity_certified": false,
       "expert_validated": false,
@@ -2150,7 +2724,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "PRINTED_AMOUNT_COMPONENTS_COLLATED"
     },
     {
       "source_record_id": "MA 10b",
@@ -2175,10 +2750,58 @@
           "locator_detail": "Second photograph labelled b",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "A face label is not an independent object; no equivalence of other source records is asserted."
+        },
+        {
+          "assertion_id": "MA10b-2",
+          "field": "inventory_label",
+          "value": "A. Nik. M. 7336",
+          "source_id": "MA10b-tracing",
+          "locator_detail": "Bottom caption of MA 10 drawing page",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Printed inventory label only; no modern accession certification or object autopsy."
+        },
+        {
+          "assertion_id": "MA10b-3",
+          "field": "dimension_caption",
+          "value": "[8,50] × 2,50 × 2,80 cm",
+          "source_id": "MA10b-tracing",
+          "locator_detail": "Bottom parent-object caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Parent MA 10 bar dimensions, not separately measured face b. Brackets and source order retained."
+        },
+        {
+          "assertion_id": "MA10b-4",
+          "field": "object_form_caption",
+          "value": "Barre à quatre faces",
+          "source_id": "MA10b-tracing",
+          "locator_detail": "Bottom caption",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "The edition describes a four-faced bar; the SigLA source classifies the selected entry as Tablet. Distinct descriptions are preserved without replacing either."
+        },
+        {
+          "assertion_id": "MA10b-5",
+          "field": "edition_counting_unit",
+          "value": {
+            "entry_unit": "face b",
+            "parent_edition_heading": "MA 10",
+            "caption_form": "four-faced bar",
+            "published_face_labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "physical_identity_certified": false
+          },
+          "source_id": "MA10b-tracing",
+          "locator_detail": "Drawing b among four labelled faces under MA 10",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Edition-level face relationship only; not four certified objects or a new physical join."
         }
       ],
       "gorila_page_ids": [
-        "MA10b-photo"
+        "MA10b-photo",
+        "MA10b-tracing"
       ],
       "object_identity_certified": false,
       "expert_validated": false,
@@ -2327,7 +2950,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "FACSIMILE_NUMERALS_NOT_NORMALIZED_OR_ADJUDICATED"
     },
     {
       "source_record_id": "KN Zc 6",
@@ -2741,7 +3365,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "NO_NORMALIZED_AMOUNT_IN_CONSULTED_TARGET_PRESENTATION"
     },
     {
       "source_record_id": "ARKH 2",
@@ -2817,6 +3442,44 @@
           "locator_detail": "Lower grouped edition presentation",
           "level": "PRIMARY_EDITION_REPORTED",
           "limitation": "Printed edition numbers; not sign-series numbers, linguistic words or physical numeral adjudications."
+        },
+        {
+          "assertion_id": "ARKH2-5",
+          "field": "editorial_quantity_components",
+          "value": [
+            {
+              "edition_group": "1–2",
+              "integer_component": 5,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "2–3",
+              "integer_component": 12,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "3–4",
+              "integer_component": 6,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            },
+            {
+              "edition_group": "5–6",
+              "integer_component": 4,
+              "symbolic_component_status": "ABSENT",
+              "terminal_status": "NO_MARKED_LOSS",
+              "note": ""
+            }
+          ],
+          "source_id": "ARKH2-tracing",
+          "locator_detail": "Lower target grouped presentation",
+          "level": "PRIMARY_EDITION_REPORTED",
+          "limitation": "Re-expresses the already inspected edition quantities as explicit components; not additional independent evidence."
         }
       ],
       "gorila_page_ids": [
@@ -3138,7 +3801,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "PRINTED_AMOUNT_COMPONENTS_COLLATED"
     },
     {
       "source_record_id": "KN Zb 40",
@@ -3279,7 +3943,8 @@
             0
           ]
         }
-      ]
+      ],
+      "quantity_collation_status": "FACSIMILE_NUMERALS_NOT_NORMALIZED_OR_ADJUDICATED"
     }
   ],
   "cases": [
@@ -3736,5 +4401,6 @@
     "Acquire a lawful Raison–Pope edition and establish entry-level crosswalks before claiming parity.",
     "Expand the critical transcription and graphical uncertainty layer beyond this bounded metadata pilot."
   ],
-  "public_source_witness_scope": "All 168 attestation slots of the ten selected source entries, retaining source fields and editorial grouping; not a full multi-edition critical transcription or object reading."
+  "public_source_witness_scope": "All 168 attestation slots of the ten selected source entries, retaining source fields and editorial grouping; not a full multi-edition critical transcription or object reading.",
+  "quantity_component_boundary": "Non-Arabic quantity signs remain untranscribed, including fraction-like signs. Line labels are not quantities; marked damage and editorial uncertainty prohibit automatic complete-amount normalization. No quantitative completeness claim about physical inscriptions."
 }

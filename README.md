@@ -251,3 +251,7 @@ See [the handoff](docs/PRE-EXPERT-HANDOFF.md), [source audit](analysis/pre-exper
 ## Edition concordance checkpoint
 
 [The Step 1 evidence map](docs/EDITION-CONCORDANCE.md) accounts for all 802 authenticated source entries against SigLA, GORILA, Raison–Pope 1980/1994 and RILA-S1. It separates 755 attributed GORILA page links, 24 later-publication links and 23 unusable references. Existing primary inspections bind eight source records; Raison–Pope entry reconciliation remains unresolved. This is traceable bibliographic accounting, not critical-edition parity or complete surviving-object coverage.
+
+### Direct source downloads and qualified edition comparisons
+
+The [public SigLA source layer](docs/PUBLIC-SIGLA-LAYER.md) provides all 802 authenticated derivative entries without a local import. Retain its CC BY-NC-SA 4.0 terms and attribution. The [critical pilot](docs/CRITICAL-PILOT.md) preserves qualified edition amount components, bracketed dimensions and counting units. [GORILA acquisition accounting](docs/GORILA-ROUTE-ACQUISITION.md) distinguishes 135 acquired page routes from 222 linked source entries and reports the runtime access barrier. Neither source ingestion nor page acquisition establishes independently verified physical readings.

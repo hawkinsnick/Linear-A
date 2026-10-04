@@ -24,7 +24,7 @@ The importer refuses bytes that differ from the pinned checksum. Outputs under `
 
 ## Rights and scope
 
-Repository-original tooling follows the repository software terms. SigLA/DAMOS fields and local derivatives retain upstream rights and attribution. The full source export stays local; the current ten-entry witness export is separately licensed and bounded below. No primary-edition image is republished. Historical statistical artifacts and their pinned inputs are untouched. Engineering reproducibility does not authorize scoring a sealed experiment.
+Repository-original tooling follows the repository software terms. SigLA/DAMOS fields and local derivatives retain upstream rights and attribution. The full authenticated derivative now has a licensed public source-only JSONL layer; the ten-entry witness remains a separately scoped critical pilot. No primary-edition image is republished. Historical statistical artifacts and their pinned inputs are untouched. Engineering reproducibility does not authorize scoring a sealed experiment.
 
 ## Linear A boundaries
 
@@ -44,10 +44,14 @@ Read [the Step 1 concordance guide](EDITION-CONCORDANCE.md) before coverage or e
 
 ## Critical metadata and disagreement checkpoint
 
-Read [the critical pilot dossier](CRITICAL-PILOT.md) for ten exact source entries, 31 source-bound assertions (26 primary edition facts and five attributed scholarly reports checked in a public HTML reprint and supplemented by Figure 15 inspection), seven printed edition quantities on two entries, and fifteen preserved disagreement comparisons. The fourteen consulted page images include thirteen target pages and one blank adjacent-page negative check. This is bounded metadata collation, not a complete critical transcription. No physical join, restoration, inventory certification, independent object confirmation or expert decision has been added.
+Read [the critical pilot dossier](CRITICAL-PILOT.md) for ten exact source entries, 51 source-bound assertions (46 primary edition reports and five attributed scholarly reports), plus 41 editorial amount components on six entries, and fifteen preserved disagreement comparisons. The twenty consulted GORILA page images include nineteen target pages and one blank adjacent-page negative check. This is bounded metadata collation, not a complete critical transcription. No physical join, restoration, inventory certification, independent object confirmation or expert decision has been added.
 
 The comparison layer corrects the **attribution status** of the old HT 17 quantity-37 claim: the authenticated SigLA export does not supply account quantities. A sign-series number 37 identifies TI, not that quantity. The legacy alternative is retained, and the edition-level 38 finding does not adjudicate the physical inscription. The blank 25-item review sheet names the next source checks and requires attributed decisions. Replay commands and the exact access barriers are in the dossier.
 
 ## Public selected-source encoding layer
 
-The ten-entry pilot now includes all **168 source attestation slots** (119 source-classified syllables, 23 logograms, 18 blank slots and eight fraction slots) and **41 source editorial groups** in a licensed JSON witness and standalone CSV. Exact snapshot-qualified pointers and original attestation fields are preserved, including uncertain labels and raw flags. These are SigLA source classifications; they do not establish physical sign counts, linguistic values or graphical alignment with edition lines. Both exports retain upstream CC BY-NC-SA 4.0 and attribution. The remaining 792 source entries and the full raw snapshot are not bundled here. Full multi-edition critical transcription remains open.
+The ten-entry pilot now includes all **168 source attestation slots** (119 source-classified syllables, 23 logograms, 18 blank slots and eight fraction slots) and **41 source editorial groups** in a licensed JSON witness and standalone CSV. Exact snapshot-qualified pointers and original attestation fields are preserved, including uncertain labels and raw flags. These are SigLA source classifications; they do not establish physical sign counts, linguistic values or graphical alignment with edition lines. Both exports retain upstream CC BY-NC-SA 4.0 and attribution. All 802 source entries now have a separate public source-only JSONL export; the original raw snapshot is not bundled. Full multi-edition critical transcription remains open.
+
+## Full public source layer and route accounting
+
+Read [PUBLIC-SIGLA-LAYER.md](PUBLIC-SIGLA-LAYER.md) for direct downloads and byte-exact replay. Read [GORILA-ROUTE-ACQUISITION.md](GORILA-ROUTE-ACQUISITION.md) for 135 acquired page routes, the distinct 222 linked entry count, and the runtime policy interruption. Download availability does not add reading verification.

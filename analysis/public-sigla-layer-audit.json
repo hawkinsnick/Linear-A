@@ -1,0 +1,48 @@
+{
+  "format": "linear-a-public-sigla-layer-v1",
+  "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "upstream_release": "https://github.com/ryanpavlicek/pyaegean/releases/download/sigla-corpus-v4/sigla-corpus.json",
+  "source_metadata": {
+    "license": "CC BY-NC-SA 4.0",
+    "attribution": "Ester Salgarella and Simon Castellan, https://sigla.phis.me (dataset and drawings published CC BY-NC-SA 4.0; the SigLA paper notes that copies can be hosted and the data used outside the interface)",
+    "cite": "Salgarella, E. & Castellan, S. (2020). SigLA. The Signs of Linear A: a palæographical database. https://sigla.phis.me",
+    "version": 2,
+    "generated": "2026-07-11",
+    "source_sha256": "cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d",
+    "note": "Field mapping is conservative: named fields are verified; raw_flags preserve undecoded attestation integers. v2 adds, per attestation, the SigLA word grouping (`word` index; None = standalone) and a `kind` (syllable / logogram / fraction / blank), with blank syllabogram values resolved via the signs-table transnumeration. SigLA is a PALAEOGRAPHIC sign database: it records sign occurrences and word division, NOT the cardinal-number quantities of the accounts, so no numeral values are emitted. Word division and complex-sign notation are SigLA's own and differ editorially from GORILA. Drawings are NOT included — they remain on sigla.phis.me."
+  },
+  "counts": {
+    "documents": 802,
+    "occurrences": 5144,
+    "source_word_groups": 1401,
+    "source_sign_entries": 376,
+    "occurrences_without_sign_key": 388,
+    "occurrences_with_sign_key_absent_from_sign_table": 4
+  },
+  "source_independence": "ONE_DERIVATIVE_SOURCE_NOT_INDEPENDENT_VALIDATION",
+  "scope": "All entries in one authenticated derivative; not a census of physical objects or independent edition reconciliation.",
+  "images_redistributed": false,
+  "numeral_quantities": "NOT_PROVIDED_BY_SOURCE",
+  "raw_flags": "PRESERVED_UNDECODED",
+  "reference_url_policy": "Only volatile ce query parameters removed; original input hash and per-field pointer retained. Absent and literal missing remain distinct.",
+  "files": [
+    {
+      "path": "research/sigla-source-documents.jsonl",
+      "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+      "bytes": 1116387,
+      "records": 802
+    },
+    {
+      "path": "research/sigla-source-groups.jsonl",
+      "sha256": "c13cd9ee4c44252c5a6b31a47809bea55d77bc296c47b1d31e61beb37b2fbeb1",
+      "bytes": 704146,
+      "records": 1401
+    },
+    {
+      "path": "research/sigla-source-signs.jsonl",
+      "sha256": "26c7ec88129db9cb336fafa82b3f7aabec3fa8e348200fe21c66dcbc36d3aedc",
+      "bytes": 173274,
+      "records": 376
+    }
+  ]
+}

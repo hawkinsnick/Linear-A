@@ -1,0 +1,14 @@
+{
+  "format": "linear-a-gorila-route-audit-v1",
+  "registry_sha256": "c4eb3b26218ebb5a6a05cf2dce67b1558490b8e27c89bab3d9260e67e1ce7745",
+  "attributed_source_entries": 755,
+  "distinct_linked_page_routes": 367,
+  "acquired_page_routes": 135,
+  "source_entries_linked_to_acquired_pages": 222,
+  "routes_without_completed_acquisition": 232,
+  "entries_on_shared_page_routes": 607,
+  "reading_verifications_added": 0,
+  "physical_identities_certified": 0,
+  "image_copies_committed": false,
+  "counting_boundary": "Route URLs, derivative source entries, inscription surfaces and physical objects are distinct units. Acquisition does not verify an entry, printed-page locator or reading."
+}

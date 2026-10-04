@@ -31,6 +31,16 @@
       "role": "critical_pilot_audit",
       "path": "analysis/critical-pilot-audit.json",
       "required": true
+    },
+    {
+      "role": "public_sigla_layer_audit",
+      "path": "analysis/public-sigla-layer-audit.json",
+      "required": true
+    },
+    {
+      "role": "gorila_route_audit",
+      "path": "analysis/gorila-route-audit.json",
+      "required": true
     }
   ],
   "behavioral_gates": [

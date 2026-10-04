@@ -6,7 +6,7 @@
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 authenticated source entries / 5,144 attestations; all-record edition-status accounting; 10-entry public SigLA witness preserves all 168 slots and 41 editorial groups; critical metadata pilot: 31 attributed assertions, 7 printed quantities on 2 entries, 15 preserved comparisons, 25 unreviewed review items. Raison\u2013Pope entry joins unresolved.",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open.",
       "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },

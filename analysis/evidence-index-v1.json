@@ -153,8 +153,8 @@
     },
     {
       "path": "research/pre-expert-maximum.json",
-      "sha256": "65bb4db33a4a0df9b4c85944c9dbb149ddb0ac1c2dab9e3f194d405d59142207",
-      "bytes": 4874,
+      "sha256": "c564a0503b3bcbbf2f8a8031b743ee404afbba45e943c88b0fa6e6074621f904",
+      "bytes": 4904,
       "category": "research",
       "summary": {}
     },
@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "254c4f803cca53e2e008be82daa1ed8454dcbf06d38def7d69f34f89e669788d",
-      "bytes": 6359,
+      "sha256": "f2b53a75bc52aab4df1fe34a69ec7ba4d599df3e682671756068144e7a5fac2d",
+      "bytes": 6740,
       "category": "docs",
       "summary": {}
     },
@@ -259,8 +259,8 @@
     },
     {
       "path": "research/critical-pilot.json",
-      "sha256": "d31b1ffacf86369efdef6966344f0423e66be56959ae69dc88493cebc640de16",
-      "bytes": 101398,
+      "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+      "bytes": 128173,
       "category": "research",
       "summary": {
         "format": "linear-a-critical-pilot-v1",
@@ -269,8 +269,8 @@
     },
     {
       "path": "analysis/critical-pilot-audit.json",
-      "sha256": "058d864146131b952c9b1ae94e5fcb33f33400b745b06593fc630df00d11a81c",
-      "bytes": 2859,
+      "sha256": "bc2329fbfe9de66826c4cbe0f4371aede76a1be7ab550c0507a3f0273a259872",
+      "bytes": 3795,
       "category": "analysis",
       "summary": {
         "format": "linear-a-critical-pilot-audit-v1",
@@ -280,8 +280,8 @@
     },
     {
       "path": "research/critical-disagreement-comparison.csv",
-      "sha256": "fbc8813175289ea19c40ba171bfa033f8d0b5016b9780ba3f300a06333afc2aa",
-      "bytes": 9944,
+      "sha256": "ace231649df152c54037d7a0951d5bb3372e0e5eaefcdc083bad21ad54459692",
+      "bytes": 21270,
       "category": "research",
       "summary": {}
     },
@@ -294,29 +294,29 @@
     },
     {
       "path": "docs/CRITICAL-PILOT.md",
-      "sha256": "f5a681ed16c5834bdeed112656afa5871b0024fa4f81985e397e401233acb632",
-      "bytes": 30885,
+      "sha256": "b8807716db072f423028dd1b9b2f9c3e6eefa14ba3697001109c88fd87221d24",
+      "bytes": 46616,
       "category": "docs",
       "summary": {}
     },
     {
       "path": "scripts/build_critical_pilot.py",
-      "sha256": "a86cb4e3df22291078cb473be676d7d07899be7b9a6ed4bfcf558a6a5a927847",
-      "bytes": 24767,
+      "sha256": "a41ea20cf5a8c439277ebbeace22632b41efffc3432d2831db8db373b9a055f2",
+      "bytes": 33450,
       "category": "scripts",
       "summary": {}
     },
     {
       "path": "scripts/test_critical_pilot.py",
-      "sha256": "fbbb9106dd2a36f81332ae0cb578a71ed5a9704a4177f9bef6a683a712af1ba1",
-      "bytes": 5831,
+      "sha256": "7fbf8ce508f30eb804753f3c62d277d2c5eb91b3d0842dbd8fff04430d590c05",
+      "bytes": 8038,
       "category": "scripts",
       "summary": {}
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "71401753f835436a3173814d2f7b8e5034236ab4aacfbedccfd76aeeb2bb0a02",
-      "bytes": 3455,
+      "sha256": "b443145c1703167c50821894a483a49a337dc9ef0dc142aea08669ad3569dac2",
+      "bytes": 3717,
       "category": ".github",
       "summary": {}
     },
@@ -335,6 +335,112 @@
       "path": "research/critical-pilot-sigla-slots.csv",
       "sha256": "e39694f89de8a71571f1871150050c86377928caf161c4c1178eacbe9fcd4ab3",
       "bytes": 68943,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/critical-pilot-quantity-components.csv",
+      "sha256": "8e45088362347690bdda04cd6a999ad40b6582105636905cd527b5fa89f2b9d9",
+      "bytes": 18321,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/critical-pilot-metadata-comparison.csv",
+      "sha256": "c5cfd19f7ec7f69393ff2a14eca15e966249b2769cc54ee8bb1dae3b5e9790da",
+      "bytes": 6914,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "scripts/acquire_gorila_routes.py",
+      "sha256": "bedacb394afd1b7caa879ad88a3ae5393d3c87a1d73dbe558f9580b32cbe6081",
+      "bytes": 5637,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/build_gorila_route_audit.py",
+      "sha256": "5d511067429ef709c932cb57542db5639e977ceb6d92aee743d47db4c64753b8",
+      "bytes": 2654,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/build_public_sigla_layer.py",
+      "sha256": "7cd6f8042e13dbd090a707dc40b350b26e69bf0f233e439194890ce0e773044a",
+      "bytes": 4643,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/test_source_layers.py",
+      "sha256": "c2a0df2e3aae587434e191670237cad5d587065ea9070a0000a346e7a5a9d43e",
+      "bytes": 1841,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "research/gorila-route-acquisition.json",
+      "sha256": "c4eb3b26218ebb5a6a05cf2dce67b1558490b8e27c89bab3d9260e67e1ce7745",
+      "bytes": 322704,
+      "category": "research",
+      "summary": {
+        "format": "linear-a-gorila-route-acquisition-v1",
+        "scope": "Partial acquisition of linked edition pages, no automated reading verification."
+      }
+    },
+    {
+      "path": "analysis/gorila-route-audit.json",
+      "sha256": "d4b718e3080c7f5343ae71ba6343292280bf2f297651fd794d3cd35762809518",
+      "bytes": 687,
+      "category": "analysis",
+      "summary": {
+        "format": "linear-a-gorila-route-audit-v1"
+      }
+    },
+    {
+      "path": "analysis/public-sigla-layer-audit.json",
+      "sha256": "a54fd9b8860709cabe99b53ea398d5d0cb1740d37885ac2698586e741281d861",
+      "bytes": 2796,
+      "category": "analysis",
+      "summary": {
+        "format": "linear-a-public-sigla-layer-v1",
+        "scope": "All entries in one authenticated derivative; not a census of physical objects or independent edition reconciliation."
+      }
+    },
+    {
+      "path": "docs/PUBLIC-SIGLA-LAYER.md",
+      "sha256": "89f20bdbffc66e723e36bccb85101a804bf398ed3859516adb8550a1712d199e",
+      "bytes": 2272,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "docs/GORILA-ROUTE-ACQUISITION.md",
+      "sha256": "f7344504d2a39dc094a80e117dca0b6d460d93c12008f4a2bfc7ad77de45cf0c",
+      "bytes": 1893,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "research/sigla-source-documents.jsonl",
+      "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+      "bytes": 1116387,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/sigla-source-groups.jsonl",
+      "sha256": "c13cd9ee4c44252c5a6b31a47809bea55d77bc296c47b1d31e61beb37b2fbeb1",
+      "bytes": 704146,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/sigla-source-signs.jsonl",
+      "sha256": "26c7ec88129db9cb336fafa82b3f7aabec3fa8e348200fe21c66dcbc36d3aedc",
+      "bytes": 173274,
       "category": "research",
       "summary": {}
     }
