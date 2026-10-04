@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "64baf43f6fe23000c9f8c7e90b2a122a429f4d0c",
-  "generated_at_utc": "2026-10-04T22:57:57+00:00",
+  "source_commit": "edc48802b905b115b8d7487a7afb3cce53a21227",
+  "generated_at_utc": "2026-10-04T23:02:30+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -16,26 +16,26 @@
     {
       "role": "edition_catalogue_pilot",
       "path": "research/edition-catalogue-pilot.json",
-      "sha256": "3a6d61e105cd60a3dbbba05cc30bfeb1b2ae687690f3387e573d1aa6b91ab460",
-      "bytes": 337664
+      "sha256": "720ffceb1c9f6ae989cf2200f73ccc5f4c3dcb03bd6a3ee2140269bf1e8f65f0",
+      "bytes": 342137
     },
     {
       "role": "edition_catalogue_audit",
       "path": "analysis/edition-catalogue-pilot-audit.json",
-      "sha256": "23f6675ccf43a969dd6c4546c755002747ee3d0583ff175b0a80131257689cbc",
-      "bytes": 1337
+      "sha256": "4eb5a55ca5d52f6d70ac576a7fd5fd5f81b321aa73a59b7bdd156d7c8564b7a7",
+      "bytes": 1377
     },
     {
       "role": "edition_catalogue_comparison",
       "path": "research/edition-catalogue-comparison.csv",
-      "sha256": "a91995e0f4dabdee3cf937c3c636d71a957edc907df34eaafafa3194407c48e9",
-      "bytes": 160734
+      "sha256": "4b557e73250b0bb4c90fe70696c065e43c38a16b465b72861243c451bee14bff",
+      "bytes": 161107
     },
     {
       "role": "edition_catalogue_guide",
       "path": "docs/EDITION-CATALOGUE-PILOT.md",
-      "sha256": "87f6d3a6114b170ca8bbb9a1f77a5ba8516d259c473c74552c47707781864c5e",
-      "bytes": 4327
+      "sha256": "b47f5610dc0cb25543a0ee11f74c8d1102459aa70cd9e925eb545aae54eb483a",
+      "bytes": 4724
     },
     {
       "role": "public_sigla_layer_audit",
@@ -184,8 +184,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "e14275d4b482b90b109b5787edcf9a31eb0fefa3f0cec77f3338ec0907bda023",
-      "bytes": 8604
+      "sha256": "d37da997bbf25f85ae93ef93cbe95bc9206fdf076eb27a744244b9a5a0affa61",
+      "bytes": 9611
     },
     {
       "role": "comparison_contract",
@@ -196,8 +196,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "3e917eb32e88f6ecd6d1b498cfd982fb7ab41baf98f7ad839507aeb02eff44ce",
-      "bytes": 15695
+      "sha256": "e894a4a4d6f0fc64b59131b9cfce5f4487c70bbc37ab58ad62df32c711e71470",
+      "bytes": 15771
     },
     {
       "role": "claims",
