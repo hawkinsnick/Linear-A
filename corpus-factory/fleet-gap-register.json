@@ -37,10 +37,10 @@
     },
     {
       "repo": "Byblos-syllabary",
-      "evidence_depth": "LOW_WITH_BIBLIOGRAPHIC_CONFLICT_AUDIT",
-      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52–58 versus KeiBi pp. 51–59; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
-      "top_gap": "lawful primary edition/plate delivery (WorldCat digital OCLC 1244511616 free-access link resolves to restricted IA copy); museum identities, face reconciliation and sign collation",
-      "status_source": "research/dunand-1978-bibliographic-conflict-audit.json"
+      "evidence_depth": "LOW_WITH_SELECTED_PRIMARY_NUMBERING_AND_SOURCE_UNIT_AUDIT",
+      "coverage_state": "14 attributed core count reports; 43 pinned provider metadata entries; all 38 Dunand 1930 numeric table rows (116 memberships / 115 distinct ordinals / duplicate 32 / eight gaps); ten facsimile line spans covering source ordinals 1–123. Native pilot: 5 edition-specific type groups / 14 source positions / 1 checked recurrence. All twelve primary page views visually inspected; zero verified full glyph sequences.",
+      "top_gap": "Glyph/damage and variant collation of numbered stele a facsimile; duplicate 32 and eight numeric table gaps; lawful Dunand 1945/1978 access; a/g/h/m/n discrepancies, source rights, museum identities and independent review.",
+      "status_source": "analysis/current-status.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
