@@ -38,9 +38,9 @@
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
-      "coverage_state": "14 core labels with survey-reported edition locators; 18 reported surfaces / 126 line targets for 13 labels; g column inventory remains separate; no verified sequences",
+      "coverage_state": "14 core labels with survey-reported edition locators; one has selected directly inspected primary metadata, while directly collated corpus-edition and verified-sequence counts remain zero; 18 reported surfaces / 126 line targets for 13 labels",
       "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
-      "status_source": "research/edition-locator-audit.json"
+      "status_source": "research/core-field-provenance-audit.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -57,7 +57,7 @@
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_DREROS_ROUTE",
-      "coverage_state": "11 coverage entries / 12 attributed reading versions with source-critical dossiers; two Azoria D300 caption candidates and exact institutional archive lead",
+      "coverage_state": "11 coverage entries / 12 attributed reading versions; BSA nomos-fragment source identity corrected to Praisos 2; two Azoria D300 candidates remain unadmitted",
       "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
@@ -70,9 +70,9 @@
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 12 Ref diagnostics and 6 surface differences; 162 source identity labels / 161 numeric stems; licensed G-12 seven-line reference pilot; 305 TITUS discovery headings",
+      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; licensed G-12 seven-line pilot; 305 TITUS headings / 272 mechanical numeric-stem groups / 12 multi-heading stems retained as distinct source units",
       "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
-      "status_source": "analysis/reference-replay.json"
+      "status_source": "analysis/titus-identity-unit-audit.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",

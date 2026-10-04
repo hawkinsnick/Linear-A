@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 1f3bb9952c73340809e8a723035eb278ee2e48cb1c9990d7e94115576b366ade
+Instruction snapshot SHA-256: 410065ba072f6fc002471755c324bc1f56d2404b39d0b6deb52b673270a9f549
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
+SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
 
 {
   "schema_version": "1.0.0",
@@ -455,7 +455,7 @@ SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: all 14 core labels have survey-reported edition locators; 18 surfaces / 126 reported line targets cover 13 core labels; g columns kept separate; zero verified sequences.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: all 14 core labels have survey-reported edition locators; field audit distinguishes one label with selected directly inspected primary metadata from zero directly collated corpus-edition sequences; 18 surfaces / 126 line targets cover 13 core labels.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -469,12 +469,12 @@ SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "research/edition-locator-audit.json",
+      "source_audit_path": "research/core-field-provenance-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "6774f01e3607334dde46a2f3fb5490b923b29aee",
-        "published_commit": "c85283c2379c1508dee8538c4cf41855b869e9e1",
+        "source_commit": "cdbea65044b615ff52ce4cb80b812aaf235827ed",
+        "published_commit": "0798febf21291f44e44f045232fd5a0ad8ab6a90",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -541,7 +541,7 @@ SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 11 coverage identities / 12 reading-version dossiers, two Azoria D300 caption candidates, exact BSA archive lead; no analytical admission or certified candidate identity.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 11 coverage identities / 12 reading-version dossiers; BSA nomos-fragment source identity corrected to Praisos 2 while museum accession and image collation remain open; two Azoria D300 caption candidates remain unadmitted.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -560,8 +560,8 @@ SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "d93a2a88e433a77b2b83d97c69e3279d23c338d4",
-        "published_commit": "593119740d33c82b1777fd6c2a989e5def806e9b",
+        "source_commit": "db99a755d01345f1a2d342a9392937d9745b6074",
+        "published_commit": "57931e7b32984ec3dcf9063c53cb1d0d6f227669",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -602,7 +602,7 @@ SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 12 Ref diagnostics and 6 surface differences; licensed seven-line G-12 reference pilot, candidate TM join; 305 TITUS discovery headings, not physical inscription count.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; licensed seven-line G-12 pilot; 305 TITUS headings separated from 272 numeric-stem groups with 12 multi-heading stems, none treated as a physical-inscription count.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -617,12 +617,12 @@ SHA-256: 9edd49047c1aaab338aee543e6ca24587762e6f941a36fbd149be7eaed896243
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/reference-replay.json",
+      "source_audit_path": "analysis/titus-identity-unit-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "bcd55acfdb6890a1933bad6a3834b92876fd6793",
-        "published_commit": "e95b07db1b13d709b410fc0ca969093f641e94c3",
+        "source_commit": "3c27c60c4aa30a545d3eb9b3cc6da5344c101315",
+        "published_commit": "02bf9e9a8783964704c647630a3339fabc790cff",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -916,7 +916,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: acfa4bce34f7abe51ddca4f9f9c1d00debc8072404c8ba6cd3f3fc211c69e0fb
+SHA-256: 1951f3beb1f413a7a57987f773a2b906d9803ce210c3e1a5245bc9752cb556c3
 
 {
   "schema_version": "1.0",
@@ -958,9 +958,9 @@ SHA-256: acfa4bce34f7abe51ddca4f9f9c1d00debc8072404c8ba6cd3f3fc211c69e0fb
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
-      "coverage_state": "14 core labels with survey-reported edition locators; 18 reported surfaces / 126 line targets for 13 labels; g column inventory remains separate; no verified sequences",
+      "coverage_state": "14 core labels with survey-reported edition locators; one has selected directly inspected primary metadata, while directly collated corpus-edition and verified-sequence counts remain zero; 18 reported surfaces / 126 line targets for 13 labels",
       "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
-      "status_source": "research/edition-locator-audit.json"
+      "status_source": "research/core-field-provenance-audit.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -977,7 +977,7 @@ SHA-256: acfa4bce34f7abe51ddca4f9f9c1d00debc8072404c8ba6cd3f3fc211c69e0fb
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_DREROS_ROUTE",
-      "coverage_state": "11 coverage entries / 12 attributed reading versions with source-critical dossiers; two Azoria D300 caption candidates and exact institutional archive lead",
+      "coverage_state": "11 coverage entries / 12 attributed reading versions; BSA nomos-fragment source identity corrected to Praisos 2; two Azoria D300 candidates remain unadmitted",
       "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
@@ -990,9 +990,9 @@ SHA-256: acfa4bce34f7abe51ddca4f9f9c1d00debc8072404c8ba6cd3f3fc211c69e0fb
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 12 Ref diagnostics and 6 surface differences; 162 source identity labels / 161 numeric stems; licensed G-12 seven-line reference pilot; 305 TITUS discovery headings",
+      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; licensed G-12 seven-line pilot; 305 TITUS headings / 272 mechanical numeric-stem groups / 12 multi-heading stems retained as distinct source units",
       "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
-      "status_source": "analysis/reference-replay.json"
+      "status_source": "analysis/titus-identity-unit-audit.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
