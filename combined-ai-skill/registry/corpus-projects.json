@@ -148,7 +148,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 10 labels in the 1945 publication cohort plus 4 in the 1978 cohort; h/j possible coreference keeps physical-monument count unresolved; one label has selected directly inspected primary metadata, zero sequences are verified.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: denominator ledger keeps 14 publication labels, 18 surfaces, 126 line targets, BYB-G's 6 reported/5 certainly textual columns, zero verified sequences and unknown physical-monument count distinct.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -162,12 +162,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "research/core-field-provenance-audit.json",
+      "source_audit_path": "research/core-counting-unit-ledger.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "b4e3b88f301aad24c5f66b2fc9c849f27b23b143",
-        "published_commit": "1077fe580ad2ebe2fbd73e7dba578628fe29c879",
+        "source_commit": "8b06b5b9e31fc7a1420722cb41149651d9f7cfd1",
+        "published_commit": "1fc23a8ae6b5b52803bbdd2a401ed0cc79136dd9",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -234,7 +234,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: primary pages reconcile Pr. I/barxe, Pr. II/nomos and the third fragment to project Praisos 1/2/3; BSA negative joins Praisos 2; no museum accession, preferred reading or image collation inferred.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: page-hashed Praisos layouts distinguish 31 source lines across three publication identities from 41 project rows across four reading versions; alternatives and grouped rows are not independent objects.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -249,12 +249,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/source-critical-dossier.json",
+      "source_audit_path": "analysis/praisos-layout-unit-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "8eee10568dcd8b976096880ba245090784cd03c7",
-        "published_commit": "08c4e859da7a7304c6f9eb6dd95d6a4ab3566885",
+        "source_commit": "99cc391bb44de0825427e0c1d0d8252af7cbca5e",
+        "published_commit": "21aa4de741940da3bc9e73ac7ba02d6856408991",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -295,7 +295,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 305 TITUS headings separated from 272 numeric stems; 8 of 12 multi-heading stems co-list unsuffixed parents and suffixes, demonstrating catalogue hierarchy rather than extra stones.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 305 TITUS headings and 272 numeric stems remain distinct; 23 explicit co-listed label edges include 18 integer-to-suffix and 5 letter-to-Roman relations, none certified physical.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -310,12 +310,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/titus-identity-unit-audit.json",
+      "source_audit_path": "analysis/titus-heading-hierarchy-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "07c0305c52d78e25da92e33d86fa4b15ebdabd5f",
-        "published_commit": "d92daa1a85dbe4f086820411192213dc3a7e596a",
+        "source_commit": "aa3c19858a19c11e1c6a13d91a1fc76edbcbb23f",
+        "published_commit": "118f8c22ba7fefacc3222e9b9abe42d0ef4e191b",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },

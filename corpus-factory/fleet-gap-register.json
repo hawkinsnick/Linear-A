@@ -37,10 +37,10 @@
     },
     {
       "repo": "Byblos-syllabary",
-      "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
-      "coverage_state": "10 labels in Dunand 1945 cohort plus 4 in 1978 cohort; h/j possible coreference keeps physical-monument count unresolved; selected primary metadata exists for one label but verified sequences remain zero",
+      "evidence_depth": "LOW_WITH_DENOMINATORS_RECONCILED",
+      "coverage_state": "14 publication labels / 18 surfaces / 126 line targets; BYB-G has 6 reported columns but only 5 certainly textual; h/j possible coreference leaves physical-monument count unknown; verified sequences remain zero",
       "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
-      "status_source": "research/core-field-provenance-audit.json"
+      "status_source": "research/core-counting-unit-ledger.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -56,10 +56,10 @@
     },
     {
       "repo": "Eteocretan",
-      "evidence_depth": "LOW_WITH_DREROS_ROUTE",
-      "coverage_state": "11 coverage entries / 12 reading versions; primary-page markers map Pr. I/barxe, Pr. II/nomos and third fragment to Praisos 1/2/3; BSA negative joins Praisos 2 without museum identity",
+      "evidence_depth": "LOW_WITH_PRIMARY_LAYOUT_UNITS",
+      "coverage_state": "11 coverage entries / 12 reading versions; page-hashed Praisos evidence distinguishes 31 source lines across 3 identities from 41 rows across 4 versions; Praisos 1 grouping and Praisos 2 alternatives remain explicit",
       "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
-      "status_source": "analysis/source-critical-dossier.json"
+      "status_source": "analysis/praisos-layout-unit-audit.json"
     },
     {
       "repo": "Lycian-and-Carian",
@@ -70,9 +70,9 @@
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 305 TITUS headings / 272 numeric stems / 12 multi-heading stems; 8 multi-heading groups co-list unsuffixed parent and suffixed units",
+      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 305 TITUS headings / 272 numeric stems / 12 multi-heading stems; 23 explicit co-listed label edges include 5 Roman subdivisions under present letter parents",
       "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
-      "status_source": "analysis/titus-identity-unit-audit.json"
+      "status_source": "analysis/titus-heading-hierarchy-audit.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
