@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "83de56beae5efa9cd7e10cc430c48988e4645fd9",
-  "generated_at_utc": "2026-10-04T17:33:51+00:00",
+  "source_commit": "ad883d2a624c7de57c1a949e4f1df06082425b25",
+  "generated_at_utc": "2026-10-04T19:09:55+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,66 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "public_sigla_layer_audit",
+      "path": "analysis/public-sigla-layer-audit.json",
+      "sha256": "a54fd9b8860709cabe99b53ea398d5d0cb1740d37885ac2698586e741281d861",
+      "bytes": 2796
+    },
+    {
+      "role": "public_sigla_documents",
+      "path": "research/sigla-source-documents.jsonl",
+      "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+      "bytes": 1116387
+    },
+    {
+      "role": "public_sigla_groups",
+      "path": "research/sigla-source-groups.jsonl",
+      "sha256": "c13cd9ee4c44252c5a6b31a47809bea55d77bc296c47b1d31e61beb37b2fbeb1",
+      "bytes": 704146
+    },
+    {
+      "role": "public_sigla_signs",
+      "path": "research/sigla-source-signs.jsonl",
+      "sha256": "26c7ec88129db9cb336fafa82b3f7aabec3fa8e348200fe21c66dcbc36d3aedc",
+      "bytes": 173274
+    },
+    {
+      "role": "public_sigla_guide",
+      "path": "docs/PUBLIC-SIGLA-LAYER.md",
+      "sha256": "89f20bdbffc66e723e36bccb85101a804bf398ed3859516adb8550a1712d199e",
+      "bytes": 2272
+    },
+    {
+      "role": "gorila_route_acquisition",
+      "path": "research/gorila-route-acquisition.json",
+      "sha256": "c4eb3b26218ebb5a6a05cf2dce67b1558490b8e27c89bab3d9260e67e1ce7745",
+      "bytes": 322704
+    },
+    {
+      "role": "gorila_route_audit",
+      "path": "analysis/gorila-route-audit.json",
+      "sha256": "d4b718e3080c7f5343ae71ba6343292280bf2f297651fd794d3cd35762809518",
+      "bytes": 687
+    },
+    {
+      "role": "gorila_route_guide",
+      "path": "docs/GORILA-ROUTE-ACQUISITION.md",
+      "sha256": "f7344504d2a39dc094a80e117dca0b6d460d93c12008f4a2bfc7ad77de45cf0c",
+      "bytes": 1893
+    },
+    {
+      "role": "critical_quantity_components",
+      "path": "research/critical-pilot-quantity-components.csv",
+      "sha256": "8e45088362347690bdda04cd6a999ad40b6582105636905cd527b5fa89f2b9d9",
+      "bytes": 18321
+    },
+    {
+      "role": "critical_metadata_comparison",
+      "path": "research/critical-pilot-metadata-comparison.csv",
+      "sha256": "c5cfd19f7ec7f69393ff2a14eca15e966249b2769cc54ee8bb1dae3b5e9790da",
+      "bytes": 6914
+    },
     {
       "role": "critical_pilot_sigla_witness",
       "path": "research/critical-pilot-sigla-witness.json",
@@ -28,20 +88,20 @@
     {
       "role": "critical_pilot",
       "path": "research/critical-pilot.json",
-      "sha256": "d31b1ffacf86369efdef6966344f0423e66be56959ae69dc88493cebc640de16",
-      "bytes": 101398
+      "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+      "bytes": 128173
     },
     {
       "role": "critical_pilot_audit",
       "path": "analysis/critical-pilot-audit.json",
-      "sha256": "058d864146131b952c9b1ae94e5fcb33f33400b745b06593fc630df00d11a81c",
-      "bytes": 2859
+      "sha256": "bc2329fbfe9de66826c4cbe0f4371aede76a1be7ab550c0507a3f0273a259872",
+      "bytes": 3795
     },
     {
       "role": "critical_disagreement_comparison",
       "path": "research/critical-disagreement-comparison.csv",
-      "sha256": "fbc8813175289ea19c40ba171bfa033f8d0b5016b9780ba3f300a06333afc2aa",
-      "bytes": 9944
+      "sha256": "ace231649df152c54037d7a0951d5bb3372e0e5eaefcdc083bad21ad54459692",
+      "bytes": 21270
     },
     {
       "role": "critical_pilot_review_queue",
@@ -52,8 +112,8 @@
     {
       "role": "critical_pilot_guide",
       "path": "docs/CRITICAL-PILOT.md",
-      "sha256": "f5a681ed16c5834bdeed112656afa5871b0024fa4f81985e397e401233acb632",
-      "bytes": 30885
+      "sha256": "b8807716db072f423028dd1b9b2f9c3e6eefa14ba3697001109c88fd87221d24",
+      "bytes": 46616
     },
     {
       "role": "edition_concordance",
@@ -88,8 +148,8 @@
     {
       "role": "pre_expert_contract",
       "path": "research/pre-expert-maximum.json",
-      "sha256": "65bb4db33a4a0df9b4c85944c9dbb149ddb0ac1c2dab9e3f194d405d59142207",
-      "bytes": 4874
+      "sha256": "c564a0503b3bcbbf2f8a8031b743ee404afbba45e943c88b0fa6e6074621f904",
+      "bytes": 4904
     },
     {
       "role": "pre_expert_source_audit",
@@ -100,8 +160,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "254c4f803cca53e2e008be82daa1ed8454dcbf06d38def7d69f34f89e669788d",
-      "bytes": 6359
+      "sha256": "f2b53a75bc52aab4df1fe34a69ec7ba4d599df3e682671756068144e7a5fac2d",
+      "bytes": 6740
     },
     {
       "role": "comparison_contract",
@@ -112,8 +172,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "afc407e7797a9e0be028fde0fdbb518d04f790b52f311984c8ffdab0bd39d8ce",
-      "bytes": 10507
+      "sha256": "a0f5412de8997effdb45a1b4ffaaeb0cb32c8f1139641ac418647b760cb34754",
+      "bytes": 13133
     },
     {
       "role": "claims",
@@ -124,8 +184,8 @@
     {
       "role": "rights_matrix",
       "path": "DATA-LICENSE-MATRIX.md",
-      "sha256": "2ffd4bf0202f1643d73871bbb9e9e314a653b22beb83c24e06958c0da0610270",
-      "bytes": 3927
+      "sha256": "00780cafaee06574ff27e462f2bb054cbb83f7f41337c63f08a489e85d179fa8",
+      "bytes": 4663
     },
     {
       "role": "notice",
@@ -136,8 +196,8 @@
     {
       "role": "third_party",
       "path": "THIRD-PARTY-NOTICES.md",
-      "sha256": "b6141a617f164f8bc5877bc2afa8234e2d96e1376a07786ca64f2bcd25b2aa63",
-      "bytes": 1522
+      "sha256": "32eea368303ef0fbcbb1324b6c92ecbcc3603c8b94c44e044289c3307921e593",
+      "bytes": 2258
     }
   ]
 }
