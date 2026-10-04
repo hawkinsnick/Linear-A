@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 4f88f6699f7e4879ff4beb466894c9535963d144f7f7073c480fa435e6d78ead
+Instruction snapshot SHA-256: 69089d5be027cf0fba1a3525ff8d07cac887cbd63b6257a6406437da867f8f37
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
+SHA-256: 26c635cc53bdb38ea64cec84cc90d86e3171b36ed09782e4265b4e4e28dbe003
 
 {
   "schema_version": "1.0.0",
@@ -455,7 +455,7 @@ SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact catalogue routes bind the 10-label 1945 and 4-label later cohorts to three records, while primary pages collated and verified sequences remain zero and physical-monument count remains unknown.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Dunand 1978 pagination remains Mnamon 52–58 versus KeiBi 51–59; boundary pages 51/59 and the reported 1981 appearance remain unresolved pending physical-article inspection.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -469,12 +469,12 @@ SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "research/core-primary-access-route-audit.json",
+      "source_audit_path": "research/dunand-1978-bibliographic-conflict-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "55801c6b2660f422c006c64c612506eb072c9d98",
-        "published_commit": "55801c6b2660f422c006c64c612506eb072c9d98",
+        "source_commit": "8d542e99114b96d9dd70d864352d9d04b0417b61",
+        "published_commit": "8d542e99114b96d9dd70d864352d9d04b0417b61",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -541,7 +541,7 @@ SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact Anemi resource 000070579 / volume 000070579_3.pdf is bound to eight coverage leads; delivery failure means zero pages collated, readings added or analytical admissions.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Lejeune 1947 reports Guarducci Praisos nos. 1–6; three have historical-name crosswalks while nos. 4–6 remain number-only short fragments perhaps Eteocretan.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -556,12 +556,12 @@ SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/guarducci-route-audit.json",
+      "source_audit_path": "analysis/praisos-guarducci-number-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "24eb53472f698ec00fb1d2f44c6c0eb5308fc57d",
-        "published_commit": "24eb53472f698ec00fb1d2f44c6c0eb5308fc57d",
+        "source_commit": "a4daec16925a937a87d0ba92c49eb83222ce00fa",
+        "published_commit": "a4daec16925a937a87d0ba92c49eb83222ce00fa",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -602,7 +602,7 @@ SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: declared normalization makes TM1001271 the unique exact G-12 text match among 162 UD TM groups; dependent text correspondence does not certify external catalogue or physical identity.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: only 3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined rather than silently inheriting corpus-level source claims.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -617,12 +617,12 @@ SHA-256: e2f75e007f5934459b8a8df69e80dfdee5d7ec9d305c67815e417d8847d82a9c
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/g12-reference-fingerprint-audit.json",
+      "source_audit_path": "analysis/explicit-source-lineage-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "94b76ed7872f32f8c89c8f1395eb440afa8dc42c",
-        "published_commit": "94b76ed7872f32f8c89c8f1395eb440afa8dc42c",
+        "source_commit": "c4bec2b91b40f53b587fdbaa9c5c52aec169b0ca",
+        "published_commit": "c4bec2b91b40f53b587fdbaa9c5c52aec169b0ca",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -916,7 +916,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 568cdb36465a99019026683b8ec2c39e1e2c85c33373e7ab1a11084b88a7a81d
+SHA-256: 95473e08532a661b31f775ec57631ff429975731267098157b12e84eaa4f476b
 
 {
   "schema_version": "1.0",
@@ -957,10 +957,10 @@ SHA-256: 568cdb36465a99019026683b8ec2c39e1e2c85c33373e7ab1a11084b88a7a81d
     },
     {
       "repo": "Byblos-syllabary",
-      "evidence_depth": "LOW_WITH_EXACT_EDITION_ROUTES",
-      "coverage_state": "10 labels in the 1945 cohort and 4 in the later cohort are bound to 3 exact catalogue records; available states are borrow-restricted, metadata/snippet-only or bibliographic-only; 0 primary pages and 0 sequences collated",
-      "top_gap": "lawful original edition/plate collation, object identity and source/provider scope reconciliation",
-      "status_source": "research/core-primary-access-route-audit.json"
+      "evidence_depth": "LOW_WITH_BIBLIOGRAPHIC_CONFLICT_AUDIT",
+      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52–58 versus KeiBi pp. 51–59; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
+      "top_gap": "inspect the physical article and plates; then reconcile pagination, object identity and provider scope",
+      "status_source": "research/dunand-1978-bibliographic-conflict-audit.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -976,10 +976,10 @@ SHA-256: 568cdb36465a99019026683b8ec2c39e1e2c85c33373e7ab1a11084b88a7a81d
     },
     {
       "repo": "Eteocretan",
-      "evidence_depth": "LOW_WITH_EXACT_CRITICAL_EDITION_ROUTE",
-      "coverage_state": "Anemi resource 000070579 / volume 000070579_3.pdf supplies an exact institutional route for 8 coverage leads; gateway/time-out failure leaves 0 primary pages collated and 0 readings or admissions added",
-      "top_gap": "lawful Guarducci pp. 134-142 collation; Azoria inventory and uncertain-language adjudication",
-      "status_source": "analysis/guarducci-route-audit.json"
+      "evidence_depth": "LOW_WITH_REPORTED_EDITION_NUMBER_CONCORDANCE",
+      "coverage_state": "Lejeune 1947 p. 276 n. 4 reports Guarducci nos. 1–6: 3 historically named crosswalks plus 3 number-only short fragments perhaps Eteocretan; script classes remain attributed",
+      "top_gap": "lawful Guarducci pp. 137–142 collation; physical identity, Azoria inventory and uncertain-language adjudication",
+      "status_source": "analysis/praisos-guarducci-number-audit.json"
     },
     {
       "repo": "Lycian-and-Carian",
@@ -989,10 +989,10 @@ SHA-256: 568cdb36465a99019026683b8ec2c39e1e2c85c33373e7ab1a11084b88a7a81d
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM_WITH_REPRODUCIBLE_TEXT_JOIN",
-      "coverage_state": "TM1001271 is the unique exact normalized G-12 text match among 162 UD TM groups under a declared lossy normalization; this is dependent text correspondence, not external catalogue or physical identity certification",
-      "top_gap": "inspect authoritative TM identity, reconcile headings to actual objects and primary editions; canonical admission remains empty",
-      "status_source": "analysis/g12-reference-fingerprint-audit.json"
+      "evidence_depth": "MEDIUM_WITH_EXPLICIT_LINEAGE_DENOMINATOR",
+      "coverage_state": "3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined; independently collated lineages and canonical admissions remain zero",
+      "top_gap": "extend record-specific edition lineage, inspect authoritative TM identities and reconcile headings to objects",
+      "status_source": "analysis/explicit-source-lineage-audit.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
