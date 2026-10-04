@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "e1fec2602ac053eda1492220212b40be9ff2a351f2efa702742a067acc645c89",
-      "bytes": 3602,
+      "sha256": "9175c6caedd9d1d18dccb7cc49b1a895c08faa247fead21d4b671642e53c613b",
+      "bytes": 4324,
       "category": "docs",
       "summary": {}
     },
@@ -208,6 +208,54 @@
       "summary": {
         "scope": "15 existing unresolved cases only; no corpus-wide primary verification claim"
       }
+    },
+    {
+      "path": "research/edition-concordance.csv",
+      "sha256": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2",
+      "bytes": 257888,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/edition-route-evidence.json",
+      "sha256": "c1e8f2454103d7764f24c2c0c46075e706cd58701bcf1d06fada2179aa3bb3e3",
+      "bytes": 3688,
+      "category": "research",
+      "summary": {
+        "format": "linear-a-edition-route-evidence-v1"
+      }
+    },
+    {
+      "path": "analysis/edition-concordance-audit.json",
+      "sha256": "375aa7b2c9244ef1070a1c31c5c8237e515531a4f30a0f5bce80630d8902222e",
+      "bytes": 2589,
+      "category": "analysis",
+      "summary": {
+        "format": "linear-a-edition-concordance-audit-v1",
+        "scope": "All 802 entries in the exact authenticated snapshot; not all surviving inscriptions, objects or independent witnesses.",
+        "boundary": "Whitespace-only joins preserve suffixes, faces, plus signs and fragment labels. Viewer indices are not printed page numbers. Publication/section links are not exact inscription matches. Unresolved does not mean absent from an edition. Raison–Pope and later entry readings remain uncollated."
+      }
+    },
+    {
+      "path": "scripts/build_edition_concordance.py",
+      "sha256": "ec514b509ec30ddd1855eb5da79d77654a1cc2d61ceb9919197084ba5b28694d",
+      "bytes": 10053,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/test_edition_concordance.py",
+      "sha256": "009bf968fa2d0dcbe0b0b610b8ebba436bc4298462b103be55ade6ceaa6fe41f",
+      "bytes": 3445,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "docs/EDITION-CONCORDANCE.md",
+      "sha256": "26e4749aa4bfaf236371898dcb45f9197a89e6e3f5c5feba8c1c3f686a2ed6e2",
+      "bytes": 5668,
+      "category": "docs",
+      "summary": {}
     }
   ],
   "scientific_results": {
