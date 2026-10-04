@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "e14275d4b482b90b109b5787edcf9a31eb0fefa3f0cec77f3338ec0907bda023",
-      "bytes": 8604,
+      "sha256": "d37da997bbf25f85ae93ef93cbe95bc9206fdf076eb27a744244b9a5a0affa61",
+      "bytes": 9611,
       "category": "docs",
       "summary": {}
     },
@@ -446,8 +446,8 @@
     },
     {
       "path": "research/edition-catalogue-pilot.json",
-      "sha256": "3a6d61e105cd60a3dbbba05cc30bfeb1b2ae687690f3387e573d1aa6b91ab460",
-      "bytes": 337664,
+      "sha256": "720ffceb1c9f6ae989cf2200f73ccc5f4c3dcb03bd6a3ee2140269bf1e8f65f0",
+      "bytes": 342137,
       "category": "research",
       "summary": {
         "format": "linear-a-edition-catalogue-pilot-v1",
@@ -456,15 +456,15 @@
     },
     {
       "path": "research/edition-catalogue-comparison.csv",
-      "sha256": "a91995e0f4dabdee3cf937c3c636d71a957edc907df34eaafafa3194407c48e9",
-      "bytes": 160734,
+      "sha256": "4b557e73250b0bb4c90fe70696c065e43c38a16b465b72861243c451bee14bff",
+      "bytes": 161107,
       "category": "research",
       "summary": {}
     },
     {
       "path": "analysis/edition-catalogue-pilot-audit.json",
-      "sha256": "23f6675ccf43a969dd6c4546c755002747ee3d0583ff175b0a80131257689cbc",
-      "bytes": 1337,
+      "sha256": "4eb5a55ca5d52f6d70ac576a7fd5fd5f81b321aa73a59b7bdd156d7c8564b7a7",
+      "bytes": 1377,
       "category": "analysis",
       "summary": {
         "format": "linear-a-edition-catalogue-audit-v1"
@@ -472,22 +472,22 @@
     },
     {
       "path": "docs/EDITION-CATALOGUE-PILOT.md",
-      "sha256": "87f6d3a6114b170ca8bbb9a1f77a5ba8516d259c473c74552c47707781864c5e",
-      "bytes": 4327,
+      "sha256": "b47f5610dc0cb25543a0ee11f74c8d1102459aa70cd9e925eb545aae54eb483a",
+      "bytes": 4724,
       "category": "docs",
       "summary": {}
     },
     {
       "path": "scripts/build_edition_catalogue_pilot.py",
-      "sha256": "ed7bfb3df48725bd36577bff07dc1cad47f1de47293fc2298b9f20b3b9757676",
-      "bytes": 9170,
+      "sha256": "3d19108bee0ca72466d60a06eb235fcc260ec175896ef51917cbc717d8aa15f7",
+      "bytes": 9952,
       "category": "scripts",
       "summary": {}
     },
     {
       "path": "scripts/test_edition_catalogue_pilot.py",
-      "sha256": "64336930647d6db64f40c31334c87df80020415b3e2de4c75cca18f7b297bb53",
-      "bytes": 3052,
+      "sha256": "25023bcceb46a9e1a02f91525c17d250235ff9d157599542bce8e524a2108c57",
+      "bytes": 3306,
       "category": "scripts",
       "summary": {}
     },

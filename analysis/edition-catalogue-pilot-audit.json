@@ -1,6 +1,6 @@
 {
   "format": "linear-a-edition-catalogue-audit-v1",
-  "input_sha256": "3a6d61e105cd60a3dbbba05cc30bfeb1b2ae687690f3387e573d1aa6b91ab460",
+  "input_sha256": "720ffceb1c9f6ae989cf2200f73ccc5f4c3dcb03bd6a3ee2140269bf1e8f65f0",
   "consulted_primary_pages": 135,
   "source_entries": 222,
   "target_headings_confirmed": 220,
@@ -8,11 +8,12 @@
   "caption_review_pages": 135,
   "locator_only_pages": 0,
   "edition_parent_units": 167,
-  "distinct_printed_catalogue_labels": 122,
-  "caption_label_rows": 166,
-  "dimension_expression_rows": 145,
+  "distinct_printed_catalogue_labels": 123,
+  "caption_label_rows": 167,
+  "dimension_expression_rows": 148,
   "shared_face_caption_relations": 50,
-  "unresolved_caption_fields": 4,
+  "unresolved_caption_fields": 0,
+  "resolved_edition_caption_fields": 4,
   "caption_scope": "Inventory labels and dimension fields/status on acquired pages; selected qualifiers, not full caption text or critical sign transcription",
   "fragment_caption_items": 3,
   "additional_separate_fragments_reported": 4,
@@ -20,5 +21,5 @@
   "independent_expert_reviews": 0,
   "sign_readings_adjudicated": 0,
   "count_boundary": "Two GO Wc 1 panels are one edition parent unit. Catalogue captions are historical edition reports, not certified current accessions or physical identity joins. HT Wa prefix is section context; tablet HT headings are printed. Two mismatched source routes have no confirmed edition parent. Uncollated captions are not absent captions.",
-  "comparison_sha256": "a91995e0f4dabdee3cf937c3c636d71a957edc907df34eaafafa3194407c48e9"
+  "comparison_sha256": "4b557e73250b0bb4c90fe70696c065e43c38a16b465b72861243c451bee14bff"
 }

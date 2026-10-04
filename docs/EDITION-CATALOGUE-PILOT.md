@@ -2,11 +2,11 @@
 
 The [comparison table](../research/edition-catalogue-comparison.csv) covers **all 135 acquired GORILA pages**, linked to 222 SigLA source entries. AI visual inspection confirms **220 target headings**; two HT 53 face records point to a page showing HT 52 a/b instead. Their original links remain preserved, their edition headings and parent units stay null, and no replacement route is adopted from a pagination offset alone.
 
-The inventory-label and dimension-field pass is complete for these acquired pages: **135 reviewed pages, 166 non-null label rows and 145 dimension-expression rows**. Fifty face-b records explicitly refer to parent captions on face-a pages without copying labels or dimensions into b. Four inspected fields remain unresolved: HT 114's inventory digit, HT 115's thickness, HT 22's bracket form and HT 79 [+] 83's fragment-size digit. Nulls for unresolved observations, separate face-b captions and route mismatches have distinct stated reasons.
+The inventory-label and dimension-field pass is complete for these acquired pages: **135 reviewed pages, 167 non-null label rows and 148 dimension-expression rows**. Fifty face-b records explicitly refer to parent captions on face-a pages without copying labels or dimensions into b. Four previously unresolved caption fields were rechecked in enlarged crops of the saved original pixels: HT 114 prints Pigorini 83735; HT 115 prints 6,10 × 8,30 × 1,20 cm; HT 22 prints 3,40 × [3,00] × 0,60 cm; HT 79 [+] 83 prints [2,30]+[3,20] × [3,00]+[2,60] × 0,80 cm. Original digests, crop boxes, display method and prior uncertainty records are retained in resolved_caption_observations. This resolves the caption transcription only, not physical readings, joins or modern museum identities. Nulls for unresolved observations, separate face-b captions and route mismatches have distinct stated reasons.
 
 This is a field-level metadata pass, with selected conservation and layout qualifiers. It is **not a full transcription of caption text or signs** and does not cover the 232 routes without completed acquisitions.
 
-Each row retains printed and viewer pagination, source URL and acquired-image SHA-256. The 220 confirmed source targets group into **167 edition parent units**, not certified physical objects. GO Wc 1a/b share one edition parent; uppercase HT 154 suffixes remain distinct edition entries. Two mismatched HT 53 records contribute no confirmed parent. The 122 distinct non-null caption strings include unassigned dash labels and compound labels: they are not 122 certified accessions.
+Each row retains printed and viewer pagination, source URL and acquired-image SHA-256. The 220 confirmed source targets group into **167 edition parent units**, not certified physical objects. GO Wc 1a/b share one edition parent; uppercase HT 154 suffixes remain distinct edition entries. Two mismatched HT 53 records contribute no confirmed parent. The 123 distinct non-null caption strings include unassigned dash labels and compound labels: they are not 123 certified accessions.
 
 The reviewed primary pages preserve several distinctions:
 
@@ -16,7 +16,7 @@ The reviewed primary pages preserve several distinctions:
 - HT 42/59, HT 49 and HT 62/73 preserve compound fragment-size expressions without arithmetic sums or normalized axes.
 - HT 3 reports a plaster support; HT 94/95/99 and HT 9 report edge holes, retaining the possible upper-edge hole on HT 95. These are historical edition reports, not present-condition or screen measurements.
 - HT 12 reports HM 2 (moulage), with unknown thickness. Cast metadata is not an independently measured original.
-- HT 114's first inventory digit and HT 115's thickness remain unresolved; candidate observations do not become adopted values.
+- HT 114's earlier alternative inventory-digit observations remain in the reinspection history; the printed caption report is not a certified museum accession crosswalk.
 - HT 123's compound HM 1367 + 1371 caption remains an edition report. HT 126's historical absence note does not establish present custody.
 - HT 109's proposed join is questioned in the edition. The neighbouring HT 113 ter and HT 67 panels are excluded from the linked entries on those pages.
 - HS Zg 1 is captioned as a schist plaque, with a printed scale. No dimensions are inferred from screen pixels.

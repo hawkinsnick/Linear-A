@@ -2572,8 +2572,8 @@
       "edition_heading": "HT 114 a",
       "edition_panel_label": "a",
       "source_prefix_basis": "Full HT heading printed on target panel",
-      "catalogue_caption_label": null,
-      "catalogue_caption_scope": "NO_UNAMBIGUOUS_TARGET_CAPTION_ASSIGNED_ON_THIS_PANEL",
+      "catalogue_caption_label": "Pigorini 83735",
+      "catalogue_caption_scope": "Printed edition-caption label rechecked in enlarged crop; no modern accession certification",
       "edition_parent_unit": "HT 114",
       "edition_counting_unit": "LABELLED_FACE_OF_EDITION_PARENT",
       "caption_dimensions": "3,80 × 5,60 × 0,80 cm",
@@ -2616,8 +2616,8 @@
       "catalogue_caption_scope": "Target caption below drawing",
       "edition_parent_unit": "HT 115",
       "edition_counting_unit": "LABELLED_FACE_OF_EDITION_PARENT",
-      "caption_dimensions": null,
-      "dimension_scope": "DIMENSION_CAPTION_NOT_TRANSCRIBED_FOR_THIS_PANEL",
+      "caption_dimensions": "6,10 × 8,30 × 1,20 cm",
+      "dimension_scope": "Edition caption visually rechecked in crop of saved original pixels at 4× display scale; brackets/operators retained; no summed or normalized size",
       "classification": "PRIMARY_EDITION_REPORTED",
       "current_museum_accession_verified": false,
       "physical_object_identity_certified": false,
@@ -3876,8 +3876,8 @@
       "catalogue_caption_scope": "Target historical caption visually collated; dash is unassigned, not an accession",
       "edition_parent_unit": "HT 22",
       "edition_counting_unit": "INDIVIDUALLY_NUMBERED_EDITION_ENTRY",
-      "caption_dimensions": null,
-      "dimension_scope": "Caption dimension expression inspected but unresolved; no normalized or adopted size",
+      "caption_dimensions": "3,40 × [3,00] × 0,60 cm",
+      "dimension_scope": "Edition caption visually rechecked in crop of saved original pixels at 4× display scale; brackets/operators retained; no summed or normalized size",
       "classification": "PRIMARY_EDITION_REPORTED",
       "current_museum_accession_verified": false,
       "physical_object_identity_certified": false,
@@ -5376,8 +5376,8 @@
       "catalogue_caption_scope": "Target historical caption visually collated; dash is unassigned, not an accession",
       "edition_parent_unit": "HT 79+83",
       "edition_counting_unit": "INDIVIDUALLY_NUMBERED_EDITION_ENTRY",
-      "caption_dimensions": null,
-      "dimension_scope": "Caption dimension expression inspected but unresolved; no normalized or adopted size",
+      "caption_dimensions": "[2,30]+[3,20] × [3,00]+[2,60] × 0,80 cm",
+      "dimension_scope": "Edition caption visually rechecked in crop of saved original pixels at 4× display scale; brackets/operators retained; no summed or normalized size",
       "classification": "PRIMARY_EDITION_REPORTED",
       "current_museum_accession_verified": false,
       "physical_object_identity_certified": false,
@@ -6428,44 +6428,7 @@
       "reason": "Neighbouring panel not linked by acquired source records; not assigned to HT 65 or HT 66."
     }
   ],
-  "unresolved_caption_observations": [
-    {
-      "source_record_id": "HT 114a",
-      "route_id": "v1-viewer-222",
-      "field": "catalogue_caption_label",
-      "status": "FIRST_INVENTORY_DIGIT_UNRESOLVED_AT_ACQUIRED_RESOLUTION",
-      "candidate_labels": [
-        "Pigorini 83735",
-        "Pigorini 53735"
-      ],
-      "adopted_label": null,
-      "expert_decision": false
-    },
-    {
-      "source_record_id": "HT 115a",
-      "route_id": "v1-viewer-224",
-      "field": "caption_dimensions",
-      "status": "FINAL_DIMENSION_DIGIT_NOT_ASSIGNED_WITH_CONFIDENCE",
-      "adopted_dimensions": null,
-      "expert_decision": false
-    },
-    {
-      "source_record_id": "HT 22",
-      "route_id": "v1-viewer-74",
-      "field": "caption_dimensions",
-      "status": "BRACKET_FORM_UNRESOLVED_AT_ACQUIRED_RESOLUTION",
-      "adopted_dimensions": null,
-      "expert_decision": false
-    },
-    {
-      "source_record_id": "HT 79+83",
-      "route_id": "v1-viewer-162",
-      "field": "caption_dimensions",
-      "status": "FRAGMENT_DIMENSION_DIGIT_UNRESOLVED_AT_ACQUIRED_RESOLUTION",
-      "adopted_dimensions": null,
-      "expert_decision": false
-    }
-  ],
+  "unresolved_caption_observations": [],
   "source_critical_notes": [
     {
       "source_record_id": "HT 109",
@@ -6556,6 +6519,18 @@
       "route_id": "v1-viewer-54",
       "note": "Caption reports an upper-edge hole at 2,10 cm from the left edge. This is an edition report, not a screen measurement.",
       "report_status": "EDITION_REPORTED_LAYOUT_FEATURE"
+    },
+    {
+      "source_record_id": "HT 79+83",
+      "route_id": "v1-viewer-162",
+      "note": "Caption reports HT 83 damaged since the first edition; preserves both added fragment-dimension components, without arithmetic aggregation or certified join.",
+      "report_status": "HISTORICAL_EDITION_CONDITION_AND_FRAGMENT_SIZE_REPORT"
+    },
+    {
+      "source_record_id": "HT 21",
+      "route_id": "v1-viewer-74",
+      "note": "Caption reports four horizontal reverse graffito lines crossed by two vertical lines. This describes the edition caption, not a transcription or independent graphical sign count.",
+      "report_status": "EDITION_REPORTED_LAYOUT_NOT_SIGN_TRANSCRIPTION"
     }
   ],
   "locator_discrepancies": [
@@ -6574,5 +6549,135 @@
       "next_action": "Obtain and visually inspect GORILA I printed p.102 (candidate viewer138); do not adopt offset alone."
     }
   ],
-  "inspection_scope": "All 135 saved pages inspected for pagination, target headings, inventory-label and dimension fields or unresolved/no-separate-caption status. Selected conservation/layout qualifiers retained. Not complete caption-text transcription or sign collation."
+  "inspection_scope": "All 135 saved pages inspected for pagination, target headings, inventory-label and dimension fields or unresolved/no-separate-caption status. Selected conservation/layout qualifiers retained. Not complete caption-text transcription or sign collation.",
+  "resolved_caption_observations": [
+    {
+      "source_record_id": "HT 114a",
+      "route_id": "v1-viewer-222",
+      "field": "catalogue_caption_label",
+      "edition_caption_value": "Pigorini 83735",
+      "previous_unresolved_observation": {
+        "source_record_id": "HT 114a",
+        "route_id": "v1-viewer-222",
+        "field": "catalogue_caption_label",
+        "status": "FIRST_INVENTORY_DIGIT_UNRESOLVED_AT_ACQUIRED_RESOLUTION",
+        "candidate_labels": [
+          "Pigorini 83735",
+          "Pigorini 53735"
+        ],
+        "adopted_label": null,
+        "expert_decision": false
+      },
+      "reinspection": "AI_VISUAL_CROP_REINSPECTION_NOT_EXPERT_AUTOPSY",
+      "original_image_sha256": "1f89dd1d659577b6b8898060b31651ce4988c62673793853bf4b2b2dc44d2543",
+      "original_image_size": [
+        985,
+        1294
+      ],
+      "crop_box_pixels": [
+        170,
+        970,
+        450,
+        1020
+      ],
+      "display_scale": 4,
+      "pixel_method": "Pillow crop from saved original JPEG, resized only for inspection; no generative enhancement",
+      "resolution_scope": "WHAT_THE_EDITION_CAPTION_PRINTS_ONLY",
+      "physical_identity_certified": false,
+      "expert_decision": false
+    },
+    {
+      "source_record_id": "HT 115a",
+      "route_id": "v1-viewer-224",
+      "field": "caption_dimensions",
+      "edition_caption_value": "6,10 × 8,30 × 1,20 cm",
+      "previous_unresolved_observation": {
+        "source_record_id": "HT 115a",
+        "route_id": "v1-viewer-224",
+        "field": "caption_dimensions",
+        "status": "FINAL_DIMENSION_DIGIT_NOT_ASSIGNED_WITH_CONFIDENCE",
+        "adopted_dimensions": null,
+        "expert_decision": false
+      },
+      "reinspection": "AI_VISUAL_CROP_REINSPECTION_NOT_EXPERT_AUTOPSY",
+      "original_image_sha256": "36642817fcb4f7aaa883230dfa023a3ad8f82d0a65e453bca664f068eeb4d4b4",
+      "original_image_size": [
+        985,
+        1294
+      ],
+      "crop_box_pixels": [
+        330,
+        1090,
+        630,
+        1150
+      ],
+      "display_scale": 4,
+      "pixel_method": "Pillow crop from saved original JPEG, resized only for inspection; no generative enhancement",
+      "resolution_scope": "WHAT_THE_EDITION_CAPTION_PRINTS_ONLY",
+      "physical_identity_certified": false,
+      "expert_decision": false
+    },
+    {
+      "source_record_id": "HT 22",
+      "route_id": "v1-viewer-74",
+      "field": "caption_dimensions",
+      "edition_caption_value": "3,40 × [3,00] × 0,60 cm",
+      "previous_unresolved_observation": {
+        "source_record_id": "HT 22",
+        "route_id": "v1-viewer-74",
+        "field": "caption_dimensions",
+        "status": "BRACKET_FORM_UNRESOLVED_AT_ACQUIRED_RESOLUTION",
+        "adopted_dimensions": null,
+        "expert_decision": false
+      },
+      "reinspection": "AI_VISUAL_CROP_REINSPECTION_NOT_EXPERT_AUTOPSY",
+      "original_image_sha256": "b6aef5b57c49f164571f6f562ec7db28ff377ae80908c73c2d1c5f403eec1251",
+      "original_image_size": [
+        985,
+        1294
+      ],
+      "crop_box_pixels": [
+        580,
+        980,
+        850,
+        1040
+      ],
+      "display_scale": 4,
+      "pixel_method": "Pillow crop from saved original JPEG, resized only for inspection; no generative enhancement",
+      "resolution_scope": "WHAT_THE_EDITION_CAPTION_PRINTS_ONLY",
+      "physical_identity_certified": false,
+      "expert_decision": false
+    },
+    {
+      "source_record_id": "HT 79+83",
+      "route_id": "v1-viewer-162",
+      "field": "caption_dimensions",
+      "edition_caption_value": "[2,30]+[3,20] × [3,00]+[2,60] × 0,80 cm",
+      "previous_unresolved_observation": {
+        "source_record_id": "HT 79+83",
+        "route_id": "v1-viewer-162",
+        "field": "caption_dimensions",
+        "status": "FRAGMENT_DIMENSION_DIGIT_UNRESOLVED_AT_ACQUIRED_RESOLUTION",
+        "adopted_dimensions": null,
+        "expert_decision": false
+      },
+      "reinspection": "AI_VISUAL_CROP_REINSPECTION_NOT_EXPERT_AUTOPSY",
+      "original_image_sha256": "e17199d491307bb1aeddb6d0dc56142bc483e097e2f6e0bf9115f639a6ef4d29",
+      "original_image_size": [
+        985,
+        1294
+      ],
+      "crop_box_pixels": [
+        580,
+        675,
+        970,
+        740
+      ],
+      "display_scale": 4,
+      "pixel_method": "Pillow crop from saved original JPEG, resized only for inspection; no generative enhancement",
+      "resolution_scope": "WHAT_THE_EDITION_CAPTION_PRINTS_ONLY",
+      "physical_identity_certified": false,
+      "expert_decision": false
+    }
+  ]
 }

@@ -32,7 +32,9 @@ class Catalogue(unittest.TestCase):
   self.p['fragment_dossiers'][0]['normalized_global_dimensions']='invented'
   with self.assertRaises(AssertionError):build(self.p)
  def test_candidate_cannot_be_adopted(self):
-  self.p['unresolved_caption_observations'][0]['adopted_label']='candidate'
+  resolved=self.p['resolved_caption_observations'].pop(0);old=copy.deepcopy(resolved['previous_unresolved_observation']);next(e for e in self.p['entries'] if e['source_record_id']==old['source_record_id'])[old['field']]=None;self.p['unresolved_caption_observations'].append(old)
+  build(self.p)
+  old['adopted_label']='candidate'
   with self.assertRaises(AssertionError):build(self.p)
  def test_caption_relation_cannot_certify_join(self):
   self.p['caption_relations'][0]['physical_join_certified']=True

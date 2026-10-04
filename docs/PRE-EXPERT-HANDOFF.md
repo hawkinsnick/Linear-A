@@ -58,7 +58,7 @@ Read [PUBLIC-SIGLA-LAYER.md](PUBLIC-SIGLA-LAYER.md) for direct downloads and byt
 
 ## GORILA II catalogue-label pilot
 
-The separate [edition-label review](EDITION-CATALOGUE-PILOT.md) covers all 135 acquired pages: 222 linked entries, 220 confirmed target headings and two unresolved HT 53 route mismatches. Its 167 confirmed edition parent units are not certified physical objects. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 166 label rows, 145 dimension-expression rows, 50 shared-face caption relations and four unresolved caption fields. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No sign adjudication or modern accession verification is claimed.
+The separate [edition-label review](EDITION-CATALOGUE-PILOT.md) covers all 135 acquired pages: 222 linked entries, 220 confirmed target headings and two unresolved HT 53 route mismatches. Its 167 confirmed edition parent units are not certified physical objects. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No sign adjudication or modern accession verification is claimed.
 
 ## Review cases outside exact source-ID joins
 
@@ -67,3 +67,7 @@ The separate [edition-label review](EDITION-CATALOGUE-PILOT.md) covers all 135 a
 The existing primary-page inspection records for PK Za 8 and PR Za 1 remain separately attributable. Their earlier image digests remain recorded, but those image files were not found in the current workspace during this continuation; no new visual inspection or fresh asset verification is claimed for them. The HT Zd composite remains a review question, not a certified object join.
 
 Reproduce with `python scripts/build_case_source_membership.py --check`. This report adds membership accounting without changing the critical pilot's ten-entry denominator or its unreviewed decisions.
+
+## SY Zb 7 retrieval barriers checked 2026-10-04
+
+A search-indexed scholarly candidate is Montecchi's 2024 chapter, “Design and Origins of Linear A Picture-Based Signs”, DOI 10.1093/oso/9780198908746.003.0010. It mentions SY Zb 7, but no primary entry, figure or reading was verified from these retrieval attempts. The [Bologna repository PDF](https://cris.unibo.it/retrieve/ace556f3-9a7d-4db0-8d30-5b37fdd7ab1e/OUP_writing.pdf) timed out through the retrieval tool. The [Florence repository PDF](https://flore.unifi.it/retrieve/81004007-8df7-4755-b33f-86622e603a2d/Ferrara-Montecchi-Val%C3%A9rio_OUP_2024.pdf) returned HTTP 403. The [publisher chapter](https://academic.oup.com/book/58672/chapter/485388397) redirected to a CDN resource inaccessible through that tool. These are route-specific retrieval barriers, not proof of a paywall, legal prohibition or source absence. No download or source-image verification is claimed; the primary-locator gate remains open.
