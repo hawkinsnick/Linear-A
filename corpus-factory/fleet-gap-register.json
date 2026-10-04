@@ -6,8 +6,8 @@
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Separate catalogue pilot: 20 source entries / 19 edition parent units / four inspected pages; no physical identity certification.",
-      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Caption review covers 43 pages; 92 pages have locator-only review. No physical identity certification or sign adjudication.",
+      "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },
     {
@@ -38,7 +38,7 @@
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_BIBLIOGRAPHIC_CONFLICT_AUDIT",
-      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52\u201358 versus KeiBi pp. 51\u201359; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
+      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52–58 versus KeiBi pp. 51–59; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
       "top_gap": "lawful primary edition/plate delivery (WorldCat digital OCLC 1244511616 free-access link resolves to restricted IA copy); museum identities, face reconciliation and sign collation",
       "status_source": "research/dunand-1978-bibliographic-conflict-audit.json"
     },
@@ -58,7 +58,7 @@
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
-      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
     {

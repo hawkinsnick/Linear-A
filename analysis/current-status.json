@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "a9fa8d7429d08aeb45945147346fbbb7fc005d2acb63230f7fde972494137bd0"
+      "sha256": "f89fa3652c6f5c4f839b3270bb2a8350c15a7a089a8ff61dd75a4b9170f302c1"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "0f4b8aea9950d4ab6945a3381463c67012b940e6762eb1ef3333037cffab1991"
+      "sha256": "4f35dcbac9e37c15105a19dc3c601f037f6db4e892dc58f4b13ca1ece3aea94e"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "f110d43c67979a90b5304d3e5fb14de977cf471fcb4b3d3ed94f227ff308a8ca"
+      "sha256": "02c598996a1cc5f17a033b0676785540f0b9db1318a31a6696b3e76841370026"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "a6c5a2bf4bd34c0e5c609c998690804a70f894a561787e3b205614215b61a6ee"
+      "sha256": "7ea655abf727c775063a23c142c4ce9ece829995b375f0c693090ef4c7e575ea"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -274,32 +274,32 @@
     },
     {
       "path": "research/edition-catalogue-pilot.json",
-      "sha256": "ba3e49e3133f63a9229ed3698dd4eeb9b6198b4555bbf22337a29932aa524925"
+      "sha256": "ddaecaf1c7c17befbf519c6195d53b3a48e87d915a7bcaf8a63167987c414281"
     },
     {
       "path": "research/edition-catalogue-comparison.csv",
-      "sha256": "d06ca48cc18f56a754ec5dac7a5e4a32a8f589c3df4519218314872fcc195524"
+      "sha256": "ba98ffdd6694026dbd21b68e75c938265eb7466a80510c5841f2a8111b95e35a"
     },
     {
       "path": "analysis/edition-catalogue-pilot-audit.json",
-      "sha256": "344ad9853beac27a0d4646f2b5bedbec49dc5e88c049e9066e8a1b8d574a2946"
+      "sha256": "e54d1d92d1047bb73837b8f4597fe326b7f1d1a6ac2f27a30150c567214ffb1e"
     },
     {
       "path": "docs/EDITION-CATALOGUE-PILOT.md",
-      "sha256": "8fc8a335a146bacf8c02bc7543d17e28748b65583bb0785858e8592cd735c663"
+      "sha256": "4870ca7efc919e5c6bd2d43275ad86c026b824efd3839bc07054defb51b0d986"
     },
     {
       "path": "scripts/build_edition_catalogue_pilot.py",
-      "sha256": "ee7e2d7224535482b8493feced99c4c15396e1c80da5c4d3b75f3c413812ed3f"
+      "sha256": "ad0747a096497f0ef2a4c290f878c33684e27dee1000a88373eb4d03f452de27"
     },
     {
       "path": "scripts/test_edition_catalogue_pilot.py",
-      "sha256": "20b98d5aacdfc552a44506423437d88fb4ac5fae3731fe0b8b4a2706ba68dc67"
+      "sha256": "4e0c381225e771bb620eaed3784005860e9281d86ac24afdaec5bd2eaa4efece"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison\u2013Pope and independent review remain unresolved. Separate GORILA II label pilot: 20 source entries / 19 edition parent units on four inspected pages; historical catalogue captions only.",
+  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Caption review covers 43 pages; 92 pages have locator-only review. No physical identity certification or sign adjudication.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",
@@ -350,9 +350,13 @@
   "edition_catalogue_checkpoint": {
     "audit": "analysis/edition-catalogue-pilot-audit.json",
     "guide": "docs/EDITION-CATALOGUE-PILOT.md",
-    "source_entries": 20,
-    "edition_parent_units": 19,
-    "inspected_pages": 4,
-    "certified_physical_identities": 0
+    "source_entries": 222,
+    "edition_parent_units": 167,
+    "inspected_pages": 135,
+    "certified_physical_identities": 0,
+    "target_headings_confirmed": 220,
+    "source_route_target_mismatches": 2,
+    "caption_review_pages": 43,
+    "locator_only_pages": 92
   }
 }

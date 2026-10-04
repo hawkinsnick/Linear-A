@@ -9,29 +9,66 @@ def build(payload,root=ROOT,assets=None):
  routes={r['route_id']:r for r in json.loads((root/'research/gorila-route-acquisition.json').read_text())['routes']}
  assert payload['physical_identities_certified']==payload['independent_expert_reviews']==0
  assert payload['raison_pope_entry_joins']=='UNRESOLVED'
- pages={p['route_id']:p for p in payload['pages']};assert len(pages)==4
- entries=payload['entries'];assert len(entries)==20 and len({e['source_record_id'] for e in entries})==20
- assert [(p['viewer_page'],p['printed_page']) for p in pages.values()]==[(64,2),(66,4),(67,5),(68,6)]
+ pages={p['route_id']:p for p in payload['pages']};assert len(pages)==payload['declared_coverage']['pages']
+ entries=payload['entries'];assert len(entries)==len({e['source_record_id'] for e in entries})==payload['declared_coverage']['source_entries']
  for key,p in pages.items():
-  r=routes[key];assert r['volume']==p['volume']==2 and p['viewer_page']==r['viewer_page'] and p['page_url']==r['page_url'] and p['image_sha256']==r['image_sha256'] and p['image_bytes']==r['image_bytes'] and p['images_redistributed'] is False
+  r=routes[key];assert r['volume']==p['volume'] and p['viewer_page']==r['viewer_page'] and p['page_url']==r['page_url'] and p['image_sha256']==r['image_sha256'] and p['image_bytes']==r['image_bytes'] and p['images_redistributed'] is False
   assert [e['source_record_id'] for e in entries if e['route_id']==key]==r['source_record_ids']
   if assets:
    b=(assets/(key+'.jpg')).read_bytes();assert digest(b)==p['image_sha256'] and len(b)==p['image_bytes']
  for e in entries:
   assert e['physical_object_identity_certified'] is e['current_museum_accession_verified'] is e['reading_adjudicated'] is False
   assert e['classification']=='PRIMARY_EDITION_REPORTED' and e['source_license']=='CC BY-NC-SA 4.0' and e['source_attribution']
+  assert e['locator_status'] in ['TARGET_HEADING_VISUALLY_CONFIRMED','SOURCE_ROUTE_TARGET_MISMATCH']
+  if e['locator_status']=='SOURCE_ROUTE_TARGET_MISMATCH':
+   assert e['edition_heading'] is e['edition_parent_unit'] is e['edition_panel_label'] is None and e['edition_counting_unit']=='UNRESOLVED_SOURCE_ROUTE'
+  if e['catalogue_caption_scope']=='NOT_COLLATED_IN_LOCATOR_ONLY_REVIEW':
+   assert e['catalogue_caption_label'] is e['caption_dimensions'] is None and e['dimension_scope']=='NOT_COLLATED_IN_LOCATOR_ONLY_REVIEW'
+  if e['locator_status']=='SOURCE_ROUTE_TARGET_MISMATCH':continue
   if e['source_record_id'].startswith('GO'):
    assert e['edition_parent_unit']=='GO Wc 1' and e['edition_panel_label'] in ['a','b'] and e['catalogue_caption_label']=='HM 83' and e['edition_counting_unit']=='LABELLED_PANEL_OF_ONE_EDITION_ENTRY'
-  else:
-   assert e['edition_panel_label'] is None and e['edition_parent_unit']==e['source_record_id'] and e['caption_dimensions'] is None
+  elif e['edition_panel_label']:
+   assert e['edition_parent_unit']==e['source_record_id'][:-1] and e['edition_panel_label'] in ['a','b'] and e['edition_counting_unit']=='LABELLED_FACE_OF_EDITION_PARENT'
+  elif e['source_record_id'].startswith('HT'):
+   assert e['edition_panel_label'] is None and e['edition_parent_unit']==e['source_record_id']
+ by={e['source_record_id']:e for e in entries}
+ for relation in payload.get('caption_relations',[]):
+  target=by[relation['target_source_record_id']];source=by[relation['caption_source_record_id']]
+  assert target['edition_parent_unit']==source['edition_parent_unit'] and target['edition_panel_label']=='b' and source['edition_panel_label']=='a'
+  assert target['catalogue_caption_label'] is None and source['catalogue_caption_label'] and relation['physical_join_certified'] is False
+ for dossier in payload.get('fragment_dossiers',[]):
+  assert dossier['edition_parent_unit'] in {e['edition_parent_unit'] for e in entries} and dossier['caption_route_id'] in pages
+  assert dossier['certified_fragment_identities']==0 and dossier['dimension_aggregation_status']=='NO_SUM_OR_NORMALIZED_GLOBAL_SIZE'
+  assert dossier['join_status']=='EDITION_PRESENTATION_ONLY_NOT_CERTIFIED_PHYSICAL_JOIN'
+  assert 'normalized_global_dimensions' not in dossier and 'physical_object_id' not in dossier
+  assert dossier['additional_separate_fragments_reported']==4 and len(dossier['caption_fragment_items'])==3
+  assert [f['catalogue_label'] for f in dossier['caption_fragment_items']]==['HM 1668','HM 1669','HM —']
+  assert all('physical_object_id' not in f and 'certified' not in f for f in dossier['caption_fragment_items'])
+ for form in payload.get('object_form_reports',[]):
+  assert form['source_record_id'] in by and form['route_id']==by[form['source_record_id']]['route_id']
+  assert form['dimension_inference']=='DO_NOT_MEASURE_SCREEN_PIXELS_FROM_PRINTED_SCALE'
+ for observation in payload.get('unresolved_caption_observations',[]):
+  assert observation['source_record_id'] in by and observation['expert_decision'] is False
+  assert by[observation['source_record_id']][observation['field']] is None
+  assert observation.get('adopted_label') is None and observation.get('adopted_dimensions') is None
+ for exclusion in payload.get('inspection_exclusions',[]):
+  assert exclusion['route_id'] in pages and exclusion['excluded_heading'] not in by
+ for note in payload.get('source_critical_notes',[]):
+  assert note['source_record_id'] in by and note['route_id']==by[note['source_record_id']]['route_id']
+  assert 'physical_join_certified' not in note
+ for discrepancy in payload.get('locator_discrepancies',[]):
+  assert discrepancy['replacement_route_verified'] is False
+  assert all(by[s]['locator_status']=='SOURCE_ROUTE_TARGET_MISMATCH' and by[s]['route_id']==discrepancy['route_id'] for s in discrepancy['source_record_ids'])
+ for sid in ['HT 42+59','HT 62+73','HT 79+83']:
+  if sid in by:assert '[+]' in by[sid]['edition_heading']
  rows=[{**e,'gorila_volume':pages[e['route_id']]['volume'],'gorila_printed_page':pages[e['route_id']]['printed_page'],'gorila_viewer_page':pages[e['route_id']]['viewer_page'],'page_url':pages[e['route_id']]['page_url'],'image_sha256':pages[e['route_id']]['image_sha256']} for e in entries]
  s=io.StringIO(newline='');w=csv.DictWriter(s,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
- audit={'format':'linear-a-edition-catalogue-audit-v1','input_sha256':digest((json.dumps(payload,ensure_ascii=False,indent=2)+'\n').encode()),'consulted_primary_pages':4,'source_entries':20,'edition_parent_units':len({e['edition_parent_unit'] for e in entries}),'distinct_printed_catalogue_labels':len({e['catalogue_caption_label'] for e in entries}),'physical_identities_certified':0,'independent_expert_reviews':0,'sign_readings_adjudicated':0,'count_boundary':'Two GO Wc 1 panels are one edition parent unit. Catalogue captions are historical edition reports, not certified current accessions or physical identity joins. HT prefix is section context, not printed in each panel heading.','comparison_sha256':digest(s.getvalue().encode())}
+ audit={'format':'linear-a-edition-catalogue-audit-v1','input_sha256':digest((json.dumps(payload,ensure_ascii=False,indent=2)+'\n').encode()),'consulted_primary_pages':len(pages),'source_entries':len(entries),'target_headings_confirmed':sum(e['locator_status']=='TARGET_HEADING_VISUALLY_CONFIRMED' for e in entries),'source_route_target_mismatches':sum(e['locator_status']=='SOURCE_ROUTE_TARGET_MISMATCH' for e in entries),'caption_review_pages':sum(p['inspection']!='AI_VISUAL_INSPECTION_PRINTED_PAGE_AND_HEADINGS_ONLY' for p in pages.values()),'locator_only_pages':sum(p['inspection']=='AI_VISUAL_INSPECTION_PRINTED_PAGE_AND_HEADINGS_ONLY' for p in pages.values()),'edition_parent_units':len({e['edition_parent_unit'] for e in entries if e['edition_parent_unit']}),'distinct_printed_catalogue_labels':len({e['catalogue_caption_label'] for e in entries if e['catalogue_caption_label']}),'fragment_caption_items':sum(len(f['caption_fragment_items']) for f in payload.get('fragment_dossiers',[])),'additional_separate_fragments_reported':sum(f['additional_separate_fragments_reported'] for f in payload.get('fragment_dossiers',[])),'physical_identities_certified':0,'independent_expert_reviews':0,'sign_readings_adjudicated':0,'count_boundary':'Two GO Wc 1 panels are one edition parent unit. Catalogue captions are historical edition reports, not certified current accessions or physical identity joins. HT Wa prefix is section context; tablet HT headings are printed. Two mismatched source routes have no confirmed edition parent. Uncollated captions are not absent captions.','comparison_sha256':digest(s.getvalue().encode())}
  return {'research/edition-catalogue-comparison.csv':s.getvalue(),'analysis/edition-catalogue-pilot-audit.json':json.dumps(audit,indent=2)+'\n'}
 def main():
  p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');p.add_argument('--verify-assets',type=Path);args=p.parse_args();payload=json.loads((ROOT/INPUT).read_text())
  for path,s in build(payload,assets=args.verify_assets).items():
   if args.check:assert (ROOT/path).read_text()==s,'Catalogue replay drift'
   else:(ROOT/path).write_text(s)
- print('Edition catalogue pilot: 20 source entries / 19 edition parent units / 4 inspected pages; no certified physical identities')
+ print('Edition catalogue views verified; no physical identity certification')
 if __name__=='__main__':main()

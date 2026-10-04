@@ -58,4 +58,4 @@ Read [PUBLIC-SIGLA-LAYER.md](PUBLIC-SIGLA-LAYER.md) for direct downloads and byt
 
 ## GORILA II catalogue-label pilot
 
-The separate [edition-label pilot](EDITION-CATALOGUE-PILOT.md) adds exact locators and historical catalogue captions for 20 source entries on four inspected pages. Its 19 edition parent units are not certified physical objects. No sign adjudication or modern accession verification is claimed.
+The separate [edition-label review](EDITION-CATALOGUE-PILOT.md) covers all 135 acquired pages: 222 linked entries, 220 confirmed target headings and two unresolved HT 53 route mismatches. Its 167 confirmed edition parent units are not certified physical objects. Caption review covers 43 pages; 92 pages remain locator-only. No sign adjudication or modern accession verification is claimed.

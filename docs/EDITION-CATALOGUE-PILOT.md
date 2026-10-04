@@ -1,23 +1,32 @@
-# Edition labels and counting units: GORILA II pilot
+# Edition locators, captions and counting units
 
-The [comparison table](../research/edition-catalogue-comparison.csv) records **20 source entries** on four inspected primary-edition pages. Each row supplies the printed page, viewer page, stable source URL, acquired image digest, exact edition heading/panel and historical catalogue caption. Inspection was by AI; independent expert review remains pending.
+The [comparison table](../research/edition-catalogue-comparison.csv) covers **all 135 acquired GORILA pages**, linked to 222 SigLA source entries. AI visual inspection confirms **220 target headings**; two HT 53 face records point to a page showing HT 52 a/b instead. Their original links remain preserved, their edition headings and parent units stay null, and no replacement route is adopted from a pagination offset alone.
 
-| GORILA II printed page | Viewer page | Source entries | Edition presentation |
-|---|---:|---|---|
-| 2 | 64 | GO Wc 1a, GO Wc 1b | One heading GO Wc 1, two panels a/b; HM 83 caption below a |
-| 4 | 66 | HT Wa 1001–1005 | Five individually numbered panels and captions |
-| 5 | 67 | HT Wa 1006–1013 | Eight individually numbered panels; Haghia Triada nodules section heading |
-| 6 | 68 | HT Wa 1014–1018 | Five individually numbered panels and captions |
+| Review scope | Pages | Meaning |
+|---|---:|---|
+| Selected caption and metadata review | 43 | Historical labels, dimensions and qualifications where legible; unresolved observations retained |
+| Pagination and target-heading review only | 92 | Captions explicitly uncollated, not absent |
+| Total acquired-page review | 135 | Does not include the 232 routes without completed acquisitions |
 
-The source entries comprise **19 edition parent units**. This is an edition-level grouping, not a count of certified physical objects. GO Wc 1a/b retain distinct source IDs while sharing the printed parent heading and caption. Its caption dimensions, 3,50 × 3,50 × 1,00 cm, apply at that parent-caption level; they are not separate measurements of both panels. The HT prefix is inherited from the section/source attribution: it is not printed beside every Wa heading.
+Each row retains printed and viewer pagination, source URL and acquired-image SHA-256. The 220 confirmed source targets group into **167 edition parent units**, not certified physical objects. GO Wc 1a/b share one edition parent; uppercase HT 154 suffixes remain distinct edition entries. Two mismatched HT 53 records contribute no confirmed parent. The 51 distinct non-null caption strings include unassigned dash labels and compound labels: they are not 51 certified accessions.
 
-Historical captions include HM numbers and Pigorini 5. These are edition-reported labels, not a verified modern museum accession crosswalk. No sign readings are adjudicated, catalogue labels promoted to certified object identities, or Raison–Pope joins closed. Drawings and photographs remain private. All SigLA-derived IDs and routes retain CC BY-NC-SA 4.0 and Ester Salgarella/Simon Castellan attribution via Ryan Pavlicek/pyaegean; edition caption facts are attributed to Godart and Olivier, GORILA II (1979).
+The reviewed primary pages preserve several distinctions:
 
-Reproduce the table and its unit accounting with:
+- HT 42 [+] 59, HT 62 [+] 73 and HT 79 [+] 83 retain bracketed join notation that source IDs flatten. No physical join is certified.
+- ARKH 1 reports three captioned fragment items and four additional separate fragments. Fragment dimensions are not summed into one size or seven certified object identities. ARKH 3/4 b faces retain explicit relations to captions on a, without inventing b captions.
+- HT 12 reports HM 2 (moulage), with unknown thickness. Cast metadata is not an independently measured original.
+- HT 114's first inventory digit and HT 115's thickness remain unresolved; candidate observations do not become adopted values.
+- HT 123's compound HM 1367 + 1371 caption remains an edition report. HT 126's historical absence note does not establish present custody.
+- HT 109's proposed join is questioned in the edition. The neighbouring HT 113 ter and HT 67 panels are excluded from the linked entries on those pages.
+- HS Zg 1 is captioned as a schist plaque, with a printed scale. No dimensions are inferred from screen pixels.
+
+Inspection was by AI; independent expert review remains pending. Catalogue captions are historical edition reports, not a current museum crosswalk. No sign readings are adjudicated or Raison–Pope joins closed. Primary photographs and drawings remain private. SigLA-derived IDs and routes retain CC BY-NC-SA 4.0 and Ester Salgarella/Simon Castellan attribution via Ryan Pavlicek/pyaegean; primary edition facts are attributed to Godart and Olivier, GORILA, with the volume and page retained per row.
+
+Reproduce the metadata table and accounting:
 
 ```sh
 python scripts/build_edition_catalogue_pilot.py --check
 python scripts/test_edition_catalogue_pilot.py
 ```
 
-With authorized local images, add `--verify-assets /path/to/gorila-route-assets`. This metadata pilot is separate from the ten-entry [critical pilot](CRITICAL-PILOT.md) and does not extend its amount or transcription coverage. The larger acquired collection still requires target-specific inspection.
+With authorized local images, add `--verify-assets /path/to/gorila-route-assets`. This layer remains separate from the ten-entry [critical pilot](CRITICAL-PILOT.md) and does not extend its amount or transcription coverage. Full caption collation, remaining page acquisition, Raison–Pope reconciliation and independent sign adjudication remain open.

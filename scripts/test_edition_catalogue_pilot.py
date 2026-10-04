@@ -19,4 +19,22 @@ class Catalogue(unittest.TestCase):
  def test_missing_panel(self):
   self.p['entries'].pop()
   with self.assertRaises(AssertionError):build(self.p)
+ def test_locator_only_cannot_gain_caption(self):
+  e=next(e for e in self.p['entries'] if e['catalogue_caption_scope']=='NOT_COLLATED_IN_LOCATOR_ONLY_REVIEW');e['catalogue_caption_label']='HM invented'
+  with self.assertRaises(AssertionError):build(self.p)
+ def test_mismatch_cannot_gain_parent(self):
+  next(e for e in self.p['entries'] if e['source_record_id']=='HT 53a')['edition_parent_unit']='HT 53'
+  with self.assertRaises(AssertionError):build(self.p)
+ def test_bracketed_join_cannot_be_flattened(self):
+  next(e for e in self.p['entries'] if e['source_record_id']=='HT 42+59')['edition_heading']='HT 42+59'
+  with self.assertRaises(AssertionError):build(self.p)
+ def test_fragment_sizes_cannot_be_aggregated(self):
+  self.p['fragment_dossiers'][0]['normalized_global_dimensions']='invented'
+  with self.assertRaises(AssertionError):build(self.p)
+ def test_candidate_cannot_be_adopted(self):
+  self.p['unresolved_caption_observations'][0]['adopted_label']='candidate'
+  with self.assertRaises(AssertionError):build(self.p)
+ def test_caption_relation_cannot_certify_join(self):
+  self.p['caption_relations'][0]['physical_join_certified']=True
+  with self.assertRaises(AssertionError):build(self.p)
 if __name__=='__main__':unittest.main()

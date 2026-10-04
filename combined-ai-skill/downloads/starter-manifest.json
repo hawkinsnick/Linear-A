@@ -80,13 +80,13 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "35b36b3ffa6344231e5847cd1f16326c41e08c2eeac0d59ea41ea278443cfe6e",
-      "bytes": 27282
+      "sha256": "484f296d2b39d65215b99bf1e7ec6016f893f2a3cd697363e80d3fc8f9a50428",
+      "bytes": 27428
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "489d9dbd6992083d2674168719065ee3ad8e9d48b3012a500b2fab0a99db8aac",
-      "bytes": 9435
+      "sha256": "93974624038ae4703abc0e7329e4e36a5c108d1d255fa15e212f7c9b45d23b06",
+      "bytes": 9580
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "12cb2e55f9c6b79aa5abdb47ba79a526c6dd0c3346da92d9f3bae7270e5a7790"
+  "snapshot_sha256": "fff59bb3aaba9ba08909159d3210801803444b009c776da97d88f077442be299"
 }

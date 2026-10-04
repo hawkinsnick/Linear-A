@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "a6c5a2bf4bd34c0e5c609c998690804a70f894a561787e3b205614215b61a6ee",
-      "bytes": 7071,
+      "sha256": "7ea655abf727c775063a23c142c4ce9ece829995b375f0c693090ef4c7e575ea",
+      "bytes": 7168,
       "category": "docs",
       "summary": {}
     },
@@ -446,25 +446,25 @@
     },
     {
       "path": "research/edition-catalogue-pilot.json",
-      "sha256": "ba3e49e3133f63a9229ed3698dd4eeb9b6198b4555bbf22337a29932aa524925",
-      "bytes": 23868,
+      "sha256": "ddaecaf1c7c17befbf519c6195d53b3a48e87d915a7bcaf8a63167987c414281",
+      "bytes": 306338,
       "category": "research",
       "summary": {
         "format": "linear-a-edition-catalogue-pilot-v1",
-        "scope": "Twenty source entries on four visually inspected GORILA II pages; exact edition labels and caption inventories only. Separate from the ten-entry critical transcription/metadata pilot."
+        "scope": "135 acquired pages visually reviewed for pagination and source-target headings; 222 linked source entries, 220 target headings confirmed and two HT 53 route mismatches. Partial caption collation is separate. No sign adjudication."
       }
     },
     {
       "path": "research/edition-catalogue-comparison.csv",
-      "sha256": "d06ca48cc18f56a754ec5dac7a5e4a32a8f589c3df4519218314872fcc195524",
-      "bytes": 14173,
+      "sha256": "ba98ffdd6694026dbd21b68e75c938265eb7466a80510c5841f2a8111b95e35a",
+      "bytes": 141381,
       "category": "research",
       "summary": {}
     },
     {
       "path": "analysis/edition-catalogue-pilot-audit.json",
-      "sha256": "344ad9853beac27a0d4646f2b5bedbec49dc5e88c049e9066e8a1b8d574a2946",
-      "bytes": 715,
+      "sha256": "e54d1d92d1047bb73837b8f4597fe326b7f1d1a6ac2f27a30150c567214ffb1e",
+      "bytes": 1038,
       "category": "analysis",
       "summary": {
         "format": "linear-a-edition-catalogue-audit-v1"
@@ -472,22 +472,22 @@
     },
     {
       "path": "docs/EDITION-CATALOGUE-PILOT.md",
-      "sha256": "8fc8a335a146bacf8c02bc7543d17e28748b65583bb0785858e8592cd735c663",
-      "bytes": 2327,
+      "sha256": "4870ca7efc919e5c6bd2d43275ad86c026b824efd3839bc07054defb51b0d986",
+      "bytes": 3469,
       "category": "docs",
       "summary": {}
     },
     {
       "path": "scripts/build_edition_catalogue_pilot.py",
-      "sha256": "ee7e2d7224535482b8493feced99c4c15396e1c80da5c4d3b75f3c413812ed3f",
-      "bytes": 3871,
+      "sha256": "ad0747a096497f0ef2a4c290f878c33684e27dee1000a88373eb4d03f452de27",
+      "bytes": 8092,
       "category": "scripts",
       "summary": {}
     },
     {
       "path": "scripts/test_edition_catalogue_pilot.py",
-      "sha256": "20b98d5aacdfc552a44506423437d88fb4ac5fae3731fe0b8b4a2706ba68dc67",
-      "bytes": 1064,
+      "sha256": "4e0c381225e771bb620eaed3784005860e9281d86ac24afdaec5bd2eaa4efece",
+      "bytes": 2270,
       "category": "scripts",
       "summary": {}
     }
