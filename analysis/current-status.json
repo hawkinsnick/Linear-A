@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "ee4157481f0e43ac9d9bb8575bfebaedcdf3305324ffa121588c5c1a399a34dc"
+      "sha256": "a9fa8d7429d08aeb45945147346fbbb7fc005d2acb63230f7fde972494137bd0"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "7bdb9d66f7c0e1c5f07aed3f759ec2b7198469e0c1bf325c9f9478ab73f5e381"
+      "sha256": "0f4b8aea9950d4ab6945a3381463c67012b940e6762eb1ef3333037cffab1991"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "e369f27def92beaf1549de5ff43373fa8a8d36c0382f81e888d237fa21dd4341"
+      "sha256": "f110d43c67979a90b5304d3e5fb14de977cf471fcb4b3d3ed94f227ff308a8ca"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "f2b53a75bc52aab4df1fe34a69ec7ba4d599df3e682671756068144e7a5fac2d"
+      "sha256": "a6c5a2bf4bd34c0e5c609c998690804a70f894a561787e3b205614215b61a6ee"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -206,7 +206,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "b443145c1703167c50821894a483a49a337dc9ef0dc142aea08669ad3569dac2"
+      "sha256": "cfc12804aae29d519069accc648ff923afd15e1cb037296b70158ca92d9bf5d4"
     },
     {
       "path": "research/critical-pilot-sigla-witness.json",
@@ -271,11 +271,35 @@
     {
       "path": "research/sigla-source-signs.jsonl",
       "sha256": "26c7ec88129db9cb336fafa82b3f7aabec3fa8e348200fe21c66dcbc36d3aedc"
+    },
+    {
+      "path": "research/edition-catalogue-pilot.json",
+      "sha256": "ba3e49e3133f63a9229ed3698dd4eeb9b6198b4555bbf22337a29932aa524925"
+    },
+    {
+      "path": "research/edition-catalogue-comparison.csv",
+      "sha256": "d06ca48cc18f56a754ec5dac7a5e4a32a8f589c3df4519218314872fcc195524"
+    },
+    {
+      "path": "analysis/edition-catalogue-pilot-audit.json",
+      "sha256": "344ad9853beac27a0d4646f2b5bedbec49dc5e88c049e9066e8a1b8d574a2946"
+    },
+    {
+      "path": "docs/EDITION-CATALOGUE-PILOT.md",
+      "sha256": "8fc8a335a146bacf8c02bc7543d17e28748b65583bb0785858e8592cd735c663"
+    },
+    {
+      "path": "scripts/build_edition_catalogue_pilot.py",
+      "sha256": "ee7e2d7224535482b8493feced99c4c15396e1c80da5c4d3b75f3c413812ed3f"
+    },
+    {
+      "path": "scripts/test_edition_catalogue_pilot.py",
+      "sha256": "20b98d5aacdfc552a44506423437d88fb4ac5fae3731fe0b8b4a2706ba68dc67"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison\u2013Pope and independent review remain unresolved.",
+  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison\u2013Pope and independent review remain unresolved. Separate GORILA II label pilot: 20 source entries / 19 edition parent units on four inspected pages; historical catalogue captions only.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",
@@ -322,5 +346,13 @@
     "routes_total": 367,
     "readings_added": 0,
     "interruption": "RUNTIME_NETWORK_POLICY"
+  },
+  "edition_catalogue_checkpoint": {
+    "audit": "analysis/edition-catalogue-pilot-audit.json",
+    "guide": "docs/EDITION-CATALOGUE-PILOT.md",
+    "source_entries": 20,
+    "edition_parent_units": 19,
+    "inspected_pages": 4,
+    "certified_physical_identities": 0
   }
 }

@@ -1,0 +1,13 @@
+{
+  "format": "linear-a-edition-catalogue-audit-v1",
+  "input_sha256": "ba3e49e3133f63a9229ed3698dd4eeb9b6198b4555bbf22337a29932aa524925",
+  "consulted_primary_pages": 4,
+  "source_entries": 20,
+  "edition_parent_units": 19,
+  "distinct_printed_catalogue_labels": 19,
+  "physical_identities_certified": 0,
+  "independent_expert_reviews": 0,
+  "sign_readings_adjudicated": 0,
+  "count_boundary": "Two GO Wc 1 panels are one edition parent unit. Catalogue captions are historical edition reports, not certified current accessions or physical identity joins. HT prefix is section context, not printed in each panel heading.",
+  "comparison_sha256": "d06ca48cc18f56a754ec5dac7a5e4a32a8f589c3df4519218314872fcc195524"
+}

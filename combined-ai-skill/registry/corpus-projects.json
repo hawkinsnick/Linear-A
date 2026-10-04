@@ -28,13 +28,14 @@
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Separate GORILA II catalogue pilot: 20 source entries / 19 edition parent units on four inspected pages; historical accession captions only.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
       "critical_pilot_guide_path": "docs/CRITICAL-PILOT.md",
       "public_source_layer_audit_path": "analysis/public-sigla-layer-audit.json",
-      "gorila_route_audit_path": "analysis/gorila-route-audit.json"
+      "gorila_route_audit_path": "analysis/gorila-route-audit.json",
+      "edition_catalogue_audit_path": "analysis/edition-catalogue-pilot-audit.json"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",

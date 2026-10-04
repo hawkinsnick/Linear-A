@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "f2b53a75bc52aab4df1fe34a69ec7ba4d599df3e682671756068144e7a5fac2d",
-      "bytes": 6740,
+      "sha256": "a6c5a2bf4bd34c0e5c609c998690804a70f894a561787e3b205614215b61a6ee",
+      "bytes": 7071,
       "category": "docs",
       "summary": {}
     },
@@ -315,8 +315,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "b443145c1703167c50821894a483a49a337dc9ef0dc142aea08669ad3569dac2",
-      "bytes": 3717,
+      "sha256": "cfc12804aae29d519069accc648ff923afd15e1cb037296b70158ca92d9bf5d4",
+      "bytes": 3846,
       "category": ".github",
       "summary": {}
     },
@@ -442,6 +442,53 @@
       "sha256": "26c7ec88129db9cb336fafa82b3f7aabec3fa8e348200fe21c66dcbc36d3aedc",
       "bytes": 173274,
       "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "research/edition-catalogue-pilot.json",
+      "sha256": "ba3e49e3133f63a9229ed3698dd4eeb9b6198b4555bbf22337a29932aa524925",
+      "bytes": 23868,
+      "category": "research",
+      "summary": {
+        "format": "linear-a-edition-catalogue-pilot-v1",
+        "scope": "Twenty source entries on four visually inspected GORILA II pages; exact edition labels and caption inventories only. Separate from the ten-entry critical transcription/metadata pilot."
+      }
+    },
+    {
+      "path": "research/edition-catalogue-comparison.csv",
+      "sha256": "d06ca48cc18f56a754ec5dac7a5e4a32a8f589c3df4519218314872fcc195524",
+      "bytes": 14173,
+      "category": "research",
+      "summary": {}
+    },
+    {
+      "path": "analysis/edition-catalogue-pilot-audit.json",
+      "sha256": "344ad9853beac27a0d4646f2b5bedbec49dc5e88c049e9066e8a1b8d574a2946",
+      "bytes": 715,
+      "category": "analysis",
+      "summary": {
+        "format": "linear-a-edition-catalogue-audit-v1"
+      }
+    },
+    {
+      "path": "docs/EDITION-CATALOGUE-PILOT.md",
+      "sha256": "8fc8a335a146bacf8c02bc7543d17e28748b65583bb0785858e8592cd735c663",
+      "bytes": 2327,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "scripts/build_edition_catalogue_pilot.py",
+      "sha256": "ee7e2d7224535482b8493feced99c4c15396e1c80da5c4d3b75f3c413812ed3f",
+      "bytes": 3871,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/test_edition_catalogue_pilot.py",
+      "sha256": "20b98d5aacdfc552a44506423437d88fb4ac5fae3731fe0b8b4a2706ba68dc67",
+      "bytes": 1064,
+      "category": "scripts",
       "summary": {}
     }
   ],

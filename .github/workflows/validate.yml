@@ -19,6 +19,8 @@ jobs:
       - run: python scripts/build_public_sigla_layer.py --check
       - run: python scripts/build_gorila_route_audit.py --check
       - run: python scripts/test_source_layers.py
+      - run: python scripts/build_edition_catalogue_pilot.py --check
+      - run: python scripts/test_edition_catalogue_pilot.py
       - run: python scripts/validate_corpus.py
       - run: python scripts/audit_claims_3_0.py
       - run: python scripts/test_sigla_delta.py

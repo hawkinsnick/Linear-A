@@ -55,3 +55,7 @@ The ten-entry pilot now includes all **168 source attestation slots** (119 sourc
 ## Full public source layer and route accounting
 
 Read [PUBLIC-SIGLA-LAYER.md](PUBLIC-SIGLA-LAYER.md) for direct downloads and byte-exact replay. Read [GORILA-ROUTE-ACQUISITION.md](GORILA-ROUTE-ACQUISITION.md) for 135 acquired page routes, the distinct 222 linked entry count, and the runtime policy interruption. Download availability does not add reading verification.
+
+## GORILA II catalogue-label pilot
+
+The separate [edition-label pilot](EDITION-CATALOGUE-PILOT.md) adds exact locators and historical catalogue captions for 20 source entries on four inspected pages. Its 19 edition parent units are not certified physical objects. No sign adjudication or modern accession verification is claimed.
