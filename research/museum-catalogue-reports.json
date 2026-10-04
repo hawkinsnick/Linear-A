@@ -1,0 +1,96 @@
+{
+  "format": "linear-a-catalogue-report-comparison-v1",
+  "checked": "2026-10-04",
+  "scope": "Two edition-parent candidates, three web-source reports; no certified physical identities or new sign readings",
+  "sources": [
+    {
+      "source_id": "MUCIV-81951",
+      "classification": "MUSEUM_CATALOGUE_REPORTED",
+      "attribution": "Museo delle Civiltà, Rome",
+      "url": "https://www.museodellecivilta.it/en/oggetti/prehistory-and-protohistory/incised-clay-tablet/",
+      "locator": "Collection / Inventory; Location; Dating; Provenance fields",
+      "reported_inventory": "MPE 81951",
+      "reported_site": "Haghia Triada (Crete), Greece",
+      "reported_date": "Middle Minoan III–Late Minoan I; seventeenth–fifteenth centuries BCE",
+      "reported_transfer": "Donation from the Greek government",
+      "reported_inscription_id": null,
+      "source_body_sha256": null,
+      "capture_scope": "Public page text inspected; no byte-exact HTML capture, image or model download",
+      "rights": "Museum copyright retained; no image or 3D reuse grant asserted"
+    },
+    {
+      "source_id": "INSCRIBE-HT114",
+      "classification": "RESEARCH_DIGITIZATION_PROJECT_REPORTED",
+      "attribution": "ERC INSCRIBE, Alma Mater Studiorum–Università di Bologna; artifact copyright Museo delle Civiltà",
+      "url": "https://www.inscribercproject.com/Clay_tablet_HT_114.php",
+      "locator": "General information: Inventory number, Find spot, Chronology, Inscription; Digitization Date; References",
+      "reported_inventory": "83735",
+      "reported_inscription_id": "HT 114",
+      "reported_edition_locator": "GORILA I, pp.186–187",
+      "reported_findspot": "Hagia Triada, Casa del Lebete, room 9",
+      "reported_date": "LM IB",
+      "reported_digitization_date": "November 2020",
+      "cited_editions": [
+        "Godart & Olivier, GORILA I (1976)",
+        "G. Attili, SMEA 13 (1971), pp.166–178",
+        "B. Montecchi, Contare a Haghia Triada (2019), pp.100, 123–125"
+      ],
+      "source_body_sha256": null,
+      "capture_scope": "Public metadata inspected; sign transnumeration, interpretations, textures and meshes not copied",
+      "rights": "Artifact copyright Museo delle Civiltà; INSCRIBE 3D policy requires prior written permission for reproduction/publication/commercial use; no model acquired or redistribution grant asserted",
+      "policy_url": "https://www.inscribercproject.com/3d_viewer_home.php"
+    },
+    {
+      "source_id": "PAITO-HT-LIST",
+      "classification": "RESEARCH_PROJECT_VIEWER_INDEX_REPORTED",
+      "attribution": "PA-I-TO project; Alessandro Greco, Georgia Flouda and Erika Notti as credited on page",
+      "url": "https://www.paitoproject.it/en/haghia-triada-2/",
+      "locator": "TABLETS section captions: HT 29; HT 114 r; HT 114 v; HT 118; Data License paragraph",
+      "listed_inscription_ids": [
+        "HT 29",
+        "HT 114 r",
+        "HT 114 v",
+        "HT 118"
+      ],
+      "source_body_sha256": null,
+      "capture_scope": "Viewer index and rights statement inspected; images, 2D+ and 3D datasets not acquired",
+      "rights": "PA-I-TO 2D+/3D datasets all rights reserved; reproduction/publication/commercial use requires prior written permission; viewer-index membership does not authorize reuse"
+    }
+  ],
+  "comparisons": [
+    {
+      "edition_source_record_id": "HT 29",
+      "edition_parent_unit": "HT 29",
+      "edition_caption": "Pigorini 81951; HM 9 (moulage)",
+      "catalogue_source_ids": [
+        "MUCIV-81951",
+        "PAITO-HT-LIST"
+      ],
+      "relation_status": "NUMERIC_INVENTORY_AND_SITE_COMPATIBLE_CANDIDATE_NOT_CERTIFIED_CROSSWALK",
+      "limitation": "Museum text identifies MPE 81951 and site but does not itself give HT 29. PA-I-TO lists HT 29 without an inventory crosswalk in the inspected index. HM 9 remains an edition-reported cast, not another independently confirmed original.",
+      "source_independence": "NOT_ESTABLISHED",
+      "physical_object_identity_certified": false,
+      "modern_accession_crosswalk_certified": false,
+      "reading_adjudicated": false
+    },
+    {
+      "edition_source_record_id": "HT 114a",
+      "edition_parent_unit": "HT 114",
+      "edition_caption": "Pigorini 83735",
+      "catalogue_source_ids": [
+        "INSCRIBE-HT114",
+        "PAITO-HT-LIST"
+      ],
+      "relation_status": "PROJECT_EXPLICIT_INSCRIPTION_INVENTORY_PAIR_REPORTED_NOT_CERTIFIED",
+      "limitation": "INSCRIBE explicitly pairs HT 114 with 83735 and cites the same GORILA edition. Shared wording or citation does not establish independent verification. Recto/verso naming is retained at project level; no graphical face alignment is newly certified.",
+      "source_independence": "NOT_ESTABLISHED",
+      "physical_object_identity_certified": false,
+      "modern_accession_crosswalk_certified": false,
+      "reading_adjudicated": false
+    }
+  ],
+  "physical_identities_certified": 0,
+  "independent_confirmations_certified": 0,
+  "images_or_models_redistributed": false,
+  "rights_boundary": "Only brief attributed factual metadata summaries and links; source images, models, full text and readings remain outside this artifact. SigLA-derived identifiers retain CC BY-NC-SA 4.0 and Salgarella/Castellan attribution; no new license grant over museum or project material."
+}
