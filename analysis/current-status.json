@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "f89fa3652c6f5c4f839b3270bb2a8350c15a7a089a8ff61dd75a4b9170f302c1"
+      "sha256": "f24d3335efe72b9178bb0712ea9d72b8a4ec5c11517cd9af44f993e826386461"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "4f35dcbac9e37c15105a19dc3c601f037f6db4e892dc58f4b13ca1ece3aea94e"
+      "sha256": "3be0c35be63812346cf6c8939997f286c4a264fcb07c58f42a696e217f4610c1"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "02c598996a1cc5f17a033b0676785540f0b9db1318a31a6696b3e76841370026"
+      "sha256": "85ddcfed67093a5a5a03416d962bf2c0373277650e136d742a0290504e438730"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "7ea655abf727c775063a23c142c4ce9ece829995b375f0c693090ef4c7e575ea"
+      "sha256": "b79abab5cb412eb6d34e3d3672541c993f5fa4ae171d65cb6a657366e5243a6d"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -274,32 +274,32 @@
     },
     {
       "path": "research/edition-catalogue-pilot.json",
-      "sha256": "ddaecaf1c7c17befbf519c6195d53b3a48e87d915a7bcaf8a63167987c414281"
+      "sha256": "3a6d61e105cd60a3dbbba05cc30bfeb1b2ae687690f3387e573d1aa6b91ab460"
     },
     {
       "path": "research/edition-catalogue-comparison.csv",
-      "sha256": "ba98ffdd6694026dbd21b68e75c938265eb7466a80510c5841f2a8111b95e35a"
+      "sha256": "a91995e0f4dabdee3cf937c3c636d71a957edc907df34eaafafa3194407c48e9"
     },
     {
       "path": "analysis/edition-catalogue-pilot-audit.json",
-      "sha256": "e54d1d92d1047bb73837b8f4597fe326b7f1d1a6ac2f27a30150c567214ffb1e"
+      "sha256": "23f6675ccf43a969dd6c4546c755002747ee3d0583ff175b0a80131257689cbc"
     },
     {
       "path": "docs/EDITION-CATALOGUE-PILOT.md",
-      "sha256": "4870ca7efc919e5c6bd2d43275ad86c026b824efd3839bc07054defb51b0d986"
+      "sha256": "87f6d3a6114b170ca8bbb9a1f77a5ba8516d259c473c74552c47707781864c5e"
     },
     {
       "path": "scripts/build_edition_catalogue_pilot.py",
-      "sha256": "ad0747a096497f0ef2a4c290f878c33684e27dee1000a88373eb4d03f452de27"
+      "sha256": "ed7bfb3df48725bd36577bff07dc1cad47f1de47293fc2298b9f20b3b9757676"
     },
     {
       "path": "scripts/test_edition_catalogue_pilot.py",
-      "sha256": "4e0c381225e771bb620eaed3784005860e9281d86ac24afdaec5bd2eaa4efece"
+      "sha256": "64336930647d6db64f40c31334c87df80020415b3e2de4c75cca18f7b297bb53"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Caption review covers 43 pages; 92 pages have locator-only review. No physical identity certification or sign adjudication.",
+  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 166 label rows, 145 dimension-expression rows, 50 shared-face caption relations and four unresolved caption fields. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",
@@ -356,7 +356,12 @@
     "certified_physical_identities": 0,
     "target_headings_confirmed": 220,
     "source_route_target_mismatches": 2,
-    "caption_review_pages": 43,
-    "locator_only_pages": 92
+    "caption_review_pages": 135,
+    "locator_only_pages": 0,
+    "caption_label_rows": 166,
+    "dimension_expression_rows": 145,
+    "shared_face_caption_relations": 50,
+    "unresolved_caption_fields": 4,
+    "caption_scope": "Inventory labels and dimensions/status; selected qualifiers, not full caption text or sign transcription"
   }
 }
