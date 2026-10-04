@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "c630893cbcb28c6f53e2da81ea23afa6b687cd4e1ca2f9458abcbdebc938ccde",
-      "bytes": 10937,
+      "sha256": "b72e469d238ace0c01b0ab65c15e8d0ac66c2c18487b3b8d1565b22589f54ab7",
+      "bytes": 11462,
       "category": "docs",
       "summary": {}
     },
@@ -511,18 +511,18 @@
     },
     {
       "path": "research/museum-catalogue-reports.json",
-      "sha256": "bb707765e529986d5c9229e93d7bb1fcbd724d8a8333adcbd909412672be2cf8",
-      "bytes": 5329,
+      "sha256": "80a046d9137cfd19337cd5183eb67f3fff1b59775641be287876dc2d1dc85236",
+      "bytes": 10626,
       "category": "research",
       "summary": {
         "format": "linear-a-catalogue-report-comparison-v1",
-        "scope": "Two edition-parent candidates, three web-source reports; no certified physical identities or new sign readings"
+        "scope": "Four edition-parent candidates, six web-source reports; no certified physical identities or new sign readings"
       }
     },
     {
       "path": "scripts/check_museum_catalogue_reports.py",
-      "sha256": "f23487043df36fe8b7c3f3c751745e0fac2fcbcc590d234fe3d82190ac595903",
-      "bytes": 1518,
+      "sha256": "b2c97967023555a0c38bf6d836625b96b5ac3bb1cfd0f5a43aed68142ba9e5c9",
+      "bytes": 1929,
       "category": "scripts",
       "summary": {}
     }

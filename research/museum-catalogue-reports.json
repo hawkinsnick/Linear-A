@@ -1,7 +1,7 @@
 {
   "format": "linear-a-catalogue-report-comparison-v1",
   "checked": "2026-10-04",
-  "scope": "Two edition-parent candidates, three web-source reports; no certified physical identities or new sign readings",
+  "scope": "Four edition-parent candidates, six web-source reports; no certified physical identities or new sign readings",
   "sources": [
     {
       "source_id": "MUCIV-81951",
@@ -55,6 +55,60 @@
       "source_body_sha256": null,
       "capture_scope": "Viewer index and rights statement inspected; images, 2D+ and 3D datasets not acquired",
       "rights": "PA-I-TO 2D+/3D datasets all rights reserved; reproduction/publication/commercial use requires prior written permission; viewer-index membership does not authorize reuse"
+    },
+    {
+      "source_id": "INSCRIBE-HT29",
+      "classification": "RESEARCH_DIGITIZATION_PROJECT_REPORTED",
+      "attribution": "ERC INSCRIBE, Alma Mater Studiorum–Università di Bologna; artifact copyright Museo delle Civiltà",
+      "url": "https://www.inscribercproject.com/Clay_tablet_HT_29.php",
+      "locator": "General information: Inventory number, Find spot, Chronology, Inscription; Digitization Date; References",
+      "reported_inventory": "81951",
+      "reported_inscription_id": "HT 29",
+      "reported_edition_locator": "GORILA I, pp.54–55",
+      "reported_findspot": "Hagia Triada, Villa, room 59?",
+      "reported_date": "LM IB",
+      "reported_digitization_date": "November 2020",
+      "reported_museum": "Museo delle Civiltà",
+      "source_body_sha256": null,
+      "capture_scope": "Public metadata inspected; sign transnumeration, interpretations, textures and meshes not copied",
+      "rights": "Artifact copyright Museo delle Civiltà; INSCRIBE 3D policy requires prior written permission for reproduction/publication/commercial use; no model acquired or redistribution grant asserted",
+      "policy_url": "https://www.inscribercproject.com/3d_viewer_home.php"
+    },
+    {
+      "source_id": "INSCRIBE-HT118",
+      "classification": "RESEARCH_DIGITIZATION_PROJECT_REPORTED",
+      "attribution": "ERC INSCRIBE, Alma Mater Studiorum–Università di Bologna; artifact copyright Museo delle Civiltà",
+      "url": "https://www.inscribercproject.com/Clay_tablet_HT_118.php",
+      "locator": "General information: Inventory number, Find spot, Chronology, Inscription; Digitization Date; References",
+      "reported_inventory": "83734",
+      "reported_inscription_id": "HT 118",
+      "reported_edition_locator": "GORILA I, pp.200–201",
+      "reported_findspot": "Hagia Triada, Casa del Lebete, room 9",
+      "reported_date": "LM IB",
+      "reported_digitization_date": "November 2020",
+      "reported_museum": "Museo delle Civiltà",
+      "source_body_sha256": null,
+      "capture_scope": "Public metadata inspected; sign transnumeration, interpretations, textures and meshes not copied",
+      "rights": "Artifact copyright Museo delle Civiltà; INSCRIBE 3D policy requires prior written permission for reproduction/publication/commercial use; no model acquired or redistribution grant asserted",
+      "policy_url": "https://www.inscribercproject.com/3d_viewer_home.php"
+    },
+    {
+      "source_id": "INSCRIBE-KH8",
+      "classification": "RESEARCH_DIGITIZATION_PROJECT_REPORTED",
+      "attribution": "ERC INSCRIBE, Alma Mater Studiorum–Università di Bologna; artifact copyright Archaeological Museum of Chania",
+      "url": "https://www.inscribercproject.com/Clay_tablet_KH_8.php",
+      "locator": "General information: Inventory number, Find spot, Chronology, Inscription; Digitization Date; References",
+      "reported_inventory": "8",
+      "reported_inscription_id": "KH 8",
+      "reported_edition_locator": "GORILA III, pp.32–33",
+      "reported_findspot": "Chania, odos Katre",
+      "reported_date": "LM I",
+      "reported_digitization_date": "September 2020",
+      "reported_museum": "Archaeological Museum of Chania",
+      "source_body_sha256": null,
+      "capture_scope": "Public metadata inspected; sign transnumeration, interpretations, textures and meshes not copied",
+      "rights": "Artifact copyright Archaeological Museum of Chania; INSCRIBE 3D policy requires prior written permission for reproduction/publication/commercial use; no model acquired or redistribution grant asserted",
+      "policy_url": "https://www.inscribercproject.com/3d_viewer_home.php"
     }
   ],
   "comparisons": [
@@ -64,10 +118,11 @@
       "edition_caption": "Pigorini 81951; HM 9 (moulage)",
       "catalogue_source_ids": [
         "MUCIV-81951",
-        "PAITO-HT-LIST"
+        "PAITO-HT-LIST",
+        "INSCRIBE-HT29"
       ],
-      "relation_status": "NUMERIC_INVENTORY_AND_SITE_COMPATIBLE_CANDIDATE_NOT_CERTIFIED_CROSSWALK",
-      "limitation": "Museum text identifies MPE 81951 and site but does not itself give HT 29. PA-I-TO lists HT 29 without an inventory crosswalk in the inspected index. HM 9 remains an edition-reported cast, not another independently confirmed original.",
+      "relation_status": "PROJECT_EXPLICIT_INSCRIPTION_INVENTORY_PAIR_REPORTED_NOT_CERTIFIED",
+      "limitation": "INSCRIBE explicitly pairs HT 29 with 81951, citing the same GORILA edition. Its room 59? findspot retains the source question mark. Museum MPE 81951 text still does not itself name HT 29. The edition HM 9 cast remains distinct; source independence is not established.",
       "source_independence": "NOT_ESTABLISHED",
       "physical_object_identity_certified": false,
       "modern_accession_crosswalk_certified": false,
@@ -83,6 +138,37 @@
       ],
       "relation_status": "PROJECT_EXPLICIT_INSCRIPTION_INVENTORY_PAIR_REPORTED_NOT_CERTIFIED",
       "limitation": "INSCRIBE explicitly pairs HT 114 with 83735 and cites the same GORILA edition. Shared wording or citation does not establish independent verification. Recto/verso naming is retained at project level; no graphical face alignment is newly certified.",
+      "source_independence": "NOT_ESTABLISHED",
+      "physical_object_identity_certified": false,
+      "modern_accession_crosswalk_certified": false,
+      "reading_adjudicated": false
+    },
+    {
+      "edition_source_record_id": "HT 118",
+      "edition_parent_unit": "HT 118",
+      "edition_caption": "Pigorini 83734",
+      "catalogue_source_ids": [
+        "INSCRIBE-HT118",
+        "PAITO-HT-LIST"
+      ],
+      "relation_status": "PROJECT_EXPLICIT_INSCRIPTION_INVENTORY_PAIR_REPORTED_NOT_CERTIFIED",
+      "limitation": "INSCRIBE pairs HT 118 with 83734 and cites GORILA I pp.200–201. Its administrative-content interpretation is not imported. No modern identity certification or independent confirmation is asserted.",
+      "source_independence": "NOT_ESTABLISHED",
+      "physical_object_identity_certified": false,
+      "modern_accession_crosswalk_certified": false,
+      "reading_adjudicated": false
+    },
+    {
+      "edition_source_record_id": "KH 8",
+      "edition_layer": "critical_pilot",
+      "edition_parent_unit": "KH 8",
+      "edition_caption": null,
+      "source_context_period": "LM IB",
+      "catalogue_source_ids": [
+        "INSCRIBE-KH8"
+      ],
+      "relation_status": "PROJECT_EXPLICIT_INSCRIPTION_INVENTORY_PAIR_REPORTED_NOT_CERTIFIED",
+      "limitation": "Project inventory 8 and Chania, odos Katre findspot are attributed reports. Its LM I and the pinned source LM IB are kept separately without adopting a canonical date or treating differing specificity as a resolved dispute. No inventory caption is invented in the critical pilot.",
       "source_independence": "NOT_ESTABLISHED",
       "physical_object_identity_certified": false,
       "modern_accession_crosswalk_certified": false,

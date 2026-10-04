@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "a224c358c4bf4553084699f55c4e19f662fab6d2d9e0aaf537e82a3d84f166a6"
+      "sha256": "8420c149a51822fb537397a7799161e19c218a854a7987f09bda0755d38b8a15"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "d6fb6ed0214c032f6bb80e8a5ad0d67fc4933980a2ae7242c3162740e4f0819d"
+      "sha256": "975f4e1eeb43875adba34bfff2ac3e2afadbb4c01bacf2dd6bcce38fdf828c47"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "e0c6fc1956385bdede48977fd89c500952b1515b8148e2186d362ca0483d7a46"
+      "sha256": "a862f5b55a47a46125d58dc46681a693b6ed578c5acad1489d1737945d7f0898"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "c630893cbcb28c6f53e2da81ea23afa6b687cd4e1ca2f9458abcbdebc938ccde"
+      "sha256": "b72e469d238ace0c01b0ab65c15e8d0ac66c2c18487b3b8d1565b22589f54ab7"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -306,16 +306,16 @@
     },
     {
       "path": "research/museum-catalogue-reports.json",
-      "sha256": "bb707765e529986d5c9229e93d7bb1fcbd724d8a8333adcbd909412672be2cf8"
+      "sha256": "80a046d9137cfd19337cd5183eb67f3fff1b59775641be287876dc2d1dc85236"
     },
     {
       "path": "scripts/check_museum_catalogue_reports.py",
-      "sha256": "f23487043df36fe8b7c3f3c751745e0fac2fcbcc590d234fe3d82190ac595903"
+      "sha256": "b2c97967023555a0c38bf6d836625b96b5ac3bb1cfd0f5a43aed68142ba9e5c9"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case/source membership separately distinguishes composite records from snapshot coverage gaps; no critical reading or expert decision changes. Two attributed museum/project catalogue candidates add inventory/findspot reports and viewer-data rights boundaries without certified object identities.",
+  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case/source membership separately distinguishes composite records from snapshot coverage gaps; no critical reading or expert decision changes. Four attributed museum/project catalogue candidates add inventory/findspot reports and viewer-data rights boundaries without certified object identities.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",
