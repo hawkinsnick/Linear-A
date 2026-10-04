@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "02266193f5bcfd8143b31b74061e638db62c41e4",
-  "generated_at_utc": "2026-10-04T17:24:34+00:00",
+  "source_commit": "83de56beae5efa9cd7e10cc430c48988e4645fd9",
+  "generated_at_utc": "2026-10-04T17:33:51+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -14,16 +14,28 @@
   },
   "artifacts": [
     {
+      "role": "critical_pilot_sigla_witness",
+      "path": "research/critical-pilot-sigla-witness.json",
+      "sha256": "41cc266334f626e357a8c303aa97f9c8ac1cfb8044dd716f8d8e9913e5abd0f8",
+      "bytes": 80263
+    },
+    {
+      "role": "critical_pilot_sigla_slots",
+      "path": "research/critical-pilot-sigla-slots.csv",
+      "sha256": "e39694f89de8a71571f1871150050c86377928caf161c4c1178eacbe9fcd4ab3",
+      "bytes": 68943
+    },
+    {
       "role": "critical_pilot",
       "path": "research/critical-pilot.json",
-      "sha256": "cbb889de2cb7d1bd4aa80c44907b865e9aa37dbd10e793602274cfb31bcac6e8",
-      "bytes": 59591
+      "sha256": "d31b1ffacf86369efdef6966344f0423e66be56959ae69dc88493cebc640de16",
+      "bytes": 101398
     },
     {
       "role": "critical_pilot_audit",
       "path": "analysis/critical-pilot-audit.json",
-      "sha256": "906fdeb3d56e95808e6d252637c71ab0897317cabfac63a761721a4ee360d643",
-      "bytes": 2410
+      "sha256": "058d864146131b952c9b1ae94e5fcb33f33400b745b06593fc630df00d11a81c",
+      "bytes": 2859
     },
     {
       "role": "critical_disagreement_comparison",
@@ -40,8 +52,8 @@
     {
       "role": "critical_pilot_guide",
       "path": "docs/CRITICAL-PILOT.md",
-      "sha256": "d5311a9c8ddcb6ef16207ca45d4dbd7c80bc7365b26ca31a98901fdfe5d2802b",
-      "bytes": 30096
+      "sha256": "f5a681ed16c5834bdeed112656afa5871b0024fa4f81985e397e401233acb632",
+      "bytes": 30885
     },
     {
       "role": "edition_concordance",
@@ -76,8 +88,8 @@
     {
       "role": "pre_expert_contract",
       "path": "research/pre-expert-maximum.json",
-      "sha256": "d17447e756e5c27a06bdd2944f08d3461b1b4c2c95bf9a3e6d688fe3a00ce1bf",
-      "bytes": 4601
+      "sha256": "65bb4db33a4a0df9b4c85944c9dbb149ddb0ac1c2dab9e3f194d405d59142207",
+      "bytes": 4874
     },
     {
       "role": "pre_expert_source_audit",
@@ -88,8 +100,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "de3bee0a9de4febe5e0e884e4c39d80ec2c40f8efe1685aa3a53790af5630e3b",
-      "bytes": 5524
+      "sha256": "254c4f803cca53e2e008be82daa1ed8454dcbf06d38def7d69f34f89e669788d",
+      "bytes": 6359
     },
     {
       "role": "comparison_contract",
@@ -100,8 +112,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "6a76228b0abd41952bf8c03fb45d442802aa723d55effbc212849d969feceb04",
-      "bytes": 9800
+      "sha256": "afc407e7797a9e0be028fde0fdbb518d04f790b52f311984c8ffdab0bd39d8ce",
+      "bytes": 10507
     },
     {
       "role": "claims",
@@ -112,8 +124,8 @@
     {
       "role": "rights_matrix",
       "path": "DATA-LICENSE-MATRIX.md",
-      "sha256": "50068436c596de6878796c1074b6bf625557c5c18d0df0c761235f49f0ad6397",
-      "bytes": 3314
+      "sha256": "2ffd4bf0202f1643d73871bbb9e9e314a653b22beb83c24e06958c0da0610270",
+      "bytes": 3927
     },
     {
       "role": "notice",
