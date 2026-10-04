@@ -148,7 +148,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Dunand 1978 pagination remains Mnamon 52\u201358 versus KeiBi 51\u201359; boundary pages 51/59 and the reported 1981 appearance remain unresolved pending physical-article inspection.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: fourteen labels in 10+4 edition cohorts; digital OCLC 1244511616 distinguished from print 1191221; catalogue free-access link resolves to restricted edition. Primary plates, object identities and sequences remain unverified.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -166,8 +166,8 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "5e0f6e4b19df3484c593ea8f22d9361693fb194f",
-        "published_commit": "5e0f6e4b19df3484c593ea8f22d9361693fb194f",
+        "source_commit": "678f7269347e77eb8d2090f8fef5d57b180911a3",
+        "published_commit": "678f7269347e77eb8d2090f8fef5d57b180911a3",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
