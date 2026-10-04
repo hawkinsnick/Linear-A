@@ -6,9 +6,9 @@
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups materialized locally; 13 unresolved-case entries have primary edition pages inspected; public aggregate audit and explicit representation gaps",
-      "top_gap": "SY Zb 7 primary image locator, disputed physical readings and independent prospective/calibration evidence",
-      "status_source": "analysis/pre-expert-source-audit.json"
+      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups; all-record edition-status map: 755 GORILA page links, 24 RILA-S1 publication links, 23 unusable references; 10 prior primary case entries join 8 source records. Raison\u2013Pope entry joins unresolved.",
+      "top_gap": "lawful Raison\u2013Pope concordance acquisition; exact RILA-S1 item matches; extend GORILA primary collation; reconcile physical identities and numerical quantities",
+      "status_source": "analysis/edition-concordance-audit.json"
     },
     {
       "repo": "Cypro-Minoan",

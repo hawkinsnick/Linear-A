@@ -1,0 +1,62 @@
+{
+  "format": "linear-a-edition-concordance-audit-v1",
+  "scope": "All 802 entries in the exact authenticated snapshot; not all surviving inscriptions, objects or independent witnesses.",
+  "source_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "source_id_universe_sha256": "d298481b42b8dc0ba444d1876b7a73e1879549f4cf1e1451e3a78a34cd971201",
+  "input_hashes": {
+    "research/edition-route-evidence.json": "c1e8f2454103d7764f24c2c0c46075e706cd58701bcf1d06fada2179aa3bb3e3",
+    "analysis/pre-expert-primary-collation.json": "97c299242a89b83abe37d63702f13b2d5bbdebf0566d0697face391ffd438703"
+  },
+  "concordance_sha256": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2",
+  "row_count": 802,
+  "unique_source_ids": 802,
+  "sigla_status_counts": {
+    "ATTRIBUTED_EXACT_SOURCE_RECORD": 802
+  },
+  "gorila_status_counts": {
+    "PRIMARY_CASE_PAGES_INSPECTED": 8,
+    "SOURCE_POINTS_TO_LATER_EDITION": 24,
+    "SOURCE_REPORTED_PAGE_LOCATOR": 747,
+    "UNRESOLVED_NO_USABLE_REFERENCE": 23
+  },
+  "gorila_volume_counts": {
+    "1": 266,
+    "2": 205,
+    "3": 246,
+    "4": 24,
+    "5": 14
+  },
+  "rp1980_status_counts": {
+    "UNRESOLVED_EDITION_CONTENT_NOT_ACQUIRED": 802
+  },
+  "rp1994_status_counts": {
+    "UNRESOLVED_EDITION_CONTENT_NOT_ACQUIRED": 802
+  },
+  "rila_s1_status_counts": {
+    "SOURCE_REPORTED_PUBLICATION_SECTION_CANDIDATE": 24,
+    "UNRESOLVED_NOT_RECONCILED": 778
+  },
+  "reference_gap_counts": {
+    "": 779,
+    "ABSENT": 19,
+    "LITERAL_MISSING": 4
+  },
+  "primary_case_entries_bound_to_source_records": 10,
+  "primary_inspected_source_records": 8,
+  "primary_case_ids_without_exact_source_id_join": [
+    "U010",
+    "U012",
+    "U013"
+  ],
+  "inspected_pages_are_independent_verification": false,
+  "certified_physical_object_count": null,
+  "canonical_readings_added": 0,
+  "prospective_outcomes_inspected": false,
+  "completion": "STEP_1_CURRENT_RECORD_ACCOUNTING_COMPLETE_EDITION_RESOLUTION_PARTIAL",
+  "boundary": "Whitespace-only joins preserve suffixes, faces, plus signs and fragment labels. Viewer indices are not printed page numbers. Publication/section links are not exact inscription matches. Unresolved does not mean absent from an edition. Raison–Pope and later entry readings remain uncollated.",
+  "rights": {
+    "source_derived_identifier_locator_table": "CC BY-NC-SA 4.0; Ester Salgarella and Simon Castellan, SigLA, via Ryan Pavlicek/pyaegean authenticated derivative",
+    "original_audit_tooling": "Repository software terms",
+    "edition_images_and_transcriptions_redistributed": false
+  }
+}

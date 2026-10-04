@@ -21,6 +21,11 @@
       "role": "third_party",
       "path": "THIRD-PARTY-NOTICES.md",
       "required": true
+    },
+    {
+      "role": "edition_concordance_audit",
+      "path": "analysis/edition-concordance-audit.json",
+      "required": true
     }
   ],
   "behavioral_gates": [

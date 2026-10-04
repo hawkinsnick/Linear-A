@@ -37,3 +37,7 @@ Repository-original tooling follows the repository software terms. SigLA/DAMOS f
 ## Validation performed
 
 Exact source checksums matched. Record exports and aggregate audits reproduced byte-for-byte on repeat. Current-state, source accounting, AI-bundle and existing Python regression checks passed. Linear B's existing real-source mapping audit and invented-field corruption checks also passed. CI now replays the source audit from the pinned public release asset. Remote CI results are tracked separately from this local validation.
+
+## Whole-snapshot edition accounting
+
+Read [the Step 1 concordance guide](EDITION-CONCORDANCE.md) before coverage or edition-equivalence claims. All 802 source entries have edition-specific statuses, including 755 attributed GORILA page links, 24 later-publication links and 23 unusable references. Existing primary inspection joins ten case entries to eight source records; three inspected case identities remain unjoined. Both Raison–Pope editions remain entry-level unresolved. The public concordance contains source-derived identifiers and bibliographic locators under retained CC BY-NC-SA 4.0, not source readings or raw records. This does not alter historical audit denominators or sealed scientific experiments.

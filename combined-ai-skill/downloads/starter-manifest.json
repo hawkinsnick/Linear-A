@@ -85,8 +85,8 @@
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "fc4a26444423eeaffb352a2fe33a7db9b41cf16127de49346653b8bdec3232ae",
-      "bytes": 9025
+      "sha256": "f081a69f180c548664a96cc17fe7ee8ac3838112275c6d42fe06d89cb0dab15f",
+      "bytes": 9145
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "7eec4ffb2126c476824d3f4bf5c6792242a15044ba8525cf78a297bf9fb6e9c8"
+  "snapshot_sha256": "1dcabda786cb08e721b8272b95178b36423982df5255aa9a116512a39dfb4693"
 }

@@ -146,11 +146,35 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "e1fec2602ac053eda1492220212b40be9ff2a351f2efa702742a067acc645c89"
+      "sha256": "9175c6caedd9d1d18dccb7cc49b1a895c08faa247fead21d4b671642e53c613b"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
       "sha256": "97c299242a89b83abe37d63702f13b2d5bbdebf0566d0697face391ffd438703"
+    },
+    {
+      "path": "research/edition-concordance.csv",
+      "sha256": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2"
+    },
+    {
+      "path": "research/edition-route-evidence.json",
+      "sha256": "c1e8f2454103d7764f24c2c0c46075e706cd58701bcf1d06fada2179aa3bb3e3"
+    },
+    {
+      "path": "analysis/edition-concordance-audit.json",
+      "sha256": "375aa7b2c9244ef1070a1c31c5c8237e515531a4f30a0f5bce80630d8902222e"
+    },
+    {
+      "path": "scripts/build_edition_concordance.py",
+      "sha256": "ec514b509ec30ddd1855eb5da79d77654a1cc2d61ceb9919197084ba5b28694d"
+    },
+    {
+      "path": "scripts/test_edition_concordance.py",
+      "sha256": "009bf968fa2d0dcbe0b0b610b8ebba436bc4298462b103be55ade6ceaa6fe41f"
+    },
+    {
+      "path": "docs/EDITION-CONCORDANCE.md",
+      "sha256": "26e4749aa4bfaf236371898dcb45f9197a89e6e3f5c5feba8c1c3f686a2ed6e2"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
@@ -163,5 +187,12 @@
     "reviewer_guide": "docs/PRE-EXPERT-HANDOFF.md",
     "source_records_committed": false,
     "primary_collation": "analysis/pre-expert-primary-collation.json"
+  },
+  "edition_concordance_checkpoint": {
+    "scope": "802 authenticated source entries; all-record edition-status accounting complete, source collation partial",
+    "audit": "analysis/edition-concordance-audit.json",
+    "guide": "docs/EDITION-CONCORDANCE.md",
+    "raison_pope_entry_resolution": "UNRESOLVED",
+    "expert_validation_added": false
   }
 }

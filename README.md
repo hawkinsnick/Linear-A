@@ -247,3 +247,7 @@ Download the [research workbench 1.1 package](https://github.com/hawkinsnick/Lin
 ## Pre-expert validation handoff
 
 See [the handoff](docs/PRE-EXPERT-HANDOFF.md), [source audit](analysis/pre-expert-source-audit.json) and [remaining gates](research/pre-expert-maximum.json). Authenticated source records are materialized locally with retained rights; aggregate engineering checks do not establish expert validation or open scientific gates.
+
+## Edition concordance checkpoint
+
+[The Step 1 evidence map](docs/EDITION-CONCORDANCE.md) accounts for all 802 authenticated source entries against SigLA, GORILA, Raison–Pope 1980/1994 and RILA-S1. It separates 755 attributed GORILA page links, 24 later-publication links and 23 unusable references. Existing primary inspections bind eight source records; Raison–Pope entry reconciliation remains unresolved. This is traceable bibliographic accounting, not critical-edition parity or complete surviving-object coverage.

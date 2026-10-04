@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 7eec4ffb2126c476824d3f4bf5c6792242a15044ba8525cf78a297bf9fb6e9c8
+Instruction snapshot SHA-256: 1dcabda786cb08e721b8272b95178b36423982df5255aa9a116512a39dfb4693
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -916,7 +916,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: fc4a26444423eeaffb352a2fe33a7db9b41cf16127de49346653b8bdec3232ae
+SHA-256: f081a69f180c548664a96cc17fe7ee8ac3838112275c6d42fe06d89cb0dab15f
 
 {
   "schema_version": "1.0",
@@ -926,9 +926,9 @@ SHA-256: fc4a26444423eeaffb352a2fe33a7db9b41cf16127de49346653b8bdec3232ae
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups materialized locally; 13 unresolved-case entries have primary edition pages inspected; public aggregate audit and explicit representation gaps",
-      "top_gap": "SY Zb 7 primary image locator, disputed physical readings and independent prospective/calibration evidence",
-      "status_source": "analysis/pre-expert-source-audit.json"
+      "coverage_state": "802 authenticated source entries / 5,144 attestations / 1,401 editorial groups; all-record edition-status map: 755 GORILA page links, 24 RILA-S1 publication links, 23 unusable references; 10 prior primary case entries join 8 source records. Raison\u2013Pope entry joins unresolved.",
+      "top_gap": "lawful Raison\u2013Pope concordance acquisition; exact RILA-S1 item matches; extend GORILA primary collation; reconcile physical identities and numerical quantities",
+      "status_source": "analysis/edition-concordance-audit.json"
     },
     {
       "repo": "Cypro-Minoan",

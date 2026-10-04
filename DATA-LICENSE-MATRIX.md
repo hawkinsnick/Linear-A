@@ -41,3 +41,7 @@ This document is a project data policy, not legal advice.
 contributions the repository owner has authority to license. Source-derived
 tables, aggregates and mixed exports do not become attribution-only material.
 Individual source and record notices remain authoritative for upstream content.
+
+## Edition-concordance metadata
+
+`research/edition-concordance.csv` is a source-derived identifier/locator table under SigLA CC BY-NC-SA 4.0, credited to Ester Salgarella and Simon Castellan via Ryan Pavlicek/pyaegean. The accompanying route registry contains factual bibliographic metadata and original summaries; no edition pages or transcriptions are redistributed. This scoped publication does not open the ignored raw-source or reading exports.

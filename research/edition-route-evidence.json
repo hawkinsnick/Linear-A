@@ -1,0 +1,87 @@
+{
+  "format": "linear-a-edition-route-evidence-v1",
+  "checked": "2026-10-04",
+  "rights": "Original bibliographic metadata and summaries only. No edition text, table images or reading transcription redistributed.",
+  "editions": {
+    "RP1980": {
+      "citation": "Jacques Raison and Maurice Pope, Corpus transnuméré du linéaire A, BCILL 18 (1980)",
+      "entry_content_inspected": false,
+      "barrier": "No lawful entry-level edition copy acquired in this checkpoint."
+    },
+    "RP1994": {
+      "citation": "Jacques Raison and Maurice Pope, Corpus transnuméré du linéaire A, second edition, BCILL 74 (1994)",
+      "publisher_url": "https://www.peeters-leuven.be/detail.php?search_key=9789068315615",
+      "publisher_metadata_sha256": "474e3bf8c85ed7b91c8411387dc1d1d84e32ff09fec1d7cc91f11e878706a57b",
+      "isbn": "9789068315615",
+      "entry_content_inspected": false,
+      "barrier": "Publisher catalogue obtained; no entry-level book content delivered by this route. No purchase or restricted-access bypass attempted.",
+      "metadata_disagreements": {
+        "publisher_pages": "377 p.",
+        "contemporary_review_pages": "337 p.",
+        "review_url": "https://www.persee.fr/doc/reg_0035-2039_1994_num_107_511_2635_t2_0722_0000_2",
+        "publisher_author_label": "Pope H.",
+        "review_author_label": "Maurice Pope",
+        "resolution": null
+      }
+    },
+    "GORILA": {
+      "citation": "Louis Godart and Jean-Pierre Olivier, Recueil des inscriptions en linéaire A, Études crétoises XXI, volumes 1–5",
+      "url_parameters": {
+        "host": "cefael.efa.gr",
+        "serie_id": "EtCret",
+        "volume_number": "21",
+        "issue_number": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "inspection_scope": "Only the separately registered primary case pages are inspected. Parsed source URLs are attributed locators, not independent page checks.",
+      "viewer_pages_are_printed_pages": false
+    },
+    "RILA-S1": {
+      "citation": "Maurizio Del Freo and Julien Zurbach, Recueil des inscriptions en linéaire A, Supplément 1, Études crétoises 21.6",
+      "publisher_url": "https://editions.efa.gr/?r=publication&id=1050",
+      "isbn": "9782869586420",
+      "publication_year_assertions": [
+        {
+          "source": "École française d’Athènes",
+          "year": 2025
+        },
+        {
+          "source": "Peeters",
+          "year": 2024,
+          "url": "https://www.peeters-leuven.be/detail.php?search_key=9782869586420"
+        }
+      ],
+      "year_adjudicated": null,
+      "contents_url": "https://editions.efa.gr/action.php?id_fiche=1050&r=download_public_files&type_fichier=SOMMAIRE",
+      "contents_pdf_sha256": "eb124172fbcb0329f78a4337a8f68e802be09491677fa24051b131192934ef53",
+      "contents_inspection": "Text extraction and rendered PDF page 1 inspected; inscription pages not acquired.",
+      "contents_printed_page": null,
+      "contents_pdf_page": 1,
+      "entry_content_inspected": false,
+      "tablet_section_start_pages": {
+        "GO": 5,
+        "KE": 9,
+        "KH": 13,
+        "KN": 33,
+        "PE": 37,
+        "PH": 45,
+        "THE": 49
+      },
+      "section_locator_is_exact_entry_locator": false,
+      "general_concordance_start": "xxvi",
+      "barrier": "Accessible publisher catalogue and contents only; exact item numbers, entry pages and plates require lawful edition access.",
+      "publisher_reported_corpus_totals": {
+        "documents": 1534,
+        "signs": 7574,
+        "new_documents": 107,
+        "new_signs": 427
+      },
+      "totals_comparable_to_sigla_source_entries": false
+    }
+  }
+}
