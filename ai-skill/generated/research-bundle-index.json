@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "1481ce53adb168bb93044938ced7ce89c14d9786",
-  "generated_at_utc": "2026-10-04T16:12:51+00:00",
+  "source_commit": "e3f9da5db0ac5555ffd5962f1d40c662c34bc03e",
+  "generated_at_utc": "2026-10-04T16:47:28+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,30 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "edition_concordance",
+      "path": "research/edition-concordance.csv",
+      "sha256": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2",
+      "bytes": 257888
+    },
+    {
+      "role": "edition_concordance_audit",
+      "path": "analysis/edition-concordance-audit.json",
+      "sha256": "375aa7b2c9244ef1070a1c31c5c8237e515531a4f30a0f5bce80630d8902222e",
+      "bytes": 2589
+    },
+    {
+      "role": "edition_routes",
+      "path": "research/edition-route-evidence.json",
+      "sha256": "c1e8f2454103d7764f24c2c0c46075e706cd58701bcf1d06fada2179aa3bb3e3",
+      "bytes": 3688
+    },
+    {
+      "role": "edition_concordance_guide",
+      "path": "docs/EDITION-CONCORDANCE.md",
+      "sha256": "26e4749aa4bfaf236371898dcb45f9197a89e6e3f5c5feba8c1c3f686a2ed6e2",
+      "bytes": 5668
+    },
     {
       "role": "bounded_primary_collation",
       "path": "analysis/pre-expert-primary-collation.json",
@@ -34,8 +58,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "e1fec2602ac053eda1492220212b40be9ff2a351f2efa702742a067acc645c89",
-      "bytes": 3602
+      "sha256": "9175c6caedd9d1d18dccb7cc49b1a895c08faa247fead21d4b671642e53c613b",
+      "bytes": 4324
     },
     {
       "role": "comparison_contract",
@@ -46,8 +70,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "98afe2b46c06df95eca468ab1a3e278b7d99b2e29ea9e8d5b96a1fce28d18ca1",
-      "bytes": 6691
+      "sha256": "78af113342460cd284f270c1cee710d2decb8cc0210df9bd22c4cf3d2b2d07de",
+      "bytes": 7932
     },
     {
       "role": "claims",
@@ -58,8 +82,8 @@
     {
       "role": "rights_matrix",
       "path": "DATA-LICENSE-MATRIX.md",
-      "sha256": "75313a21a5c970389e0b0dfa527b1d30b5de3193409e7bedbbbf0246e972a6f9",
-      "bytes": 2226
+      "sha256": "1ae51a1a1588c75b7605a587ec7fa9bd2751529483a59e05fd922c204b64a26e",
+      "bytes": 2677
     },
     {
       "role": "notice",
