@@ -69,10 +69,10 @@
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM_WITH_EXPLICIT_LINEAGE_DENOMINATOR",
-      "coverage_state": "3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined; independently collated lineages and canonical admissions remain zero",
-      "top_gap": "extend record-specific edition lineage, inspect authoritative TM identities and reconcile headings to objects",
-      "status_source": "analysis/explicit-source-lineage-audit.json"
+      "evidence_depth": "MEDIUM_WITH_PRIMARY_TEXT_COMPARISON_AND_OPEN_DISCREPANCY",
+      "coverage_state": "3 of 162 TM groups have explicit edition lineage; 159 unjoined. Two newer primary publications compared: one short text match with alternative restoration, one unresolved fragment/complete-formula discrepancy. Independent collation and canonical admissions remain zero.",
+      "top_gap": "resolve TM1002268 source/representation discrepancy using primary images and catalogue join; adjudicate TM1002269 competing restoration through collation; extend exact edition lineage",
+      "status_source": "analysis/new-primary-comparison.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",

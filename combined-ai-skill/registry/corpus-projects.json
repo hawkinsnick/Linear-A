@@ -295,7 +295,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: only 3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined rather than silently inheriting corpus-level source claims.",
+      "current_gate": "PRE_EXPERT_MAXIMUM tracked gate (not an exhaustion claim): Primary publication comparison: TM1002268 has an unresolved fragment/complete-formula discrepancy; TM1002269 matches the short printed reading, with a longer competing restoration retained. Three explicit UD-dependent lineages, 159 unjoined TM groups; no independent collation or canonical admission.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -310,12 +310,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/explicit-source-lineage-audit.json",
+      "source_audit_path": "analysis/new-primary-comparison.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "c4bec2b91b40f53b587fdbaa9c5c52aec169b0ca",
-        "published_commit": "c4bec2b91b40f53b587fdbaa9c5c52aec169b0ca",
+        "source_commit": "f7e747d70de581955545303946e6ba90d668a246",
+        "published_commit": "97b5e6dce1ea7596c224e1b19274d0c9ec670ec4",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
