@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "00e82cf83fcdd686cd88ea3d7c09c70f7fafba04",
-  "generated_at_utc": "2026-10-04T16:49:57+00:00",
+  "source_commit": "02266193f5bcfd8143b31b74061e638db62c41e4",
+  "generated_at_utc": "2026-10-04T17:24:34+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,36 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "critical_pilot",
+      "path": "research/critical-pilot.json",
+      "sha256": "cbb889de2cb7d1bd4aa80c44907b865e9aa37dbd10e793602274cfb31bcac6e8",
+      "bytes": 59591
+    },
+    {
+      "role": "critical_pilot_audit",
+      "path": "analysis/critical-pilot-audit.json",
+      "sha256": "906fdeb3d56e95808e6d252637c71ab0897317cabfac63a761721a4ee360d643",
+      "bytes": 2410
+    },
+    {
+      "role": "critical_disagreement_comparison",
+      "path": "research/critical-disagreement-comparison.csv",
+      "sha256": "fbc8813175289ea19c40ba171bfa033f8d0b5016b9780ba3f300a06333afc2aa",
+      "bytes": 9944
+    },
+    {
+      "role": "critical_pilot_review_queue",
+      "path": "reviews/critical-pilot-review.tsv",
+      "sha256": "23d708b7ad08ae15ca8c1232dafd0005c6917e5c3751885eb42f0277a5abfe41",
+      "bytes": 6037
+    },
+    {
+      "role": "critical_pilot_guide",
+      "path": "docs/CRITICAL-PILOT.md",
+      "sha256": "d5311a9c8ddcb6ef16207ca45d4dbd7c80bc7365b26ca31a98901fdfe5d2802b",
+      "bytes": 30096
+    },
     {
       "role": "edition_concordance",
       "path": "research/edition-concordance.csv",
@@ -34,8 +64,8 @@
     {
       "role": "edition_concordance_guide",
       "path": "docs/EDITION-CONCORDANCE.md",
-      "sha256": "26e4749aa4bfaf236371898dcb45f9197a89e6e3f5c5feba8c1c3f686a2ed6e2",
-      "bytes": 5668
+      "sha256": "81ac22ad625cd30cd76e9f7296879d2824fbef310f29b532e1dd10541aa162e5",
+      "bytes": 6106
     },
     {
       "role": "bounded_primary_collation",
@@ -58,8 +88,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "9175c6caedd9d1d18dccb7cc49b1a895c08faa247fead21d4b671642e53c613b",
-      "bytes": 4324
+      "sha256": "de3bee0a9de4febe5e0e884e4c39d80ec2c40f8efe1685aa3a53790af5630e3b",
+      "bytes": 5524
     },
     {
       "role": "comparison_contract",
@@ -70,8 +100,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "a95c2c46a4dc8f8080f1318d64dc23470970a270e00dc366bd089c73a6a74793",
-      "bytes": 7932
+      "sha256": "6a76228b0abd41952bf8c03fb45d442802aa723d55effbc212849d969feceb04",
+      "bytes": 9800
     },
     {
       "role": "claims",
@@ -82,8 +112,8 @@
     {
       "role": "rights_matrix",
       "path": "DATA-LICENSE-MATRIX.md",
-      "sha256": "1ae51a1a1588c75b7605a587ec7fa9bd2751529483a59e05fd922c204b64a26e",
-      "bytes": 2677
+      "sha256": "50068436c596de6878796c1074b6bf625557c5c18d0df0c761235f49f0ad6397",
+      "bytes": 3314
     },
     {
       "role": "notice",
