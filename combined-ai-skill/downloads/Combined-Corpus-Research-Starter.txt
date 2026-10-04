@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: dc73007d97c483ee3632231f750f85d6c771089284200119db84b411d50a97a5
+Instruction snapshot SHA-256: f1de51065cc881083f0d4a11e49da8043521d277d94391aa869d61482873a943
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 376366845e829f48af64629676491b791af3c1b85bd3529d1daa8ed26b5ab198
+SHA-256: 2624a3a1840626e187087fc7ba881930dd1080030a76add93772204c95c41e95
 
 {
   "schema_version": "1.0.0",
@@ -602,7 +602,7 @@ SHA-256: 376366845e829f48af64629676491b791af3c1b85bd3529d1daa8ed26b5ab198
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: only 3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined rather than silently inheriting corpus-level source claims.",
+      "current_gate": "PRE_EXPERT_MAXIMUM tracked gate (not an exhaustion claim): Primary publication comparison: TM1002268 has an unresolved fragment/complete-formula discrepancy; TM1002269 matches the short printed reading, with a longer competing restoration retained. Three explicit UD-dependent lineages, 159 unjoined TM groups; no independent collation or canonical admission.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -617,12 +617,12 @@ SHA-256: 376366845e829f48af64629676491b791af3c1b85bd3529d1daa8ed26b5ab198
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/explicit-source-lineage-audit.json",
+      "source_audit_path": "analysis/new-primary-comparison.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "c4bec2b91b40f53b587fdbaa9c5c52aec169b0ca",
-        "published_commit": "c4bec2b91b40f53b587fdbaa9c5c52aec169b0ca",
+        "source_commit": "f7e747d70de581955545303946e6ba90d668a246",
+        "published_commit": "97b5e6dce1ea7596c224e1b19274d0c9ec670ec4",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -916,7 +916,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 95473e08532a661b31f775ec57631ff429975731267098157b12e84eaa4f476b
+SHA-256: 512df2c8689cf4fd312baa7733cbf71d1941e00652e34056bb182a45dd5f0a30
 
 {
   "schema_version": "1.0",
@@ -989,10 +989,10 @@ SHA-256: 95473e08532a661b31f775ec57631ff429975731267098157b12e84eaa4f476b
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM_WITH_EXPLICIT_LINEAGE_DENOMINATOR",
-      "coverage_state": "3 of 162 TM groups have record-specific edition lineage explicit in inspected evidence; 159 remain unjoined; independently collated lineages and canonical admissions remain zero",
-      "top_gap": "extend record-specific edition lineage, inspect authoritative TM identities and reconcile headings to objects",
-      "status_source": "analysis/explicit-source-lineage-audit.json"
+      "evidence_depth": "MEDIUM_WITH_PRIMARY_TEXT_COMPARISON_AND_OPEN_DISCREPANCY",
+      "coverage_state": "3 of 162 TM groups have explicit edition lineage; 159 unjoined. Two newer primary publications compared: one short text match with alternative restoration, one unresolved fragment/complete-formula discrepancy. Independent collation and canonical admissions remain zero.",
+      "top_gap": "resolve TM1002268 source/representation discrepancy using primary images and catalogue join; adjudicate TM1002269 competing restoration through collation; extend exact edition lineage",
+      "status_source": "analysis/new-primary-comparison.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
