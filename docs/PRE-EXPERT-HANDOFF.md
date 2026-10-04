@@ -59,3 +59,11 @@ Read [PUBLIC-SIGLA-LAYER.md](PUBLIC-SIGLA-LAYER.md) for direct downloads and byt
 ## GORILA II catalogue-label pilot
 
 The separate [edition-label review](EDITION-CATALOGUE-PILOT.md) covers all 135 acquired pages: 222 linked entries, 220 confirmed target headings and two unresolved HT 53 route mismatches. Its 167 confirmed edition parent units are not certified physical objects. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 166 label rows, 145 dimension-expression rows, 50 shared-face caption relations and four unresolved caption fields. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No sign adjudication or modern accession verification is claimed.
+
+## Review cases outside exact source-ID joins
+
+[The reproducible source-membership report](../analysis/case-source-membership.json) distinguishes three different situations. HT Zd 157+156 is a legacy composite case with two separate authenticated source records, HT Zd 157 and HT Zd 156; neither is relabelled as a combined record and their readings are not concatenated. PK Za 8, PR Za 1 and SY Zb 7 have no exact ID in this pinned 802-entry derivative. This is a snapshot coverage boundary, not evidence that these inscriptions are absent from primary editions. Fraction K is an interpretation case rather than a document ID.
+
+The existing primary-page inspection records for PK Za 8 and PR Za 1 remain separately attributable. Their earlier image digests remain recorded, but those image files were not found in the current workspace during this continuation; no new visual inspection or fresh asset verification is claimed for them. The HT Zd composite remains a review question, not a certified object join.
+
+Reproduce with `python scripts/build_case_source_membership.py --check`. This report adds membership accounting without changing the critical pilot's ten-entry denominator or its unreviewed decisions.

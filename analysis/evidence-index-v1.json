@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "b79abab5cb412eb6d34e3d3672541c993f5fa4ae171d65cb6a657366e5243a6d",
-      "bytes": 7388,
+      "sha256": "e14275d4b482b90b109b5787edcf9a31eb0fefa3f0cec77f3338ec0907bda023",
+      "bytes": 8604,
       "category": "docs",
       "summary": {}
     },
@@ -488,6 +488,24 @@
       "path": "scripts/test_edition_catalogue_pilot.py",
       "sha256": "64336930647d6db64f40c31334c87df80020415b3e2de4c75cca18f7b297bb53",
       "bytes": 3052,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "analysis/case-source-membership.json",
+      "sha256": "83fbb408aac94a9c4e27179783e1d28543aa3020b03682a101b024a14e722139",
+      "bytes": 6854,
+      "category": "analysis",
+      "summary": {
+        "format": "linear-a-case-source-membership-v1",
+        "scope": "15 legacy review cases against 802 pinned source IDs; no new primary-page inspection",
+        "boundary": "Composite component membership does not certify a join or permit concatenated readings. Missing source IDs are not missing inscriptions. Preserve legacy IDs and prior unresolved review decisions."
+      }
+    },
+    {
+      "path": "scripts/build_case_source_membership.py",
+      "sha256": "5a06d82636f09c641e8e6cc13652cf868e84a44a7d71d1a58db95f1cf284f0dc",
+      "bytes": 2616,
       "category": "scripts",
       "summary": {}
     }

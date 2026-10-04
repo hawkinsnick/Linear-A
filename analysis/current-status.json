@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "f24d3335efe72b9178bb0712ea9d72b8a4ec5c11517cd9af44f993e826386461"
+      "sha256": "9cc931844528ae204b89e1b669d6a41e2e2ee6afb4a560cf8b1304d0132117e6"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "3be0c35be63812346cf6c8939997f286c4a264fcb07c58f42a696e217f4610c1"
+      "sha256": "4aff1777327f8a8f7fd4349081fcb1670c87c6f7097e9cb160fc22c1a4e3d23c"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "85ddcfed67093a5a5a03416d962bf2c0373277650e136d742a0290504e438730"
+      "sha256": "67d1778bb6c2e969643f992e9305f814b35a0e9628fb7f30e19d3d5473c27589"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "b79abab5cb412eb6d34e3d3672541c993f5fa4ae171d65cb6a657366e5243a6d"
+      "sha256": "e14275d4b482b90b109b5787edcf9a31eb0fefa3f0cec77f3338ec0907bda023"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -295,11 +295,19 @@
     {
       "path": "scripts/test_edition_catalogue_pilot.py",
       "sha256": "64336930647d6db64f40c31334c87df80020415b3e2de4c75cca18f7b297bb53"
+    },
+    {
+      "path": "analysis/case-source-membership.json",
+      "sha256": "83fbb408aac94a9c4e27179783e1d28543aa3020b03682a101b024a14e722139"
+    },
+    {
+      "path": "scripts/build_case_source_membership.py",
+      "sha256": "5a06d82636f09c641e8e6cc13652cf868e84a44a7d71d1a58db95f1cf284f0dc"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 166 label rows, 145 dimension-expression rows, 50 shared-face caption relations and four unresolved caption fields. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication.",
+  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 166 label rows, 145 dimension-expression rows, 50 shared-face caption relations and four unresolved caption fields. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case/source membership separately distinguishes composite records from snapshot coverage gaps; no critical reading or expert decision changes.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",
