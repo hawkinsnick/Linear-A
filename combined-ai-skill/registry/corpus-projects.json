@@ -148,7 +148,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Dunand 1978 pagination remains Mnamon 52–58 versus KeiBi 51–59; boundary pages 51/59 and the reported 1981 appearance remain unresolved pending physical-article inspection.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Dunand 1978 pagination remains Mnamon 52\u201358 versus KeiBi 51\u201359; boundary pages 51/59 and the reported 1981 appearance remain unresolved pending physical-article inspection.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -234,7 +234,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Lejeune 1947 reports Guarducci Praisos nos. 1–6; three have historical-name crosswalks while nos. 4–6 remain number-only short fragments perhaps Eteocretan.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Azoria Figure 42 / 06-0334 (D346.1) linked to upper bin-lining handle by primary article indexed text; same-pithos hypothesis remains qualified, figures and museum identities unverified; room/site sherd counts are not Eteocretan text counts.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -249,12 +249,12 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "analysis/praisos-guarducci-number-audit.json",
+      "source_audit_path": "analysis/source-critical-dossier.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "a4daec16925a937a87d0ba92c49eb83222ce00fa",
-        "published_commit": "a4daec16925a937a87d0ba92c49eb83222ce00fa",
+        "source_commit": "9164374574489148d63d9af30f5c1a311c5439c0",
+        "published_commit": "9164374574489148d63d9af30f5c1a311c5439c0",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },

@@ -38,7 +38,7 @@
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_BIBLIOGRAPHIC_CONFLICT_AUDIT",
-      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52–58 versus KeiBi pp. 51–59; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
+      "coverage_state": "Dunand 1978 is preserved as Mnamon pp. 52\u201358 versus KeiBi pp. 51\u201359; pages 51/59 and KeiBi's 1981 appearance claim remain unresolved; 0 primary pages and 0 sequences collated",
       "top_gap": "inspect the physical article and plates; then reconcile pagination, object identity and provider scope",
       "status_source": "research/dunand-1978-bibliographic-conflict-audit.json"
     },
@@ -56,10 +56,10 @@
     },
     {
       "repo": "Eteocretan",
-      "evidence_depth": "LOW_WITH_REPORTED_EDITION_NUMBER_CONCORDANCE",
-      "coverage_state": "Lejeune 1947 p. 276 n. 4 reports Guarducci nos. 1–6: 3 historically named crosswalks plus 3 number-only short fragments perhaps Eteocretan; script classes remain attributed",
-      "top_gap": "lawful Guarducci pp. 137–142 collation; physical identity, Azoria inventory and uncertain-language adjudication",
-      "status_source": "analysis/praisos-guarducci-number-audit.json"
+      "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
+      "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
+      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "status_source": "analysis/source-critical-dossier.json"
     },
     {
       "repo": "Lycian-and-Carian",
