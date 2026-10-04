@@ -148,7 +148,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; conventional 14-label corpus genealogy now institutionally grounded as Dunand 1945 ten + 1978 four, with h/j possible same-stela caution; 15-count discrepancy and verified sequences remain open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: all 14 core labels have survey-reported edition locators; 18 surfaces / 126 reported line targets cover 13 core labels; g columns kept separate; zero verified sequences.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -161,6 +161,14 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      },
+      "source_audit_path": "research/edition-locator-audit.json",
+      "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_reconciliation_checkpoint": {
+        "date": "2026-10-04",
+        "source_commit": "6774f01e3607334dde46a2f3fb5490b923b29aee",
+        "published_commit": "c85283c2379c1508dee8538c4cf41855b869e9e1",
+        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
     {
@@ -226,7 +234,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; Dreros 2 primary BCH inspected and Dreros 1 now has a near-primary Lejeune critical witness reproducing Van Effenterre layout/uncertainties; original facsimile, Praisos collation and Azoria discovery remain.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 11 coverage identities / 12 reading-version dossiers, two Azoria D300 caption candidates, exact BSA archive lead; no analytical admission or certified candidate identity.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -240,6 +248,14 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      },
+      "source_audit_path": "analysis/source-critical-dossier.json",
+      "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_reconciliation_checkpoint": {
+        "date": "2026-10-04",
+        "source_commit": "d93a2a88e433a77b2b83d97c69e3279d23c338d4",
+        "published_commit": "593119740d33c82b1777fd6c2a989e5def806e9b",
+        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
     {
@@ -279,7 +295,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM / DISCOVERY_FRONTIER_REOPENED: 162 UD-linked TM IDs are a seed layer against TM's 536-attestation Phrygian benchmark; broader identity enumeration, edition lineage and source-level reconciliation remain.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 12 Ref diagnostics and 6 surface differences; licensed seven-line G-12 reference pilot, candidate TM join; 305 TITUS discovery headings, not physical inscription count.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -293,6 +309,14 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      },
+      "source_audit_path": "analysis/reference-replay.json",
+      "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_reconciliation_checkpoint": {
+        "date": "2026-10-04",
+        "source_commit": "bcd55acfdb6890a1933bad6a3834b92876fd6793",
+        "published_commit": "e95b07db1b13d709b410fc0ca969093f641e94c3",
+        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
     {

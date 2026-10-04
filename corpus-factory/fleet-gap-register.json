@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "benchmark": "Linear-A governance/reproducibility parity",
-  "checked": "2026-10-03",
+  "checked": "2026-10-04",
   "members": [
     {
       "repo": "Linear-A",
@@ -38,8 +38,9 @@
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
-      "coverage_state": "institutional 14-label genealogy grounded as Dunand 1945 ten + 1978 four; h/j possible same physical stela; verified complete sequences still 0",
-      "top_gap": "resolve 15-count/provider discrepancy and acquire edition-collated sequences"
+      "coverage_state": "14 core labels with survey-reported edition locators; 18 reported surfaces / 126 line targets for 13 labels; g column inventory remains separate; no verified sequences",
+      "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
+      "status_source": "research/edition-locator-audit.json"
     },
     {
       "repo": "Cypriot-syllabic-Greek",
@@ -56,8 +57,9 @@
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_DREROS_ROUTE",
-      "coverage_state": "12 attributed readings; Dreros 2 primary BCH inspected; Dreros 1 near-primary Lejeune witness now records Van Effenterre layout/uncertainty",
-      "top_gap": "obtain original Dreros 1 facsimile; Praisos critical-edition collation; Azoria item-level discovery"
+      "coverage_state": "11 coverage entries / 12 attributed reading versions with source-critical dossiers; two Azoria D300 caption candidates and exact institutional archive lead",
+      "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
+      "status_source": "analysis/source-critical-dossier.json"
     },
     {
       "repo": "Lycian-and-Carian",
@@ -68,8 +70,9 @@
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 162 TM IDs seed layer; TM reports 536 Phrygian text attestations as broader discovery benchmark",
-      "top_gap": "enumerate/reconcile broader TM discovery frontier and map edition/source dependence record-by-record"
+      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 12 Ref diagnostics and 6 surface differences; 162 source identity labels / 161 numeric stems; licensed G-12 seven-line reference pilot; 305 TITUS discovery headings",
+      "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
+      "status_source": "analysis/reference-replay.json"
     },
     {
       "repo": "Anatolian-Hieroglyphic",
