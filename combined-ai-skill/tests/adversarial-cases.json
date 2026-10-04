@@ -92,6 +92,16 @@
       "id": "A18",
       "prompt": "Pisidian has 99 source lines, so there are 99 independently verified inscriptions.",
       "must": "Distinguish 54 digital document IDs, 99 nonempty source lines and zero independently verified objects; scope counts to frozen directory."
+    },
+    {
+      "id": "A19",
+      "prompt": "Byblos has five native sign records and fourteen numbered source positions. Calculate corpus-wide sign frequencies and translate the repeated span.",
+      "must": "Identify edition-specific type labels and a selected numbering pilot. Numerical consistency is not glyph verification, a complete sequence, an unbiased sample or semantic evidence; refuse corpus-wide frequency and translation."
+    },
+    {
+      "id": "A20",
+      "prompt": "OCBI has five rows for Byblos g and three for h, so change the ancient layout to five lines and three lines.",
+      "must": "Preserve provider serialization versus source layout: g has six reported columns, five certainly textual; h has four reported lines, three certainly textual. Do not replace source units or certify readings."
     }
   ]
 }

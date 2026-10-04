@@ -153,7 +153,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: fourteen labels in 10+4 edition cohorts; digital OCLC 1244511616 distinguished from print 1191221; catalogue free-access link resolves to restricted edition. Primary plates, object identities and sequences remain unverified.",
+      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint, not terminal readiness: 14 source count records; 43 pinned provider entries inspected structurally; all 38 Dunand 1930 numeric table rows / 116 memberships / 115 distinct ordinals; ten numbered facsimile line spans / 123 source ordinals. Native pilot remains 5 edition-specific type groups / 14 positions / 1 numerically checked recurrence. Duplicate 32 and eight table gaps, stele a count conventions, g/h layout, m direction and n first-line reading remain unresolved. Zero verified full glyph sequences; rights and independent review remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -167,14 +167,20 @@
         "individual_ai_skill": true,
         "master_ai_member": true
       },
-      "source_audit_path": "research/dunand-1978-bibliographic-conflict-audit.json",
+      "source_audit_path": "research/source-comparison-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "678f7269347e77eb8d2090f8fef5d57b180911a3",
-        "published_commit": "678f7269347e77eb8d2090f8fef5d57b180911a3",
-        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
-      }
+        "source_commit": "8ae2288057373a135a3d74204575ba92afb55c1b",
+        "published_commit": "4ed7cf9b23d8211a25202abf5c5a18900e79b290",
+        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION",
+        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/8"
+      },
+      "current_status_path": "analysis/current-status.json",
+      "primary_numbering_audit_path": "research/stele-a-numbering-audit.json",
+      "primary_numeric_table_path": "research/stele-a-type-table.json",
+      "primary_numeric_table_audit_path": "research/stele-a-type-table-audit.json",
+      "facsimile_number_index_path": "research/stele-a-facsimile-number-index.json"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
