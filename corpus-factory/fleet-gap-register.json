@@ -38,7 +38,7 @@
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
-      "coverage_state": "14 core labels with survey-reported edition locators; one has selected directly inspected primary metadata, while directly collated corpus-edition and verified-sequence counts remain zero; 18 reported surfaces / 126 line targets for 13 labels",
+      "coverage_state": "10 labels in Dunand 1945 cohort plus 4 in 1978 cohort; h/j possible coreference keeps physical-monument count unresolved; selected primary metadata exists for one label but verified sequences remain zero",
       "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
       "status_source": "research/core-field-provenance-audit.json"
     },
@@ -57,7 +57,7 @@
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_DREROS_ROUTE",
-      "coverage_state": "11 coverage entries / 12 attributed reading versions; BSA nomos-fragment source identity corrected to Praisos 2; two Azoria D300 candidates remain unadmitted",
+      "coverage_state": "11 coverage entries / 12 reading versions; primary-page markers map Pr. I/barxe, Pr. II/nomos and third fragment to Praisos 1/2/3; BSA negative joins Praisos 2 without museum identity",
       "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
@@ -70,7 +70,7 @@
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; licensed G-12 seven-line pilot; 305 TITUS headings / 272 mechanical numeric-stem groups / 12 multi-heading stems retained as distinct source units",
+      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 305 TITUS headings / 272 numeric stems / 12 multi-heading stems; 8 multi-heading groups co-list unsuffixed parent and suffixed units",
       "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
       "status_source": "analysis/titus-identity-unit-audit.json"
     },

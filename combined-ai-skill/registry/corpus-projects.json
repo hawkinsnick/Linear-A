@@ -148,7 +148,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: all 14 core labels have survey-reported edition locators; field audit distinguishes one label with selected directly inspected primary metadata from zero directly collated corpus-edition sequences; 18 surfaces / 126 line targets cover 13 core labels.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 10 labels in the 1945 publication cohort plus 4 in the 1978 cohort; h/j possible coreference keeps physical-monument count unresolved; one label has selected directly inspected primary metadata, zero sequences are verified.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -166,8 +166,8 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "cdbea65044b615ff52ce4cb80b812aaf235827ed",
-        "published_commit": "0798febf21291f44e44f045232fd5a0ad8ab6a90",
+        "source_commit": "b4e3b88f301aad24c5f66b2fc9c849f27b23b143",
+        "published_commit": "1077fe580ad2ebe2fbd73e7dba578628fe29c879",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -234,7 +234,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 11 coverage identities / 12 reading-version dossiers; BSA nomos-fragment source identity corrected to Praisos 2 while museum accession and image collation remain open; two Azoria D300 caption candidates remain unadmitted.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: primary pages reconcile Pr. I/barxe, Pr. II/nomos and the third fragment to project Praisos 1/2/3; BSA negative joins Praisos 2; no museum accession, preferred reading or image collation inferred.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -253,8 +253,8 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "db99a755d01345f1a2d342a9392937d9745b6074",
-        "published_commit": "57931e7b32984ec3dcf9063c53cb1d0d6f227669",
+        "source_commit": "8eee10568dcd8b976096880ba245090784cd03c7",
+        "published_commit": "08c4e859da7a7304c6f9eb6dd95d6a4ab3566885",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -295,7 +295,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; licensed seven-line G-12 pilot; 305 TITUS headings separated from 272 numeric-stem groups with 12 multi-heading stems, none treated as a physical-inscription count.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 305 TITUS headings separated from 272 numeric stems; 8 of 12 multi-heading stems co-list unsuffixed parents and suffixes, demonstrating catalogue hierarchy rather than extra stones.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -314,8 +314,8 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "3c27c60c4aa30a545d3eb9b3cc6da5344c101315",
-        "published_commit": "02bf9e9a8783964704c647630a3339fabc790cff",
+        "source_commit": "07c0305c52d78e25da92e33d86fa4b15ebdabd5f",
+        "published_commit": "d92daa1a85dbe4f086820411192213dc3a7e596a",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },

@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 410065ba072f6fc002471755c324bc1f56d2404b39d0b6deb52b673270a9f549
+Instruction snapshot SHA-256: 16ee1784595a431c7fb6889dce6b7f744d85bf4650b02cc798a8885029f4d7f5
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
+SHA-256: 5958d1999515b1bc1ca233589c55a8317f169ec55962136791373736fbe99404
 
 {
   "schema_version": "1.0.0",
@@ -455,7 +455,7 @@ SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: all 14 core labels have survey-reported edition locators; field audit distinguishes one label with selected directly inspected primary metadata from zero directly collated corpus-edition sequences; 18 surfaces / 126 line targets cover 13 core labels.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 10 labels in the 1945 publication cohort plus 4 in the 1978 cohort; h/j possible coreference keeps physical-monument count unresolved; one label has selected directly inspected primary metadata, zero sequences are verified.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -473,8 +473,8 @@ SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "cdbea65044b615ff52ce4cb80b812aaf235827ed",
-        "published_commit": "0798febf21291f44e44f045232fd5a0ad8ab6a90",
+        "source_commit": "b4e3b88f301aad24c5f66b2fc9c849f27b23b143",
+        "published_commit": "1077fe580ad2ebe2fbd73e7dba578628fe29c879",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -541,7 +541,7 @@ SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: 11 coverage identities / 12 reading-version dossiers; BSA nomos-fragment source identity corrected to Praisos 2 while museum accession and image collation remain open; two Azoria D300 caption candidates remain unadmitted.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: primary pages reconcile Pr. I/barxe, Pr. II/nomos and the third fragment to project Praisos 1/2/3; BSA negative joins Praisos 2; no museum accession, preferred reading or image collation inferred.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -560,8 +560,8 @@ SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "db99a755d01345f1a2d342a9392937d9745b6074",
-        "published_commit": "57931e7b32984ec3dcf9063c53cb1d0d6f227669",
+        "source_commit": "8eee10568dcd8b976096880ba245090784cd03c7",
+        "published_commit": "08c4e859da7a7304c6f9eb6dd95d6a4ab3566885",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -602,7 +602,7 @@ SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; licensed seven-line G-12 pilot; 305 TITUS headings separated from 272 numeric-stem groups with 12 multi-heading stems, none treated as a physical-inscription count.",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: exact replay of 203 UD sentences / 1921 tokens; 305 TITUS headings separated from 272 numeric stems; 8 of 12 multi-heading stems co-list unsuffixed parents and suffixes, demonstrating catalogue hierarchy rather than extra stones.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -621,8 +621,8 @@ SHA-256: d49766e307250f53bcd61579323501e23054699ee773cbe5a73648c3239b2e0c
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "3c27c60c4aa30a545d3eb9b3cc6da5344c101315",
-        "published_commit": "02bf9e9a8783964704c647630a3339fabc790cff",
+        "source_commit": "07c0305c52d78e25da92e33d86fa4b15ebdabd5f",
+        "published_commit": "d92daa1a85dbe4f086820411192213dc3a7e596a",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
@@ -916,7 +916,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 1951f3beb1f413a7a57987f773a2b906d9803ce210c3e1a5245bc9752cb556c3
+SHA-256: 9f87603428d5ab49b67f05dd5d4e9c4bcf4259d897e4c92131c567ab755c7e10
 
 {
   "schema_version": "1.0",
@@ -958,7 +958,7 @@ SHA-256: 1951f3beb1f413a7a57987f773a2b906d9803ce210c3e1a5245bc9752cb556c3
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_GENEALOGY_RESOLVED",
-      "coverage_state": "14 core labels with survey-reported edition locators; one has selected directly inspected primary metadata, while directly collated corpus-edition and verified-sequence counts remain zero; 18 reported surfaces / 126 line targets for 13 labels",
+      "coverage_state": "10 labels in Dunand 1945 cohort plus 4 in 1978 cohort; h/j possible coreference keeps physical-monument count unresolved; selected primary metadata exists for one label but verified sequences remain zero",
       "top_gap": "direct original edition/plate collation, object identity and source/provider scope reconciliation",
       "status_source": "research/core-field-provenance-audit.json"
     },
@@ -977,7 +977,7 @@ SHA-256: 1951f3beb1f413a7a57987f773a2b906d9803ce210c3e1a5245bc9752cb556c3
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_DREROS_ROUTE",
-      "coverage_state": "11 coverage entries / 12 attributed reading versions; BSA nomos-fragment source identity corrected to Praisos 2; two Azoria D300 candidates remain unadmitted",
+      "coverage_state": "11 coverage entries / 12 reading versions; primary-page markers map Pr. I/barxe, Pr. II/nomos and third fragment to Praisos 1/2/3; BSA negative joins Praisos 2 without museum identity",
       "top_gap": "critical edition collation; Azoria inventory and uncertain-language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
@@ -990,7 +990,7 @@ SHA-256: 1951f3beb1f413a7a57987f773a2b906d9803ce210c3e1a5245bc9752cb556c3
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_LARGE_DISCOVERY_FRONTIER",
-      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; licensed G-12 seven-line pilot; 305 TITUS headings / 272 mechanical numeric-stem groups / 12 multi-heading stems retained as distinct source units",
+      "coverage_state": "203 UD sentences / 1921 tokens replayed exactly; 305 TITUS headings / 272 numeric stems / 12 multi-heading stems; 8 multi-heading groups co-list unsuffixed parent and suffixed units",
       "top_gap": "reconcile source variants/headings to actual objects and primary editions; canonical admission remains empty",
       "status_source": "analysis/titus-identity-unit-audit.json"
     },
