@@ -1,0 +1,3096 @@
+{
+  "format": "linear-a-selected-sigla-witness-v1",
+  "source_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+  "source_attribution": "Ester Salgarella and Simon Castellan, SigLA, via Ryan Pavlicek/pyaegean sigla-corpus-v4",
+  "source_url": "https://github.com/ryanpavlicek/pyaegean/releases/download/sigla-corpus-v4/sigla-corpus.json",
+  "record_license": "CC BY-NC-SA 4.0",
+  "source_entries": 10,
+  "source_attestation_slots": 168,
+  "entries": [
+    {
+      "source_record_id": "HT 15",
+      "source_pointer": "/documents/77",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          5.1,
+          6.9,
+          0.9
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/0",
+          "source_pointer": "/documents/77/attestations/0",
+          "source_fields": {
+            "sign": "U",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 10,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/1",
+          "source_pointer": "/documents/77/attestations/1",
+          "source_fields": {
+            "sign": "*34",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 34,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/2",
+          "source_pointer": "/documents/77/attestations/2",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/3",
+          "source_pointer": "/documents/77/attestations/3",
+          "source_fields": {
+            "sign": "GRA",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 120,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/4",
+          "source_pointer": "/documents/77/attestations/4",
+          "source_fields": {
+            "sign": "DU",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 51,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/5",
+          "source_pointer": "/documents/77/attestations/5",
+          "source_fields": {
+            "sign": "AROM",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 123,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/6",
+          "source_pointer": "/documents/77/attestations/6",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/7",
+          "source_pointer": "/documents/77/attestations/7",
+          "source_fields": {
+            "sign": "*120 || (L3+L3)",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 586,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/8",
+          "source_pointer": "/documents/77/attestations/8",
+          "source_fields": {
+            "sign": "*188",
+            "kind": "blank",
+            "word": null,
+            "series": "AB",
+            "number": 188,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/9",
+          "source_pointer": "/documents/77/attestations/9",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/10",
+          "source_pointer": "/documents/77/attestations/10",
+          "source_fields": {
+            "sign": "RO",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 2,
+            "raw_flags": [
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/77/attestations/11",
+          "source_pointer": "/documents/77/attestations/11",
+          "source_fields": {
+            "sign": "RE",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 27,
+            "raw_flags": [
+              12,
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "HT 17",
+      "source_pointer": "/documents/91",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          4.6,
+          5.6,
+          0.7
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/0",
+          "source_pointer": "/documents/91/attestations/0",
+          "source_fields": {
+            "sign": "RA",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 60,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/1",
+          "source_pointer": "/documents/91/attestations/1",
+          "source_fields": {
+            "sign": "*164",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 164,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/2",
+          "source_pointer": "/documents/91/attestations/2",
+          "source_fields": {
+            "sign": "TI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 37,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/3",
+          "source_pointer": "/documents/91/attestations/3",
+          "source_fields": {
+            "sign": "TE",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 4,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/4",
+          "source_pointer": "/documents/91/attestations/4",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": null,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              5,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/5",
+          "source_pointer": "/documents/91/attestations/5",
+          "source_fields": {
+            "sign": "VIN",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 164,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/6",
+          "source_pointer": "/documents/91/attestations/6",
+          "source_fields": {
+            "sign": "SA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 31,
+            "raw_flags": [
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/7",
+          "source_pointer": "/documents/91/attestations/7",
+          "source_fields": {
+            "sign": "RO",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 2,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/8",
+          "source_pointer": "/documents/91/attestations/8",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/9",
+          "source_pointer": "/documents/91/attestations/9",
+          "source_fields": {
+            "sign": "DA",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 1,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/91/attestations/10",
+          "source_pointer": "/documents/91/attestations/10",
+          "source_fields": {
+            "sign": "RE",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 27,
+            "raw_flags": [
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "HT 34",
+      "source_pointer": "/documents/116",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          5.0,
+          7.6,
+          0.9
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/0",
+          "source_pointer": "/documents/116/attestations/0",
+          "source_fields": {
+            "sign": "DA",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 1,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/1",
+          "source_pointer": "/documents/116/attestations/1",
+          "source_fields": {
+            "sign": "JU",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 65,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/2",
+          "source_pointer": "/documents/116/attestations/2",
+          "source_fields": {
+            "sign": "TE",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 4,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/3",
+          "source_pointer": "/documents/116/attestations/3",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/4",
+          "source_pointer": "/documents/116/attestations/4",
+          "source_fields": {
+            "sign": "*28+[?]",
+            "kind": "syllable",
+            "word": 1,
+            "series": "A",
+            "number": 516,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/5",
+          "source_pointer": "/documents/116/attestations/5",
+          "source_fields": {
+            "sign": "SA",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 31,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/6",
+          "source_pointer": "/documents/116/attestations/6",
+          "source_fields": {
+            "sign": "RA₂",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 76,
+            "raw_flags": [
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/7",
+          "source_pointer": "/documents/116/attestations/7",
+          "source_fields": {
+            "sign": "(*73?+*57?) | *77",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 552,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/8",
+          "source_pointer": "/documents/116/attestations/8",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 702,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/9",
+          "source_pointer": "/documents/116/attestations/9",
+          "source_fields": {
+            "sign": "E",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 38,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/10",
+          "source_pointer": "/documents/116/attestations/10",
+          "source_fields": {
+            "sign": "GRA",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 120,
+            "raw_flags": [
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/11",
+          "source_pointer": "/documents/116/attestations/11",
+          "source_fields": {
+            "sign": "*38+[?]",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 525,
+            "raw_flags": [
+              12,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/12",
+          "source_pointer": "/documents/116/attestations/12",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 706,
+            "raw_flags": [
+              13,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/13",
+          "source_pointer": "/documents/116/attestations/13",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 708,
+            "raw_flags": [
+              14,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/14",
+          "source_pointer": "/documents/116/attestations/14",
+          "source_fields": {
+            "sign": "*16+[?]+*50",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 510,
+            "raw_flags": [
+              15,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/15",
+          "source_pointer": "/documents/116/attestations/15",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 701,
+            "raw_flags": [
+              16,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/16",
+          "source_pointer": "/documents/116/attestations/16",
+          "source_fields": {
+            "sign": "*16+[?]+*27",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 508,
+            "raw_flags": [
+              17,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/17",
+          "source_pointer": "/documents/116/attestations/17",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 704,
+            "raw_flags": [
+              18,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/18",
+          "source_pointer": "/documents/116/attestations/18",
+          "source_fields": {
+            "sign": "(*73?+*57?) | *26",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 550,
+            "raw_flags": [
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/19",
+          "source_pointer": "/documents/116/attestations/19",
+          "source_fields": {
+            "sign": "(*31+*23) || *81",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 521,
+            "raw_flags": [
+              20,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/20",
+          "source_pointer": "/documents/116/attestations/20",
+          "source_fields": {
+            "sign": "*56",
+            "kind": "blank",
+            "word": null,
+            "series": "AB",
+            "number": 56,
+            "raw_flags": [
+              21,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/21",
+          "source_pointer": "/documents/116/attestations/21",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": null,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              22,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/22",
+          "source_pointer": "/documents/116/attestations/22",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              23,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/23",
+          "source_pointer": "/documents/116/attestations/23",
+          "source_fields": {
+            "sign": "RO",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 2,
+            "raw_flags": [
+              24,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/24",
+          "source_pointer": "/documents/116/attestations/24",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": null,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              25,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/25",
+          "source_pointer": "/documents/116/attestations/25",
+          "source_fields": {
+            "sign": "*38+*77",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 526,
+            "raw_flags": [
+              26,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/26",
+          "source_pointer": "/documents/116/attestations/26",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 708,
+            "raw_flags": [
+              27,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/27",
+          "source_pointer": "/documents/116/attestations/27",
+          "source_fields": {
+            "sign": "PU",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 50,
+            "raw_flags": [
+              28,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/116/attestations/28",
+          "source_pointer": "/documents/116/attestations/28",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 705,
+            "raw_flags": [
+              29,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "HT 49a",
+      "source_pointer": "/documents/136",
+      "source_context": {
+        "site": "Haghia Triada",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          5.5,
+          9.2,
+          0.7
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/0",
+          "source_pointer": "/documents/136/attestations/0",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 0,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/1",
+          "source_pointer": "/documents/136/attestations/1",
+          "source_fields": {
+            "sign": "RA₂",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 76,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/2",
+          "source_pointer": "/documents/136/attestations/2",
+          "source_fields": {
+            "sign": "DU",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 51,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/3",
+          "source_pointer": "/documents/136/attestations/3",
+          "source_fields": {
+            "sign": "TA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 59,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/4",
+          "source_pointer": "/documents/136/attestations/4",
+          "source_fields": {
+            "sign": "NA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 6,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/5",
+          "source_pointer": "/documents/136/attestations/5",
+          "source_fields": {
+            "sign": "TI",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 37,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/6",
+          "source_pointer": "/documents/136/attestations/6",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 2,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/7",
+          "source_pointer": "/documents/136/attestations/7",
+          "source_fields": {
+            "sign": "RI",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 53,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/8",
+          "source_pointer": "/documents/136/attestations/8",
+          "source_fields": {
+            "sign": "SU",
+            "kind": "syllable",
+            "word": 4,
+            "series": "AB",
+            "number": 58,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/9",
+          "source_pointer": "/documents/136/attestations/9",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": 4,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/10",
+          "source_pointer": "/documents/136/attestations/10",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 5,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/11",
+          "source_pointer": "/documents/136/attestations/11",
+          "source_fields": {
+            "sign": "TI",
+            "kind": "syllable",
+            "word": 6,
+            "series": "AB",
+            "number": 37,
+            "raw_flags": [
+              12,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/12",
+          "source_pointer": "/documents/136/attestations/12",
+          "source_fields": {
+            "sign": "DU",
+            "kind": "syllable",
+            "word": 6,
+            "series": "AB",
+            "number": 51,
+            "raw_flags": [
+              13,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/13",
+          "source_pointer": "/documents/136/attestations/13",
+          "source_fields": {
+            "sign": "NI",
+            "kind": "syllable",
+            "word": 6,
+            "series": "AB",
+            "number": 30,
+            "raw_flags": [
+              14,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/14",
+          "source_pointer": "/documents/136/attestations/14",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 7,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              15,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/15",
+          "source_pointer": "/documents/136/attestations/15",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 7,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              16,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/16",
+          "source_pointer": "/documents/136/attestations/16",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 8,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              17,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/17",
+          "source_pointer": "/documents/136/attestations/17",
+          "source_fields": {
+            "sign": "RA",
+            "kind": "syllable",
+            "word": 8,
+            "series": "AB",
+            "number": 60,
+            "raw_flags": [
+              18,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/18",
+          "source_pointer": "/documents/136/attestations/18",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 9,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/19",
+          "source_pointer": "/documents/136/attestations/19",
+          "source_fields": {
+            "sign": "RU",
+            "kind": "syllable",
+            "word": 9,
+            "series": "AB",
+            "number": 26,
+            "raw_flags": [
+              20,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/20",
+          "source_pointer": "/documents/136/attestations/20",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": null,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              21,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/21",
+          "source_pointer": "/documents/136/attestations/21",
+          "source_fields": {
+            "sign": "*312",
+            "kind": "syllable",
+            "word": null,
+            "series": "A",
+            "number": 312,
+            "raw_flags": [
+              22,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/22",
+          "source_pointer": "/documents/136/attestations/22",
+          "source_fields": {
+            "sign": "KU",
+            "kind": "syllable",
+            "word": 10,
+            "series": "AB",
+            "number": 81,
+            "raw_flags": [
+              23,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/23",
+          "source_pointer": "/documents/136/attestations/23",
+          "source_fields": {
+            "sign": "*56",
+            "kind": "syllable",
+            "word": 10,
+            "series": "AB",
+            "number": 56,
+            "raw_flags": [
+              24,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/24",
+          "source_pointer": "/documents/136/attestations/24",
+          "source_fields": {
+            "sign": "NU",
+            "kind": "syllable",
+            "word": 10,
+            "series": "AB",
+            "number": 55,
+            "raw_flags": [
+              25,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/25",
+          "source_pointer": "/documents/136/attestations/25",
+          "source_fields": {
+            "sign": "TU",
+            "kind": "syllable",
+            "word": 11,
+            "series": "AB",
+            "number": 69,
+            "raw_flags": [
+              26,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/26",
+          "source_pointer": "/documents/136/attestations/26",
+          "source_fields": {
+            "sign": "SU",
+            "kind": "syllable",
+            "word": 11,
+            "series": "AB",
+            "number": 58,
+            "raw_flags": [
+              27,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/27",
+          "source_pointer": "/documents/136/attestations/27",
+          "source_fields": {
+            "sign": "PU₂",
+            "kind": "syllable",
+            "word": 11,
+            "series": "AB",
+            "number": 29,
+            "raw_flags": [
+              28,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/28",
+          "source_pointer": "/documents/136/attestations/28",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              29,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/29",
+          "source_pointer": "/documents/136/attestations/29",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": null,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              30,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/30",
+          "source_pointer": "/documents/136/attestations/30",
+          "source_fields": {
+            "sign": "TU",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 69,
+            "raw_flags": [
+              31,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/136/attestations/31",
+          "source_pointer": "/documents/136/attestations/31",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": null,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              32,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "KH 74",
+      "source_pointer": "/documents/466",
+      "source_context": {
+        "site": "Khania",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          3.6,
+          3.6,
+          1.2
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/0",
+          "source_pointer": "/documents/466/attestations/0",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 0,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/1",
+          "source_pointer": "/documents/466/attestations/1",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/2",
+          "source_pointer": "/documents/466/attestations/2",
+          "source_fields": {
+            "sign": "JA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 57,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/3",
+          "source_pointer": "/documents/466/attestations/3",
+          "source_fields": {
+            "sign": "DA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 1,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/4",
+          "source_pointer": "/documents/466/attestations/4",
+          "source_fields": {
+            "sign": "SU",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 58,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/5",
+          "source_pointer": "/documents/466/attestations/5",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/466/attestations/6",
+          "source_pointer": "/documents/466/attestations/6",
+          "source_fields": {
+            "sign": "*301 || *73",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 605,
+            "raw_flags": [
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "KH 8",
+      "source_pointer": "/documents/475",
+      "source_context": {
+        "site": "Khania",
+        "typology": "Tablet",
+        "period": "LM IB",
+        "dimensions_cm": [
+          7.7,
+          6.8,
+          1.3
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/0",
+          "source_pointer": "/documents/475/attestations/0",
+          "source_fields": {
+            "sign": "RE",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 27,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/1",
+          "source_pointer": "/documents/475/attestations/1",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 0,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/2",
+          "source_pointer": "/documents/475/attestations/2",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 1,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/3",
+          "source_pointer": "/documents/475/attestations/3",
+          "source_fields": {
+            "sign": "TA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 59,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/4",
+          "source_pointer": "/documents/475/attestations/4",
+          "source_fields": {
+            "sign": "*303 || D",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 624,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/5",
+          "source_pointer": "/documents/475/attestations/5",
+          "source_fields": {
+            "sign": "FIC",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 30,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/6",
+          "source_pointer": "/documents/475/attestations/6",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 2,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/7",
+          "source_pointer": "/documents/475/attestations/7",
+          "source_fields": {
+            "sign": "GRA",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 120,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/8",
+          "source_pointer": "/documents/475/attestations/8",
+          "source_fields": {
+            "sign": "*304",
+            "kind": "syllable",
+            "word": null,
+            "series": "A",
+            "number": 304,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/9",
+          "source_pointer": "/documents/475/attestations/9",
+          "source_fields": {
+            "sign": "FIC",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 30,
+            "raw_flags": [
+              10,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/10",
+          "source_pointer": "/documents/475/attestations/10",
+          "source_fields": {
+            "sign": "*303",
+            "kind": "syllable",
+            "word": null,
+            "series": "A",
+            "number": 303,
+            "raw_flags": [
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/11",
+          "source_pointer": "/documents/475/attestations/11",
+          "source_fields": {
+            "sign": "*100+[?]",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 567,
+            "raw_flags": [
+              12,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/12",
+          "source_pointer": "/documents/475/attestations/12",
+          "source_fields": {
+            "sign": "FIC",
+            "kind": "logogram",
+            "word": null,
+            "series": "AB",
+            "number": 30,
+            "raw_flags": [
+              13,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/13",
+          "source_pointer": "/documents/475/attestations/13",
+          "source_fields": {
+            "sign": "*312",
+            "kind": "syllable",
+            "word": null,
+            "series": "A",
+            "number": 312,
+            "raw_flags": [
+              14,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/475/attestations/14",
+          "source_pointer": "/documents/475/attestations/14",
+          "source_fields": {
+            "sign": "*16+[?]+*50",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 510,
+            "raw_flags": [
+              15,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "MA 10b",
+      "source_pointer": "/documents/651",
+      "source_context": {
+        "site": "Mallia",
+        "typology": "Tablet",
+        "period": "MM IIIB",
+        "dimensions_cm": [
+          8.5,
+          2.5,
+          2.8
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/0",
+          "source_pointer": "/documents/651/attestations/0",
+          "source_fields": {
+            "sign": "DU",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 51,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/1",
+          "source_pointer": "/documents/651/attestations/1",
+          "source_fields": {
+            "sign": "PI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 39,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/2",
+          "source_pointer": "/documents/651/attestations/2",
+          "source_fields": {
+            "sign": "TE",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 4,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/3",
+          "source_pointer": "/documents/651/attestations/3",
+          "source_fields": {
+            "sign": "WA",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 54,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/4",
+          "source_pointer": "/documents/651/attestations/4",
+          "source_fields": {
+            "sign": "*405VAS+{Ω}",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 655,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/5",
+          "source_pointer": "/documents/651/attestations/5",
+          "source_fields": {
+            "sign": "*412VAS+{E}",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 658,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/6",
+          "source_pointer": "/documents/651/attestations/6",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": null,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/7",
+          "source_pointer": "/documents/651/attestations/7",
+          "source_fields": {
+            "sign": "*404VAS+{*08}",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 654,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/8",
+          "source_pointer": "/documents/651/attestations/8",
+          "source_fields": {
+            "sign": "*37 || *412VAS",
+            "kind": "logogram",
+            "word": null,
+            "series": "A",
+            "number": 524,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/651/attestations/9",
+          "source_pointer": "/documents/651/attestations/9",
+          "source_fields": {
+            "sign": "",
+            "kind": "fraction",
+            "word": null,
+            "series": "A",
+            "number": 713,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "KN Zc 6",
+      "source_pointer": "/documents/644",
+      "source_context": {
+        "site": "Knossos",
+        "typology": "Cup",
+        "period": "MM III?",
+        "dimensions_cm": null
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/0",
+          "source_pointer": "/documents/644/attestations/0",
+          "source_fields": {
+            "sign": "*34",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 34,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/1",
+          "source_pointer": "/documents/644/attestations/1",
+          "source_fields": {
+            "sign": "TI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 37,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/2",
+          "source_pointer": "/documents/644/attestations/2",
+          "source_fields": {
+            "sign": "RI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 53,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/3",
+          "source_pointer": "/documents/644/attestations/3",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/4",
+          "source_pointer": "/documents/644/attestations/4",
+          "source_fields": {
+            "sign": "DI",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 7,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/5",
+          "source_pointer": "/documents/644/attestations/5",
+          "source_fields": {
+            "sign": "DA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 1,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/6",
+          "source_pointer": "/documents/644/attestations/6",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/7",
+          "source_pointer": "/documents/644/attestations/7",
+          "source_fields": {
+            "sign": "TI",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 37,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/8",
+          "source_pointer": "/documents/644/attestations/8",
+          "source_fields": {
+            "sign": "PA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 3,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/9",
+          "source_pointer": "/documents/644/attestations/9",
+          "source_fields": {
+            "sign": "KU",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 81,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/10",
+          "source_pointer": "/documents/644/attestations/10",
+          "source_fields": {
+            "sign": "NI",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 30,
+            "raw_flags": [
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/11",
+          "source_pointer": "/documents/644/attestations/11",
+          "source_fields": {
+            "sign": "JA",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 57,
+            "raw_flags": [
+              12,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/12",
+          "source_pointer": "/documents/644/attestations/12",
+          "source_fields": {
+            "sign": "NU",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 55,
+            "raw_flags": [
+              13,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/13",
+          "source_pointer": "/documents/644/attestations/13",
+          "source_fields": {
+            "sign": "JU",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 65,
+            "raw_flags": [
+              14,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/14",
+          "source_pointer": "/documents/644/attestations/14",
+          "source_fields": {
+            "sign": "KU",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 81,
+            "raw_flags": [
+              15,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/15",
+          "source_pointer": "/documents/644/attestations/15",
+          "source_fields": {
+            "sign": "NA",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 6,
+            "raw_flags": [
+              16,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/16",
+          "source_pointer": "/documents/644/attestations/16",
+          "source_fields": {
+            "sign": "PA",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 3,
+            "raw_flags": [
+              17,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/17",
+          "source_pointer": "/documents/644/attestations/17",
+          "source_fields": {
+            "sign": "KU",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 81,
+            "raw_flags": [
+              18,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/18",
+          "source_pointer": "/documents/644/attestations/18",
+          "source_fields": {
+            "sign": "NU",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 55,
+            "raw_flags": [
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/19",
+          "source_pointer": "/documents/644/attestations/19",
+          "source_fields": {
+            "sign": "U",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 10,
+            "raw_flags": [
+              20,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/20",
+          "source_pointer": "/documents/644/attestations/20",
+          "source_fields": {
+            "sign": "",
+            "kind": "blank",
+            "word": 3,
+            "series": "",
+            "number": null,
+            "raw_flags": [
+              0,
+              21,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/21",
+          "source_pointer": "/documents/644/attestations/21",
+          "source_fields": {
+            "sign": "I",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 28,
+            "raw_flags": [
+              22,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/644/attestations/22",
+          "source_pointer": "/documents/644/attestations/22",
+          "source_fields": {
+            "sign": "*79",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 79,
+            "raw_flags": [
+              23,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "ARKH 2",
+      "source_pointer": "/documents/2",
+      "source_context": {
+        "site": "Arkhanes",
+        "typology": "Tablet",
+        "period": "LM I",
+        "dimensions_cm": [
+          4.9,
+          7.5,
+          0.7
+        ]
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/0",
+          "source_pointer": "/documents/2/attestations/0",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/1",
+          "source_pointer": "/documents/2/attestations/1",
+          "source_fields": {
+            "sign": "DA",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 1,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/2",
+          "source_pointer": "/documents/2/attestations/2",
+          "source_fields": {
+            "sign": "TE",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 4,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/3",
+          "source_pointer": "/documents/2/attestations/3",
+          "source_fields": {
+            "sign": "KU",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 81,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/4",
+          "source_pointer": "/documents/2/attestations/4",
+          "source_fields": {
+            "sign": "RA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 60,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/5",
+          "source_pointer": "/documents/2/attestations/5",
+          "source_fields": {
+            "sign": "VIN",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 131,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/6",
+          "source_pointer": "/documents/2/attestations/6",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              7,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/7",
+          "source_pointer": "/documents/2/attestations/7",
+          "source_fields": {
+            "sign": "SI",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 41,
+            "raw_flags": [
+              8,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/8",
+          "source_pointer": "/documents/2/attestations/8",
+          "source_fields": {
+            "sign": "DA",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 1,
+            "raw_flags": [
+              9,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/9",
+          "source_pointer": "/documents/2/attestations/9",
+          "source_fields": {
+            "sign": "TO",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 5,
+            "raw_flags": [
+              10,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/10",
+          "source_pointer": "/documents/2/attestations/10",
+          "source_fields": {
+            "sign": "I",
+            "kind": "syllable",
+            "word": 2,
+            "series": "AB",
+            "number": 28,
+            "raw_flags": [
+              11,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/11",
+          "source_pointer": "/documents/2/attestations/11",
+          "source_fields": {
+            "sign": "*79",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 79,
+            "raw_flags": [
+              12,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/12",
+          "source_pointer": "/documents/2/attestations/12",
+          "source_fields": {
+            "sign": "*301",
+            "kind": "syllable",
+            "word": 3,
+            "series": "A",
+            "number": 301,
+            "raw_flags": [
+              13,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/13",
+          "source_pointer": "/documents/2/attestations/13",
+          "source_fields": {
+            "sign": "SE",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 9,
+            "raw_flags": [
+              14,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/14",
+          "source_pointer": "/documents/2/attestations/14",
+          "source_fields": {
+            "sign": "DE",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 45,
+            "raw_flags": [
+              15,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/15",
+          "source_pointer": "/documents/2/attestations/15",
+          "source_fields": {
+            "sign": "QI",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 21,
+            "raw_flags": [
+              16,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/16",
+          "source_pointer": "/documents/2/attestations/16",
+          "source_fields": {
+            "sign": "*118",
+            "kind": "syllable",
+            "word": 3,
+            "series": "AB",
+            "number": 118,
+            "raw_flags": [
+              17,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/17",
+          "source_pointer": "/documents/2/attestations/17",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 4,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              18,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/18",
+          "source_pointer": "/documents/2/attestations/18",
+          "source_fields": {
+            "sign": "SU",
+            "kind": "syllable",
+            "word": 4,
+            "series": "AB",
+            "number": 58,
+            "raw_flags": [
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/19",
+          "source_pointer": "/documents/2/attestations/19",
+          "source_fields": {
+            "sign": "PU",
+            "kind": "syllable",
+            "word": 4,
+            "series": "AB",
+            "number": 50,
+            "raw_flags": [
+              20,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/20",
+          "source_pointer": "/documents/2/attestations/20",
+          "source_fields": {
+            "sign": "WA",
+            "kind": "syllable",
+            "word": 4,
+            "series": "AB",
+            "number": 54,
+            "raw_flags": [
+              21,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/21",
+          "source_pointer": "/documents/2/attestations/21",
+          "source_fields": {
+            "sign": "RU",
+            "kind": "syllable",
+            "word": 5,
+            "series": "AB",
+            "number": 26,
+            "raw_flags": [
+              22,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/2/attestations/22",
+          "source_pointer": "/documents/2/attestations/22",
+          "source_fields": {
+            "sign": "MI",
+            "kind": "syllable",
+            "word": 5,
+            "series": "AB",
+            "number": 73,
+            "raw_flags": [
+              23,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    },
+    {
+      "source_record_id": "KN Zb 40",
+      "source_pointer": "/documents/642",
+      "source_context": {
+        "site": "Knossos",
+        "typology": "Pithoid jar",
+        "period": "LM II",
+        "dimensions_cm": null
+      },
+      "record_license": "CC BY-NC-SA 4.0",
+      "attestations": [
+        {
+          "attestation_id": "SIGLA-V4:/documents/642/attestations/0",
+          "source_pointer": "/documents/642/attestations/0",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/642/attestations/1",
+          "source_pointer": "/documents/642/attestations/1",
+          "source_fields": {
+            "sign": "PA",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 3,
+            "raw_flags": [
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/642/attestations/2",
+          "source_pointer": "/documents/642/attestations/2",
+          "source_fields": {
+            "sign": "KI",
+            "kind": "syllable",
+            "word": 0,
+            "series": "AB",
+            "number": 67,
+            "raw_flags": [
+              3,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/642/attestations/3",
+          "source_pointer": "/documents/642/attestations/3",
+          "source_fields": {
+            "sign": "U",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 10,
+            "raw_flags": [
+              4,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/642/attestations/4",
+          "source_pointer": "/documents/642/attestations/4",
+          "source_fields": {
+            "sign": "NA",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 6,
+            "raw_flags": [
+              5,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "attestation_id": "SIGLA-V4:/documents/642/attestations/5",
+          "source_pointer": "/documents/642/attestations/5",
+          "source_fields": {
+            "sign": "A",
+            "kind": "syllable",
+            "word": 1,
+            "series": "AB",
+            "number": 8,
+            "raw_flags": [
+              6,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "edition_line_alignment": null,
+      "physical_glyph_coordinates": null,
+      "raw_flags_interpretation": "UNDECODED",
+      "expert_validated": false,
+      "object_identity_certified": false
+    }
+  ],
+  "boundary": "Complete source encodings for the ten selected entries only. Source labels, editorial groups, blank slots, fractions, raw flags and competing encodings are preserved. Sign-series numbers are not quantities. No verified phonetic value, linguistic word, primary-edition equivalence, physical reading or source independence is inferred."
+}

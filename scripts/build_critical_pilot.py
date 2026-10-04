@@ -5,7 +5,7 @@ from pathlib import Path
 from build_edition_concordance import PIN, gorila_locator, key
 ROOT=Path(__file__).resolve().parents[1]
 INPUT='research/critical-pilot.json'
-OUTPUTS=['analysis/critical-pilot-audit.json','research/critical-disagreement-comparison.csv','reviews/critical-pilot-review.tsv','docs/CRITICAL-PILOT.md']
+OUTPUTS=['analysis/critical-pilot-audit.json','research/critical-disagreement-comparison.csv','reviews/critical-pilot-review.tsv','docs/CRITICAL-PILOT.md','research/critical-pilot-sigla-witness.json','research/critical-pilot-sigla-slots.csv']
 def digest(b): return hashlib.sha256(b).hexdigest()
 def dump(x): return json.dumps(x,ensure_ascii=False,indent=2)+'\n'
 def compact(x): return json.dumps(x,ensure_ascii=False,separators=(',',':'))
@@ -50,6 +50,10 @@ def validate(p,root=ROOT,raw=None):
   id=e['source_record_id'];require(id in by and e['source_pointer']==by[id]['source_pointer'],'source record/pointer mismatch')
   require(e['object_identity_certified'] is False and e['expert_validated'] is False and e['reading_adjudicated'] is False and e['join_status']=='UNASSESSED' and e['restoration_status']=='NO_NEW_RESTORATION_ENTERED','unsupported object, reading or restoration promotion')
   require(set(e['source_context'])=={'site','typology','period','dimensions_cm'},'source context schema drift')
+  attestations=e['source_attestations']
+  require(len(attestations)==e['source_attestation_count'],'selected witness slot coverage drift')
+  for a in attestations:
+   require(set(a)=={'sign','kind','word','series','number','raw_flags'} and isinstance(a['sign'],str) and isinstance(a['series'],str) and isinstance(a['raw_flags'],list) and all(isinstance(v,int) for v in a['raw_flags']),'source witness field loss or invented quantity')
   diag=e['source_encoding_diagnostics']
   require(diag['account_quantity_field']==diag['line_and_glyph_coordinates']=='NOT_SUPPLIED' and diag['raw_flags']=='PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS','source absence or raw flag promotion')
   require(all(isinstance(diag[k],int) and 0<=diag[k]<=e['source_attestation_count'] for k in ['editorial_groups','blank_slots','fraction_slots']),'invalid source encoding diagnostics')
@@ -78,11 +82,14 @@ def validate(p,root=ROOT,raw=None):
    prefix=by[expected]['source_pointer']+'/attestations/' if expected else 'NO_MATCH/'
    require(x['source_pointer'].startswith(prefix) and x['source_pointer'][len(prefix):].isdigit(),'attestation pointer misjoin')
    require(set(x['fields'])=={'sign','kind','series','number','word'},'sign-series field misrepresented as quantity')
+   selected=next(e for e in entries if e['source_record_id']==expected)['source_attestations']
+   index=int(x['source_pointer'].split('/')[-1]);require(index<len(selected) and x['fields']=={k:selected[index][k] for k in x['fields']},'comparison excerpt differs from full selected witness')
  if raw is not None:
   require(digest(raw)==PIN,'source checksum mismatch'); source=json.loads(raw)
   for e in entries:
    i=int(e['source_pointer'].split('/')[-1]);d=source['documents'][i]
    require(d['id']==e['source_record_id'] and e['source_context']=={k:d[k] for k in e['source_context']} and e['source_attestation_count']==len(d['attestations']),'authenticated context replay drift')
+   require(e['source_attestations']==d['attestations'],'full selected witness differs from authenticated source')
    a=d['attestations'];diag=e['source_encoding_diagnostics']
    require(diag['editorial_groups']==len({z['word'] for z in a if z['word'] is not None}) and diag['blank_slots']==sum(z['kind']=='blank' for z in a) and diag['fraction_slots']==sum(z['kind']=='fraction' for z in a),'source encoding diagnostic replay drift')
   for c in p['cases']:
@@ -93,6 +100,16 @@ def validate(p,root=ROOT,raw=None):
 
 def calculate(root=ROOT,raw=None):
  root=Path(root);p=validate(json.loads((root/INPUT).read_text()),root,raw);pages={q['page_id']:q for q in p['pages']};entries={e['source_record_id']:e for e in p['entries']}
+ witness_entries=[];slots=[]
+ for e in entries.values():
+  witnesses=[]
+  for i,a in enumerate(e['source_attestations']):
+   pointer=e['source_pointer']+'/attestations/'+str(i);identifier='SIGLA-V4:'+pointer
+   witnesses.append({'attestation_id':identifier,'source_pointer':pointer,'source_fields':a})
+   slots.append({'attestation_id':identifier,'source_record_id':e['source_record_id'],'source_pointer':pointer,'source_slot_index':i,'source_sign_label':a['sign'],'source_kind':a['kind'],'source_series':a['series'],'source_sign_number_json':compact(a['number']),'source_editorial_group_json':compact(a['word']),'source_raw_flags_json':compact(a['raw_flags']),'source_line_alignment':'UNKNOWN','physical_glyph_coordinates':'UNKNOWN','raw_flags_interpretation':'UNDECODED','physical_reading_adjudicated':'false','record_license':p['source_derived_metadata_license'],'source_attribution':p['source_attribution'],'source_snapshot_sha256':PIN,'source_release_url':p['source_url']})
+  witness_entries.append({'source_record_id':e['source_record_id'],'source_pointer':e['source_pointer'],'source_context':e['source_context'],'record_license':p['source_derived_metadata_license'],'attestations':witnesses,'edition_line_alignment':None,'physical_glyph_coordinates':None,'raw_flags_interpretation':'UNDECODED','expert_validated':False,'object_identity_certified':False})
+ witness=dump({'format':'linear-a-selected-sigla-witness-v1','source_sha256':PIN,'source_attribution':p['source_attribution'],'source_url':p['source_url'],'record_license':p['source_derived_metadata_license'],'source_entries':len(witness_entries),'source_attestation_slots':len(slots),'entries':witness_entries,'boundary':'Complete source encodings for the ten selected entries only. Source labels, editorial groups, blank slots, fractions, raw flags and competing encodings are preserved. Sign-series numbers are not quantities. No verified phonetic value, linguistic word, primary-edition equivalence, physical reading or source independence is inferred.'})
+ slot_table=table(slots,list(slots[0]))
  def cite(a):
   if a['source_id'] in pages:
    q=pages[a['source_id']];return f"GORILA {q['volume']}, printed p. {q['printed_page']}, viewer {q['viewer_page']}: {a['locator_detail']} ({q['url']})"
@@ -119,10 +136,13 @@ def calculate(root=ROOT,raw=None):
  lines.extend(['## Fifteen unresolved comparisons','','Legacy alternatives are preserved project queue strings. They do not become verified Raison–Pope, GORILA or SigLA witness readings merely by appearing here. Exact authenticated excerpts and inspected edition facts are separate columns in the CSV.','','| Case | Project alternatives | Current source-bound assessment |','|---|---|---|'])
  for c in comparisons:lines.append('| '+ ' | '.join(x.replace('|','\\|') for x in [c['case_id']+' / '+c['legacy_document_id'],c['legacy_alternatives'],c['review_note']])+' |')
  lines.extend(['','## Acquisition barriers and negative evidence','','GORILA IV viewer page 126 is blank, has no printed page number and is not a continuation of KN Zb 40. It has no entry binding or field assertions. Multiple representations of an inscription in GORILA share the same edition lineage.','','Flouda 2013, pp. 160 and 162: initially consulted indexed publication text was supplemented by direct public LibreTexts reprint HTML and Figure 15 inspection. Panel a is KN Zc 6; panel b is KN Zc 7 and excluded. The separately inspected Figure 16a ring image is excluded from cup assertions. Publisher, institutional PDF and OAPEN direct routes returned HTTP 403; the web PDF parser also rejected its 15,064,351-byte size. The original PDF remains unacquired; no access control was bypassed. Flouda cites GORILA and is not presumed an independent object witness. Exact reprint URLs and acquired-byte hashes are in the source record.','','## Remaining scholarly work','']+[str(i)+'. '+q for i,q in enumerate(p['next_review_requirements'],1)]+['','## Rights and attribution','',p['source_attribution']+'. '+p['rights'],''])
+ lines.extend(['## Downloadable source witness','','[Selected SigLA witness JSON](../research/critical-pilot-sigla-witness.json) and [the 168-slot source CSV](../research/critical-pilot-sigla-slots.csv) retain every attestation field for the ten selected source entries, including empty labels, raw flags, fractions and source editorial groups. Stable attestation IDs are snapshot-qualified exact JSON pointers. Edition line alignment and physical glyph coordinates remain unknown. This is a complete selected-source encoding export, not a full multi-edition critical transcription or an expert reading.','','Both exports retain SigLA CC BY-NC-SA 4.0 and attribution to Ester Salgarella and Simon Castellan via Ryan Pavlicek/pyaegean. The remainder of the 802-entry source snapshot is not bundled by this pilot.',''])
  guide='\n'.join(lines)
  assertions=[a for e in entries.values() for a in e['assertions']];q=[a for a in assertions if a['field']=='editorial_quantities']
  report={'format':'linear-a-critical-pilot-audit-v1','scope':p['scope'],'source_sha256':PIN,'input_hashes':{x:digest((root/x).read_bytes()) for x in [INPUT,'data/unresolved_cases.csv','research/edition-concordance.csv']},'pilot_source_entries':len(entries),'source_reported_sites':dict(collections.Counter(e['source_context']['site'] for e in entries.values())),'source_reported_forms':dict(collections.Counter(e['source_context']['typology'] for e in entries.values())),'inspected_page_images':len(pages),'identified_target_page_images':sum(bool(q['document_ids']) for q in pages.values()),'blank_adjacent_page_negative_checks':sum(q['finding']=='NO_TARGET_ENTRY_BLANK_PAGE' for q in pages.values()),'supplementary_reprint_acquisitions':4,'supplementary_target_figures_inspected':1,'supplementary_non_target_figure_negative_checks':1,'field_assertions':len(assertions),'assertion_levels':dict(collections.Counter(a['level'] for a in assertions)),'entries_with_primary_edition_quantities':len(q),'printed_edition_quantity_assertions':sum(len(a['value']) for a in q),'comparison_cases':len(comparisons),'case_source_join_status':dict(collections.Counter(c['source_join_status'] for c in comparisons)),'unreviewed_review_items':len(review),'expert_reviews':0,'canonical_readings_added':0,'certified_physical_objects':None,'independent_object_confirmation':False,'raison_pope_status':p['raison_pope_status'],'prospective_outcomes_inspected':False,'generated_hashes':{OUTPUTS[1]:digest(comparison.encode()),OUTPUTS[2]:digest(sheet.encode()),OUTPUTS[3]:digest(guide.encode())},'boundary':'A bounded, source-traced metadata and disagreement pilot. Reproducibility verifies identity/encoding/view integrity, not physical epigraphy, source independence, full critical transcription or scholarly parity.'}
- return dict(zip(OUTPUTS,[dump(report),comparison,sheet,guide]))
+ report.update(public_source_witness_entries=len(witness_entries),public_source_witness_slots=len(slots),source_slot_kinds=dict(collections.Counter(s['source_kind'] for s in slots)),source_editorial_groups=sum(e['source_encoding_diagnostics']['editorial_groups'] for e in entries.values()))
+ report['generated_hashes'].update({OUTPUTS[4]:digest(witness.encode()),OUTPUTS[5]:digest(slot_table.encode())})
+ return dict(zip(OUTPUTS,[dump(report),comparison,sheet,guide,witness,slot_table]))
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('source',nargs='?');parser.add_argument('--check',action='store_true');parser.add_argument('--verify-assets',type=Path);args=parser.parse_args();raw=Path(args.source).read_bytes() if args.source else None
  out=calculate(raw=raw)

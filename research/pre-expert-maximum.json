@@ -77,5 +77,5 @@
   ],
   "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker.",
   "machine_pass_evidence": "analysis/pre-expert-source-audit.json",
-  "public_record_boundary": "Aggregate audit and reproduction code are committed. Authenticated record derivatives are local and ignored; no restricted raw payloads or record derivatives are newly published."
+  "public_record_boundary": "The full 802-entry authenticated derivative remains local and ignored. The declared critical pilot publishes only ten selected SigLA source entries / 168 attestation slots and source-derived comparison metadata under retained CC BY-NC-SA 4.0 with attribution. No GORILA images, complete edition transcription, restricted payload or independent expert approval is published. See analysis/critical-pilot-audit.json for the current bounded public export."
 }

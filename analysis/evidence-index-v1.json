@@ -153,8 +153,8 @@
     },
     {
       "path": "research/pre-expert-maximum.json",
-      "sha256": "d17447e756e5c27a06bdd2944f08d3461b1b4c2c95bf9a3e6d688fe3a00ce1bf",
-      "bytes": 4601,
+      "sha256": "65bb4db33a4a0df9b4c85944c9dbb149ddb0ac1c2dab9e3f194d405d59142207",
+      "bytes": 4874,
       "category": "research",
       "summary": {}
     },
@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "de3bee0a9de4febe5e0e884e4c39d80ec2c40f8efe1685aa3a53790af5630e3b",
-      "bytes": 5524,
+      "sha256": "254c4f803cca53e2e008be82daa1ed8454dcbf06d38def7d69f34f89e669788d",
+      "bytes": 6359,
       "category": "docs",
       "summary": {}
     },
@@ -259,8 +259,8 @@
     },
     {
       "path": "research/critical-pilot.json",
-      "sha256": "cbb889de2cb7d1bd4aa80c44907b865e9aa37dbd10e793602274cfb31bcac6e8",
-      "bytes": 59591,
+      "sha256": "d31b1ffacf86369efdef6966344f0423e66be56959ae69dc88493cebc640de16",
+      "bytes": 101398,
       "category": "research",
       "summary": {
         "format": "linear-a-critical-pilot-v1",
@@ -269,8 +269,8 @@
     },
     {
       "path": "analysis/critical-pilot-audit.json",
-      "sha256": "906fdeb3d56e95808e6d252637c71ab0897317cabfac63a761721a4ee360d643",
-      "bytes": 2410,
+      "sha256": "058d864146131b952c9b1ae94e5fcb33f33400b745b06593fc630df00d11a81c",
+      "bytes": 2859,
       "category": "analysis",
       "summary": {
         "format": "linear-a-critical-pilot-audit-v1",
@@ -294,22 +294,22 @@
     },
     {
       "path": "docs/CRITICAL-PILOT.md",
-      "sha256": "d5311a9c8ddcb6ef16207ca45d4dbd7c80bc7365b26ca31a98901fdfe5d2802b",
-      "bytes": 30096,
+      "sha256": "f5a681ed16c5834bdeed112656afa5871b0024fa4f81985e397e401233acb632",
+      "bytes": 30885,
       "category": "docs",
       "summary": {}
     },
     {
       "path": "scripts/build_critical_pilot.py",
-      "sha256": "7cdf310e7552f2ff9c2fcd276682cd377fc49c55106d06d8bce602b173dff5e9",
-      "bytes": 20537,
+      "sha256": "a86cb4e3df22291078cb473be676d7d07899be7b9a6ed4bfcf558a6a5a927847",
+      "bytes": 24767,
       "category": "scripts",
       "summary": {}
     },
     {
       "path": "scripts/test_critical_pilot.py",
-      "sha256": "11ab428f295596f360593c6ca3ab35c1d1e319639b7fa40fd65e058d1e33b3e4",
-      "bytes": 4552,
+      "sha256": "fbbb9106dd2a36f81332ae0cb578a71ed5a9704a4177f9bef6a683a712af1ba1",
+      "bytes": 5831,
       "category": "scripts",
       "summary": {}
     },
@@ -318,6 +318,24 @@
       "sha256": "71401753f835436a3173814d2f7b8e5034236ab4aacfbedccfd76aeeb2bb0a02",
       "bytes": 3455,
       "category": ".github",
+      "summary": {}
+    },
+    {
+      "path": "research/critical-pilot-sigla-witness.json",
+      "sha256": "41cc266334f626e357a8c303aa97f9c8ac1cfb8044dd716f8d8e9913e5abd0f8",
+      "bytes": 80263,
+      "category": "research",
+      "summary": {
+        "format": "linear-a-selected-sigla-witness-v1",
+        "boundary": "Complete source encodings for the ten selected entries only. Source labels, editorial groups, blank slots, fractions, raw flags and competing encodings are preserved. Sign-series numbers are not quantities. No verified phonetic value, linguistic word, primary-edition equivalence, physical reading or source independence is inferred.",
+        "record_license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "path": "research/critical-pilot-sigla-slots.csv",
+      "sha256": "e39694f89de8a71571f1871150050c86377928caf161c4c1178eacbe9fcd4ab3",
+      "bytes": 68943,
+      "category": "research",
       "summary": {}
     }
   ],

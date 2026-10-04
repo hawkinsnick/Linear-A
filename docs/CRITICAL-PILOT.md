@@ -205,3 +205,9 @@ Flouda 2013, pp. 160 and 162: initially consulted indexed publication text was s
 ## Rights and attribution
 
 Ester Salgarella and Simon Castellan, SigLA, via Ryan Pavlicek/pyaegean sigla-corpus-v4. Mixed dossier retains source-specific terms: SigLA metadata/excerpts CC BY-NC-SA 4.0; original brief annotations and tools under repository contribution terms; no GORILA pages, full transcriptions or Flouda text reproduced. No new grant over third-party material.
+
+## Downloadable source witness
+
+[Selected SigLA witness JSON](../research/critical-pilot-sigla-witness.json) and [the 168-slot source CSV](../research/critical-pilot-sigla-slots.csv) retain every attestation field for the ten selected source entries, including empty labels, raw flags, fractions and source editorial groups. Stable attestation IDs are snapshot-qualified exact JSON pointers. Edition line alignment and physical glyph coordinates remain unknown. This is a complete selected-source encoding export, not a full multi-edition critical transcription or an expert reading.
+
+Both exports retain SigLA CC BY-NC-SA 4.0 and attribution to Ester Salgarella and Simon Castellan via Ryan Pavlicek/pyaegean. The remainder of the 802-entry source snapshot is not bundled by this pilot.

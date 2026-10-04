@@ -51,6 +51,20 @@ class PilotTests(unittest.TestCase):
     target=root/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes((m.ROOT/path).read_bytes())
    with (root/'data/unresolved_cases.csv').open('a') as f:f.write('\n')
    with self.assertRaisesRegex(ValueError,'input drift'):m.validate(self.p,root)
+ def test_complete_witness_and_comparison_cannot_diverge(self):
+  self.reject(lambda p:p['entries'][0]['source_attestations'].pop(),'slot coverage')
+  self.reject(lambda p:p['cases'][2]['authenticated_source_excerpts'][0]['fields'].update(sign='invented'),'differs from full selected witness')
+  self.reject(lambda p:p['entries'][0]['source_attestations'][0].update(quantity=37),'invented quantity')
+ def test_standalone_export_preserves_blanks_uncertainty_and_rights(self):
+  out=m.calculate();w=json.loads(out[m.OUTPUTS[4]]);slots=list(csv.DictReader(io.StringIO(out[m.OUTPUTS[5]])))
+  self.assertEqual(w['source_attestation_slots'],168);self.assertEqual(len(slots),168)
+  self.assertEqual(len({s['attestation_id'] for s in slots}),168)
+  self.assertTrue(all(s['record_license']=='CC BY-NC-SA 4.0' and 'Salgarella' in s['source_attribution'] and s['source_line_alignment']=='UNKNOWN' and s['raw_flags_interpretation']=='UNDECODED' for s in slots))
+  source=[a for e in self.p['entries'] for a in e['source_attestations']]
+  exported=[a['source_fields'] for e in w['entries'] for a in e['attestations']]
+  self.assertEqual(source,exported)
+  self.assertTrue(any(a['kind']=='blank' and a['sign']=='' for a in exported))
+  self.assertTrue(any('?' in a['sign'] for a in exported))
  def test_quantity_not_found_in_number_field_and_all_reviews_blank(self):
   out=m.calculate();rows=list(csv.DictReader(io.StringIO(out[m.OUTPUTS[1]])));ht=next(c for c in rows if c['case_id']=='U001')
   self.assertEqual(json.loads(ht['authenticated_source_excerpts_json']),[])

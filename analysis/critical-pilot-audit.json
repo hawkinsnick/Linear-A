@@ -3,7 +3,7 @@
   "scope": "10 declared source entries, not 10 certified objects; bounded critical metadata and disagreement pilot, not a complete critical transcription.",
   "source_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
   "input_hashes": {
-    "research/critical-pilot.json": "cbb889de2cb7d1bd4aa80c44907b865e9aa37dbd10e793602274cfb31bcac6e8",
+    "research/critical-pilot.json": "d31b1ffacf86369efdef6966344f0423e66be56959ae69dc88493cebc640de16",
     "data/unresolved_cases.csv": "21f326f53f605e4703cbcb787373701ed594ef9fc1c49ce67c0d6b64f7396004",
     "research/edition-concordance.csv": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2"
   },
@@ -49,7 +49,18 @@
   "generated_hashes": {
     "research/critical-disagreement-comparison.csv": "fbc8813175289ea19c40ba171bfa033f8d0b5016b9780ba3f300a06333afc2aa",
     "reviews/critical-pilot-review.tsv": "23d708b7ad08ae15ca8c1232dafd0005c6917e5c3751885eb42f0277a5abfe41",
-    "docs/CRITICAL-PILOT.md": "d5311a9c8ddcb6ef16207ca45d4dbd7c80bc7365b26ca31a98901fdfe5d2802b"
+    "docs/CRITICAL-PILOT.md": "f5a681ed16c5834bdeed112656afa5871b0024fa4f81985e397e401233acb632",
+    "research/critical-pilot-sigla-witness.json": "41cc266334f626e357a8c303aa97f9c8ac1cfb8044dd716f8d8e9913e5abd0f8",
+    "research/critical-pilot-sigla-slots.csv": "e39694f89de8a71571f1871150050c86377928caf161c4c1178eacbe9fcd4ab3"
   },
-  "boundary": "A bounded, source-traced metadata and disagreement pilot. Reproducibility verifies identity/encoding/view integrity, not physical epigraphy, source independence, full critical transcription or scholarly parity."
+  "boundary": "A bounded, source-traced metadata and disagreement pilot. Reproducibility verifies identity/encoding/view integrity, not physical epigraphy, source independence, full critical transcription or scholarly parity.",
+  "public_source_witness_entries": 10,
+  "public_source_witness_slots": 168,
+  "source_slot_kinds": {
+    "syllable": 119,
+    "logogram": 23,
+    "blank": 18,
+    "fraction": 8
+  },
+  "source_editorial_groups": 41
 }

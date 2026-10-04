@@ -424,7 +424,165 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "U",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 10,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*34",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 34,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "GRA",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 120,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DU",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 51,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "AROM",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 123,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*120 || (L3+L3)",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 586,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*188",
+          "kind": "blank",
+          "word": null,
+          "series": "AB",
+          "number": 188,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            11,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RE",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 27,
+          "raw_flags": [
+            12,
+            1,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "HT 17",
@@ -525,7 +683,153 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "RA",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 60,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*164",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 164,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 37,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TE",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 4,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": null,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            5,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "VIN",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 164,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 31,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DA",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 1,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RE",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 27,
+          "raw_flags": [
+            11,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "HT 34",
@@ -587,7 +891,388 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "DA",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 1,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "JU",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 65,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TE",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 4,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*28+[?]",
+          "kind": "syllable",
+          "word": 1,
+          "series": "A",
+          "number": 516,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SA",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 31,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RA₂",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 76,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "(*73?+*57?) | *77",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 552,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 702,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "E",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 38,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "GRA",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 120,
+          "raw_flags": [
+            11,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*38+[?]",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 525,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 706,
+          "raw_flags": [
+            13,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 708,
+          "raw_flags": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*16+[?]+*50",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 510,
+          "raw_flags": [
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 701,
+          "raw_flags": [
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*16+[?]+*27",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 508,
+          "raw_flags": [
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 704,
+          "raw_flags": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "(*73?+*57?) | *26",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 550,
+          "raw_flags": [
+            19,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "(*31+*23) || *81",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 521,
+          "raw_flags": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*56",
+          "kind": "blank",
+          "word": null,
+          "series": "AB",
+          "number": 56,
+          "raw_flags": [
+            21,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": null,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            22,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            23,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            24,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": null,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            25,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*38+*77",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 526,
+          "raw_flags": [
+            26,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 708,
+          "raw_flags": [
+            27,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PU",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 50,
+          "raw_flags": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 705,
+          "raw_flags": [
+            29,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "HT 49a",
@@ -640,7 +1325,432 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 0,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RA₂",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 76,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DU",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 51,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 59,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 6,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TI",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 37,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 2,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RI",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 53,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SU",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 58,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 5,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            11,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TI",
+          "kind": "syllable",
+          "word": 6,
+          "series": "AB",
+          "number": 37,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DU",
+          "kind": "syllable",
+          "word": 6,
+          "series": "AB",
+          "number": 51,
+          "raw_flags": [
+            13,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NI",
+          "kind": "syllable",
+          "word": 6,
+          "series": "AB",
+          "number": 30,
+          "raw_flags": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 7,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 7,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 8,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RA",
+          "kind": "syllable",
+          "word": 8,
+          "series": "AB",
+          "number": 60,
+          "raw_flags": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 9,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            19,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RU",
+          "kind": "syllable",
+          "word": 9,
+          "series": "AB",
+          "number": 26,
+          "raw_flags": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": null,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            21,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*312",
+          "kind": "syllable",
+          "word": null,
+          "series": "A",
+          "number": 312,
+          "raw_flags": [
+            22,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 10,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            23,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*56",
+          "kind": "syllable",
+          "word": 10,
+          "series": "AB",
+          "number": 56,
+          "raw_flags": [
+            24,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NU",
+          "kind": "syllable",
+          "word": 10,
+          "series": "AB",
+          "number": 55,
+          "raw_flags": [
+            25,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TU",
+          "kind": "syllable",
+          "word": 11,
+          "series": "AB",
+          "number": 69,
+          "raw_flags": [
+            26,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SU",
+          "kind": "syllable",
+          "word": 11,
+          "series": "AB",
+          "number": 58,
+          "raw_flags": [
+            27,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PU₂",
+          "kind": "syllable",
+          "word": 11,
+          "series": "AB",
+          "number": 29,
+          "raw_flags": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            29,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": null,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            30,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TU",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 69,
+          "raw_flags": [
+            31,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": null,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            32,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "KH 74",
@@ -693,7 +1803,101 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 0,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "JA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 57,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 1,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SU",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 58,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*301 || *73",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 605,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "KH 8",
@@ -746,7 +1950,207 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "RE",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 27,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 0,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 1,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 59,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*303 || D",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 624,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "FIC",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 30,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 2,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "GRA",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 120,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*304",
+          "kind": "syllable",
+          "word": null,
+          "series": "A",
+          "number": 304,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "FIC",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 30,
+          "raw_flags": [
+            10,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*303",
+          "kind": "syllable",
+          "word": null,
+          "series": "A",
+          "number": 303,
+          "raw_flags": [
+            11,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*100+[?]",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 567,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "FIC",
+          "kind": "logogram",
+          "word": null,
+          "series": "AB",
+          "number": 30,
+          "raw_flags": [
+            13,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*312",
+          "kind": "syllable",
+          "word": null,
+          "series": "A",
+          "number": 312,
+          "raw_flags": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*16+[?]+*50",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 510,
+          "raw_flags": [
+            15,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "MA 10b",
@@ -790,7 +2194,140 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "DU",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 51,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 39,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TE",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 4,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "WA",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 54,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*405VAS+{Ω}",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 655,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*412VAS+{E}",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 658,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": null,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*404VAS+{*08}",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 654,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*37 || *412VAS",
+          "kind": "logogram",
+          "word": null,
+          "series": "A",
+          "number": 524,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "fraction",
+          "word": null,
+          "series": "A",
+          "number": 713,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "KN Zc 6",
@@ -902,7 +2439,309 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "*34",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 34,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 37,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 53,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DI",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 7,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 1,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TI",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 37,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 3,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NI",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 30,
+          "raw_flags": [
+            11,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "JA",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 57,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NU",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 55,
+          "raw_flags": [
+            13,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "JU",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 65,
+          "raw_flags": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NA",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 6,
+          "raw_flags": [
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PA",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 3,
+          "raw_flags": [
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NU",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 55,
+          "raw_flags": [
+            19,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "U",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 10,
+          "raw_flags": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "",
+          "kind": "blank",
+          "word": 3,
+          "series": "",
+          "number": null,
+          "raw_flags": [
+            0,
+            21,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "I",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 28,
+          "raw_flags": [
+            22,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*79",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 79,
+          "raw_flags": [
+            23,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "ARKH 2",
@@ -998,7 +2837,308 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DA",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 1,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TE",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 4,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 60,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "VIN",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 131,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SI",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 41,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DA",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 1,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "TO",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 5,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "I",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 28,
+          "raw_flags": [
+            11,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*79",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 79,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*301",
+          "kind": "syllable",
+          "word": 3,
+          "series": "A",
+          "number": 301,
+          "raw_flags": [
+            13,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SE",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 9,
+          "raw_flags": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "DE",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 45,
+          "raw_flags": [
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "QI",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 21,
+          "raw_flags": [
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "*118",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 118,
+          "raw_flags": [
+            17,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "SU",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 58,
+          "raw_flags": [
+            19,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PU",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 50,
+          "raw_flags": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "WA",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 54,
+          "raw_flags": [
+            21,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RU",
+          "kind": "syllable",
+          "word": 5,
+          "series": "AB",
+          "number": 26,
+          "raw_flags": [
+            22,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "MI",
+          "kind": "syllable",
+          "word": 5,
+          "series": "AB",
+          "number": 73,
+          "raw_flags": [
+            23,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "source_record_id": "KN Zb 40",
@@ -1059,7 +3199,87 @@
         "account_quantity_field": "NOT_SUPPLIED",
         "line_and_glyph_coordinates": "NOT_SUPPLIED",
         "raw_flags": "PRESERVED_UPSTREAM_UNDECODED_NOT_INTERPRETED_AS_DAMAGE_OR_LINE_NUMBERS"
-      }
+      },
+      "source_attestations": [
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "PA",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 3,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "KI",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 67,
+          "raw_flags": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "U",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 10,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "NA",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 6,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "A",
+          "kind": "syllable",
+          "word": 1,
+          "series": "AB",
+          "number": 8,
+          "raw_flags": [
+            6,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "cases": [
@@ -1515,5 +3735,6 @@
     "Verify fragment/face joins, restorations and modern inventory identities against catalogue or object evidence.",
     "Acquire a lawful Raison–Pope edition and establish entry-level crosswalks before claiming parity.",
     "Expand the critical transcription and graphical uncertainty layer beyond this bounded metadata pilot."
-  ]
+  ],
+  "public_source_witness_scope": "All 168 attestation slots of the ten selected source entries, retaining source fields and editorial grouping; not a full multi-edition critical transcription or object reading."
 }

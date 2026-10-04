@@ -28,7 +28,7 @@
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; Ten-entry critical metadata pilot with exact source pointers and 31 attributed field assertions; 15 legacy disagreements retained with source-trace gaps; 25 unreviewed review items. Raison–Pope, full critical transcription, physical identities and independent expert review remain open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; public ten-entry SigLA witness with all 168 source slots and 41 editorial groups; 31 attributed field assertions, 15 preserved legacy comparisons, 25 unreviewed review items. Raison–Pope, full multi-edition critical transcription, physical identities and independent expert review remain open.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
