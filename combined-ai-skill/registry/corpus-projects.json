@@ -253,8 +253,8 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "85d351d89a3737b35988cfe23addaba551c3472c",
-        "published_commit": "85d351d89a3737b35988cfe23addaba551c3472c",
+        "source_commit": "24eb53472f698ec00fb1d2f44c6c0eb5308fc57d",
+        "published_commit": "24eb53472f698ec00fb1d2f44c6c0eb5308fc57d",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },
