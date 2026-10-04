@@ -295,7 +295,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
-      "current_gate": "PRE_EXPERT_MAXIMUM tracked gate (not an exhaustion claim): Primary publication comparison: TM1002268 has an unresolved fragment/complete-formula discrepancy; TM1002269 matches the short printed reading, with a longer competing restoration retained. Three explicit UD-dependent lineages, 159 unjoined TM groups; no independent collation or canonical admission.",
+      "current_gate": "PRE_EXPERT_MAXIMUM tracked gate (not an exhaustion claim): Primary PDF replay locates TM1002268 full string in Anfosso p. 112 general formula, not the p. 113 fragment; object-specific reading support excluded. External catalogue bridge and upstream intent unresolved. TM1002269 short edition text matches, with longer alternative retained. Three dependent lineages; 159 unjoined TM groups; no independent collation or canonical admission.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -314,8 +314,8 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-04",
-        "source_commit": "f7e747d70de581955545303946e6ba90d668a246",
-        "published_commit": "97b5e6dce1ea7596c224e1b19274d0c9ec670ec4",
+        "source_commit": "756493cd9aff743fbb70417000b1d6a675356b56",
+        "published_commit": "eab6eeadbf6e9d66da25a6b78715d77a22151889",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
       }
     },

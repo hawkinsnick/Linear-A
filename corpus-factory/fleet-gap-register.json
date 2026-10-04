@@ -69,9 +69,9 @@
     },
     {
       "repo": "Phrygian",
-      "evidence_depth": "MEDIUM_WITH_PRIMARY_TEXT_COMPARISON_AND_OPEN_DISCREPANCY",
-      "coverage_state": "3 of 162 TM groups have explicit edition lineage; 159 unjoined. Two newer primary publications compared: one short text match with alternative restoration, one unresolved fragment/complete-formula discrepancy. Independent collation and canonical admissions remain zero.",
-      "top_gap": "resolve TM1002268 source/representation discrepancy using primary images and catalogue join; adjudicate TM1002269 competing restoration through collation; extend exact edition lineage",
+      "evidence_depth": "MEDIUM_WITH_PRIMARY_PDF_REPLAY_AND_OPEN_IDENTITY_BRIDGE",
+      "coverage_state": "3 of 162 explicit edition lineages; 159 unjoined. TM1002268 string located in general formula rather than object fragment; source bytes and pages replayed. TM1002269 short text matches with alternative retained. Independent collation and canonical admissions remain zero.",
+      "top_gap": "resolve TM1002268 catalogue bridge and upstream assignment intent (both public TM routes HTTP 502); independently collate TM1002269 competing restoration; extend edition lineage",
       "status_source": "analysis/new-primary-comparison.json"
     },
     {
