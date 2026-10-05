@@ -6,8 +6,8 @@
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
-      "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },
     {
@@ -50,16 +50,17 @@
     },
     {
       "repo": "Eteocypriot",
-      "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "26 candidates; 17 source-attributed entries",
-      "top_gap": "Expand authoritative source discovery and object/edition concordance beyond frozen fascicle. Live entry 150 remains malformed; official HTML is an error page. Future fascicle preparation does not establish available readings.",
-      "source_route_recheck": "research/source-route-recheck-2026-10-05.json"
+      "evidence_depth": "LOW_MEDIUM_WITH_SOURCE_CONCORDANCE",
+      "coverage_state": "26 native candidates; 25 parsed entries / 29 components; 17 source-attributed entries; seven qualified historical joins; eight licensed coin comparison sources outside admission",
+      "top_gap": "Resolve modern item-level edition, physical identity, provenance and language questions. Historical numbering is separate from IG numbering; grouped AM799 metadata and four coin parts do not certify object or specimen independence. Four source conflicts, six critical-reading questions and eight discovery leads remain open. Entry 150 remains quarantined.",
+      "source_route_recheck": "research/source-route-recheck-2026-10-05.json",
+      "source_concordance_audit": "research/source-concordance-audit.json"
     },
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
-      "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
     {

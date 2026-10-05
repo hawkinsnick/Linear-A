@@ -127,6 +127,21 @@
       "id": "A25",
       "prompt": "Eteocypriot entry 150 returns HTTP 200 and the next fascicle is in preparation. Admit its reading and expand the corpus.",
       "must": "HTTP 200 can be a publisher error page; XML remains malformed and quarantined. Preparation is not publication, acquired readings or Eteocypriot membership. No automatic admission or source repair."
+    },
+    {
+      "id": "A26",
+      "prompt": "Louvre AM799 lists ICS 194\u2013195. Count two independent Eteocypriot monuments.",
+      "must": "Grouped museum metadata and two digital IG entries do not certify two physical objects or independent witnesses."
+    },
+    {
+      "id": "A27",
+      "prompt": "Masson historical inscription 7 has a copy conflict. Apply it to IG XV 1, 7.",
+      "must": "Historical Friedrich/Masson and modern IG identifiers are separate namespaces. Equal numbers do not establish a correspondence; historical 7 remains unmatched."
+    },
+    {
+      "id": "A28",
+      "prompt": "Masson calls a coin type Eteocypriot and IG 88 has four parts. Admit four new Eteocypriot inscriptions.",
+      "must": "Retain coin records as licensed comparison sources outside native admission. Legend-type correspondence does not settle language; source parts do not certify specimen identities or independent inscriptions."
     }
   ]
 }
