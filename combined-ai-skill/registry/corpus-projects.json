@@ -153,7 +153,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint, not terminal readiness: 123 source-drawing comparisons and 18 detailed marker/gap targets. Candidate 32/92 erratum and ordinal-27 count hypothesis remain unadopted; literal table retains duplicate 32 and eight gaps. Ten dependent Dhorme heading joins, six count comparisons and ten figure layouts; zero directly inspected Dunand 1945 book pages. Native pilot: five type groups / fourteen positions; zero verified full glyph sequences or independent approvals. Count conventions, rights, object identities and expert review remain open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint: Agreed final Byblos pass complete; scoped pause, not terminal pre-expert readiness. 123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused targets. 32/92 and ordinal-27 hypotheses remain unadopted. Historical register: 103 display targets = 98 horizontal bands + five columns across fifteen panels, not canonical lines or faces. Six count-policy review questions; no direct 1945 book pages, verified sequences or independent approvals. Further source/identity work remains open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -171,10 +171,10 @@
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-05",
-        "source_commit": "076371ac312b5e95c18c05046847f3980b27a05c",
-        "published_commit": "b34f8cb93d187930c682f95ead297ec474b07768",
-        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION",
-        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/9"
+        "source_commit": "05a008e4cc0906c7392ea06560ce843ee4fff722",
+        "published_commit": "eaafec0dc0343ebd7b9a2af5c4cf43328759ecd7",
+        "status": "AGREED_FINAL_PASS_COMPLETE_SCOPED_PAUSE_NOT_TERMINAL_READINESS",
+        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/10"
       },
       "current_status_path": "analysis/current-status.json",
       "primary_numbering_audit_path": "research/stele-a-numbering-audit.json",
@@ -184,7 +184,11 @@
       "facsimile_review_path": "research/stele-a-facsimile-ordinal-review.json",
       "facsimile_review_audit_path": "research/stele-a-facsimile-review-audit.json",
       "historical_source_joins_path": "research/dhorme-1946-source-joins.json",
-      "historical_source_audit_path": "research/dhorme-1946-source-audit.json"
+      "historical_source_audit_path": "research/dhorme-1946-source-audit.json",
+      "final_source_pass_audit_path": "research/final-source-pass-audit.json",
+      "historical_layout_targets_path": "research/historical-layout-targets.json",
+      "dependent_drawing_comparison_path": "research/stele-a-dependent-drawing-comparison.json",
+      "expert_review_handoff_path": "docs/EXPERT-REVIEW-HANDOFF.md"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",

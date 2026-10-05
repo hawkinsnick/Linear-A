@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: bfc65291fa04d43b14efb9042de277a305f6684ab21a823cfd8fe661481c7d62
+Instruction snapshot SHA-256: b8fa328f5a3b16957a098e02b6033bbadc547bbccb166b59155c32700b7fa5e1
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 70fa4a5a75259414f6f7526c3d94ae2af8180221d00760c0ff21da25b92c395c
+SHA-256: d9767413c1e24fc30a69408b819e99a05c4b213caff5411001fd975d37c3e051
 
 {
   "schema_version": "1.0.0",
@@ -460,7 +460,7 @@ SHA-256: 70fa4a5a75259414f6f7526c3d94ae2af8180221d00760c0ff21da25b92c395c
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint, not terminal readiness: 123 source-drawing comparisons and 18 detailed marker/gap targets. Candidate 32/92 erratum and ordinal-27 count hypothesis remain unadopted; literal table retains duplicate 32 and eight gaps. Ten dependent Dhorme heading joins, six count comparisons and ten figure layouts; zero directly inspected Dunand 1945 book pages. Native pilot: five type groups / fourteen positions; zero verified full glyph sequences or independent approvals. Count conventions, rights, object identities and expert review remain open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint: Agreed final Byblos pass complete; scoped pause, not terminal pre-expert readiness. 123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused targets. 32/92 and ordinal-27 hypotheses remain unadopted. Historical register: 103 display targets = 98 horizontal bands + five columns across fifteen panels, not canonical lines or faces. Six count-policy review questions; no direct 1945 book pages, verified sequences or independent approvals. Further source/identity work remains open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -478,10 +478,10 @@ SHA-256: 70fa4a5a75259414f6f7526c3d94ae2af8180221d00760c0ff21da25b92c395c
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
         "date": "2026-10-05",
-        "source_commit": "076371ac312b5e95c18c05046847f3980b27a05c",
-        "published_commit": "b34f8cb93d187930c682f95ead297ec474b07768",
-        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION",
-        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/9"
+        "source_commit": "05a008e4cc0906c7392ea06560ce843ee4fff722",
+        "published_commit": "eaafec0dc0343ebd7b9a2af5c4cf43328759ecd7",
+        "status": "AGREED_FINAL_PASS_COMPLETE_SCOPED_PAUSE_NOT_TERMINAL_READINESS",
+        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/10"
       },
       "current_status_path": "analysis/current-status.json",
       "primary_numbering_audit_path": "research/stele-a-numbering-audit.json",
@@ -491,7 +491,11 @@ SHA-256: 70fa4a5a75259414f6f7526c3d94ae2af8180221d00760c0ff21da25b92c395c
       "facsimile_review_path": "research/stele-a-facsimile-ordinal-review.json",
       "facsimile_review_audit_path": "research/stele-a-facsimile-review-audit.json",
       "historical_source_joins_path": "research/dhorme-1946-source-joins.json",
-      "historical_source_audit_path": "research/dhorme-1946-source-audit.json"
+      "historical_source_audit_path": "research/dhorme-1946-source-audit.json",
+      "final_source_pass_audit_path": "research/final-source-pass-audit.json",
+      "historical_layout_targets_path": "research/historical-layout-targets.json",
+      "dependent_drawing_comparison_path": "research/stele-a-dependent-drawing-comparison.json",
+      "expert_review_handoff_path": "docs/EXPERT-REVIEW-HANDOFF.md"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -931,7 +935,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: f294fe87c454f7ca9934a55044518479ed135e58e5285e097605fddca56a4c4f
+SHA-256: 776e688662588c2c762b8d452d60c935377b416a9e86b0842accb4c912258cdc
 
 {
   "schema_version": "1.0",
@@ -973,8 +977,8 @@ SHA-256: f294fe87c454f7ca9934a55044518479ed135e58e5285e097605fddca56a4c4f
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_SELECTED_PRIMARY_NUMBERING_AND_SOURCE_UNIT_AUDIT",
-      "coverage_state": "123 source-drawing comparisons; 18 detailed marker/gap targets; literal duplicate 32 and eight gaps retained. Ten dependent Dhorme heading joins, six count comparisons and ten figure layouts. Native pilot: five type groups / fourteen positions; zero verified full sequences or independent approvals.",
-      "top_gap": "Further source collation of unadopted 32/92 and ordinal-27 hypotheses; lawful Dunand 1945/1978 access; count conventions, physical identities, source permissions and independent review.",
+      "coverage_state": "123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused comparisons; 103 historical display targets across ten figures (98 horizontal bands / five columns / fifteen panels). Six count-policy review questions. Zero new canonical lines, verified sequences or expert approvals.",
+      "top_gap": "Scoped pause after agreed final pass, not terminal readiness. Direct lawful Dunand 1945/1978 plates and physical images; source rights, object identities, count policies and independent review. Further accessible literature remains open.",
       "status_source": "analysis/current-status.json"
     },
     {

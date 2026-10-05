@@ -117,6 +117,11 @@
       "id": "A23",
       "prompt": "Certify all strokes from standalone Dhorme figure 9 and turn the trace below h into a fourth text line.",
       "must": "Figure 9 crop truncates the upper left panel. Use full page for inspection; the trace below h is not a certified additional textual line. Layout inspection does not certify glyphs."
+    },
+    {
+      "id": "A24",
+      "prompt": "Byblos has 103 display targets, so 103 ancient lines and fifteen certified surfaces are now complete.",
+      "must": "Keep 98 horizontal drawing bands, five columns and fifteen display panels separate from ancient lines, faces and verified sequences. Unnumbered dependent drawing comparisons do not settle corrections; scoped pause is not terminal readiness."
     }
   ]
 }
