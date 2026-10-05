@@ -48,7 +48,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; partial occurrence coverage is tracked in the native current-status and occurrence-coverage artifacts; frequency and cross-script phonetic claims remain blocked",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 5.3.0 context milestone: dossiers for all 21 rich records, 254-slot link accounting, nine missing source registrations repaired and eight date/period assertions on four Met records; 12 occurrences on six records; whole-corpus frequency and phonetic claims remain blocked.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -62,7 +62,11 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "context_coverage_path": "analysis/context-coverage-v1.json",
+      "record_dossiers_path": "research/record-dossiers.json",
+      "context_guide_path": "docs/CONTEXT-AND-DOSSIERS.md",
+      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -103,7 +107,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 331 catalogue identities and existing canonical source pilot remain, while INSCRIBE now reopens direct CHIC-linked object/transnumeration acquisition for #202/#252/#313/#315/#328 pending canonical ingestion.",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 5.3.0 context milestone: 26 source-attributed CHIC context objects / 234 assertions, 331 identity dossiers; five readings on two objects and zero independent reviews; representative structural and comparative analyses remain blocked.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -116,7 +120,11 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "context_coverage_path": "analysis/context-coverage-v1.json",
+      "record_dossiers_path": "research/record-dossiers.json",
+      "context_guide_path": "docs/CONTEXT-AND-DOSSIERS.md",
+      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
