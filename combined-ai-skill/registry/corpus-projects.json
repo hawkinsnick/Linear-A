@@ -227,7 +227,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; source expansion and concordance precede human language/readings adjudication",
+      "current_gate": "PRE_EXPERT_MAXIMUM scoped source routes, not whole-corpus exhaustion: 26 frozen candidates / 25 parsed entries / 17 source-attributed entries; zero independent objects/reviews. Live entry-150 XML is unchanged and malformed; HTML is a publisher formatting-error page. Official next syllabic fascicle preparation listing is not a published/acquired edition or additional Eteocypriot evidence. Open-world discovery, physical identity concordance and alternative edition work remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -240,6 +240,14 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      },
+      "source_route_recheck_path": "research/source-route-recheck-2026-10-05.json",
+      "source_route_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "e162c9f2ed9e899aadbf4b10fc1fe49f3e703621",
+        "published_commit": "b9314b51150d9e619bb8a9f2016734384a018029",
+        "status": "INITIAL_PIVOT_AUDIT_COMPLETE_DISCOVERY_AND_IDENTITY_WORK_OPEN",
+        "pull_request": "https://github.com/hawkinsnick/Eteocypriot/pull/7"
       }
     },
     {
