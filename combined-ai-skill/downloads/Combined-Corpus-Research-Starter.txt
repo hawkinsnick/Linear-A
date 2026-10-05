@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: e70111eb1a70c9305300ddb0508c7bb2a902818f560ea32a53adf6077da0e0c2
+Instruction snapshot SHA-256: 669f9b5192a05c2fff61dab4dc98dc48775aecdf8d2f18e26ac547d28b58f1a8
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 29073a3568c1703df122d925cbcbfbe19d22bc55f896a0b4d5fc6c32cd34ae62
+SHA-256: e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982
 
 {
   "schema_version": "1.0.0",
@@ -679,15 +679,15 @@ SHA-256: 29073a3568c1703df122d925cbcbfbe19d22bc55f896a0b4d5fc6c32cd34ae62
       "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: public eDiAna Hieroglyphic denominator is now 287 digital text entries with explicit portable/non-monumental subset; CHLI reconciliation, classification and authority-supported grouped-siglum decomposition remain.",
+      "required_skill_version": "2.0.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM / 2.0.0 metadata milestone: all 287 eDiAna digital entries explicit; 274 bibliographic assertions on 262 entries, 71 internal references and three notices; 32 object classes and 118 secondary period candidates with one preserved conflict. Physical counts unknown; direct CHLI I/III checks, group identity and expert reading review remain open.",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py",
-      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "validation_path": "tests/test_reconciliation.py",
+      "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -700,6 +700,15 @@ SHA-256: 29073a3568c1703df122d925cbcbfbe19d22bc55f896a0b4d5fc6c32cd34ae62
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      },
+      "context_coverage_path": "analysis/current-status.json",
+      "record_dossiers_path": "research/digital-entry-dossiers.json",
+      "context_guide_path": "docs/PRE-EXPERT-STATUS.md",
+      "readable_dossiers_path": "docs/DIGITAL-ENTRY-DOSSIERS.md",
+      "metadata_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "195e87fa3a3a6e921442c1b213eb640181098abf",
+        "status": "METADATA_MILESTONE_COMPLETE_AUTHORITY_RECONCILIATION_ACTIVE"
       }
     },
     {

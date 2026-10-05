@@ -372,15 +372,15 @@
       "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: public eDiAna Hieroglyphic denominator is now 287 digital text entries with explicit portable/non-monumental subset; CHLI reconciliation, classification and authority-supported grouped-siglum decomposition remain.",
+      "required_skill_version": "2.0.0",
+      "current_gate": "PRE_EXPERT_MAXIMUM / 2.0.0 metadata milestone: all 287 eDiAna digital entries explicit; 274 bibliographic assertions on 262 entries, 71 internal references and three notices; 32 object classes and 118 secondary period candidates with one preserved conflict. Physical counts unknown; direct CHLI I/III checks, group identity and expert reading review remain open.",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py",
-      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "validation_path": "tests/test_reconciliation.py",
+      "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -393,6 +393,15 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
+      },
+      "context_coverage_path": "analysis/current-status.json",
+      "record_dossiers_path": "research/digital-entry-dossiers.json",
+      "context_guide_path": "docs/PRE-EXPERT-STATUS.md",
+      "readable_dossiers_path": "docs/DIGITAL-ENTRY-DOSSIERS.md",
+      "metadata_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "195e87fa3a3a6e921442c1b213eb640181098abf",
+        "status": "METADATA_MILESTONE_COMPLETE_AUTHORITY_RECONCILIATION_ACTIVE"
       }
     },
     {
