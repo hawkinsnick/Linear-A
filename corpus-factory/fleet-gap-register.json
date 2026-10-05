@@ -52,7 +52,8 @@
       "repo": "Eteocypriot",
       "evidence_depth": "LOW_MEDIUM",
       "coverage_state": "26 candidates; 17 source-attributed entries",
-      "top_gap": "whole-corpus reconciliation and independent review"
+      "top_gap": "Expand authoritative source discovery and object/edition concordance beyond frozen fascicle. Live entry 150 remains malformed; official HTML is an error page. Future fascicle preparation does not establish available readings.",
+      "source_route_recheck": "research/source-route-recheck-2026-10-05.json"
     },
     {
       "repo": "Eteocretan",
