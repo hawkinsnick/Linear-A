@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 79654f8a45a6fcf892fd34cbcce2b3728826101e5083347f722366bb58211d64
+Instruction snapshot SHA-256: bfc65291fa04d43b14efb9042de277a305f6684ab21a823cfd8fe661481c7d62
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -303,7 +303,7 @@ The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 9d2bc9b94b30ca9050e8080e9641dc4ab5fd720fdca098395597024156791b60
+SHA-256: 70fa4a5a75259414f6f7526c3d94ae2af8180221d00760c0ff21da25b92c395c
 
 {
   "schema_version": "1.0.0",
@@ -460,7 +460,7 @@ SHA-256: 9d2bc9b94b30ca9050e8080e9641dc4ab5fd720fdca098395597024156791b60
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint, not terminal readiness: 14 source count records; 43 pinned provider entries inspected structurally; all 38 Dunand 1930 numeric table rows / 116 memberships / 115 distinct ordinals; ten numbered facsimile line spans / 123 source ordinals. Native pilot remains 5 edition-specific type groups / 14 positions / 1 numerically checked recurrence. Duplicate 32 and eight table gaps, stele a count conventions, g/h layout, m direction and n first-line reading remain unresolved. Zero verified full glyph sequences; rights and independent review remain open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint, not terminal readiness: 123 source-drawing comparisons and 18 detailed marker/gap targets. Candidate 32/92 erratum and ordinal-27 count hypothesis remain unadopted; literal table retains duplicate 32 and eight gaps. Ten dependent Dhorme heading joins, six count comparisons and ten figure layouts; zero directly inspected Dunand 1945 book pages. Native pilot: five type groups / fourteen positions; zero verified full glyph sequences or independent approvals. Count conventions, rights, object identities and expert review remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -477,17 +477,21 @@ SHA-256: 9d2bc9b94b30ca9050e8080e9641dc4ab5fd720fdca098395597024156791b60
       "source_audit_path": "research/source-comparison-audit.json",
       "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
       "source_reconciliation_checkpoint": {
-        "date": "2026-10-04",
-        "source_commit": "8ae2288057373a135a3d74204575ba92afb55c1b",
-        "published_commit": "4ed7cf9b23d8211a25202abf5c5a18900e79b290",
+        "date": "2026-10-05",
+        "source_commit": "076371ac312b5e95c18c05046847f3980b27a05c",
+        "published_commit": "b34f8cb93d187930c682f95ead297ec474b07768",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION",
-        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/8"
+        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/9"
       },
       "current_status_path": "analysis/current-status.json",
       "primary_numbering_audit_path": "research/stele-a-numbering-audit.json",
       "primary_numeric_table_path": "research/stele-a-type-table.json",
       "primary_numeric_table_audit_path": "research/stele-a-type-table-audit.json",
-      "facsimile_number_index_path": "research/stele-a-facsimile-number-index.json"
+      "facsimile_number_index_path": "research/stele-a-facsimile-number-index.json",
+      "facsimile_review_path": "research/stele-a-facsimile-ordinal-review.json",
+      "facsimile_review_audit_path": "research/stele-a-facsimile-review-audit.json",
+      "historical_source_joins_path": "research/dhorme-1946-source-joins.json",
+      "historical_source_audit_path": "research/dhorme-1946-source-audit.json"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -927,7 +931,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: f482481f7d1f54f7317789d85ea2e3df497de0aa943f3012e3e1eacce2da108d
+SHA-256: f294fe87c454f7ca9934a55044518479ed135e58e5285e097605fddca56a4c4f
 
 {
   "schema_version": "1.0",
@@ -969,8 +973,8 @@ SHA-256: f482481f7d1f54f7317789d85ea2e3df497de0aa943f3012e3e1eacce2da108d
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_SELECTED_PRIMARY_NUMBERING_AND_SOURCE_UNIT_AUDIT",
-      "coverage_state": "14 attributed core count reports; 43 pinned provider metadata entries; all 38 Dunand 1930 numeric table rows (116 memberships / 115 distinct ordinals / duplicate 32 / eight gaps); ten facsimile line spans covering source ordinals 1–123. Native pilot: 5 edition-specific type groups / 14 source positions / 1 checked recurrence. All twelve primary page views visually inspected; zero verified full glyph sequences.",
-      "top_gap": "Glyph/damage and variant collation of numbered stele a facsimile; duplicate 32 and eight numeric table gaps; lawful Dunand 1945/1978 access; a/g/h/m/n discrepancies, source rights, museum identities and independent review.",
+      "coverage_state": "123 source-drawing comparisons; 18 detailed marker/gap targets; literal duplicate 32 and eight gaps retained. Ten dependent Dhorme heading joins, six count comparisons and ten figure layouts. Native pilot: five type groups / fourteen positions; zero verified full sequences or independent approvals.",
+      "top_gap": "Further source collation of unadopted 32/92 and ordinal-27 hypotheses; lawful Dunand 1945/1978 access; count conventions, physical identities, source permissions and independent review.",
       "status_source": "analysis/current-status.json"
     },
     {
