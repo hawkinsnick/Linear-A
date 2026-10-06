@@ -129,3 +129,9 @@ Two collection-wide interoperability contracts are normative for new corpus engi
 - `corpus-factory/schemas/universal-identity-graph-contract.json`: external IDs and object/text/edition/place relationships are provenance-bearing assertions, not string joins.
 
 Never infer physical identity from matching catalogue labels, adjacent numbers, inherited digital links, shared coordinates or visual resemblance. Preserve negative/disputed identity edges. EpiDoc encoding establishes interoperability only; it does not establish reading correctness, source independence, decipherment or expert review.
+
+
+### Interoperability rollout status — 2026-10-06
+Linear A: existing TEI exporter audited as PARTIAL_NOT_YET_EPIDOC_CONFORMANT; native JSON payload is preserved but structured EpiDoc mapping/validation/round-trip and rights allowlist gates remain. A rights-aware source identity graph is seeded; GORILA remains historical audit/bibliographic-only under the project-specific refusal.
+
+Linear B: existing source-ID-preserving EpiDoc importer is an engineering strength, but fleet conformance remains open pending a real authenticated annotated source export, mapping/loss reports, export path and round-trip tests. A DĀMOS/source identity graph is seeded without equating source IDs with physical tablets.
