@@ -1,0 +1,48 @@
+{
+  "format": "linear-a-context-admission-contract-v1",
+  "checked": "2026-10-06",
+  "fields": [
+    "scribe_or_hand",
+    "support",
+    "document_type",
+    "period",
+    "site",
+    "find_area",
+    "findspot",
+    "physical_side",
+    "region",
+    "line",
+    "layout",
+    "damage",
+    "sign_variant",
+    "dimensions",
+    "image_reference",
+    "tracing_reference",
+    "rti_reference"
+  ],
+  "required_per_assertion": [
+    "document_id",
+    "field",
+    "source_id",
+    "source_locator",
+    "source_license_or_rights_status",
+    "asserted_value",
+    "certainty",
+    "lineage_class"
+  ],
+  "rules": [
+    "No field value may be inferred solely from a document identifier.",
+    "Conflicting assertions coexist until attributed adjudication.",
+    "Normalized values are derived assertions and retain links to raw source assertions.",
+    "Restricted images/models are referenced, not ingested.",
+    "Shared GORILA ancestry is not independent confirmation.",
+    "Unknown is preserved; it is not filled by analogy."
+  ],
+  "source_priority": [
+    "SigLA licensed source assertions",
+    "rights-compatible museum/project metadata",
+    "independently licensed/open archaeological publications",
+    "expert assertions when supplied"
+  ],
+  "status": "READY_FOR_POPULATION"
+}
