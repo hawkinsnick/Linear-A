@@ -85,3 +85,7 @@ The expanded INSCRIBE metadata check explicitly pairs HT 29 with 81951 and prese
 ## GORILA rights gate — 2026-10-06
 
 EFA has expressly refused this project's proposed reproduction of GORILA visuals and creation/dissemination of structured or machine-readable GORILA-derived datasets, including AI-assisted research outputs. Treat this as a hard source-admission gate. Do not extend the historical bounded page-inspection work into systematic transcription, structured extraction, or redistribution. GORILA may remain as bibliographic/edition-location context where lawful; evidence growth must proceed through independently usable sources. This restriction does not erase historical audit records, but those records confer no permission and no corpus-admission authority.
+
+
+## Rights-compatible continuation
+Use [`research/rights-compatible-evidence-frontier.json`](../research/rights-compatible-evidence-frontier.json) for post-EFA source routing. Current expansion priority is licensed SigLA evidence and independently attributable public metadata whose terms support the intended use. Restricted project models and GORILA-derived structured extraction are not continuation routes.
