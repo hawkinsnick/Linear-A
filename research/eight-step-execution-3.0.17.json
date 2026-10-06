@@ -27,13 +27,14 @@
       "step": 3,
       "id": "api",
       "title": "Researcher API",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETE_CONTRACT",
+      "deliverable": "research/research-api-contract-3.0.17.json"
     },
     {
       "step": 4,
       "id": "exports",
       "title": "Loss-aware exports",
-      "status": "PLANNED"
+      "status": "IN_PROGRESS"
     },
     {
       "step": 5,
