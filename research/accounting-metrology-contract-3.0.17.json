@@ -1,0 +1,55 @@
+{
+  "format": "linear-a-accounting-metrology-contract-v1",
+  "version": "3.0.17",
+  "layers": [
+    {
+      "layer": "observed_or_source_reported",
+      "examples": [
+        "numeral sign",
+        "fraction sign",
+        "damage/uncertainty",
+        "grouping",
+        "written total"
+      ]
+    },
+    {
+      "layer": "editorial_normalization",
+      "examples": [
+        "normalized numeral label",
+        "group segmentation"
+      ]
+    },
+    {
+      "layer": "metrological_model",
+      "examples": [
+        "proposed fraction value",
+        "unit system",
+        "commodity/unit interpretation"
+      ]
+    },
+    {
+      "layer": "calculation",
+      "examples": [
+        "sum",
+        "difference",
+        "balance",
+        "consistency check"
+      ]
+    }
+  ],
+  "rules": [
+    "Never convert a sign-series number into an account quantity.",
+    "Unknown fraction values remain symbolic unless an attributed model supplies a value.",
+    "Every arithmetic result identifies the metrological model used.",
+    "Run arithmetic separately under competing models when possible.",
+    "Damage/restoration uncertainty propagates into the result.",
+    "A balanced account is not evidence that a linguistic/metrological interpretation is correct."
+  ],
+  "outputs": [
+    "symbolic ledger",
+    "model-specific arithmetic check",
+    "uncertainty range or indeterminate",
+    "disagreement report"
+  ],
+  "status": "READY_FOR_IMPLEMENTATION"
+}
