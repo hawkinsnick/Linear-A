@@ -1,3 +1,11 @@
+## 3.0.20 — offline researcher browser and evidence coverage
+
+- Adds a standalone offline Linear A browser generated from the committed rights-compatible source layer.
+- Adds machine-readable evidence-population coverage diagnostics so implementation completeness cannot be confused with data completeness.
+- CI now rebuilds and checks the browser and coverage report.
+- Documents working interfaces versus remaining software/data gaps.
+- Scholarship/geospatial tooling remains explicitly population-pending; missing evidence is never filled by inference.
+
 ## 3.0.19 — researcher depth and reproducibility
 
 - Adds JSON-LD and EpiDoc-compatible TEI export with explicit loss manifests; project-specific semantics are preserved rather than silently discarded.
