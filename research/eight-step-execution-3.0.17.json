@@ -20,13 +20,14 @@
       "step": 2,
       "id": "browser",
       "title": "Researcher browser",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETE_SPEC",
+      "deliverable": "research/researcher-browser-contract-3.0.17.json"
     },
     {
       "step": 3,
       "id": "api",
       "title": "Researcher API",
-      "status": "PLANNED"
+      "status": "IN_PROGRESS"
     },
     {
       "step": 4,
