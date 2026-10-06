@@ -135,3 +135,8 @@ Never infer physical identity from matching catalogue labels, adjacent numbers, 
 Linear A: existing TEI exporter audited as PARTIAL_NOT_YET_EPIDOC_CONFORMANT; native JSON payload is preserved but structured EpiDoc mapping/validation/round-trip and rights allowlist gates remain. A rights-aware source identity graph is seeded; GORILA remains historical audit/bibliographic-only under the project-specific refusal.
 
 Linear B: existing source-ID-preserving EpiDoc importer is an engineering strength, but fleet conformance remains open pending a real authenticated annotated source export, mapping/loss reports, export path and round-trip tests. A DĀMOS/source identity graph is seeded without equating source IDs with physical tablets.
+
+
+Cypro-Minoan: fleet pilot separates physical object, text-bearing surface, inscription/potmark and sign-occurrence assertions. EpiDoc export remains unimplemented; partial occurrence coverage and authority-specific sign labels must remain explicit.
+
+Cretan Hieroglyphic: fleet pilot separates CHIC catalogue identity, INSCRIBE-derived context, critical reading assertions and sign classes. EpiDoc export remains unimplemented; alternative script classification, writing/iconographic uncertainty and zero asserted native phonetic values must survive serialization.
