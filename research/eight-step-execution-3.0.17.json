@@ -1,0 +1,62 @@
+{
+  "format": "linear-a-eight-step-execution-v1",
+  "version": "3.0.17",
+  "started": "2026-10-06",
+  "constraints": [
+    "No GORILA-derived structured extraction or visual redistribution.",
+    "Do not inspect sealed prospective outcomes.",
+    "Preserve source-specific rights, uncertainty and lineage.",
+    "Engineering capability does not confer expert epigraphic validation."
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "id": "context",
+      "title": "Palaeographic/context depth",
+      "status": "COMPLETE_CONTRACT",
+      "deliverable": "research/context-admission-contract-3.0.17.json"
+    },
+    {
+      "step": 2,
+      "id": "browser",
+      "title": "Researcher browser",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "step": 3,
+      "id": "api",
+      "title": "Researcher API",
+      "status": "PLANNED"
+    },
+    {
+      "step": 4,
+      "id": "exports",
+      "title": "Loss-aware exports",
+      "status": "PLANNED"
+    },
+    {
+      "step": 5,
+      "id": "scholarship",
+      "title": "Scholarship linkage",
+      "status": "PLANNED"
+    },
+    {
+      "step": 6,
+      "id": "geo",
+      "title": "Geospatial exploration",
+      "status": "PLANNED"
+    },
+    {
+      "step": 7,
+      "id": "metrology",
+      "title": "Accounting/metrology tools",
+      "status": "PLANNED"
+    },
+    {
+      "step": 8,
+      "id": "analysis",
+      "title": "Advanced query/statistics",
+      "status": "PLANNED"
+    }
+  ]
+}
