@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "checked": "2026-10-04",
+  "checked": "2026-10-06",
   "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
   "principle": "Scientific experiment gates and corpus-engineering gates are independent. A sealed prospective experiment must remain sealed while source, provenance, catalogue, rights, and representation work continues.",
   "machine_resolvable": [
@@ -36,8 +36,8 @@
         "analysis/pre-expert-primary-collation.json"
       ],
       "status": "SOURCE_BLOCKED",
-      "completion_scope": "Primary-page AI inspection completed for 13 of 15 case entries; GORILA HT 17 source reading 38 verified. Physical disputed readings remain expert work; SY Zb 7 verified primary locator remains unavailable; K metrology remains interpretation.",
-      "blocker": "Available edition images do not supply a defensible expert adjudication of disputed physical sign/word identities; one case lacks a verified primary image locator, and metrology is a scholarly model boundary. No source-value guess may close these gates."
+      "completion_scope": "Historical bounded primary-page inspections are retained as audit history. Following EFA's 2026-10-06 project-specific refusal, GORILA may not be expanded into systematic transcription, structured extraction, machine-readable derivation, or redistributed visual evidence. Remaining disputed physical readings require rights-compatible independent evidence and/or expert adjudication.",
+      "blocker": "EFA expressly refused this project's proposed GORILA visual reproduction and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including AI-assisted and non-commercial research. Existing bounded inspections confer no permission to expand extraction. SY Zb 7 and disputed physical/metrological cases remain open for independent rights-compatible evidence or human review."
     },
     {
       "id": "LA-CORPUS-004",
@@ -77,6 +77,6 @@
   ],
   "ceiling_rule": "Do not declare PRE_EXPERT_MAXIMUM until every machine_resolvable item is COMPLETE or SOURCE_BLOCKED with a concrete access/rights blocker.",
   "machine_pass_evidence": "analysis/pre-expert-source-audit.json",
-  "public_record_boundary": "All 802 entries, 5,144 slots, 1,401 editorial groups and 376 source sign entries from one authenticated SigLA derivative are public as licensed source-only JSONL under CC BY-NC-SA 4.0 with attribution. Primary-edition images remain private. The ten-entry critical pilot supplies separate edition evidence; Raison\u2013Pope reconciliation, physical object identities and independent expert review remain open.",
+  "public_record_boundary": "All 802 entries, 5,144 slots, 1,401 editorial groups and 376 source sign entries from one authenticated SigLA derivative are public as licensed source-only JSONL under CC BY-NC-SA 4.0 with attribution. EFA's 2026-10-06 project-specific refusal bars expansion of GORILA into a structured/machine-readable derivative or redistributed visual layer. Historical bounded inspections are audit history only. Raison–Pope reconciliation, physical object identities and independent expert review remain open subject to source rights.",
   "public_source_layer_audit": "analysis/public-sigla-layer-audit.json"
 }
