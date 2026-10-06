@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 237a258685e05f329731f09a226284cd1a2d04cf06b34c9ada8ad2345c5cfa94
+Instruction snapshot SHA-256: 09d9a6430b941bc28279439ddfda817e375a8ca0825fc34f9eefac054745261c
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 7763f090bb81ca60d946fc45d7fb26b1a9340e19d6692542fef7ec2bca40ea0c
+SHA-256: 9b0fab2bde8026ab632f040b94a29b617952ae9610139f36f2af7249f7559369
 
 ---
 name: combined-corpus-research
@@ -261,6 +261,10 @@ Corpus-family repositories should expose an offline browser generated from an ex
 
 ## Collection >9 evidence gate
 For collection-strength assessments, treat 9.0 as the current minimum target, but never manufacture a score from repository polish. A member earns >9 only when its lawful evidence depth, coverage accounting, source-lineage independence/reconciliation, object/text identity controls, uncertainty/disagreement handling, rights provenance, reproducible validation and researcher interfaces are all strong relative to the surviving evidence. If evidence growth is constrained by protected critical editions, unpublished fascicles, inaccessible object evidence or expert-only adjudication, report the member as externally gated rather than inflating its score. Current remediation members include Cypriot Syllabic Greek, Sidetic, Lycian/Carian/Milyan and Anatolian Hieroglyphic; consult each native pre-expert/GT9 artifact before rating.
+
+
+## Collection-wide >9 floor
+The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does not graduate by version number, file count, or tooling alone. Assess lawful primary/critical evidence depth, declared coverage versus the scholarly universe, source independence and lineage, object/text identity reconciliation, uncertainty/disagreement controls, reproducibility, rights provenance, and expert-review boundaries. Corpora below the gate remain in remediation until evidence depth supports graduation or a concrete rights/access/expert dependency prevents further lawful machine-resolvable progress. Never inflate a score to hide an external blocker.
 
 === END SOURCE FILE ===
 
