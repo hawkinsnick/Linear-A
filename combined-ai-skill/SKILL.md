@@ -85,3 +85,7 @@ For corpus-development work, apply `references/pre-expert-standing-order.md`.
 ## Lydian, Sidetic and Pisidian source work
 
 Read each member’s `research/source-worklist.json` before preparing an exhaustive handoff. It accounts for every frozen record and citation while preserving unresolved edition joins. Consult linked source checks for precise locators and attributed competing readings. Inscription numbers may differ between editions; matching numbers alone do not establish identity. Museum inventory references in a publication are dated source assertions until independently reconciled. Acquired PDFs and targeted checks do not establish complete collation, redistribution permission or expert review.
+
+## Linear A GORILA rights firewall
+
+For Linear A, EFA has expressly refused this project's proposed reproduction of GORILA visual material and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including AI-assisted and non-commercial research outputs. The orchestrator must not route GORILA into ingestion, reconstruction, extraction, or redistribution workflows. It may be cited as bibliographic/edition-location context where lawful. Historical bounded inspection artifacts are audit history only. This member-specific restriction overrides any generic fleet preference for source acquisition.
