@@ -16,7 +16,7 @@ We will make our own original contributions as open as legally possible. We will
 | Original annotations/database contributions we control | CC BY 4.0 under LICENSE-CONTENT.md; source-derived content excluded and existing CC0 grants retained |
 | SigLA-derived dataset | Preserve SigLA's CC BY-NC-SA 4.0 terms and attribution |
 | SigLA drawings | Preserve SigLA's CC BY-NC-SA 4.0 terms and attribution |
-| GORILA-derived copyrighted text/images | Do not redistribute unless permission/license permits |
+| GORILA-derived text/images/structured datasets | **Excluded from corpus ingestion and redistribution under the EFA project-specific refusal (2026-10-06)** |
 | Other third-party material | Preserve the original applicable terms |
 | Public-domain material | Mark as public domain where verified |
 
@@ -55,3 +55,7 @@ The ten-entry, 168-slot `research/critical-pilot-sigla-witness.json` and `resear
 ## Full authenticated public SigLA layer
 
 The three `research/sigla-source-*.jsonl` files contain all 802 source entries, 5,144 attestation slots, 1,401 editorial groups and 376 sign entries from the pinned derivative, under CC BY-NC-SA 4.0. Attribution: Ester Salgarella and Simon Castellan, SigLA, via Ryan Pavlicek/pyaegean. Every record retains license, attribution and snapshot provenance. These datasets and the mixed source-derived amount/dimension comparisons are excluded from software and original-contribution license grants. `research/gorila-route-acquisition.json` retains these terms on SigLA-derived IDs/routes; primary edition images remain private. See docs/PUBLIC-SIGLA-LAYER.md and docs/GORILA-ROUTE-ACQUISITION.md.
+
+### GORILA project-specific restriction
+
+EFA declined this project's request to reproduce GORILA visual material and to create, publish, redistribute, or exploit structured or machine-readable datasets derived from GORILA, including computational/AI-assisted and non-commercial academic uses. The corpus therefore treats GORILA as a bibliographic reference only. No project license in this repository overrides that boundary. Historical bounded inspection/audit artifacts must not be expanded into a GORILA-derived dataset.
