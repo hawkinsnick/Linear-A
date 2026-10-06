@@ -1,0 +1,70 @@
+{
+  "format": "linear-a-loss-aware-export-contract-v1",
+  "version": "3.0.17",
+  "canonical": [
+    "JSON",
+    "CSV"
+  ],
+  "targets": [
+    {
+      "format": "JSON-LD",
+      "status": "TARGET",
+      "preserves": [
+        "stable IDs",
+        "provenance",
+        "source assertions",
+        "rights",
+        "typed relations"
+      ],
+      "loss_policy": "emit explicit warnings for unsupported project-specific semantics"
+    },
+    {
+      "format": "EpiDoc",
+      "status": "TARGET",
+      "preserves": [
+        "document identity",
+        "edition/source notes",
+        "uncertainty where representable"
+      ],
+      "loss_policy": "refuse or sidecar competing assertions/lineage that cannot be represented without ambiguity"
+    },
+    {
+      "format": "Parquet",
+      "status": "TARGET",
+      "preserves": [
+        "tabular fields",
+        "typed columns",
+        "IDs"
+      ],
+      "loss_policy": "ship schema/rights/provenance sidecar; Parquet is not semantic authority"
+    },
+    {
+      "format": "CoNLL-U",
+      "status": "OPTIONAL",
+      "preserves": [
+        "sequence/token views only"
+      ],
+      "loss_policy": "must declare that epigraphic layout, competing witnesses and many rights/provenance semantics are lossy"
+    },
+    {
+      "format": "Turtle/RDF",
+      "status": "OPTIONAL",
+      "preserves": [
+        "typed relations and provenance"
+      ],
+      "loss_policy": "map only declared ontology terms; never infer equivalence"
+    }
+  ],
+  "required_manifest_fields": [
+    "export_format",
+    "source_snapshot",
+    "generated_at_or_release",
+    "included_resources",
+    "excluded_fields",
+    "losses",
+    "rights_summary",
+    "generator_version"
+  ],
+  "hard_rule": "No export may silently drop uncertainty, disagreement or rights metadata and still call itself lossless.",
+  "status": "CONTRACT_COMPLETE"
+}
