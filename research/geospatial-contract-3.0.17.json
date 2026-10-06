@@ -1,0 +1,37 @@
+{
+  "format": "linear-a-geospatial-contract-v1",
+  "version": "3.0.17",
+  "entities": [
+    "site",
+    "find_area",
+    "findspot",
+    "museum_or_repository"
+  ],
+  "fields": [
+    "geo_id",
+    "label",
+    "entity_type",
+    "latitude",
+    "longitude",
+    "coordinate_uncertainty_m",
+    "geometry_source",
+    "source_locator",
+    "certainty",
+    "rights_status",
+    "linked_document_ids"
+  ],
+  "rules": [
+    "Coordinates require an attributed source.",
+    "Identifier-derived site labels do not automatically receive coordinates.",
+    "Site, find area, findspot and current repository are distinct.",
+    "Approximate coordinates carry explicit uncertainty.",
+    "Map output must expose provenance and must not imply excavation-level precision.",
+    "Restricted basemaps/images are not bundled."
+  ],
+  "exports": [
+    "GeoJSON",
+    "CSV",
+    "research-browser map view"
+  ],
+  "status": "READY_FOR_POPULATION"
+}
