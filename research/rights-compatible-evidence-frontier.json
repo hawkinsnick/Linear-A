@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-06",
+  "purpose": "Rights-aware evidence-growth routing for Linear A after the EFA GORILA decision.",
+  "sources": [
+    {
+      "source": "SigLA",
+      "status": "ADMISSIBLE_WITH_UPSTREAM_TERMS",
+      "use": [
+        "source records",
+        "drawings where license permits",
+        "palaeographic/source classifications",
+        "2026 additions"
+      ],
+      "terms": "CC BY-NC-SA 4.0; retain attribution and share-alike/noncommercial constraints on derived material.",
+      "authority": "Salgarella and Castellan",
+      "notes": "Primary evidence-growth route. Shared ancestry with GORILA must not be counted as independent confirmation."
+    },
+    {
+      "source": "GORILA / EFA",
+      "status": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "use": [
+        "bibliographic citation",
+        "edition/page locator where lawful"
+      ],
+      "prohibited": [
+        "systematic transcription",
+        "structured extraction",
+        "machine-readable derivative",
+        "image/facsimile/drawing redistribution",
+        "indirect reconstruction from routes or downstream reproductions"
+      ],
+      "decision_date": "2026-10-06",
+      "notes": "Project-specific refusal applies even to non-commercial academic and AI-assisted research."
+    },
+    {
+      "source": "PA-I-TO Linear A Epigraphic Project",
+      "status": "METADATA_REFERENCE_ONLY_UNLESS_PERMISSION",
+      "use": [
+        "attributed public-page metadata",
+        "bibliographic/project context"
+      ],
+      "prohibited_without_permission": [
+        "2D+ datasets",
+        "3D models",
+        "artifact model reproduction/publication"
+      ],
+      "notes": "Do not treat project metadata that cites GORILA as independent epigraphic confirmation."
+    },
+    {
+      "source": "INSCRIBE public pages",
+      "status": "ATTRIBUTED_METADATA_ONLY_UNLESS_TERMS_SUPPORT_MORE",
+      "use": [
+        "publicly stated inventory/findspot/project metadata with citation"
+      ],
+      "notes": "Preserve source lineage and permission requirements; no model/image ingestion without explicit compatible rights."
+    },
+    {
+      "source": "Raison–Pope",
+      "status": "PENDING_RIGHTS_AND_ACCESS_REVIEW",
+      "use": [
+        "bibliographic reference now"
+      ],
+      "notes": "Do not ingest systematic edition content until lawful access and intended derivative use are established."
+    }
+  ],
+  "priorities": [
+    "Reconcile the authenticated SigLA source layer against current SigLA additions without opening sealed prospective outcomes.",
+    "Expand disagreement detection inside rights-compatible source layers and preserve source-specific assertions rather than adjudicating by inference.",
+    "Resolve inventory/findspot/context metadata through independently attributable museum/project sources where terms permit.",
+    "Keep all source-independence claims lineage-aware.",
+    "Route unresolved physical sign identity and metrology to expert/new-evidence status rather than guessing."
+  ]
+}
