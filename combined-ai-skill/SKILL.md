@@ -117,3 +117,7 @@ Corpus-family repositories should expose an offline browser generated from an ex
 ## Eteocretan rights-wall routing
 
 For Eteocretan readiness and evidence-growth work, consult the member repository's `research/pre-expert-maximum.json`, `research/residual-blocker-ledger.json`, and `research/rights-wall-audit-2026-10-06.md`. Guarducci III has a confirmed public digital access route through University of Crete Anemi, but access does not itself authorize redistribution or systematic structured derivative use. Duhoux 1982, complete Dreros primary evidence, authoritative object/accession evidence, and source-specific reuse terms remain evidence-growth gates. Preserve Praisos classification conflicts, Dreros location uncertainty, and Azoria candidate/item denominators; never convert derivative witnesses into independent ancient observations or admit readings merely because a source is downloadable.
+
+
+### Eteocretan four-front closure
+The member repository now also controls Duhoux's 13-text universe as an attributed target denominator, a conservative Praisos/IC publication crosswalk, an Azoria discovery denominator of 17 inscribed sherds with only two individually represented handle candidates, and a Dreros witness genealogy. Do not synthesize the unresolved Azoria items, copy Duhoux's protected critical edition, or count dependent editions/transcriptions as independent witnesses. Further canonical growth requires new lawful source/institutional evidence before human epigraphic adjudication.
