@@ -13,59 +13,68 @@
       "step": 1,
       "id": "context",
       "title": "Palaeographic/context depth",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/context-admission-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/context-admission-contract-3.0.17.json",
+      "implementation": "scripts/build_source_context.py"
     },
     {
       "step": 2,
       "id": "browser",
       "title": "Researcher browser",
-      "status": "COMPLETE_SPEC",
-      "deliverable": "research/researcher-browser-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/researcher-browser-contract-3.0.17.json",
+      "implementation": "scripts/build_researcher_browser.py"
     },
     {
       "step": 3,
       "id": "api",
       "title": "Researcher API",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/research-api-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/research-api-contract-3.0.17.json",
+      "implementation": "scripts/research_api.py"
     },
     {
       "step": 4,
       "id": "exports",
       "title": "Loss-aware exports",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/loss-aware-export-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/loss-aware-export-contract-3.0.17.json",
+      "implementation": "scripts/export_research_layer.py"
     },
     {
       "step": 5,
       "id": "scholarship",
       "title": "Scholarship linkage",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/scholarship-linkage-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/scholarship-linkage-contract-3.0.17.json",
+      "implementation": "scripts/validate_scholarship_links.py"
     },
     {
       "step": 6,
       "id": "geo",
       "title": "Geospatial exploration",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/geospatial-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/geospatial-contract-3.0.17.json",
+      "implementation": "scripts/build_geojson.py"
     },
     {
       "step": 7,
       "id": "metrology",
       "title": "Accounting/metrology tools",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/accounting-metrology-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/accounting-metrology-contract-3.0.17.json",
+      "implementation": "scripts/accounting_check.py"
     },
     {
       "step": 8,
       "id": "analysis",
       "title": "Advanced query/statistics",
-      "status": "COMPLETE_CONTRACT",
-      "deliverable": "research/advanced-query-contract-3.0.17.json"
+      "status": "IMPLEMENTATION_BASELINE_COMMITTED",
+      "deliverable": "research/advanced-query-contract-3.0.17.json",
+      "implementation": "scripts/advanced_query.py"
     }
   ],
   "completed": "2026-10-06",
-  "overall_status": "EIGHT_CAPABILITY_CONTRACTS_COMPLETE_IMPLEMENTATION_AND_POPULATION_REMAIN"
+  "overall_status": "EIGHT_IMPLEMENTATION_BASELINES_COMMITTED_VALIDATION_AND_DEEP_POPULATION_REMAIN",
+  "implementation_release": "3.0.18"
 }
