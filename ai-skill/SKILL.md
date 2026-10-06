@@ -86,3 +86,7 @@ EFA expressly refused this project's proposed reproduction of GORILA visuals and
 - route new evidence growth to sources with compatible rights and preserve their lineage.
 
 If a user asks for corpus expansion from GORILA, explain the rights gate and offer evidence-grounded alternatives rather than silently extracting it.
+
+
+## Rights-compatible evidence frontier
+Before proposing Linear A evidence growth, read `research/rights-compatible-evidence-frontier.json`. Prefer SigLA under its CC BY-NC-SA 4.0 terms; treat PA-I-TO/INSCRIBE public metadata as attributed context only unless stronger reuse rights are established; do not ingest restricted artifact models; keep Raison–Pope systematic ingestion pending access/rights review. Source availability does not establish source independence.
