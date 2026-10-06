@@ -120,3 +120,12 @@ For collection-strength assessments, treat 9.0 as the current minimum target, bu
 
 ## Collection-wide >9 floor
 The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does not graduate by version number, file count, or tooling alone. Assess lawful primary/critical evidence depth, declared coverage versus the scholarly universe, source independence and lineage, object/text identity reconciliation, uncertainty/disagreement controls, reproducibility, rights provenance, and expert-review boundaries. Corpora below the gate remain in remediation until evidence depth supports graduation or a concrete rights/access/expert dependency prevents further lawful machine-resolvable progress. Never inflate a score to hide an external blocker.
+
+
+## Fleet EpiDoc and universal identity standards
+
+Two collection-wide interoperability contracts are normative for new corpus engineering:
+- `corpus-factory/schemas/epidoc-interoperability-contract.json`: native records remain authoritative; EpiDoc exports must be loss-aware, rights-aware, mapping-audited and round-trip tested for declared reversible fields.
+- `corpus-factory/schemas/universal-identity-graph-contract.json`: external IDs and object/text/edition/place relationships are provenance-bearing assertions, not string joins.
+
+Never infer physical identity from matching catalogue labels, adjacent numbers, inherited digital links, shared coordinates or visual resemblance. Preserve negative/disputed identity edges. EpiDoc encoding establishes interoperability only; it does not establish reading correctness, source independence, decipherment or expert review.
