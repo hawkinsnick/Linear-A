@@ -1,0 +1,103 @@
+{
+  "version": "3.0.16",
+  "checked": "2026-10-06",
+  "comparison_is_ranking": false,
+  "benchmark_scope": [
+    "SigLA",
+    "LinearA.xyz",
+    "Linear A Research Workbench",
+    "pyaegean",
+    "pa-i-to Linear A Epigraphic Project"
+  ],
+  "current_strengths": [
+    "evidence_lineage_and_provenance",
+    "multi_witness_disagreement_model",
+    "claim_and_errata_audit",
+    "frozen_experimental_and_falsification_gates",
+    "rights_and_source_admission_firewalls",
+    "authenticated_SigLA_source_layer"
+  ],
+  "gaps": [
+    {
+      "id": "palaeography_context_depth",
+      "priority": "P0",
+      "state": "PARTIAL",
+      "target": "Populate hand/scribe, support, layout, damage, findspot, period and sign-variant evidence from rights-compatible sources; preserve source assertions.",
+      "benchmark": "SigLA / pa-i-to"
+    },
+    {
+      "id": "researcher_browser",
+      "priority": "P0",
+      "state": "PARTIAL",
+      "target": "Search/browse documents, signs, source-defined words, sites, disagreements and provenance with linked evidence.",
+      "benchmark": "LinearA.xyz / Linear A Research Workbench"
+    },
+    {
+      "id": "programmatic_api",
+      "priority": "P0",
+      "state": "GAP",
+      "target": "Stable documented Python/API query layer over canonical evidence objects and provenance.",
+      "benchmark": "pyaegean"
+    },
+    {
+      "id": "loss_aware_exports",
+      "priority": "P0",
+      "state": "PARTIAL",
+      "target": "Validated JSON-LD, EpiDoc, Parquet and other adapters with explicit loss reports.",
+      "benchmark": "pyaegean"
+    },
+    {
+      "id": "scholarship_linkage",
+      "priority": "P1",
+      "state": "PARTIAL",
+      "target": "Bibliography/commentary linked at document/sign/claim level without reproducing restricted text.",
+      "benchmark": "Linear A Research Workbench"
+    },
+    {
+      "id": "geospatial_exploration",
+      "priority": "P1",
+      "state": "GAP",
+      "target": "Source-attributed site gazetteer and map/export layer with uncertainty and provenance.",
+      "benchmark": "pyaegean / Workbench"
+    },
+    {
+      "id": "accounting_metrology_tools",
+      "priority": "P1",
+      "state": "PARTIAL_BLOCKED_INTERPRETATION",
+      "target": "Evidence-aware arithmetic/accounting checks that distinguish source numerals, fractions, damage and scholarly metrological models.",
+      "benchmark": "pyaegean / Workbench"
+    },
+    {
+      "id": "advanced_query_statistics",
+      "priority": "P1",
+      "state": "PARTIAL",
+      "target": "Wildcard pattern, KWIC, collocation, minimal-pair/form-family and graphotactic tools tied to reproducible evidence layers.",
+      "benchmark": "Linear A Research Workbench / pyaegean"
+    },
+    {
+      "id": "imagery_rti_object_level",
+      "priority": "P2_EXTERNAL",
+      "state": "RIGHTS_AND_ACCESS_DEPENDENT",
+      "target": "Link to lawful external imagery/RTI/object resources; do not ingest restricted models without permission.",
+      "benchmark": "pa-i-to"
+    },
+    {
+      "id": "independent_epigraphic_validation",
+      "priority": "P0_SCIENTIFIC",
+      "state": "HUMAN_OR_NEW_EVIDENCE",
+      "target": "Independent expert/object-level review of disputed readings and physical identities.",
+      "benchmark": "critical edition practice"
+    }
+  ],
+  "sequencing": [
+    "palaeography_context_depth",
+    "researcher_browser",
+    "programmatic_api",
+    "loss_aware_exports",
+    "scholarship_linkage",
+    "geospatial_exploration",
+    "accounting_metrology_tools",
+    "advanced_query_statistics"
+  ],
+  "rule": "Capability parity never licenses source copying and never upgrades computational agreement to independent epigraphic confirmation."
+}
