@@ -119,3 +119,7 @@ Corpus-family repositories should expose an offline browser generated from an ex
 The Phrygian member's former rights-only assessment has been narrowed. Protected systematic extraction from Brixhe-Lejeune, Obrador-Cursach and uncertain-rights digital editions remains rights-gated, but lawful public record-level identity/object metadata reconciliation remains open. Consult `research/catalogue-denominator-control.json`, `research/subcorpus-source-genealogy.json`, `research/public-object-metadata-lane.json`, and `research/residual-blocker-ledger.json`.
 
 Keep CIPPh/modern catalogue/TITUS/UD/TM denominators distinct; TITUS headings are not unique-inscription counts; Mysian comparison material is not automatically Phrygian evidence; dependent digital corpora do not constitute independent epigraphic witnesses. Canonical readings remain sealed until source-level verification.
+
+
+### Phrygian public-evidence expansion
+The member repository now has a broader monumental Old Phrygian factual-metadata lane and a publisher-hosted Kerkenes K-01 inspection route. Keep catalogue namespaces explicit (notably the W-11 / MPhr-01 collision) and use OIP 135 for attributed factual excavation/catalogue/inventory controls only under its source-specific rights boundary. Downloadable access is not blanket permission to redistribute protected figures, prose or critical text.
