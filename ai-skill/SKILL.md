@@ -90,3 +90,7 @@ If a user asks for corpus expansion from GORILA, explain the rights gate and off
 
 ## Rights-compatible evidence frontier
 Before proposing Linear A evidence growth, read `research/rights-compatible-evidence-frontier.json`. Prefer SigLA under its CC BY-NC-SA 4.0 terms; treat PA-I-TO/INSCRIBE public metadata as attributed context only unless stronger reuse rights are established; do not ingest restricted artifact models; keep Raison–Pope systematic ingestion pending access/rights review. Source availability does not establish source independence.
+
+
+## 3.0.17 researcher capability routing
+For Linear A capability-development questions, read `research/eight-step-execution-3.0.17.json` and its eight referenced contracts. Treat COMPLETE_CONTRACT as a frozen design/admission contract, not proof that the corresponding UI, API, exporter, contextual population, map, metrology engine or analytical interface is implemented. Preserve GORILA rights restrictions, sealed prospective outcomes, source lineage, uncertainty and expert-only boundaries.
