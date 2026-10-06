@@ -74,3 +74,15 @@ Read docs/EDITION-CATALOGUE-PILOT.md and analysis/edition-catalogue-pilot-audit.
 For legacy cases without exact source IDs, read analysis/case-source-membership.json and docs/PRE-EXPERT-HANDOFF.md. Separate composite component membership from certified joins; missing IDs are scoped to the pinned derivative, not surviving inscriptions.
 
 Read research/museum-catalogue-reports.json for attributed museum/project labels and findspot reports. Report numeric compatibility separately from explicit project inscription/inventory pairing. Do not count shared edition citations as independent confirmation or confuse viewer software licenses with artifact image/model reuse rights.
+
+## GORILA rights firewall
+
+EFA expressly refused this project's proposed reproduction of GORILA visuals and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including computational or AI-assisted research. Therefore:
+- never use GORILA as an ingestible corpus source;
+- never reconstruct a GORILA-derived dataset from page routes, downstream reproductions, OCR, uploaded scans, or cross-source joins;
+- never reproduce GORILA images/facsimiles/drawings;
+- use GORILA only as bibliographic/edition-location context where lawful;
+- treat historical bounded GORILA inspection artifacts as audit history, not as authority to expand extraction;
+- route new evidence growth to sources with compatible rights and preserve their lineage.
+
+If a user asks for corpus expansion from GORILA, explain the rights gate and offer evidence-grounded alternatives rather than silently extracting it.
