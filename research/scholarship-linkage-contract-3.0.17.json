@@ -1,0 +1,47 @@
+{
+  "format": "linear-a-scholarship-linkage-contract-v1",
+  "version": "3.0.17",
+  "entities": [
+    "document",
+    "sign",
+    "source_word",
+    "site",
+    "witness_assertion",
+    "disagreement",
+    "claim"
+  ],
+  "citation_fields": [
+    "citation_id",
+    "authors",
+    "title",
+    "year",
+    "container",
+    "doi_or_stable_url",
+    "source_locator",
+    "linked_entity_ids",
+    "claim_scope",
+    "lineage_class",
+    "rights_status",
+    "notes"
+  ],
+  "claim_scope_values": [
+    "mentions",
+    "transcribes",
+    "classifies",
+    "dates",
+    "provenience",
+    "palaeography",
+    "metrology",
+    "interpretation",
+    "comparison",
+    "correction"
+  ],
+  "rules": [
+    "Bibliographic linkage is not endorsement.",
+    "A citation to the same upstream edition is not independent confirmation.",
+    "Store locators and original summaries; do not reproduce restricted publication text.",
+    "Competing scholarly claims remain separately attributed.",
+    "DOI/URL presence does not imply reuse rights."
+  ],
+  "status": "READY_FOR_POPULATION"
+}
