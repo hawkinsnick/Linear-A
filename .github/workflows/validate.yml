@@ -33,6 +33,12 @@ jobs:
           assert pathlib.Path('/tmp/structural-result.json').read_bytes() == pathlib.Path('analysis/structural-sensitivity-repair-v1-result.json').read_bytes(), 'Pinned historical sensitivity result drift'
           PY
       - run: python scripts/test_prospective_independence.py
+      - run: python scripts/test_research_api.py
+      - run: python scripts/test_capabilities_3_0_18.py
+      - run: python scripts/advanced_query.py --stats > /tmp/advanced-query.json
+      - run: python scripts/advanced_query.py --collocations --window 1 > /tmp/collocations.json
+      - run: python scripts/build_source_context.py
+      - run: python scripts/build_researcher_browser.py
 
   verify-sigla-audit:
     runs-on: ubuntu-latest
