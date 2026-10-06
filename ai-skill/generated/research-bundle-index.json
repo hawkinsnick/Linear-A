@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "eb9786f2e9e1b63178b25497b18703ba57ba05b2",
-  "generated_at_utc": "2026-10-06T11:36:28+00:00",
+  "source_commit": "6500358d80dc2e05cf2b07feec5280aaeaef3ba0",
+  "generated_at_utc": "2026-10-06T11:38:31+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -172,8 +172,8 @@
     {
       "role": "pre_expert_contract",
       "path": "research/pre-expert-maximum.json",
-      "sha256": "c564a0503b3bcbbf2f8a8031b743ee404afbba45e943c88b0fa6e6074621f904",
-      "bytes": 4904
+      "sha256": "f3fb1e03e8022e710d62ac45f53f23597b934f10a73576ca93d115496597ea25",
+      "bytes": 5338
     },
     {
       "role": "pre_expert_source_audit",
@@ -184,8 +184,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "d1883e8e6b5cb95a12944bb148b63b4cafee7e6cbb27508b02aad746af59eaef",
-      "bytes": 12156
+      "sha256": "9c0549ea82fa40adc8450353f2dbf52b0eac752c1bbc6764e0a20d601cd75d69",
+      "bytes": 12568
     },
     {
       "role": "comparison_contract",
