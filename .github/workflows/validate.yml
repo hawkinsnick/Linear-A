@@ -39,6 +39,8 @@ jobs:
       - run: python scripts/advanced_query.py --collocations --window 1 > /tmp/collocations.json
       - run: python scripts/build_source_context.py
       - run: python scripts/build_researcher_browser.py
+      - run: python scripts/report_evidence_coverage.py
+      - run: test -s workbench/linear-a-browser.html
 
   verify-sigla-audit:
     runs-on: ubuntu-latest
