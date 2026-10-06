@@ -13,5 +13,7 @@
     "Python_API",
     "broad_export_adapters",
     "populated_palaeographic_context"
-  ]
+  ],
+  "superseded_by": "analysis/toolset-gap-register-3.0.16.json",
+  "note": "Historical 2.4.5 baseline retained; current benchmark includes Workbench/pyaegean and post-EFA rights constraints."
 }
