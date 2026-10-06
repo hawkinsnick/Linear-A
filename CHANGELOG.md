@@ -1,3 +1,10 @@
+## 3.0.21 — pre-expert maximum and rights-dominant residual gates
+
+- Reclassifies the blocker ledger so machine-resolvable corpus engineering is separated from evidence that requires lawful independent source access or human/object review.
+- Declares the current pre-expert machine-resolvable maximum: all listed machine tasks are complete or concretely source/rights blocked.
+- Keeps prospective outcomes sealed; source independence cannot be manufactured by additional software.
+- Adds a rights-only-readiness guide and residual blocker ledger. This does not claim critical-edition completeness or expert epigraphic validation.
+
 ## 3.0.20 — offline researcher browser and evidence coverage
 
 - Adds a standalone offline Linear A browser generated from the committed rights-compatible source layer.
