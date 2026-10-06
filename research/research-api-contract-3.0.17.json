@@ -1,0 +1,41 @@
+{
+  "format": "linear-a-research-api-contract-v1",
+  "version": "1.1",
+  "implementation_target": "Python standard-library first; optional dataframe adapters later.",
+  "resources": [
+    "documents",
+    "signs",
+    "source_words",
+    "contexts",
+    "sites",
+    "evidence",
+    "witness_assertions",
+    "disagreements",
+    "bibliography",
+    "claims",
+    "experiments"
+  ],
+  "operations": [
+    "get by stable ID",
+    "filter",
+    "free-text search over declared fields",
+    "iterate/paginate",
+    "return provenance",
+    "return rights",
+    "return warnings",
+    "export selected records"
+  ],
+  "non_goals": [
+    "remote hosted service requirement",
+    "decipherment API",
+    "automatic adjudication",
+    "source-rights circumvention"
+  ],
+  "invariants": [
+    "Canonical corpus/evidence files remain authority; API is a view.",
+    "No API response strips source license or uncertainty when present.",
+    "Disagreements return competing assertions rather than silently selecting one.",
+    "Blocked/sealed experiments cannot be queried for hidden outcomes."
+  ],
+  "status": "CONTRACT_COMPLETE_IMPLEMENTATION_NEXT"
+}
