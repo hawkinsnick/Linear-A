@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: aefa2e3227195288b790616a61673de3f395cfb321fc182687ae6a1997ae77d0
+Instruction snapshot SHA-256: 20edd156cbaa0b9d7134932baba237c8fe0a66f4418bb0a80579bc39c6bc0d80
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: cf92f913a3221de7ae6b051a2aa2aae9c44d536c38a60a7341c3dc67ddab1b46
+SHA-256: 1f51eb948ba0a2c9687d9b5e604ebaedd20e81283da482e689a9462b4c931165
 
 ---
 name: combined-corpus-research
@@ -241,6 +241,10 @@ For Linear A evidence-growth work, also read `../research/rights-compatible-evid
 
 ## 3.0.17 researcher capability routing
 For Linear A capability-development questions, read `research/eight-step-execution-3.0.17.json` and its eight referenced contracts. Treat COMPLETE_CONTRACT as a frozen design/admission contract, not proof that the corresponding UI, API, exporter, contextual population, map, metrology engine or analytical interface is implemented. Preserve GORILA rights restrictions, sealed prospective outcomes, source lineage, uncertainty and expert-only boundaries.
+
+
+## 3.0.19 working researcher interfaces
+Linear A now has working scripts for the read-only public-source API, compact browser index, source-context extraction, JSON/CSV/JSON-LD/EpiDoc-compatible loss-aware export, model-explicit accounting checks, and source-defined sequence analysis (KWIC, collocations, patterns, form-family distance). Prefer these committed interfaces over inventing ad hoc transformations. Their outputs remain source-reported evidence and do not establish decipherment, independent confirmation or expert validation.
 
 === END SOURCE FILE ===
 
