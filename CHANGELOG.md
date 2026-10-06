@@ -1,3 +1,11 @@
+## 3.0.19 — researcher depth and reproducibility
+
+- Adds JSON-LD and EpiDoc-compatible TEI export with explicit loss manifests; project-specific semantics are preserved rather than silently discarded.
+- Expands advanced analysis from identifier search to source-defined sequences with KWIC, bounded collocations, pattern search and form-family distance comparisons.
+- Adds researcher API/capability checks and generated context/browser rebuilds to CI.
+- Exposes researcher commands from the repository README while preserving rights, source-lineage and anti-decipherment boundaries.
+- Parquet remains pending an optional dependency/portable fallback decision; rich browser UI and deeper rights-clean bibliography/geospatial population remain active work.
+
 ## 3.0.18 — researcher capability implementation baseline
 
 - Implements first working baselines for all eight 3.0.17 capability contracts: source-context population, researcher browser index, read-only Python API, loss-aware JSON/CSV export, scholarship-link validation, provenance-aware GeoJSON conversion, symbolic/model-specific accounting checks, and descriptive advanced queries.
