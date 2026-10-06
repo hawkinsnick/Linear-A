@@ -1,0 +1,33 @@
+{
+  "format": "linear-a-researcher-browser-contract-v1",
+  "version": "3.0.17",
+  "surfaces": [
+    "document lookup",
+    "sign lookup",
+    "source-word lookup",
+    "site/context lookup",
+    "disagreement lookup",
+    "provenance/rights lookup",
+    "bibliography linkage",
+    "download/export"
+  ],
+  "filters": [
+    "free text",
+    "site",
+    "document type",
+    "period",
+    "source",
+    "certainty",
+    "rights status",
+    "disagreement status"
+  ],
+  "record_rules": [
+    "Every result exposes stable IDs and provenance.",
+    "Rights-restricted evidence is linked/referenced rather than embedded.",
+    "Source assertions and project-derived values are visually distinguishable.",
+    "Unknown/disputed values remain visible.",
+    "No browser control implies decipherment."
+  ],
+  "implementation_note": "Extend the existing offline evidence workbench rather than create a competing evidence model.",
+  "status": "READY_FOR_IMPLEMENTATION"
+}
