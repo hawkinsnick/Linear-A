@@ -1,0 +1,92 @@
+{
+  "format": "linear-a-advanced-query-contract-v1",
+  "version": "3.0.17",
+  "capabilities": [
+    {
+      "id": "kwic",
+      "unit": "source-defined word/sign sequence",
+      "requirements": [
+        "declared representation",
+        "document IDs",
+        "context window"
+      ]
+    },
+    {
+      "id": "wildcard_pattern",
+      "unit": "sign/token sequence",
+      "requirements": [
+        "explicit wildcard semantics",
+        "damage handling"
+      ]
+    },
+    {
+      "id": "frequency",
+      "unit": "document/sign/source-word/type",
+      "requirements": [
+        "denominator",
+        "exclusions",
+        "source snapshot"
+      ]
+    },
+    {
+      "id": "collocation",
+      "unit": "declared adjacency/window",
+      "requirements": [
+        "window definition",
+        "document-boundary rule",
+        "null/comparison where inferential"
+      ]
+    },
+    {
+      "id": "minimal_pair_form_family",
+      "unit": "source-defined forms",
+      "requirements": [
+        "edit definition",
+        "uncertainty treatment"
+      ],
+      "warning": "form relation is not morphology"
+    },
+    {
+      "id": "graphotactics",
+      "unit": "sign sequence",
+      "requirements": [
+        "representation layer",
+        "boundary semantics",
+        "null model"
+      ],
+      "warning": "graphotactic pattern is not phonotactics"
+    },
+    {
+      "id": "similarity_clustering",
+      "unit": "declared form vectors",
+      "requirements": [
+        "distance metric",
+        "normalization",
+        "uncertainty handling"
+      ],
+      "warning": "cluster is not language/semantic class"
+    },
+    {
+      "id": "network",
+      "unit": "form/sign relation",
+      "requirements": [
+        "edge definition",
+        "weights",
+        "source lineage"
+      ],
+      "warning": "network topology is not linguistic genealogy"
+    }
+  ],
+  "global_requirements": [
+    "population",
+    "unit of analysis",
+    "source snapshot",
+    "exclusions",
+    "method",
+    "uncertainty",
+    "rights",
+    "reproducibility pointer"
+  ],
+  "sealed_data_rule": "No advanced query may expose or score sealed prospective outcomes.",
+  "status": "CONTRACT_COMPLETE"
+}
