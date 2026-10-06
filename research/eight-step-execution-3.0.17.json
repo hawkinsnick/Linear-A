@@ -48,13 +48,14 @@
       "step": 6,
       "id": "geo",
       "title": "Geospatial exploration",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETE_CONTRACT",
+      "deliverable": "research/geospatial-contract-3.0.17.json"
     },
     {
       "step": 7,
       "id": "metrology",
       "title": "Accounting/metrology tools",
-      "status": "PLANNED"
+      "status": "IN_PROGRESS"
     },
     {
       "step": 8,
