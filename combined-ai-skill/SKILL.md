@@ -108,3 +108,8 @@ For Linear A researcher-facing work, prefer the generated offline browser (`work
 
 ## 3.0.21 pre-expert maximum / rights-dominant gate
 The Linear A corpus has reached its machine-resolvable pre-expert maximum under currently admitted evidence. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
+
+
+## Byblos rights-dominant routing
+
+For Byblos Syllabary evidence-growth or readiness questions, consult the member repository's `analysis/preexpert-residual-ledger.json` and `docs/RIGHTS-DOMINANT-READINESS.md`. Under its currently lawfully admitted evidence, the identified non-rights pre-expert machine/source work has been exhausted. The dominant acquisition dependencies are lawful access to Dunand 1945/1978, authoritative object/accession witnesses, and applicable upstream terms for provider sequence/encoding reuse. Keep the fourteen A-N publication labels distinct from physical-object counts and keep OCBI rendered rows distinct from inscription counts. Independent epigraphic review remains downstream and must not be simulated.
