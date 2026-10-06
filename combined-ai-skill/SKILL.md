@@ -112,3 +112,8 @@ The Linear A corpus has reached its machine-resolvable pre-expert maximum under 
 
 ## Corpus-family browser standard
 Corpus-family repositories should expose an offline browser generated from an explicit rights-reviewed allowlist. Standard sister-project paths are `research/browser-sources.json`, `scripts/build_corpus_browser.py`, and generated `workbench/corpus-browser.html`; Linear A may use its richer native `workbench/linear-a-browser.html`. Never recursively sweep data directories into a browser. Treat browser admission as redistribution: verify source/record rights and provenance first. A browser is an access surface, not decipherment or expert validation.
+
+
+## Eteocretan rights-wall routing
+
+For Eteocretan readiness and evidence-growth work, consult the member repository's `research/pre-expert-maximum.json`, `research/residual-blocker-ledger.json`, and `research/rights-wall-audit-2026-10-06.md`. Guarducci III has a confirmed public digital access route through University of Crete Anemi, but access does not itself authorize redistribution or systematic structured derivative use. Duhoux 1982, complete Dreros primary evidence, authoritative object/accession evidence, and source-specific reuse terms remain evidence-growth gates. Preserve Praisos classification conflicts, Dreros location uncertainty, and Azoria candidate/item denominators; never convert derivative witnesses into independent ancient observations or admit readings merely because a source is downloadable.
