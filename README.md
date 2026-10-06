@@ -130,3 +130,7 @@ Decoded SigLA's explicit serialized Word lists independently of f3: 1,401 Word o
 
 ### 0.7.0 — source-word analytical release
 Measured 836 distinct types, 668 hapax types and 168 recurrent types among 1,283 nonempty source words. A within-word positional permutation screen produced 22 BH-FDR-positive sign/position cases. The release also corrected the inherited document-prefix `site_id` label to `site_group_heuristic`.
+
+
+## 3.0.21 pre-expert maximum / rights-dominant gate
+The Linear A corpus has reached its machine-resolvable pre-expert maximum under currently admitted evidence. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
