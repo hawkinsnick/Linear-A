@@ -62,7 +62,10 @@
       "step": 8,
       "id": "analysis",
       "title": "Advanced query/statistics",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETE_CONTRACT",
+      "deliverable": "research/advanced-query-contract-3.0.17.json"
     }
-  ]
+  ],
+  "completed": "2026-10-06",
+  "overall_status": "EIGHT_CAPABILITY_CONTRACTS_COMPLETE_IMPLEMENTATION_AND_POPULATION_REMAIN"
 }
