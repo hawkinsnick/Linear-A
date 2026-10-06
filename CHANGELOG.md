@@ -1,3 +1,11 @@
+## 3.0.18 — researcher capability implementation baseline
+
+- Implements first working baselines for all eight 3.0.17 capability contracts: source-context population, researcher browser index, read-only Python API, loss-aware JSON/CSV export, scholarship-link validation, provenance-aware GeoJSON conversion, symbolic/model-specific accounting checks, and descriptive advanced queries.
+- API/browser operate over the committed public SigLA source layer rather than an unverified upstream copy.
+- Context extraction admits only source-reported fields; no identifier-derived dates, findspots, hands or coordinates are invented.
+- Metrology keeps observed/source-reported symbols, model values and arithmetic separate; a balanced result does not validate a model.
+- These are implementation baselines. Rich UI integration, JSON-LD/EpiDoc/Parquet exporters, populated bibliography/geospatial records, deeper KWIC/collocation/graphotactic functions and full CI validation remain next work.
+
 ## 3.0.17 — researcher capability execution contracts
 
 - Executes the eight-part capability planning pass: palaeographic/context admission, researcher browser, research API, loss-aware exports, scholarship linkage, geospatial exploration, accounting/metrology, and advanced query/statistics.
