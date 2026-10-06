@@ -1,3 +1,11 @@
+## 3.0.16 — GORILA rights firewall and evidence-source pivot
+
+- Records the 2026-10-06 EFA project-specific refusal covering GORILA visual reproduction and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including AI-assisted and non-commercial research.
+- Converts GORILA from a potential acquisition/ingestion route to a fail-closed bibliographic-reference-only source for future work.
+- Updates the Linear A skill and combined corpus skill so AI workflows cannot silently reconstruct or expand a GORILA-derived dataset.
+- Preserves historical bounded inspection artifacts as research/audit history without treating them as authorization or corpus-admission evidence.
+- Directs future evidence growth toward independently usable, rights-compatible sources.
+
 ## 3.0.12 — mapping/statistical repair and stronger scientific-claim guards
 
 Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked.
