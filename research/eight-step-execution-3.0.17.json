@@ -55,13 +55,14 @@
       "step": 7,
       "id": "metrology",
       "title": "Accounting/metrology tools",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETE_CONTRACT",
+      "deliverable": "research/accounting-metrology-contract-3.0.17.json"
     },
     {
       "step": 8,
       "id": "analysis",
       "title": "Advanced query/statistics",
-      "status": "PLANNED"
+      "status": "IN_PROGRESS"
     }
   ]
 }
