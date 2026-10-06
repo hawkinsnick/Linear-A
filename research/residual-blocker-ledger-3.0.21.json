@@ -1,0 +1,51 @@
+{
+  "format": "linear-a-residual-blocker-ledger-v1",
+  "version": "3.0.21",
+  "target": "All machine-resolvable engineering/research-preparation blockers closed; residual evidence-growth blockers reduced to rights/access or evidence that cannot exist without rights-compatible independent source material.",
+  "categories": [
+    {
+      "id": "RIGHTS-GORILA",
+      "class": "RIGHTS_ACCESS",
+      "status": "BLOCKED",
+      "description": "EFA project-specific refusal prevents GORILA visual/structured/machine-readable derivative use."
+    },
+    {
+      "id": "RIGHTS-RAISON-POPE",
+      "class": "RIGHTS_ACCESS",
+      "status": "BLOCKED_PENDING_PERMISSION_OR_CLEAR_TERMS",
+      "description": "Systematic edition reconciliation cannot proceed until lawful access and intended derivative use are established."
+    },
+    {
+      "id": "RIGHTS-PAITO-OBJECT-DATA",
+      "class": "RIGHTS_ACCESS",
+      "status": "BLOCKED_PENDING_PERMISSION",
+      "description": "2D+/3D/object-level datasets cannot be ingested without compatible permission."
+    },
+    {
+      "id": "INDEPENDENT-EPIGRAPHY",
+      "class": "DEPENDENT_ON_RIGHTS_COMPATIBLE_EVIDENCE",
+      "status": "WAITING_FOR_SOURCE",
+      "description": "Disputed physical readings cannot be independently adjudicated from the existing single-source derivative. This is not an unfinished software task."
+    },
+    {
+      "id": "PROSPECTIVE-INDEPENDENCE",
+      "class": "DEPENDENT_ON_INDEPENDENT_INPUT",
+      "status": "SEALED_WAITING_FOR_SOURCE",
+      "description": "Prospective scoring remains sealed until an independent, admissible input/gold basis exists. No engineering task may substitute for independence."
+    },
+    {
+      "id": "SOFTWARE-TOOLING",
+      "class": "MACHINE_RESOLVABLE",
+      "status": "BASELINE_COMPLETE_DEPTH_CONTINUES",
+      "description": "Browser, API, context extraction, loss-aware export, scholarship/geospatial validators, metrology and sequence-analysis baselines exist and are CI-routed."
+    },
+    {
+      "id": "REVIEW-PACKAGING",
+      "class": "MACHINE_RESOLVABLE",
+      "status": "COMPLETE_BASELINE",
+      "description": "Pre-expert handoff, review queues, provenance/rights boundaries and capability status are documented."
+    }
+  ],
+  "rule": "Do not call a human-evidence dependency an engineering blocker. Do not call rights-only until every remaining MACHINE_RESOLVABLE item is COMPLETE or explicitly optional depth that cannot change evidence admissibility.",
+  "current_assessment": "RIGHTS_DOMINANT_BUT_STALE_STATUS_AND_OPTIONAL_ENGINEERING_DEPTH_REMAIN_TO_CLEAN"
+}
