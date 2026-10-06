@@ -1,3 +1,9 @@
+## 3.0.17 — researcher capability execution contracts
+
+- Executes the eight-part capability planning pass: palaeographic/context admission, researcher browser, research API, loss-aware exports, scholarship linkage, geospatial exploration, accounting/metrology, and advanced query/statistics.
+- Every capability is bounded by provenance, rights, uncertainty and source-lineage rules; GORILA remains outside structured ingestion under the EFA refusal and sealed prospective outcomes remain inaccessible.
+- This release freezes implementation contracts and sequencing. It does not falsely label unimplemented UI/API/export code or unpopulated contextual evidence as complete.
+
 ## 3.0.16 — GORILA rights firewall and evidence-source pivot
 
 - Adds a machine-readable rights-compatible evidence frontier and refreshes the pre-expert source blocker so stale GORILA acquisition language cannot reopen prohibited extraction.
