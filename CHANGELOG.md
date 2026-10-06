@@ -1,5 +1,7 @@
 ## 3.0.16 — GORILA rights firewall and evidence-source pivot
 
+- Adds a machine-readable rights-compatible evidence frontier and refreshes the pre-expert source blocker so stale GORILA acquisition language cannot reopen prohibited extraction.
+
 - Records the 2026-10-06 EFA project-specific refusal covering GORILA visual reproduction and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including AI-assisted and non-commercial research.
 - Converts GORILA from a potential acquisition/ingestion route to a fail-closed bibliographic-reference-only source for future work.
 - Updates the Linear A skill and combined corpus skill so AI workflows cannot silently reconstruct or expand a GORILA-derived dataset.
