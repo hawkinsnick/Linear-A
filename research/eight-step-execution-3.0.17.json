@@ -34,13 +34,14 @@
       "step": 4,
       "id": "exports",
       "title": "Loss-aware exports",
-      "status": "IN_PROGRESS"
+      "status": "COMPLETE_CONTRACT",
+      "deliverable": "research/loss-aware-export-contract-3.0.17.json"
     },
     {
       "step": 5,
       "id": "scholarship",
       "title": "Scholarship linkage",
-      "status": "PLANNED"
+      "status": "IN_PROGRESS"
     },
     {
       "step": 6,
