@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "836e6cf84f7e661f16b9d6a9bd23666b6678526f",
-  "generated_at_utc": "2026-10-05T01:54:35+00:00",
+  "source_commit": "eb9786f2e9e1b63178b25497b18703ba57ba05b2",
+  "generated_at_utc": "2026-10-06T11:36:28+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -184,8 +184,8 @@
     {
       "role": "review_handoff",
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "b72e469d238ace0c01b0ab65c15e8d0ac66c2c18487b3b8d1565b22589f54ab7",
-      "bytes": 11462
+      "sha256": "d1883e8e6b5cb95a12944bb148b63b4cafee7e6cbb27508b02aad746af59eaef",
+      "bytes": 12156
     },
     {
       "role": "comparison_contract",
@@ -208,8 +208,8 @@
     {
       "role": "rights_matrix",
       "path": "DATA-LICENSE-MATRIX.md",
-      "sha256": "00780cafaee06574ff27e462f2bb054cbb83f7f41337c63f08a489e85d179fa8",
-      "bytes": 4663
+      "sha256": "ec176b6c1a1a8852c76d047c54d6d1eafeab1e848cc832534470fa89107a0801",
+      "bytes": 5248
     },
     {
       "role": "notice",
