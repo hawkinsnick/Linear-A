@@ -40,3 +40,19 @@ Every imported record should carry:
 ## Conflicts
 
 When sources disagree, retain both claims as source-specific records when practical. Reconciliation belongs in a separate analytical or hypothesis layer.
+
+## EFA rights decision (2026-10-06)
+
+The École française d’Athènes expressly declined permission for this project to reproduce or publish GORILA visual material and also declined permission to create, publish, redistribute, or exploit structured or machine-readable datasets derived from GORILA, including for computational or AI-assisted research and including non-commercial academic projects.
+
+Accordingly, this repository applies a fail-closed GORILA rule:
+- do not ingest GORILA as a corpus source;
+- do not transcribe GORILA systematically into structured records;
+- do not publish or redistribute GORILA-derived machine-readable datasets;
+- do not reproduce GORILA photographs, facsimiles, drawings, plates, or other visual material;
+- retain only lawful bibliographic citations, edition/page locators, source-attributed scholarly discussion, and independently sourced observations where those are otherwise permitted;
+- do not reconstruct GORILA content indirectly from page routes, downstream reproductions, AI extraction, or cross-source joins.
+
+Existing project artifacts that report bounded historical inspections must be treated as research-history/audit records, not as authorization for further extraction or redistribution. New evidence growth must come from sources whose terms permit the intended use or from original observations the project is entitled to publish.
+
+This policy records the publisher's project-specific decision and is intentionally more restrictive than a generic copyright-risk heuristic. It is not legal advice.
