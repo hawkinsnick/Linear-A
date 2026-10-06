@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "b2f204207645bb57e09ffeeb770e3c093825e3d0f0f8b156a3fa21bc300e79ce",
-      "bytes": 12379
+      "sha256": "7763f090bb81ca60d946fc45d7fb26b1a9340e19d6692542fef7ec2bca40ea0c",
+      "bytes": 13245
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "c88e00ec7731f84e0453ce235b5084941a3afec8835ab23c0c5e83a9dbc8f560"
+  "snapshot_sha256": "237a258685e05f329731f09a226284cd1a2d04cf06b34c9ada8ad2345c5cfa94"
 }
