@@ -81,3 +81,7 @@ PA-I-TO's viewer index separately lists HT 29, HT 114 r/v and HT 118. Only the i
 Run `python scripts/check_museum_catalogue_reports.py`. Exact web URLs and field/section locators remain in the comparison; no raw HTML digest or current object-identity certification is invented. All prior expert gates remain open.
 
 The expanded INSCRIBE metadata check explicitly pairs HT 29 with 81951 and preserves its **Villa, room 59?** question mark. HT 118 is paired with 83734 and Casa del Lebete, room 9; its GORILA I pp.200–201 citation remains explicit. KH 8 is paired with inventory 8 and Chania, odos Katre, citing GORILA III pp.32–33. The project's LM I and the pinned SigLA LM IB remain separate reported chronologies. No model measurement, source-independence claim or physical-identity certification follows from these metadata pairs.
+
+## GORILA rights gate — 2026-10-06
+
+EFA has expressly refused this project's proposed reproduction of GORILA visuals and creation/dissemination of structured or machine-readable GORILA-derived datasets, including AI-assisted research outputs. Treat this as a hard source-admission gate. Do not extend the historical bounded page-inspection work into systematic transcription, structured extraction, or redistribution. GORILA may remain as bibliographic/edition-location context where lawful; evidence growth must proceed through independently usable sources. This restriction does not erase historical audit records, but those records confer no permission and no corpus-admission authority.
