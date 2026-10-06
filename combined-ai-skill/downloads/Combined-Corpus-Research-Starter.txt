@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 669f9b5192a05c2fff61dab4dc98dc48775aecdf8d2f18e26ac547d28b58f1a8
+Instruction snapshot SHA-256: 87e59ccd9a03be6b63234c82dc047df442b8715bf71da5db6fad5ac24de94c0d
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 3e812a460ae1b1c5bfce126b536ff0b03d3d0fa4d4be2dc6b2ce00ce3fa79e5f
+SHA-256: baf924066f554553edf671c5c777a332420c385e784310eb4a7c2b516638c1f4
 
 ---
 name: combined-corpus-research
@@ -230,6 +230,10 @@ For corpus-development work, apply `references/pre-expert-standing-order.md`.
 ## Lydian, Sidetic and Pisidian source work
 
 Read each member’s `research/source-worklist.json` before preparing an exhaustive handoff. It accounts for every frozen record and citation while preserving unresolved edition joins. Consult linked source checks for precise locators and attributed competing readings. Inscription numbers may differ between editions; matching numbers alone do not establish identity. Museum inventory references in a publication are dated source assertions until independently reconciled. Acquired PDFs and targeted checks do not establish complete collation, redistribution permission or expert review.
+
+## Linear A GORILA rights firewall
+
+For Linear A, EFA has expressly refused this project's proposed reproduction of GORILA visual material and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including AI-assisted and non-commercial research outputs. The orchestrator must not route GORILA into ingestion, reconstruction, extraction, or redistribution workflows. It may be cited as bibliographic/edition-location context where lawful. Historical bounded inspection artifacts are audit history only. This member-specific restriction overrides any generic fleet preference for source acquisition.
 
 === END SOURCE FILE ===
 
