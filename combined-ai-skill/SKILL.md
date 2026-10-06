@@ -123,3 +123,7 @@ Keep CIPPh/modern catalogue/TITUS/UD/TM denominators distinct; TITUS headings ar
 
 ### Phrygian public-evidence expansion
 The member repository now has a broader monumental Old Phrygian factual-metadata lane and a publisher-hosted Kerkenes K-01 inspection route. Keep catalogue namespaces explicit (notably the W-11 / MPhr-01 collision) and use OIP 135 for attributed factual excavation/catalogue/inventory controls only under its source-specific rights boundary. Downloadable access is not blanket permission to redistribute protected figures, prose or critical text.
+
+
+### Phrygian Gordion/Kerkenes small-object controls
+The member corpus now distinguishes Penn Museum's institutional Gordion discovery categories (11 stone inscriptions; 245 graffiti, primarily on vessels) from TM/TITUS/UD denominators and from the monumental-index layer. It also tracks OIP 148 as a publisher-hosted Kerkenes pot-mark/graffiti context route. Do not turn category counts into exact unique-object totals, classify all marks as Phrygian language, or count repeated publication of the same evidence as independent witnesses.
