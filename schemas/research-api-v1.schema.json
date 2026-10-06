@@ -14,10 +14,14 @@
     "resource": {
       "enum": [
         "documents",
+        "signs",
         "source_words",
+        "contexts",
+        "sites",
         "evidence",
         "witness_assertions",
         "disagreements",
+        "bibliography",
         "claims",
         "experiments"
       ]
@@ -33,6 +37,35 @@
       "items": {
         "type": "string"
       }
+    },
+    "query": {
+      "type": "object",
+      "properties": {
+        "ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "text": {
+          "type": "string"
+        },
+        "filters": {
+          "type": "object"
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000
+        }
+      },
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object"
+    },
+    "lineage": {
+      "type": "object"
     }
   },
   "additionalProperties": false
