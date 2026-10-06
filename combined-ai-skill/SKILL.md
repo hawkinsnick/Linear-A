@@ -89,3 +89,6 @@ Read each member’s `research/source-worklist.json` before preparing an exhaust
 ## Linear A GORILA rights firewall
 
 For Linear A, EFA has expressly refused this project's proposed reproduction of GORILA visual material and creation/publication/redistribution/exploitation of structured or machine-readable GORILA-derived datasets, including AI-assisted and non-commercial research outputs. The orchestrator must not route GORILA into ingestion, reconstruction, extraction, or redistribution workflows. It may be cited as bibliographic/edition-location context where lawful. Historical bounded inspection artifacts are audit history only. This member-specific restriction overrides any generic fleet preference for source acquisition.
+
+
+For Linear A evidence-growth work, also read `../research/rights-compatible-evidence-frontier.json`; it is the member-specific source-admission routing table after the EFA GORILA decision.
