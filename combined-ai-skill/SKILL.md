@@ -43,6 +43,16 @@ Use stable corpus/record/claim identifiers and source locators when available. N
 ## Rights firewall
 Rights remain source- and corpus-specific. Never treat inclusion in this combined skill as permission to redistribute content. Prefer references/locators over reproduction when rights are unclear or restrictive.
 
+## Interoperability and EpiDoc gate
+Interchange compatibility is representational, not linguistic evidence. When a participating corpus exposes TEI/EpiDoc, RDF, JSON-LD, Unicode or another shared format:
+- preserve the corpus's native object/surface/text distinctions, partial-coverage flags, authority-specific identifiers, source lineage, uncertainty and rights;
+- do not infer sign equivalence, phonetic value, linguistic relationship, chronology or witness independence from shared serialization;
+- distinguish an interchange **pilot/target** from a schema-validated artifact;
+- never call output EpiDoc-conformant unless that corpus records successful validation against an explicitly pinned EpiDoc release/profile;
+- treat full object-level description and occurrence/transcription interchange as separate coverage dimensions unless the corpus explicitly proves both.
+
+Cypro-Minoan currently has an occurrence-layer EpiDoc pilot with EpiDoc 9.8 pinned as its validation target; until the corpus validation record changes state, route it as **EpiDoc-targeted, validation pending**, not conformant.
+
 ## Staleness
 Check each participating project's generated source-state. A stale or absent bundle must be disclosed; canonical corpus files take precedence.
 
