@@ -97,7 +97,7 @@
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
-      "repository": "hawkinsnick/Cretan-hieroglpyhs",
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
       "label": "Cretan Hieroglyphic",
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -448,35 +448,6 @@
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "validation_path": "tests/test_integrity.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
-      "admission": {
-        "status": "PASS",
-        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
-        "individual_ai_skill": true,
-        "master_ai_member": true
-      }
-    },
-    {
-      "id": "egyptian_hieroglyphic",
-      "repository": "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
-      "relationship": "Egyptian hieroglyphic comparative and computer-vision control; no Aegean genetic relationship implied",
-      "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "0.3.1",
-      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; individual AI skill and master integration complete; no verified sign annotations, transcriptions, transliterations or translations yet.",
-      "label": "Egyptian Hieroglyphic",
-      "status": "deciphered comparative/control corpus; current repository layer is pre-annotation image acquisition",
-      "individual_skill_path": "ai-skill/SKILL.md",
-      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "ai-skill/scripts/validate_bundle.py",
-      "evidence_growth_state": "MACHINE_WORK_ACTIVE",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
