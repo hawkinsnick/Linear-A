@@ -51,7 +51,7 @@ Interchange compatibility is representational, not linguistic evidence. When a p
 - never call output EpiDoc-conformant unless that corpus records successful validation against an explicitly pinned EpiDoc release/profile;
 - treat full object-level description and occurrence/transcription interchange as separate coverage dimensions unless the corpus explicitly proves both.
 
-Cypro-Minoan currently has an occurrence-layer EpiDoc pilot with EpiDoc 9.8 pinned as its validation target; until the corpus validation record changes state, route it as **EpiDoc-targeted, validation pending**, not conformant.
+Cypro-Minoan's partial occurrence-layer pilot passed EpiDoc 9.8 Relax NG and deterministic regeneration checks in CI run 37718674499. Schematron/profile validation, schema checksum pinning, and full object-level coverage remain outstanding. Route it as **Relax NG-validated occurrence pilot**, not comprehensively EpiDoc-conformant.
 
 ## Staleness
 Check each participating project's generated source-state. A stale or absent bundle must be disclosed; canonical corpus files take precedence.
@@ -63,4 +63,6 @@ Answer the research question directly, then provide Evidence by corpus; Comparab
 For undeciphered or poorly understood material, do not manufacture translations or phonetic readings. For deciphered scripts/languages, preserve editorial uncertainty and do not transfer established values to other scripts without explicit evidence.
 
 ## Scope
-The active project set is defined by registry/corpus-projects.json. New corpus projects join only through explicit registry entries and must provide an individual skill plus the shared research contract.
+The active project set is defined by combined-ai-skill/registry/corpus-projects.json. New corpus projects join only through explicit registry entries and must provide an individual skill plus the shared research contract.
+
+Egyptian Hieroglyphic Corpus and LightroomIsSlow are separate projects and must not be treated as members of this language-corpus fleet.
