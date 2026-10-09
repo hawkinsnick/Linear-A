@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "3ef125073565659c3b7f738f88ee37b83d4ba6aa0a026351d8c44a5361796f97",
+  "build_script_sha256": "49eb18942b4c9a17d90d37b9cb53ebd34194e12aa4b09e45a87c36abf09ab172",
   "source_files": [
     {
       "path": "LICENSE",
@@ -50,13 +50,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "550c3a68c728816522d48e45efd49363b8efdd8fde5a08d90b1350f4a1078e68",
-      "bytes": 5268
+      "sha256": "0ce35855afa1bbf01a6df29699bb05bdc48b081224e9dc7a42c21caad64fb1fe",
+      "bytes": 5617
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "4dd7b9d076663627e2625c91533d4af45625dfbac51cad179d3bf024f160d924",
-      "bytes": 14384
+      "sha256": "f9f98681f5983ba2f52150ac751f76db604da75746ce01a9d17becad3866111e",
+      "bytes": 14724
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "7e90328ca3bc6fb66d16d0cc3e567adb95e1f141d99fc24dca60c561a3d40016"
+  "snapshot_sha256": "dc2f05e8113481d58c93f6bb611510d3cd268deee7babd77dbc2ba88daff2d50"
 }
