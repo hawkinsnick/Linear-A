@@ -5,7 +5,7 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-EXCLUDED = {"LightroomIsSlow"}
+EXCLUDED = {"LightroomIsSlow", "Egyptian-Hieroglyphic-Corpus"}
 RULE = "Parity is rigor and traceability under surviving evidence, never equal row counts."
 
 
@@ -24,11 +24,13 @@ def validate(register, combined):
     repositories = [m.get("repository", "") for m in combined.get("members", [])]
     contract_fields = {"individual_skill_path","bundle_index_path","authority_profile_path","validation_path","required_contract","required_skill_version","admission"}
     for member in combined.get("members", []):
+        admission_status = member.get("admission", {}).get("status")
         missing = sorted(k for k in contract_fields if not member.get(k))
-        if missing: errors.append(f"fleet contract missing {missing} for {member.get('repository')}")
+        if missing and admission_status == "PASS": errors.append(f"fleet contract missing {missing} for {member.get('repository')}")
         admission=member.get("admission",{})
-        if admission.get("status")!="PASS": errors.append(f"fleet admission not PASS for {member.get('repository')}")
-        if admission.get("contract")!="corpus-factory/CORPUS-ADMISSION-CONTRACT.md": errors.append(f"wrong admission contract for {member.get('repository')}")
+        if admission_status not in {"PASS", "PENDING"}: errors.append(f"invalid fleet admission status for {member.get('repository')}")
+        if admission_status == "PENDING" and not admission.get("reason"): errors.append(f"pending fleet member lacks blocker reason for {member.get('repository')}")
+        if admission_status == "PASS" and admission.get("contract")!="corpus-factory/CORPUS-ADMISSION-CONTRACT.md": errors.append(f"wrong admission contract for {member.get('repository')}")
     if not repositories or any(not name.startswith("hawkinsnick/") for name in repositories):
         errors.append("invalid or empty Combined AI corpus membership")
     if len(repositories) != len(set(repositories)):
@@ -42,7 +44,7 @@ def validate(register, combined):
         errors.append(f"separate projects included in corpus fleet: {sorted(EXCLUDED & (seen | expected))}")
     exclusions = {m.get("repo") for m in register.get("excluded_projects", []) if m.get("reason")}
     if exclusions != EXCLUDED:
-        errors.append("separate-project exclusions must name Lightroom with reason")
+        errors.append("separate-project exclusions must name both independent projects with reasons")
     if register.get("rule") != RULE:
         errors.append("parity rule changed")
     return errors
@@ -55,7 +57,7 @@ def main():
     if errors:
         print("\n".join(errors))
         return 1
-    print(f"PASS: {len(register['members'])} corpus projects; fleet/master parity and AI contract fields validated; non-corpus projects excluded")
+    print(f"PASS: {len(register['members'])} corpus projects; fleet/master parity validated; admitted members meet AI contracts, pending members explicitly gated; non-corpus projects excluded")
     return 0
 
 
