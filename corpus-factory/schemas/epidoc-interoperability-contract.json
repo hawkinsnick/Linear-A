@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "title": "Fleet EpiDoc interoperability contract",
+  "status": "NORMATIVE_FLEET_CONTRACT",
+  "principles": [
+    "Native corpus records remain authoritative; EpiDoc is an interoperable scholarly representation.",
+    "Exports are loss-aware: unsupported native semantics go in an export manifest rather than disappearing.",
+    "Rights-restricted content stays restricted.",
+    "Uncertainty, damage, restorations, editorial intervention, directionality, object context, provenance, bibliography and external identifiers are preserved where supplied."
+  ],
+  "minimum_mapping": {
+    "record_identity": "TEI xml:id and idno",
+    "object_description": "supportDesc and objectDesc",
+    "provenance_findspot": "provenance and placeName",
+    "dating": "origDate",
+    "edition_text": "edition div",
+    "bibliography": "listBibl and bibl",
+    "external_identifiers": "typed idno",
+    "rights": "availability and licence",
+    "revision_history": "revisionDesc"
+  },
+  "required_outputs": ["EpiDoc XML", "export manifest", "source-record fingerprint", "mapping coverage report", "validation report"],
+  "required_tests": ["well-formed XML", "schema validation when validator is available", "stable identifier preservation", "no silent field loss", "rights allowlist enforcement", "round-trip semantic comparison for declared reversible fields"],
+  "admission_rule": "An EpiDoc export is an encoding claim only; it does not certify a reading, decipherment, object identity, source independence or expert review."
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version":"1.0",
+  "contract":"corpus-factory/schemas/universal-identity-graph-contract.json",
+  "status":"PILOT_SOURCE_IDENTITY_LAYER",
+  "scope":"Rights-compatible Linear A source identities only; no GORILA-derived structured identity reconstruction.",
+  "nodes":[
+    {"id":"source:SIGLA","type":"bibliographic_work","label":"SigLA source layer"},
+    {"id":"source:GORILA","type":"bibliographic_work","label":"GORILA bibliographic authority"},
+    {"id":"source:RAISON-POPE","type":"bibliographic_work","label":"Raison-Pope"},
+    {"id":"project:LINEAR-A-PUBLIC-SIGLA-LAYER","type":"external_catalogue_record","label":"802-entry authenticated public SigLA layer"},
+    {"id":"project:GORILA-ROUTE-HISTORY","type":"external_catalogue_record","label":"historical bounded GORILA route audit"},
+    {"id":"project:CRITICAL-PILOT","type":"external_catalogue_record","label":"10-entry critical metadata pilot"}
+  ],
+  "edges":[
+    {"edge_id":"LA-ID-001","subject":"project:LINEAR-A-PUBLIC-SIGLA-LAYER","predicate":"derived_from","object":"source:SIGLA","assertion_status":"CERTAIN","authority":"authenticated project source pipeline","evidence_locator":"analysis/public-sigla-layer-audit.json","checked_date":"2026-10-06"},
+    {"edge_id":"LA-ID-002","subject":"project:GORILA-ROUTE-HISTORY","predicate":"derived_from","object":"source:GORILA","assertion_status":"CERTAIN","authority":"historical project audit","evidence_locator":"analysis/gorila-route-audit.json","checked_date":"2026-10-06"},
+    {"edge_id":"LA-ID-003","subject":"project:CRITICAL-PILOT","predicate":"derived_from","object":"source:SIGLA","assertion_status":"CERTAIN","authority":"project critical-pilot audit","evidence_locator":"analysis/critical-pilot-audit.json","checked_date":"2026-10-06"},
+    {"edge_id":"LA-ID-004","subject":"project:CRITICAL-PILOT","predicate":"derived_from","object":"source:RAISON-POPE","assertion_status":"UNKNOWN","authority":"project edition concordance","evidence_locator":"Raison-Pope entry resolution remains unresolved","checked_date":"2026-10-06"}
+  ],
+  "firewall":[
+    "GORILA route history is audit history only and must not be expanded into a structured derivative identity layer after the EFA refusal.",
+    "SigLA ancestry shared with GORILA does not create independent confirmation.",
+    "Raison-Pope joins remain UNKNOWN until lawful source-level resolution."
+  ]
+}
