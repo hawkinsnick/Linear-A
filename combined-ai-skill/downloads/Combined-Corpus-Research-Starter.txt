@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 09d9a6430b941bc28279439ddfda817e375a8ca0825fc34f9eefac054745261c
+Instruction snapshot SHA-256: 7e90328ca3bc6fb66d16d0cc3e567adb95e1f141d99fc24dca60c561a3d40016
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 9b0fab2bde8026ab632f040b94a29b617952ae9610139f36f2af7249f7559369
+SHA-256: 4dd7b9d076663627e2625c91533d4af45625dfbac51cad179d3bf024f160d924
 
 ---
 name: combined-corpus-research
@@ -266,6 +266,9 @@ For collection-strength assessments, treat 9.0 as the current minimum target, bu
 ## Collection-wide >9 floor
 The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does not graduate by version number, file count, or tooling alone. Assess lawful primary/critical evidence depth, declared coverage versus the scholarly universe, source independence and lineage, object/text identity reconciliation, uncertainty/disagreement controls, reproducibility, rights provenance, and expert-review boundaries. Corpora below the gate remain in remediation until evidence depth supports graduation or a concrete rights/access/expert dependency prevents further lawful machine-resolvable progress. Never inflate a score to hide an external blocker.
 
+## Milyan admission checkpoint (2026-10-08)
+`hawkinsnick/Milyan-Lycian-B` is registered provisionally. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Do not treat it as admitted or use it for text-level cross-corpus inference until critical edition collation, rights review and bundle validation pass. Milyan is not synonymous with Lycian A.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -302,7 +305,7 @@ Each member now has a [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/r
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: 132c1a89fe315a9472dc48fa6a579b3e1cea7d24c7fe241bf157e32c66dd7923
+SHA-256: 454a60f02382c777900ec0bcf20d1170dc64465d3fc3bbbc6fb1a1be68c630aa
 
 # Corpus downloads
 
@@ -315,7 +318,7 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Linear A | [Open](https://github.com/hawkinsnick/Linear-A) | [Download](https://github.com/hawkinsnick/Linear-A/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Linear-A/blob/main/ai-skill/SKILL.md) |
 | Cypro-Minoan | [Open](https://github.com/hawkinsnick/Cypro-Minoan) | [Download](https://github.com/hawkinsnick/Cypro-Minoan/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/ai-skill/SKILL.md) |
 | Linear B | [Open](https://github.com/hawkinsnick/Linear-B) | [Download](https://github.com/hawkinsnick/Linear-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Linear-B/blob/main/ai-skill/SKILL.md) |
-| Cretan Hieroglyphic | [Open](https://github.com/hawkinsnick/Cretan-hieroglpyhs) | [Download](https://github.com/hawkinsnick/Cretan-hieroglpyhs/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cretan-hieroglpyhs/blob/main/ai-skill/SKILL.md) |
+| Cretan Hieroglyphic | [Open](https://github.com/hawkinsnick/Cretan-hieroglyphs) | [Download](https://github.com/hawkinsnick/Cretan-hieroglyphs/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cretan-hieroglyphs/blob/main/ai-skill/SKILL.md) |
 | Phaistos Disc | [Open](https://github.com/hawkinsnick/Phaistos-Disc) | [Download](https://github.com/hawkinsnick/Phaistos-Disc/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Phaistos-Disc/blob/main/ai-skill/SKILL.md) |
 | Byblos syllabary | [Open](https://github.com/hawkinsnick/Byblos-syllabary) | [Download](https://github.com/hawkinsnick/Byblos-syllabary/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Byblos-syllabary/blob/main/ai-skill/SKILL.md) |
 | Cypriot syllabic Greek | [Open](https://github.com/hawkinsnick/Cypriot-syllabic-Greek) | [Download](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/main/ai-skill/SKILL.md) |
@@ -326,19 +329,19 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Anatolian Hieroglyphic | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
 | Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
 | Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
-| Egyptian Hieroglyphic | [Open](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus) | [Download](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/blob/main/ai-skill/SKILL.md) |
 | Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
 | Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
 | Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
+| Milyan (Lycian B) (pending admission) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
-The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its future camera/OCR application remains separate. LightroomIsSlow is outside this directory.
+Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outside this directory. Pending corpus candidates are not certified as admitted.
 
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982
+SHA-256: a327f77c3d1dfddfe4f563a22aaaeb813229bfbf7246408ddf2269f8cbc700a9
 
 {
   "schema_version": "1.0.0",
@@ -370,7 +373,7 @@ SHA-256: e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
@@ -439,7 +442,7 @@ SHA-256: e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
-      "repository": "hawkinsnick/Cretan-hieroglpyhs",
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
       "label": "Cretan Hieroglyphic",
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -805,35 +808,6 @@ SHA-256: e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982
       }
     },
     {
-      "id": "egyptian_hieroglyphic",
-      "repository": "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
-      "relationship": "Egyptian hieroglyphic comparative and computer-vision control; no Aegean genetic relationship implied",
-      "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "0.3.1",
-      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; individual AI skill and master integration complete; no verified sign annotations, transcriptions, transliterations or translations yet.",
-      "label": "Egyptian Hieroglyphic",
-      "status": "deciphered comparative/control corpus; current repository layer is pre-annotation image acquisition",
-      "individual_skill_path": "ai-skill/SKILL.md",
-      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "ai-skill/scripts/validate_bundle.py",
-      "evidence_growth_state": "MACHINE_WORK_ACTIVE",
-      "admission": {
-        "status": "PASS",
-        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
-        "individual_ai_skill": true,
-        "master_ai_member": true
-      }
-    },
-    {
       "repository": "hawkinsnick/Lydian",
       "label": "Lydian",
       "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
@@ -937,6 +911,25 @@ SHA-256: e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982
       "review_validator_path": "scripts/validate_review.py",
       "native_version": "0.4.0",
       "source_worklist_path": "research/source-worklist.json"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "label": "Milyan (Lycian B)",
+      "status": "attested Anatolian language; provisional bibliographic inventory",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segment records across 2 monuments, zero verified transcriptions; pending independent critical edition collation, rights review, and corpus-factory admission",
+      "admission": {
+        "status": "PENDING",
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "reason": "PENDING, NOT ADMITTED: Missing corpus-factory admission declaration and required LICENSE, LICENSE-CODE, LICENSE-CONTENT.md, LICENSING.md and NOTICE; skill not yet validated against hardened 0.3.1 contract. Do not represent as passing."
+      },
+      "required_contract": "Corpus Project AI Research Contract 0.3+ (pending compliance)",
+      "required_skill_version": "0.3.1 (pending migration)"
     }
   ],
   "corpus_factory": {
@@ -1007,18 +1000,18 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49
+SHA-256: 8ae9c907827f5ecd189eab2c0b72cca47b4a0630968961202301288a4c738796
 
 {
   "schema_version": "1.0",
   "benchmark": "Linear-A governance/reproducibility parity",
-  "checked": "2026-10-04",
+  "checked": "2026-10-08",
   "members": [
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
-      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },
     {
@@ -1035,7 +1028,7 @@ SHA-256: 6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49
       "status_source": "analysis/pre-expert-source-audit.json"
     },
     {
-      "repo": "Cretan-hieroglpyhs",
+      "repo": "Cretan-hieroglyphs",
       "evidence_depth": "LOW_WITH_REOPENED_DIRECT_ROUTE",
       "coverage_state": "331 catalogue identities; existing 2-object canonical source pilot plus new INSCRIBE direct acquisition route for CHIC #202/#252/#313/#315/#328 pending canonical ingestion",
       "top_gap": "ingest rights-firewalled INSCRIBE subset into canonical reading/object schema and expand across available CH objects"
@@ -1071,7 +1064,7 @@ SHA-256: 6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
-      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
     {
@@ -1109,13 +1102,6 @@ SHA-256: 6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49
       "status_source": "research/pre-expert-gate-summary.json"
     },
     {
-      "repo": "Egyptian-Hieroglyphic-Corpus",
-      "evidence_depth": "OPEN_IMAGE_PRE_ANNOTATION",
-      "coverage_state": "25 objects / 32 rights-verified museum images; individual AI skill + master membership complete; 0 verified sign annotations/readings",
-      "top_gap": "source-checked sign-region annotation and authoritative reusable reading/sign-list concordance layer",
-      "status_source": "research/pre-expert-maximum.json"
-    },
-    {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
       "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
@@ -1135,6 +1121,13 @@ SHA-256: 6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49
       "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
       "status_source": "analysis/current-status.json"
+    },
+    {
+      "repo": "Milyan-Lycian-B",
+      "evidence_depth": "PROVISIONAL_BIBLIOGRAPHIC",
+      "coverage_state": "3 provisional segment records covering 2 monuments; zero verified transcriptions; no independent epigraphic certification",
+      "top_gap": "Admission contract and component licensing missing; independently collate critical editions and establish source rights before promoting admission",
+      "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B"
     }
   ],
   "required_capabilities": [
@@ -1158,6 +1151,10 @@ SHA-256: 6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49
     {
       "repo": "LightroomIsSlow",
       "reason": "Independent photography performance project; outside the language corpus fleet and Combined AI."
+    },
+    {
+      "repo": "Egyptian-Hieroglyphic-Corpus",
+      "reason": "Independent Egyptian hieroglyphic application/reference project, not part of the ancient-script corpus fleet."
     }
   ]
 }
