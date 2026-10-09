@@ -315,7 +315,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "cfc12804aae29d519069accc648ff923afd15e1cb037296b70158ca92d9bf5d4",
+      "sha256": "df1360054879b04daa8a0a1a30536d189539c55f0137a8955d8c1bdf20679970",
       "bytes": 3846,
       "category": ".github",
       "summary": {}
