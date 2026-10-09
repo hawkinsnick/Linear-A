@@ -43,6 +43,16 @@ Use stable corpus/record/claim identifiers and source locators when available. N
 ## Rights firewall
 Rights remain source- and corpus-specific. Never treat inclusion in this combined skill as permission to redistribute content. Prefer references/locators over reproduction when rights are unclear or restrictive.
 
+## Interoperability and EpiDoc gate
+Interchange compatibility is representational, not linguistic evidence. When a participating corpus exposes TEI/EpiDoc, RDF, JSON-LD, Unicode or another shared format:
+- preserve the corpus's native object/surface/text distinctions, partial-coverage flags, authority-specific identifiers, source lineage, uncertainty and rights;
+- do not infer sign equivalence, phonetic value, linguistic relationship, chronology or witness independence from shared serialization;
+- distinguish an interchange **pilot/target** from a schema-validated artifact;
+- never call output EpiDoc-conformant unless that corpus records successful validation against an explicitly pinned EpiDoc release/profile;
+- treat full object-level description and occurrence/transcription interchange as separate coverage dimensions unless the corpus explicitly proves both.
+
+Cypro-Minoan's partial occurrence-layer pilot passed EpiDoc 9.8 Relax NG and deterministic regeneration checks in CI run 37718674499. Schematron/profile validation, schema checksum pinning, and full object-level coverage remain outstanding. Route it as **Relax NG-validated occurrence pilot**, not comprehensively EpiDoc-conformant.
+
 ## Staleness
 Check each participating project's generated source-state. A stale or absent bundle must be disclosed; canonical corpus files take precedence.
 
@@ -53,4 +63,6 @@ Answer the research question directly, then provide Evidence by corpus; Comparab
 For undeciphered or poorly understood material, do not manufacture translations or phonetic readings. For deciphered scripts/languages, preserve editorial uncertainty and do not transfer established values to other scripts without explicit evidence.
 
 ## Scope
-The active project set is defined by registry/corpus-projects.json. New corpus projects join only through explicit registry entries and must provide an individual skill plus the shared research contract.
+The active project set is defined by combined-ai-skill/registry/corpus-projects.json. New corpus projects join only through explicit registry entries and must provide an individual skill plus the shared research contract.
+
+Egyptian Hieroglyphic Corpus and LightroomIsSlow are separate projects and must not be treated as members of this language-corpus fleet.
