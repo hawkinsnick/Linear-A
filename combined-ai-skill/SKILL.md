@@ -125,3 +125,55 @@ The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does no
 `hawkinsnick/Milyan-Lycian-B` is registered provisionally. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Do not treat it as admitted or use it for text-level cross-corpus inference until critical edition collation, rights review and bundle validation pass. Milyan is not synonymous with Lycian A.
 
 Milyan update: member research API now provides bibliographic inventory search, empty line-layer KWIC, coverage and JSON/CSV exports. Its source-reconciliation matrix explicitly blocks all unverified readings; zero KWIC hits cannot establish lexical absence. Follow the individual Milyan skill and bundle index for current evidence state.
+
+## Byblos rights-dominant routing
+
+For Byblos Syllabary evidence-growth or readiness questions, consult the member repository's `analysis/preexpert-residual-ledger.json` and `docs/RIGHTS-DOMINANT-READINESS.md`. Under its currently lawfully admitted evidence, the identified non-rights pre-expert machine/source work has been exhausted. The dominant acquisition dependencies are lawful access to Dunand 1945/1978, authoritative object/accession witnesses, and applicable upstream terms for provider sequence/encoding reuse. Keep the fourteen A-N publication labels distinct from physical-object counts and keep OCBI rendered rows distinct from inscription counts. Independent epigraphic review remains downstream and must not be simulated.
+
+
+## Eteocretan rights-wall routing
+
+For Eteocretan readiness and evidence-growth work, consult the member repository's `research/pre-expert-maximum.json`, `research/residual-blocker-ledger.json`, and `research/rights-wall-audit-2026-10-06.md`. Guarducci III has a confirmed public digital access route through University of Crete Anemi, but access does not itself authorize redistribution or systematic structured derivative use. Duhoux 1982, complete Dreros primary evidence, authoritative object/accession evidence, and source-specific reuse terms remain evidence-growth gates. Preserve Praisos classification conflicts, Dreros location uncertainty, and Azoria candidate/item denominators; never convert derivative witnesses into independent ancient observations or admit readings merely because a source is downloadable.
+
+
+
+### Eteocretan four-front closure
+The member repository now also controls Duhoux's 13-text universe as an attributed target denominator, a conservative Praisos/IC publication crosswalk, an Azoria discovery denominator of 17 inscribed sherds with only two individually represented handle candidates, and a Dreros witness genealogy. Do not synthesize the unresolved Azoria items, copy Duhoux's protected critical edition, or count dependent editions/transcriptions as independent witnesses. Further canonical growth requires new lawful source/institutional evidence before human epigraphic adjudication.
+
+
+## Phrygian maximum pre-expert routing
+
+The Phrygian member's former rights-only assessment has been narrowed. Protected systematic extraction from Brixhe-Lejeune, Obrador-Cursach and uncertain-rights digital editions remains rights-gated, but lawful public record-level identity/object metadata reconciliation remains open. Consult `research/catalogue-denominator-control.json`, `research/subcorpus-source-genealogy.json`, `research/public-object-metadata-lane.json`, and `research/residual-blocker-ledger.json`.
+
+Keep CIPPh/modern catalogue/TITUS/UD/TM denominators distinct; TITUS headings are not unique-inscription counts; Mysian comparison material is not automatically Phrygian evidence; dependent digital corpora do not constitute independent epigraphic witnesses. Canonical readings remain sealed until source-level verification.
+
+
+
+### Phrygian public-evidence expansion
+The member repository now has a broader monumental Old Phrygian factual-metadata lane and a publisher-hosted Kerkenes K-01 inspection route. Keep catalogue namespaces explicit (notably the W-11 / MPhr-01 collision) and use OIP 135 for attributed factual excavation/catalogue/inventory controls only under its source-specific rights boundary. Downloadable access is not blanket permission to redistribute protected figures, prose or critical text.
+
+
+
+### Phrygian Gordion/Kerkenes small-object controls
+The member corpus now distinguishes Penn Museum's institutional Gordion discovery categories (11 stone inscriptions; 245 graffiti, primarily on vessels) from TM/TITUS/UD denominators and from the monumental-index layer. It also tracks OIP 148 as a publisher-hosted Kerkenes pot-mark/graffiti context route. Do not turn category counts into exact unique-object totals, classify all marks as Phrygian language, or count repeated publication of the same evidence as independent witnesses.
+
+
+## Fleet EpiDoc and universal identity standards
+
+Two collection-wide interoperability contracts are normative for new corpus engineering:
+- `corpus-factory/schemas/epidoc-interoperability-contract.json`: native records remain authoritative; EpiDoc exports must be loss-aware, rights-aware, mapping-audited and round-trip tested for declared reversible fields.
+- `corpus-factory/schemas/universal-identity-graph-contract.json`: external IDs and object/text/edition/place relationships are provenance-bearing assertions, not string joins.
+
+Never infer physical identity from matching catalogue labels, adjacent numbers, inherited digital links, shared coordinates or visual resemblance. Preserve negative/disputed identity edges. EpiDoc encoding establishes interoperability only; it does not establish reading correctness, source independence, decipherment or expert review.
+
+
+
+### Interoperability rollout status — 2026-10-06
+Linear A: existing TEI exporter audited as PARTIAL_NOT_YET_EPIDOC_CONFORMANT; native JSON payload is preserved but structured EpiDoc mapping/validation/round-trip and rights allowlist gates remain. A rights-aware source identity graph is seeded; GORILA remains historical audit/bibliographic-only under the project-specific refusal.
+
+Linear B: existing source-ID-preserving EpiDoc importer is an engineering strength, but fleet conformance remains open pending a real authenticated annotated source export, mapping/loss reports, export path and round-trip tests. A DĀMOS/source identity graph is seeded without equating source IDs with physical tablets.
+
+
+Cypro-Minoan: fleet pilot separates physical object, text-bearing surface, inscription/potmark and sign-occurrence assertions. EpiDoc export remains unimplemented; partial occurrence coverage and authority-specific sign labels must remain explicit.
+
+Cretan Hieroglyphic: fleet pilot separates CHIC catalogue identity, INSCRIBE-derived context, critical reading assertions and sign classes. EpiDoc export remains unimplemented; alternative script classification, writing/iconographic uncertainty and zero asserted native phonetic values must survive serialization.
