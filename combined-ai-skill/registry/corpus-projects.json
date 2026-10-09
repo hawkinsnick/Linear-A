@@ -576,13 +576,15 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "3 provisional segment records covering 2 monuments; zero verified transcriptions; scholarly 1.0 blocked pending critical edition collation and rights review",
+      "current_gate": "PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segment records across 2 monuments, zero verified transcriptions; pending independent critical edition collation, rights review, and corpus-factory admission",
       "admission": {
         "status": "PENDING",
         "individual_ai_skill": true,
         "master_ai_member": true,
-        "reason": "Not yet full corpus-factory contract compliance or independently tested"
-      }
+        "reason": "PENDING, NOT ADMITTED: Missing corpus-factory admission declaration and required LICENSE, LICENSE-CODE, LICENSE-CONTENT.md, LICENSING.md and NOTICE; skill not yet validated against hardened 0.3.1 contract. Do not represent as passing."
+      },
+      "required_contract": "Corpus Project AI Research Contract 0.3+ (pending compliance)",
+      "required_skill_version": "0.3.1 (pending migration)"
     }
   ],
   "corpus_factory": {
