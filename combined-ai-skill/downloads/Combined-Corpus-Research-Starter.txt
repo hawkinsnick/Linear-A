@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 7e90328ca3bc6fb66d16d0cc3e567adb95e1f141d99fc24dca60c561a3d40016
+Instruction snapshot SHA-256: dc2f05e8113481d58c93f6bb611510d3cd268deee7babd77dbc2ba88daff2d50
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 4dd7b9d076663627e2625c91533d4af45625dfbac51cad179d3bf024f160d924
+SHA-256: f9f98681f5983ba2f52150ac751f76db604da75746ce01a9d17becad3866111e
 
 ---
 name: combined-corpus-research
@@ -268,6 +268,8 @@ The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does no
 
 ## Milyan admission checkpoint (2026-10-08)
 `hawkinsnick/Milyan-Lycian-B` is registered provisionally. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Do not treat it as admitted or use it for text-level cross-corpus inference until critical edition collation, rights review and bundle validation pass. Milyan is not synonymous with Lycian A.
+
+Milyan update: member research API now provides bibliographic inventory search, empty line-layer KWIC, coverage and JSON/CSV exports. Its source-reconciliation matrix explicitly blocks all unverified readings; zero KWIC hits cannot establish lexical absence. Follow the individual Milyan skill and bundle index for current evidence state.
 
 === END SOURCE FILE ===
 
