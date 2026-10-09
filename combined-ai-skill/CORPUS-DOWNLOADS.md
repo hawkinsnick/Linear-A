@@ -23,7 +23,7 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
 | Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
 | Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
-| Milyan (Lycian B) (pending admission) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
+| Milyan (Lycian B) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
