@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0",
+  "checked":"2026-10-06",
+  "exporter":"scripts/export_research_layer.py",
+  "status":"PARTIAL_NOT_YET_EPIDOC_CONFORMANT",
+  "mapped_now":["record identity via div@n/idno","complete native record preserved as sourceRecordJSON note"],
+  "missing_structured_mapping":["TEI header/availability/licence","object/support description","findspot/provenance","dating","structured edition text","bibliography","typed external identifiers","revision history","structured damage/restoration/uncertainty"],
+  "round_trip":{"native_payload_preserved":true,"semantic_structured_round_trip":"NOT_IMPLEMENTED"},
+  "rights":{"current_manifest_mentions":"SigLA CC BY-NC-SA 4.0","fleet_rights_allowlist_test":"NOT_IMPLEMENTED"},
+  "conclusion":"Existing output is TEI XML carrying a lossless JSON payload, but must not be represented as full EpiDoc interoperability until structured mappings, validation and semantic round-trip gates pass."
+}

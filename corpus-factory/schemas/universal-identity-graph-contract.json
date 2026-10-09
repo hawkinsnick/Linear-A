@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "title": "Corpus fleet universal identity graph contract",
+  "status": "NORMATIVE_FLEET_CONTRACT",
+  "node_types": ["project_record","physical_object","text_bearing_surface","text","edition_assertion","place","museum_collection","bibliographic_work","external_catalogue_record","image_or_drawing"],
+  "edge_types": ["same_as","probably_same_as","not_same_as","part_of","surface_of","text_on","edition_of","derived_from","located_at","found_at","held_by","published_as","catalogued_as","supersedes"],
+  "required_edge_fields": ["edge_id","subject","predicate","object","assertion_status","authority","evidence_locator","checked_date"],
+  "assertion_status_values": ["CERTAIN","SOURCE_ASSERTED","PROJECT_RECONCILED","PROBABLE","DISPUTED","REJECTED","UNKNOWN"],
+  "namespace_examples": ["project","TM","Pleiades","museum_accession","excavation_inventory","TITUS","SigLA","DAMOS","edition_siglum"],
+  "rules": [
+    "Every identity edge is an assertion with provenance.",
+    "Identifiers are namespace-qualified.",
+    "Catalogue labels are not physical-object identifiers unless the source establishes that relation.",
+    "Matching strings, adjacent catalogue numbers, shared coordinates, visual resemblance or inherited digital links never create CERTAIN identity automatically.",
+    "One physical object may bear multiple texts or surfaces and one text may have multiple edition assertions.",
+    "Parent or suffix catalogue relations do not imply physical part-whole relations without evidence.",
+    "Rejected and disputed identity assertions remain queryable rather than being deleted."
+  ],
+  "cross_corpus_rule": "Identity interoperability never implies linguistic relationship, sign equivalence, chronology, borrowing or decipherment."
+}
