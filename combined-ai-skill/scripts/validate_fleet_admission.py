@@ -27,8 +27,12 @@ def blob_text(repo, sha):
     return base64.b64decode(payload["content"]).decode("utf-8","replace")
 for member in registry.get("members",[]):
     repo=member.get("repository"); admission=member.get("admission",{})
+    if admission.get("status")=="PENDING":
+        if not admission.get("reason"): errors.append(f"{repo}: pending candidate missing documented admission blocker")
+        # A registered candidate is discoverable but NOT admitted; do not certify rights or skill compliance.
+        continue
+    if admission.get("status")!="PASS": errors.append(f"{repo}: invalid admission status")
     if admission.get("contract")!="corpus-factory/CORPUS-ADMISSION-CONTRACT.md": errors.append(f"{repo}: missing admission contract declaration")
-    if admission.get("status")!="PASS": errors.append(f"{repo}: admission status is not PASS")
     if set(admission.get("licensing_paths",[])) != required_license: errors.append(f"{repo}: licensing path declaration differs from required architecture")
     skill_paths={member.get("individual_skill_path"),member.get("bundle_index_path"),member.get("authority_profile_path"),member.get("validation_path")}
     if None in skill_paths or "" in skill_paths:
@@ -62,4 +66,4 @@ for member in registry.get("members",[]):
         errors.append(f"{repo}: NOTICE does not visibly preserve source/upstream rights context")
 if errors:
     print("\n".join(errors)); sys.exit(1)
-print(f"Fleet admission PASS: {len(registry.get('members',[]))} registered corpora have licensing architecture, individual AI skill paths, and master membership.")
+print(f"Fleet admission validation PASS: {sum(m.get('admission',{}).get('status')=='PASS' for m in registry.get('members',[]))} admitted corpora checked; {sum(m.get('admission',{}).get('status')=='PENDING' for m in registry.get('members',[]))} explicitly pending and NOT certified.")
