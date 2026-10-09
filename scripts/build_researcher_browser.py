@@ -16,10 +16,6 @@ def build(root=ROOT):
     for resource in ("documents","source_words","signs"):
         rec.extend(compact(resource,r) for r in rows(resource,root))
     return {"format":"linear-a-researcher-browser-index-v1","boundary":"Source-reported searchable index; not decipherment or independent epigraphic verification.","records":rec}
-def main():
-    idx=write_browser();print("wrote browser with",len(idx["records"]),"records")
-if __name__=="__main__":main()
-
 def html(index):
     payload=json.dumps(index,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c").replace("&","\\u0026")
     return """<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Linear A researcher browser</title>
@@ -32,3 +28,11 @@ def write_browser(root=ROOT):
     (root/"analysis/researcher-browser-index.json").write_text(json.dumps(idx,ensure_ascii=False,separators=(",",":"))+"\n")
     (root/"workbench/linear-a-browser.html").write_text(html(idx))
     return idx
+
+
+def main():
+    idx=write_browser()
+    print("wrote browser with",len(idx["records"]),"records")
+
+if __name__=="__main__":
+    main()
