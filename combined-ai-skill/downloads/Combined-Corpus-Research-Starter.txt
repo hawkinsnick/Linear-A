@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 947f5be91d8f9ca9c1e94f453f2359e9fdea3c084858dd98ccf264fb9ce092c7
+Instruction snapshot SHA-256: 874b5098e94fbcb56f544e081f44daafcddb586de16e4719fd1929766c4a8854
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -307,7 +307,7 @@ Each member now has a [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/r
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: 454a60f02382c777900ec0bcf20d1170dc64465d3fc3bbbc6fb1a1be68c630aa
+SHA-256: 32fe0005ea5261bb76aee11c2f11306458cbd0edd34398edab086479f74eff6f
 
 # Corpus downloads
 
@@ -334,7 +334,7 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
 | Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
 | Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
-| Milyan (Lycian B) (pending admission) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
+| Milyan (Lycian B) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
