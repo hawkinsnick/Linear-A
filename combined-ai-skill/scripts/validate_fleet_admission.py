@@ -1,28 +1,39 @@
 #!/usr/bin/env python3
 """Validate fleet admission against each registered repository's current main tree."""
-import base64, json, os, sys, urllib.request
+import base64, json, os, sys, urllib.error, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 registry=json.loads((ROOT/"combined-ai-skill/registry/corpus-projects.json").read_text())
 errors=[]
 required_license={"LICENSE","LICENSE-CODE","LICENSE-CONTENT.md","LICENSING.md","NOTICE"}
-def tree(repo):
-    url=f"https://api.github.com/repos/{repo}/git/trees/main?recursive=1"
+def github_json(url):
+    """Read public repository metadata; retry without an unusable workflow token.
+
+    The GITHUB_TOKEN can be scoped to this repository and return 403 for other
+    public corpus repositories. Never interpret a failed request as PASS.
+    """
     headers={"Accept":"application/vnd.github+json","User-Agent":"combined-corpus-admission-validator"}
     token=os.environ.get("GITHUB_TOKEN")
     if token: headers["Authorization"]=f"Bearer {token}"
-    req=urllib.request.Request(url,headers=headers)
-    with urllib.request.urlopen(req,timeout=30) as r: payload=json.load(r)
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=30) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        if exc.code != 403 or not token:
+            raise
+        # Public corpus repos can be inspected anonymously if token scope blocks them.
+        headers.pop("Authorization",None)
+        with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=30) as response:
+            return json.load(response)
+def tree(repo):
+    url=f"https://api.github.com/repos/{repo}/git/trees/main?recursive=1"
+    payload=github_json(url)
     if payload.get("truncated"): raise RuntimeError(f"Git tree truncated for {repo}")
     return {x.get("path"): {"type":x.get("type"),"sha":x.get("sha")} for x in payload.get("tree",[])}
 
 def blob_text(repo, sha):
     url=f"https://api.github.com/repos/{repo}/git/blobs/{sha}"
-    headers={"Accept":"application/vnd.github+json","User-Agent":"combined-corpus-admission-validator"}
-    token=os.environ.get("GITHUB_TOKEN")
-    if token: headers["Authorization"]=f"Bearer {token}"
-    req=urllib.request.Request(url,headers=headers)
-    with urllib.request.urlopen(req,timeout=30) as r: payload=json.load(r)
+    payload=github_json(url)
     if payload.get("encoding")!="base64": raise RuntimeError(f"unexpected blob encoding for {repo}")
     return base64.b64decode(payload["content"]).decode("utf-8","replace")
 for member in registry.get("members",[]):
