@@ -589,7 +589,7 @@
           "LICENSING.md",
           "NOTICE"
         ],
-        "note": "Structural admission only. Zero verified text transcriptions; edition collation, source-specific rights clearance, and independent epigraphic review remain outstanding. Structural licensing baseline merged in hawkinsnick/Milyan-Lycian-B PR #1."
+        "note": "Structural admission only. Zero verified text transcriptions; edition collation, source-specific rights clearance, and independent epigraphic review remain outstanding."
       },
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1"
