@@ -153,8 +153,8 @@
     },
     {
       "path": "research/pre-expert-maximum.json",
-      "sha256": "c564a0503b3bcbbf2f8a8031b743ee404afbba45e943c88b0fa6e6074621f904",
-      "bytes": 4904,
+      "sha256": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265",
+      "bytes": 5896,
       "category": "research",
       "summary": {}
     },
@@ -195,8 +195,8 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "b72e469d238ace0c01b0ab65c15e8d0ac66c2c18487b3b8d1565b22589f54ab7",
-      "bytes": 11462,
+      "sha256": "9c0549ea82fa40adc8450353f2dbf52b0eac752c1bbc6764e0a20d601cd75d69",
+      "bytes": 12568,
       "category": "docs",
       "summary": {}
     },
@@ -315,8 +315,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "cfc12804aae29d519069accc648ff923afd15e1cb037296b70158ca92d9bf5d4",
-      "bytes": 3846,
+      "sha256": "df1360054879b04daa8a0a1a30536d189539c55f0137a8955d8c1bdf20679970",
+      "bytes": 4346,
       "category": ".github",
       "summary": {}
     },

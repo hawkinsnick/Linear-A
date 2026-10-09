@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
   "benchmark": "Linear-A governance/reproducibility parity",
-  "checked": "2026-10-04",
+  "checked": "2026-10-08",
   "members": [
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
-      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },
     {
@@ -24,7 +24,7 @@
       "status_source": "analysis/pre-expert-source-audit.json"
     },
     {
-      "repo": "Cretan-hieroglpyhs",
+      "repo": "Cretan-hieroglyphs",
       "evidence_depth": "LOW_WITH_REOPENED_DIRECT_ROUTE",
       "coverage_state": "331 catalogue identities; existing 2-object canonical source pilot plus new INSCRIBE direct acquisition route for CHIC #202/#252/#313/#315/#328 pending canonical ingestion",
       "top_gap": "ingest rights-firewalled INSCRIBE subset into canonical reading/object schema and expand across available CH objects"
@@ -60,7 +60,7 @@
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
-      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
     {
@@ -98,13 +98,6 @@
       "status_source": "research/pre-expert-gate-summary.json"
     },
     {
-      "repo": "Egyptian-Hieroglyphic-Corpus",
-      "evidence_depth": "OPEN_IMAGE_PRE_ANNOTATION",
-      "coverage_state": "25 objects / 32 rights-verified museum images; individual AI skill + master membership complete; 0 verified sign annotations/readings",
-      "top_gap": "source-checked sign-region annotation and authoritative reusable reading/sign-list concordance layer",
-      "status_source": "research/pre-expert-maximum.json"
-    },
-    {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
       "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
@@ -124,6 +117,13 @@
       "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
       "status_source": "analysis/current-status.json"
+    },
+    {
+      "repo": "Milyan-Lycian-B",
+      "evidence_depth": "PROVISIONAL_BIBLIOGRAPHIC",
+      "coverage_state": "3 provisional segment records covering 2 monuments; zero verified transcriptions; no independent epigraphic certification",
+      "top_gap": "Admission contract and component licensing missing; independently collate critical editions and establish source rights before promoting admission",
+      "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B"
     }
   ],
   "required_capabilities": [
@@ -147,6 +147,10 @@
     {
       "repo": "LightroomIsSlow",
       "reason": "Independent photography performance project; outside the language corpus fleet and Combined AI."
+    },
+    {
+      "repo": "Egyptian-Hieroglyphic-Corpus",
+      "reason": "Independent Egyptian hieroglyphic application/reference project, not part of the ancient-script corpus fleet."
     }
   ]
 }

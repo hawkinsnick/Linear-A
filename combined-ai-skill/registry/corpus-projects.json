@@ -97,7 +97,7 @@
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
     },
     {
-      "repository": "hawkinsnick/Cretan-hieroglpyhs",
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
       "label": "Cretan Hieroglyphic",
       "status": "undeciphered",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -463,35 +463,6 @@
       }
     },
     {
-      "id": "egyptian_hieroglyphic",
-      "repository": "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
-      "relationship": "Egyptian hieroglyphic comparative and computer-vision control; no Aegean genetic relationship implied",
-      "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "0.3.1",
-      "current_gate": "PRE_EXPERT_MAXIMUM / MACHINE_FRONTIER_OPEN: 25-object/32-image rights-verified open-image pilot; individual AI skill and master integration complete; no verified sign annotations, transcriptions, transliterations or translations yet.",
-      "label": "Egyptian Hieroglyphic",
-      "status": "deciphered comparative/control corpus; current repository layer is pre-annotation image acquisition",
-      "individual_skill_path": "ai-skill/SKILL.md",
-      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "ai-skill/scripts/validate_bundle.py",
-      "evidence_growth_state": "MACHINE_WORK_ACTIVE",
-      "admission": {
-        "status": "PASS",
-        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
-        "individual_ai_skill": true,
-        "master_ai_member": true
-      }
-    },
-    {
       "repository": "hawkinsnick/Lydian",
       "label": "Lydian",
       "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
@@ -605,13 +576,15 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "3 provisional segment records covering 2 monuments; zero verified transcriptions; scholarly 1.0 blocked pending critical edition collation and rights review",
+      "current_gate": "PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segment records across 2 monuments, zero verified transcriptions; pending independent critical edition collation, rights review, and corpus-factory admission",
       "admission": {
         "status": "PENDING",
         "individual_ai_skill": true,
         "master_ai_member": true,
-        "reason": "Not yet full corpus-factory contract compliance or independently tested"
-      }
+        "reason": "PENDING, NOT ADMITTED: Missing corpus-factory admission declaration and required LICENSE, LICENSE-CODE, LICENSE-CONTENT.md, LICENSING.md and NOTICE; skill not yet validated against hardened 0.3.1 contract. Do not represent as passing."
+      },
+      "required_contract": "Corpus Project AI Research Contract 0.3+ (pending compliance)",
+      "required_skill_version": "0.3.1 (pending migration)"
     }
   ],
   "corpus_factory": {

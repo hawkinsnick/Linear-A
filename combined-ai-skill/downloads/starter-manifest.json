@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "3ef125073565659c3b7f738f88ee37b83d4ba6aa0a026351d8c44a5361796f97",
+  "build_script_sha256": "49eb18942b4c9a17d90d37b9cb53ebd34194e12aa4b09e45a87c36abf09ab172",
   "source_files": [
     {
       "path": "LICENSE",
@@ -30,8 +30,8 @@
     },
     {
       "path": "combined-ai-skill/CORPUS-DOWNLOADS.md",
-      "sha256": "132c1a89fe315a9472dc48fa6a579b3e1cea7d24c7fe241bf157e32c66dd7923",
-      "bytes": 5329
+      "sha256": "454a60f02382c777900ec0bcf20d1170dc64465d3fc3bbbc6fb1a1be68c630aa",
+      "bytes": 5289
     },
     {
       "path": "combined-ai-skill/EXPERT-REVIEW.md",
@@ -50,13 +50,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "550c3a68c728816522d48e45efd49363b8efdd8fde5a08d90b1350f4a1078e68",
-      "bytes": 5268
+      "sha256": "0ce35855afa1bbf01a6df29699bb05bdc48b081224e9dc7a42c21caad64fb1fe",
+      "bytes": 5617
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "9b0fab2bde8026ab632f040b94a29b617952ae9610139f36f2af7249f7559369",
-      "bytes": 13918
+      "sha256": "f9f98681f5983ba2f52150ac751f76db604da75746ce01a9d17becad3866111e",
+      "bytes": 14724
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,13 +80,13 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "e6d138799640cdb9ff6b8220ac7bb9fd08ce158103014942b3934e42b75ce982",
-      "bytes": 32566
+      "sha256": "a327f77c3d1dfddfe4f563a22aaaeb813229bfbf7246408ddf2269f8cbc700a9",
+      "bytes": 32332
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "6092e1938203177f149b0eb4da131f6768be99d254b9e7aac91f113cb4153e49",
-      "bytes": 10993
+      "sha256": "8ae9c907827f5ecd189eab2c0b72cca47b4a0630968961202301288a4c738796",
+      "bytes": 11206
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "09d9a6430b941bc28279439ddfda817e375a8ca0825fc34f9eefac054745261c"
+  "snapshot_sha256": "dc2f05e8113481d58c93f6bb611510d3cd268deee7babd77dbc2ba88daff2d50"
 }

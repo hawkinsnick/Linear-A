@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "8420c149a51822fb537397a7799161e19c218a854a7987f09bda0755d38b8a15"
+      "sha256": "d77074a31b63ffcd1aff4b687fc17812938872f977dbfe402cd7c52c3846aef1"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "975f4e1eeb43875adba34bfff2ac3e2afadbb4c01bacf2dd6bcce38fdf828c47"
+      "sha256": "ac887dc0d6a4e81ac0e09a78e405c3529b8d95426f16aca99cfb698cc1bbeb03"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "a862f5b55a47a46125d58dc46681a693b6ed578c5acad1489d1737945d7f0898"
+      "sha256": "6df3c5b80629a1af33ef6c27ed6ae3f7d4027b6fbaf8cca59c48c3c14730dc5a"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -122,7 +122,7 @@
     },
     {
       "path": "research/pre-expert-maximum.json",
-      "sha256": "c564a0503b3bcbbf2f8a8031b743ee404afbba45e943c88b0fa6e6074621f904"
+      "sha256": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265"
     },
     {
       "path": "research/linear-a-b-control-interface.json",
@@ -146,7 +146,7 @@
     },
     {
       "path": "docs/PRE-EXPERT-HANDOFF.md",
-      "sha256": "b72e469d238ace0c01b0ab65c15e8d0ac66c2c18487b3b8d1565b22589f54ab7"
+      "sha256": "9c0549ea82fa40adc8450353f2dbf52b0eac752c1bbc6764e0a20d601cd75d69"
     },
     {
       "path": "analysis/pre-expert-primary-collation.json",
@@ -206,7 +206,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "cfc12804aae29d519069accc648ff923afd15e1cb037296b70158ca92d9bf5d4"
+      "sha256": "df1360054879b04daa8a0a1a30536d189539c55f0137a8955d8c1bdf20679970"
     },
     {
       "path": "research/critical-pilot-sigla-witness.json",
