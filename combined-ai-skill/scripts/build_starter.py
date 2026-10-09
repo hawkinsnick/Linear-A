@@ -8,7 +8,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
 STARTER = "Combined-Corpus-Research-Starter"
-EXCLUDED = {"hawkinsnick/LightroomIsSlow"}
+EXCLUDED = {"hawkinsnick/LightroomIsSlow", "hawkinsnick/Egyptian-Hieroglyphic-Corpus"}
 SOURCE_PATHS = (
     "combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
     "combined-ai-skill/QUICKSTART.md", "combined-ai-skill/README.md",
@@ -36,9 +36,9 @@ def directory(members):
     for member in members:
         repo = member["repository"]
         url = "https://github.com/" + repo
-        lines.append(f"| {member['label']} | [Open]({url}) | [Download]({url}/archive/refs/heads/main.zip) | [Read]({url}/blob/main/{member['individual_skill_path']}) |")
+        lines.append(f"| {member['label']}{' (pending admission)' if member.get('admission', {}).get('status') == 'PENDING' else ''} | [Open]({url}) | [Download]({url}/archive/refs/heads/main.zip) | [Read]({url}/blob/main/{member['individual_skill_path']}) |")
     lines += ["", "Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.", "",
-              "The Egyptian Hieroglyphic Corpus is a registered comparative/control corpus; its future camera/OCR application remains separate. LightroomIsSlow is outside this directory.", ""]
+              "Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outside this directory. Pending corpus candidates are not certified as admitted.", ""]
     return "\n".join(lines)
 
 
