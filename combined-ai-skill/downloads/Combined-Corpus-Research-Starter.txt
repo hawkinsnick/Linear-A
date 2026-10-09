@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: dc2f05e8113481d58c93f6bb611510d3cd268deee7babd77dbc2ba88daff2d50
+Instruction snapshot SHA-256: 874b5098e94fbcb56f544e081f44daafcddb586de16e4719fd1929766c4a8854
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -307,7 +307,7 @@ Each member now has a [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/r
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: 454a60f02382c777900ec0bcf20d1170dc64465d3fc3bbbc6fb1a1be68c630aa
+SHA-256: 32fe0005ea5261bb76aee11c2f11306458cbd0edd34398edab086479f74eff6f
 
 # Corpus downloads
 
@@ -334,7 +334,7 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
 | Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
 | Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
-| Milyan (Lycian B) (pending admission) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
+| Milyan (Lycian B) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
@@ -343,7 +343,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: a327f77c3d1dfddfe4f563a22aaaeb813229bfbf7246408ddf2269f8cbc700a9
+SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
 
 {
   "schema_version": "1.0.0",
@@ -923,15 +923,23 @@ SHA-256: a327f77c3d1dfddfe4f563a22aaaeb813229bfbf7246408ddf2269f8cbc700a9
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segment records across 2 monuments, zero verified transcriptions; pending independent critical edition collation, rights review, and corpus-factory admission",
+      "current_gate": "STRUCTURAL ADMISSION PASS; PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segments on 2 monuments; zero verified readings; critical edition collation, rights review, independent adjudication pending",
       "admission": {
-        "status": "PENDING",
+        "status": "PASS",
         "individual_ai_skill": true,
         "master_ai_member": true,
-        "reason": "PENDING, NOT ADMITTED: Missing corpus-factory admission declaration and required LICENSE, LICENSE-CODE, LICENSE-CONTENT.md, LICENSING.md and NOTICE; skill not yet validated against hardened 0.3.1 contract. Do not represent as passing."
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "note": "Structural admission only. Zero verified text transcriptions; edition collation, source-specific rights clearance, and independent epigraphic review remain outstanding."
       },
-      "required_contract": "Corpus Project AI Research Contract 0.3+ (pending compliance)",
-      "required_skill_version": "0.3.1 (pending migration)"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1"
     }
   ],
   "corpus_factory": {

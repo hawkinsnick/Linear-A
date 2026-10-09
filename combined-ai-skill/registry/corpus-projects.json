@@ -576,15 +576,23 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segment records across 2 monuments, zero verified transcriptions; pending independent critical edition collation, rights review, and corpus-factory admission",
+      "current_gate": "STRUCTURAL ADMISSION PASS; PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segments on 2 monuments; zero verified readings; critical edition collation, rights review, independent adjudication pending",
       "admission": {
-        "status": "PENDING",
+        "status": "PASS",
         "individual_ai_skill": true,
         "master_ai_member": true,
-        "reason": "PENDING, NOT ADMITTED: Missing corpus-factory admission declaration and required LICENSE, LICENSE-CODE, LICENSE-CONTENT.md, LICENSING.md and NOTICE; skill not yet validated against hardened 0.3.1 contract. Do not represent as passing."
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "note": "Structural admission only. Zero verified text transcriptions; edition collation, source-specific rights clearance, and independent epigraphic review remain outstanding."
       },
-      "required_contract": "Corpus Project AI Research Contract 0.3+ (pending compliance)",
-      "required_skill_version": "0.3.1 (pending migration)"
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1"
     }
   ],
   "corpus_factory": {
