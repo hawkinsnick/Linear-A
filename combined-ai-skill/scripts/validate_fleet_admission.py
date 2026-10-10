@@ -40,6 +40,7 @@ for member in registry.get("members",[]):
     repo=member.get("repository"); admission=member.get("admission",{})
     if admission.get("status")=="PENDING":
         if not admission.get("reason"): errors.append(f"{repo}: pending candidate missing documented admission blocker")
+        if admission.get("master_ai_member") is not False: errors.append(f"{repo}: pending candidate must not claim certified master membership")
         # A registered candidate is discoverable but NOT admitted; do not certify rights or skill compliance.
         continue
     if admission.get("status")!="PASS": errors.append(f"{repo}: invalid admission status")
