@@ -373,7 +373,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0",
-      "current_gate": "PRE_EXPERT_MAXIMUM / 2.0.0 metadata milestone: all 287 eDiAna digital entries explicit; 274 bibliographic assertions on 262 entries, 71 internal references and three notices; 32 object classes and 118 secondary period candidates with one preserved conflict. Physical counts unknown; direct CHLI I/III checks, group identity and expert reading review remain open.",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -382,17 +382,11 @@
       "validation_path": "tests/test_reconciliation.py",
       "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
       "admission": {
-        "status": "PASS",
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
         "individual_ai_skill": true,
-        "master_ai_member": true
+        "master_ai_member": false
       },
       "context_coverage_path": "analysis/current-status.json",
       "record_dossiers_path": "research/digital-entry-dossiers.json",
@@ -411,7 +405,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: 16-object Decorte baseline; AS#01-04 subset now has direct INSCRIBE museum/CHIC reconciliation, with AS#04 Bone/Ivory authority disagreement preserved; remaining object/face and later-authority deltas continue.",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "label": "Archanes Script",
       "status": "disputed-boundary early Cretan writing",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -420,17 +414,11 @@
       "validation_path": "tests/test_integrity.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
-        "status": "PASS",
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
         "individual_ai_skill": true,
-        "master_ai_member": true
+        "master_ai_member": false
       }
     },
     {
@@ -440,7 +428,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Malia CHIC #328 now has direct INSCRIBE object metadata and 16-slot/13-distinct transnumeration; historical Chapouthier 14 and later 15 states remain for drawing-level segmentation reconciliation; Arkalochori geometry remains.",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "label": "Aegean Anomalous",
       "status": "neutral quarantine/comparison",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -449,17 +437,11 @@
       "validation_path": "tests/test_integrity.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
-        "status": "PASS",
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
         "individual_ai_skill": true,
-        "master_ai_member": true
+        "master_ai_member": false
       }
     },
     {
@@ -576,20 +558,13 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "STRUCTURAL ADMISSION PASS; PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segments on 2 monuments; zero verified readings; critical edition collation, rights review, independent adjudication pending",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "admission": {
-        "status": "PASS",
-        "individual_ai_skill": true,
-        "master_ai_member": true,
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
-        "note": "Structural admission only. Zero verified text transcriptions; edition collation, source-specific rights clearance, and independent epigraphic review remain outstanding."
+        "individual_ai_skill": true,
+        "master_ai_member": false
       },
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1"
