@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 68fade2e63e58be7bac14cdd7c4b37b9eb020d9ee3911817b787860fd8f0d8f0
+Instruction snapshot SHA-256: 2c938aa51a18d188ca955e6dff41500f9d46f615a3ab2fae9b5cac7d71a435fb
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -359,7 +359,7 @@ Each member now has a [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/r
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: 32fe0005ea5261bb76aee11c2f11306458cbd0edd34398edab086479f74eff6f
+SHA-256: ae6e1e6af57ee59b23aa193050cb568f294cf1af49810acee97bf032699230a1
 
 # Corpus downloads
 
@@ -380,13 +380,13 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Eteocretan | [Open](https://github.com/hawkinsnick/Eteocretan) | [Download](https://github.com/hawkinsnick/Eteocretan/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Eteocretan/blob/main/ai-skill/SKILL.md) |
 | Lycian, Carian and Milyan | [Open](https://github.com/hawkinsnick/Lycian-and-Carian) | [Download](https://github.com/hawkinsnick/Lycian-and-Carian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lycian-and-Carian/blob/main/ai-skill/SKILL.md) |
 | Phrygian | [Open](https://github.com/hawkinsnick/Phrygian) | [Download](https://github.com/hawkinsnick/Phrygian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Phrygian/blob/main/ai-skill/SKILL.md) |
-| Anatolian Hieroglyphic | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
-| Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
-| Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
+| Anatolian Hieroglyphic (pending admission) | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
+| Archanes Script (pending admission) | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
+| Aegean Anomalous (pending admission) | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
 | Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
 | Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
 | Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
-| Milyan (Lycian B) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
+| Milyan (Lycian B) (pending admission) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
@@ -395,7 +395,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
+SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
 
 {
   "schema_version": "1.0.0",
@@ -772,7 +772,7 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0",
-      "current_gate": "PRE_EXPERT_MAXIMUM / 2.0.0 metadata milestone: all 287 eDiAna digital entries explicit; 274 bibliographic assertions on 262 entries, 71 internal references and three notices; 32 object classes and 118 secondary period candidates with one preserved conflict. Physical counts unknown; direct CHLI I/III checks, group identity and expert reading review remain open.",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -781,17 +781,11 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "validation_path": "tests/test_reconciliation.py",
       "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
       "admission": {
-        "status": "PASS",
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
         "individual_ai_skill": true,
-        "master_ai_member": true
+        "master_ai_member": false
       },
       "context_coverage_path": "analysis/current-status.json",
       "record_dossiers_path": "research/digital-entry-dossiers.json",
@@ -810,7 +804,7 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: 16-object Decorte baseline; AS#01-04 subset now has direct INSCRIBE museum/CHIC reconciliation, with AS#04 Bone/Ivory authority disagreement preserved; remaining object/face and later-authority deltas continue.",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "label": "Archanes Script",
       "status": "disputed-boundary early Cretan writing",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -819,17 +813,11 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "validation_path": "tests/test_integrity.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
-        "status": "PASS",
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
         "individual_ai_skill": true,
-        "master_ai_member": true
+        "master_ai_member": false
       }
     },
     {
@@ -839,7 +827,7 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "PRE_EXPERT_MAXIMUM / STRUCTURED_AUTHORITY_RECONCILIATION: Malia CHIC #328 now has direct INSCRIBE object metadata and 16-slot/13-distinct transnumeration; historical Chapouthier 14 and later 15 states remain for drawing-level segmentation reconciliation; Arkalochori geometry remains.",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "label": "Aegean Anomalous",
       "status": "neutral quarantine/comparison",
       "individual_skill_path": "ai-skill/SKILL.md",
@@ -848,17 +836,11 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "validation_path": "tests/test_integrity.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
-        "status": "PASS",
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
         "individual_ai_skill": true,
-        "master_ai_member": true
+        "master_ai_member": false
       }
     },
     {
@@ -975,20 +957,13 @@ SHA-256: 67ceb8c6df5b9498d151c1fc1fab9c96480ff4e3fc6fc2c1e55dd11680de002e
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "STRUCTURAL ADMISSION PASS; PRE_EXPERT_MAXIMUM NOT REACHED: 3 provisional segments on 2 monuments; zero verified readings; critical edition collation, rights review, independent adjudication pending",
+      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "admission": {
-        "status": "PASS",
-        "individual_ai_skill": true,
-        "master_ai_member": true,
+        "status": "PENDING",
+        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
-        "licensing_paths": [
-          "LICENSE",
-          "LICENSE-CODE",
-          "LICENSE-CONTENT.md",
-          "LICENSING.md",
-          "NOTICE"
-        ],
-        "note": "Structural admission only. Zero verified text transcriptions; edition collation, source-specific rights clearance, and independent epigraphic review remain outstanding."
+        "individual_ai_skill": true,
+        "master_ai_member": false
       },
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1"
