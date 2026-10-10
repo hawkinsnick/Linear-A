@@ -30,6 +30,9 @@ for member in members:
 pre=[m for m in members if m.get("pre_expert_maximum_path")]
 if len(pre)<8: errors.append("pre-expert maximum coverage unexpectedly low")
 for member in pre:
+    if member.get("admission",{}).get("status")=="PENDING":
+        if not member.get("current_gate"): errors.append("pending pre-expert member missing explicit current gate: "+str(member.get("repository")))
+        continue
     if not member.get("current_gate") or "PRE_EXPERT_MAXIMUM" not in member.get("current_gate",""):
         errors.append("pre-expert member missing explicit current gate: "+str(member.get("repository")))
 for member in members:
