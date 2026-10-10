@@ -148,17 +148,6 @@
       "validation_path": "ai-skill/scripts/validate_bundle.py"
     },
     {
-      "repository": "hawkinsnick/Milyan-Lycian-B",
-      "label": "Milyan / Lycian B",
-      "status": "fragmentarily attested Anatolian language",
-      "individual_skill_path": "ai-skill/SKILL.md",
-      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
-      "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "required_skill_version": "0.3.1",
-      "authority_profile_path": "ai-skill/references/authority-profile.json",
-      "validation_path": "ai-skill/scripts/validate_bundle.py"
-    },
-    {
       "repository": "hawkinsnick/Sidetic",
       "label": "Sidetic",
       "status": "fragmentarily attested language",
