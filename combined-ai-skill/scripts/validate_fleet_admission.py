@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validate fleet admission against each registered repository's current main tree."""
-import base64, json, os, sys, urllib.error, urllib.request
+import base64, hashlib, json, os, sys, urllib.error, urllib.request, urllib.parse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 registry=json.loads((ROOT/"combined-ai-skill/registry/corpus-projects.json").read_text())
@@ -25,8 +25,11 @@ def github_json(url):
         headers.pop("Authorization",None)
         with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=30) as response:
             return json.load(response)
+HEADS={}
 def tree(repo):
-    url=f"https://api.github.com/repos/{repo}/git/trees/main?recursive=1"
+    ref=github_json(f"https://api.github.com/repos/{repo}/git/ref/heads/main")
+    HEADS[repo]=ref["object"]["sha"]
+    url=f"https://api.github.com/repos/{repo}/git/trees/{HEADS[repo]}?recursive=1"
     payload=github_json(url)
     if payload.get("truncated"): raise RuntimeError(f"Git tree truncated for {repo}")
     return {x.get("path"): {"type":x.get("type"),"sha":x.get("sha")} for x in payload.get("tree",[])}
@@ -36,6 +39,36 @@ def blob_text(repo, sha):
     payload=github_json(url)
     if payload.get("encoding")!="base64": raise RuntimeError(f"unexpected blob encoding for {repo}")
     return base64.b64decode(payload["content"]).decode("utf-8","replace")
+def raw_bytes(repo, path):
+    url=f"https://raw.githubusercontent.com/{repo}/{HEADS[repo]}/{urllib.parse.quote(path)}"
+    with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"combined-corpus-admission-validator"}),timeout=30) as response:
+        return response.read()
+
+def validate_adapter(repo, member):
+    path=member.get('contract_adapter_path')
+    if not path:return
+    index=json.loads(raw_bytes(repo,path))
+    gates={'corpus_is_authoritative','missing_means_unknown','cross_corpus_equivalence_requires_explicit_evidence','preserve_uncertainty','preserve_source_independence','preserve_rights'}
+    if index.get('schema_version')!='0.3.1' or index.get('repository')!=repo:raise ValueError('adapter identity/version mismatch')
+    if set(index.get('contract',{}))!=gates or any(v is not True for v in index['contract'].values()):raise ValueError('disabled behavioral contract')
+    if index.get('scientific_approval_granted') is not False:raise ValueError('adapter falsely grants scientific approval')
+    artifacts=index.get('artifacts',[]);seen=set();contents={}
+    for item in artifacts:
+        rel=item['path']
+        if rel in seen or rel.startswith('/') or '..' in rel.split('/'):raise ValueError('duplicate or unsafe adapter path')
+        seen.add(rel);data=raw_bytes(repo,rel);contents[rel]=data
+        if hashlib.sha256(data).hexdigest()!=item['sha256'] or len(data)!=item['bytes']:raise ValueError('stale adapter authority: '+rel)
+    required=required_license|{member['individual_skill_path'],member['authority_profile_path'],member['bundle_index_path'],'ai-skill/manifest.json','ai-skill/references/fleet-contract.json','ai-skill/references/corpus-project-contract.md','ai-skill/scripts/fleet_contract.py',member['validation_path']}
+    if not required<=seen:raise ValueError('adapter omits required authorities')
+    manifest=json.loads(contents['ai-skill/manifest.json'])
+    if manifest.get('master_contract_0_3_1')!='IMPLEMENTED' or manifest.get('skill_version')!=member['required_skill_version']:raise ValueError('member contract/version declaration mismatch')
+    authority=json.loads(contents[member['authority_profile_path']]);native=json.loads(contents[member['bundle_index_path']])
+    required.update(a['path'] for a in authority.get('required_authorities',[]) if a.get('required'))
+    required.update(native.get('authoritative_inputs',[]));required.update(native.get('files',[]));required.update(a['path'] for a in native.get('artifacts',[]))
+    if authority.get('canonical_dataset'):required.add(authority['canonical_dataset'])
+    if not required<=seen:raise ValueError('adapter omits native corpus evidence')
+    print(f"{repo}: immutable authority replay PASS at {HEADS[repo]}")
+
 for member in registry.get("members",[]):
     repo=member.get("repository"); admission=member.get("admission",{})
     if admission.get("status")=="PENDING":
@@ -73,6 +106,8 @@ for member in registry.get("members",[]):
     for name,phrase in semantic_checks:
         if phrase not in license_text[name].lower():
             errors.append(f"{repo}: {name} missing expected licensing marker: {phrase}")
+    try: validate_adapter(repo,member)
+    except Exception as exc: errors.append(f"{repo}: adapter validation failed: {exc}")
     notice=license_text["NOTICE"].lower()
     if not any(marker in notice for marker in ("third-party","upstream","public-domain","public domain","source attribution","component rights","component licences","component licenses","reference source","retain cc","redistributed under cc")):
         errors.append(f"{repo}: NOTICE does not visibly preserve source/upstream rights context")
