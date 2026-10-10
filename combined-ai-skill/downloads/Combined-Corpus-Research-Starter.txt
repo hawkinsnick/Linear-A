@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 2c938aa51a18d188ca955e6dff41500f9d46f615a3ab2fae9b5cac7d71a435fb
+Instruction snapshot SHA-256: 6c5ed99bdf4e8ffc54852bee6929f92f095c57606c4c35cb884affae7919fae0
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -395,7 +395,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
+SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
 
 {
   "schema_version": "1.0.0",
@@ -782,7 +782,7 @@ SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
       "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
       "admission": {
         "status": "PENDING",
-        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
+        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
         "individual_ai_skill": true,
         "master_ai_member": false
@@ -795,6 +795,10 @@ SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
         "date": "2026-10-05",
         "source_commit": "195e87fa3a3a6e921442c1b213eb640181098abf",
         "status": "METADATA_MILESTONE_COMPLETE_AUTHORITY_RECONCILIATION_ACTIVE"
+      },
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "GitHub Actions validate run 38058980213: native integrity step and test job succeeded"
       }
     },
     {
@@ -814,10 +818,14 @@ SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
         "status": "PENDING",
-        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
+        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
         "individual_ai_skill": true,
         "master_ai_member": false
+      },
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "GitHub Actions validate run 38058975632: native integrity step and test job succeeded"
       }
     },
     {
@@ -837,10 +845,14 @@ SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
         "status": "PENDING",
-        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
+        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
         "individual_ai_skill": true,
         "master_ai_member": false
+      },
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "GitHub Actions validate run 38058977878: native integrity step and test job succeeded"
       }
     },
     {
@@ -960,13 +972,17 @@ SHA-256: add74f0a46001cf217b294844d63284fae382204ad66342f19064f3cbda97caf
       "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
       "admission": {
         "status": "PENDING",
-        "reason": "Repository paths exist, but native artifact validation and master-contract compatibility have not been executed and certified. Do not treat presence-only checks as admission.",
+        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
         "individual_ai_skill": true,
         "master_ai_member": false
       },
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "required_skill_version": "0.3.1"
+      "required_skill_version": "0.3.1",
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "Existing Validate Milyan corpus workflow invokes ai-skill/scripts/validate_bundle.py; last observed success at bcc83883"
+      }
     }
   ],
   "corpus_factory": {
