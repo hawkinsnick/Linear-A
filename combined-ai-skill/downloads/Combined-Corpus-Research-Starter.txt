@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 6c5ed99bdf4e8ffc54852bee6929f92f095c57606c4c35cb884affae7919fae0
+Instruction snapshot SHA-256: cb77129786d2492de0a90248243e8f558e8c9bde374d60c3cafb3d2296999b25
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: ebbe1a8389b766a9fbe083d7a22e787430ef716e9956a76bc13f9ac00faa06f8
+SHA-256: 7a2a8705745ab7e833646115e0b50b17aa6d0e1b2ac39c8a671ed40e20db9739
 
 ---
 name: combined-corpus-research
@@ -322,6 +322,9 @@ Linear B: existing source-ID-preserving EpiDoc importer is an engineering streng
 Cypro-Minoan: fleet pilot separates physical object, text-bearing surface, inscription/potmark and sign-occurrence assertions. EpiDoc export remains unimplemented; partial occurrence coverage and authority-specific sign labels must remain explicit.
 
 Cretan Hieroglyphic: fleet pilot separates CHIC catalogue identity, INSCRIBE-derived context, critical reading assertions and sign classes. EpiDoc export remains unimplemented; alternative script classification, writing/iconographic uncertainty and zero asserted native phonetic values must survive serialization.
+
+## Eteocypriot, Eteocretan and Phaistos Disc denominator safeguards
+For Eteocypriot distinguish digital edition entries, editorial components, archaeological objects and independent witnesses; shared Cypriot Greek source copies are not replication. For Eteocretan distinguish inscriptions, alternative reading versions, source rows and analytically admitted tokens (currently zero in the documented baseline). For Phaistos Disc preserve the historical 241 versus project 242 slot-count disagreement, and never count two faces as two independent objects. Consult each member's current README and `ai-skill/SKILL.md` before reporting these numbers. These documentation safeguards do not themselves update generated source-state fingerprints or establish independent review.
 
 === END SOURCE FILE ===
 
