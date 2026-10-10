@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: cb77129786d2492de0a90248243e8f558e8c9bde374d60c3cafb3d2296999b25
+Instruction snapshot SHA-256: da55d4b1bf64ac71e3eccc88ed09c2eee544a78238e4b488e6e2e7f563fffce2
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 7a2a8705745ab7e833646115e0b50b17aa6d0e1b2ac39c8a671ed40e20db9739
+SHA-256: 2e73bae74caa88bc2349d265321c750a3be407ac9b16e31df37b54c24486c316
 
 ---
 name: combined-corpus-research
@@ -266,8 +266,8 @@ For collection-strength assessments, treat 9.0 as the current minimum target, bu
 ## Collection-wide >9 floor
 The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does not graduate by version number, file count, or tooling alone. Assess lawful primary/critical evidence depth, declared coverage versus the scholarly universe, source independence and lineage, object/text identity reconciliation, uncertainty/disagreement controls, reproducibility, rights provenance, and expert-review boundaries. Corpora below the gate remain in remediation until evidence depth supports graduation or a concrete rights/access/expert dependency prevents further lawful machine-resolvable progress. Never inflate a score to hide an external blocker.
 
-## Milyan admission checkpoint (2026-10-08)
-`hawkinsnick/Milyan-Lycian-B` is registered provisionally. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Do not treat it as admitted or use it for text-level cross-corpus inference until critical edition collation, rights review and bundle validation pass. Milyan is not synonymous with Lycian A.
+## Milyan software admission checkpoint (2026-10-10)
+`hawkinsnick/Milyan-Lycian-B` is structurally admitted through the native-schema research-contract adapter. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Text-level cross-corpus inference remains blocked pending critical edition collation and source-specific rights review. Replay native and master validation before claiming synchronized software admission. Milyan is not synonymous with Lycian A.
 
 Milyan update: member research API now provides bibliographic inventory search, empty line-layer KWIC, coverage and JSON/CSV exports. Its source-reconciliation matrix explicitly blocks all unverified readings; zero KWIC hits cannot establish lexical absence. Follow the individual Milyan skill and bundle index for current evidence state.
 
@@ -326,6 +326,9 @@ Cretan Hieroglyphic: fleet pilot separates CHIC catalogue identity, INSCRIBE-der
 ## Eteocypriot, Eteocretan and Phaistos Disc denominator safeguards
 For Eteocypriot distinguish digital edition entries, editorial components, archaeological objects and independent witnesses; shared Cypriot Greek source copies are not replication. For Eteocretan distinguish inscriptions, alternative reading versions, source rows and analytically admitted tokens (currently zero in the documented baseline). For Phaistos Disc preserve the historical 241 versus project 242 slot-count disagreement, and never count two faces as two independent objects. Consult each member's current README and `ai-skill/SKILL.md` before reporting these numbers. These documentation safeguards do not themselves update generated source-state fingerprints or establish independent review.
 
+## Native-schema admission adapters
+Anatolian Hieroglyphic, Archanes Script, Aegean Anomalous and Milyan use `ai-skill/generated/fleet-contract-index.json` alongside their native bundle. Replay the member validator and master admission validator before claiming synchronized admission. These adapters hash declared native authorities and preserve source-specific rights, exclusions and uncertainty. Admission does not certify readings, object identities, source independence or human expert review. For Phaistos Disc, read the machine-replayed `analysis/acceptance-2.0.json`; receipt or schema validity is not human acceptance.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -362,7 +365,7 @@ Each member now has a [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/r
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/CORPUS-DOWNLOADS.md ===
-SHA-256: ae6e1e6af57ee59b23aa193050cb568f294cf1af49810acee97bf032699230a1
+SHA-256: 32fe0005ea5261bb76aee11c2f11306458cbd0edd34398edab086479f74eff6f
 
 # Corpus downloads
 
@@ -383,13 +386,13 @@ Extract the ZIP before uploading files. The research instructions and index are 
 | Eteocretan | [Open](https://github.com/hawkinsnick/Eteocretan) | [Download](https://github.com/hawkinsnick/Eteocretan/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Eteocretan/blob/main/ai-skill/SKILL.md) |
 | Lycian, Carian and Milyan | [Open](https://github.com/hawkinsnick/Lycian-and-Carian) | [Download](https://github.com/hawkinsnick/Lycian-and-Carian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lycian-and-Carian/blob/main/ai-skill/SKILL.md) |
 | Phrygian | [Open](https://github.com/hawkinsnick/Phrygian) | [Download](https://github.com/hawkinsnick/Phrygian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Phrygian/blob/main/ai-skill/SKILL.md) |
-| Anatolian Hieroglyphic (pending admission) | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
-| Archanes Script (pending admission) | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
-| Aegean Anomalous (pending admission) | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
+| Anatolian Hieroglyphic | [Open](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [Download](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/ai-skill/SKILL.md) |
+| Archanes Script | [Open](https://github.com/hawkinsnick/Archanes-Script) | [Download](https://github.com/hawkinsnick/Archanes-Script/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Archanes-Script/blob/main/ai-skill/SKILL.md) |
+| Aegean Anomalous | [Open](https://github.com/hawkinsnick/Aegean-anomalous) | [Download](https://github.com/hawkinsnick/Aegean-anomalous/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/ai-skill/SKILL.md) |
 | Lydian | [Open](https://github.com/hawkinsnick/Lydian) | [Download](https://github.com/hawkinsnick/Lydian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Lydian/blob/main/ai-skill/SKILL.md) |
 | Sidetic | [Open](https://github.com/hawkinsnick/Sidetic) | [Download](https://github.com/hawkinsnick/Sidetic/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Sidetic/blob/main/ai-skill/SKILL.md) |
 | Pisidian | [Open](https://github.com/hawkinsnick/Pisidian) | [Download](https://github.com/hawkinsnick/Pisidian/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Pisidian/blob/main/ai-skill/SKILL.md) |
-| Milyan (Lycian B) (pending admission) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
+| Milyan (Lycian B) | [Open](https://github.com/hawkinsnick/Milyan-Lycian-B) | [Download](https://github.com/hawkinsnick/Milyan-Lycian-B/archive/refs/heads/main.zip) | [Read](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/ai-skill/SKILL.md) |
 
 Download only the corpora needed for the question. Their data, review states, and licenses remain separate. Repository membership does not establish shared language, sign values, or independent witnesses.
 
@@ -398,7 +401,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
+SHA-256: 572ffc1a5215e5fe932d708b4dac2621ed425f61d91659660086890c0fea75c6
 
 {
   "schema_version": "1.0.0",
@@ -430,7 +433,7 @@ SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
@@ -774,21 +777,30 @@ SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
       "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "2.0.0",
-      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
       "label": "Anatolian Hieroglyphic",
       "status": "deciphered comparative control",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_reconciliation.py",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
       "admission": {
-        "status": "PENDING",
-        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
+        "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
         "individual_ai_skill": true,
-        "master_ai_member": false
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "3d9f717e0b81a8e9f94963da6f662459c3254496",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
       },
       "context_coverage_path": "analysis/current-status.json",
       "record_dossiers_path": "research/digital-entry-dossiers.json",
@@ -801,8 +813,10 @@ SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
       },
       "native_bundle_validation": {
         "status": "PASS",
-        "evidence": "GitHub Actions validate run 38058980213: native integrity step and test job succeeded"
-      }
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "2.0.0",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
     },
     {
       "id": "archanes_script",
@@ -810,26 +824,37 @@ SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
       "relationship": "early Cretan writing comparison; corpus membership and relation to Cretan Hieroglyphic/Linear A remain scholarly assertions",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
       "label": "Archanes Script",
       "status": "disputed-boundary early Cretan writing",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
-        "status": "PENDING",
-        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
+        "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
         "individual_ai_skill": true,
-        "master_ai_member": false
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "ab272d21d8eb57e28b6835cd4d5ae9134672c627",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
       },
       "native_bundle_validation": {
         "status": "PASS",
-        "evidence": "GitHub Actions validate run 38058975632: native integrity step and test job succeeded"
-      }
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "2.0.0-rc.2",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
     },
     {
       "id": "aegean_anomalous",
@@ -837,26 +862,37 @@ SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
       "relationship": "neutral quarantine/comparison layer; not a language or single writing system",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "required_skill_version": "2.0.0-rc.2",
-      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
       "label": "Aegean Anomalous",
       "status": "neutral quarantine/comparison",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "required_contract": "Corpus Project AI Research Contract 0.3+",
-      "validation_path": "tests/test_integrity.py",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
       "admission": {
-        "status": "PENDING",
-        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
+        "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
         "individual_ai_skill": true,
-        "master_ai_member": false
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "9c5ffdcf0854d351a9c29b513c402a89ad769aa2",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
       },
       "native_bundle_validation": {
         "status": "PASS",
-        "evidence": "GitHub Actions validate run 38058977878: native integrity step and test job succeeded"
-      }
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "2.0.0-rc.2",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
     },
     {
       "repository": "hawkinsnick/Lydian",
@@ -972,20 +1008,31 @@ SHA-256: 1cfa0f431692b342132bcf77bba87ef70837100045e61462b7d2b09f6a3d75fd
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "P0: pending executed native bundle validation and master research-contract certification",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
       "admission": {
-        "status": "PENDING",
-        "reason": "Native bundle integrity validated in GitHub Actions; master research-contract compatibility and cross-repository reconciliation remain uncertified.",
+        "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
         "individual_ai_skill": true,
-        "master_ai_member": false
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "a9078e2502830705f4adc5bac0d0ea7b8ea12631",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
       },
       "required_contract": "Corpus Project AI Research Contract 0.3+",
       "required_skill_version": "0.3.1",
       "native_bundle_validation": {
         "status": "PASS",
-        "evidence": "Existing Validate Milyan corpus workflow invokes ai-skill/scripts/validate_bundle.py; last observed success at bcc83883"
-      }
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "0.3.1",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
     }
   ],
   "corpus_factory": {
@@ -1056,7 +1103,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 8ae9c907827f5ecd189eab2c0b72cca47b4a0630968961202301288a4c738796
+SHA-256: 1a3623240420558ce3c021227dff8d83108f8dc886c6351d43f7504a925b9ecd
 
 {
   "schema_version": "1.0",
@@ -1066,8 +1113,8 @@ SHA-256: 8ae9c907827f5ecd189eab2c0b72cca47b4a0630968961202301288a4c738796
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
-      "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },
     {
@@ -1120,7 +1167,7 @@ SHA-256: 8ae9c907827f5ecd189eab2c0b72cca47b4a0630968961202301288a4c738796
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
-      "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
     {
@@ -1182,7 +1229,7 @@ SHA-256: 8ae9c907827f5ecd189eab2c0b72cca47b4a0630968961202301288a4c738796
       "repo": "Milyan-Lycian-B",
       "evidence_depth": "PROVISIONAL_BIBLIOGRAPHIC",
       "coverage_state": "3 provisional segment records covering 2 monuments; zero verified transcriptions; no independent epigraphic certification",
-      "top_gap": "Admission contract and component licensing missing; independently collate critical editions and establish source rights before promoting admission",
+      "top_gap": "Software admission contract implemented and replayed; critical-edition collation and source-specific rights for expanded evidence remain open.",
       "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B"
     }
   ],

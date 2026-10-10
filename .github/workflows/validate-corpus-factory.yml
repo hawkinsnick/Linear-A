@@ -22,6 +22,8 @@ jobs:
           python-version: '3.12'
       - run: python corpus-factory/validate_fleet.py
       - run: python corpus-factory/test_validate_fleet.py
+      - name: Test admission adapter rejection gates
+        run: python -m unittest discover -s combined-ai-skill/tests -p 'test_admission_adapter.py' -v
       - name: Validate corpus admission contract against registered repositories
         env:
           GITHUB_TOKEN: ${{ github.token }}
