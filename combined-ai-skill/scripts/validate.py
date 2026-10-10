@@ -22,7 +22,9 @@ for member in members:
     if admission.get("status")=="PENDING" and not admission.get("reason"): errors.append("pending member missing explicit blocker for "+str(member.get("repository")))
     if admission.get("status")=="PASS" and admission.get("contract")!="corpus-factory/CORPUS-ADMISSION-CONTRACT.md": errors.append("missing fleet admission contract for "+str(member.get("repository")))
     if admission.get("status")=="PASS" and set(admission.get("licensing_paths",[]))!={"LICENSE","LICENSE-CODE","LICENSE-CONTENT.md","LICENSING.md","NOTICE"}: errors.append("invalid licensing architecture declaration for "+str(member.get("repository")))
-    if admission.get("individual_ai_skill") is not True or admission.get("master_ai_member") is not True: errors.append("AI admission flags incomplete for "+str(member.get("repository")))
+    if admission.get("individual_ai_skill") is not True: errors.append("individual AI skill missing for "+str(member.get("repository")))
+    if admission.get("status")=="PASS" and admission.get("master_ai_member") is not True: errors.append("admitted member missing master AI flag: "+str(member.get("repository")))
+    if admission.get("status")=="PENDING" and admission.get("master_ai_member") is True: errors.append("pending member falsely certified as master AI member: "+str(member.get("repository")))
     if member.get("repository") not in {"hawkinsnick/Anatolian-Hieroglyphic","hawkinsnick/Archanes-Script","hawkinsnick/Aegean-anomalous"} and admission.get("status")=="PASS" and member.get("required_skill_version")!="0.3.1":
         errors.append("legacy member not pinned to hardened skill 0.3.1: "+str(member.get("repository")))
 pre=[m for m in members if m.get("pre_expert_maximum_path")]
