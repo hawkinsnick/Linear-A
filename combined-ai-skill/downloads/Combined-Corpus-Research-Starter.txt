@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: d1a8cfc55d8d8ed371c72ce1d8ee18a3da95276a13806f3559d449e57fc56774
+Instruction snapshot SHA-256: da55d4b1bf64ac71e3eccc88ed09c2eee544a78238e4b488e6e2e7f563fffce2
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 1aa1ce4a33bd07edbdccd85533ce43aa0f8012e7b938ee4d6e1f943f339fb56b
+SHA-256: 2e73bae74caa88bc2349d265321c750a3be407ac9b16e31df37b54c24486c316
 
 ---
 name: combined-corpus-research
@@ -266,8 +266,8 @@ For collection-strength assessments, treat 9.0 as the current minimum target, bu
 ## Collection-wide >9 floor
 The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does not graduate by version number, file count, or tooling alone. Assess lawful primary/critical evidence depth, declared coverage versus the scholarly universe, source independence and lineage, object/text identity reconciliation, uncertainty/disagreement controls, reproducibility, rights provenance, and expert-review boundaries. Corpora below the gate remain in remediation until evidence depth supports graduation or a concrete rights/access/expert dependency prevents further lawful machine-resolvable progress. Never inflate a score to hide an external blocker.
 
-## Milyan admission checkpoint (2026-10-08)
-`hawkinsnick/Milyan-Lycian-B` is registered provisionally. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Do not treat it as admitted or use it for text-level cross-corpus inference until critical edition collation, rights review and bundle validation pass. Milyan is not synonymous with Lycian A.
+## Milyan software admission checkpoint (2026-10-10)
+`hawkinsnick/Milyan-Lycian-B` is structurally admitted through the native-schema research-contract adapter. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Text-level cross-corpus inference remains blocked pending critical edition collation and source-specific rights review. Replay native and master validation before claiming synchronized software admission. Milyan is not synonymous with Lycian A.
 
 Milyan update: member research API now provides bibliographic inventory search, empty line-layer KWIC, coverage and JSON/CSV exports. Its source-reconciliation matrix explicitly blocks all unverified readings; zero KWIC hits cannot establish lexical absence. Follow the individual Milyan skill and bundle index for current evidence state.
 

@@ -121,8 +121,8 @@ For collection-strength assessments, treat 9.0 as the current minimum target, bu
 ## Collection-wide >9 floor
 The corpus fleet uses a >9 scholarly-readiness graduation gate. A member does not graduate by version number, file count, or tooling alone. Assess lawful primary/critical evidence depth, declared coverage versus the scholarly universe, source independence and lineage, object/text identity reconciliation, uncertainty/disagreement controls, reproducibility, rights provenance, and expert-review boundaries. Corpora below the gate remain in remediation until evidence depth supports graduation or a concrete rights/access/expert dependency prevents further lawful machine-resolvable progress. Never inflate a score to hide an external blocker.
 
-## Milyan admission checkpoint (2026-10-08)
-`hawkinsnick/Milyan-Lycian-B` is registered provisionally. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Do not treat it as admitted or use it for text-level cross-corpus inference until critical edition collation, rights review and bundle validation pass. Milyan is not synonymous with Lycian A.
+## Milyan software admission checkpoint (2026-10-10)
+`hawkinsnick/Milyan-Lycian-B` is structurally admitted through the native-schema research-contract adapter. Route Milyan/Lycian B questions to its `ai-skill/SKILL.md`; current evidence is three bibliographic segment records for two monuments, with zero verified transcriptions. Text-level cross-corpus inference remains blocked pending critical edition collation and source-specific rights review. Replay native and master validation before claiming synchronized software admission. Milyan is not synonymous with Lycian A.
 
 Milyan update: member research API now provides bibliographic inventory search, empty line-layer KWIC, coverage and JSON/CSV exports. Its source-reconciliation matrix explicitly blocks all unverified readings; zero KWIC hits cannot establish lexical absence. Follow the individual Milyan skill and bundle index for current evidence state.
 

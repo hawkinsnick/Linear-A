@@ -72,5 +72,5 @@ No new corpus is promoted to 1.0.0 before all four gates pass. The live admissio
 
 Lydian, Sidetic and Pisidian are now routed through their individual corpus skills. Their initial releases provide attributed eDiAna digital source records, not independently collated epigraphic editions. Use each native status file for document/line counts and unresolved identity issues. The shared upstream source remains a dependency, and its CC BY-SA rights remain separate from project-original noncommercial terms.
 
-## Milyan (Lycian B) provisional member
-The registry now includes [Milyan-Lycian-B](https://github.com/hawkinsnick/Milyan-Lycian-B) as a pending-admission corpus. Its individual `ai-skill/SKILL.md` and evidence inventory are available, but verified transcriptions and cross-corpus linguistic comparison remain blocked pending edition-level review.
+## Milyan (Lycian B) structurally admitted member
+The registry now includes [Milyan-Lycian-B](https://github.com/hawkinsnick/Milyan-Lycian-B) as a structurally admitted corpus using a native-schema contract adapter. Its individual `ai-skill/SKILL.md` and evidence inventory are available, but verified transcriptions and cross-corpus linguistic comparison remain blocked pending edition-level review.
