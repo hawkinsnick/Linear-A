@@ -66,3 +66,6 @@ For undeciphered or poorly understood material, do not manufacture translations 
 The active project set is defined by combined-ai-skill/registry/corpus-projects.json. New corpus projects join only through explicit registry entries and must provide an individual skill plus the shared research contract.
 
 Egyptian Hieroglyphic Corpus and LightroomIsSlow are separate projects and must not be treated as members of this language-corpus fleet.
+
+## Member validation-documentation routing
+For Phaistos-Disc, consult `research/validation-and-ai-use.md`; for Eteocretan and Eteocypriot, consult `docs/VALIDATION-AND-AI-USE.md` in their respective repositories, in addition to each member's `ai-skill/SKILL.md` and source-state. These guides describe reproducibility procedures and scholarly acceptance boundaries; their presence does not establish that tests were executed or independent human review occurred. Preserve each member's source-specific rights and evidence exclusions. Rebuild and validate generated bundles against their recorded source commits before claiming synchronized publication.
