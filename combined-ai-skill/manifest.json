@@ -9,7 +9,7 @@
   "comparability_contract": "combined-ai-skill/references/comparability-matrix.md",
   "validation": "combined-ai-skill/scripts/validate.py",
   "adversarial_suite": "combined-ai-skill/tests/adversarial-cases.json",
-  "member_count": 11,
+  "member_count": 14,
   "expansion_policy": "New corpus projects may be added by registry entry after providing an individual corpus skill and shared research contract.",
   "guarantees": [
     "no data duplication in orchestrator",
