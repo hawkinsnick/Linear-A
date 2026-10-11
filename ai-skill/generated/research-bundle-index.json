@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "f59b875171422a3a7a4af203b4d67a7c731ab9fa",
-  "generated_at_utc": "2026-10-11T04:56:26+00:00",
+  "source_commit": "9105a4c912d6893b3d5ba1d236673535abd50a4f",
+  "generated_at_utc": "2026-10-11T08:37:41+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -16,20 +16,20 @@
     {
       "role": "p1_reconciliation",
       "path": "docs/P1-RECONCILIATION-2026-10-11.md",
-      "sha256": "a530ff867770ba734a717f50b4632be4840de8a4ead7ecffcd16e98b78516a20",
-      "bytes": 3380
+      "sha256": "9b88266513074f2e0087d9bb4d7dd8a56cc72f1d39b81ab9a06b4bd28af67d20",
+      "bytes": 5128
     },
     {
       "role": "p1_evidence_snapshot",
       "path": "corpus-factory/p1-evidence-snapshot.json",
-      "sha256": "48b55aa2dbb2aa1a57e92cd85a440e00e8c2bf9f359e8710c54168f3454f023e",
-      "bytes": 48202
+      "sha256": "27dc4e9b0b5ab9f5609259524e1e1930984f1eac4343836c1c76049bbde68d36",
+      "bytes": 48686
     },
     {
       "role": "p1_validation_results",
       "path": "corpus-factory/p1-validation-results.json",
-      "sha256": "5a1d35e1ee12663d8af56778a914237da51c7323fd182e332c1c8907a6a5ba8b",
-      "bytes": 13926
+      "sha256": "47ca96dc61c1bf222bbdbe29d512cd9b7a3d64d7894df75523f6c9a73d9ef881",
+      "bytes": 14613
     },
     {
       "role": "collection_work_ledger",

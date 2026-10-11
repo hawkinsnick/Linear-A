@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 685ece33749df2036ad113947c2878b95c261a67d2031432e714943ade208599
+Instruction snapshot SHA-256: fe3bb740b56a2afe29ac4d733ee6cc1cd8cbdb822ddb791c4a7ad60273f0d601
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 5a6f6d529f54887a9f489dee2e5852e2c9ce2470bd8c3ab45b0ebf9a56fd2225
+SHA-256: 5bbfc296489b51b24122d96b9f3109aee87067af7bee285a7f2a8b367c8bd468
 
 ---
 name: combined-corpus-research
@@ -333,6 +333,10 @@ Anatolian Hieroglyphic, Archanes Script, Aegean Anomalous and Milyan use `ai-ski
 
 Read `docs/P1-RECONCILIATION-2026-10-11.md` and `corpus-factory/p1-evidence-snapshot.json` before fleet-wide closure claims. All eighteen members declare source-bound collection ledgers and review packets in the registry. Replay each native collection builder before using its packet. Respect separate native record units, restricted local derivatives and unresolved primary-source work. Rights authority presence is not permission; an interoperability artifact is not full EpiDoc conformance; a valid decision template is not independent human acceptance. The six recovered workstreams are not six identified GitHub issues. Never invent their ticket numbers or report evidence-dependent gates closed from software checks.
 
+## P1 closure assessment
+
+The declared baseline and eighteen-member common handoff coverage are complete. Scholarly data coverage, full interoperability, documentary rights acceptance and independent review retain their documented open criteria. Cypro-Minoan now has executable expected-hash verification and upstream RNG plus all 57 embedded Schematron patterns for its partial 12-occurrence pilot; read its validation receipt and pins. Do not extrapolate that result to full corpus conformance or human acceptance. Phaistos Disc issue 4 remains the actual open GitHub issue. Report workstream status and live ticket state separately.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -405,7 +409,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: e56630b21e0a8e1312e9643d0f3607bca3fb614cea6f0a21d35e9c55c3a51911
+SHA-256: a96613fa82938138723feb7f66821627179457ea0f08c3609bbcaea9f6e900cb
 
 {
   "schema_version": "1.0.0",
@@ -481,7 +485,11 @@ SHA-256: e56630b21e0a8e1312e9643d0f3607bca3fb614cea6f0a21d35e9c55c3a51911
       "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "epidoc_validation_boundary": "Pinned RNG and all embedded upstream Schematron patterns pass for the partial 12-occurrence pilot; complete object coverage and independent review remain open.",
+      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb"
     },
     {
       "repository": "hawkinsnick/Linear-B",

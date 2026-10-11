@@ -51,8 +51,9 @@
       "native_input_sha256": {
         "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
         "analysis/current-status.json": "48c511fd91a9b042773702d04e8d8f2cf9009279df7ca726c066cfa0eff55a5b",
-        "analysis/epidoc-interoperability-audit.json": "cfc38fcce24efd53129ace65659b48f97f431a250b82146412b6eccee532708c",
+        "analysis/epidoc-interoperability-audit.json": "07fb13999152b6cad95ce895a4368f11a9f76916151e3eb6536f6cee1f6aa4b2",
         "analysis/occurrence-coverage-v1.json": "7b247bb067606e98ec3a1130434ca7dff113530a3df7786a0739e524464e3181",
+        "analysis/upstream-epidoc-validation.json": "60fd42d21d23ce9600a3e1c6b05285de457e75325a8ea47a115772f6cd390ca4",
         "catalogues/master.json": "39f1395e32421bf6567cf1f6df9db37f4ebe240fdba13f1a248f2bc441e75d39",
         "interchange/documents.json": "05781183c6b0b2e7696004a546cb6a204cd2f41dbf8eeb621d82778e63921980",
         "research/acquisition-queue.json": "05fbeab69ae8d1980b963178f4b1481598dc94a2d5767456d575eac9ee9c9bcd",
@@ -64,9 +65,11 @@
         "review/collection-packet.json": "9cd5755b410ead2cf4e2fbe3cc67dd58e55293691b78b665370abd943bb61dab",
         "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
         "scripts/export_epidoc_occurrences.py": "8b03cbff7fdb413324a874d70e7bf11d97a6a88ebbbfca542144f74d9d2147a9",
+        "scripts/validate_upstream_epidoc.py": "e15cd437d952de1ae57b1eca09ea17601dc707fe3f1d22eba11fe6b2e9d50804",
         "tests/test_epidoc_occurrences.py": "48542aff1b1ab7314fd2720edccec196ac7133a0b9a9bc3ed59980aeb9f0bee0",
         "tests/test_epidoc_reference_integrity.py": "49a4e660768cac44342483c20fad5e4c75edde2ff048f60dcab664b6b04f8810",
-        "tests/test_epidoc_schematron.py": "bf9d689a2bdb790733eed4cdcc51d9faf6548e20750c528f00fbf9462c8e2b8d"
+        "tests/test_epidoc_schematron.py": "bf9d689a2bdb790733eed4cdcc51d9faf6548e20750c528f00fbf9462c8e2b8d",
+        "tests/test_upstream_epidoc.py": "eaa1d9ac62b40d7406390dbbcbd5288fd6c7621890907d0c7edfb26af0830099"
       },
       "record_views": [
         {
@@ -89,10 +92,13 @@
       "rights_acceptance": "COMPONENT_LEVEL_REVIEW_REQUIRED; FILE_PRESENCE_IS_NOT_PERMISSION",
       "interoperability_paths": [
         "analysis/epidoc-interoperability-audit.json",
+        "analysis/upstream-epidoc-validation.json",
         "scripts/export_epidoc_occurrences.py",
+        "scripts/validate_upstream_epidoc.py",
         "tests/test_epidoc_occurrences.py",
         "tests/test_epidoc_reference_integrity.py",
-        "tests/test_epidoc_schematron.py"
+        "tests/test_epidoc_schematron.py",
+        "tests/test_upstream_epidoc.py"
       ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",

@@ -361,5 +361,17 @@
         }
       ]
     }
-  ]
+  ],
+  "additional_verified_checks": {
+    "repository": "hawkinsnick/Cypro-Minoan",
+    "report": "analysis/upstream-epidoc-validation.json",
+    "tests": 4,
+    "test_module": "tests/test_upstream_epidoc.py",
+    "commands": [
+      "python scripts/validate_upstream_epidoc.py --schema /path/to/pinned/tei-epidoc.rng --compiler /path/to/pinned/ISO/compiler",
+      "python -m unittest discover -s tests -p test_upstream_epidoc.py"
+    ],
+    "outcome": "PASS; RNG plus 57 active upstream patterns, 24 fired rules, zero findings; schema/compiler tampering and adversarial date rejected",
+    "scope": "Partial 12-occurrence pilot; full coverage and independent acceptance remain open."
+  }
 }
