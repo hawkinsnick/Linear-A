@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "89dca2ef54927a840a9c5c146e7316c757419ca4",
-  "generated_at_utc": "2026-10-11T22:50:43+00:00",
+  "source_commit": "55641198e36524eb4c3aa708ac2a3715670a476c",
+  "generated_at_utc": "2026-10-11T22:51:22+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,12 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "pre_expert_exit_criteria",
+      "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
+      "sha256": "0ef8a02ef96d4daa45f4812408f58270ac4ddaafed6e92d9fb8a7b822a1c3620",
+      "bytes": 3435
+    },
     {
       "role": "integrity_priority_review",
       "path": "corpus-factory/PRIORITY-REVIEW-2026-10-11.md",
