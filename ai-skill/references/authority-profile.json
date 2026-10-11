@@ -41,6 +41,36 @@
       "role": "gorila_route_audit",
       "path": "analysis/gorila-route-audit.json",
       "required": true
+    },
+    {
+      "role": "collection_work_ledger",
+      "path": "research/collection-work-ledger.json",
+      "required": true
+    },
+    {
+      "role": "collection_review_packet",
+      "path": "review/collection-packet.json",
+      "required": true
+    },
+    {
+      "role": "collection_review_guide",
+      "path": "docs/COLLECTION-REVIEW.md",
+      "required": true
+    },
+    {
+      "role": "p1_reconciliation",
+      "path": "docs/P1-RECONCILIATION-2026-10-11.md",
+      "required": true
+    },
+    {
+      "role": "p1_evidence_snapshot",
+      "path": "corpus-factory/p1-evidence-snapshot.json",
+      "required": true
+    },
+    {
+      "role": "p1_validation_results",
+      "path": "corpus-factory/p1-validation-results.json",
+      "required": true
     }
   ],
   "behavioral_gates": [

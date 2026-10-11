@@ -1,0 +1,113 @@
+{
+  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
+  "config_sha256": "9fc81af1430e6c7be5de3df1752eb2c43e028566ba767b9e45b50832595e1750",
+  "evidence_fingerprint": "adff58913114fe95b57dbdd0c79fc3c380e18045b9436d088b7e35a689affdb8",
+  "input_sha256": {
+    "analysis/current-status.json": "ad4ff1c6a1c4cc0518600c4cb8014343c004ad59bb61c05633d8d8be604883e2",
+    "analysis/pre-expert-source-audit.json": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
+    "research/pre-expert-maximum.json": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265"
+  },
+  "native_review_links": [
+    "docs/PRE-EXPERT-HANDOFF.md"
+  ],
+  "question_definitions": {
+    "language_or_script_classification": "Attribute membership and classification to named authorities; preserve disagreement.",
+    "object_identity": "Confirm the object, face and inventory concordance; distinguish source entries from physical objects.",
+    "reading_and_layout": "Compare the exact edition rows, figures and layout; preserve competing readings with page/line locators.",
+    "reuse_rights": "Check the applicable license or permission for each component; project terms do not override upstream rights.",
+    "source_independence": "Identify shared editorial and photographic lineage; a derivative is not an independent witness.",
+    "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
+  },
+  "record_identity_is_not_object_identity": true,
+  "record_views": [
+    {
+      "enumerated": null,
+      "local_path": "data/generated/pre-expert/records.json",
+      "native_reported_count": 802,
+      "representation": "RESTRICTED_LOCAL_DERIVATIVE_NOT_READ_OR_REPUBLISHED",
+      "unit": "restricted_source_record",
+      "view": "authenticated-records"
+    }
+  ],
+  "records": [],
+  "repository": "hawkinsnick/Linear-A",
+  "review_dimensions": [
+    "object_identity",
+    "reading_and_layout",
+    "uncertainty",
+    "language_or_script_classification",
+    "source_independence",
+    "reuse_rights"
+  ],
+  "schema_version": "1.0",
+  "scientific_approval_granted": false,
+  "scope": "Declared native snapshots and source/task registers only; not a language-wide inventory",
+  "source_leads": [],
+  "tasks": [
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/0",
+      "native_status": "COMPLETE",
+      "native_task_id": "LA-CORPUS-001",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Materialize a canonical record-level corpus layer from the authenticated SigLA snapshot without redistributing prohibited raw payloads."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/1",
+      "native_status": "COMPLETE",
+      "native_task_id": "LA-CORPUS-002",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Populate inscription, occurrence, provenance and site tables from authenticated source-derived fields with source/license lineage."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/machine_resolvable/2",
+      "native_status": "SOURCE_BLOCKED",
+      "native_task_id": "LA-CORPUS-003",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Reconcile the 15 named unresolved cases against lawful primary images/plates or independent authoritative witnesses where accessible."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/3",
+      "native_status": "COMPLETE",
+      "native_task_id": "LA-CORPUS-004",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Complete source-level sign/transnumeration concordance and keep Linear B correspondences non-phonetic unless independently justified."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
+      "json_pointer": "/machine_resolvable/4",
+      "native_status": "COMPLETE",
+      "native_task_id": "LA-CORPUS-005",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Refresh mutable repository metadata whose embedded content version predates the current repository state."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/sealed_or_external/0",
+      "native_status": "SEALED_WAITING_FOR_ADMISSIBLE_INDEPENDENT_INPUT",
+      "native_task_id": "LA-EXP-3.1",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Prospective replication scoring"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/sealed_or_external/1",
+      "native_status": "WAITING_FOR_RIGHTS_COMPATIBLE_INDEPENDENT_EVIDENCE_OR_HUMAN_OBJECT_REVIEW",
+      "native_task_id": "LA-EXPERT",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Palaeographic adjudication, uncertain sign identity, disputed segmentation/metrology where sources do not resolve conflict"
+    }
+  ],
+  "terminal_pre_expert_maximum_established": false
+}

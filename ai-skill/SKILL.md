@@ -106,3 +106,7 @@ For Linear A researcher-facing work, prefer the generated offline browser (`work
 
 ## 3.0.21 pre-expert maximum / rights-dominant gate
 The Linear A corpus has reached its machine-resolvable pre-expert maximum under currently admitted evidence. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
+
+## Source-bound collection review
+
+Read `docs/COLLECTION-REVIEW.md`, `research/collection-work-ledger.json` and `review/collection-packet.json` before completeness, identity, reading or rights claims. Replay `python scripts/build_collection_handoff.py`; each declared view retains its own unit. No generated packet or syntactically valid decision grants independent review, permission or admission. Keep Linear A restricted source payload local.

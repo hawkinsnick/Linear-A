@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "49a578c726de750dd8e0abe10641896142497ddd",
-  "generated_at_utc": "2026-10-10T21:48:18+00:00",
+  "source_commit": "f10d32a6d1932aedfacc6617db08f60a706eec16",
+  "generated_at_utc": "2026-10-11T04:53:02+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,42 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "p1_reconciliation",
+      "path": "docs/P1-RECONCILIATION-2026-10-11.md",
+      "sha256": "a530ff867770ba734a717f50b4632be4840de8a4ead7ecffcd16e98b78516a20",
+      "bytes": 3380
+    },
+    {
+      "role": "p1_evidence_snapshot",
+      "path": "corpus-factory/p1-evidence-snapshot.json",
+      "sha256": "48b55aa2dbb2aa1a57e92cd85a440e00e8c2bf9f359e8710c54168f3454f023e",
+      "bytes": 48202
+    },
+    {
+      "role": "p1_validation_results",
+      "path": "corpus-factory/p1-validation-results.json",
+      "sha256": "5a1d35e1ee12663d8af56778a914237da51c7323fd182e332c1c8907a6a5ba8b",
+      "bytes": 13926
+    },
+    {
+      "role": "collection_work_ledger",
+      "path": "research/collection-work-ledger.json",
+      "sha256": "3ba261721a34eebe4a40890853929f7e6580a6664b909ee998aa3a41651bbaa8",
+      "bytes": 5781
+    },
+    {
+      "role": "collection_review_packet",
+      "path": "review/collection-packet.json",
+      "sha256": "762430a0df2601166711427d3d83c16c4375708746ba63c76ce631b88c89447e",
+      "bytes": 1820
+    },
+    {
+      "role": "collection_review_guide",
+      "path": "docs/COLLECTION-REVIEW.md",
+      "sha256": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
+      "bytes": 1226
+    },
     {
       "role": "edition_catalogue_pilot",
       "path": "research/edition-catalogue-pilot.json",

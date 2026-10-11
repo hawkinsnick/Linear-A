@@ -35,7 +35,10 @@
       "critical_pilot_guide_path": "docs/CRITICAL-PILOT.md",
       "public_source_layer_audit_path": "analysis/public-sigla-layer-audit.json",
       "gorila_route_audit_path": "analysis/gorila-route-audit.json",
-      "edition_catalogue_audit_path": "analysis/edition-catalogue-pilot-audit.json"
+      "edition_catalogue_audit_path": "analysis/edition-catalogue-pilot-audit.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -66,7 +69,10 @@
       "context_coverage_path": "analysis/context-coverage-v1.json",
       "record_dossiers_path": "research/record-dossiers.json",
       "context_guide_path": "docs/CONTEXT-AND-DOSSIERS.md",
-      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md"
+      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -94,7 +100,10 @@
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
-      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md"
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -124,7 +133,10 @@
       "context_coverage_path": "analysis/context-coverage-v1.json",
       "record_dossiers_path": "research/record-dossiers.json",
       "context_guide_path": "docs/CONTEXT-AND-DOSSIERS.md",
-      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md"
+      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -148,7 +160,10 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
@@ -196,7 +211,10 @@
       "final_source_pass_audit_path": "research/final-source-pass-audit.json",
       "historical_layout_targets_path": "research/historical-layout-targets.json",
       "dependent_drawing_comparison_path": "research/stele-a-dependent-drawing-comparison.json",
-      "expert_review_handoff_path": "docs/EXPERT-REVIEW-HANDOFF.md"
+      "expert_review_handoff_path": "docs/EXPERT-REVIEW-HANDOFF.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -222,7 +240,10 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -268,7 +289,10 @@
         "published_commit": "549d6609e32211b6265abb4f6b5e65acfe6f21e7",
         "status": "SOURCE_CONCORDANCE_CHECKPOINT_COMPLETE_EXPANSION_AND_IDENTITY_WORK_OPEN",
         "pull_request": "https://github.com/hawkinsnick/Eteocypriot/pull/8"
-      }
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -303,7 +327,10 @@
         "source_commit": "9164374574489148d63d9af30f5c1a311c5439c0",
         "published_commit": "9164374574489148d63d9af30f5c1a311c5439c0",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
-      }
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -329,7 +356,10 @@
         ],
         "individual_ai_skill": true,
         "master_ai_member": true
-      }
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -364,7 +394,10 @@
         "source_commit": "756493cd9aff743fbb70417000b1d6a675356b56",
         "published_commit": "eab6eeadbf6e9d66da25a6b78715d77a22151889",
         "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
-      }
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -411,7 +444,10 @@
         "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
       },
       "native_version": "2.0.0",
-      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "id": "archanes_script",
@@ -449,7 +485,10 @@
         "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
       },
       "native_version": "2.0.0-rc.2",
-      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "id": "aegean_anomalous",
@@ -487,7 +526,10 @@
         "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
       },
       "native_version": "2.0.0-rc.2",
-      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Lydian",
@@ -522,7 +564,10 @@
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
       "native_version": "0.4.0",
-      "source_worklist_path": "research/source-worklist.json"
+      "source_worklist_path": "research/source-worklist.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -557,7 +602,10 @@
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
       "native_version": "0.4.0",
-      "source_worklist_path": "research/source-worklist.json"
+      "source_worklist_path": "research/source-worklist.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -592,7 +640,10 @@
       "source_checks_path": "research/source-checks.json",
       "review_validator_path": "scripts/validate_review.py",
       "native_version": "0.4.0",
-      "source_worklist_path": "research/source-worklist.json"
+      "source_worklist_path": "research/source-worklist.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
@@ -627,7 +678,10 @@
         "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
       },
       "native_version": "0.3.1",
-      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json"
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py"
     }
   ],
   "corpus_factory": {
