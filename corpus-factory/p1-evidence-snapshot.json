@@ -480,8 +480,7 @@
       ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",
-      "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT",
-      "published_repair_commit": "6f0be30df492acdb6b07c05507d9e3f991156314"
+      "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT"
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",

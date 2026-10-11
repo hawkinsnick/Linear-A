@@ -2,7 +2,7 @@
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
   "source_commit": "f58099bbcbad91df4a9cc4cbe51da37f5ae924da",
-  "generated_at_utc": "2026-10-11T15:30:39+00:00",
+  "generated_at_utc": "2026-10-11T15:31:45+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -22,8 +22,8 @@
     {
       "role": "p1_evidence_snapshot",
       "path": "corpus-factory/p1-evidence-snapshot.json",
-      "sha256": "9450d0c499112c4c85d66746fd88b3d62bc0bd753877ea43ef65bf674e895d3b",
-      "bytes": 50280
+      "sha256": "d33b93d7972cde15eaccee151f1375fe509c088f7a282e29ebfe93e97bf373c1",
+      "bytes": 50203
     },
     {
       "role": "p1_validation_results",
