@@ -373,5 +373,19 @@
     ],
     "outcome": "PASS; RNG plus 57 active upstream patterns, 24 fired rules, zero findings; schema/compiler tampering and adversarial date rejected",
     "scope": "Partial 12-occurrence pilot; full coverage and independent acceptance remain open."
+  },
+  "phrygian_verified_checks": {
+    "repository": "hawkinsnick/Phrygian",
+    "merge_commit": "6f0be30df492acdb6b07c05507d9e3f991156314",
+    "github_checks": "7 completed success",
+    "native_tests": 55,
+    "interchange_tests": 9,
+    "upstream_integration_tests": 4,
+    "collection_tests": 13,
+    "upstream_patterns": 57,
+    "fired_rules": 613,
+    "findings": 0,
+    "coverage": "203 frozen source records plus 8 factual catalogue entries; scientific approval not granted",
+    "ci_repair": "Multiline researcher-interface commands now execute separately; dedicated mandatory upstream interoperability job added"
   }
 }
