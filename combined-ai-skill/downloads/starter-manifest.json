@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "49eb18942b4c9a17d90d37b9cb53ebd34194e12aa4b09e45a87c36abf09ab172",
+  "build_script_sha256": "ac6a603fb9398c85b3c68530a322db36a01eea6b0692d0f84a9a3d66c7ad416a",
   "source_files": [
     {
       "path": "LICENSE",
@@ -50,13 +50,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "80e35d1c63dcad130bfa566295cf945d36638d40583b717fc089df4501886ba2",
-      "bytes": 7129
+      "sha256": "ba3b1471db007f07ef05bcbf8d83616980fc69a34e7b9026e2a804718a1baa62",
+      "bytes": 7628
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "edb1e22ff682b8038e5b06cf9a44e04895b9cca8daf1a450686d07f8c9c7f859",
-      "bytes": 31140
+      "sha256": "7108cde7ac99775c568befd764245b60aefc1c6aab90d5562a41e6304dd91089",
+      "bytes": 31817
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,19 +80,34 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "569997d337caa2bbd15bdc6cfe2d97c42d75aa8797efba70f1256f646aef4409",
-      "bytes": 44880
+      "sha256": "276b1f1ee0736005ec63aacb1a4382438fcfc117eeafd94c5a12d2cb1f2bf7ba",
+      "bytes": 45609
+    },
+    {
+      "path": "corpus-factory/REEVALUATION-2026-10-11.md",
+      "sha256": "cc537957b1c00d532765f0f1ed55780597dd28d8811b0cfff19dc31d138f6e8d",
+      "bytes": 3488
+    },
+    {
+      "path": "corpus-factory/coverage-denominators.json",
+      "sha256": "834a9895ac71f3fc1e4be6aefd75ef71624826b4f9a69f6528585d42739fe4ec",
+      "bytes": 48922
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "8582c40b41ba7d31a4ef921e3d61c5358bd3190ca9d1ac963c7740c896167e91",
-      "bytes": 13545
+      "sha256": "dc04a41bdcc463287897bf42f72c7431365bc95221b3bd342b75f1ef7b2ff8f5",
+      "bytes": 14050
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
       "sha256": "d882649cd49be376f6c1d7bf1890519f4ba993611aa42c99ab5819a9e7f17b8d",
       "bytes": 1221
+    },
+    {
+      "path": "corpus-factory/source-checkpoints-2026-10-11.json",
+      "sha256": "674b8be273265236ee1d1ac183be3d6a373ffbbbddfa883fbfa6606ebed01c61",
+      "bytes": 2915
     }
   ],
-  "snapshot_sha256": "212ceb0e67df301685cd39a7a6c3ca36e2766c9d1d7bb59b0bd746385130b443"
+  "snapshot_sha256": "cfd77d0ac2bc89e21f9346f589073da1fd64719ebd330b03e3e64c7c8c8e55f7"
 }

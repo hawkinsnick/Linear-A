@@ -1,0 +1,756 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-11",
+  "scope": "Declared 18 repositories, fresh CH/CM checkpoints plus named historical snapshots for the other 16; not all current main branches.",
+  "aggregate_physical_population": null,
+  "aggregate_coverage_percentage": null,
+  "collection_primary_reconciliation_complete": false,
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "f10d32a6d1932aedfacc6617db08f60a706eec16",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "DATA-LICENSE-MATRIX.md": "ec176b6c1a1a8852c76d047c54d6d1eafeab1e848cc832534470fa89107a0801",
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "THIRD-PARTY-NOTICES.md": "32eea368303ef0fbcbb1324b6c92ecbcc3603c8b94c44e044289c3307921e593",
+          "analysis/current-status.json": "ad4ff1c6a1c4cc0518600c4cb8014343c004ad59bb61c05633d8d8be604883e2",
+          "analysis/epidoc-interoperability-audit.json": "97ec67bbf1c7a1061262196bf26d934e75b2b8cffddb9981f0590c43f7a6868b",
+          "analysis/pre-expert-source-audit.json": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
+          "research/collection-readiness-inputs.json": "9fc81af1430e6c7be5de3df1752eb2c43e028566ba767b9e45b50832595e1750",
+          "research/collection-work-ledger.json": "3ba261721a34eebe4a40890853929f7e6580a6664b909ee998aa3a41651bbaa8",
+          "research/pre-expert-maximum.json": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265",
+          "review/collection-packet.json": "762430a0df2601166711427d3d83c16c4375708746ba63c76ce631b88c89447e",
+          "scripts/audit_epidoc_interoperability.py": "ea8dba35e7429d2555b978e6f7ce910bc963bca473ea4124f4c77963878047fe",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "authenticated-records",
+          "unit": "restricted_source_record",
+          "enumerated": null,
+          "native_reported_count": 802,
+          "representation": "RESTRICTED_LOCAL_DERIVATIVE_NOT_READ_OR_REPUBLISHED"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "freshness": "FRESH_BOUNDED_SOURCE_CHECKPOINT",
+      "source": {
+        "commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
+        "path": "research/coverage-denominators.json",
+        "sha256": "a69e224e3670b6d7c24eaf11366f268dec5d356fd2aba689f889804b80d30f0c"
+      },
+      "views": [
+        {
+          "view_id": "bounded_001_254",
+          "unit": "catalogue_slot",
+          "denominator": 254,
+          "reading_versions": null,
+          "source_occurrence_assertions": null,
+          "records_with_readings": null,
+          "missing_reading_records": null,
+          "full_inventory_locator": "research/coverage-denominators.json#bounded_001_254"
+        },
+        {
+          "view_id": "committed_rich_records",
+          "unit": "rich_record",
+          "denominator": 21,
+          "reading_versions": null,
+          "source_occurrence_assertions": 16,
+          "records_with_readings": 9,
+          "missing_reading_records": 12,
+          "full_inventory_locator": "research/coverage-denominators.json#committed_rich_records"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "026f3d99b35d6e84954a27864a9aae02fae0ee47",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "analysis/current-status.json": "169556e0c7acfc48561dfd2329f84e5b99da5c6904e7aff01ae2bf7fa26f9edf",
+          "analysis/epidoc-interoperability-audit.json": "adf7f81bbd0db2ebbc9f007fd4b1873178ec37d29afbef56690bd93a6723a1d2",
+          "analysis/pre-expert-source-audit.json": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50",
+          "docs/RIGHTS-AND-LICENSING.md": "a493b586a19e96de6e321355f275ac493ad09a7a10301ef78c84df2edb38941f",
+          "research/collection-readiness-inputs.json": "b672dbba9a3c5490bf546f23ad7c012f8902bf2f9ef2079a1ef86033dccbc394",
+          "research/collection-work-ledger.json": "55f0356bdfda86eeaafff38f0ed5ad1c59897b66564e870166905c0d48986a40",
+          "research/pre-expert-maximum.json": "d16e1e5ecb5252f0c2f9f0eb79b33de5d9f2cf21c09e96c1779fb12bb9f91eb0",
+          "research/pre-expert-source-access.json": "ea7e6109364ef7f7d489ac5ed87d621561cbc089805f58cca0d32343c6e868c2",
+          "review/collection-packet.json": "51db49e06bf003be9774a2e3615c0d4c8523e056dbad681fc58ac1c7b0aca990",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "scripts/import_epidoc.py": "73cf78c14f2af8e58e97c82e785cb0cf6e62bcdc0c78af3f199a5d7880dd0907",
+          "scripts/test_epidoc_import.py": "cb69c76f6dd5941d7b6e4846c2397915aed9d7fa90e0c784e5d64943f6509ddb",
+          "sources/registry.json": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0"
+        }
+      },
+      "views": [
+        {
+          "view_id": "authenticated-records",
+          "unit": "restricted_source_record",
+          "enumerated": null,
+          "native_reported_count": 5932,
+          "representation": "RESTRICTED_LOCAL_DERIVATIVE_NOT_READ_OR_REPUBLISHED"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "freshness": "FRESH_BOUNDED_SOURCE_CHECKPOINT",
+      "source": {
+        "commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
+        "path": "research/coverage-denominators.json",
+        "sha256": "c223531ae9fe5ea4c7d82aa11aad074593900fe9f76e46802085797063e8c2a2"
+      },
+      "views": [
+        {
+          "view_id": "CHIC1996_001_331",
+          "unit": "catalogue_identity",
+          "denominator": 331,
+          "reading_versions": 13,
+          "source_occurrence_assertions": null,
+          "records_with_readings": 6,
+          "missing_reading_records": 325,
+          "full_inventory_locator": "research/coverage-denominators.json#CHIC1996_001_331"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "584d92e8819cd97879954db568aaed88495cca9a",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "analysis/current-status.json": "94f42d3ac03d3cdfd89ac4e26c5dc18a68082be4521d778b6f9e919ff4292581",
+          "analysis/source-coverage-v1.json": "59364664ff2783a971ae223599831af807f217a14ca2bc83c2236cfe37b423ea",
+          "corpus/disc.json": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+          "research/collection-readiness-inputs.json": "04a364c36c5260d05a3033b8a1ec566a28a188e913792a375e9707358f008368",
+          "research/collection-work-ledger.json": "17d7ec28b2ca3f7d16e78d8b1b2f019e6c155353251f52cfc88477927fa83a58",
+          "review/collection-packet.json": "1c9a52dd21b567bee17d413274edc6f121dd0e1d1b32e7fe7cd65c13384ba106",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "sources/sources.json": "ca56bc3067ef3b0967270a3d2c153c92db3306e413e7280549c71937801c4ad3"
+        }
+      },
+      "views": [
+        {
+          "view_id": "disc-object",
+          "unit": "physical_object",
+          "enumerated": 1,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "disc-groups",
+          "unit": "graphical_group",
+          "enumerated": 61,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "2a6aa594dbbb3a073977fc5def8e77e90679ce4a",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "data/bibliography.json": "566b4f42bd02e6d524e74bd08d3222ac6c955960d935c3ce830b78773a6be828",
+          "data/catalogue.json": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+          "data/coverage.json": "605d4c9ab60a41b143e3a104e39adf12427e6f0a70d8243c61f8c2c8d5b05887",
+          "data/sources.json": "596703acb537138aa385ff1b6220846831e1478703c929e8e31a2409524f38fb",
+          "docs/RIGHTS.md": "252c527ccbc35f0a9ac330408a48611b437bb6e0a61f5f436ce004be70aa9cbe",
+          "research/collection-readiness-inputs.json": "8d3de29c2e1e7053a4ebed301f0c5f236df033f01431d524c53b0b9ad97dbd22",
+          "research/collection-work-ledger.json": "68602d6d6523530263c2fb408ff66ec989a721e09817a21090d954f7204a5061",
+          "research/pre-expert-maximum.json": "d44ae7d7da5acafa726b595cd093055d5c14ce90c6cd2bea803f4d737de0167e",
+          "research/source-inspection-2026-10-02.json": "71e2a19bee9d3f624aa4e52c83bee2762c123ebfbb383638d9975a71f1c12a61",
+          "review/collection-packet.json": "6c87738830e92d692f62a3848a1898ddc821280ca26f74f268e587054d4e9ed4",
+          "schemas/interoperability-contract.json": "b771614d2f75de4160d2cef0e1f28eb28ec452b05e7c070b1dc5f5af0473f5f1",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "catalogue",
+          "unit": "core_or_candidate_catalogue_entry",
+          "enumerated": 39,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "ebda6a97cf3097367e545e1ddab555c9260bb9b3",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "data/records.json": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+          "research/collection-readiness-inputs.json": "cb889ebbc3630643c487a501194d7d25fa2da0e7bfb828fb12fc3964b8269b35",
+          "research/collection-work-ledger.json": "6348fe55d9dde7af10f8e6ddf0d36d2112e4a205aa646aba84145b2ea6c80d51",
+          "research/pre-expert-maximum.json": "f793648ba0b6c6ef26027e5ef713ce71679defd1ab7c8cf4996e4ac3b2f642f2",
+          "research/rights-source-matrix.json": "a0694a44aa5b8ffba883b1c88ce911424e59f625f3273cfdbdbe993abb93112d",
+          "review/collection-packet.json": "95bd832758d6aaa09167f3f2ee0c45ec859194c6eec62d95001e862d6a3f4405",
+          "schemas/interoperability-contract.json": "a74769000100220eafdcc3c1d855557d1dfb8f7e0d09256c41fc5ad9937973ba",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "IGXV1-entries",
+          "unit": "digital_edition_entry",
+          "enumerated": 592,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "eb74abf49955f0a003ef29be4dc01726fb836a88",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "data/records.json": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+          "research/collection-readiness-inputs.json": "4c8ac70f3a2af4767c24d8ea0f494867404034565bb18766cfc0b1abc7057173",
+          "research/collection-work-ledger.json": "0294381e1ce8d492580847a5daa21caf83378cc6dce8466f4ec48f5ee08a24c0",
+          "research/pre-expert-maximum.json": "de1bc2806d6fbbabeb95cdea6dd19042c9f2b8178cc5d8a180594059f2661625",
+          "research/pre-expert-source-exhaustion.json": "78df45ef5196fc4d4f194008e0cff36469c7783b23b8a52d1645260f3390578f",
+          "research/rights-source-matrix.json": "4a9107445ebaa0eda49a70bd7efbfeb3b80c28963df6b08b7f69bddd3f46c36b",
+          "review/collection-packet.json": "89440c0570abbd913b5f5e5f811dbc73abf976651f3acba344a2ca54ae55b7e3",
+          "schemas/interoperability-contract.json": "891de334ffafd9c67a325f4bdfc30442e93fb52677d96504500f61c939cb2c13",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "IGXV1-candidates",
+          "unit": "digital_edition_candidate",
+          "enumerated": 25,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "30aea0ecfbc164ffbdfe0bec79bebc80e3ef1532",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "analysis/current-status.json": "8f0b2b14c9a5ff79139650ff77ec5973b19cdfb561cc7dea3efd4f7cfd5a2e85",
+          "data/records.json": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+          "research/collection-readiness-inputs.json": "0343d628fd81279ef5469a25bdd72685e6f8ea90c96e9562e8569207993b4b86",
+          "research/collection-work-ledger.json": "e05cc1091416d4f9ef7c1e2a9034a861cba38188070928d0a8da76e9899f6107",
+          "research/coverage-register.json": "5dcbb6c2859cf3aa10b129a2ccf174584e2fb20c2ae2c5774d1cd2d6229893af",
+          "research/pre-expert-maximum.json": "8d6356a52d13d48135320bc05996f600f21f127d9acd83b14a43351e87843ad8",
+          "research/pre-expert-source-exhaustion.json": "6ea3593b6b2c3f2689d7cb3aeef1f59db7ce8ae4402bf3f2c3f060bd4d258d64",
+          "research/rights-source-matrix.json": "f018cb263ef107bc7d8fcc9cdc785dfe30ff6f63c8cc5c9d1d208402a99413e9",
+          "research/source-inspection-2026-10-02.json": "f2991b9fbf20c4f2096a1aa77e87158bd5470638437c4625a9598d58653963a5",
+          "review/collection-packet.json": "dc4ca99912882612b5d743ee0cc462cb7099c3ee43469d71146a13d52a25a625",
+          "schemas/interoperability-contract.json": "98b238b8c9629d9c7f30621edcffcd6761b1e63e930ac70f5009d65e70a43d81",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "attributed-readings",
+          "unit": "attributed_reading",
+          "enumerated": 12,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "coverage-objects",
+          "unit": "coverage_candidate",
+          "enumerated": 11,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "bceca6ada7273b1e7afd41517cff200fe4348450",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "analysis/current-status.json": "f51e90f6532b62a9fbec0d77e751326a239c23208760403ae8a39e2371509ae8",
+          "data/records.json": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+          "research/collection-readiness-inputs.json": "a7600ffe773d00111edef0cf638427e0d5566648504e8cfeb864c1cd63a76547",
+          "research/collection-work-ledger.json": "3f1b325c3d634fb89c5d4b999ee1d722b9effee18cb7452432d3321d6307c01d",
+          "research/pre-expert-maximum.json": "1164a45dbb9a5281488c93616b993c3ca5123f96fd77791180ff8f51eddb0ae7",
+          "research/rights-source-matrix.json": "140667eeff39cdfaba590299f140318f86f268142e3bd11b1bdc280a8450cd56",
+          "review/collection-packet.json": "476cf2d0683c8d311668caf2c5fa3d340441bd0330402ecfcf01eaebe9da540b",
+          "schemas/interoperability-contract.json": "13ff169da3598a753f95b5bfb4a11a372da5ee5ed16e6898c17754f44125451e",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "ediana-reference",
+          "unit": "digital_catalogue_entry",
+          "enumerated": 453,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "b03ea018d66f7a66c4bbab13b05209e6ddc7ef62",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "DATA-LICENSE-MATRIX.md": "a1e9573fba7d9fd3e7d302462d171cc517143adb764c035c53840d6fc4d468f0",
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "analysis/current-status.json": "0dc620a91683435359975f796d9d3b00174ae4af7cfbb1128a2e000a4f98ea92",
+          "analysis/upstream-epidoc-validation.json": "bad96c213b68d56586940f7d51bea3515594116607b055860242a6f41a3c67d4",
+          "data/records.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "docs/RIGHTS.md": "070c325b7131ababf4bc61247f9c4c1e05f0897a68d9801e1860cc1bf0ac6d59",
+          "imports/ud-phrygian-kul.json": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+          "interchange/epidoc/ud-reference.xml": "14f6cc66fbe6601fccd70c1f96cc0104ce6b2f327b60e2e5143e16793a66ad8c",
+          "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+          "interchange/export-manifest.json": "e5458f65c8f3a98ddc76e20cd8af551fced3473729b3b79670e8abd727be0077",
+          "research/collection-readiness-inputs.json": "8a9ca14ad7132f61fea2033912ab1edba24123462dc733d77dfa20fe19b259f7",
+          "research/collection-work-ledger.json": "4c7983fc085ad3a1b3bfb369bba24cfa9efc35b991a69926f0421ae07fd7f2b4",
+          "research/expert-review-queue.json": "4f35a9aa32035f5b4acf99b73a2efa88b588637672b5a199b32398c996221ddc",
+          "research/interoperability-identity-graph.json": "4cd905306451381e899e51458a5099ddad37f7175fe567e55e9b8b70be655aa3",
+          "research/k01-catalogue-concordance.json": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0",
+          "research/pre-expert-maximum.json": "6d61fbffebb7751b4b06249f5fd34ef99ed26ab5078b8ea3c3416bd9b18f0912",
+          "research/residual-blocker-ledger.json": "87b802621ee29105aa637013a1d125160eb1ec7ca7219376bfe8e3903f60ca3a",
+          "research/rights-source-matrix.json": "46ea1df17129876bc4bfdd267fb4b50a5162e3bb729f9712b7525dd1c7dafa0b",
+          "review/collection-packet.json": "bcd8f9dba3b47eab78e31710ad9fb9893d349b4c05fa4d1cc3f665c7d9bf9e7c",
+          "schemas/interoperability-contract.json": "8254b130a3524e1e8a41f51074912de0bd85a8d57735db7b050cae6155d57005",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "scripts/build_interchange.py": "07c589132f45acb10293058a9e79c1e456876cdcd3ac996333b864bc8c3d4bad",
+          "scripts/validate_upstream_epidoc.py": "2b6a22052dd4feb6941923c9fca27922a98a24d66b50930af221ddb7baac1ac4",
+          "tests/test_upstream_epidoc.py": "eb0ea2115decfea43f228faaa8c018d2103be72fd555570a8b2cea09d1ccdf8e"
+        }
+      },
+      "views": [
+        {
+          "view_id": "canonical",
+          "unit": "canonical_record",
+          "enumerated": 0,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "ud-reference",
+          "unit": "derivative_sentence",
+          "enumerated": 203,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "k01-catalogue",
+          "unit": "source_catalogue_entry",
+          "enumerated": 8,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "3d9f717e0b81a8e9f94963da6f662459c3254496",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+          "data/sources.json": "6cb2bde6c110e794adc90fe58f30ce817b33d4b37db4c90d2fef5537c48f3b37",
+          "research/acquisition-queue.json": "2bf0bec1786e2013f7ecef32e6dff086b24db00d6417512bb6a93bc9378e0a61",
+          "research/bibliographic-expansion.json": "572a8253c0f649c7ac687ba96a7ece9e8ee3fed8f116f5dc5490bffcb3728f24",
+          "research/catalogue-register.json": "2c6ff01f9e38ddd2ed350e53d0fbdb236e6ceda79cd06e98a11c2603a231b39d",
+          "research/chli-iii-structure.json": "e9d3bf1d7fc4cd8481209bd1ce6e82dbdebd6afc645de71217149c96d0896e99",
+          "research/chli-volume-crosswalk.json": "82d7b38bba3eaeb0d95846b57164c64a28bbb05269f0ec68694450e18c30d9d8",
+          "research/collection-readiness-inputs.json": "d2be8968b143f0aa7c616fa32b90a4cf77abbe721dce7e67837b781399cc7398",
+          "research/collection-work-ledger.json": "7e4d7d8817c770da0a83df3867a081c997a55bee6aa8a7c3e83fc91649d98b22",
+          "research/coverage-class-register.json": "20782e4d3a82e16c85e810e6e4fa3a2de6fa6af173afec4f06d995711319756b",
+          "research/ediana-hieroglyphic-entry-register.json": "dbf8796677c566e302e6d36c9055de8b77b76888d66573ae06958a8e5bfa3464",
+          "research/ediana-identity-spine.json": "eb0adda427cdbd1b70d721e4358f6ae7036cb3c55d887f981349a39611dfd481",
+          "research/edition-reconciliation-pilot.json": "4f6f42fe58fdfc556d662cebf1f4dd25d3deb27c11e4b9234f1ed533dd6c482d",
+          "research/evidence-matrix.json": "8d979be07efae9161b83d334d90fdfb234830ed42805e6535a141a0490fa931b",
+          "research/machine-work-ledger.json": "75fe01598ba68cdb4692e68a86cd40854dd377f7c44316848714976b8b7c9cd2",
+          "research/monumental-discovery-register.json": "de7877e2ea0fff5bb3269549644a5fa4d112d1b06b537dd4ff482c9a168728b6",
+          "research/pre-expert-gate-summary.json": "0bd74ec61f2fc0767df6091a2509a5b5f0714e3eca3b80a31529e620efe838d0",
+          "research/pre-expert-maximum.json": "d620af7eda5d6a5ba6a3d5fe6a9f5d585a6c14e28020d6d1fc16d593562dc36d",
+          "research/rights-register.json": "557fcc83b2431ad40b4af9352bfcdfbac0d9a1b5bff935b517dc0278d4c5005c",
+          "research/rights-source-matrix.json": "22ab0c875e806ba332c9da5e7ed67b0aff0e74638e972e93a7ddbfb465c675f8",
+          "research/source-lineage.json": "346bf0d80f0fdfc4f62c8b5c894fcb04c7089a3c021e2c762c47caa0365f3023",
+          "review/collection-packet.json": "91c0122f2afc473001972e62fc8a176b91ccf625437b8abf58169f81b188c938",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "observed-ediana-IDs",
+          "unit": "observed_digital_identity",
+          "enumerated": 19,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "portable-entry-subset",
+          "unit": "classified_digital_entry",
+          "enumerated": 32,
+          "native_reported_count": 287,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "ab272d21d8eb57e28b6835cd4d5ae9134672c627",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+          "data/sources.json": "4519251bf4756d46d9dc5b21afcf546e7972b83f697349dfbeab63c379b9858d",
+          "research/acquisition-queue.json": "35e12f24e3e3eccceca70f7e7ecf382a31ca668e52cb25c518406429e69728cf",
+          "research/authority-delta-register.json": "91d07718d3be220b3ca015dfd587f55f5ba58a901ce5a2b94cb2e790077e4204",
+          "research/collection-readiness-inputs.json": "dd142f3dac84d9d4812ad1231916a63ae6f5c21b4c323fa8820ff9af20b0e3ce",
+          "research/collection-work-ledger.json": "a6e60162ae97fc8ca4e098920bf1160e783307ffa0e0742a072c877fea1ba3d5",
+          "research/corpus-definition-register.json": "4b2fb5a30d19cb54eb69979dd41658eaf38a9c93b184e10fe31b7e0ccec3a93e",
+          "research/corpus-quality-audit.json": "c2cb9f32bd619235bd3b249e2e2271575fd5cc30d1ccc623cc5deb197894527b",
+          "research/decorte-2018-corpus-register.json": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+          "research/diachronic-subgroups.json": "553df7a0fbf78a90fb1d10a722379583640a5184b178bf9692283c1b3bd29107",
+          "research/formula-comparanda.json": "a88b5c940ab32461cd17e0f62f491e21ffb5184be9ef81f06a3d0f59dcad50e1",
+          "research/formula-register.json": "d8c2c1d2df291082b9fa0620f6fa24e2be6ebbce0e6876c1165fa76236212564",
+          "research/machine-work-ledger.json": "b36e225da185a8c3fdd806ee6bc6b0f79e2f8411ebc4237d74c369b9d3ca4937",
+          "research/pre-expert-gate-summary.json": "945af143fa7fb46229487cef88eb15692ecde5cd5c449f4ab73bc85798bced84",
+          "research/pre-expert-maximum.json": "ac2f652a6790af0d156a50dedd3fbb4516251dbf9c89b17df4a61dd9611d928c",
+          "research/publication-register.json": "9449b0da1b2ea2cdc8bbc0c271e968e271949b71bddd5aea6f0b12133a574629",
+          "research/rights-register.json": "2041674d37c18c1592e9cfcb82bf84cfd58509b2c831a8ca9044f47bf1f40ec2",
+          "research/rights-source-matrix.json": "55f301b0bd8233e8c383f17e5758a279e74a4cb86269976cd165fba1286763a9",
+          "research/sign-occurrence-register.json": "930fbbdba4f8ca626651b861ef0ab13c06c554a4247ef5888c74d23926d58132",
+          "research/signary-authority-register.json": "31f8b97d70f46724ce8c0abd78d862b38abb35cce658ba2f1a18c50cae645f9a",
+          "review/collection-packet.json": "3ba47da4f801676033ad686ea3de38324986e036415377135ad7b9f7b746efee",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "Decorte-baseline",
+          "unit": "authority_attributed_object",
+          "enumerated": 16,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "9c5ffdcf0854d351a9c29b513c402a89ad769aa2",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+          "data/sources.json": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
+          "research/acquisition-queue.json": "d6057eb759743dc6370e8613db057ffb54e47b59255cfddf5286e46753a26541",
+          "research/admission-policy.json": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
+          "research/arkalochori-conservation-packet.json": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
+          "research/candidate-disposition-register.json": "e57b15fe68799c75ccd07f884261073da29f108100da9419030afccf57f4ebc3",
+          "research/candidate-register.json": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+          "research/classification-history.json": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+          "research/collection-readiness-inputs.json": "54b2585b512f886318fc316ace67a404f2c5f4f1862e8d9007a38934c7cf847b",
+          "research/collection-work-ledger.json": "f15eabd1786b2e304cbe6d390ea681aaf7aaffa23f7e98fe5922cdbc7441a30e",
+          "research/counting-convention-register.json": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+          "research/hypothesis-quarantine.json": "bbb003b5d861c3bd91bd26dfd281c4ae2966370c40e95ff1e9ceb2d34f9524ae",
+          "research/machine-work-ledger.json": "600a44807a7b530cc08de393ba4b2a81fa912b627df5f03ebd25be378f80704b",
+          "research/malia-evidence-packet.json": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+          "research/pre-expert-gate-summary.json": "2a710980f92cd1a5647263ceefb1c25ccf630003a4bc96488c2f6434dc21da7c",
+          "research/pre-expert-maximum.json": "1e9a2abd926c9ac457dad44c03126e3bf7f9927d720db55fe4ed89479d730508",
+          "research/rights-register.json": "695dc8e45fd70669698a24bec73fab6e5abd6b487520d88030328f39eb4584b4",
+          "research/rights-source-matrix.json": "6f514f4ae4903ad8a0ba66b3adf74395e175f53625feeffc3360e82bcc9bc506",
+          "research/source-dependence.json": "01056bebb13d42bc289c06979ce74d5c3f86d2a1d43b6703fa4559d817807b4c",
+          "research/source-quality-register.json": "46f4a8c35efa37b1f123f7d70beb84aa962c750ee2a9abf12711063674900ea0",
+          "review/collection-packet.json": "1de6d77053a92893868c3e38dd60c48f7ac7cd52f410d15986ec90b52d3f44d1",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        }
+      },
+      "views": [
+        {
+          "view_id": "quarantine-candidates",
+          "unit": "quarantine_candidate",
+          "enumerated": 2,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "668b41ff880142c8bcb58a8bad68781f5bc26306",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "DATA-LICENSE-MATRIX.md": "3f7ccb9afb09c7c765d7cf5fd575d92090742d60116d7dc55c9bd08e2ee5ecb3",
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
+          "analysis/current-status.json": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86",
+          "analysis/upstream-epidoc-validation.json": "93ddf5c07574dbed0c5e5fa2a495a7ea4784359872f2332353c70f9b61d0f7a1",
+          "data/reference/records.json": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+          "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+          "interchange/export-manifest.json": "32a406dcee430bd35ffd9003fc594f576e5c8d9915b68c03a2f0e3c66efb7baa",
+          "research/collection-readiness-inputs.json": "96dc57153c1708ba8f00839454dd495dcdca03efad665e95146ebb2c5a3aa77d",
+          "research/collection-work-ledger.json": "0c188180e54c12fbed0558f81fff6853a5e82c2a878c546848ac90cf6b33b07e",
+          "research/pre-expert-maximum.json": "443453a7a9a3a898c1d693a6c14075471b44d9cf6ec1fe24f5810dfae560a651",
+          "research/publication-reconciliation.json": "ca914208e5deda01a8284edaf9345025ad94e8522724565e52a29f9aaa3457f7",
+          "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
+          "research/rights-source-matrix.json": "e4d69114a20f6bfd928c0e7bf58180e711ead29d2560c45e28e7e2738e77821e",
+          "research/source-access.json": "831947aaffb3d4a5cbb644e37d2f1a65a426c60f450c9e723ea88255f52b6f55",
+          "research/source-checks.json": "d4a8e59b525c5e8740374da3b76866140561ac8162498cd39f29e4f036776d95",
+          "research/source-frontier.json": "b9ecaa5ac24c322ec8685262b4df12ef757ba4bfb22fb1351a3f911c9a96b728",
+          "research/source-register.json": "5e5b43347d15c74121e6837933b0b1a95e89f0136c0b4f8d38d0cef504460dd3",
+          "research/source-worklist.json": "f3a1b8fa205f3d89af43e8668f097b26a386ca3d2d8cd6cecca31f61a437936e",
+          "review/collection-packet.json": "09e0bcdcb4fda75e213d47aa8bdda48cb147de8a4cd8601a2c35ea2cdf3f362e",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "scripts/validate_upstream_epidoc.py": "a541e4e6b789dcc9fe3ab9c60a5a972d7719472e25ac378372c81eeec6e6d131",
+          "tests/test_upstream_epidoc.py": "75cb84a8e5067eda0dbd6748406844d3bbb1d795051296bfc59520b58420ffa9"
+        }
+      },
+      "views": [
+        {
+          "view_id": "ediana-records",
+          "unit": "digital_directory_record",
+          "enumerated": 118,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "26586baac3b908bdf1daa915cd7254064b4810c2",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "DATA-LICENSE-MATRIX.md": "6d140b300c53b2768777acdfb9c41c903f5bdfda7cfc971f87bdef8dabca99b0",
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
+          "analysis/current-status.json": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18",
+          "analysis/upstream-epidoc-validation.json": "4e09ed53316dde0c1a59acc826123e2b0690cfe94d1808af2f1ffdfde6437f7e",
+          "data/reference/records.json": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+          "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+          "interchange/export-manifest.json": "0e82a87b5099e9ed6126a6fa1aa88b6c3fb89a82d57cd8f20b73055654d1d618",
+          "research/collection-readiness-inputs.json": "da536434287066bca39e69908db7b4d69f33c141b6ef3366e17589a788cef612",
+          "research/collection-work-ledger.json": "45ef86325bad1f8dea906adda76cfd4cb40e9df5e6a96d2ca5468042abf83ddc",
+          "research/pre-expert-maximum.json": "e9d0fcbfe01d37730f83964e9782d57beca65c92340b37418b5484a0bfc327a9",
+          "research/publication-reconciliation.json": "6a1df4a476c7b5d9aeaed85205283912f86646700f2b1f13b61ed676e63de022",
+          "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
+          "research/rights-source-matrix.json": "41a716d0346f5ace38380abee9451062aada3b796a9b0f713cd543a8f510a88a",
+          "research/source-access.json": "8d864fda03fc023294f14b167cf56e18fa47e3c3a732e4beafa50f1bb69a85d9",
+          "research/source-checks.json": "720516aee69f29eb1bc73d94e732cdef0a76dd0465a9f69e2e1308306646a52d",
+          "research/source-frontier.json": "ee3340368cbf7fab2b781046cb8459b380c8a206941f7127d4f4bb50d053dee8",
+          "research/source-register.json": "4c0b2e073b7c605a8ba1da614fab05ac9d1c6ebca133aacbc64cbebba9b9267c",
+          "research/source-worklist.json": "79eb737c1d67db89a12d03fc5fb20623cd55ce117446662d0a619960e856f95a",
+          "review/collection-packet.json": "0cb247780beafb8f58d7e75c7d487592b5a75ec6affa1203dc6b82de1a1a2e2f",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "scripts/validate_upstream_epidoc.py": "ef16cd5dd80dadb6ae2b957af6d3d54a3f7e6047a0a5bda69e9a649c470b85dd",
+          "tests/test_upstream_epidoc.py": "75cb84a8e5067eda0dbd6748406844d3bbb1d795051296bfc59520b58420ffa9"
+        }
+      },
+      "views": [
+        {
+          "view_id": "ediana-records",
+          "unit": "digital_directory_record",
+          "enumerated": 11,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "b8a291ef09342bbdccca35d110b8123235bc81dd",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "DATA-LICENSE-MATRIX.md": "6daff2528007b5a79fead00b31fedcf4158d0de3c2b635138b74a2f9834749a3",
+          "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
+          "analysis/current-status.json": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311",
+          "analysis/upstream-epidoc-validation.json": "63ab057f01de80744fad30b9c7e522ebefdb6e0fbd20bd9119e3d1b7ba394203",
+          "data/reference/records.json": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+          "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+          "interchange/export-manifest.json": "0828d5400c3fa1542000eb697600a5c24ceebe69da511ecc4bf6fea3b36c993b",
+          "research/collection-readiness-inputs.json": "c39bdfad8d3bc293bc60c134d61241c860dbc98b7860b6ce32e6da765fc1109d",
+          "research/collection-work-ledger.json": "2bcb3abeefd859fe30b14922b556cb1e6e7783b08370d0cb1daa219cd23a2713",
+          "research/pre-expert-maximum.json": "1bdbf8284bbd63ffcbf2a22a42f509d6eae5970267357b36b19a674fc68b509a",
+          "research/publication-reconciliation.json": "fd9ab848702a8f1906a4435a878c54224036566bef925ce2b4430381f4ec5378",
+          "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
+          "research/source-access.json": "a6aa23627292fe239e08de5a2948d2620e12e2722479cc161b6ba2d8ec452233",
+          "research/source-checks.json": "b6add789bd9f6a5ad36269274a99c4818cf20a466d10d6a7573242b27b70f827",
+          "research/source-frontier.json": "aa5c63a35e38f69ca1d62c50e3b2e141a0e18392511d6b5ed0e80a6382d634f2",
+          "research/source-register.json": "bb91a0edbd9cffa134befb40b45104665c91e703a32ac0711791d9ee05569905",
+          "research/source-worklist.json": "f2c4905dddfb5fbfb26740c7040d2f7fa19baf19d3717c847fa022a49594b153",
+          "review/collection-packet.json": "a504b46fc4c8091b294af7100b267679015a62c1c7a8ba1f3593c12f3d0280eb",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "scripts/validate_upstream_epidoc.py": "1d8085e44e3f97f602cdafed70b974ac7f6e372ef4156fd7702e92107f4c6093",
+          "tests/test_upstream_epidoc.py": "75cb84a8e5067eda0dbd6748406844d3bbb1d795051296bfc59520b58420ffa9"
+        }
+      },
+      "views": [
+        {
+          "view_id": "ediana-records",
+          "unit": "digital_directory_record",
+          "enumerated": 54,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "freshness": "HISTORICAL_PINNED_AUDIT_SNAPSHOT_NOT_RECHECKED_IN_THIS_PASS",
+      "source": {
+        "checkout_base_commit": "b660d5809bd5931799ea968210b2c0e1f7628dc9",
+        "snapshot_path": "corpus-factory/p1-evidence-snapshot.json",
+        "snapshot_sha256": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "native_input_sha256": {
+          "LICENSING.md": "3390ae7ed576a8de35790d19ad6bb615fc9ed9bc0c6ee3f430d4c5883d809956",
+          "THIRD-PARTY-NOTICES.md": "fe7d215806c9d901d6656f8ecc90e3c5197d68b30cae410ca8c4eb8ecf36dde3",
+          "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
+          "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
+          "data/reference/ediana-milyan-source.json": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "data/reference/lines.json": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+          "data/reference/records.json": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+          "docs/EDIANA-REFERENCE.md": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
+          "interchange/epidoc/milyan-reference.xml": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+          "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+          "research/collection-readiness-inputs.json": "5cdc0fd49539362e79163da17270fb25e1f9819677be92fe20fbd4082953221f",
+          "research/collection-work-ledger.json": "ad23d6acd0366009d059acbba75e52ab98242aeb065b8750e5046ec514358752",
+          "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
+          "research/pre-expert-maximum.json": "062b8fafc144a661b74e316ebe257c5fbb563419a040365eddb8bfecb649b6f6",
+          "research/primary-edition-locator-control.json": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
+          "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+          "research/source-reconciliation.json": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
+          "review/collection-packet.json": "85e3ed1e0b3c2357d85918e84a6ecea3f4ce1a9353767033c4d675995373b534",
+          "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+          "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+          "scripts/validate_upstream_epidoc.py": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
+          "tests/test_upstream_epidoc.py": "d6c2ee9f25ad89b4a6c87d258984dfa4635f1ebfa9bdf9ba433fa073e5b88850"
+        }
+      },
+      "views": [
+        {
+          "view_id": "provisional-bibliography",
+          "unit": "provisional_inscription_entry",
+          "enumerated": 3,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "ediana-reference-records",
+          "unit": "digital_catalogue_entry",
+          "enumerated": 2,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        },
+        {
+          "view_id": "ediana-reference-text-rows",
+          "unit": "digital_source_text_row",
+          "enumerated": 114,
+          "native_reported_count": null,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY"
+        }
+      ],
+      "physical_inscription_population": null,
+      "views_must_not_be_summed": true,
+      "primary_edition_reconciliation_complete": false
+    }
+  ]
+}

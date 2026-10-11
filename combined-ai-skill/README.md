@@ -81,3 +81,7 @@ Linear A, Linear B and Milyan generate their current README summaries from nativ
 ## Source-specific evidence frontier
 
 For Linear A, Linear B, Phrygian, Eteocretan, Lydian and Sidetic, read each repository’s `research/source-action-plan.json` and `docs/SOURCE-ACTION-PLAN.md` before claiming rights-only readiness. Separate endpoint access, permission for the intended operation, source delivery, factual reconciliation and human adjudication. Dated searches do not prove global exhaustion. Respect existing completed crosswalks and their unresolved edges. Linear B’s `docs/CALIBRATION-INTAKE.md` describes private metadata/digest intake only; it does not establish acquired gold, certification or authority to reveal answers. Other members retain their own native stopping authorities; this checkpoint does not certify the entire fleet.
+
+## Source checkpoint and reevaluation — 2026-10-11
+
+Read `corpus-factory/REEVALUATION-2026-10-11.md`, `corpus-factory/source-checkpoints-2026-10-11.json` and `corpus-factory/coverage-denominators.json` before current coverage claims. CH/CM source-qualified coverage has expanded; primary reconciliation and independent acceptance remain open. Other member views are explicitly historical snapshots. Retain native units and source dependency; never sum overlapping views as physical inscriptions.

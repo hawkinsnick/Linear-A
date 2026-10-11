@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM target: 254/254 controlled slots now have source-attributed sigla; 186 new mappings replay against visually inspected Valério 2016 concordance PDF pages 25–27. 21 rich records, 12 occurrences across six records, 15 uncovered records; reading/physical identity/rights and independent expert acceptance remain open. Whole-corpus frequency and phonetic claims remain blocked. Record-specific expert questions now cover all 15 uncovered records: eight inspected dependent-edition locators, four Met candidates with 14 checked CC0 photographic views, two metadata-only sources and one HTTP403 source. No completed expert review or added readings.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Bounded source checkpoint: 254 controlled slots, 21 rich records, 16 partial occurrences on nine records (six primary, ten dependent-secondary); 12 records still lack occurrences. Fourteen explicit rich-record catalogue joins, seven unresolved joins, 240 slots lack a rich join. Three reported Olivier/Valério positional disagreements remain unresolved; no direct Olivier inspection or expert acceptance. Original 15-record expert cohort preserved separately from current missingness.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -75,8 +75,8 @@
       "collection_replay_path": "scripts/build_collection_handoff.py",
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
-      "epidoc_validation_boundary": "Pinned RNG and all embedded upstream Schematron patterns pass for the partial 12-occurrence pilot; complete object coverage and independent review remain open.",
-      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb",
+      "epidoc_validation_boundary": "Pinned RNG and all 57 embedded upstream Schematron patterns pass for the 16-occurrence partial pilot, including retained editorial notes; complete object coverage and independent review remain open.",
+      "upstream_epidoc_validation_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
       "catalogue_concordance_path": "catalogues/source-located-concordance.json",
       "catalogue_mapping_audit_path": "analysis/catalogue-mapping-audit.json",
       "catalogue_mapping_guide_path": "docs/CATALOGUE-CONCORDANCE.md",
@@ -84,7 +84,11 @@
       "uncovered_record_review_controls_path": "research/uncovered-record-review-controls.json",
       "open_image_controls_path": "research/met-open-image-controls.json",
       "uncovered_record_review_guide_path": "docs/UNCOVERED-RECORD-REVIEW.md",
-      "uncovered_record_review_commit": "d2a6789653b10cadc3457739818fcc9b46ee6c2f"
+      "uncovered_record_review_commit": "d2a6789653b10cadc3457739818fcc9b46ee6c2f",
+      "source_expansion_path": "research/source-check-2026-10-11.json",
+      "source_reconciliation_path": "research/source-reconciliation.json",
+      "coverage_denominators_path": "research/coverage-denominators.json",
+      "source_expansion_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -128,7 +132,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 5.3.0 context milestone: 26 source-attributed CHIC context objects / 234 assertions, 331 identity dossiers; five readings on two objects and zero independent reviews; representative structural and comparative analyses remain blocked.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Bounded source checkpoint: 13 source-checked reading versions on six of 331 catalogue entries, comprising five primary versions on two and eight dependent digital versions on four. 325 entries lack reading evidence in this layer; 26 context entries / 234 context assertions remain. Two primary/digital ivory-versus-bone conflicts retained. No independent reviews or certified physical population; representative structural/comparative analyses remain blocked.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -148,7 +152,11 @@
       "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "source_expansion_path": "research/source-check-2026-10-11.json",
+      "source_reconciliation_path": "research/source-reconciliation.json",
+      "coverage_denominators_path": "research/coverage-denominators.json",
+      "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
