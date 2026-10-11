@@ -13,12 +13,12 @@
     {
       "repo": "Cypro-Minoan",
       "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 186 mappings repaired from hash-pinned visually inspected Valério 2016 concordance. 21 rich records, 12 encoded occurrences on six records; 15 remain uncovered. Qualified labels/asterisks preserved; no independent witness or physical certification added. Fifteen uncovered-record review controls: 8 dependent-edition locators, 4 Met candidates / 14 CC0 visual views, 2 metadata-only, 1 current source-access failure; zero expert reviews completed.",
-      "top_gap": "Source-backed sign evidence for 15 uncovered rich records, post-corpus discovery, competing readings and independent expert validation; identifier mappings alone do not close these gates.",
+      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 21 rich records, 16 partial occurrences on nine records; 12 uncovered. Six primary and ten dependent-secondary occurrences. Fourteen explicit catalogue joins, seven unresolved rich-record joins and 240 slots without a rich join. Three positional reassessments preserve competing labels; no independent review or physical certification. Original 15-record expert cohort retained as a dated baseline.",
+      "top_gap": "Broader partial/complete reading evidence for 12 uncovered rich records; direct primary-edition collation, unresolved positional alternatives and object joins; independent review and post-corpus discovery remain open.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
-      "status_source_commit": "5ddc5159a26740aeb7f1cc8f6b38135daaad3e57",
-      "status_source_sha256": "48c511fd91a9b042773702d04e8d8f2cf9009279df7ca726c066cfa0eff55a5b"
+      "status_source_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
+      "status_source_sha256": "b3235fa5755ee14e868cf9a86a8b163f1d4cdeddf3c2b5c9fe345c732ad2745c"
     },
     {
       "repo": "Linear-B",
@@ -30,8 +30,12 @@
     {
       "repo": "Cretan-hieroglyphs",
       "evidence_depth": "LOW_WITH_REOPENED_DIRECT_ROUTE",
-      "coverage_state": "331 catalogue identities; existing 2-object canonical source pilot plus new INSCRIBE direct acquisition route for CHIC #202/#252/#313/#315/#328 pending canonical ingestion",
-      "top_gap": "ingest rights-firewalled INSCRIBE subset into canonical reading/object schema and expand across available CH objects"
+      "coverage_state": "331 catalogue identities; 13 reading versions on six entries: five primary on two and eight dependent digital on four. 325 entries lack readings in this layer. 26 context entries / 234 assertions. Two CHIC ivory/INSCRIBE bone metadata conflicts unresolved; no independent review or physical population certification.",
+      "top_gap": "Representative H/I/S/Y reading coverage; direct primary comparison of digital numeric readings and resolution or retention of two material conflicts; bounded object concordances and independent review.",
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Cretan-hieroglyphs",
+      "status_source_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
+      "status_source_sha256": "af8c8d7d5b5cb08f1682a6483f1c28a3a1f5354da55631e09f287168b46ef4d6"
     },
     {
       "repo": "Phaistos-Disc",
