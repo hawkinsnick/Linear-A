@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "ffaa76933f66a06fcfc6e62dbe94aec23d05aa8b",
-  "generated_at_utc": "2026-10-11T17:27:14+00:00",
+  "source_commit": "ae44610320cf19b60ab3e84dc156bbbd504ada56",
+  "generated_at_utc": "2026-10-11T17:28:52+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -46,13 +46,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "8bd71e05bef99e0ca3595f88bf97425c3e3df42c0919523c6c0d2d14fcacb00d",
+      "sha256": "fe197b7145e907362518b0f0fb69365f05478c51882ecfb2180d57cbaf51a34f",
       "bytes": 5781
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "5790b4d3f52ba3262132742659ac79cf89d57ae8a322a9a84f861b5a8843506a",
+      "sha256": "158211b3f007732972c759cc4003378a95354853a3f680e68005b1485fd1975d",
       "bytes": 1820
     },
     {
@@ -244,7 +244,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "0713e19b3b33b32b53725d381f666e7f96b561d3ed54377eaedcd663bdabf461",
+      "sha256": "4d71b579697066cbd6b5fa8f1bec8daadce5b3d1288b0d95223d14e073d0ac93",
       "bytes": 16381
     },
     {
