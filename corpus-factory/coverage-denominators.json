@@ -12,7 +12,7 @@
       "source": {
         "commit": "c85daa18099c4e91c04cd2cc7592909c5ba9a6b6",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "72886624de53cbea406e64f612a76b910c701dbb9ebf59233c7a5c2b0ebe31ba",
           "research/collection-work-ledger.json": "142e73dd3d512c8ead027ac779e476167353cdf3a1fb94ed6bfc75911e25d2f8"
@@ -40,16 +40,17 @@
       "repository": "hawkinsnick/Cypro-Minoan",
       "freshness": "FRESH_NATIVE_VIEW_ENUMERATION_AT_IMMUTABLE_COMMIT",
       "source": {
-        "commit": "3697fc8429da6a9acbd99e33c56490078c1c7b10",
+        "commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
-          "research/collection-readiness-inputs.json": "cf31b2dd0e9d91ac8ea1b73bbc8832c9b368f8118ad51b0da50c71478bf6f202",
-          "research/collection-work-ledger.json": "c764bf051340f31a4acd2db3935948dc931825541cdab9c25a34860b8e5a53ed",
+          "research/collection-readiness-inputs.json": "fb14578045968292c5cff6cf1564b3848e7d1a8191eecad1e77fa22ce199c18a",
+          "research/collection-work-ledger.json": "951a7469867f94f0e4badf883f85b7c92271bcee67e562e330527c8fde1afd3a",
           "catalogues/master.json": "bd901ce1cdc48f7dda9d19435f0416a5bbabce304b6ebf784bc78f0048406e9f",
           "interchange/documents.json": "05781183c6b0b2e7696004a546cb6a204cd2f41dbf8eeb621d82778e63921980",
-          "research/reference-reconciliation-v2.json": "1a06747508980f1013c7091821fa34432bd3f0b568e8e75446c03b2e2655f148",
-          "research/identity-reconciliation-v2.json": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380"
+          "research/reference-reconciliation-v2.json": "ca89a3c3cdfa3cae006298c8d117c573e2000312fcaf5a947b0097b43048acfe",
+          "research/identity-reconciliation-v2.json": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380",
+          "research/donnelly-existing-assertion-check.json": "dced9c793ae136fd6ed44a8efed4ce428e757a32dd91c2c89f259a09186b5091"
         }
       },
       "views": [
@@ -367,7 +368,7 @@
       "source": {
         "commit": "f622ec68b3146fedb4f11a4b570b523c07642b41",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "da3074ff904f2927c3f82a2041f400f92af2f1e8fb8c4d31202b1519d0113d63",
           "research/collection-work-ledger.json": "dedfee0e24aa66c51ffb9c3a4daa5efa7be12c4f4732ae5d19609bb583076585"
@@ -397,7 +398,7 @@
       "source": {
         "commit": "3c7be167741a108e00d70915ca39b54da4083126",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "a92fe93a25e06894240b3187ca356895835f70ae0599317944292248de2bea0c",
           "research/collection-work-ledger.json": "5a7babe0804afcc405f5f55fc20f3106f4dd20233d7c1c05b30660e46c7385d1",
@@ -763,7 +764,7 @@
       "source": {
         "commit": "584d92e8819cd97879954db568aaed88495cca9a",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "04a364c36c5260d05a3033b8a1ec566a28a188e913792a375e9707358f008368",
           "research/collection-work-ledger.json": "17d7ec28b2ca3f7d16e78d8b1b2f019e6c155353251f52cfc88477927fa83a58",
@@ -873,7 +874,7 @@
       "source": {
         "commit": "2a6aa594dbbb3a073977fc5def8e77e90679ce4a",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "8d3de29c2e1e7053a4ebed301f0c5f236df033f01431d524c53b0b9ad97dbd22",
           "research/collection-work-ledger.json": "68602d6d6523530263c2fb408ff66ec989a721e09817a21090d954f7204a5061",
@@ -945,7 +946,7 @@
       "source": {
         "commit": "ebda6a97cf3097367e545e1ddab555c9260bb9b3",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "cb889ebbc3630643c487a501194d7d25fa2da0e7bfb828fb12fc3964b8269b35",
           "research/collection-work-ledger.json": "6348fe55d9dde7af10f8e6ddf0d36d2112e4a205aa646aba84145b2ea6c80d51",
@@ -1570,7 +1571,7 @@
       "source": {
         "commit": "eb74abf49955f0a003ef29be4dc01726fb836a88",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "4c8ac70f3a2af4767c24d8ea0f494867404034565bb18766cfc0b1abc7057173",
           "research/collection-work-ledger.json": "0294381e1ce8d492580847a5daa21caf83378cc6dce8466f4ec48f5ee08a24c0",
@@ -1628,7 +1629,7 @@
       "source": {
         "commit": "0a660851c61f289c45b9527e21498e8f9a531829",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "f9d7136408c5aa8a0387eb6af71d0fda395b612839612beb04870089bad1cf9d",
           "research/collection-work-ledger.json": "e897f55138054c9d327256dd22264afcc8d847b0e04071854685974ab731f9d2",
@@ -1699,7 +1700,7 @@
       "source": {
         "commit": "8ae31f14326b5162271ed699a53343d2c0b657b7",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "a7600ffe773d00111edef0cf638427e0d5566648504e8cfeb864c1cd63a76547",
           "research/collection-work-ledger.json": "3f1b325c3d634fb89c5d4b999ee1d722b9effee18cb7452432d3321d6307c01d",
@@ -2185,7 +2186,7 @@
       "source": {
         "commit": "569e4ab06e8a7eba4640532e2a82f666a3851cb9",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "fa5eb3af57295b213f647ddf1967fdc80f05271ef152f0d340d6fa730d291af2",
           "research/collection-work-ledger.json": "55999ac6b5edda10fc26d827cfbb659e7fb1af2d539b433925ef50d558217542",
@@ -2458,7 +2459,7 @@
       "source": {
         "commit": "3d9f717e0b81a8e9f94963da6f662459c3254496",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "d2be8968b143f0aa7c616fa32b90a4cf77abbe721dce7e67837b781399cc7398",
           "research/collection-work-ledger.json": "7e4d7d8817c770da0a83df3867a081c997a55bee6aa8a7c3e83fc91649d98b22",
@@ -2557,7 +2558,7 @@
       "source": {
         "commit": "ab272d21d8eb57e28b6835cd4d5ae9134672c627",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "dd142f3dac84d9d4812ad1231916a63ae6f5c21b4c323fa8820ff9af20b0e3ce",
           "research/collection-work-ledger.json": "a6e60162ae97fc8ca4e098920bf1160e783307ffa0e0742a072c877fea1ba3d5",
@@ -2606,7 +2607,7 @@
       "source": {
         "commit": "9c5ffdcf0854d351a9c29b513c402a89ad769aa2",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "54b2585b512f886318fc316ace67a404f2c5f4f1862e8d9007a38934c7cf847b",
           "research/collection-work-ledger.json": "f15eabd1786b2e304cbe6d390ea681aaf7aaffa23f7e98fe5922cdbc7441a30e",
@@ -2641,7 +2642,7 @@
       "source": {
         "commit": "228aa490f24876e545b7e013c1c66ee0e265d472",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "f6adf182bfd3d59115b19641a1a84b908817269928e7544ce0bcdce22a0b54fe",
           "research/collection-work-ledger.json": "c54f69ef70a90bae27e403b8032d82fafdb187399db56518c890cbd07e866fc0",
@@ -2792,7 +2793,7 @@
       "source": {
         "commit": "0cfa1bd9954b5d70ebb44fece87152998ef9e69c",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "c6b421e7ceffaabbd18c4b5850c68769d835cb5b80bdd134f6873f7f08fb3689",
           "research/collection-work-ledger.json": "f98c03c085827d490730308576d4c010da4a4c4e1c1ba31dc622aa2f0f9f5042",
@@ -2836,7 +2837,7 @@
       "source": {
         "commit": "6163acfeddd27a8501e122f37b2716dd8e20a865",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "c39bdfad8d3bc293bc60c134d61241c860dbc98b7860b6ce32e6da765fc1109d",
           "research/collection-work-ledger.json": "2bcb3abeefd859fe30b14922b556cb1e6e7783b08370d0cb1daa219cd23a2713",
@@ -2923,7 +2924,7 @@
       "source": {
         "commit": "bf16b03649cc9db5ea1c5cdf456f69f94815798c",
         "snapshot_path": "corpus-factory/fleet-enumeration-audit-v2.json",
-        "snapshot_sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
+        "snapshot_sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
         "native_input_sha256": {
           "research/collection-readiness-inputs.json": "5cdc0fd49539362e79163da17270fb25e1f9819677be92fe20fbd4082953221f",
           "research/collection-work-ledger.json": "ad23d6acd0366009d059acbba75e52ab98242aeb065b8750e5046ec514358752",

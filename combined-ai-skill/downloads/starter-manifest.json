@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "ecda3a1c01c0cf5ce41969df715ab3931fc689df0050cd74f36ba0ce49b9f4f4",
-      "bytes": 32562
+      "sha256": "e612a680cb199ea565307f338e5caac207ef99fdecf5c944b24e82eb89e43f4d",
+      "bytes": 32975
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,13 +80,13 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "0af26e9b116949374bd0f9b8aaa99447c5586a2c902d35d1ea65a3fe2b17978b",
-      "bytes": 46072
+      "sha256": "bb4de1573ab07be1ba61bfebe89e77d5a30e3909e8f3b1c1832307ef26780136",
+      "bytes": 46315
     },
     {
       "path": "corpus-factory/RECONCILIATION-ONLY-2026-10-11.md",
-      "sha256": "fe6c1b993ca88cc504f8d1df15ffcf196b080bde55714ad56377c69fa8b94974",
-      "bytes": 3539
+      "sha256": "26dc387a7e6bcf22a7f128ea00718f49e2dcea21f48b8052cd9f001176b45d83",
+      "bytes": 3952
     },
     {
       "path": "corpus-factory/REEVALUATION-2026-10-11.md",
@@ -95,18 +95,18 @@
     },
     {
       "path": "corpus-factory/coverage-denominators.json",
-      "sha256": "15fca10c5b7409ea8620678ede7f9dd6364c4f7e8d555c8d16d095f778b05e69",
-      "bytes": 99029
+      "sha256": "910ef524add8ecd0535eda61bd02e9fcde2a75d62aca839bfd401d2c34296e90",
+      "bytes": 99158
     },
     {
       "path": "corpus-factory/fleet-enumeration-audit-v2.json",
-      "sha256": "6a7dc644d486f4d183f627d5e491c0e9b356d67c23ae4ff5f5e68e55a0b81237",
-      "bytes": 100602
+      "sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
+      "bytes": 100819
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "3955f16d3089c4ed90151766bac9eba4eac5c2418f7baea2120a7c6947dd78e0",
-      "bytes": 14903
+      "sha256": "fe6f4d293489c56d43e793c832d70aafaf8df3552fedd82b4755413623d1f613",
+      "bytes": 14993
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -119,5 +119,5 @@
       "bytes": 2915
     }
   ],
-  "snapshot_sha256": "bef3ede75573bf32fa8f6da25f996517914ba314ee78ae78b3818d67e1e27f37"
+  "snapshot_sha256": "c3c59e2bff19f88b7e39bfe510993df941d998adf4dc30f83e8d0c4c4e346b82"
 }

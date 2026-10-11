@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((R/p).read_text())
 def build():
  p='corpus-factory/fleet-enumeration-audit-v2.json';audit=load(p)
- if hashlib.sha256(json.dumps(audit,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()!='5d3cd29426cb6231f58a2f6527677b23e9fc7349c9b16dcde52e862d9070e515':raise ValueError('audited native enumeration/receipts changed')
+ if hashlib.sha256(json.dumps(audit,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()!='e4806a2604eed10c8b5d586168be943087a11ee8abf6426650bb61bdf1e214c7':raise ValueError('audited native enumeration/receipts changed')
  registry=load('combined-ai-skill/registry/corpus-projects.json');expected={m['repository'] for m in registry['members']};rows=[]
  if {m['repository'] for m in audit['members']}!=expected or len(audit['members'])!=18:raise ValueError('fleet membership mismatch')
  for m in audit['members']:

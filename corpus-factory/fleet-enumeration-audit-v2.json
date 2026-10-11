@@ -35,15 +35,16 @@
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
-      "snapshot_commit": "3697fc8429da6a9acbd99e33c56490078c1c7b10",
+      "snapshot_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
       "inspected": "2026-10-11",
       "receipts_sha256": {
-        "research/collection-readiness-inputs.json": "cf31b2dd0e9d91ac8ea1b73bbc8832c9b368f8118ad51b0da50c71478bf6f202",
-        "research/collection-work-ledger.json": "c764bf051340f31a4acd2db3935948dc931825541cdab9c25a34860b8e5a53ed",
+        "research/collection-readiness-inputs.json": "fb14578045968292c5cff6cf1564b3848e7d1a8191eecad1e77fa22ce199c18a",
+        "research/collection-work-ledger.json": "951a7469867f94f0e4badf883f85b7c92271bcee67e562e330527c8fde1afd3a",
         "catalogues/master.json": "bd901ce1cdc48f7dda9d19435f0416a5bbabce304b6ebf784bc78f0048406e9f",
         "interchange/documents.json": "05781183c6b0b2e7696004a546cb6a204cd2f41dbf8eeb621d82778e63921980",
-        "research/reference-reconciliation-v2.json": "1a06747508980f1013c7091821fa34432bd3f0b568e8e75446c03b2e2655f148",
-        "research/identity-reconciliation-v2.json": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380"
+        "research/reference-reconciliation-v2.json": "ca89a3c3cdfa3cae006298c8d117c573e2000312fcaf5a947b0097b43048acfe",
+        "research/identity-reconciliation-v2.json": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380",
+        "research/donnelly-existing-assertion-check.json": "dced9c793ae136fd6ed44a8efed4ce428e757a32dd91c2c89f259a09186b5091"
       },
       "views": [
         {
@@ -358,7 +359,8 @@
       "view_alias_rule": "Only literal IDs within the named view are compared for collisions. Repeated labels across views/repositories do not imply shared physical objects.",
       "complete_declared_public_view_enumeration": true,
       "existing_evidence_reconciliation_path": "research/reference-reconciliation-v2.json",
-      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json"
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
     },
     {
       "repository": "hawkinsnick/Linear-B",

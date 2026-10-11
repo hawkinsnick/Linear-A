@@ -17,10 +17,11 @@
       "top_gap": "Broader partial/complete reading evidence for 12 uncovered rich records; direct primary-edition collation, unresolved positional alternatives and object joins; independent review and post-corpus discovery remain open.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
-      "status_source_commit": "3697fc8429da6a9acbd99e33c56490078c1c7b10",
-      "status_source_sha256": "afce67d44c21a277d67abf21af2ebd2a94bd1aba8325557519eb82a0fcb9bb3e",
+      "status_source_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
+      "status_source_sha256": "cc4570a059f66cc289943f253aadcc5c4ddb8b9a90929af7790fd2aca212cafb",
       "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
-      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json"
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
     },
     {
       "repo": "Linear-B",

@@ -19,3 +19,5 @@ No exact ID collisions were found within the declared public views. No exact inv
 ## Completion boundary
 
 Deterministic reconciliation and accounting are implemented and tested for every existing CH/CM assertion and identity and every declared public fleet view. Existing digital strings and occurrence files are hash-frozen. Source apparatus omissions are recorded and false certainty is blocked by the AI instructions. This checkpoint does not close full primary-edition collation of all collection texts, the five recorded scholarly disagreements, physical identity/duplicate decisions, or independent expert acceptance. Those unresolved decisions have explicit source/review dependencies; they are not represented as completed fixes.
+
+The supplementary Donnelly 2020 pp. 104–105 / Fig. 3 inspection confirms the already encoded Louvre AM 1639 attribution. The legacy probable status and Masson figure lineage are retained. A comparison with ADD##219 does not establish shared object identity; the numbered catalogue join remains absent and no occurrence is added. The native receipt/control is `research/donnelly-existing-assertion-check.json`.
