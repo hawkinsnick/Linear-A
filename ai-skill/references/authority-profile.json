@@ -71,6 +71,16 @@
       "role": "p1_validation_results",
       "path": "corpus-factory/p1-validation-results.json",
       "required": true
+    },
+    {
+      "path": "README.md",
+      "role": "generated_current_summary",
+      "required": true
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "role": "current_summary_builder",
+      "required": true
     }
   ],
   "behavioral_gates": [

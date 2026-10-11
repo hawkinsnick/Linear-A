@@ -50,13 +50,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "663487cb03b00eefdb0ab20086d194761ca81e1f6d9dd1a8619bd0571af9d5d0",
-      "bytes": 5670
+      "sha256": "6acfaf29fe72dd89266765f9e5d466a85e80772df644e21b6d7fd6934bcc6888",
+      "bytes": 6367
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "16c49648f0af51c14ed61c007d042fba3f849f4bea94044cd2534dcf5cf380e4",
-      "bytes": 27036
+      "sha256": "408ea24da9c9e268c0a0a5c74d7ee93a7e2d03a0f8b784190ed172d138ac3fee",
+      "bytes": 27760
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -94,5 +94,5 @@
       "bytes": 1221
     }
   ],
-  "snapshot_sha256": "87db1f83abc241cf16da86fffe378861f96724460acb109dcdae4d5658bb61e4"
+  "snapshot_sha256": "dcef7fe59554b0bc0ce5e5310fe88c42e798c181d5fa2c56ab3f7d1053a11fbe"
 }

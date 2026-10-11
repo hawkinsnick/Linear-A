@@ -206,7 +206,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "df1360054879b04daa8a0a1a30536d189539c55f0137a8955d8c1bdf20679970"
+      "sha256": "c493124931c16a32a2e3338823c06edc01e53fe7fa8ffeb0fb84e1140a2e6735"
     },
     {
       "path": "research/critical-pilot-sigla-witness.json",
@@ -311,11 +311,15 @@
     {
       "path": "scripts/check_museum_catalogue_reports.py",
       "sha256": "b2c97967023555a0c38bf6d836625b96b5ac3bb1cfd0f5a43aed68142ba9e5c9"
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
   "historical_reports": "Historical versioned analyses and baseline files retain their original content versions.",
-  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison–Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case/source membership separately distinguishes composite records from snapshot coverage gaps; no critical reading or expert decision changes. Four attributed museum/project catalogue candidates add inventory/findspot reports and viewer-data rights boundaries without certified object identities.",
+  "summary": "Public source-only SigLA export: 802 authenticated entries, 5,144 slots, 1,401 editorial groups and 376 sign entries. Ten-entry critical pilot: 51 attributed assertions, 41 qualified edition amount components, 15 preserved disagreements and 25 unreviewed review items. 135 acquired GORILA page routes link to 222 entries; 232 routes lack completed acquisitions after runtime network-policy interruption. No reading or physical identity promotion. Raison\u2013Pope and independent review remain unresolved. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case/source membership separately distinguishes composite records from snapshot coverage gaps; no critical reading or expert decision changes. Four attributed museum/project catalogue candidates add inventory/findspot reports and viewer-data rights boundaries without certified object identities.",
   "pre_expert_handoff": {
     "state": "PRE_EXPERT_HANDOFF_SOURCE_DEPENDENCIES_REMAIN",
     "source_audit": "analysis/pre-expert-source-audit.json",

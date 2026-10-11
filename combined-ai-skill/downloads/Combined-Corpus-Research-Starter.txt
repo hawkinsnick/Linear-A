@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 87db1f83abc241cf16da86fffe378861f96724460acb109dcdae4d5658bb61e4
+Instruction snapshot SHA-256: dcef7fe59554b0bc0ce5e5310fe88c42e798c181d5fa2c56ab3f7d1053a11fbe
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 16c49648f0af51c14ed61c007d042fba3f849f4bea94044cd2534dcf5cf380e4
+SHA-256: 408ea24da9c9e268c0a0a5c74d7ee93a7e2d03a0f8b784190ed172d138ac3fee
 
 ---
 name: combined-corpus-research
@@ -348,6 +348,9 @@ Merged Milyan PRs 4 and 5 populate two frozen eDiAna digital catalogue entries a
 Route through `docs/EDIANA-REFERENCE.md`, `research/reference-manifest.json`, `research/ediana-reference-crosswalk.json`, `research/primary-edition-locator-control.json` and `analysis/upstream-epidoc-validation.json`. Reference-derived components retain CC-BY-SA-4.0 with original eDiAna hyperlinks and primary-edition attribution; project-original NC terms do not override them. Exact source text and every derived row field round-trip through EpiDoc. Pinned upstream RNG and all 57 embedded Schematron patterns execute, with 348 fired rules and zero findings. This validates the full declared frozen reference view, not a complete independently collated corpus.
 
 Visual Kalinka 1901 scan inspection establishes precise printed/PDF page locators. Preserve the historical TL55 eight-line description versus nine digital source rows without forcing physical-line joins. Exact historical reading comparison remains open. A broad source bibliography and an exact text-page locator are different claims. Public primary access does not create an independent witness or human acceptance. No claim that the fleet has reached its pre-expert maximum follows from this checkpoint.
+
+## Current member summaries and calibration acquisition
+For Linear A, Linear B and Milyan, use the generated marked current README summary together with its native status authorities; distinguish native release versions from later tooling checkpoints. Historical sections do not override current gates. Milyan is structurally admitted and has a populated reference layer, while canonical verified readings remain absent. For Linear B acquisition, require the separate linguistic annotation package linked to document/word-occurrence IDs: the described DĀMOS EpiDoc export omits those analyses. A graphical benchmark remains separately gated. Never infer calibration performance from source acquisition or importer checks.
 
 === END SOURCE FILE ===
 
