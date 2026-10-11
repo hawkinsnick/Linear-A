@@ -96,6 +96,11 @@
       "role": "integrity_priority_review",
       "path": "corpus-factory/PRIORITY-REVIEW-2026-10-11.md",
       "required": true
+    },
+    {
+      "role": "pre_expert_exit_criteria",
+      "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
+      "required": true
     }
   ],
   "behavioral_gates": [
