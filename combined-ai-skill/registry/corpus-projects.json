@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM target: 254/254 controlled slots now have source-attributed sigla; 186 new mappings replay against visually inspected Valério 2016 concordance PDF pages 25–27. 21 rich records, 12 occurrences across six records, 15 uncovered records; reading/physical identity/rights and independent expert acceptance remain open. Whole-corpus frequency and phonetic claims remain blocked.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target: 254/254 controlled slots now have source-attributed sigla; 186 new mappings replay against visually inspected Valério 2016 concordance PDF pages 25–27. 21 rich records, 12 occurrences across six records, 15 uncovered records; reading/physical identity/rights and independent expert acceptance remain open. Whole-corpus frequency and phonetic claims remain blocked. Record-specific expert questions now cover all 15 uncovered records: eight inspected dependent-edition locators, four Met candidates with 14 checked CC0 photographic views, two metadata-only sources and one HTTP403 source. No completed expert review or added readings.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -80,7 +80,11 @@
       "catalogue_concordance_path": "catalogues/source-located-concordance.json",
       "catalogue_mapping_audit_path": "analysis/catalogue-mapping-audit.json",
       "catalogue_mapping_guide_path": "docs/CATALOGUE-CONCORDANCE.md",
-      "catalogue_mapping_commit": "43def2a2d2728735ccbd0464f88d07d8fc8fba34"
+      "catalogue_mapping_commit": "43def2a2d2728735ccbd0464f88d07d8fc8fba34",
+      "uncovered_record_review_controls_path": "research/uncovered-record-review-controls.json",
+      "open_image_controls_path": "research/met-open-image-controls.json",
+      "uncovered_record_review_guide_path": "docs/UNCOVERED-RECORD-REVIEW.md",
+      "uncovered_record_review_commit": "d2a6789653b10cadc3457739818fcc9b46ee6c2f"
     },
     {
       "repository": "hawkinsnick/Linear-B",

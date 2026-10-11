@@ -2,12 +2,12 @@
 
 **[Download one text file](https://github.com/hawkinsnick/Linear-A/raw/refs/heads/main/combined-ai-skill/downloads/Combined-Corpus-Research-Starter.txt)** — attach this file to your AI conversation.
 
-**[Download the ZIP edition](https://github.com/hawkinsnick/Linear-A/releases/download/combined-ai-starter-711e03cff95a96a4/Combined-Corpus-Research-Starter.zip)** — extract it, then attach `Combined-Corpus-Research-Starter.txt`.
+**[Download the ZIP edition](https://github.com/hawkinsnick/Linear-A/releases/download/combined-ai-starter-b75f00320f21f0cd/Combined-Corpus-Research-Starter.zip)** — extract it, then attach `Combined-Corpus-Research-Starter.txt`.
 
 [Read the setup guide](../START-HERE.md) · [Choose a corpus](../CORPUS-DOWNLOADS.md)
 
 Master instructions 1.3.0; 18 registered corpus projects.
 
-Instruction snapshot: `711e03cff95a96a4562b5ef888cacca898ada1511c10e1cdbd1f2ab473aa054a`. The ZIP is an immutable instruction snapshot. The text download tracks this repository's main branch. Neither download includes member corpus evidence.
+Instruction snapshot: `b75f00320f21f0cda67f1eac0073dd7a14d0952deb1d67eacc51317574a665e1`. The ZIP is an immutable instruction snapshot. The text download tracks this repository's main branch. Neither download includes member corpus evidence.
 
 If the ZIP for a newly updated snapshot is still being published, use the text download.
