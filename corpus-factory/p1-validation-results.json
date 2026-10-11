@@ -288,6 +288,21 @@
           "command": "python scripts/test_preexpert_parity.py",
           "exit": 0,
           "output": "{\"status\": \"PASS\", \"reference_records\": 118, \"source_lines\": 471, \"primary_verified\": 0, \"objects_verified\": 0, \"controls\": 9, \"boundary\": \"Method parity does not equal an independently collated critical edition.\"}\n"
+        },
+        {
+          "command": "python scripts/build_interchange.py",
+          "exit": 0,
+          "output": "PASS: 118 native source records / 471 exact source rows; every native field roundtrips; no canonical admission."
+        },
+        {
+          "command": "pinned upstream validation plus EPIDOC_SCHEMA/SCHEMATRON_COMPILER python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "53 native/integration tests pass including four actual upstream/digest/adversarial controls; all 57 embedded upstream patterns execute with zero findings."
+        },
+        {
+          "command": "GitHub pull-request CI",
+          "exit": 0,
+          "output": "Native and dedicated interoperability CI passed; merged at 368e3b4633d0ae9fcf38169af6b7bb200d9363b5"
         }
       ]
     },
@@ -368,6 +383,21 @@
           "command": "python scripts/build_collection_handoff.py",
           "exit": 0,
           "output": "Collection work ledger and review packet replay PASS\n"
+        },
+        {
+          "command": "python scripts/build_interchange.py",
+          "exit": 0,
+          "output": "PASS: 54 native source records / 99 exact source rows; every native field roundtrips; no canonical admission."
+        },
+        {
+          "command": "pinned upstream validation plus EPIDOC_SCHEMA/SCHEMATRON_COMPILER python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "53 native/integration tests pass including four actual upstream/digest/adversarial controls; all 57 embedded upstream patterns execute with zero findings."
+        },
+        {
+          "command": "GitHub pull-request CI",
+          "exit": 0,
+          "output": "Native and dedicated interoperability CI passed; merged at fd30fead96c78b6da3a67066652084440b6df701"
         }
       ]
     },
@@ -388,6 +418,21 @@
           "command": "python scripts/test_preexpert_parity.py",
           "exit": 0,
           "output": "{\"status\": \"PASS\", \"legacy_reference_records\": 11, \"source_lines\": 32, \"primary_verified\": 0, \"objects_verified\": 0, \"boundary\": \"2025 publications expand the frontier but do not silently rewrite the legacy eDiAna snapshot.\"}\n"
+        },
+        {
+          "command": "python scripts/build_interchange.py",
+          "exit": 0,
+          "output": "PASS: 11 native source records / 32 exact source rows; every native field roundtrips; no canonical admission."
+        },
+        {
+          "command": "pinned upstream validation plus EPIDOC_SCHEMA/SCHEMATRON_COMPILER python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "53 native/integration tests pass including four actual upstream/digest/adversarial controls; all 57 embedded upstream patterns execute with zero findings."
+        },
+        {
+          "command": "GitHub pull-request CI",
+          "exit": 0,
+          "output": "Native and dedicated interoperability CI passed; merged at 20749672bd679e7f0ca22132acfdcd7c9d5b88e3"
         }
       ]
     }
