@@ -387,5 +387,19 @@
     "findings": 0,
     "coverage": "203 frozen source records plus 8 factual catalogue entries; scientific approval not granted",
     "ci_repair": "Multiline researcher-interface commands now execute separately; dedicated mandatory upstream interoperability job added"
+  },
+  "milyan_verified_checks": {
+    "population_merge_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
+    "primary_locator_merge_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b",
+    "native_unit_tests": 22,
+    "reference_tests": 6,
+    "upstream_adversarial_tests": 4,
+    "reference_rows": 114,
+    "patterns": 57,
+    "fired_rules": 348,
+    "findings": 0,
+    "population_github_checks": "6 completed success",
+    "primary_github_workflows": "3 completed success",
+    "limits": "Frozen cache, not fresh live retrieval; locators not exact historical reading equivalence; no independent acceptance."
   }
 }

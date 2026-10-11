@@ -760,17 +760,30 @@
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "checkout_base_commit": "a9078e2502830705f4adc5bac0d0ea7b8ea12631",
+      "checkout_base_commit": "b660d5809bd5931799ea968210b2c0e1f7628dc9",
       "native_input_sha256": {
-        "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+        "LICENSING.md": "3390ae7ed576a8de35790d19ad6bb615fc9ed9bc0c6ee3f430d4c5883d809956",
         "THIRD-PARTY-NOTICES.md": "fe7d215806c9d901d6656f8ecc90e3c5197d68b30cae410ca8c4eb8ecf36dde3",
+        "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
         "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
-        "research/collection-readiness-inputs.json": "7b42ade55ad09973670c8f4bfc7a0795b938f59fb1ea1c8b6bd530c9ceb852c5",
-        "research/collection-work-ledger.json": "a308621503b2e9faea8dc4b73e01c4384916171aa0a9d6c56cc23f49e3584486",
-        "research/pre-expert-maximum.json": "5fb40c5c10155c1879736a33f402a9afa38968921a2011a5d78c7e110236ed95",
-        "research/source-reconciliation.json": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed",
-        "review/collection-packet.json": "1459af19955180e0920af7ec5cf66b4d704679a8d7baa74f34a067101f059087",
-        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        "data/reference/ediana-milyan-source.json": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+        "data/reference/lines.json": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+        "data/reference/records.json": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "docs/EDIANA-REFERENCE.md": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
+        "interchange/epidoc/milyan-reference.xml": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "research/collection-readiness-inputs.json": "5cdc0fd49539362e79163da17270fb25e1f9819677be92fe20fbd4082953221f",
+        "research/collection-work-ledger.json": "ad23d6acd0366009d059acbba75e52ab98242aeb065b8750e5046ec514358752",
+        "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
+        "research/pre-expert-maximum.json": "062b8fafc144a661b74e316ebe257c5fbb563419a040365eddb8bfecb649b6f6",
+        "research/primary-edition-locator-control.json": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
+        "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+        "research/source-reconciliation.json": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
+        "review/collection-packet.json": "85e3ed1e0b3c2357d85918e84a6ecea3f4ce1a9353767033c4d675995373b534",
+        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+        "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+        "scripts/validate_upstream_epidoc.py": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
+        "tests/test_upstream_epidoc.py": "d6c2ee9f25ad89b4a6c87d258984dfa4635f1ebfa9bdf9ba433fa073e5b88850"
       },
       "record_views": [
         {
@@ -778,6 +791,18 @@
           "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
           "unit": "provisional_inscription_entry",
           "view": "provisional-bibliography"
+        },
+        {
+          "enumerated": 2,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+          "unit": "digital_catalogue_entry",
+          "view": "ediana-reference-records"
+        },
+        {
+          "enumerated": 114,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+          "unit": "digital_source_text_row",
+          "view": "ediana-reference-text-rows"
         }
       ],
       "collection_tasks": 4,
@@ -786,7 +811,11 @@
         "THIRD-PARTY-NOTICES.md"
       ],
       "rights_acceptance": "COMPONENT_LEVEL_REVIEW_REQUIRED; FILE_PRESENCE_IS_NOT_PERMISSION",
-      "interoperability_paths": [],
+      "interoperability_paths": [
+        "analysis/upstream-epidoc-validation.json",
+        "scripts/validate_upstream_epidoc.py",
+        "tests/test_upstream_epidoc.py"
+      ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",
       "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT"

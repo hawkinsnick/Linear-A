@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 01ce406b4a7cb98c70db1ef0c97d0a229246fe1070637a3f00153bd57b16ae0f
+Instruction snapshot SHA-256: 87db1f83abc241cf16da86fffe378861f96724460acb109dcdae4d5658bb61e4
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: b22fb576796c5137e69404999bdb6a7a25ac98f1e603aed07f354b3114e524c7
+SHA-256: 16c49648f0af51c14ed61c007d042fba3f849f4bea94044cd2534dcf5cf380e4
 
 ---
 name: combined-corpus-research
@@ -342,6 +342,13 @@ Phrygian PR 11 (merge `6f0be30df492acdb6b07c05507d9e3f991156314`) closes the fac
 
 All 203 frozen UD reference records (1,921 tokens; 162 distinct source TM labels) round-trip every native record field through EpiDoc. Pinned upstream RNG and all 57 embedded Schematron patterns pass with 613 fired rules and zero findings. This closes that finite reference-view validation gate, not full critical-edition coverage. UD-derived XML retains CC-BY-SA-4.0 attribution. OIP 135 factual metadata has a separate source-specific rights boundary; public access and the publisher license do not grant model-training permission. Protected prose, images and critical readings are not incorporated. Scientific data gaps, other component rights and independent acceptance remain open at their documented scopes.
 
+### Milyan reference population and inspected edition controls
+Merged Milyan PRs 4 and 5 populate two frozen eDiAna digital catalogue entries and 114 source text rows: TL 44c has 34, TL 44d 71, and TL 55 nine. The byte-pinned raw source and row locators preserve exact strings and original annotations. Explicit reference-layer API queries offer literal KWIC, JSON and CSV. Canonical/provisional queries remain separate and verified canonical readings remain zero. This is the same source lineage as the Lycian-and-Carian cached Milyan partition; never double-count its rows or call these independent witnesses.
+
+Route through `docs/EDIANA-REFERENCE.md`, `research/reference-manifest.json`, `research/ediana-reference-crosswalk.json`, `research/primary-edition-locator-control.json` and `analysis/upstream-epidoc-validation.json`. Reference-derived components retain CC-BY-SA-4.0 with original eDiAna hyperlinks and primary-edition attribution; project-original NC terms do not override them. Exact source text and every derived row field round-trip through EpiDoc. Pinned upstream RNG and all 57 embedded Schematron patterns execute, with 348 fired rules and zero findings. This validates the full declared frozen reference view, not a complete independently collated corpus.
+
+Visual Kalinka 1901 scan inspection establishes precise printed/PDF page locators. Preserve the historical TL55 eight-line description versus nine digital source rows without forcing physical-line joins. Exact historical reading comparison remains open. A broad source bibliography and an exact text-page locator are different claims. Public primary access does not create an independent witness or human acceptance. No claim that the fleet has reached its pre-expert maximum follows from this checkpoint.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -414,7 +421,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 02a40e7890839a36a12524e7edcb9ae26d201085d7e6c6bc57805762d9f9d130
+SHA-256: ed35b1f3ac44c2e141d465ee987baf20e4da249cf2d00f06dbb345e89bc07a66
 
 {
   "schema_version": "1.0.0",
@@ -1077,13 +1084,13 @@ SHA-256: 02a40e7890839a36a12524e7edcb9ae26d201085d7e6c6bc57805762d9f9d130
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
       "label": "Milyan (Lycian B)",
-      "status": "attested Anatolian language; provisional bibliographic inventory",
+      "status": "attested Anatolian language; provisional targets and populated source-attributed digital reference",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target; not an exhaustion claim. Two eDiAna source records and 114 text rows populated, reference API and lossless EpiDoc validated. Kalinka scan inspected for precise locators and explicit eight-versus-nine TL 55 segmentation conflict. Canonical verified readings remain zero; primary critical comparison and independent expert acceptance open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -1110,7 +1117,16 @@ SHA-256: 02a40e7890839a36a12524e7edcb9ae26d201085d7e6c6bc57805762d9f9d130
       "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_manifest_path": "research/reference-manifest.json",
+      "reference_records_path": "data/reference/records.json",
+      "reference_lines_path": "data/reference/lines.json",
+      "primary_edition_locator_control_path": "research/primary-edition-locator-control.json",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
+      "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
+      "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b"
     }
   ],
   "corpus_factory": {
@@ -1181,7 +1197,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 84c3dc5afe5e01f0e0c7227d2f8849ce093077ae5365cc9904e28c89d3530007
+SHA-256: 52b7f6a629d7bd18997696eddfddca58f1a667a594968882210008d32a73fdaa
 
 {
   "schema_version": "1.0",
@@ -1191,8 +1207,8 @@ SHA-256: 84c3dc5afe5e01f0e0c7227d2f8849ce093077ae5365cc9904e28c89d3530007
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
-      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
-      "top_gap": "lawful Raison\u2013Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
       "status_source": "analysis/critical-pilot-audit.json"
     },
     {
@@ -1249,7 +1265,7 @@ SHA-256: 84c3dc5afe5e01f0e0c7227d2f8849ce093077ae5365cc9904e28c89d3530007
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
-      "top_gap": "lawful Guarducci pp. 137\u2013142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
       "status_source": "analysis/source-critical-dossier.json"
     },
     {
@@ -1309,9 +1325,9 @@ SHA-256: 84c3dc5afe5e01f0e0c7227d2f8849ce093077ae5365cc9904e28c89d3530007
     },
     {
       "repo": "Milyan-Lycian-B",
-      "evidence_depth": "PROVISIONAL_BIBLIOGRAPHIC",
-      "coverage_state": "3 provisional segment records covering 2 monuments; zero verified transcriptions; no independent epigraphic certification",
-      "top_gap": "Software admission contract implemented and replayed; critical-edition collation and source-specific rights for expanded evidence remain open.",
+      "evidence_depth": "FROZEN_DIGITAL_REFERENCE_WITH_INSPECTED_PRIMARY_LOCATORS",
+      "coverage_state": "3 provisional targets; 2 eDiAna catalogue entries, 114 text rows (34 c + 71 d + 9 TL55); zero verified canonical readings. Reference views overlap targets and are not new physical objects.",
+      "top_gap": "Critical-edition reading/variant comparison and TL55 eight-versus-nine segmentation reconciliation; independent expert acceptance. Frozen eDiAna CC-BY-SA-4.0 component rights explicit; other components remain source-specific.",
       "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B"
     }
   ],

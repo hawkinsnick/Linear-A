@@ -659,13 +659,13 @@
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
       "label": "Milyan (Lycian B)",
-      "status": "attested Anatolian language; provisional bibliographic inventory",
+      "status": "attested Anatolian language; provisional targets and populated source-attributed digital reference",
       "individual_skill_path": "ai-skill/SKILL.md",
       "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target; not an exhaustion claim. Two eDiAna source records and 114 text rows populated, reference API and lossless EpiDoc validated. Kalinka scan inspected for precise locators and explicit eight-versus-nine TL 55 segmentation conflict. Canonical verified readings remain zero; primary critical comparison and independent expert acceptance open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -692,7 +692,16 @@
       "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_manifest_path": "research/reference-manifest.json",
+      "reference_records_path": "data/reference/records.json",
+      "reference_lines_path": "data/reference/lines.json",
+      "primary_edition_locator_control_path": "research/primary-edition-locator-control.json",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
+      "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
+      "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b"
     }
   ],
   "corpus_factory": {
