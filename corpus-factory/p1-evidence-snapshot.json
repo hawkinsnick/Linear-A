@@ -417,22 +417,32 @@
     },
     {
       "repository": "hawkinsnick/Phrygian",
-      "checkout_base_commit": "44d617d291c608fed1d8ddbcae126c5445a571d7",
+      "checkout_base_commit": "b03ea018d66f7a66c4bbab13b05209e6ddc7ef62",
       "native_input_sha256": {
+        "DATA-LICENSE-MATRIX.md": "a1e9573fba7d9fd3e7d302462d171cc517143adb764c035c53840d6fc4d468f0",
         "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
-        "analysis/current-status.json": "129589055a2afb296e188b7779e67ea4dff0c58483520c697c0e6b8c7fb563d9",
+        "analysis/current-status.json": "0dc620a91683435359975f796d9d3b00174ae4af7cfbb1128a2e000a4f98ea92",
+        "analysis/upstream-epidoc-validation.json": "bad96c213b68d56586940f7d51bea3515594116607b055860242a6f41a3c67d4",
         "data/records.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
         "docs/RIGHTS.md": "070c325b7131ababf4bc61247f9c4c1e05f0897a68d9801e1860cc1bf0ac6d59",
         "imports/ud-phrygian-kul.json": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
-        "research/collection-readiness-inputs.json": "a8c097cc58e0a0c7a002168708a9b8cf346ba72933cbb9083b1cab3bb3cf229f",
-        "research/collection-work-ledger.json": "22bcdc8907424e89a785c5a4193513afb743bde7ae2ffff3cee010f8594adc87",
+        "interchange/epidoc/ud-reference.xml": "14f6cc66fbe6601fccd70c1f96cc0104ce6b2f327b60e2e5143e16793a66ad8c",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "interchange/export-manifest.json": "e5458f65c8f3a98ddc76e20cd8af551fced3473729b3b79670e8abd727be0077",
+        "research/collection-readiness-inputs.json": "8a9ca14ad7132f61fea2033912ab1edba24123462dc733d77dfa20fe19b259f7",
+        "research/collection-work-ledger.json": "4c7983fc085ad3a1b3bfb369bba24cfa9efc35b991a69926f0421ae07fd7f2b4",
         "research/expert-review-queue.json": "4f35a9aa32035f5b4acf99b73a2efa88b588637672b5a199b32398c996221ddc",
-        "research/pre-expert-maximum.json": "ad2cdd286e214c1240dabcaa639ab6738c1d184c4501e6edd4cab39d37383405",
-        "research/residual-blocker-ledger.json": "6a969e9cdae5a2bd718736442eda591506b23c422c92e72df71b0a530cd248e8",
-        "research/rights-source-matrix.json": "a8512e32d62b790cfbd37e4b9b487ff9abed313de8201420379157ae1897429d",
-        "review/collection-packet.json": "fc16314a904bf1f75866d97ed45f474ebea84eb56ccafa35074e11a145ef0e57",
+        "research/interoperability-identity-graph.json": "4cd905306451381e899e51458a5099ddad37f7175fe567e55e9b8b70be655aa3",
+        "research/k01-catalogue-concordance.json": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0",
+        "research/pre-expert-maximum.json": "6d61fbffebb7751b4b06249f5fd34ef99ed26ab5078b8ea3c3416bd9b18f0912",
+        "research/residual-blocker-ledger.json": "87b802621ee29105aa637013a1d125160eb1ec7ca7219376bfe8e3903f60ca3a",
+        "research/rights-source-matrix.json": "46ea1df17129876bc4bfdd267fb4b50a5162e3bb729f9712b7525dd1c7dafa0b",
+        "review/collection-packet.json": "bcd8f9dba3b47eab78e31710ad9fb9893d349b4c05fa4d1cc3f665c7d9bf9e7c",
         "schemas/interoperability-contract.json": "8254b130a3524e1e8a41f51074912de0bd85a8d57735db7b050cae6155d57005",
-        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+        "scripts/build_interchange.py": "07c589132f45acb10293058a9e79c1e456876cdcd3ac996333b864bc8c3d4bad",
+        "scripts/validate_upstream_epidoc.py": "2b6a22052dd4feb6941923c9fca27922a98a24d66b50930af221ddb7baac1ac4",
+        "tests/test_upstream_epidoc.py": "eb0ea2115decfea43f228faaa8c018d2103be72fd555570a8b2cea09d1ccdf8e"
       },
       "record_views": [
         {
@@ -446,21 +456,32 @@
           "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
           "unit": "derivative_sentence",
           "view": "ud-reference"
+        },
+        {
+          "enumerated": 8,
+          "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+          "unit": "source_catalogue_entry",
+          "view": "k01-catalogue"
         }
       ],
       "collection_tasks": 24,
       "rights_authority_paths": [
+        "DATA-LICENSE-MATRIX.md",
         "docs/RIGHTS.md",
         "LICENSING.md",
         "research/rights-source-matrix.json"
       ],
       "rights_acceptance": "COMPONENT_LEVEL_REVIEW_REQUIRED; FILE_PRESENCE_IS_NOT_PERMISSION",
       "interoperability_paths": [
-        "schemas/interoperability-contract.json"
+        "analysis/upstream-epidoc-validation.json",
+        "schemas/interoperability-contract.json",
+        "scripts/validate_upstream_epidoc.py",
+        "tests/test_upstream_epidoc.py"
       ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",
-      "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT"
+      "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT",
+      "published_repair_commit": "6f0be30df492acdb6b07c05507d9e3f991156314"
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",
