@@ -20,3 +20,7 @@ New evidence is checked against recorded acquisition receipts and hashes. Fourte
 4. Acquire the aligned Linear B linguistic gold and graphical baseline already tracked by the access/action plans; until then, calibration remains unexecuted.
 
 The next improvement should add primary evidence and reviewed concordances. Engineering and export validation support that work; they cannot substitute for it.
+
+## Later reconciliation-only checkpoint
+
+The later `RECONCILIATION-ONLY-2026-10-11.md` adds complete existing-evidence dispositions, primary CH apparatus comparisons, and fresh declared public view enumeration for all 18 repositories, while holding reading coverage fixed. Earlier historical-snapshot freshness descriptions above are superseded by that later snapshot; scholarly disagreements and physical adjudication remain open.

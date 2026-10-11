@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: cfd77d0ac2bc89e21f9346f589073da1fd64719ebd330b03e3e64c7c8c8e55f7
+Instruction snapshot SHA-256: c3c59e2bff19f88b7e39bfe510993df941d998adf4dc30f83e8d0c4c4e346b82
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 7108cde7ac99775c568befd764245b60aefc1c6aab90d5562a41e6304dd91089
+SHA-256: e612a680cb199ea565307f338e5caac207ef99fdecf5c944b24e82eb89e43f4d
 
 ---
 name: combined-corpus-research
@@ -365,6 +365,12 @@ For Linear A, Linear B, Phrygian, Eteocretan, Lydian and Sidetic, read each repo
 
 Read `corpus-factory/REEVALUATION-2026-10-11.md`, `corpus-factory/source-checkpoints-2026-10-11.json` and `corpus-factory/coverage-denominators.json` before current coverage claims. CH/CM source-qualified coverage has expanded; primary reconciliation and independent acceptance remain open. Other member views are explicitly historical snapshots. Retain native units and source dependency; never sum overlapping views as physical inscriptions.
 
+## Reconciliation-only checkpoint
+
+Read `corpus-factory/RECONCILIATION-ONLY-2026-10-11.md`, `corpus-factory/fleet-enumeration-audit-v2.json` and the member `research/reference-reconciliation-v2.json`/`research/identity-reconciliation-v2.json` before certainty, apparatus or identity claims. Reading coverage is fixed. All 18 declared public native views have immutable enumeration snapshots; restricted A/B inventories remain unacquired. Treat missing primary uncertainty marks, damage notes and conditional alternatives as apparatus limitations of the digital reference. Unknown physical duplication and unresolved source disputes remain explicit. This supersedes earlier descriptions of the other 16 views as merely historical audit imports.
+
+The supplementary Donnelly 2020 pp. 104–105 / Fig. 3 inspection confirms the already encoded Louvre AM 1639 attribution. The legacy probable status and Masson figure lineage are retained. A comparison with ADD##219 does not establish shared object identity; the numbered catalogue join remains absent and no occurrence is added. The native receipt/control is `research/donnelly-existing-assertion-check.json`.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -437,7 +443,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 276b1f1ee0736005ec63aacb1a4382438fcfc117eeafd94c5a12d2cb1f2bf7ba
+SHA-256: bb4de1573ab07be1ba61bfebe89e77d5a30e3909e8f3b1c1832307ef26780136
 
 {
   "schema_version": "1.0.0",
@@ -492,7 +498,7 @@ SHA-256: 276b1f1ee0736005ec63aacb1a4382438fcfc117eeafd94c5a12d2cb1f2bf7ba
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Bounded source checkpoint: 254 controlled slots, 21 rich records, 16 partial occurrences on nine records (six primary, ten dependent-secondary); 12 records still lack occurrences. Fourteen explicit rich-record catalogue joins, seven unresolved joins, 240 slots lack a rich join. Three reported Olivier/Valério positional disagreements remain unresolved; no direct Olivier inspection or expert acceptance. Original 15-record expert cohort preserved separately from current missingness.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 16 unchanged occurrences on nine of 21 rich records; six primary and ten dependent-secondary assertions. Three reported Olivier/Valério disagreements need primary pages or independent adjudication; BnF holding registered, not text acquisition. All 21 identities accounted, 14 explicit joins, seven unresolved. Catalogue ingestion markers enforced; no new reading positions or expert acceptance. Donnelly pp. 104–105 now confirm the legacy AM 1639 attribution; probable status, figure lineage and absent numbered join retained, no new occurrence.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -529,7 +535,11 @@ SHA-256: 276b1f1ee0736005ec63aacb1a4382438fcfc117eeafd94c5a12d2cb1f2bf7ba
       "source_expansion_path": "research/source-check-2026-10-11.json",
       "source_reconciliation_path": "research/source-reconciliation.json",
       "coverage_denominators_path": "research/coverage-denominators.json",
-      "source_expansion_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790"
+      "source_expansion_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_reconciliation_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -573,7 +583,7 @@ SHA-256: 276b1f1ee0736005ec63aacb1a4382438fcfc117eeafd94c5a12d2cb1f2bf7ba
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Bounded source checkpoint: 13 source-checked reading versions on six of 331 catalogue entries, comprising five primary versions on two and eight dependent digital versions on four. 325 entries lack reading evidence in this layer; 26 context entries / 234 context assertions remain. Two primary/digital ivory-versus-bone conflicts retained. No independent reviews or certified physical population; representative structural/comparative analyses remain blocked.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -597,7 +607,10 @@ SHA-256: 276b1f1ee0736005ec63aacb1a4382438fcfc117eeafd94c5a12d2cb1f2bf7ba
       "source_expansion_path": "research/source-check-2026-10-11.json",
       "source_reconciliation_path": "research/source-reconciliation.json",
       "coverage_denominators_path": "research/coverage-denominators.json",
-      "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db"
+      "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -1250,7 +1263,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: dc04a41bdcc463287897bf42f72c7431365bc95221b3bd342b75f1ef7b2ff8f5
+SHA-256: fe6f4d293489c56d43e793c832d70aafaf8df3552fedd82b4755413623d1f613
 
 {
   "schema_version": "1.0",
@@ -1267,12 +1280,15 @@ SHA-256: dc04a41bdcc463287897bf42f72c7431365bc95221b3bd342b75f1ef7b2ff8f5
     {
       "repo": "Cypro-Minoan",
       "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 21 rich records, 16 partial occurrences on nine records; 12 uncovered. Six primary and ten dependent-secondary occurrences. Fourteen explicit catalogue joins, seven unresolved rich-record joins and 240 slots without a rich join. Three positional reassessments preserve competing labels; no independent review or physical certification. Original 15-record expert cohort retained as a dated baseline.",
+      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 21 rich records, 16 partial occurrences on nine records; 12 uncovered. Six primary and ten dependent-secondary occurrences. Fourteen explicit catalogue joins, seven unresolved rich-record joins and 240 slots without a rich join. Three positional reassessments preserve competing labels; no independent review or physical certification. Original 15-record expert cohort retained as a dated baseline. Existing occurrence and identity reconciliation is complete as accounting; all 21 rich records have source-qualified dispositions. Three sign disagreements, seven catalogue joins and physical duplicate adjudication remain unresolved.",
       "top_gap": "Broader partial/complete reading evidence for 12 uncovered rich records; direct primary-edition collation, unresolved positional alternatives and object joins; independent review and post-corpus discovery remain open.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
-      "status_source_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
-      "status_source_sha256": "b3235fa5755ee14e868cf9a86a8b163f1d4cdeddf3c2b5c9fe345c732ad2745c"
+      "status_source_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
+      "status_source_sha256": "cc4570a059f66cc289943f253aadcc5c4ddb8b9a90929af7790fd2aca212cafb",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
     },
     {
       "repo": "Linear-B",
@@ -1284,12 +1300,14 @@ SHA-256: dc04a41bdcc463287897bf42f72c7431365bc95221b3bd342b75f1ef7b2ff8f5
     {
       "repo": "Cretan-hieroglyphs",
       "evidence_depth": "LOW_WITH_REOPENED_DIRECT_ROUTE",
-      "coverage_state": "331 catalogue identities; 13 reading versions on six entries: five primary on two and eight dependent digital on four. 325 entries lack readings in this layer. 26 context entries / 234 assertions. Two CHIC ivory/INSCRIBE bone metadata conflicts unresolved; no independent review or physical population certification.",
+      "coverage_state": "331 catalogue identities; 13 reading versions on six entries: five primary on two and eight dependent digital on four. 325 entries lack readings in this layer. 26 context entries / 234 assertions. Two CHIC ivory/INSCRIBE bone metadata conflicts unresolved; no independent review or physical population certification. Existing versions are now primary-compared in an apparatus sidecar: #252 γ has omitted unidentified marks/uncertainty; #328 has damage and conditional alternative. Source strings and coverage remain fixed; every catalogue identity has a disposition.",
       "top_gap": "Representative H/I/S/Y reading coverage; direct primary comparison of digital numeric readings and resolution or retention of two material conflicts; bounded object concordances and independent review.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cretan-hieroglyphs",
-      "status_source_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
-      "status_source_sha256": "af8c8d7d5b5cb08f1682a6483f1c28a3a1f5354da55631e09f287168b46ef4d6"
+      "status_source_commit": "3c7be167741a108e00d70915ca39b54da4083126",
+      "status_source_sha256": "8b1a6fe4c89d88de8481fc8efa0f3ff3a293b3065b2b35d1df8f27e62cb94882",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json"
     },
     {
       "repo": "Phaistos-Disc",

@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Bounded source checkpoint: 254 controlled slots, 21 rich records, 16 partial occurrences on nine records (six primary, ten dependent-secondary); 12 records still lack occurrences. Fourteen explicit rich-record catalogue joins, seven unresolved joins, 240 slots lack a rich join. Three reported Olivier/Valério positional disagreements remain unresolved; no direct Olivier inspection or expert acceptance. Original 15-record expert cohort preserved separately from current missingness.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 16 unchanged occurrences on nine of 21 rich records; six primary and ten dependent-secondary assertions. Three reported Olivier/Valério disagreements need primary pages or independent adjudication; BnF holding registered, not text acquisition. All 21 identities accounted, 14 explicit joins, seven unresolved. Catalogue ingestion markers enforced; no new reading positions or expert acceptance. Donnelly pp. 104–105 now confirm the legacy AM 1639 attribution; probable status, figure lineage and absent numbered join retained, no new occurrence.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -88,7 +88,11 @@
       "source_expansion_path": "research/source-check-2026-10-11.json",
       "source_reconciliation_path": "research/source-reconciliation.json",
       "coverage_denominators_path": "research/coverage-denominators.json",
-      "source_expansion_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790"
+      "source_expansion_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_reconciliation_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -132,7 +136,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Bounded source checkpoint: 13 source-checked reading versions on six of 331 catalogue entries, comprising five primary versions on two and eight dependent digital versions on four. 325 entries lack reading evidence in this layer; 26 context entries / 234 context assertions remain. Two primary/digital ivory-versus-bone conflicts retained. No independent reviews or certified physical population; representative structural/comparative analyses remain blocked.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -156,7 +160,10 @@
       "source_expansion_path": "research/source-check-2026-10-11.json",
       "source_reconciliation_path": "research/source-reconciliation.json",
       "coverage_denominators_path": "research/coverage-denominators.json",
-      "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db"
+      "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",

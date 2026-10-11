@@ -12,4 +12,13 @@ class CoverageBoundaries(unittest.TestCase):
  def test_fabricated_collection_reconciliation(self):self.reject(lambda x:x.update(collection_primary_reconciliation_complete=True))
  def test_historical_promoted_to_current(self):self.reject(lambda x:x['members'][0].update(freshness='FRESH_BOUNDED_SOURCE_CHECKPOINT'))
  def test_mixed_view_unit(self):self.reject(lambda x:x['members'][0]['views'][0].update(unit='physical_inscription'))
+ def test_fabricated_id_same_count(self):
+  genuine=m.load;bad=copy.deepcopy(genuine('corpus-factory/fleet-enumeration-audit-v2.json'))
+  view=next(v for row in bad['members'] for v in row['views'] if v.get('included_ids'));view['included_ids'][0]='invented-source-id'
+  with patch.object(m,'load',side_effect=lambda p:bad if p=='corpus-factory/fleet-enumeration-audit-v2.json' else genuine(p)):
+   with self.assertRaises(ValueError):m.build()
+ def test_restricted_population_fabricated(self):
+  genuine=m.load;bad=copy.deepcopy(genuine('corpus-factory/fleet-enumeration-audit-v2.json'));bad['members'][0]['views'][0]['denominator']=802
+  with patch.object(m,'load',side_effect=lambda p:bad if p=='corpus-factory/fleet-enumeration-audit-v2.json' else genuine(p)):
+   with self.assertRaises(ValueError):m.build()
 if __name__=='__main__':unittest.main()
