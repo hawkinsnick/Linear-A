@@ -561,7 +561,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
-      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -586,7 +586,14 @@
       "source_worklist_path": "research/source-worklist.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
+      "epidoc_validation_boundary": "All 118 frozen native directory records and 471 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -599,7 +606,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
-      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -624,7 +631,14 @@
       "source_worklist_path": "research/source-worklist.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
+      "epidoc_validation_boundary": "All 11 frozen native directory records and 32 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -637,7 +651,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
-      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -662,7 +676,14 @@
       "source_worklist_path": "research/source-worklist.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "fd30fead96c78b6da3a67066652084440b6df701",
+      "epidoc_validation_boundary": "All 54 frozen native directory records and 99 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",

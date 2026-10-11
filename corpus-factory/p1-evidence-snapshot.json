@@ -644,11 +644,14 @@
         "DATA-LICENSE-MATRIX.md": "3f7ccb9afb09c7c765d7cf5fd575d92090742d60116d7dc55c9bd08e2ee5ecb3",
         "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
         "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
-        "analysis/current-status.json": "ad9f5965d3fa5f0e853295c0d78083c786d85cfe7dfadff60a233e4a88e04811",
+        "analysis/current-status.json": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86",
+        "analysis/upstream-epidoc-validation.json": "93ddf5c07574dbed0c5e5fa2a495a7ea4784359872f2332353c70f9b61d0f7a1",
         "data/reference/records.json": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
-        "research/collection-readiness-inputs.json": "6ed6c3060ed4161aecb7166007e17d70ec01c62116a82721ddaab4ee75649f1a",
-        "research/collection-work-ledger.json": "8345d86d3b6581c8d111b2a3dfd16c0b63b91bbe22124e118995025f654c4c05",
-        "research/pre-expert-maximum.json": "233378fe479826ea6bcdd0244a7720001a9f4e93350e48d61076b7ec05928fe5",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "interchange/export-manifest.json": "32a406dcee430bd35ffd9003fc594f576e5c8d9915b68c03a2f0e3c66efb7baa",
+        "research/collection-readiness-inputs.json": "96dc57153c1708ba8f00839454dd495dcdca03efad665e95146ebb2c5a3aa77d",
+        "research/collection-work-ledger.json": "0c188180e54c12fbed0558f81fff6853a5e82c2a878c546848ac90cf6b33b07e",
+        "research/pre-expert-maximum.json": "443453a7a9a3a898c1d693a6c14075471b44d9cf6ec1fe24f5810dfae560a651",
         "research/publication-reconciliation.json": "ca914208e5deda01a8284edaf9345025ad94e8522724565e52a29f9aaa3457f7",
         "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
         "research/rights-source-matrix.json": "e4d69114a20f6bfd928c0e7bf58180e711ead29d2560c45e28e7e2738e77821e",
@@ -657,8 +660,10 @@
         "research/source-frontier.json": "b9ecaa5ac24c322ec8685262b4df12ef757ba4bfb22fb1351a3f911c9a96b728",
         "research/source-register.json": "5e5b43347d15c74121e6837933b0b1a95e89f0136c0b4f8d38d0cef504460dd3",
         "research/source-worklist.json": "f3a1b8fa205f3d89af43e8668f097b26a386ca3d2d8cd6cecca31f61a437936e",
-        "review/collection-packet.json": "b3717565dd4c82e270534c187ad84f0fd009a94c42ed7cd9296b6f7e931350dc",
-        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        "review/collection-packet.json": "09e0bcdcb4fda75e213d47aa8bdda48cb147de8a4cd8601a2c35ea2cdf3f362e",
+        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+        "scripts/validate_upstream_epidoc.py": "a541e4e6b789dcc9fe3ab9c60a5a972d7719472e25ac378372c81eeec6e6d131",
+        "tests/test_upstream_epidoc.py": "75cb84a8e5067eda0dbd6748406844d3bbb1d795051296bfc59520b58420ffa9"
       },
       "record_views": [
         {
@@ -676,7 +681,11 @@
         "research/rights-source-matrix.json"
       ],
       "rights_acceptance": "COMPONENT_LEVEL_REVIEW_REQUIRED; FILE_PRESENCE_IS_NOT_PERMISSION",
-      "interoperability_paths": [],
+      "interoperability_paths": [
+        "analysis/upstream-epidoc-validation.json",
+        "scripts/validate_upstream_epidoc.py",
+        "tests/test_upstream_epidoc.py"
+      ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",
       "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT"
@@ -688,11 +697,14 @@
         "DATA-LICENSE-MATRIX.md": "6d140b300c53b2768777acdfb9c41c903f5bdfda7cfc971f87bdef8dabca99b0",
         "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
         "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
-        "analysis/current-status.json": "dff34be795b8b2d9375170d4d60fedf5ba3ce0ea3fe0ec973d507ca70c0d244f",
+        "analysis/current-status.json": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18",
+        "analysis/upstream-epidoc-validation.json": "4e09ed53316dde0c1a59acc826123e2b0690cfe94d1808af2f1ffdfde6437f7e",
         "data/reference/records.json": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
-        "research/collection-readiness-inputs.json": "04925d7f3f5192a4ccbb46f57604915c60b7a8034d05f74d40e2746bd657e264",
-        "research/collection-work-ledger.json": "9dad654703b5c1cad7bc7000ae75b627cd46f25e82b23aa97cc6dc4c372e455c",
-        "research/pre-expert-maximum.json": "9deecfa7975d9bfb9a95cdb74f96a0badb01b676a11d722b993be22eceb36b25",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "interchange/export-manifest.json": "0e82a87b5099e9ed6126a6fa1aa88b6c3fb89a82d57cd8f20b73055654d1d618",
+        "research/collection-readiness-inputs.json": "da536434287066bca39e69908db7b4d69f33c141b6ef3366e17589a788cef612",
+        "research/collection-work-ledger.json": "45ef86325bad1f8dea906adda76cfd4cb40e9df5e6a96d2ca5468042abf83ddc",
+        "research/pre-expert-maximum.json": "e9d0fcbfe01d37730f83964e9782d57beca65c92340b37418b5484a0bfc327a9",
         "research/publication-reconciliation.json": "6a1df4a476c7b5d9aeaed85205283912f86646700f2b1f13b61ed676e63de022",
         "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
         "research/rights-source-matrix.json": "41a716d0346f5ace38380abee9451062aada3b796a9b0f713cd543a8f510a88a",
@@ -701,8 +713,10 @@
         "research/source-frontier.json": "ee3340368cbf7fab2b781046cb8459b380c8a206941f7127d4f4bb50d053dee8",
         "research/source-register.json": "4c0b2e073b7c605a8ba1da614fab05ac9d1c6ebca133aacbc64cbebba9b9267c",
         "research/source-worklist.json": "79eb737c1d67db89a12d03fc5fb20623cd55ce117446662d0a619960e856f95a",
-        "review/collection-packet.json": "dfcea7ba76e7dc0094baf32ac52eb60e43f98f2d0d3b5ae85b41ee005f23df50",
-        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        "review/collection-packet.json": "0cb247780beafb8f58d7e75c7d487592b5a75ec6affa1203dc6b82de1a1a2e2f",
+        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+        "scripts/validate_upstream_epidoc.py": "ef16cd5dd80dadb6ae2b957af6d3d54a3f7e6047a0a5bda69e9a649c470b85dd",
+        "tests/test_upstream_epidoc.py": "75cb84a8e5067eda0dbd6748406844d3bbb1d795051296bfc59520b58420ffa9"
       },
       "record_views": [
         {
@@ -720,7 +734,11 @@
         "research/rights-source-matrix.json"
       ],
       "rights_acceptance": "COMPONENT_LEVEL_REVIEW_REQUIRED; FILE_PRESENCE_IS_NOT_PERMISSION",
-      "interoperability_paths": [],
+      "interoperability_paths": [
+        "analysis/upstream-epidoc-validation.json",
+        "scripts/validate_upstream_epidoc.py",
+        "tests/test_upstream_epidoc.py"
+      ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",
       "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT"
@@ -732,11 +750,14 @@
         "DATA-LICENSE-MATRIX.md": "6daff2528007b5a79fead00b31fedcf4158d0de3c2b635138b74a2f9834749a3",
         "LICENSING.md": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
         "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
-        "analysis/current-status.json": "e22145809464bb709bea0cd013eb89b1d3843932afff38658e3f78f78b12ec96",
+        "analysis/current-status.json": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311",
+        "analysis/upstream-epidoc-validation.json": "63ab057f01de80744fad30b9c7e522ebefdb6e0fbd20bd9119e3d1b7ba394203",
         "data/reference/records.json": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
-        "research/collection-readiness-inputs.json": "424186447951bd4d1c41992e446b21250c57850a0bbde5ac4aa65b1afcc888f2",
-        "research/collection-work-ledger.json": "cb96eff95b9477ff7d913ae42ada79cdbcc9834ba8b02a6e9cd3e5bbd3e17cb7",
-        "research/pre-expert-maximum.json": "e4f7dce33d39f9985b30a8e7447ea07016d7f3a82c94a9c7da53779ba45fa8d5",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "interchange/export-manifest.json": "0828d5400c3fa1542000eb697600a5c24ceebe69da511ecc4bf6fea3b36c993b",
+        "research/collection-readiness-inputs.json": "c39bdfad8d3bc293bc60c134d61241c860dbc98b7860b6ce32e6da765fc1109d",
+        "research/collection-work-ledger.json": "2bcb3abeefd859fe30b14922b556cb1e6e7783b08370d0cb1daa219cd23a2713",
+        "research/pre-expert-maximum.json": "1bdbf8284bbd63ffcbf2a22a42f509d6eae5970267357b36b19a674fc68b509a",
         "research/publication-reconciliation.json": "fd9ab848702a8f1906a4435a878c54224036566bef925ce2b4430381f4ec5378",
         "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
         "research/source-access.json": "a6aa23627292fe239e08de5a2948d2620e12e2722479cc161b6ba2d8ec452233",
@@ -744,8 +765,10 @@
         "research/source-frontier.json": "aa5c63a35e38f69ca1d62c50e3b2e141a0e18392511d6b5ed0e80a6382d634f2",
         "research/source-register.json": "bb91a0edbd9cffa134befb40b45104665c91e703a32ac0711791d9ee05569905",
         "research/source-worklist.json": "f2c4905dddfb5fbfb26740c7040d2f7fa19baf19d3717c847fa022a49594b153",
-        "review/collection-packet.json": "1b59f1fb2b6e9c2eed975464e37330e5425780c5d8cc182cccbc3f94e01b6915",
-        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6"
+        "review/collection-packet.json": "a504b46fc4c8091b294af7100b267679015a62c1c7a8ba1f3593c12f3d0280eb",
+        "scripts/build_collection_handoff.py": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+        "scripts/validate_upstream_epidoc.py": "1d8085e44e3f97f602cdafed70b974ac7f6e372ef4156fd7702e92107f4c6093",
+        "tests/test_upstream_epidoc.py": "75cb84a8e5067eda0dbd6748406844d3bbb1d795051296bfc59520b58420ffa9"
       },
       "record_views": [
         {
@@ -762,7 +785,11 @@
         "THIRD-PARTY-NOTICES.md"
       ],
       "rights_acceptance": "COMPONENT_LEVEL_REVIEW_REQUIRED; FILE_PRESENCE_IS_NOT_PERMISSION",
-      "interoperability_paths": [],
+      "interoperability_paths": [
+        "analysis/upstream-epidoc-validation.json",
+        "scripts/validate_upstream_epidoc.py",
+        "tests/test_upstream_epidoc.py"
+      ],
       "interoperability_acceptance": "NO_FLEET_WIDE_EPIDOC_CONFORMANCE_CLAIM; NATIVE_SCOPES_AND_LIMITS_APPLY",
       "review_packet": "review/collection-packet.json",
       "expert_acceptance": "NOT_GRANTED_BY_THIS_AUDIT"

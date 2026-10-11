@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: e5e6ef0c040f41a64201d224dfeb155192e774c4c5383269f289ce1adf0f4097
+Instruction snapshot SHA-256: 2a573bee6c7ef79cfe2af828606cf129a9715e932967018559062431dcfb6f72
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 5caba3f4c4c92af8f79a05393d7447d9ccfb9cfa597d3baeb31fe3ee8ecbbf59
+SHA-256: 04ed2cc7ee56c873a770bfde07ebe3725afc04a55de88a2dceee291f5b73ae75
 
 ---
 name: combined-corpus-research
@@ -356,6 +356,8 @@ Cypro-Minoan’s 2026-10-11 source-located concordance repair (PR #19, merge `43
 
 Cypro-Minoan’s uncovered-record source controls (`research/uncovered-record-review-controls.json`, `research/met-open-image-controls.json`, `docs/UNCOVERED-RECORD-REVIEW.md`) now locate evidence and expert questions for all fifteen uncovered rich records. Eight have visually inspected dependent-edition locators; four Met candidates have fourteen inspected/hash-pinned CC0 image views and pinned accession data. Two records retain museum-metadata-only acquisition routes; one official source returns HTTP403. Preserve blank UNREVIEWED decisions, possible/alternative-script labels, uncertainty and source dependence. The Met CC0 component exception overrides project-original noncommercial terms for the imported basic data and explicitly public-domain images; it does not apply to other sources. No new sign readings or completed expert review are asserted.
 
+Lydian, Sidetic and Pisidian now expose complete frozen native-reference EpiDoc views (respectively 118/471, 11/32 and 54/99 directory records/nonempty rows). Consult each member’s `docs/EPIDOC-REFERENCE.md`, `interchange/export-manifest.json` and `analysis/upstream-epidoc-validation.json`. Every native reference field and exact source row roundtrips; raw upstream fields omitted by native derivation, physical geometry and accepted critical apparatus remain outside the view. Distinct source document IDs survive catalogue-label collisions. EDiAna-derived XML remains CC-BY-SA-4.0 with attribution; project-original NC terms do not supersede it. All 57 embedded upstream Schematron patterns execute with zero findings (358 Lydian / 37 Sidetic / 166 Pisidian fired rules). Each native repository passes 53 tests including actual upstream and adversarial controls. This closes the frozen-view export gap for these three members, not the fleet’s full scholarly interoperability or expert acceptance.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -428,7 +430,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
+SHA-256: 569997d337caa2bbd15bdc6cfe2d97c42d75aa8797efba70f1256f646aef4409
 
 {
   "schema_version": "1.0.0",
@@ -993,7 +995,7 @@ SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
-      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -1018,7 +1020,14 @@ SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
       "source_worklist_path": "research/source-worklist.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
+      "epidoc_validation_boundary": "All 118 frozen native directory records and 471 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -1031,7 +1040,7 @@ SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
-      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -1056,7 +1065,14 @@ SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
       "source_worklist_path": "research/source-worklist.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
+      "epidoc_validation_boundary": "All 11 frozen native directory records and 32 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -1069,7 +1085,7 @@ SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
-      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness.",
+      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -1094,7 +1110,14 @@ SHA-256: 83d1df7ff1d87d82dde1f5f1573e23e459bfa85d6693a33a0139f1a10e872fb7
       "source_worklist_path": "research/source-worklist.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "fd30fead96c78b6da3a67066652084440b6df701",
+      "epidoc_validation_boundary": "All 54 frozen native directory records and 99 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
@@ -1212,7 +1235,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 86031898911b24c83b8898aeaafd6b02aa3c655fd32b7095198702c04e1bc35d
+SHA-256: 8582c40b41ba7d31a4ef921e3d61c5358bd3190ca9d1ac963c7740c896167e91
 
 {
   "schema_version": "1.0",
@@ -1320,23 +1343,32 @@ SHA-256: 86031898911b24c83b8898aeaafd6b02aa3c655fd32b7095198702c04e1bc35d
     {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 118 records / 471 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Lydian",
+      "status_source_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
+      "status_source_sha256": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86"
     },
     {
       "repo": "Sidetic",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 11 records / 32 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Sidetic",
+      "status_source_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
+      "status_source_sha256": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18"
     },
     {
       "repo": "Pisidian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 54 records / 99 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Pisidian",
+      "status_source_commit": "fd30fead96c78b6da3a67066652084440b6df701",
+      "status_source_sha256": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311"
     },
     {
       "repo": "Milyan-Lycian-B",

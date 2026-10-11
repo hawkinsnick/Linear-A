@@ -104,23 +104,32 @@
     {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 118 records / 471 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Lydian",
+      "status_source_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
+      "status_source_sha256": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86"
     },
     {
       "repo": "Sidetic",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 11 records / 32 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Sidetic",
+      "status_source_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
+      "status_source_sha256": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18"
     },
     {
       "repo": "Pisidian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 54 records / 99 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "status_source_repository": "hawkinsnick/Pisidian",
+      "status_source_commit": "fd30fead96c78b6da3a67066652084440b6df701",
+      "status_source_sha256": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311"
     },
     {
       "repo": "Milyan-Lycian-B",
