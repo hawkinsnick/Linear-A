@@ -183,3 +183,7 @@ For Eteocypriot distinguish digital edition entries, editorial components, archa
 
 ## Native-schema admission adapters
 Anatolian Hieroglyphic, Archanes Script, Aegean Anomalous and Milyan use `ai-skill/generated/fleet-contract-index.json` alongside their native bundle. Replay the member validator and master admission validator before claiming synchronized admission. These adapters hash declared native authorities and preserve source-specific rights, exclusions and uncertainty. Admission does not certify readings, object identities, source independence or human expert review. For Phaistos Disc, read the machine-replayed `analysis/acceptance-2.0.json`; receipt or schema validity is not human acceptance.
+
+## Six-workstream P1 reconciliation
+
+Read `docs/P1-RECONCILIATION-2026-10-11.md` and `corpus-factory/p1-evidence-snapshot.json` before fleet-wide closure claims. All eighteen members declare source-bound collection ledgers and review packets in the registry. Replay each native collection builder before using its packet. Respect separate native record units, restricted local derivatives and unresolved primary-source work. Rights authority presence is not permission; an interoperability artifact is not full EpiDoc conformance; a valid decision template is not independent human acceptance. The six recovered workstreams are not six identified GitHub issues. Never invent their ticket numbers or report evidence-dependent gates closed from software checks.

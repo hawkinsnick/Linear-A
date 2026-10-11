@@ -39,6 +39,9 @@ for member in members:
     if member.get("repository") in {"hawkinsnick/Lydian","hawkinsnick/Sidetic","hawkinsnick/Pisidian"}:
         for key in ["review_directory_path","review_manifest_path","review_packets_path","source_checks_path","source_worklist_path","review_validator_path"]:
             if not member.get(key): errors.append("missing expert handoff "+key)
+for member in members:
+    for key in ['collection_work_ledger_path','collection_review_packet_path','collection_replay_path']:
+        if not member.get(key): errors.append('missing common collection handoff '+key+' for '+str(member.get('repository')))
 cases=tests.get("cases",[])
 ids=[c.get("id") for c in cases]
 if len(cases)<12: errors.append("adversarial suite too small")
