@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 5.3.0 context milestone: dossiers for all 21 rich records, 254-slot link accounting, nine missing source registrations repaired and eight date/period assertions on four Met records; 12 occurrences on six records; whole-corpus frequency and phonetic claims remain blocked.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target: 254/254 controlled slots now have source-attributed sigla; 186 new mappings replay against visually inspected Valério 2016 concordance PDF pages 25–27. 21 rich records, 12 occurrences across six records, 15 uncovered records; reading/physical identity/rights and independent expert acceptance remain open. Whole-corpus frequency and phonetic claims remain blocked.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -76,7 +76,11 @@
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "epidoc_validation_boundary": "Pinned RNG and all embedded upstream Schematron patterns pass for the partial 12-occurrence pilot; complete object coverage and independent review remain open.",
-      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb"
+      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb",
+      "catalogue_concordance_path": "catalogues/source-located-concordance.json",
+      "catalogue_mapping_audit_path": "analysis/catalogue-mapping-audit.json",
+      "catalogue_mapping_guide_path": "docs/CATALOGUE-CONCORDANCE.md",
+      "catalogue_mapping_commit": "43def2a2d2728735ccbd0464f88d07d8fc8fba34"
     },
     {
       "repository": "hawkinsnick/Linear-B",
