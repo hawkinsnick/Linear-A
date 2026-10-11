@@ -91,6 +91,11 @@
       "role": "source_action_guide",
       "path": "docs/SOURCE-ACTION-PLAN.md",
       "required": true
+    },
+    {
+      "role": "integrity_priority_review",
+      "path": "corpus-factory/PRIORITY-REVIEW-2026-10-11.md",
+      "required": true
     }
   ],
   "behavioral_gates": [
