@@ -219,3 +219,7 @@ For Linear A, Linear B, Phrygian, Eteocretan, Lydian and Sidetic, read each repo
 ## Source checkpoint and reevaluation — 2026-10-11
 
 Read `corpus-factory/REEVALUATION-2026-10-11.md`, `corpus-factory/source-checkpoints-2026-10-11.json` and `corpus-factory/coverage-denominators.json` before current coverage claims. CH/CM source-qualified coverage has expanded; primary reconciliation and independent acceptance remain open. Other member views are explicitly historical snapshots. Retain native units and source dependency; never sum overlapping views as physical inscriptions.
+
+## Reconciliation-only checkpoint
+
+Read `corpus-factory/RECONCILIATION-ONLY-2026-10-11.md`, `corpus-factory/fleet-enumeration-audit-v2.json` and the member `research/reference-reconciliation-v2.json`/`research/identity-reconciliation-v2.json` before certainty, apparatus or identity claims. Reading coverage is fixed. All 18 declared public native views have immutable enumeration snapshots; restricted A/B inventories remain unacquired. Treat missing primary uncertainty marks, damage notes and conditional alternatives as apparatus limitations of the digital reference. Unknown physical duplication and unresolved source disputes remain explicit. This supersedes earlier descriptions of the other 16 views as merely historical audit imports.

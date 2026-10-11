@@ -13,12 +13,14 @@
     {
       "repo": "Cypro-Minoan",
       "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 21 rich records, 16 partial occurrences on nine records; 12 uncovered. Six primary and ten dependent-secondary occurrences. Fourteen explicit catalogue joins, seven unresolved rich-record joins and 240 slots without a rich join. Three positional reassessments preserve competing labels; no independent review or physical certification. Original 15-record expert cohort retained as a dated baseline.",
+      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 21 rich records, 16 partial occurrences on nine records; 12 uncovered. Six primary and ten dependent-secondary occurrences. Fourteen explicit catalogue joins, seven unresolved rich-record joins and 240 slots without a rich join. Three positional reassessments preserve competing labels; no independent review or physical certification. Original 15-record expert cohort retained as a dated baseline. Existing occurrence and identity reconciliation is complete as accounting; all 21 rich records have source-qualified dispositions. Three sign disagreements, seven catalogue joins and physical duplicate adjudication remain unresolved.",
       "top_gap": "Broader partial/complete reading evidence for 12 uncovered rich records; direct primary-edition collation, unresolved positional alternatives and object joins; independent review and post-corpus discovery remain open.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
-      "status_source_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
-      "status_source_sha256": "b3235fa5755ee14e868cf9a86a8b163f1d4cdeddf3c2b5c9fe345c732ad2745c"
+      "status_source_commit": "3697fc8429da6a9acbd99e33c56490078c1c7b10",
+      "status_source_sha256": "afce67d44c21a277d67abf21af2ebd2a94bd1aba8325557519eb82a0fcb9bb3e",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json"
     },
     {
       "repo": "Linear-B",
@@ -30,12 +32,14 @@
     {
       "repo": "Cretan-hieroglyphs",
       "evidence_depth": "LOW_WITH_REOPENED_DIRECT_ROUTE",
-      "coverage_state": "331 catalogue identities; 13 reading versions on six entries: five primary on two and eight dependent digital on four. 325 entries lack readings in this layer. 26 context entries / 234 assertions. Two CHIC ivory/INSCRIBE bone metadata conflicts unresolved; no independent review or physical population certification.",
+      "coverage_state": "331 catalogue identities; 13 reading versions on six entries: five primary on two and eight dependent digital on four. 325 entries lack readings in this layer. 26 context entries / 234 assertions. Two CHIC ivory/INSCRIBE bone metadata conflicts unresolved; no independent review or physical population certification. Existing versions are now primary-compared in an apparatus sidecar: #252 γ has omitted unidentified marks/uncertainty; #328 has damage and conditional alternative. Source strings and coverage remain fixed; every catalogue identity has a disposition.",
       "top_gap": "Representative H/I/S/Y reading coverage; direct primary comparison of digital numeric readings and resolution or retention of two material conflicts; bounded object concordances and independent review.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cretan-hieroglyphs",
-      "status_source_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
-      "status_source_sha256": "af8c8d7d5b5cb08f1682a6483f1c28a3a1f5354da55631e09f287168b46ef4d6"
+      "status_source_commit": "3c7be167741a108e00d70915ca39b54da4083126",
+      "status_source_sha256": "8b1a6fe4c89d88de8481fc8efa0f3ff3a293b3065b2b35d1df8f27e62cb94882",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json"
     },
     {
       "repo": "Phaistos-Disc",
