@@ -1,3 +1,5 @@
+> Current stopping assessment (11 October 2026): rights-only readiness is not established. Use [the source-specific action plan](SOURCE-ACTION-PLAN.md). Baseline tooling does not establish exhaustion of lawful public evidence work.
+
 # Rights-only readiness target — 3.0.21
 
 The Linear A project has reached its **pre-expert machine-resolvable maximum** under the currently admitted evidence.

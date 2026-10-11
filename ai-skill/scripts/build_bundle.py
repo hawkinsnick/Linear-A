@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/"ai-skill"/"generated"; OUT.mkdir(parents=True,exist_ok=True)
 sha=os.environ.get("SOURCE_COMMIT") or subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()
-CANDIDATES=[
+CANDIDATES=[("source_action_plan","research/source-action-plan.json"),("source_action_guide","docs/SOURCE-ACTION-PLAN.md")]+[
  ("generated_current_summary","README.md"),("current_summary_builder","scripts/build_current_summary.py"),("p1_reconciliation","docs/P1-RECONCILIATION-2026-10-11.md"),("p1_evidence_snapshot","corpus-factory/p1-evidence-snapshot.json"),("p1_validation_results","corpus-factory/p1-validation-results.json")]+[("collection_work_ledger","research/collection-work-ledger.json"),("collection_review_packet","review/collection-packet.json"),("collection_review_guide","docs/COLLECTION-REVIEW.md")]+[
  ("edition_catalogue_pilot","research/edition-catalogue-pilot.json"),
  ("edition_catalogue_audit","analysis/edition-catalogue-pilot-audit.json"),

@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 2a573bee6c7ef79cfe2af828606cf129a9715e932967018559062431dcfb6f72
+Instruction snapshot SHA-256: 212ceb0e67df301685cd39a7a6c3ca36e2766c9d1d7bb59b0bd746385130b443
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 04ed2cc7ee56c873a770bfde07ebe3725afc04a55de88a2dceee291f5b73ae75
+SHA-256: edb1e22ff682b8038e5b06cf9a44e04895b9cca8daf1a450686d07f8c9c7f859
 
 ---
 name: combined-corpus-research
@@ -357,6 +357,9 @@ Cypro-Minoan’s 2026-10-11 source-located concordance repair (PR #19, merge `43
 Cypro-Minoan’s uncovered-record source controls (`research/uncovered-record-review-controls.json`, `research/met-open-image-controls.json`, `docs/UNCOVERED-RECORD-REVIEW.md`) now locate evidence and expert questions for all fifteen uncovered rich records. Eight have visually inspected dependent-edition locators; four Met candidates have fourteen inspected/hash-pinned CC0 image views and pinned accession data. Two records retain museum-metadata-only acquisition routes; one official source returns HTTP403. Preserve blank UNREVIEWED decisions, possible/alternative-script labels, uncertainty and source dependence. The Met CC0 component exception overrides project-original noncommercial terms for the imported basic data and explicitly public-domain images; it does not apply to other sources. No new sign readings or completed expert review are asserted.
 
 Lydian, Sidetic and Pisidian now expose complete frozen native-reference EpiDoc views (respectively 118/471, 11/32 and 54/99 directory records/nonempty rows). Consult each member’s `docs/EPIDOC-REFERENCE.md`, `interchange/export-manifest.json` and `analysis/upstream-epidoc-validation.json`. Every native reference field and exact source row roundtrips; raw upstream fields omitted by native derivation, physical geometry and accepted critical apparatus remain outside the view. Distinct source document IDs survive catalogue-label collisions. EDiAna-derived XML remains CC-BY-SA-4.0 with attribution; project-original NC terms do not supersede it. All 57 embedded upstream Schematron patterns execute with zero findings (358 Lydian / 37 Sidetic / 166 Pisidian fired rules). Each native repository passes 53 tests including actual upstream and adversarial controls. This closes the frozen-view export gap for these three members, not the fleet’s full scholarly interoperability or expert acceptance.
+## Source-specific evidence frontier
+
+For Linear A, Linear B, Phrygian, Eteocretan, Lydian and Sidetic, read each repository’s `research/source-action-plan.json` and `docs/SOURCE-ACTION-PLAN.md` before claiming rights-only readiness. Separate endpoint access, permission for the intended operation, source delivery, factual reconciliation and human adjudication. Dated searches do not prove global exhaustion. Respect existing completed crosswalks and their unresolved edges. Linear B’s `docs/CALIBRATION-INTAKE.md` describes private metadata/digest intake only; it does not establish acquired gold, certification or authority to reveal answers. Other members retain their own native stopping authorities; this checkpoint does not certify the entire fleet.
 
 === END SOURCE FILE ===
 

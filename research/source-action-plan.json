@@ -1,0 +1,44 @@
+{
+  "format": "corpus-source-action-plan-v1",
+  "corpus": "Linear-A",
+  "checked": "2026-10-11",
+  "claim_scope": "BOUNDED_SOURCE_AUDIT_NOT_GLOBAL_EXHAUSTION",
+  "rights_only_ready": false,
+  "tasks": [
+    {
+      "id": "LA-SIGLA",
+      "source": "SigLA licensed source layer",
+      "dependency": "RECONCILIATION",
+      "status": "OPEN",
+      "evidence": [
+        "research/rights-compatible-evidence-frontier.json",
+        "analysis/public-sigla-layer-audit.json"
+      ],
+      "next_action": "Reconcile authenticated additions and record-level source disagreements under SigLA terms; check existing work before extending it.",
+      "acceptance": "Versioned source delta with exact IDs, lineage and explicit unmatched records; no sealed outcomes inspected."
+    },
+    {
+      "id": "LA-GORILA",
+      "source": "GORILA / EFA",
+      "dependency": "PERMISSION",
+      "status": "BLOCKED",
+      "evidence": [
+        "research/rights-compatible-evidence-frontier.json"
+      ],
+      "next_action": "Retain bibliographic references and the recorded project-specific refusal. Do not reconstruct from downstream sources.",
+      "acceptance": "New explicit project-compatible permission before any prohibited ingestion; public access alone is insufficient."
+    },
+    {
+      "id": "LA-INDEPENDENT",
+      "source": "Independent physical/sign evidence",
+      "dependency": "HUMAN_REVIEW",
+      "status": "WAITING_FOR_EVIDENCE",
+      "evidence": [
+        "research/residual-blocker-ledger-3.0.21.json"
+      ],
+      "next_action": "Acquire admissible independent evidence before specialist adjudication.",
+      "acceptance": "Occurrence-specific review with independent provenance; a dependent digital interface cannot close this task."
+    }
+  ],
+  "rule": "Assess access, intended-use permission, source delivery, machine reconciliation and human adjudication separately. Never infer global exhaustion from a dated search or route failure. Do not reopen completed evidence by ignoring existing native audits."
+}

@@ -315,8 +315,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "c493124931c16a32a2e3338823c06edc01e53fe7fa8ffeb0fb84e1140a2e6735",
-      "bytes": 4459,
+      "sha256": "f8e809d953ad83e75d33cacadd36f93e94cdd01f87f55f70e5fa53232ca2a36f",
+      "bytes": 4518,
       "category": ".github",
       "summary": {}
     },
@@ -530,6 +530,29 @@
       "path": "scripts/build_current_summary.py",
       "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
       "bytes": 3998,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "research/source-action-plan.json",
+      "sha256": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4",
+      "bytes": 2028,
+      "category": "research",
+      "summary": {
+        "format": "corpus-source-action-plan-v1"
+      }
+    },
+    {
+      "path": "docs/SOURCE-ACTION-PLAN.md",
+      "sha256": "e8d03a5dd18c30c2a4c3b2346f84f483c9958595d150a8d4d094407f0905a013",
+      "bytes": 1685,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "scripts/validate_source_action_plan.py",
+      "sha256": "bc11b9fc1da65d7f594f94639ef5bb886fef3157eb1a1b75e3d315c4f36150eb",
+      "bytes": 1167,
       "category": "scripts",
       "summary": {}
     }
