@@ -153,6 +153,16 @@
           "command": "native current-state, release, dossier, occurrence, scholarly-boundary and workbench suites",
           "exit": 0,
           "output": "All executed native suites PASS; CI check runs on PR19 completed successfully."
+        },
+        {
+          "command": "python scripts/validate_uncovered_review.py --image-dir /tmp/cm-met-images",
+          "exit": 0,
+          "output": "PASS: 15-record population, four exact museum/API inventory joins, all fourteen original image digests rehashed; zero admitted readings or completed expert reviews."
+        },
+        {
+          "command": "python scripts/test_uncovered_review.py",
+          "exit": 0,
+          "output": "PASS: seven adversarial source, rights, review-summary and disposition controls."
         }
       ]
     },
