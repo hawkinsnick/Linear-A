@@ -187,3 +187,7 @@ Anatolian Hieroglyphic, Archanes Script, Aegean Anomalous and Milyan use `ai-ski
 ## Six-workstream P1 reconciliation
 
 Read `docs/P1-RECONCILIATION-2026-10-11.md` and `corpus-factory/p1-evidence-snapshot.json` before fleet-wide closure claims. All eighteen members declare source-bound collection ledgers and review packets in the registry. Replay each native collection builder before using its packet. Respect separate native record units, restricted local derivatives and unresolved primary-source work. Rights authority presence is not permission; an interoperability artifact is not full EpiDoc conformance; a valid decision template is not independent human acceptance. The six recovered workstreams are not six identified GitHub issues. Never invent their ticket numbers or report evidence-dependent gates closed from software checks.
+
+## P1 closure assessment
+
+The declared baseline and eighteen-member common handoff coverage are complete. Scholarly data coverage, full interoperability, documentary rights acceptance and independent review retain their documented open criteria. Cypro-Minoan now has executable expected-hash verification and upstream RNG plus all 57 embedded Schematron patterns for its partial 12-occurrence pilot; read its validation receipt and pins. Do not extrapolate that result to full corpus conformance or human acceptance. Phaistos Disc issue 4 remains the actual open GitHub issue. Report workstream status and live ticket state separately.

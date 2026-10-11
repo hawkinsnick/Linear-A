@@ -72,7 +72,11 @@
       "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "epidoc_validation_boundary": "Pinned RNG and all embedded upstream Schematron patterns pass for the partial 12-occurrence pilot; complete object coverage and independent review remain open.",
+      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb"
     },
     {
       "repository": "hawkinsnick/Linear-B",
