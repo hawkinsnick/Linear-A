@@ -13,8 +13,8 @@
     {
       "repo": "Cypro-Minoan",
       "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "21 rich records; 12 source-checked encoded occurrences across 6 records. Corpus-wide denominator and cross-script phonetic tests remain blocked.",
-      "top_gap": "verified occurrence coverage denominator",
+      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 186 mappings repaired from hash-pinned visually inspected Valério 2016 concordance. 21 rich records, 12 encoded occurrences on six records; 15 remain uncovered. Qualified labels/asterisks preserved; no independent witness or physical certification added.",
+      "top_gap": "Source-backed sign evidence for 15 uncovered rich records, post-corpus discovery, competing readings and independent expert validation; identifier mappings alone do not close these gates.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
       "status_source_commit": "5ddc5159a26740aeb7f1cc8f6b38135daaad3e57",

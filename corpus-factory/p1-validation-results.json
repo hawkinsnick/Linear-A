@@ -133,6 +133,26 @@
           "command": "python scripts/validate_current_state.py",
           "exit": 0,
           "output": "{\"status\": \"PASS\", \"version\": \"5.3.0\", \"json_files\": 127, \"schemas\": 14, \"evidence_counts\": {\"rich_records\": 21, \"source_checked_occurrences\": 12, \"review_dossiers\": 21, \"records_with_dating\": 14, \"new_date_period_assertions\": 8}, \"scientific_gate_claim\": \"UNCHANGED\"}\n"
+        },
+        {
+          "command": "python scripts/catalogue_concordance.py --source-pdf /tmp/valerio2016.pdf",
+          "exit": 0,
+          "output": "Original PDF hash and all 253 table mappings replay PASS; 254 native source-attributed sigla, 0 number-only slots; 186 new joins. No expert acceptance."
+        },
+        {
+          "command": "python scripts/test_catalogue_concordance.py",
+          "exit": 0,
+          "output": "PASS: seven adversarial join, uncertainty, source lineage and review-claim controls"
+        },
+        {
+          "command": "EPIDOC_SCHEMA=<pinned-schema> SCHEMATRON_COMPILER=<pinned-compiler> python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "17 integration tests PASS; actual upstream EpiDoc checks included."
+        },
+        {
+          "command": "native current-state, release, dossier, occurrence, scholarly-boundary and workbench suites",
+          "exit": 0,
+          "output": "All executed native suites PASS; CI check runs on PR19 completed successfully."
         }
       ]
     },

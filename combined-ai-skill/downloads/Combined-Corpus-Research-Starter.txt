@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 87db1f83abc241cf16da86fffe378861f96724460acb109dcdae4d5658bb61e4
+Instruction snapshot SHA-256: 711e03cff95a96a4562b5ef888cacca898ada1511c10e1cdbd1f2ab473aa054a
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 16c49648f0af51c14ed61c007d042fba3f849f4bea94044cd2534dcf5cf380e4
+SHA-256: 1c35af7a7dcdb95a1fe91bb75546711172450c9f84d0a63cd5ea21810864fbcf
 
 ---
 name: combined-corpus-research
@@ -349,6 +349,8 @@ Route through `docs/EDIANA-REFERENCE.md`, `research/reference-manifest.json`, `r
 
 Visual Kalinka 1901 scan inspection establishes precise printed/PDF page locators. Preserve the historical TL55 eight-line description versus nine digital source rows without forcing physical-line joins. Exact historical reading comparison remains open. A broad source bibliography and an exact text-page locator are different claims. Public primary access does not create an independent witness or human acceptance. No claim that the fleet has reached its pre-expert maximum follows from this checkpoint.
 
+Cypro-Minoan’s 2026-10-11 source-located concordance repair (PR #19, merge `43def2a2d2728735ccbd0464f88d07d8fc8fba34`) resolves the 186 former number-only mappings. The bounded register now has 254/254 source-attributed sigla. Consult `catalogues/source-located-concordance.json`, `analysis/catalogue-mapping-audit.json` and `docs/CATALOGUE-CONCORDANCE.md` in that repository. Preserve source asterisks, their NOT_ADJUDICATED meaning and `ENKO?`; these factual joins add no independent witness, physical certification or sign readings. The 21 rich records, 12 occurrences and 15 uncovered rich records remain distinct from catalogue slots. The scholarly-data, full interoperability, component-rights and independent-review workstreams remain open.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -421,7 +423,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: ed35b1f3ac44c2e141d465ee987baf20e4da249cf2d00f06dbb345e89bc07a66
+SHA-256: 035977069fe7a425c6df846067ef8a9f3d744dd9e9926072814b6fd965d28fcd
 
 {
   "schema_version": "1.0.0",
@@ -476,7 +478,7 @@ SHA-256: ed35b1f3ac44c2e141d465ee987baf20e4da249cf2d00f06dbb345e89bc07a66
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 5.3.0 context milestone: dossiers for all 21 rich records, 254-slot link accounting, nine missing source registrations repaired and eight date/period assertions on four Met records; 12 occurrences on six records; whole-corpus frequency and phonetic claims remain blocked.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target: 254/254 controlled slots now have source-attributed sigla; 186 new mappings replay against visually inspected Valério 2016 concordance PDF pages 25–27. 21 rich records, 12 occurrences across six records, 15 uncovered records; reading/physical identity/rights and independent expert acceptance remain open. Whole-corpus frequency and phonetic claims remain blocked.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -501,7 +503,11 @@ SHA-256: ed35b1f3ac44c2e141d465ee987baf20e4da249cf2d00f06dbb345e89bc07a66
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "epidoc_validation_boundary": "Pinned RNG and all embedded upstream Schematron patterns pass for the partial 12-occurrence pilot; complete object coverage and independent review remain open.",
-      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb"
+      "upstream_epidoc_validation_commit": "c49f05080d097eb6a6e0d372fc45fa05e7a04ffb",
+      "catalogue_concordance_path": "catalogues/source-located-concordance.json",
+      "catalogue_mapping_audit_path": "analysis/catalogue-mapping-audit.json",
+      "catalogue_mapping_guide_path": "docs/CATALOGUE-CONCORDANCE.md",
+      "catalogue_mapping_commit": "43def2a2d2728735ccbd0464f88d07d8fc8fba34"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -1197,7 +1203,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 52b7f6a629d7bd18997696eddfddca58f1a667a594968882210008d32a73fdaa
+SHA-256: 4b5a7bd47bb4ef9e8f1160a95bea10773e88d30a07444182ac7cec1692c01a1a
 
 {
   "schema_version": "1.0",
@@ -1214,8 +1220,8 @@ SHA-256: 52b7f6a629d7bd18997696eddfddca58f1a667a594968882210008d32a73fdaa
     {
       "repo": "Cypro-Minoan",
       "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "21 rich records; 12 source-checked encoded occurrences across 6 records. Corpus-wide denominator and cross-script phonetic tests remain blocked.",
-      "top_gap": "verified occurrence coverage denominator",
+      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 186 mappings repaired from hash-pinned visually inspected Valério 2016 concordance. 21 rich records, 12 encoded occurrences on six records; 15 remain uncovered. Qualified labels/asterisks preserved; no independent witness or physical certification added.",
+      "top_gap": "Source-backed sign evidence for 15 uncovered rich records, post-corpus discovery, competing readings and independent expert validation; identifier mappings alone do not close these gates.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
       "status_source_commit": "5ddc5159a26740aeb7f1cc8f6b38135daaad3e57",
