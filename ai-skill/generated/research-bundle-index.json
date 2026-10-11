@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "10f85e837b9f02c94733bb69dc5677aa68f7ce67",
-  "generated_at_utc": "2026-10-11T22:40:40+00:00",
+  "source_commit": "55641198e36524eb4c3aa708ac2a3715670a476c",
+  "generated_at_utc": "2026-10-11T22:51:22+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,18 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "pre_expert_exit_criteria",
+      "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
+      "sha256": "0ef8a02ef96d4daa45f4812408f58270ac4ddaafed6e92d9fb8a7b822a1c3620",
+      "bytes": 3435
+    },
+    {
+      "role": "integrity_priority_review",
+      "path": "corpus-factory/PRIORITY-REVIEW-2026-10-11.md",
+      "sha256": "1dee9c40a3c3c59404b185dcd941c9851e0863e19c15d3da63db198ead3a4701",
+      "bytes": 5224
+    },
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
