@@ -74,3 +74,6 @@ Lydian, Sidetic and Pisidian are now routed through their individual corpus skil
 
 ## Milyan (Lycian B) structurally admitted member
 The registry now includes [Milyan-Lycian-B](https://github.com/hawkinsnick/Milyan-Lycian-B) as a structurally admitted corpus using a native-schema contract adapter. Its individual `ai-skill/SKILL.md` and evidence inventory are available, but verified transcriptions and cross-corpus linguistic comparison remain blocked pending edition-level review.
+
+## Current member status and Linear B acquisition
+Linear A, Linear B and Milyan generate their current README summaries from native authority files and check them in CI. Keep native release versions separate from capability milestones and historical evidence snapshots. Milyan's frozen reference text is populated; independent primary-edition validation remains open. Linear B's source inspection distinguishes epigraphic EpiDoc export from the separately linked linguistic annotation package needed for calibration. See [the acquisition checkpoint](https://github.com/hawkinsnick/Linear-B/blob/main/docs/CALIBRATION-INPUTS.md); no calibration performance or graphical certification is asserted.

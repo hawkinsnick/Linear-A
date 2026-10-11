@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: b75f00320f21f0cda67f1eac0073dd7a14d0952deb1d67eacc51317574a665e1
+Instruction snapshot SHA-256: e5e6ef0c040f41a64201d224dfeb155192e774c4c5383269f289ce1adf0f4097
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -141,7 +141,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 48d226f35ab41d01219f92033f42acef22d08d81e58b83046e52fdd858978247
+SHA-256: 5caba3f4c4c92af8f79a05393d7447d9ccfb9cfa597d3baeb31fe3ee8ecbbf59
 
 ---
 name: combined-corpus-research
@@ -348,6 +348,9 @@ Merged Milyan PRs 4 and 5 populate two frozen eDiAna digital catalogue entries a
 Route through `docs/EDIANA-REFERENCE.md`, `research/reference-manifest.json`, `research/ediana-reference-crosswalk.json`, `research/primary-edition-locator-control.json` and `analysis/upstream-epidoc-validation.json`. Reference-derived components retain CC-BY-SA-4.0 with original eDiAna hyperlinks and primary-edition attribution; project-original NC terms do not override them. Exact source text and every derived row field round-trip through EpiDoc. Pinned upstream RNG and all 57 embedded Schematron patterns execute, with 348 fired rules and zero findings. This validates the full declared frozen reference view, not a complete independently collated corpus.
 
 Visual Kalinka 1901 scan inspection establishes precise printed/PDF page locators. Preserve the historical TL55 eight-line description versus nine digital source rows without forcing physical-line joins. Exact historical reading comparison remains open. A broad source bibliography and an exact text-page locator are different claims. Public primary access does not create an independent witness or human acceptance. No claim that the fleet has reached its pre-expert maximum follows from this checkpoint.
+
+## Current member summaries and calibration acquisition
+For Linear A, Linear B and Milyan, use the generated marked current README summary together with its native status authorities; distinguish native release versions from later tooling checkpoints. Historical sections do not override current gates. Milyan is structurally admitted and has a populated reference layer, while canonical verified readings remain absent. For Linear B acquisition, require the separate linguistic annotation package linked to document/word-occurrence IDs: the described DĀMOS EpiDoc export omits those analyses. A graphical benchmark remains separately gated. Never infer calibration performance from source acquisition or importer checks.
 
 Cypro-Minoan’s 2026-10-11 source-located concordance repair (PR #19, merge `43def2a2d2728735ccbd0464f88d07d8fc8fba34`) resolves the 186 former number-only mappings. The bounded register now has 254/254 source-attributed sigla. Consult `catalogues/source-located-concordance.json`, `analysis/catalogue-mapping-audit.json` and `docs/CATALOGUE-CONCORDANCE.md` in that repository. Preserve source asterisks, their NOT_ADJUDICATED meaning and `ENKO?`; these factual joins add no independent witness, physical certification or sign readings. The 21 rich records, 12 occurrences and 15 uncovered rich records remain distinct from catalogue slots. The scholarly-data, full interoperability, component-rights and independent-review workstreams remain open.
 

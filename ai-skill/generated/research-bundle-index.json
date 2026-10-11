@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "bb98bb652681188f02dc4f90b7a998bf7a2e191d",
-  "generated_at_utc": "2026-10-11T17:25:40+00:00",
+  "source_commit": "ae44610320cf19b60ab3e84dc156bbbd504ada56",
+  "generated_at_utc": "2026-10-11T17:28:52+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,18 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "generated_current_summary",
+      "path": "README.md",
+      "sha256": "6ea6daedf2ded6418638e157e99d4bea5ead7d0305adf71f5e024257cb1f736b",
+      "bytes": 11769
+    },
+    {
+      "role": "current_summary_builder",
+      "path": "scripts/build_current_summary.py",
+      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+      "bytes": 3998
+    },
     {
       "role": "p1_reconciliation",
       "path": "docs/P1-RECONCILIATION-2026-10-11.md",
@@ -34,13 +46,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "3ba261721a34eebe4a40890853929f7e6580a6664b909ee998aa3a41651bbaa8",
+      "sha256": "fe197b7145e907362518b0f0fb69365f05478c51882ecfb2180d57cbaf51a34f",
       "bytes": 5781
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "762430a0df2601166711427d3d83c16c4375708746ba63c76ce631b88c89447e",
+      "sha256": "158211b3f007732972c759cc4003378a95354853a3f680e68005b1485fd1975d",
       "bytes": 1820
     },
     {
@@ -232,8 +244,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "ad4ff1c6a1c4cc0518600c4cb8014343c004ad59bb61c05633d8d8be604883e2",
-      "bytes": 16232
+      "sha256": "4d71b579697066cbd6b5fa8f1bec8daadce5b3d1288b0d95223d14e073d0ac93",
+      "bytes": 16381
     },
     {
       "role": "claims",

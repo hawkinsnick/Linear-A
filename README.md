@@ -1,5 +1,13 @@
 # Linear A Open Corpus
 
+<!-- CURRENT-STATUS:START -->
+## Current evidence status
+
+Native release version: **3.0.15**; researcher-tooling checkpoint: **3.0.21** (a separate capability milestone). Known-answer calibration executed: **false**. Prospective evidence remains sealed; historical 2.5 analyses remain quarantined. Source permissions/access and admissible independent evidence govern further evidence growth.
+
+Authorities: [current state](analysis/current-status.json) and [residual evidence gates](research/residual-blocker-ledger-3.0.21.json). Historical release reports retain their original scope and dates.
+<!-- CURRENT-STATUS:END -->
+
 ## Researcher interfaces (3.0.19)
 
 The corpus now includes working read-only researcher tooling over the committed public source layer:
@@ -31,11 +39,11 @@ Current project-original software is licensed under **PolyForm Noncommercial 1.0
 repository as a whole is not covered by an attribution-only data license.
 See [the data license matrix](DATA-LICENSE-MATRIX.md) and [third-party notices](THIRD-PARTY-NOTICES.md).
 
-## Current status — 3.0.15
+## Historical source checkpoint — 3.0.15
 
 Pinned statistical repair executed twice with byte-identical results on 1283 nonempty source words, 836 types and 451 documents. The 5000-replicate document-bootstrap diagnostic retains 6 of 12 candidates above the historical lower-z threshold. This is conditional same-corpus sensitivity, not independent or prospective confirmation. Historical 2.5 remains quarantined; prospective input independence and known-answer calibration remain blocked.
 
-Family contract 1.2 aligns all five projects with [Phaistos Disc 1.6.0](https://github.com/hawkinsnick/Phaistos-Disc/releases/tag/v1.6.0). The shared readiness report preserves native sampling units, source rights and blocked linguistic controls. It authorizes no pooling or linguistic relationship claim. See [`research/family-readiness-v1.json`](research/family-readiness-v1.json).
+The historical family contract 1.2 snapshot aligns all five projects with [Phaistos Disc 1.6.0](https://github.com/hawkinsnick/Phaistos-Disc/releases/tag/v1.6.0). The historical shared readiness report preserves native sampling units, source rights and blocked linguistic controls. It authorizes no pooling or linguistic relationship claim. See [`research/family-readiness-v1.json`](research/family-readiness-v1.json).
 
 The authoritative current gate summary is [`analysis/current-status.json`](analysis/current-status.json). Historical release reports below retain their original versions and claims.
 
@@ -56,9 +64,9 @@ The long-term goal is a comprehensive, reproducible corpus of Linear A evidence 
 
 The corpus distinguishes physical/document observations, source transcriptions and classifications, normalized representations, computationally derived data, and scholarly interpretations/hypotheses. It does not assume that Linear B correspondences constitute deciphered Linear A readings.
 
-## Current research state
+## Historical architecture and source baseline
 
-**Architecture baseline: 3.0.0; current maintenance version: 3.0.15**
+**Architecture baseline: 3.0.0; native release version: 3.0.15**
 
 The project now includes a validated SigLA decoding/extraction path, explicit source-defined Word objects, provenance and uncertainty architecture, adversarial and document-resampled structural analyses, cross-representation replication, edge-form null models, a checksum-gated known-answer Linear B calibration protocol, and a preregistered Linear-A-like degradation experiment.
 

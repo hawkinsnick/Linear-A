@@ -56,3 +56,6 @@ Pinned statistical repair executed twice with byte-identical results on 1283 non
 - Synchronize current citation, family and native index/API/manifest metadata while preserving historical content versions.
 - Authenticated SigLA v3/v4 descriptive comparison: 781 → 802 documents, 5,065 → 5,144 attestations, 1,376 → 1,401 source-word groups. Seven of 24 frozen cohort labels are present in v3. Historical analytical input identity/independence remains unresolved; prospective outcomes remain sealed. The 2.5 multiverse implementation remains quarantined.
 
+
+## 2026-10-11 — current-summary reconciliation
+Generate the current README summary from native authorities and reject drift in CI. Update individual skill authority routing; retain historical research gates and release scope.
