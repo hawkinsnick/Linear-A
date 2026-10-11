@@ -315,8 +315,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "df1360054879b04daa8a0a1a30536d189539c55f0137a8955d8c1bdf20679970",
-      "bytes": 4346,
+      "sha256": "c493124931c16a32a2e3338823c06edc01e53fe7fa8ffeb0fb84e1140a2e6735",
+      "bytes": 4459,
       "category": ".github",
       "summary": {}
     },
@@ -523,6 +523,13 @@
       "path": "scripts/check_museum_catalogue_reports.py",
       "sha256": "b2c97967023555a0c38bf6d836625b96b5ac3bb1cfd0f5a43aed68142ba9e5c9",
       "bytes": 1929,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+      "bytes": 3998,
       "category": "scripts",
       "summary": {}
     }
