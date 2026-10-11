@@ -81,6 +81,16 @@
       "path": "scripts/build_current_summary.py",
       "role": "current_summary_builder",
       "required": true
+    },
+    {
+      "role": "source_action_plan",
+      "path": "research/source-action-plan.json",
+      "required": true
+    },
+    {
+      "role": "source_action_guide",
+      "path": "docs/SOURCE-ACTION-PLAN.md",
+      "required": true
     }
   ],
   "behavioral_gates": [

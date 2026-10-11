@@ -77,3 +77,7 @@ The registry now includes [Milyan-Lycian-B](https://github.com/hawkinsnick/Milya
 
 ## Current member status and Linear B acquisition
 Linear A, Linear B and Milyan generate their current README summaries from native authority files and check them in CI. Keep native release versions separate from capability milestones and historical evidence snapshots. Milyan's frozen reference text is populated; independent primary-edition validation remains open. Linear B's source inspection distinguishes epigraphic EpiDoc export from the separately linked linguistic annotation package needed for calibration. See [the acquisition checkpoint](https://github.com/hawkinsnick/Linear-B/blob/main/docs/CALIBRATION-INPUTS.md); no calibration performance or graphical certification is asserted.
+
+## Source-specific evidence frontier
+
+For Linear A, Linear B, Phrygian, Eteocretan, Lydian and Sidetic, read each repository’s `research/source-action-plan.json` and `docs/SOURCE-ACTION-PLAN.md` before claiming rights-only readiness. Separate endpoint access, permission for the intended operation, source delivery, factual reconciliation and human adjudication. Dated searches do not prove global exhaustion. Respect existing completed crosswalks and their unresolved edges. Linear B’s `docs/CALIBRATION-INTAKE.md` describes private metadata/digest intake only; it does not establish acquired gold, certification or authority to reveal answers. Other members retain their own native stopping authorities; this checkpoint does not certify the entire fleet.

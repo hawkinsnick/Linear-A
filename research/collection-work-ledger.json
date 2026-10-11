@@ -1,12 +1,13 @@
 {
-  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "9fc81af1430e6c7be5de3df1752eb2c43e028566ba767b9e45b50832595e1750",
-  "evidence_fingerprint": "0fbdd8e6a647eb7be56d7b125c01e213e970e0a53c1f91416c52a48cd777e364",
+  "config_sha256": "72886624de53cbea406e64f612a76b910c701dbb9ebf59233c7a5c2b0ebe31ba",
+  "evidence_fingerprint": "e2aeabca60037a1a25ed32955a623f19625df8df5996533b3467f93901f0a89e",
   "input_sha256": {
-    "analysis/current-status.json": "4d71b579697066cbd6b5fa8f1bec8daadce5b3d1288b0d95223d14e073d0ac93",
+    "analysis/current-status.json": "5872a96ccd28a17b2d3f0811d8a6c76a613d064fa86b4941492ae6f2a9da3b36",
     "analysis/pre-expert-source-audit.json": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
-    "research/pre-expert-maximum.json": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265"
+    "research/pre-expert-maximum.json": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265",
+    "research/source-action-plan.json": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4"
   },
   "native_review_links": [
     "docs/PRE-EXPERT-HANDOFF.md"
@@ -43,12 +44,32 @@
   "schema_version": "1.0",
   "scientific_approval_granted": false,
   "scope": "Declared native snapshots and source/task registers only; not a language-wide inventory",
-  "source_leads": [],
+  "source_leads": [
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/0/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/1/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/2/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    }
+  ],
   "tasks": [
     {
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/0",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LA-CORPUS-001",
       "source_path": "research/pre-expert-maximum.json",
@@ -58,6 +79,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/1",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LA-CORPUS-002",
       "source_path": "research/pre-expert-maximum.json",
@@ -67,6 +89,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
       "json_pointer": "/machine_resolvable/2",
+      "native_dependency": null,
       "native_status": "SOURCE_BLOCKED",
       "native_task_id": "LA-CORPUS-003",
       "source_path": "research/pre-expert-maximum.json",
@@ -76,6 +99,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/3",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LA-CORPUS-004",
       "source_path": "research/pre-expert-maximum.json",
@@ -85,6 +109,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "COMPLETE_NATIVE_ASSERTION",
       "json_pointer": "/machine_resolvable/4",
+      "native_dependency": null,
       "native_status": "COMPLETE",
       "native_task_id": "LA-CORPUS-005",
       "source_path": "research/pre-expert-maximum.json",
@@ -94,6 +119,7 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
       "json_pointer": "/sealed_or_external/0",
+      "native_dependency": null,
       "native_status": "SEALED_WAITING_FOR_ADMISSIBLE_INDEPENDENT_INPUT",
       "native_task_id": "LA-EXP-3.1",
       "source_path": "research/pre-expert-maximum.json",
@@ -103,10 +129,41 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
       "json_pointer": "/sealed_or_external/1",
+      "native_dependency": null,
       "native_status": "WAITING_FOR_RIGHTS_COMPATIBLE_INDEPENDENT_EVIDENCE_OR_HUMAN_OBJECT_REVIEW",
       "native_task_id": "LA-EXPERT",
       "source_path": "research/pre-expert-maximum.json",
       "task": "Palaeographic adjudication, uncertain sign identity, disputed segmentation/metrology where sources do not resolve conflict"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/tasks/0",
+      "native_dependency": "RECONCILIATION",
+      "native_status": "OPEN",
+      "native_task_id": "LA-SIGLA",
+      "source_path": "research/source-action-plan.json",
+      "task": "Reconcile authenticated additions and record-level source disagreements under SigLA terms; check existing work before extending it."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/1",
+      "native_dependency": "PERMISSION",
+      "native_status": "BLOCKED",
+      "native_task_id": "LA-GORILA",
+      "source_path": "research/source-action-plan.json",
+      "task": "Retain bibliographic references and the recorded project-specific refusal. Do not reconstruct from downstream sources."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/2",
+      "native_dependency": "HUMAN_REVIEW",
+      "native_status": "WAITING_FOR_EVIDENCE",
+      "native_task_id": "LA-INDEPENDENT",
+      "source_path": "research/source-action-plan.json",
+      "task": "Acquire admissible independent evidence before specialist adjudication."
     }
   ],
   "terminal_pre_expert_maximum_established": false

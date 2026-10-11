@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "59b72fc8918f9b2a3a7258578369ab0c4f531867e20402ed018877e46f16d0b6"
+      "sha256": "c8d648c6c22dd75e7a2b7d3e0aa0ab7b7c50140cfe98fcbdddae69e917f088ef"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "ac6331fdd7f5494a3230e0b492888fcefdd987ad29ec83050b6e5c5e0a73f76a"
+      "sha256": "7c2d210610ad8f7900796ac0bdee8a6a6184d2b9f7acb9c7b6ad2d627331ca21"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "593177cd2574d50247f3efbcb1d3c2b51a55d682cb8fb01fac533feaf04255c3"
+      "sha256": "62a9e5825ae7660df3d1305588d6dcce7004881f2bd768fb248a3b7b072c36da"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -206,7 +206,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "c493124931c16a32a2e3338823c06edc01e53fe7fa8ffeb0fb84e1140a2e6735"
+      "sha256": "f8e809d953ad83e75d33cacadd36f93e94cdd01f87f55f70e5fa53232ca2a36f"
     },
     {
       "path": "research/critical-pilot-sigla-witness.json",
@@ -315,6 +315,18 @@
     {
       "path": "scripts/build_current_summary.py",
       "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6"
+    },
+    {
+      "path": "research/source-action-plan.json",
+      "sha256": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4"
+    },
+    {
+      "path": "docs/SOURCE-ACTION-PLAN.md",
+      "sha256": "e8d03a5dd18c30c2a4c3b2346f84f483c9958595d150a8d4d094407f0905a013"
+    },
+    {
+      "path": "scripts/validate_source_action_plan.py",
+      "sha256": "bc11b9fc1da65d7f594f94639ef5bb886fef3157eb1a1b75e3d315c4f36150eb"
     }
   ],
   "count_boundary": "Counts refer to committed native records only; separately authenticated upstream inputs are reported in source verification artifacts.",
