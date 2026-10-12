@@ -1,0 +1,1292 @@
+{
+  "checked": "2026-10-12",
+  "scope": "Executed native validators and available native/script suites on all 18 declared checkouts; not a claim that every historical or network CI job was reproduced. Exact command scopes are listed. Updated checkouts are local repairs on the named base commits, not unchanged commit trees. GitHub PR CI validates the published final trees separately.",
+  "scientific_approval_granted": false,
+  "source_access_permission_and_calibration_dependencies_closed": false,
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "checkout_base_commit": "f7e987f854ed5e3ed70cfe47e7fb733f108d9c86",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/build_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_capabilities_3_0_18.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_critical_pilot.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_current_summary.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_edition_catalogue_pilot.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_edition_concordance.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_pre_expert_audit.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_prospective_independence.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_research_api.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_sigla_delta.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_source_layers.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_structural_sensitivity.py",
+          "exit": 0
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/build_collection_handoff.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate_family_readiness.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/evidence_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s scripts -p test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python combined-ai-skill/scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python combined-ai-skill/scripts/build_starter.py --check",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s combined-ai-skill/tests",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s corpus-factory -p test_*.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "0f57380e45b8591c2eeb5467743d4cb02a60722247cbdb85d46670a8a380f391",
+        "release/CLAIM-REGISTRY.csv": "7efcaeae87e880f4dccbe8b47e2deaa2a14b9635fb5864ad0bd7ea915d29944a",
+        "DATA-LICENSE-MATRIX.md": "ec176b6c1a1a8852c76d047c54d6d1eafeab1e848cc832534470fa89107a0801",
+        "THIRD-PARTY-NOTICES.md": "32eea368303ef0fbcbb1324b6c92ecbcc3603c8b94c44e044289c3307921e593",
+        "analysis/edition-concordance-audit.json": "375aa7b2c9244ef1070a1c31c5c8237e515531a4f30a0f5bce80630d8902222e",
+        "analysis/critical-pilot-audit.json": "bc2329fbfe9de66826c4cbe0f4371aede76a1be7ab550c0507a3f0273a259872",
+        "analysis/public-sigla-layer-audit.json": "a54fd9b8860709cabe99b53ea398d5d0cb1740d37885ac2698586e741281d861",
+        "analysis/gorila-route-audit.json": "d4b718e3080c7f5343ae71ba6343292280bf2f297651fd794d3cd35762809518",
+        "research/collection-work-ledger.json": "90574aaa46b252d34b06252f5479f821d93030ec3c6e84a9fb08f748accfe27b",
+        "review/collection-packet.json": "08da99c3421d059d15fb4403432741871536bb3432827dfa98e8e5d55c83467d",
+        "docs/COLLECTION-REVIEW.md": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
+        "docs/P1-RECONCILIATION-2026-10-11.md": "7a8a2738e947e0e5bcd4324da7aa8b9611adb205ef3261157e29d5156dc98ec8",
+        "corpus-factory/p1-evidence-snapshot.json": "c54ce68a4abd838c92e3b4a601bd6244d3ae37b2700038cb527347110d9049a4",
+        "corpus-factory/p1-validation-results.json": "1016fc045bdfcd8fc33f79ca1b6cc1e92cc8d0b23634684486e7a47337c58557",
+        "README.md": "8fa0278e7c9a421bf0d72b78255fee74a5c3b2bb804d545b928c9f8a6a153eec",
+        "scripts/build_current_summary.py": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+        "research/source-action-plan.json": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4",
+        "docs/SOURCE-ACTION-PLAN.md": "e8d03a5dd18c30c2a4c3b2346f84f483c9958595d150a8d4d094407f0905a013",
+        "corpus-factory/PRIORITY-REVIEW-2026-10-11.md": "1dee9c40a3c3c59404b185dcd941c9851e0863e19c15d3da63db198ead3a4701",
+        "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md": "0ef8a02ef96d4daa45f4812408f58270ac4ddaafed6e92d9fb8a7b822a1c3620",
+        "research/cross-corpus-dependencies.json": "b42507756a270f8b1365f67819e613b2e82a5d76ab78238bec55447750b925ba",
+        "docs/AI-INTEGRITY.md": "15b1be2fa019d1340ccfaf857649e9f4dcb18c27c0033144f65c01db1b93783a",
+        "corpus-factory/cross-corpus-dependencies.json": "623c843ffdf201b73b66809595889ab4b0d025088043411574d39feacfde4c05",
+        "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md": "d12a89f0eddaf099e1490aa855906cfb9388c32c9adf25d7a3d75b649000b4c7",
+        "ai-skill/SKILL.md": "278d805d721862a75e09ff8507909e0cf03764af28eadcab89cd2c8fb68c3c42"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "checkout_base_commit": "07f2193b2f7358ca026b88c284a8ab178ea61888",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_5_0_conformance.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_assertion_views.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_catalogue_concordance.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_occurrence_coverage.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_pre_expert_maximum.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_reconciliation.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release_integrity.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_research_dossiers.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_scholarly_boundary.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_source_expansion.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_uncovered_review.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "pinned upstream EpiDoc integration tests",
+          "exit": 0,
+          "tests": 4,
+          "schema_commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+          "compiler_commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56"
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "c73040216da3a720573f686a0d2574ea7ce0a00b9b10bce815589db401050d46",
+        "occurrences/occurrences.json": "2fc84ae1d10c1519329106e5c87d1bb8b1a15cc12b12fa00509a912d2143d90b",
+        "NOTICE": "e5cae5cefcaaaf0f491598b3793beb874def98c83b544b1be6726145196efe54",
+        "research/experiment-gates.json": "4d76c0650a96efde732c5a1ab50054b687785b7e0ece477ec82e63bb29e6a05b",
+        "analysis/occurrence-coverage-v1.json": "00539e7362042e52b8c6891b347bf12954efc628e853bd53631b04df2628f943",
+        "research/coverage-delta-register.json": "d1edffa003e9536b649dff10d8ab57e36018b02d84272fa0859dd7eb06af7063",
+        "research/pre-expert-maximum.json": "db99d11e197498a9e9c1a8655ce370e0f4b4d17a3b570b5c19f312301a61ae92",
+        "research/pre-expert-source-exhaustion.json": "f1691fd304bf653c38d4a64bf40e04da62b20658534059db87fd6e271256b2a5",
+        "research/source-inspection-2026-10-02.json": "09e06c64feba4e5035a8fe6e5a61aeb11837a74a658fbbd177e6577b4ad98994",
+        "research/record-dossiers.json": "34fbe418a3fff188747c07aa4c422fd34b0e31ee49929a07e48ee0f58b6308b9",
+        "analysis/context-coverage-v1.json": "658b22020d94256f9e1b24c63c450de45d3072682a1c76165a7c5b543748f396",
+        "analysis/upstream-epidoc-validation.json": "ece3eec9998145738bbbc26982f0d5b3fe82eea94904020ad09adc80b8e2e159",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "analysis/epidoc-interoperability-audit.json": "07fb13999152b6cad95ce895a4368f11a9f76916151e3eb6536f6cee1f6aa4b2",
+        "docs/EPIDOC-PILOT.md": "0cfe868e6dd5daddcdbb6fd05ecd9774f2a045ae73ed7e432837952d1a134df8",
+        "catalogues/source-located-concordance.json": "a17030df57896320b3c2a9e7882ea5f6e5b7c2c6d018fe83f3f4c2f9cf3fae66",
+        "catalogues/master.json": "bd901ce1cdc48f7dda9d19435f0416a5bbabce304b6ebf784bc78f0048406e9f",
+        "analysis/catalogue-mapping-audit.json": "69c0e65bd594ca04b587f4fbd15d67bca85d274580023300c486719c5fd8a372",
+        "docs/CATALOGUE-CONCORDANCE.md": "d79ca514ba54c09b1468e124e22fd487f192f7d23e4eab0872c24bfadd63a36e",
+        "research/uncovered-record-review-controls.json": "fcc80d939562f699b7a0928559bcb6787d7eb4f8f20a5f122d0a262d9cc28817",
+        "research/met-open-image-controls.json": "38bcd8cf069cdf614a2ca7d81d6a495064865c1a529278123249a76b95db7d0c",
+        "docs/UNCOVERED-RECORD-REVIEW.md": "b1af5c314d7ec395f9359aa850bfee7f0328a7286ce815fa566d8ef039dc626e",
+        "research/source-metadata/met-331665.json": "def5938f8e89204ad37d6eb7e9ecbdfc35f5830fccfbf1830ce67af1b0ed7cda",
+        "research/source-metadata/met-321391.json": "c91085cb37b52660c8bb4aea01000b2d411d48b966b023feb3403e2b60c0bf22",
+        "research/source-metadata/met-240899.json": "c18c4064ea21b00465b51b76530342af1739bb0db69f1a5291ec5404255c2cb1",
+        "research/source-metadata/met-243938.json": "2a79d26935bb05052642424b2a87757b39102c16cd4aa360c079f7590c8cbb4f",
+        "research/source-check-2026-10-11.json": "d40fe83a74b009ab772c86c9f854a6460bab09d3fb0a33395981d94d1bee615d",
+        "research/source-reconciliation.json": "8150ba4afc5428632b6bd7d8cf2167490d128ed5a59de394a8e0653f8c15a161",
+        "research/coverage-denominators.json": "acfa218857b5d2ce313485a568f182ee60e11b6718eac77b8c46dde3537ab02d",
+        "research/reference-reconciliation-v2.json": "ca89a3c3cdfa3cae006298c8d117c573e2000312fcaf5a947b0097b43048acfe",
+        "research/identity-reconciliation-v2.json": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380",
+        "research/donnelly-existing-assertion-check.json": "dced9c793ae136fd6ed44a8efed4ce428e757a32dd91c2c89f259a09186b5091",
+        "research/qualified-assertion-views.json": "b019937e64282c81978b3df2cff528a8b1f42c0c93fcdb1897ab5a5040ea578a",
+        "research/cross-corpus-dependencies.json": "f0614d77c3e5183ab2228f2223f4fed46f091434e3cff1455b2457836e351696",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "f735ed84a422bd81245aba10e894585a9110079932a445f35be515834e739b6b"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "checkout_base_commit": "5f4c06274e90d67a2edac17d3be7526604f2a140",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_blind_policy_consistency.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_calibration_intake.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_current_summary.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_epidoc_import.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_historical_smoke_engine.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_matched_degradation.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_observation_mapping.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_pre_expert_audit.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preflight_representation_condition.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_representation_condition.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/build_observation_corpus.py LOCAL_CHECKOUTS/validation/damos-corpus.json LOCAL_CHECKOUTS/validation/observations.json",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_observation_source_audit.py LOCAL_CHECKOUTS/validation/damos-corpus.json LOCAL_CHECKOUTS/validation/observations.json",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "a4a663581ebc03969c849cddf1da6f52e65c7e67b08e5deb75877f489b9ce4d2",
+        "docs/RIGHTS-AND-LICENSING.md": "a493b586a19e96de6e321355f275ac493ad09a7a10301ef78c84df2edb38941f",
+        "NOTICE": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa",
+        "research/collection-work-ledger.json": "151fe0ad7fc9a4dfbf3771a2b619e9500c47db3be0a63323efc338c7a5bf617a",
+        "review/collection-packet.json": "25c962192a532610246bf0e86483b54155964fc70ba06e3f44adee6a8be07dca",
+        "README.md": "12881cd7f69a6bc8244d52c0ea82d8f25aedcc2a622cff9f7269f1b672df3a79",
+        "scripts/build_current_summary.py": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+        "research/calibration-source-recheck-2026-10-11.json": "329d90446c0c2c2d3562ba81642e6d18a3fb10a03f013c8a60b6368f43fd1876",
+        "docs/CALIBRATION-INPUTS.md": "38895cce1b9a79e957aa46e15881ca0163ddd8859e1a769e95d7f35536315abd",
+        "research/source-action-plan.json": "1fbb81495a348cf18d26a548206f826272453b63c9c97818d91921d763cff7ed",
+        "docs/SOURCE-ACTION-PLAN.md": "29b89eaba0aa99d62544ce3690e0e8a00fbeb2304aae31cb86c734c6cbff4440",
+        "docs/CALIBRATION-INTAKE.md": "a622dd3286b0aaed23e7e22e2ea76ccd9e42e7674f1f9c4a97af8a4ea4514a10",
+        "scripts/check_calibration_intake.py": "69f64e38a3528d3592710d10b6344f98526c9c8da92dcee8836e8a4fb53dcaff",
+        "research/source-route-check-2026-10-11.json": "be5a573c7e33763d027fead152d7e69b2fa760625c7fa1650210b903410149a0",
+        "research/cross-corpus-dependencies.json": "4f307ebaa67e3820c65543b5746348c4aa3c7dc1ca63f60fcb2f1835b89e865a",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "checkout_base_commit": "0e52e4270169ada7e10104237db9343b4fef93be",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_assertion_views.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_pre_expert_maximum.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_primary_pilot.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_reconciliation.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_research_dossiers.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_source_expansion.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "1ef677e51297744cd6b3fed239f295c3de98990a3ae09c81872940ebccbf58a2",
+        "corpus/manifest.json": "ffebb8e84b02598622b15062a434e8fa5ce108777932222bd7b156fee236554a",
+        "corpus/critical-readings.json": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+        "NOTICE": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c",
+        "research/dbas-chs-baseline.json": "4a207ba25603ce9a48f235373fdbebe977846c6aabdd12a0c0aa28d18394e18d",
+        "research/pre-expert-maximum.json": "7ad03820ee2fdfec65f8bf33fe73f14564d1e74183bbaaa75e8c5486fd168a07",
+        "research/pre-expert-source-exhaustion.json": "3857e9062fcdf8387f97e664d5c39cd743983570c34ed858e5c1a8d64f376b35",
+        "research/source-inspection-2026-10-02.json": "9aa2593afe4c15161cbe74892f8b9912af49b115fdcf5d79d2c29061659f653a",
+        "research/record-dossiers.json": "bda9267af29ec403766138c3f47d8f6d4e1dc153281ecb1718f972bf9b7c5e20",
+        "analysis/context-coverage-v1.json": "27cce47575d1986d632591467b0f56b2aaf32ca2de55ab6e341c93fc48107582",
+        "research/source-check-2026-10-11.json": "de4342764c77ed96f656ad138d6f2a95f7425bef1d86aadc564e760f3d9a2d15",
+        "research/source-reconciliation.json": "b5f68545c018b160f6435ddc04c09de34a99f64f5fa8887e4594bbe38d8e5601",
+        "research/coverage-denominators.json": "802a77451d9c825a8bfba20ae69d40f53a5f1fd0f7c552eab2dc14b672d66481",
+        "research/reference-reconciliation-v2.json": "a9397e546c324edd4e98ad6cd072778fed4566bfef0b1e4fb22c854dab7a3b0a",
+        "research/identity-reconciliation-v2.json": "422c1b82bce89b7feff88737907780eea178c2a2f91a705106e9dec3f4dc3005",
+        "research/qualified-assertion-views.json": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+        "research/cross-corpus-dependencies.json": "f20d6beea84093f14dfd0ba64ccfbaba1a61eb48f24d6abfb54ddf75fd6453b1",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "f735ed84a422bd81245aba10e894585a9110079932a445f35be515834e739b6b"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "checkout_base_commit": "1941c5631f72b1108374cfc3587b9ff4d9800c65",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_acceptance_2.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_analysis.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_apparatus_sensitivity.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_edition_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_exports.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_foundation.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_occurrence_audit.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_research_suite.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_review_acceptance.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_review_packet.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_rights_provenance.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_source_coverage.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_witness_audit.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "ced39c1026bf67926e73386ccfc89d2b92fbf968e939e5be4f0d5ea0a57e50aa",
+        "analysis/acceptance-2.0.json": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+        "corpus/disc.json": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "sources/sources.json": "ca56bc3067ef3b0967270a3d2c153c92db3306e413e7280549c71937801c4ad3",
+        "research/heraklion-museum-authority-v1.json": "15e125ad01a6a7a669d84a9751c0e8d9f363acf25488db88ea4d4f91f1bbe72f",
+        "research/collection-work-ledger.json": "3c8d018d10c8bcffdb309b0f654bbcea5b108fc311feeaa62aea061482405d60",
+        "review/collection-packet.json": "bb4bb982546d65a4c1e979de9dc59003d0d9af88b85bed3e2e27a054e5dcc08e",
+        "research/cross-corpus-dependencies.json": "5f69cea9dce3a980c013bfa2d28059eea53a0c9891a22ca5a5860d6e5783cc68",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "checkout_base_commit": "f32504665a191d14d4ec2aaecee01c439ce08471",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "data/coverage.json": "605d4c9ab60a41b143e3a104e39adf12427e6f0a70d8243c61f8c2c8d5b05887",
+        "data/sources.json": "596703acb537138aa385ff1b6220846831e1478703c929e8e31a2409524f38fb",
+        "docs/RIGHTS.md": "252c527ccbc35f0a9ac330408a48611b437bb6e0a61f5f436ce004be70aa9cbe",
+        "research/authoritative-corpus-baseline.json": "f2afb0c898d904dd54ee74667e01ff6ea3adae02585902d1c679f3d9df91d0b3",
+        "research/core-object-reconciliation.json": "b7259ddfdf9344dbbfb413b98ddcdbebc8533a4df559f515efe3e8024011741f",
+        "research/source-inspection-2026-10-02.json": "71e2a19bee9d3f624aa4e52c83bee2762c123ebfbb383638d9975a71f1c12a61",
+        "data/catalogue.json": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "data/surfaces.json": "c554dd2941514b3bfbf4915f37459340a5c37783cd057ccc69a9882f9c5acb7e",
+        "research/core-edition-locators.json": "657a7efe91447d2fa4592d87c2f3f1bfd6b1705807a095554e2b3f68004b5718",
+        "research/edition-locator-audit.json": "5cd47c8f5e9dfc2237f19cb79119e3ea63f4f70840e0f8f8223a49d862a57755",
+        "research/core-field-provenance-audit.json": "8796743d4bb665b2ef26df0c6aa39f6a94aa2b36ad18b1008e726d0afab0671d",
+        "research/core-publication-genealogy-audit.json": "9d4ed03d245085b49d53839af8062e13c082d07c4b02d2000087876b48e23765",
+        "research/core-counting-unit-ledger.json": "18c085ad53926cc1bdb2136ac2aae4446b2958b5b1140b654a0a594d7ae84d89",
+        "research/core-primary-access-routes.json": "110243bdfa4242c72ce26c20836eb008638fbd22bd94bc5009e3b6a501957f42",
+        "research/core-primary-access-route-audit.json": "bbeef8da2b023c5de686a56cf7ceafae860cc3cd05add889dec260b33cab5734",
+        "research/dunand-1978-bibliographic-conflict-audit.json": "75500714fa358033a05c89500c3b2ae93b83046aecb850ca491b02daa32361b4",
+        "data/research_entities.json": "be181d196efb4c0fb27866bdaab4539be6a68ed6a56fa6c0b183109ede6700d7",
+        "research/core-count-assertions.json": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4",
+        "research/ocbi-structure-inspection.json": "ef87a87c7ffc67a4964ff864a8df74ceab61a79c0e1f79592eb0bdc38ad54e3a",
+        "research/source-comparison-audit.json": "99396fe22d46ad0bf975386795b37e765d4337e7d46eeb13dbd9d043b8e79107",
+        "research/dunand-1930-acquisition.json": "8770e8ab2001b989e66d50ba4f5e47fa1de0af859d2b9722a494adb952e18731",
+        "research/stele-a-count-comparison.json": "9aa4f58fa81a0e7d641b4c4c526a994118cafdd05c9a3382f6a8f9ba8a731db5",
+        "research/stele-a-numbered-assertions.json": "8d66a098802aa26b715663ac4010c8b559ae527ac267a741d1fb33841a88a442",
+        "research/stele-a-numbering-audit.json": "1b038678be5939dd39a52a96e4c31da62d608b3ef6d1cb540c685ddb9cef99eb",
+        "analysis/current-status.json": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+        "research/stele-a-type-table.json": "e166a364ccb6cede69f54f6499c8671885f6c6765ac333a2e3a36ab1244489b1",
+        "research/stele-a-type-table-audit.json": "24d27394b8ff0ae80f2e06258955349426df628e188ffc557bc2de53507f0fc6",
+        "research/stele-a-facsimile-number-index.json": "e65598e16b5c9a2dbccdb2a5583154bef53d7f09528547904eea90f61c4c237e",
+        "research/stele-a-facsimile-ordinal-review.json": "9068c91d590722ae085e4e2424d9d9062385714578547c79ed3b3d334426a621",
+        "research/stele-a-facsimile-review-audit.json": "2a9e375b2c9bf6da47e26bca3572ed75996da65c919b4376d9a879ef4b83e66d",
+        "docs/STELE-A-SOURCE-REVIEW.md": "77c44f5a7304225e45e1886d07948fd76d6a246ceef3d2d0a8dbb2d8a7d303b4",
+        "research/dhorme-1946-acquisition.json": "d0d2793e6987077bdb338a82c986898b97161b6dfe8ad172e8afcb7d7ff2f00a",
+        "research/dhorme-1946-source-joins.json": "acec92c805a4c54ea8073e1cb197aba31f74770d164df4858d914d6d1ab5720f",
+        "research/dhorme-1946-source-audit.json": "ff6afb17a2d184e41a7b56214143fcd2d9443b6e75527048d57f07fc3b11cf3f",
+        "research/final-source-pass-audit.json": "4534d7777d24891a7b422431b6bd9aafbaeec7834ff087196bd1cfc93e380bf1",
+        "research/historical-layout-targets.json": "eaca5655638968ff718cc7d19e7477dcf3464dc5debf8a2b6013eb213493ff2e",
+        "research/stele-a-dependent-drawing-comparison.json": "3087508d6d4e7586dcd00e4c34858350ab238011eb777faa5d87f0aeaec0cfd9",
+        "docs/EXPERT-REVIEW-HANDOFF.md": "95fe3ddcf35a0809a82c7604748e107270b846d8b1729297db6c0930adb2f335",
+        "research/cross-corpus-dependencies.json": "818ecb152fa14b2c9a2a3f9c9d746f923d987ec7a35734cb3135ab6928307d78",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "checkout_base_commit": "f470ff418568b31d70edcf488c775ef55fc6efec",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "exports/audit.json": "9b3152aa0c75af858db2a5a5e731cf874bb634dd0aa46ad72f09ef1432f5bc7a",
+        "exports/greek-subset.json": "4da61071a22c002190eb5d3de31432e288a1647b96a3cf0cfa0d1c54ba2bf7e9",
+        "NOTICE": "bb405a27ffb974a3105578f8419100b397c2f178b0b5babd3318ea19c7ee6744",
+        "docs/METHOD.md": "79318e55ff45564a866cfeeba92b5b0730d0b6f66a0facb6d338a21bcef71951",
+        "research/ig-xv1-authority.json": "66cddeaca3d9fe832ba97bfe51b52526432b486fd914820b9a4b5fdcb5e5a1d0",
+        "research/collection-work-ledger.json": "c254e80158a3c95b66241db59ff5758fea630eb2608773db0669d435542d8dec",
+        "review/collection-packet.json": "fc19f0df6b25ea7cdac75fa57657570aed03c1b6cabf524d85d68c13ec428a12",
+        "research/cross-corpus-dependencies.json": "96ac029ed552a1693e91d9a7b7d4e353399c367681ca404f4caaf58e85c987c3",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "checkout_base_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "exports/audit.json": "47263bf0b416c98fcd3a545af814690cf901abfd78b1217016ba9112a7170a08",
+        "exports/eteocypriot-components.json": "5d23b8563c2a19f4f5fc3bdbee22a94ff46c497675643cff5c5c58877b0781d4",
+        "NOTICE": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
+        "docs/METHOD.md": "6a15d780be84d96f1f88d381c9f196f421bcdd3dd8ae5e89efcd86225ed97a90",
+        "research/ig-xv1-authority.json": "ea299c2026f65f5ef27e78a41d86150f4bb676da9f9959a598aa616d6450cad9",
+        "research/pre-expert-source-exhaustion.json": "78df45ef5196fc4d4f194008e0cff36469c7783b23b8a52d1645260f3390578f",
+        "research/source-route-recheck-2026-10-05.json": "fdc29eadb13f86f3e67318c3a8ac20a5a6bf800b153d0d60ee995eba2d261bf8",
+        "research/source-concordance-register.json": "b542b727cd3839aa03cf909c447e885f3dc79bc9906e477a3135fe2685916eef",
+        "research/historical-concordance.json": "d139b8abe544d91702d12efdda579b51b476f470ef09f5a5ae1f401a196d59e9",
+        "research/historical-source-acquisition.json": "a9dcba34a73b9986c6466265e562e053e9d4f688f7bb149979cd4e23aaf35da1",
+        "research/source-concordance-audit.json": "e4d1e77a188909a44db417ea5cdc5cf600f62674e56b27cf8e0a5ebe97714c01",
+        "docs/SOURCE-RECONCILIATION.md": "bf8cdef32a6417ee7527b9ab55a1b85b837b0b1d2e31eb2036093fd6db05d8b6",
+        "research/coin-source-comparison.json": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a",
+        "research/cross-corpus-dependencies.json": "cb7ca1a95c848797a438d59df2d69854295c077f62321fcb53545588e42965b0",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "checkout_base_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "exports/audit.json": "8f0b2b14c9a5ff79139650ff77ec5973b19cdfb561cc7dea3efd4f7cfd5a2e85",
+        "exports/corpus.json": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "NOTICE": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4",
+        "docs/METHOD.md": "d10e59cf7560ad753958d9591846289e0031311ebd770d46ee79c52d5fa3bab3",
+        "analysis/current-status.json": "8f0b2b14c9a5ff79139650ff77ec5973b19cdfb561cc7dea3efd4f7cfd5a2e85",
+        "research/coverage-register.json": "5dcbb6c2859cf3aa10b129a2ccf174584e2fb20c2ae2c5774d1cd2d6229893af",
+        "research/open-image-register.json": "284775a4c34244a8ddeb6abd0af7708fb46d0713b1d7a01719bba71cb14781b2",
+        "research/pre-expert-maximum.json": "8d6356a52d13d48135320bc05996f600f21f127d9acd83b14a43351e87843ad8",
+        "research/pre-expert-source-exhaustion.json": "6ea3593b6b2c3f2689d7cb3aeef1f59db7ce8ae4402bf3f2c3f060bd4d258d64",
+        "research/source-inspection-2026-10-02.json": "f2991b9fbf20c4f2096a1aa77e87158bd5470638437c4625a9598d58653963a5",
+        "analysis/reading-version-comparison-v1.json": "4513314328232c61c0b3e9dc10c4f96b92ea8e5372d123c4545e5b9e768b3c0b",
+        "data/readings.json": "038cc319aa683149491a1423c2b29b83681178df881605c589b366480d3dca2e",
+        "analysis/source-critical-dossier.json": "4631040aa4c7f9f15ecba5e9c93cc582bafcb19cf276f027ef60d191a51460bc",
+        "research/azoria-item-candidates.json": "5f85b73e8248a18e5e9438b383ebb38fbeefe5aa78291c76f29da8b2abb64833",
+        "research/dreros1-lejeune-critical-witness.json": "b2f460b6f20d5292271e9eafc14b133dc795191e56a0e75adeae28ec4f624bb0",
+        "research/institutional-archive-leads.json": "e12586f0c079b91cd329a0fa4f865cefd530c9e0bc0eb66042630d603635ddfe",
+        "research/praisos-historical-identity-crosswalk.json": "d085532bf0d960e5d41672204e47eb480a53326dc33d31985acef1437f6b3f6d",
+        "analysis/praisos-identity-audit.json": "b5ad6f764f0cc09d728725ee26de4d8eb3d11ae5598d4b5dc776b74db6b62956",
+        "research/praisos-primary-layout-evidence.json": "0c15dc9dcda476688e79caf7c48e46c029c1dd3196d6fc95c5b3c2de6af229c6",
+        "analysis/praisos-layout-unit-audit.json": "da07382d4a5690a69fa87296dbe938b1e9bdcaf1431ffe2839f1580325a947cb",
+        "research/guarducci-1942-access-route.json": "108e370558eb2ab823b09bfa6ca86ecd22a5b16835437d37cdb6b8a4be1c62bc",
+        "analysis/guarducci-route-audit.json": "a4e9afa8d742797f1aa09d5cf65a80cd822b5f8a7a3048cc2ea576d62cc6f29a",
+        "research/praisos-guarducci-number-concordance.json": "4d99b3f7abf2c1aa1d57e8a28b7c5e2478fc1636b4daa7fe1f69fa1b01d9f822",
+        "analysis/praisos-guarducci-number-audit.json": "28676b1b75e87f992e911b640521791ac7c27cf37aa32e5d2426599ba13b1ede",
+        "research/dreros-context-evidence.json": "f7ad9b8b4549a42a62b1804b724a900be5abe3745c27038f390f9af749c491f1",
+        "analysis/dreros-context-audit.json": "032f85f0b131e9d129eee4a8d7b62ce459da6b92e5d22f678d463fabc2074cc0",
+        "research/source-action-plan.json": "f315d40099cacf68accc95a20f7e61142d2a8aa07532a2aea270a4af2b197ce4",
+        "docs/SOURCE-ACTION-PLAN.md": "0452cd0274056c89e8f66acb146ff53c7c2bbd779f2e5938978965c31f3573de",
+        "research/source-route-check-2026-10-11.json": "8ff2b99ecaf6af79502d21e8cc1c13d68f5aea903192a362a765020b27e50d12",
+        "research/cross-corpus-dependencies.json": "8e7062fda349de421d3b98958c80c1e97cc1acf8dc5b6dafd6c71639b270b7a4",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "checkout_base_commit": "88a0346c7a4530bd45ef25c062f06c345f7cc812",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "exports/audit.json": "f51e90f6532b62a9fbec0d77e751326a239c23208760403ae8a39e2371509ae8",
+        "exports/corpus.json": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "NOTICE": "eaee4c2a291fdbcc39e37e1d674962020cf904124db5c0b71d1215e9549bfc55",
+        "docs/METHOD.md": "b1b864b8a0142ba764ef725bbaecbdf87015b48b36d17fcb13d3584a98ac2c22",
+        "research/ediana-lineage-authority.json": "39df5b2df5f610cded9599f6559fd8f8fdc82226ee0490879acfd16e2ae1d493",
+        "research/collection-work-ledger.json": "51da864d5f4e229687cd0cb5e5c6419695744a3105d38ff244c857f008e9b768",
+        "review/collection-packet.json": "0a087a67b0d7afe5391ba9f56d9e3f65d7b394101f3f846d522d00cf465caa6e",
+        "docs/COLLECTION-REVIEW.md": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
+        "research/cross-corpus-dependencies.json": "cdc92d9612187766570378cf87a81ee7019266b203a8b3117bfd303eceaf455d",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "checkout_base_commit": "c95062b725b9a0ecaeb2b627c25ede045e00c8ec",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "pinned upstream EpiDoc integration tests",
+          "exit": 0,
+          "tests": 4,
+          "schema_commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+          "compiler_commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56"
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "docs/METHOD.md": "43181fd641391ccf3ee29a3a4116fd52ffc24a39635704171f4a086536aec3b2",
+        "docs/RIGHTS.md": "070c325b7131ababf4bc61247f9c4c1e05f0897a68d9801e1860cc1bf0ac6d59",
+        "schemas/interoperability-contract.json": "8254b130a3524e1e8a41f51074912de0bd85a8d57735db7b050cae6155d57005",
+        "analysis/current-status.json": "0dc620a91683435359975f796d9d3b00174ae4af7cfbb1128a2e000a4f98ea92",
+        "data/sources.json": "96d09133ba976e8d6e1a5bcf6edcb58de8fde8f82d0667e01162de20d9628a73",
+        "imports/ud-phrygian-kul.json": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+        "research/pre-expert-maximum.json": "6d61fbffebb7751b4b06249f5fd34ef99ed26ab5078b8ea3c3416bd9b18f0912",
+        "research/tm-reconciliation-ledger.json": "93373f0a590ee56a2ae81f653482cfe590f6b4a9707264a46501b99618d92d5e",
+        "research/source-inspection-2026-10-02.json": "0cf56ee8a8ac05cc81f7761b40b0501cfe09dcc927aea1e1d3aa341b3b01467e",
+        "research/source-documentation-reconciliation-v1.json": "2098080f48246e07b39f4969237cd45f5e41e91493382460828ed708ab29d786",
+        "imports/ud-phrygian-kul-readme.md": "396131d9c22897458aa6750491d23c0384d9a82edc1c6a8df90a88c76eaf29d1",
+        "analysis/reference-replay.json": "c00b2c44d22d38c8de9ef44c759eb8f3d7dfe84e311086f629682700b6c71524",
+        "research/g12-primary-edition.json": "598c31ce7c9fe814b2f52315ab56de3011e2487fb308186e2a7328071a5bcee6",
+        "analysis/g12-edition-comparison.json": "6fb41ed83ce9430d5933ebad9e5de56047b29390e6f139c174b2701983568042",
+        "analysis/g12-reference-fingerprint-audit.json": "d43c056d953ac8f422f47601bbaf82e9125fb1eb63842021cc5855001dfb29ea",
+        "analysis/explicit-source-lineage-audit.json": "83a0c5201f741cbb95d9f45ee59eabad10c2e6b5a3b46daebe32c6d6ad54d8d7",
+        "research/titus-heading-catalogue.json": "ffc91381b5a91c288039eee5c75175ee8fba979fead4ec05ce6191d48aa3f0e4",
+        "analysis/titus-identity-unit-audit.json": "9e61b66bb35b31631e0b01ecc383072e7ed13ba4faae693ebe00c094464e4d4f",
+        "analysis/titus-heading-hierarchy-audit.json": "9b0b6f527eabe57c48e00e2843a2b41db12dac9e0ea22e198a9e578415ec4d60",
+        "research/new-phrygian-primary-dossier.json": "757db8e72bde0bccd736e862f09c61d4e33ab3ee1afd83cfbe9aafb4bc3304a7",
+        "analysis/new-primary-comparison.json": "467377825e437e56c419407208ef849af5d4b29267f6f2b12c81567b646d3f49",
+        "research/collection-work-ledger.json": "0055f68dff7eade6f4bceefb597b4fcf66fedf06363fcdb617ece3f15ded3c4f",
+        "review/collection-packet.json": "2bcff9737e061f6df786e78a182a46a3e591c894f7dae4556deec980f3ac1e48",
+        "docs/COLLECTION-REVIEW.md": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
+        "research/k01-catalogue-concordance.json": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0",
+        "interchange/export-manifest.json": "e5458f65c8f3a98ddc76e20cd8af551fced3473729b3b79670e8abd727be0077",
+        "research/interoperability-identity-graph.json": "4cd905306451381e899e51458a5099ddad37f7175fe567e55e9b8b70be655aa3",
+        "analysis/upstream-epidoc-validation.json": "bad96c213b68d56586940f7d51bea3515594116607b055860242a6f41a3c67d4",
+        "docs/KERKENES-AND-INTERCHANGE.md": "b2dfe3fc2fa6cc48c0180036c860db128184649eca11a92069a86b439252b770",
+        "research/source-action-plan.json": "eb6bbd30399802f74cddeceb9770a8534d9f64813ae71ecd35ac5cce8cfefe4f",
+        "docs/SOURCE-ACTION-PLAN.md": "941a8d2b5f5730031fd75e5004146ae514113ae97539096d6b8ea1739273d6c3",
+        "research/cross-corpus-dependencies.json": "affeabb737827c5078ebb27c8d73b1864bb868143b6a051cbb374b8eecde717c",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "checkout_base_commit": "ab2f8e541450514e112ef3d279a2903bbb220291",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m pytest -q",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "project.json": "b6c5dc1df23c6dd1f1235cbaba4639149c0cff5a6b2c8959e25562d31ecbe662",
+        "data/sources.json": "6cb2bde6c110e794adc90fe58f30ce817b33d4b37db4c90d2fef5537c48f3b37",
+        "research/pre-expert-maximum.json": "d620af7eda5d6a5ba6a3d5fe6a9f5d585a6c14e28020d6d1fc16d593562dc36d",
+        "research/digital-entry-dossiers.json": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+        "analysis/current-status.json": "710e36fe6e61131acd6c09ff71030e028efb0aba7de04411ede25eeb3e822322",
+        "research/cross-corpus-dependencies.json": "96d8163fe5ea1b3e204a46b53f6e1457c65eb41277a33b544f9528dacf142512",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "checkout_base_commit": "71f33a770fcd4e6c1c4747177cb64978390ed27a",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "project.json": "1f6da691a3831dd25b64944340c1e92332c2ce1b50ee1f5ad71ea18a75a8205a",
+        "data/sources.json": "4519251bf4756d46d9dc5b21afcf546e7972b83f697349dfbeab63c379b9858d",
+        "research/pre-expert-maximum.json": "ac2f652a6790af0d156a50dedd3fbb4516251dbf9c89b17df4a61dd9611d928c",
+        "research/collection-work-ledger.json": "23806b0cc3e799f39d42a9bf02d0a7a49e38775291fb31ac74371a0dc3c5a0d4",
+        "review/collection-packet.json": "49b102e6c316fbe45e95eb117401132d810408687ae0dbf09bd1a16a3a6df3db",
+        "research/cross-corpus-dependencies.json": "fb00483d86e7b7debfc3ad7ff1ad87046a9e46bf0bbe3a55fa3bb948b287dc83",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "checkout_base_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "project.json": "e11d2d0fd85334cfa83206735c4cec62e6481fed5b4ec45a9e150cb770fe3af9",
+        "research/admission-policy.json": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
+        "data/sources.json": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
+        "research/pre-expert-maximum.json": "1e9a2abd926c9ac457dad44c03126e3bf7f9927d720db55fe4ed89479d730508",
+        "research/collection-work-ledger.json": "5b2313b064b07a960052c60458ce6c96894b6b8d2d3465e63c68f5269fb28e3f",
+        "review/collection-packet.json": "9fc5d698faed717c5718e3ed3a645d8467a5464f6af60485c266aab3af19bc8f",
+        "research/cross-corpus-dependencies.json": "d6aed12afca70444c6a9dc54bcd89e0d40cf01ed1091e0fef78269b241ea67ef",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "checkout_base_commit": "c3ac119966cc56b7dba64f527a4a91b995c0ff22",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/build_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/build_collection_handoff.py",
+          "exit": 0
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "pinned upstream EpiDoc integration tests",
+          "exit": 0,
+          "tests": 4,
+          "schema_commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+          "compiler_commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56"
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86",
+        "data/reference/records.json": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+        "research/source-register.json": "5e5b43347d15c74121e6837933b0b1a95e89f0136c0b4f8d38d0cef504460dd3",
+        "DATA-LICENSE-MATRIX.md": "3f7ccb9afb09c7c765d7cf5fd575d92090742d60116d7dc55c9bd08e2ee5ecb3",
+        "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
+        "NOTICE": "e416022d6486fe418616787da0e08468cb87abd3da740a804ec00fd56f7101f6",
+        "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
+        "analysis/record-admission.json": "fe3d177b0ed7f1e9fd808be3687edc73b704288d1f58064604db496b7f245fb9",
+        "analysis/benchmark-status.json": "8ce5133d2712e45833c3990e574449eba69860f9f11f9ebdb133cc5af8f2a117",
+        "research/edition-dependencies.json": "1cee3fe2211520e48523b9bfe5afda14008acb10f83051bb9ac29c6288c9e012",
+        "research/admission-policy.json": "175399b744d600673163ec4350b272dc10a54f2246f9e26f9bdb1a7857afc1d0",
+        "research/source-frontier.json": "b9ecaa5ac24c322ec8685262b4df12ef757ba4bfb22fb1351a3f911c9a96b728",
+        "research/source-issues.json": "57aef5059b7d19a6f5512f7cb19b4181b938696f1be87fa426c2896a47c1fe49",
+        "research/pre-expert-maximum.json": "443453a7a9a3a898c1d693a6c14075471b44d9cf6ec1fe24f5810dfae560a651",
+        "research/acquisition.json": "26d0c7739fbf950439aff923f2a51a92fcf1c425555c915f4dc7c700bf0e38fb",
+        "data/upstream/ediana/bibliography.json": "5de93f4289956e3b686ecad17ea466fcbfa8d8081b227859c67092325a5a9341",
+        "ai-skill/SKILL.md": "2421cc5eaa21f1cfcf5d47bb14ad42aafddee51329f10a1c370ac82aea0549c5",
+        "research/source-checks.json": "d4a8e59b525c5e8740374da3b76866140561ac8162498cd39f29e4f036776d95",
+        "research/source-access.json": "831947aaffb3d4a5cbb644e37d2f1a65a426c60f450c9e723ea88255f52b6f55",
+        "review/packets.json": "41f68db749ce68dbe84cde826633adfedd2c7c81b02f564a15a80098d521884f",
+        "review/handoff-manifest.json": "a96130079e510efec2a5d263f21e83df230a01a37eb1d02b63005df65aab9ead",
+        "research/source-worklist.json": "f3a1b8fa205f3d89af43e8668f097b26a386ca3d2d8cd6cecca31f61a437936e",
+        "research/publication-reconciliation.json": "ca914208e5deda01a8284edaf9345025ad94e8522724565e52a29f9aaa3457f7",
+        "research/collection-work-ledger.json": "f690948f40457b774433c11f09e0ca01e22408332b84c47ff376753625e1eba8",
+        "review/collection-packet.json": "d18096fc715c6ebd6739a362d7143b43096e95b30e460d59bfa08823493017b2",
+        "interchange/epidoc/ediana-reference.xml": "97536cc55eed56b2e18c6d23afae44df61acd41bbe3f1ac90c25fbcf1edff6f6",
+        "interchange/export-manifest.json": "32a406dcee430bd35ffd9003fc594f576e5c8d9915b68c03a2f0e3c66efb7baa",
+        "analysis/upstream-epidoc-validation.json": "93ddf5c07574dbed0c5e5fa2a495a7ea4784359872f2332353c70f9b61d0f7a1",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "docs/EPIDOC-REFERENCE.md": "3097e05e8fccbc551ba374abdcb4088b1d9bf518a1064629bcbec9db6b609505",
+        "research/source-action-plan.json": "4c62cd43055daf2eb32472391a3950a66a97e7fab0ab447d0d65c95959a226df",
+        "docs/SOURCE-ACTION-PLAN.md": "a6316f531596086c1977a1760403ab7d5ee111ba4dfc279ce8ca7ab165270b9a",
+        "research/source-route-check-2026-10-11.json": "637ac263db46502725178998630304375264d961dafb380741a295607d5d3a92",
+        "research/cross-corpus-dependencies.json": "a2897fb1e7faf6eb4f5f2774e71245e714b89f08555e8babd00a5d6ba472bd19",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "dec7e02a345d82430d258d6e23695fe0607b32c5172aa3796203022fe9d11fee"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "checkout_base_commit": "ddb53ce7640237f3020bf5c417aef921d86557fb",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/build_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/build_collection_handoff.py",
+          "exit": 0
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "pinned upstream EpiDoc integration tests",
+          "exit": 0,
+          "tests": 4,
+          "schema_commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+          "compiler_commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56"
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18",
+        "data/reference/records.json": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+        "research/source-register.json": "4c0b2e073b7c605a8ba1da614fab05ac9d1c6ebca133aacbc64cbebba9b9267c",
+        "DATA-LICENSE-MATRIX.md": "6d140b300c53b2768777acdfb9c41c903f5bdfda7cfc971f87bdef8dabca99b0",
+        "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
+        "NOTICE": "e31cea6cc45e6ae97447e910c9f9269b47e437efa690bc373df41bf55c5d18ae",
+        "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
+        "analysis/record-admission.json": "ddb3b9a08776455ea7722d2e55eb030790329a6bdefcf008ceeb78b39f3a7775",
+        "analysis/benchmark-status.json": "b8b3bf85af7169809a4045e7e226e3dbec65d673f70705ba0e594b2fdf806cea",
+        "research/edition-dependencies.json": "8789ea8860e7f6a3af95bd3d7994b50373c52d578d500c8c50afe5ffbfb4e3c4",
+        "research/admission-policy.json": "175399b744d600673163ec4350b272dc10a54f2246f9e26f9bdb1a7857afc1d0",
+        "research/source-frontier.json": "ee3340368cbf7fab2b781046cb8459b380c8a206941f7127d4f4bb50d053dee8",
+        "research/source-issues.json": "2fd2e11f36cb618fe9bf42d0b0ad742dc4009356e10d4e3e51ba6200586879ea",
+        "research/pre-expert-maximum.json": "e9d0fcbfe01d37730f83964e9782d57beca65c92340b37418b5484a0bfc327a9",
+        "research/acquisition.json": "887030b6ea3817ea010e555cc39c82fe3550f0b6b19b2d71719c59ac7fdb1e3b",
+        "data/upstream/ediana/bibliography.json": "4668bbd807eab45fb1f197c509635b25579060eb0849568d0587520934b8b678",
+        "ai-skill/SKILL.md": "ee3ea3296f42a464d6bf9d9ab455d412a7a42fc23d8d33ab837a3230f7623d74",
+        "research/source-checks.json": "720516aee69f29eb1bc73d94e732cdef0a76dd0465a9f69e2e1308306646a52d",
+        "research/source-access.json": "8d864fda03fc023294f14b167cf56e18fa47e3c3a732e4beafa50f1bb69a85d9",
+        "review/packets.json": "a827d6c326e0b3447976c282272b9b0c69e332ec6baf434af430ff3843c5fda3",
+        "review/handoff-manifest.json": "91f86d85df10072fef1b46871ef1e7958c7bc8a2f7f5ae83d70272798deecf11",
+        "research/source-worklist.json": "79eb737c1d67db89a12d03fc5fb20623cd55ce117446662d0a619960e856f95a",
+        "research/publication-reconciliation.json": "6a1df4a476c7b5d9aeaed85205283912f86646700f2b1f13b61ed676e63de022",
+        "research/collection-work-ledger.json": "7e56ef1633d4a46c692a5a52cd27489b60e670a2ff72e05f1e5beacde76b1c13",
+        "review/collection-packet.json": "5804b49702866ff183dc98e0c5312faac7823953c0a24df2a548522950156a01",
+        "interchange/epidoc/ediana-reference.xml": "30329adb0dcf7babace30213061bc839d80c3f3e9f2deb1bd4a9bc0ca6fdbe02",
+        "interchange/export-manifest.json": "0e82a87b5099e9ed6126a6fa1aa88b6c3fb89a82d57cd8f20b73055654d1d618",
+        "analysis/upstream-epidoc-validation.json": "4e09ed53316dde0c1a59acc826123e2b0690cfe94d1808af2f1ffdfde6437f7e",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "docs/EPIDOC-REFERENCE.md": "61a18b24f42504978aea8849f528be835bec6152f239821538389bc0b8cf44a5",
+        "research/source-action-plan.json": "9dc65a945c8228b058f5185653b33131443eaff78be863dd2e4ffffbc473b8e3",
+        "docs/SOURCE-ACTION-PLAN.md": "eb0e322423ccc9d8ef6239e5c327e73d320acdbe2d2a905e541ce3451b935017",
+        "research/cross-corpus-dependencies.json": "b2890d635b92ced93c216db958cfc41b9db9f4aed5d754d270e2b68d7b10cd94",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "dec7e02a345d82430d258d6e23695fe0607b32c5172aa3796203022fe9d11fee"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "checkout_base_commit": "90d74c9d0872d365e4189d57f957859173f03beb",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/build_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/build_collection_handoff.py",
+          "exit": 0
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "pinned upstream EpiDoc integration tests",
+          "exit": 0,
+          "tests": 4,
+          "schema_commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+          "compiler_commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56"
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "analysis/current-status.json": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311",
+        "data/reference/records.json": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+        "research/source-register.json": "bb91a0edbd9cffa134befb40b45104665c91e703a32ac0711791d9ee05569905",
+        "DATA-LICENSE-MATRIX.md": "6daff2528007b5a79fead00b31fedcf4158d0de3c2b635138b74a2f9834749a3",
+        "research/rights-evidence.json": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca",
+        "NOTICE": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0",
+        "THIRD-PARTY-NOTICES.md": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e",
+        "analysis/record-admission.json": "c8da13839e75dc2de71437f72e31d127db7635020851bf4f523d5b15f502f1d8",
+        "analysis/benchmark-status.json": "cc51d236e59f6ebb59756c87d93dd5aeec01c321938617db912b168a0d268247",
+        "research/edition-dependencies.json": "11d8a8cff346f03e887d9d1ecd814447bfabd76c9bbcf812825aa32217139922",
+        "research/admission-policy.json": "175399b744d600673163ec4350b272dc10a54f2246f9e26f9bdb1a7857afc1d0",
+        "research/source-frontier.json": "aa5c63a35e38f69ca1d62c50e3b2e141a0e18392511d6b5ed0e80a6382d634f2",
+        "research/source-issues.json": "c6a7bc889fa15a797d4a90978cd3a5a26d3eeea82f50b0bc1233d92528ffe521",
+        "research/pre-expert-maximum.json": "1bdbf8284bbd63ffcbf2a22a42f509d6eae5970267357b36b19a674fc68b509a",
+        "research/acquisition.json": "2226aa0ac20d091a69b3824816d45b68b150def195ec3af5ec7bc42c5ba0b1c1",
+        "data/upstream/ediana/bibliography.json": "eda4e745510732753cab933ef38f09291f4a075495ca67f5fb3e1513facf8b91",
+        "ai-skill/SKILL.md": "3a4f1778647659212f1251ccc59563b018a01bf06bd9e037597c17e57a83028c",
+        "research/source-checks.json": "b6add789bd9f6a5ad36269274a99c4818cf20a466d10d6a7573242b27b70f827",
+        "research/source-access.json": "a6aa23627292fe239e08de5a2948d2620e12e2722479cc161b6ba2d8ec452233",
+        "review/packets.json": "35b7450f46568a26c762a8381768a3df1d092b5b3074bd4171bae79fc8268478",
+        "review/handoff-manifest.json": "d2070a86bdd010fc2f0cdd43890ce2ed32bbe6d29f32d8bd34ebf90f1535eea5",
+        "research/source-worklist.json": "f2c4905dddfb5fbfb26740c7040d2f7fa19baf19d3717c847fa022a49594b153",
+        "research/publication-reconciliation.json": "fd9ab848702a8f1906a4435a878c54224036566bef925ce2b4430381f4ec5378",
+        "research/collection-work-ledger.json": "4f11f620c668010f9f18215cd2957b74f169c45e30581d1212c38ba2725d3fb9",
+        "review/collection-packet.json": "6468a5f8b7e5dd36166e79db71a482a15e757757f3d638148914dbc27a91679e",
+        "interchange/epidoc/ediana-reference.xml": "cf49db738de7f7bb40160566ba71ef975e40d3f108c69cc973563cbc03ea209f",
+        "interchange/export-manifest.json": "0828d5400c3fa1542000eb697600a5c24ceebe69da511ecc4bf6fea3b36c993b",
+        "analysis/upstream-epidoc-validation.json": "63ab057f01de80744fad30b9c7e522ebefdb6e0fbd20bd9119e3d1b7ba394203",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "docs/EPIDOC-REFERENCE.md": "f84786473eb9476e1e5f2609bf03434a7ed6ec7d9c577bc55255f11032aa27ab",
+        "research/cross-corpus-dependencies.json": "f13c10dcf23f224903d37356cf122e04a3a33b6a01598c174573c5d071d47deb",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "dec7e02a345d82430d258d6e23695fe0607b32c5172aa3796203022fe9d11fee"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "checkout_base_commit": "1cba0dfe51a33f3aea6e4171e3a11409222ff1fe",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0
+        },
+        {
+          "command": "python scripts/test_current_summary.py",
+          "exit": 0
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0
+        },
+        {
+          "command": "pinned upstream EpiDoc integration tests",
+          "exit": 0,
+          "tests": 4,
+          "schema_commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+          "compiler_commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56"
+        }
+      ],
+      "native_authority_sha256_at_validation": {
+        "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+        "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
+        "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
+        "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+        "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+        "scripts/validate_upstream_epidoc.py": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
+        "research/primary-edition-locator-control.json": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
+        "README.md": "cc88a78574d854784254c761b643bbe9aee8f17f70048c47896924dfe70bdfcc",
+        "scripts/build_current_summary.py": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+        "research/cross-corpus-dependencies.json": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
+        "ai-skill/scripts/publish_sync.py": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+        "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0"
+      }
+    }
+  ],
+  "master_source_receipts": {
+    "published_projections": 17,
+    "source_supported_groups": 15,
+    "original_file_hashes_and_json_pointers_replayed": true
+  },
+  "initial_harness_corrections": "Installed declared validation dependencies; supplied pinned EpiDoc/compiler paths and exact authenticated DAMOS CLI inputs; regenerated affected current-state/workbench/collection/bundle fingerprints after source changes. No failing source assertion was suppressed."
+}

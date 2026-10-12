@@ -9,7 +9,7 @@
     "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
   },
   "enumerated_record_keys": 0,
-  "evidence_fingerprint": "e2aeabca60037a1a25ed32955a623f19625df8df5996533b3467f93901f0a89e",
+  "evidence_fingerprint": "de0b65cce6613e2501d3e52a66fa163e148a3f66c68a232b1c37c820e6e4478e",
   "ledger_path": "research/collection-work-ledger.json",
   "native_review_links": [
     "docs/PRE-EXPERT-HANDOFF.md"

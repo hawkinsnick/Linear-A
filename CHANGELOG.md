@@ -59,3 +59,7 @@ Pinned statistical repair executed twice with byte-identical results on 1283 non
 
 ## 2026-10-11 — current-summary reconciliation
 Generate the current README summary from native authorities and reject drift in CI. Update individual skill authority routing; retain historical research gates and release scope.
+
+## 2026-10-12 — remaining publication and master dependency defects
+
+Guard native bundle and master starter publication against source changes; remove legacy duplicate publishers in the Lydian/Sidetic/Pisidian workflows; restore the 15-group master dependency register from 17 immutable native projections. Native and master skills require the new controls. Scholarly, source-rights and calibration gates remain explicit.

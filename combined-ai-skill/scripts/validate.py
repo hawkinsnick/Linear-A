@@ -51,3 +51,6 @@ if (match.group(1) if match else None)!=manifest.get("version"): errors.append("
 if errors:
     print("\n".join(errors)); sys.exit(1)
 print(f"Combined registry PASS: {len(members)} registered projects, {sum(m.get('admission',{}).get('status')=='PASS' for m in members)} admitted, {sum(m.get('admission',{}).get('status')=='PENDING' for m in members)} pending; {len(cases)} adversarial cases")
+
+import subprocess
+subprocess.run([sys.executable, str(R.parent / 'corpus-factory/check_cross_corpus_dependencies.py')], check=True)

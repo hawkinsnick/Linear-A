@@ -10,6 +10,9 @@ ROOT = Path(__file__).resolve().parents[2]
 STARTER = "Combined-Corpus-Research-Starter"
 EXCLUDED = {"hawkinsnick/LightroomIsSlow", "hawkinsnick/Egyptian-Hieroglyphic-Corpus"}
 SOURCE_PATHS = (
+    "corpus-factory/defect-validation-2026-10-12.json",
+    "corpus-factory/cross-corpus-dependencies.json",
+    "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
     "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
     "corpus-factory/PRIORITY-REVIEW-2026-10-11.md",
     "corpus-factory/RECONCILIATION-ONLY-2026-10-11.md", "corpus-factory/fleet-enumeration-audit-v2.json",
@@ -81,7 +84,7 @@ def build(root=ROOT):
               "AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.\n"
               "Directory summaries are snapshot routing metadata, not current independently checked inscription facts.\n"
               "If a required member file cannot be accessed, identify what is missing and help select the next files.\n\n")
-    order = ["combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
+    order = ["corpus-factory/DEFECT-REMEDIATION-2026-10-12.md", "corpus-factory/cross-corpus-dependencies.json", "combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
              "combined-ai-skill/SKILL.md", "combined-ai-skill/EXPERT-REVIEW.md", "combined-ai-skill/CORPUS-DOWNLOADS.md",
              "combined-ai-skill/registry/corpus-projects.json",
              "combined-ai-skill/references/comparability-matrix.md",

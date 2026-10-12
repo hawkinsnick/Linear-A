@@ -315,8 +315,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "f8e809d953ad83e75d33cacadd36f93e94cdd01f87f55f70e5fa53232ca2a36f",
-      "bytes": 4518,
+      "sha256": "2a07575c7f024f6eef8682b7db3c0e64f5e12348302ebc18b667f34f0cf8fbe3",
+      "bytes": 4670,
       "category": ".github",
       "summary": {}
     },
@@ -554,6 +554,73 @@
       "sha256": "bc11b9fc1da65d7f594f94639ef5bb886fef3157eb1a1b75e3d315c4f36150eb",
       "bytes": 1167,
       "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
+      "sha256": "d07626727d2f641db1dd0e87a0c65878a3d4255b2e48b118f9ee8d9b20b97778",
+      "bytes": 3429,
+      "category": "corpus-factory",
+      "summary": {}
+    },
+    {
+      "path": "corpus-factory/cross-corpus-dependencies.json",
+      "sha256": "623c843ffdf201b73b66809595889ab4b0d025088043411574d39feacfde4c05",
+      "bytes": 29447,
+      "category": "corpus-factory",
+      "summary": {
+        "scope": "Known source-supported cross-repository dependencies only. Absence from this register is not proof of independence or physical uniqueness."
+      }
+    },
+    {
+      "path": "corpus-factory/check_cross_corpus_dependencies.py",
+      "sha256": "ddf35d5cd47b97ad4731773726da017d835e9f6172aed7d8ee139a12207960c7",
+      "bytes": 5081,
+      "category": "corpus-factory",
+      "summary": {}
+    },
+    {
+      "path": "corpus-factory/test_cross_corpus_dependencies.py",
+      "sha256": "d30c882ca32c9d251fbfd86f1ff411d159cedf8ded9a131fde5048cf0ea863f1",
+      "bytes": 1735,
+      "category": "corpus-factory",
+      "summary": {}
+    },
+    {
+      "path": "docs/AI-INTEGRITY.md",
+      "sha256": "15b1be2fa019d1340ccfaf857649e9f4dcb18c27c0033144f65c01db1b93783a",
+      "bytes": 2233,
+      "category": "docs",
+      "summary": {}
+    },
+    {
+      "path": "research/cross-corpus-dependencies.json",
+      "sha256": "b42507756a270f8b1365f67819e613b2e82a5d76ab78238bec55447750b925ba",
+      "bytes": 449,
+      "category": "research",
+      "summary": {
+        "scope": "Known source-supported cross-repository dependencies only. Absence from this register is not proof of independence or physical uniqueness."
+      }
+    },
+    {
+      "path": "scripts/check_cross_corpus_dependencies.py",
+      "sha256": "7597a3863ccfc479e8f6be981fb5a34ae8aa2f61f978fc406ee6b6bf089ca2f9",
+      "bytes": 3007,
+      "category": "scripts",
+      "summary": {}
+    },
+    {
+      "path": "ai-skill/scripts/publish_sync.py",
+      "sha256": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+      "bytes": 2836,
+      "category": "ai-skill",
+      "summary": {}
+    },
+    {
+      "path": "combined-ai-skill/scripts/publish_starter.py",
+      "sha256": "7aabe4c1c6d50c8349b0c8e51b5bb5cc86aa439840d43706fbf7941da141d336",
+      "bytes": 2556,
+      "category": "combined-ai-skill",
       "summary": {}
     }
   ],

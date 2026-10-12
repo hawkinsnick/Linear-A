@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "a4bb8501f6a88b00cc0a5897c3ee7815ddda900f22fa7ff0d80ef6da88f77d25",
+  "build_script_sha256": "3ccc2aa58e5593db0865eb37e67c0799268a604b4b991ad6436622082f069948",
   "source_files": [
     {
       "path": "LICENSE",
@@ -50,13 +50,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "f0518220d5e180e99354dbb111f785a9d3c4140a7c03fec8620ef0b076615175",
-      "bytes": 9124
+      "sha256": "f16f969dd1f959bf07c348050b70f1472feae9a53a1daba3719d16482a1606a9",
+      "bytes": 9440
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "28990e2d68cfae555adbfcdab215ab7872097f0cf41d2c46c1790e06106e5c2e",
-      "bytes": 33726
+      "sha256": "ad354d92badd97c7097e9076528a258536e7f595cccff6219582150bdadcda95",
+      "bytes": 35195
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -84,6 +84,11 @@
       "bytes": 46315
     },
     {
+      "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
+      "sha256": "d07626727d2f641db1dd0e87a0c65878a3d4255b2e48b118f9ee8d9b20b97778",
+      "bytes": 3429
+    },
+    {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
       "sha256": "0ef8a02ef96d4daa45f4812408f58270ac4ddaafed6e92d9fb8a7b822a1c3620",
       "bytes": 3435
@@ -109,6 +114,16 @@
       "bytes": 99158
     },
     {
+      "path": "corpus-factory/cross-corpus-dependencies.json",
+      "sha256": "623c843ffdf201b73b66809595889ab4b0d025088043411574d39feacfde4c05",
+      "bytes": 29447
+    },
+    {
+      "path": "corpus-factory/defect-validation-2026-10-12.json",
+      "sha256": "ab552dae40c4e57f4ee0b9f2ab310aa59fa5582f332d116313d699a54603b598",
+      "bytes": 69535
+    },
+    {
       "path": "corpus-factory/fleet-enumeration-audit-v2.json",
       "sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
       "bytes": 100819
@@ -129,5 +144,5 @@
       "bytes": 2915
     }
   ],
-  "snapshot_sha256": "0e9de4ce547964a8b7704b1fa8a31f8859eda54eb39e8a0b80a49c4380e103bf"
+  "snapshot_sha256": "bc24683f5119895bc2e59a963754bed5ef0afe91a51d1e5341504bcbaae31410"
 }

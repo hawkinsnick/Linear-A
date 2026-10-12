@@ -144,3 +144,7 @@ Measured 836 distinct types, 668 hapax types and 168 recurrent types among 1,283
 The Linear A corpus has reached its machine-resolvable pre-expert maximum under currently admitted evidence. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
 
 Fleet software admission reconciliation and retained scholarly gates: [10 October record](docs/FLEET-RECONCILIATION-2026-10-10.md).
+
+## Publication and dependency repairs
+
+The [2026-10-12 defect checkpoint](corpus-factory/DEFECT-REMEDIATION-2026-10-12.md) records source-parent publication guards, removal of duplicate publishers and restoration of the master source-dependency register. These engineering repairs grant no scholarly acceptance.

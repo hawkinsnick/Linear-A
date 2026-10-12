@@ -95,3 +95,7 @@ Read `corpus-factory/RECONCILIATION-ONLY-2026-10-11.md`, `corpus-factory/fleet-e
 Read `corpus-factory/PRIORITY-REVIEW-2026-10-11.md` when planning subsequent corpus work. It distinguishes a confirmed apparatus-delivery gap, synchronization ordering risk, required shared-evidence safeguards and unresolved scholarly decisions. These are proposed fixes, not completed remediation or new scientific acceptance. Do not interpret absent CI on a generated sync head as a passed or failed source build.
 
 Use `corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md` to assess scoped pre-expert handoff readiness. Finish source acquisition/reconciliation and independent nonexpert repairs before final expert acceptance; do not relabel missing access, licensing or calibration data as an expert-only blocker.
+
+## Publication and dependency repairs
+
+The [2026-10-12 defect checkpoint](../corpus-factory/DEFECT-REMEDIATION-2026-10-12.md) records source-parent publication guards, removal of duplicate publishers and restoration of the master source-dependency register. These engineering repairs grant no scholarly acceptance.

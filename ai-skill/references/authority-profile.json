@@ -101,6 +101,36 @@
       "role": "pre_expert_exit_criteria",
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
       "required": true
+    },
+    {
+      "role": "cross_corpus_dependencies",
+      "path": "research/cross-corpus-dependencies.json",
+      "required": true
+    },
+    {
+      "role": "ai_integrity_guide",
+      "path": "docs/AI-INTEGRITY.md",
+      "required": true
+    },
+    {
+      "role": "master_cross_corpus_dependencies",
+      "path": "corpus-factory/cross-corpus-dependencies.json",
+      "required": true
+    },
+    {
+      "role": "defect_remediation_checkpoint",
+      "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
+      "required": true
+    },
+    {
+      "role": "native_skill_instructions",
+      "path": "ai-skill/SKILL.md",
+      "required": true
+    },
+    {
+      "role": "defect_validation_receipts",
+      "path": "corpus-factory/defect-validation-2026-10-12.json",
+      "required": true
     }
   ],
   "behavioral_gates": [
