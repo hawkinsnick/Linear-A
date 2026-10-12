@@ -19,3 +19,6 @@ CM’s 21 rich records and existing occurrences remain unchanged. The primary co
 Native authorities are `docs/SOURCE-GROWTH-2026-10-12.md`, `analysis/source-growth-2026-10-12.json`, the new source views, and `scripts/source_growth.py` in each member. Current-state, native dossier, family-readiness and collection receipts are refreshed while scientific gates remain unchanged. Each individual skill and the master researcher starter carry the source boundaries.
 
 The actual build receipt is `ch-cm-source-growth-build-2026-10-12.json`. Its base commits and file digests identify the inspected checkpoint; a later source revision must replay its own receipts. Final acceptance requires primary sign/apparatus reconciliation, appropriate source delivery/permissions and independent specialists. No rights-only or expert-only readiness is asserted.
+
+
+Further primary inspection: the Tiryns appendix on printed p. 38 / PDF p. 39 qualifies the count as `3 (?) signs` and gives `VC`, while the description gives `VB`. Both source assertions remain explicit and unresolved; source comparison grants no automatic correction.

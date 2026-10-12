@@ -6,7 +6,7 @@
     "registered_members": 18,
     "materialized_members": 18,
     "record_view_rows": 10759,
-    "record_payload_sha256": "eff44a9e373702abf680dac4b6c0f04d9803d8fb08235c9d581ff130c14f6882",
+    "record_payload_sha256": "977295b38898e26373b8b29bc9d17eb30adc14a1ead066828f22554d150b8d74",
     "record_rows_are_not_unique_inscription_counts": true,
     "physical_object_count": null,
     "independent_witness_count": null,
@@ -18,7 +18,7 @@
     "members": [
       {
         "repository": "hawkinsnick/Linear-A",
-        "checkout_base_commit": "1503d977e21006f2a50d19261e3ec08fdf79d8fa",
+        "checkout_base_commit": "83e21c9366cc7f7875314067e74b88c9d5b415bd",
         "configuration_sha256": "5988eabc100e68c5a2fa4fb1193d003744b9ae163ffbe0edcd1f67ed749635d9",
         "views": [
           {
@@ -45,7 +45,7 @@
       },
       {
         "repository": "hawkinsnick/Cypro-Minoan",
-        "checkout_base_commit": "07f2193b2f7358ca026b88c284a8ab178ea61888",
+        "checkout_base_commit": "78fb29f419e15726f6ca0958c2a52ebbac163ce0",
         "configuration_sha256": "b8b03c14bc204cb45a3fed6da5839ea1a9a12aeb176fa1d4c07197d4c436505e",
         "views": [
           {
@@ -86,7 +86,7 @@
             "local_only": false,
             "status": "MATERIALIZED_NATIVE_VIEW",
             "rows": 1,
-            "sha256": "18224dcdf01e6d62d4aaafcac7dbdb39424a925578800e45695f89ff9d308813"
+            "sha256": "619067c0c92887337111f9fac3f8739c3a73c58f1232fb1eba9dc4d91edfabda"
           }
         ]
       },
@@ -119,7 +119,7 @@
       },
       {
         "repository": "hawkinsnick/Cretan-hieroglyphs",
-        "checkout_base_commit": "0e52e4270169ada7e10104237db9343b4fef93be",
+        "checkout_base_commit": "f3237b49e6fb2238bd04174f39c634d99d56bed0",
         "configuration_sha256": "77429320ef46b4a5c37373f126199a431c5cfb0cd39538457715d32863344105",
         "views": [
           {
@@ -497,15 +497,20 @@
   "verification": {
     "status": "PASS_PACKAGE_INTEGRITY",
     "record_view_rows": 10759,
-    "manifest_sha256": "cacd9ddf788f4b7183c9f6a139f926b2ff5a19686983f662e9a2c786442e8aeb",
+    "manifest_sha256": "d239b09d309a1d1f7e976d79457bb5cbd8a5514d7867593e99c85dce4172b576",
     "external_receipt_checked": false,
     "scientific_approval_granted": false
   },
   "validation": {
     "CH_hostile_tests": 7,
-    "CM_hostile_tests": 8,
+    "CM_hostile_tests": 9,
     "actual_CH_index_and_unmapped_source_replay": true,
-    "actual_CM_museum_and_PDF_replay": true
+    "actual_CM_museum_and_PDF_replay": true,
+    "visually_inspected_Tiryns_PDF_pages": [
+      2,
+      16,
+      39
+    ]
   },
   "scientific_approval_granted": false
 }
