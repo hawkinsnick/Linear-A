@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "ce00dfde19ac97cde712c6df82fff945a5b57cb8",
-  "generated_at_utc": "2026-10-12T14:24:11+00:00",
+  "source_commit": "9aa584129c6eda50e694aa9d19d4e2e422969e54",
+  "generated_at_utc": "2026-10-12T16:02:38+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,30 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "source_delivery_guide",
+      "path": "corpus-factory/SOURCE-DELIVERY-2026-10-12.md",
+      "sha256": "c6d53a92c3c7572ba05e6fab22fe531a2f3639537e788f1174d8bd797ffa3116",
+      "bytes": 3881
+    },
+    {
+      "role": "source_delivery_worklist",
+      "path": "corpus-factory/source-delivery-worklist-2026-10-12.json",
+      "sha256": "5d5f0ea388a159bb08c0412fddf229ed62cad63fd5b0d2e78b88bf941d74efef",
+      "bytes": 2009
+    },
+    {
+      "role": "source_access_and_delivery",
+      "path": "research/source-access-delivery-2026-10-12.json",
+      "sha256": "ec8921137621724804b7ee2795c6eb7df4dbd5f978ff6bf14f162506839ed926",
+      "bytes": 3099
+    },
+    {
+      "role": "source_delivery_requests",
+      "path": "docs/RAISON-POPE-ACCESS-FOLLOWUP.md",
+      "sha256": "7b3ca0d6013e3ba52a01a179fa1ac08490ed6718513b90abe2d602681dcfe53b",
+      "bytes": 2842
+    },
     {
       "role": "coverage_expansion_guide",
       "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
@@ -40,8 +64,8 @@
     {
       "role": "mega_corpus_builder",
       "path": "corpus-factory/build_mega_corpus.py",
-      "sha256": "af2f62577d077b8ac8a857d4c83bac648011a57b90e147913de3b2a82902c525",
-      "bytes": 15395
+      "sha256": "ebc8618f0bb1aa70fdc2ad2e4e7080a6f78b3fe7ff6973284cda80958bb1cd6a",
+      "bytes": 15716
     },
     {
       "role": "mega_corpus_query",
@@ -58,8 +82,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "4400d8a18d2a3a664018d392aab22d9ba000af1e05b0ca8dfe9ee4b5c54ae7c2",
-      "bytes": 19336
+      "sha256": "f6be86d75d4d5bd609e101af7e7d1125a3378c1c1577518ef74f5d4cea210a1a",
+      "bytes": 19869
     },
     {
       "role": "cross_corpus_dependencies",
@@ -100,8 +124,8 @@
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
-      "sha256": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4",
-      "bytes": 2028
+      "sha256": "832939fccf5d6cc4d7bd367189861977dc31b8113306d1efa2c2b8840cb1d960",
+      "bytes": 2697
     },
     {
       "role": "source_action_guide",
@@ -112,8 +136,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "be8f9d2bf63b67485ea16acfe46caa28b03bd031fa0152569a57a6abb3dc9504",
-      "bytes": 12912
+      "sha256": "56cee1949ae83a15350a58cf39f6bf4a602a5241b107f7aa1a6662ad83c21124",
+      "bytes": 13398
     },
     {
       "role": "current_summary_builder",
@@ -142,14 +166,14 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "1f3aff5e0bb7e6346a81ff24e13a12183a597a157ffa654a6236e6d82b2b932d",
-      "bytes": 8512
+      "sha256": "5ed71eaee4a1089b14d5b24b56a3fccab6e9268bcce33e9fe8b6d304342ec6b9",
+      "bytes": 11550
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "b144d9bcd2f7ba760699aef05c07a79dc98d5188b8af008c5a89d9079e208725",
-      "bytes": 1820
+      "sha256": "f044081105b9690d8804ded326e810f421ce512c1b3dbf82612ff1ec1699a2ba",
+      "bytes": 1821
     },
     {
       "role": "collection_review_guide",
@@ -340,7 +364,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "43412996ca0fb70846b4e55d013d92d38fb2c825e93110b60002d642e57298e2",
+      "sha256": "1f00463ac8076087b51ea2aec776a0b18079e977bb18d7001e4ee2ec70349a53",
       "bytes": 18211
     },
     {
