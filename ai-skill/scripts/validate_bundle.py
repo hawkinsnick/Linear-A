@@ -23,3 +23,7 @@ for req in profile.get("required_authorities",[]):
 if not bundle.get("source_commit"): errors.append("missing source commit")
 if errors: print("\n".join(errors));sys.exit(1)
 print(f"{profile['corpus']} AI integration validation PASS")
+
+import subprocess
+subprocess.run([sys.executable, 'scripts/check_cross_corpus_dependencies.py'], cwd=R, check=True)
+subprocess.run([sys.executable, 'corpus-factory/check_cross_corpus_dependencies.py'], cwd=R, check=True)

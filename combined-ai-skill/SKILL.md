@@ -231,3 +231,11 @@ The supplementary Donnelly 2020 pp. 104–105 / Fig. 3 inspection confirms the a
 Read `corpus-factory/PRIORITY-REVIEW-2026-10-11.md` when planning subsequent corpus work. It distinguishes a confirmed apparatus-delivery gap, synchronization ordering risk, required shared-evidence safeguards and unresolved scholarly decisions. These are proposed fixes, not completed remediation or new scientific acceptance. Do not interpret absent CI on a generated sync head as a passed or failed source build.
 
 Use `corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md` to assess scoped pre-expert handoff readiness. Finish source acquisition/reconciliation and independent nonexpert repairs before final expert acceptance; do not relabel missing access, licensing or calibration data as an expert-only blocker.
+
+## Published dependency and synchronization controls
+
+Read `corpus-factory/DEFECT-REMEDIATION-2026-10-12.md` for the repair checkpoint superseding the proposed software fixes in the October 11 priority review. Use `corpus-factory/cross-corpus-dependencies.json` for the 15 known source-supported relationships restored from 17 published native projections. Screen record selections with `python corpus-factory/check_cross_corpus_dependencies.py --records repository::record-id ...`. Unknown relationships remain unknown; pooled physical-object counts, independent-witness counts and phonetic transfer are prohibited by this register. These are bounded source assertions, not physical certification or exhaustive discovery.
+
+Generated native bundles and master starter downloads must be built and validated on their exact source parent. A changed main branch must skip or reject publication and trigger a rebuild; never rebase or force-push validated artifacts. Lydian, Sidetic and Pisidian use one guarded automatic publisher each. Read the native corpus authorities before any scientific claim. Source-access/permission, unresolved readings, independent review and Linear B calibration prerequisites remain explicit dependencies.
+
+Consult `corpus-factory/defect-validation-2026-10-12.json` for the exact local validation scope and fingerprints. These receipts describe validation stages on named base commits; final published revisions require their own CI evidence.

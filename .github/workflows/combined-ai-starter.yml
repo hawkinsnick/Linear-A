@@ -40,7 +40,7 @@ jobs:
       - run: python combined-ai-skill/scripts/validate.py
       - name: Build starter archive
         run: python combined-ai-skill/scripts/build_starter.py --write --zip-output "${{ runner.temp }}/Combined-Corpus-Research-Starter.zip"
-      - run: python -m unittest discover -s combined-ai-skill/tests -p 'test_starter.py' -v
+      - run: python -m unittest discover -s combined-ai-skill/tests -p 'test_starter*.py' -v
       - name: Check committed downloads on pull requests
         if: github.event_name == 'pull_request'
         run: git diff --exit-code -- combined-ai-skill/downloads combined-ai-skill/CORPUS-DOWNLOADS.md
@@ -66,14 +66,9 @@ jobs:
       - name: Refresh current text download
         run: |
           python combined-ai-skill/scripts/build_starter.py --write --check
-          if ! git diff --quiet -- combined-ai-skill/downloads combined-ai-skill/CORPUS-DOWNLOADS.md; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add combined-ai-skill/downloads combined-ai-skill/CORPUS-DOWNLOADS.md
-            git commit -m 'Refresh researcher starter downloads'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python combined-ai-skill/scripts/publish_starter.py --source "$GITHUB_SHA"
       - uses: actions/download-artifact@v4
         with:
           name: combined-corpus-research-starter
