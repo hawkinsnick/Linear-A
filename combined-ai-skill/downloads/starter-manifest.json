@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "a127740e484ab1ce724d4f6396df46e51cb38181e82efe561826334fc1e5073d",
+  "build_script_sha256": "03dd53a45c6a919ebef3d45f4f615fb6195844f8f7d2ff7188744c4540ce6128",
   "source_files": [
     {
       "path": "LICENSE",
@@ -50,13 +50,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "5a6832a8c7f46927cd0f118262f25cae1bbbb0a1915b955b736adbb5cfd18ee2",
-      "bytes": 10137
+      "sha256": "354713efde8642663c94b1499ec2d7699b5dd272e963bef516b49c55a8b398e4",
+      "bytes": 10932
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "91d647b13e9a0257db30b6349ba5a5f6babd407b7672cb547728788cf7faa7c1",
-      "bytes": 39900
+      "sha256": "034984e7818f69f3e4efcdc9b44d8bf8f32e49c31c2d5dfa5f81994e5daf3fae",
+      "bytes": 40695
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -89,6 +89,11 @@
       "bytes": 3381
     },
     {
+      "path": "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md",
+      "sha256": "bb3189354f0595c65ceda65d4bbf3a675c661c1e1cf56cfc85d94fcdc6248f49",
+      "bytes": 3253
+    },
+    {
       "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
       "sha256": "c9e032eb54118608a70c1b39fac86f52c1891d4d433924034bca51140856aedb",
       "bytes": 2460
@@ -100,8 +105,8 @@
     },
     {
       "path": "corpus-factory/MEGA-CORPUS.md",
-      "sha256": "c0a38ccd1d7804e2771e3b33d51a1fe86ee99b0b2c1f4742e8b7426c8a96d432",
-      "bytes": 6598
+      "sha256": "2f3caee339ba05c23cc1c300e093a06ae7083800898e76386841f773788bf2f0",
+      "bytes": 6787
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -174,5 +179,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "85360c2ea2528538aa11004348e0ac75cd2db40f5b1f4a641492dd75934e09e8"
+  "snapshot_sha256": "bbeb6f213ac12418751f0bd544e28a2f1eb1d4be3578bb2fc9d7877994024b2e"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "3783378e9f298cc497d43d66efdef19266d2e117",
-  "generated_at_utc": "2026-10-12T18:29:38+00:00",
+  "source_commit": "83e21c9366cc7f7875314067e74b88c9d5b415bd",
+  "generated_at_utc": "2026-10-12T20:17:02+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,18 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "ch_cm_source_growth",
+      "path": "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md",
+      "sha256": "bb3189354f0595c65ceda65d4bbf3a675c661c1e1cf56cfc85d94fcdc6248f49",
+      "bytes": 3253
+    },
+    {
+      "role": "ch_cm_actual_build",
+      "path": "corpus-factory/ch-cm-source-growth-build-2026-10-12.json",
+      "sha256": "1e5cb8c11f44fe9de7f4703876a583d76a0b319814360580ca756dc5c5a9f580",
+      "bytes": 20209
+    },
     {
       "role": "evidence_growth_guide",
       "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
@@ -64,8 +76,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "91d647b13e9a0257db30b6349ba5a5f6babd407b7672cb547728788cf7faa7c1",
-      "bytes": 39900
+      "sha256": "034984e7818f69f3e4efcdc9b44d8bf8f32e49c31c2d5dfa5f81994e5daf3fae",
+      "bytes": 40695
     },
     {
       "role": "source_delivery_guide",
@@ -112,14 +124,14 @@
     {
       "role": "mega_corpus_guide",
       "path": "corpus-factory/MEGA-CORPUS.md",
-      "sha256": "c0a38ccd1d7804e2771e3b33d51a1fe86ee99b0b2c1f4742e8b7426c8a96d432",
-      "bytes": 6598
+      "sha256": "2f3caee339ba05c23cc1c300e093a06ae7083800898e76386841f773788bf2f0",
+      "bytes": 6787
     },
     {
       "role": "mega_corpus_builder",
       "path": "corpus-factory/build_mega_corpus.py",
-      "sha256": "9a0af3765d4e236772e41f91ddddc2db1fc3b7f549cb76268eca135a34a5bd2e",
-      "bytes": 16195
+      "sha256": "c547c59554960fa82afa49e79fec606fd5ccd3c9a92a3108fd446cc5ce199246",
+      "bytes": 16456
     },
     {
       "role": "mega_corpus_query",
@@ -190,14 +202,14 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "1c6274b5cb0c9025e65856cbb8dc6a69fde93d05ddaed0f8e8acc06cb72aaa2f",
-      "bytes": 14161
+      "sha256": "a9cc6e855cc8eb12c0ae74f106bafb90ec9b83b11f68860e0ae3dddda1b2c2f5",
+      "bytes": 14376
     },
     {
       "role": "current_summary_builder",
       "path": "scripts/build_current_summary.py",
-      "sha256": "26258c9a73da86daf738e6678b3e87abd292d4fc37e615d076a2eb82b5c35618",
-      "bytes": 4930
+      "sha256": "ab81007b031b180cf1d0fca3e0dbd2ec55e211806fd54d285d069bd03e365f86",
+      "bytes": 5311
     },
     {
       "role": "p1_reconciliation",
@@ -220,13 +232,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "865bb23476a026ec5164870a15380b7bf5abc78cdaa26049c058ceca18b2d576",
+      "sha256": "dfc8b1a7d478685dc25462ba1a85456e2b2435ec579b8748e246c83dfc9d9ba3",
       "bytes": 841583
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "e9fbd76476a407c3d1a9c9ac12a43458b2aa00d842f539394e8baa5317823ae3",
+      "sha256": "19d530f40537bfccae7a3315b23657e001b8f678d6085b5a27257b0889ff56ab",
       "bytes": 1824
     },
     {
@@ -418,7 +430,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "bb3285ebaa0c87902a42edfb460d25e75bd311e6d3b137e603eb2b1ae9736a8a",
+      "sha256": "10a9979afd89ce197a1a522273105e66b0748e46dd0a11f578cf9cc6519ec74d",
       "bytes": 18211
     },
     {
