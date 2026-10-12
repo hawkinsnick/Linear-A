@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "2a67d304a7f8dd6e3e2186dc9a1a1c677865f810",
-  "generated_at_utc": "2026-10-12T12:59:05+00:00",
+  "source_commit": "c39102ae6cb9d0544d5ccde6b2cbf018a20800f5",
+  "generated_at_utc": "2026-10-12T14:15:21+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -14,6 +14,18 @@
   },
   "artifacts": [
     {
+      "role": "coverage_expansion_guide",
+      "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
+      "sha256": "c9e032eb54118608a70c1b39fac86f52c1891d4d433924034bca51140856aedb",
+      "bytes": 2460
+    },
+    {
+      "role": "coverage_expansion_actual_receipt",
+      "path": "corpus-factory/mega-corpus-expansion-build-2026-10-12.json",
+      "sha256": "42007cd1654e2632656d57ee22e96c9dc10e1b04850d6ce9264afef5c325a036",
+      "bytes": 83534
+    },
+    {
       "role": "mega_corpus_actual_receipt",
       "path": "corpus-factory/mega-corpus-build-2026-10-12.json",
       "sha256": "b860538044d3bcb1b8fbc1c9f87b207570f2d9966528b2220de78105077b1450",
@@ -22,8 +34,8 @@
     {
       "role": "mega_corpus_guide",
       "path": "corpus-factory/MEGA-CORPUS.md",
-      "sha256": "6dc9b5ba3fc10d07631308090f077965908f495c18cf774330dac437e0172871",
-      "bytes": 5251
+      "sha256": "6bd3093f02eee399ef0a7bda867fe6d9f41bd433df2cd220ccc9d32651a88abb",
+      "bytes": 6401
     },
     {
       "role": "mega_corpus_builder",
@@ -46,8 +58,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "d211c7043e817fc39dcedb06b2c48a8b20056a2b84f3d6f2d49282f5fca32102",
-      "bytes": 19086
+      "sha256": "4400d8a18d2a3a664018d392aab22d9ba000af1e05b0ca8dfe9ee4b5c54ae7c2",
+      "bytes": 19336
     },
     {
       "role": "cross_corpus_dependencies",
@@ -100,14 +112,14 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "25139426a1e1e2ebcb55683843ee656dd486841187f66a3100d253a817e533d5",
-      "bytes": 12584
+      "sha256": "be8f9d2bf63b67485ea16acfe46caa28b03bd031fa0152569a57a6abb3dc9504",
+      "bytes": 12912
     },
     {
       "role": "current_summary_builder",
       "path": "scripts/build_current_summary.py",
-      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
-      "bytes": 3998
+      "sha256": "d7f2dc8b9611c11ba959f78863c559da3637257847098948944c6f44838ec427",
+      "bytes": 4524
     },
     {
       "role": "p1_reconciliation",
@@ -130,13 +142,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "1a62ecc5df0e4ef12943d2a8543484410b950d13a9b4f4cb87336350144cb5fb",
+      "sha256": "f99a2520e56790a84c79d4885198ce660a8b400d4c1a211fb1ebe7528eab0475",
       "bytes": 8512
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "06215b6d90d6f0e96f4e2da3e464a77a41f8587bbed662391bba2c994a4d9aab",
+      "sha256": "626395684bdce05c4c2b5f1007f56e0a6235f1ddd98fd2450feba518a0b36afa",
       "bytes": 1820
     },
     {
