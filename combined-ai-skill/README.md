@@ -99,3 +99,8 @@ Use `corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md` to assess scoped pre-expert han
 ## Publication and dependency repairs
 
 The [2026-10-12 defect checkpoint](../corpus-factory/DEFECT-REMEDIATION-2026-10-12.md) records source-parent publication guards, removal of duplicate publishers and restoration of the master source-dependency register. These engineering repairs grant no scholarly acceptance.
+
+
+## Available source layers — 2026-10-12
+
+Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The current verified package contains 10,527 mixed view rows across 18 members; earlier 9,562/9,116 totals describe historical packages. Added views: 802 dependent SigLA layout documents (5,144 source rectangles), two KN Fp 13 museum assertions, and Byblos 123 ordinal reviews plus 38 type-table rows. Preserve source coordinate units, the unresolved HT 6a exporter difference, modern cast status, source chronology, unassigned/competing types, false admission flags and component rights. These additions grant no new reading, independent witness, calibration result or expert acceptance.

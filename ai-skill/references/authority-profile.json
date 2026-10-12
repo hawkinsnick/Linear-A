@@ -191,6 +191,41 @@
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
       "required": true
+    },
+    {
+      "path": "research/sigla-source-layout.json",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "path": "analysis/sigla-layout-audit.json",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "path": "research/sigla-layout-source-inspection.json",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "path": "scripts/build_sigla_layout_layer.py",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "path": "docs/SIGLA-SOURCE-LAYOUT.md",
+      "required": true,
+      "role": "available_evidence_growth"
+    },
+    {
+      "role": "evidence_growth",
+      "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
+      "required": true
+    },
+    {
+      "role": "evidence_growth",
+      "path": "corpus-factory/mega-corpus-evidence-growth-2026-10-12.json",
+      "required": true
     }
   ],
   "behavioral_gates": [

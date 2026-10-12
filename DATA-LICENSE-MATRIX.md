@@ -59,3 +59,5 @@ The three `research/sigla-source-*.jsonl` files contain all 802 source entries, 
 ### GORILA project-specific restriction
 
 EFA declined this project's request to reproduce GORILA visual material and to create, publish, redistribute, or exploit structured or machine-readable datasets derived from GORILA, including computational/AI-assisted and non-commercial academic uses. The corpus therefore treats GORILA as a bibliographic reference only. No project license in this repository overrides that boundary. Historical bounded inspection/audit artifacts must not be expanded into a GORILA-derived dataset.
+
+| `research/sigla-source-layout.json` | SigLA source coordinate metadata | CC BY-NC-SA 4.0, Ester Salgarella and Simon Castellan | No source images, new reading admission or physical metrology; project terms do not override source terms. |

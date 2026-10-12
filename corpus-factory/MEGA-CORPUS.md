@@ -1,3 +1,5 @@
+> Current evidence-growth checkpoint: **18 members / 10,527 heterogeneous view rows**. Earlier totals below are historical. [Scope and source boundaries](AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md).
+
 # Mega corpus research package
 
 The expanded package materializes **18 language corpora and 9,562 native view rows**. The original 9,116-row build remains a historical baseline. It includes the existing source-bound readings and browser context, reconciliation apparatus where supplied, individual AI instructions and licensing information. These rows include catalogue entries, source records, groups, sentences and text rows; they overlap and are not a unique-inscription total. No new ancient evidence or expert acceptance is claimed.

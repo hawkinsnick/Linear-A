@@ -50,6 +50,21 @@
       ],
       "next_action": "Follow up in the original thread; user confirmed no reply. Obtain lawful copy and written intended-use scope separately; draft is unsent.",
       "acceptance": "Edition-specific lawful source delivery and written component scope before systematic ingestion; bibliography or purchase alone does not close the gate."
+    },
+    {
+      "id": "LA-SOURCE-LAYOUT",
+      "source": "Pinned licensed SigLA coordinate layer",
+      "dependency": "RECONCILIATION",
+      "status": "COMPLETE",
+      "evidence": [
+        "research/sigla-source-layout.json",
+        "analysis/sigla-layout-audit.json",
+        "research/sigla-layout-source-inspection.json",
+        "scripts/build_sigla_layout_layer.py",
+        "docs/SIGLA-SOURCE-LAYOUT.md"
+      ],
+      "next_action": "Use source drawing-plane coordinates with frozen-document array lineage; retain HT 6a exporter interpretation difference and all raw flags. Audit new versions separately.",
+      "acceptance": "802 source document layouts and 5144 rectangles reproduced by two decoders; no new readings, images, physical metrology or independent witnesses admitted."
     }
   ],
   "rule": "Assess access, intended-use permission, source delivery, machine reconciliation and human adjudication separately. Never infer global exhaustion from a dated search or route failure. Do not reopen completed evidence by ignoring existing native audits."

@@ -2,14 +2,17 @@
 """Read-only researcher API over committed public Linear A source layers."""
 import argparse,json,pathlib,re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-FILES={"documents":"research/sigla-source-documents.jsonl","source_words":"research/sigla-source-groups.jsonl","signs":"research/sigla-source-signs.jsonl"}
+FILES={"layout":"research/sigla-source-layout.json","documents":"research/sigla-source-documents.jsonl","source_words":"research/sigla-source-groups.jsonl","signs":"research/sigla-source-signs.jsonl"}
 def rows(resource,root=ROOT):
     if resource not in FILES: raise ValueError("unsupported resource")
+    if resource=="layout":
+        yield from json.loads((root/FILES[resource]).read_text(encoding="utf-8"))["documents"]
+        return
     with (root/FILES[resource]).open(encoding="utf-8") as f:
         for line in f:
             if line.strip(): yield json.loads(line)
 def stable_id(resource,row):
-    return row.get({"documents":"source_record_id","source_words":"word_id","signs":"source_sign_key"}[resource])
+    return row.get({"layout":"id","documents":"source_record_id","source_words":"word_id","signs":"source_sign_key"}[resource])
 def query(resource,text=None,ids=None,limit=100,root=ROOT):
     wanted=set(ids or []); q=(text or "").casefold(); out=[]
     for row in rows(resource,root):

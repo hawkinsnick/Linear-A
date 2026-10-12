@@ -10,25 +10,37 @@
       "local_only": true,
       "count_path": "analysis/pre-expert-source-audit.json",
       "count_pointer": "/documents"
+    },
+    {
+      "name": "sigla-source-layout",
+      "path": "research/sigla-source-layout.json",
+      "pointer": "/documents",
+      "id_key": "id",
+      "unit": "source_document_layout"
     }
   ],
   "source_files": [
     "analysis/current-status.json",
     "analysis/pre-expert-source-audit.json",
+    "analysis/sigla-layout-audit.json",
     "corpus-factory/MEGA-CORPUS.md",
     "corpus-factory/SOURCE-DELIVERY-2026-10-12.md",
     "corpus-factory/build_mega_corpus.py",
     "corpus-factory/query_mega_corpus.py",
     "corpus-factory/source-delivery-worklist-2026-10-12.json",
     "docs/RAISON-POPE-ACCESS-FOLLOWUP.md",
+    "docs/SIGLA-SOURCE-LAYOUT.md",
     "research/pre-expert-maximum.json",
+    "research/sigla-layout-source-inspection.json",
+    "research/sigla-source-layout.json",
     "research/source-access-delivery-2026-10-12.json",
-    "research/source-action-plan.json"
+    "research/source-action-plan.json",
+    "scripts/build_sigla_layout_layer.py"
   ],
   "native_review_links": [
     "docs/PRE-EXPERT-HANDOFF.md"
   ],
   "scope_rule": "Every row in declared views is indexed; overlapping views are never summed as unique physical objects. Discovery outside these views remains open.",
-  "public_payload_rule": "Identifiers, hashes and pointers only; no new source transcriptions or images. Restricted derivatives remain local.",
+  "public_payload_rule": "Declared licensed SigLA source-layout data and attributed source pointers only; no new reading admission or source images. Restricted A/B derivatives stay local.",
   "source_discovery_rule": "Declare new source/task registers here for offline replay."
 }
