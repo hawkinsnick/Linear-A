@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "83e21c9366cc7f7875314067e74b88c9d5b415bd",
-  "generated_at_utc": "2026-10-12T20:17:02+00:00",
+  "source_commit": "4434a6d7b08d93b03daa52a006b928a2a123af5f",
+  "generated_at_utc": "2026-10-12T20:21:21+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -16,14 +16,14 @@
     {
       "role": "ch_cm_source_growth",
       "path": "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md",
-      "sha256": "bb3189354f0595c65ceda65d4bbf3a675c661c1e1cf56cfc85d94fcdc6248f49",
-      "bytes": 3253
+      "sha256": "f39c44e31731d7ae0abd4c5c7aaa76c0d56c9781e9d7d21291b49dda93a92fb1",
+      "bytes": 3524
     },
     {
       "role": "ch_cm_actual_build",
       "path": "corpus-factory/ch-cm-source-growth-build-2026-10-12.json",
-      "sha256": "1e5cb8c11f44fe9de7f4703876a583d76a0b319814360580ca756dc5c5a9f580",
-      "bytes": 20209
+      "sha256": "c7fe4319693f1252bd8e1d866291e13a3527bae321758cd13e3c4483287d64af",
+      "bytes": 20289
     },
     {
       "role": "evidence_growth_guide",
@@ -76,8 +76,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "034984e7818f69f3e4efcdc9b44d8bf8f32e49c31c2d5dfa5f81994e5daf3fae",
-      "bytes": 40695
+      "sha256": "2b43abe1f86947d5015519af112dd3866a3fd28f184e784aa982b50373536a56",
+      "bytes": 40946
     },
     {
       "role": "source_delivery_guide",

@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "034984e7818f69f3e4efcdc9b44d8bf8f32e49c31c2d5dfa5f81994e5daf3fae",
-      "bytes": 40695
+      "sha256": "2b43abe1f86947d5015519af112dd3866a3fd28f184e784aa982b50373536a56",
+      "bytes": 40946
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -90,8 +90,8 @@
     },
     {
       "path": "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md",
-      "sha256": "bb3189354f0595c65ceda65d4bbf3a675c661c1e1cf56cfc85d94fcdc6248f49",
-      "bytes": 3253
+      "sha256": "f39c44e31731d7ae0abd4c5c7aaa76c0d56c9781e9d7d21291b49dda93a92fb1",
+      "bytes": 3524
     },
     {
       "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
@@ -179,5 +179,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "bbeb6f213ac12418751f0bd544e28a2f1eb1d4be3578bb2fc9d7877994024b2e"
+  "snapshot_sha256": "f9cb09f4b32677f2201bc69376bacedad0d2206a0a929eac87f4dea684e92edc"
 }

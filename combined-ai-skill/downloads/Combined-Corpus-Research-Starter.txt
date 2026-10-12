@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: bbeb6f213ac12418751f0bd544e28a2f1eb1d4be3578bb2fc9d7877994024b2e
+Instruction snapshot SHA-256: f9cb09f4b32677f2201bc69376bacedad0d2206a0a929eac87f4dea684e92edc
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -10,7 +10,7 @@ Directory summaries are snapshot routing metadata, not current independently che
 If a required member file cannot be accessed, identify what is missing and help select the next files.
 
 === SOURCE FILE: corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md ===
-SHA-256: bb3189354f0595c65ceda65d4bbf3a675c661c1e1cf56cfc85d94fcdc6248f49
+SHA-256: f39c44e31731d7ae0abd4c5c7aaa76c0d56c9781e9d7d21291b49dda93a92fb1
 
 # CH and CM source growth — 2026-10-12
 
@@ -33,6 +33,9 @@ CM’s 21 rich records and existing occurrences remain unchanged. The primary co
 Native authorities are `docs/SOURCE-GROWTH-2026-10-12.md`, `analysis/source-growth-2026-10-12.json`, the new source views, and `scripts/source_growth.py` in each member. Current-state, native dossier, family-readiness and collection receipts are refreshed while scientific gates remain unchanged. Each individual skill and the master researcher starter carry the source boundaries.
 
 The actual build receipt is `ch-cm-source-growth-build-2026-10-12.json`. Its base commits and file digests identify the inspected checkpoint; a later source revision must replay its own receipts. Final acceptance requires primary sign/apparatus reconciliation, appropriate source delivery/permissions and independent specialists. No rights-only or expert-only readiness is asserted.
+
+
+Further primary inspection: the Tiryns appendix on printed p. 38 / PDF p. 39 qualifies the count as `3 (?) signs` and gives `VC`, while the description gives `VB`. Both source assertions remain explicit and unresolved; source comparison grants no automatic correction.
 
 === END SOURCE FILE ===
 
@@ -1097,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 034984e7818f69f3e4efcdc9b44d8bf8f32e49c31c2d5dfa5f81994e5daf3fae
+SHA-256: 2b43abe1f86947d5015519af112dd3866a3fd28f184e784aa982b50373536a56
 
 ---
 name: combined-corpus-research
@@ -1377,6 +1380,8 @@ Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The earlier verif
 ## CH/CM source growth — 2026-10-12
 
 Read `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md` and each member’s source-growth guide and audit. The current package contains 10,759 mixed view rows; earlier totals are historical. CH has 193 dependent DBAS catalogue leads, a 204/331 named-route union, 26 existing context rows, and three unmapped INSCRIBE pages. Script dashes, motif comparisons and CHIC sign numbers are not catalogue/object identifications. CM has nine exact Louvre inventory/edition assertions and primary Tiryns context; TN 241 is a Tracing Networks database ID and footnote 3 is separate. Preserve damage versus identification certainty, source units/qualifiers, publication dates and rights. No new readings, physical witnesses, glyph adjudication or expert acceptance.
+
+For the Tiryns primary context, preserve appendix `3 (?) signs`, its 8–9 mm sign-height range, and the unresolved main-description VB / appendix VC coordinate difference with printed/PDF locators. No certainty or coordinate correction is admitted.
 
 === END SOURCE FILE ===
 
