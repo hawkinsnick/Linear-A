@@ -56,6 +56,11 @@ jobs:
           views = {(m['repository'], v['view']): v for m in manifest['members'] for v in m['views']}
           assert views[('hawkinsnick/Anatolian-Hieroglyphic', 'ediana-digital-entry-dossiers')]['rows'] == 287
           assert views[('hawkinsnick/Cypriot-syllabic-Greek', 'bbaw-legacy-syllabic-squeeze-identifiers')]['rows'] == 210
+          assert views[('hawkinsnick/Linear-A', 'sigla-source-layout')]['rows'] == 802
+          assert views[('hawkinsnick/Linear-B', 'kn-fp13-museum-assertions')]['rows'] == 2
+          assert views[('hawkinsnick/Byblos-syllabary', 'dunand-1930-ordinal-review')]['rows'] == 123
+          assert views[('hawkinsnick/Byblos-syllabary', 'dunand-1930-type-table')]['rows'] == 38
+          assert manifest['record_view_rows'] == 10527
           result = json.loads((root / 'private-mega-query.json').read_text())
           assert result['returned_rows'] == 1 and result['physical_object_count'] is None
           PY
