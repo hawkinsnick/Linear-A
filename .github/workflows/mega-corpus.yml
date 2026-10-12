@@ -60,7 +60,12 @@ jobs:
           assert views[('hawkinsnick/Linear-B', 'kn-fp13-museum-assertions')]['rows'] == 2
           assert views[('hawkinsnick/Byblos-syllabary', 'dunand-1930-ordinal-review')]['rows'] == 123
           assert views[('hawkinsnick/Byblos-syllabary', 'dunand-1930-type-table')]['rows'] == 38
-          assert manifest['record_view_rows'] == 10527
+          assert views[('hawkinsnick/Cretan-hieroglyphs', 'dbas-chs-catalogue-leads')]['rows'] == 193
+          assert views[('hawkinsnick/Cretan-hieroglyphs', 'inscribe-unmapped-object-pages')]['rows'] == 3
+          assert views[('hawkinsnick/Cretan-hieroglyphs', 'inscribe-context-records')]['rows'] == 26
+          assert views[('hawkinsnick/Cypro-Minoan', 'louvre-object-concordance')]['rows'] == 9
+          assert views[('hawkinsnick/Cypro-Minoan', 'tiryns-primary-context')]['rows'] == 1
+          assert manifest['record_view_rows'] == 10759
           result = json.loads((root / 'private-mega-query.json').read_text())
           assert result['returned_rows'] == 1 and result['physical_object_count'] is None
           PY

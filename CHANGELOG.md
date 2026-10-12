@@ -84,3 +84,8 @@ Added [an attributed secondary-reference notice](docs/LINEARA-XYZ-REFERENCE.md),
 ## Available evidence growth — 2026-10-12
 
 See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.
+
+
+### CH/CM source growth — 2026-10-12
+
+Expanded qualified discovery/context views to 10,759 mixed rows, with native source audits, individual/master skills and researcher starter updated. No reading or expert gate change. See `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md`.
