@@ -1,11 +1,14 @@
 {
   "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "72886624de53cbea406e64f612a76b910c701dbb9ebf59233c7a5c2b0ebe31ba",
-  "evidence_fingerprint": "de0b65cce6613e2501d3e52a66fa163e148a3f66c68a232b1c37c820e6e4478e",
+  "config_sha256": "defff9de64d018a699b8aceef119ef50ba6585987ff16f6c129bbab463327bcf",
+  "evidence_fingerprint": "c0a1454fd3ba1e4bd96f0eb16e2e795eb676e035b8866200c6a2f7d6f7c59ec6",
   "input_sha256": {
     "analysis/current-status.json": "3a0844fd4345fdd1349ccbcebfd869840de5d01b8f0013078b6f971b33edbdcf",
     "analysis/pre-expert-source-audit.json": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
+    "corpus-factory/MEGA-CORPUS.md": "6dc9b5ba3fc10d07631308090f077965908f495c18cf774330dac437e0172871",
+    "corpus-factory/build_mega_corpus.py": "6995cd7280366c74e2ba3fd9961caa8dc6ccd970f79b329cf1676000ef2df5a5",
+    "corpus-factory/query_mega_corpus.py": "a895b9c172de88716d86ddf7f6ba443e07446f091efec4cdf00a3dabe36f05cc",
     "research/pre-expert-maximum.json": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265",
     "research/source-action-plan.json": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4"
   },

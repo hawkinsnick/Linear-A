@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "3ccc2aa58e5593db0865eb37e67c0799268a604b4b991ad6436622082f069948",
+  "build_script_sha256": "fdbb8c2dea26765a085e2c472ab47993ea9f55e756ad9090542c31b5a52e0f95",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "ad354d92badd97c7097e9076528a258536e7f595cccff6219582150bdadcda95",
-      "bytes": 35195
+      "sha256": "425132518792ac0a9c4de9a0e5a372a24a1d66ca8f8963d719d53619de6f8060",
+      "bytes": 36544
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -87,6 +87,11 @@
       "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
       "sha256": "d07626727d2f641db1dd0e87a0c65878a3d4255b2e48b118f9ee8d9b20b97778",
       "bytes": 3429
+    },
+    {
+      "path": "corpus-factory/MEGA-CORPUS.md",
+      "sha256": "6dc9b5ba3fc10d07631308090f077965908f495c18cf774330dac437e0172871",
+      "bytes": 5251
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -144,5 +149,5 @@
       "bytes": 2915
     }
   ],
-  "snapshot_sha256": "bc24683f5119895bc2e59a963754bed5ef0afe91a51d1e5341504bcbaae31410"
+  "snapshot_sha256": "b91671222b1498dc2bd459bb1b364a510cf98fceac5d6238cfda53bd8f914e7b"
 }

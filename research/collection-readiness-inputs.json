@@ -16,7 +16,10 @@
     "analysis/current-status.json",
     "analysis/pre-expert-source-audit.json",
     "research/pre-expert-maximum.json",
-    "research/source-action-plan.json"
+    "research/source-action-plan.json",
+    "corpus-factory/MEGA-CORPUS.md",
+    "corpus-factory/build_mega_corpus.py",
+    "corpus-factory/query_mega_corpus.py"
   ],
   "native_review_links": [
     "docs/PRE-EXPERT-HANDOFF.md"
