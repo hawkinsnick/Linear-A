@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "2993227a9cc183efe63d15a9cf8a3f1ee005016761fe7c7a9f2ba2345be24ab7",
+  "build_script_sha256": "de4376f2888c3f8f51490774eb46fc85c38b613a5964acca5c77fd964acc8368",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "e534a50a26b2ebac3ddedb1d0179aa8951ffede683dbb22ef16eae7121a8e6b3",
-      "bytes": 37600
+      "sha256": "821b380253db0dcbfae5d2ddd31b24de353831701b96578aac9814603e1bf652",
+      "bytes": 39203
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -162,7 +162,12 @@
       "path": "corpus-factory/source-delivery-worklist-2026-10-12.json",
       "sha256": "5d5f0ea388a159bb08c0412fddf229ed62cad63fd5b0d2e78b88bf941d74efef",
       "bytes": 2009
+    },
+    {
+      "path": "docs/LINEARA-XYZ-REFERENCE.md",
+      "sha256": "a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1",
+      "bytes": 1558
     }
   ],
-  "snapshot_sha256": "0e01df7b8ce92e26dee986e987adb7d59adb58e311c5a010ba7d9971f823f959"
+  "snapshot_sha256": "f955a0e38d164ad56e7d3669df89b2d98181c5de22f0e3e645a3ca8c31bd84a3"
 }

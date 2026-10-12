@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c984e2d2a6773591b5b9abc96543b2303fa2b972",
-  "generated_at_utc": "2026-10-12T16:05:11+00:00",
+  "source_commit": "a6620835f25b53cf9ce382d20685a21b00ba91a3",
+  "generated_at_utc": "2026-10-12T18:09:09+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,18 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "secondary_reference_rights",
+      "path": "docs/LINEARA-XYZ-REFERENCE.md",
+      "sha256": "a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1",
+      "bytes": 1558
+    },
+    {
+      "role": "master_secondary_reference_instructions",
+      "path": "combined-ai-skill/SKILL.md",
+      "sha256": "821b380253db0dcbfae5d2ddd31b24de353831701b96578aac9814603e1bf652",
+      "bytes": 39203
+    },
     {
       "role": "source_delivery_guide",
       "path": "corpus-factory/SOURCE-DELIVERY-2026-10-12.md",
@@ -82,8 +94,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "f6be86d75d4d5bd609e101af7e7d1125a3378c1c1577518ef74f5d4cea210a1a",
-      "bytes": 19869
+      "sha256": "1d758c15c350c05a17eea9fda891770b4104cda40768c2d595aa4f823406d84b",
+      "bytes": 21472
     },
     {
       "role": "cross_corpus_dependencies",
@@ -136,8 +148,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "56cee1949ae83a15350a58cf39f6bf4a602a5241b107f7aa1a6662ad83c21124",
-      "bytes": 13398
+      "sha256": "45cc9c26ddeef08c4fb9197dceb70dc4b1b4b62184ef18b8b72ef019387a1a10",
+      "bytes": 13673
     },
     {
       "role": "current_summary_builder",
@@ -388,8 +400,8 @@
     {
       "role": "third_party",
       "path": "THIRD-PARTY-NOTICES.md",
-      "sha256": "32eea368303ef0fbcbb1324b6c92ecbcc3603c8b94c44e044289c3307921e593",
-      "bytes": 2258
+      "sha256": "0e792c0a09a4b639442e360ff3f5941de06418f4d325ba0b3464a920f6593c34",
+      "bytes": 2533
     }
   ]
 }
