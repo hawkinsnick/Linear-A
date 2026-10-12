@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "a48feb5c93513c572c473a20d6e1552cf999a0c6",
-  "generated_at_utc": "2026-10-12T18:11:00+00:00",
+  "source_commit": "c9d7930be2c5278d7978d361f1b616f4b02b9caa",
+  "generated_at_utc": "2026-10-12T18:25:00+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -14,6 +14,48 @@
   },
   "artifacts": [
     {
+      "role": "evidence_growth_guide",
+      "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
+      "sha256": "6cd8c9c66ccf8a048aca2aa0d5df0cbb3046ed96fa0f930d9e2954fb6869c301",
+      "bytes": 3381
+    },
+    {
+      "role": "evidence_growth_receipt",
+      "path": "corpus-factory/mega-corpus-evidence-growth-2026-10-12.json",
+      "sha256": "8e656f84e70c6e53a9d54c925a01cc4726f8949c53d2ca49b30bc31c12961a18",
+      "bytes": 18260
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "research/sigla-source-layout.json",
+      "sha256": "95a6ca7ca6bc6fd61df4b0f3873b775920ecf247642c90abcf56677fd809f4c2",
+      "bytes": 2848966
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "analysis/sigla-layout-audit.json",
+      "sha256": "6e84b39ad6cf5c235c2b786560219c30adbf143ca3b7ebb44f9fd98419a42022",
+      "bytes": 833
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "research/sigla-layout-source-inspection.json",
+      "sha256": "0ac13a966ca02442f99c04b609ac32ccda044ed87858c0d77a02d4938a5bf0e5",
+      "bytes": 3797
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "scripts/build_sigla_layout_layer.py",
+      "sha256": "f8b242e0ee2d7de7170c74d7c4dc8d5d887587060f40a312b02964fbcc3a684f",
+      "bytes": 8351
+    },
+    {
+      "role": "available_evidence_growth",
+      "path": "docs/SIGLA-SOURCE-LAYOUT.md",
+      "sha256": "497905387dea3f1e444ac31468a4c2f21e6046763b4e3e69d0438805f444bbdf",
+      "bytes": 2869
+    },
+    {
       "role": "secondary_reference_rights",
       "path": "docs/LINEARA-XYZ-REFERENCE.md",
       "sha256": "a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1",
@@ -22,8 +64,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "821b380253db0dcbfae5d2ddd31b24de353831701b96578aac9814603e1bf652",
-      "bytes": 39203
+      "sha256": "91d647b13e9a0257db30b6349ba5a5f6babd407b7672cb547728788cf7faa7c1",
+      "bytes": 39900
     },
     {
       "role": "source_delivery_guide",
@@ -70,14 +112,14 @@
     {
       "role": "mega_corpus_guide",
       "path": "corpus-factory/MEGA-CORPUS.md",
-      "sha256": "6bd3093f02eee399ef0a7bda867fe6d9f41bd433df2cd220ccc9d32651a88abb",
-      "bytes": 6401
+      "sha256": "c0a38ccd1d7804e2771e3b33d51a1fe86ee99b0b2c1f4742e8b7426c8a96d432",
+      "bytes": 6598
     },
     {
       "role": "mega_corpus_builder",
       "path": "corpus-factory/build_mega_corpus.py",
-      "sha256": "ebc8618f0bb1aa70fdc2ad2e4e7080a6f78b3fe7ff6973284cda80958bb1cd6a",
-      "bytes": 15716
+      "sha256": "9a0af3765d4e236772e41f91ddddc2db1fc3b7f549cb76268eca135a34a5bd2e",
+      "bytes": 16195
     },
     {
       "role": "mega_corpus_query",
@@ -94,8 +136,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "1d758c15c350c05a17eea9fda891770b4104cda40768c2d595aa4f823406d84b",
-      "bytes": 21472
+      "sha256": "1ccda47049663d041261c229eed9f37f8a66b52e195bd417007abcdd30549ce1",
+      "bytes": 21833
     },
     {
       "role": "cross_corpus_dependencies",
@@ -136,8 +178,8 @@
     {
       "role": "source_action_plan",
       "path": "research/source-action-plan.json",
-      "sha256": "832939fccf5d6cc4d7bd367189861977dc31b8113306d1efa2c2b8840cb1d960",
-      "bytes": 2697
+      "sha256": "e4c24dbecc1aca0058226cbc90a0c5838f1aaff334e72a26ce2fcc2e19e6ad9e",
+      "bytes": 3497
     },
     {
       "role": "source_action_guide",
@@ -148,14 +190,14 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "45cc9c26ddeef08c4fb9197dceb70dc4b1b4b62184ef18b8b72ef019387a1a10",
-      "bytes": 13673
+      "sha256": "1c6274b5cb0c9025e65856cbb8dc6a69fde93d05ddaed0f8e8acc06cb72aaa2f",
+      "bytes": 14161
     },
     {
       "role": "current_summary_builder",
       "path": "scripts/build_current_summary.py",
-      "sha256": "d7f2dc8b9611c11ba959f78863c559da3637257847098948944c6f44838ec427",
-      "bytes": 4524
+      "sha256": "26258c9a73da86daf738e6678b3e87abd292d4fc37e615d076a2eb82b5c35618",
+      "bytes": 4930
     },
     {
       "role": "p1_reconciliation",
@@ -178,14 +220,14 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "5ed71eaee4a1089b14d5b24b56a3fccab6e9268bcce33e9fe8b6d304342ec6b9",
-      "bytes": 11550
+      "sha256": "865bb23476a026ec5164870a15380b7bf5abc78cdaa26049c058ceca18b2d576",
+      "bytes": 841583
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "f044081105b9690d8804ded326e810f421ce512c1b3dbf82612ff1ec1699a2ba",
-      "bytes": 1821
+      "sha256": "e9fbd76476a407c3d1a9c9ac12a43458b2aa00d842f539394e8baa5317823ae3",
+      "bytes": 1824
     },
     {
       "role": "collection_review_guide",
@@ -376,7 +418,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "1f00463ac8076087b51ea2aec776a0b18079e977bb18d7001e4ee2ec70349a53",
+      "sha256": "bb3285ebaa0c87902a42edfb460d25e75bd311e6d3b137e603eb2b1ae9736a8a",
       "bytes": 18211
     },
     {
@@ -388,14 +430,14 @@
     {
       "role": "rights_matrix",
       "path": "DATA-LICENSE-MATRIX.md",
-      "sha256": "ec176b6c1a1a8852c76d047c54d6d1eafeab1e848cc832534470fa89107a0801",
-      "bytes": 5248
+      "sha256": "eb621059d0e2d381ead371b1e1d728caaf4d62c0665ba6b6d5879b463e9daf41",
+      "bytes": 5489
     },
     {
       "role": "notice",
       "path": "NOTICE",
-      "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
-      "bytes": 918
+      "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982",
+      "bytes": 1149
     },
     {
       "role": "third_party",

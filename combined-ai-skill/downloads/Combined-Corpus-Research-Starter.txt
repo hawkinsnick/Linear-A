@@ -2,12 +2,43 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: f955a0e38d164ad56e7d3669df89b2d98181c5de22f0e3e645a3ca8c31bd84a3
+Instruction snapshot SHA-256: 85360c2ea2528538aa11004348e0ac75cd2db40f5b1f4a641492dd75934e09e8
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
 Directory summaries are snapshot routing metadata, not current independently checked inscription facts.
 If a required member file cannot be accessed, identify what is missing and help select the next files.
+
+=== SOURCE FILE: corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md ===
+SHA-256: 6cd8c9c66ccf8a048aca2aa0d5df0cbb3046ed96fa0f930d9e2954fb6869c301
+
+# Available evidence expansion — 2026-10-12
+
+This checkpoint extends the existing 18-member research package from 9,562 to 10,527 heterogeneous view rows. These are overlapping, typed views, not unique inscriptions, physical objects or independent witnesses. Restricted A/B derivatives remain local; package formation grants no redistribution rights. Calibration and expert acceptance are not executed by this work.
+
+| Member | Added view | Scope and boundary |
+|---|---|---|
+| Linear A | 802 SigLA source-layout document rows containing 5,144 rectangles | Licensed CC BY-NC-SA 4.0 coordinate metadata; same pinned source bytes as the frozen reading layer. No images, new readings or physical metrology. |
+| Linear B | 2 museum catalogue assertions for KN Fp 13 | British Museum original and Cambridge modern plaster cast; exact inventory/document concordance. The cast is not another ancient witness. Catalogue chronology assertions remain separate. |
+| Byblos | 123 facsimile ordinal reviews and 38 type-table rows | Existing qualified native apparatus made accessible in the mega corpus and browser. No new ancient evidence or admitted readings. Preserve ordinal 32's competing type assignments and eight unassigned ordinals. |
+
+## Source replay and limitations
+
+SigLA's published application establishes rectangle x/y/width/height and document layout dimensions. An independent Marshal reader reproduces all 802 document dimensions and 5,144 rectangles. Exporter comparison preserves 5,143 identical reading projections and one unresolved HT 6a source-array-index 11 classification difference. No canonical correction is inferred. See `docs/SIGLA-SOURCE-LAYOUT.md`, `research/sigla-layout-source-inspection.json` and `analysis/sigla-layout-audit.json`.
+
+Linear B's `research/kn-fp13-object-concordance.json` preserves museum attribution, chronology, inventory and replica relationship. The checker replays the join on the exact pinned DĀMOS source, including the string record identifier. No source-certified graphical gold or image rights were acquired. See the member's `docs/KN-FP13-CONCORDANCE.md`.
+
+Byblos's `docs/FULL-AVAILABLE-SOURCE-LAYERS.md` documents 123 drawing ordinal slots, 38 type rows and 55 variant buckets. Drawing slots are not certified surviving glyphs; previous source collation is not independent expert acceptance. All admission and uncertainty fields remain unchanged.
+
+The individual AI skills and combined skill must preserve these units, source dependence and component licences. `docs/LINEARA-XYZ-REFERENCE.md` supplies an attributed secondary discovery reference: this project has no GORILA redistribution permission and must not reconstruct restricted material through downstream copies.
+
+## Remaining work
+
+Source delivery and appropriate rights remain outstanding for Raison–Pope, Dunand and Linear B linked annotations/graphics. Broader primary reconciliation, unresolved readings and calibration prerequisites remain scholarly dependencies. Cretan Hieroglyphic and Cypro-Minoan are the next coverage/depth pass, followed by reevaluation before expert handoff. No global source exhaustion or expert-only readiness is claimed.
+
+`mega-corpus-evidence-growth-2026-10-12.json` records the actual package build and integrity replay; its source hashes identify the checkpoint, rather than asserting a future checkout matches it automatically.
+
+=== END SOURCE FILE ===
 
 === SOURCE FILE: docs/LINEARA-XYZ-REFERENCE.md ===
 SHA-256: a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1
@@ -27,7 +58,9 @@ SigLA's separately documented component licence remains component-specific; this
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/MEGA-CORPUS.md ===
-SHA-256: 6bd3093f02eee399ef0a7bda867fe6d9f41bd433df2cd220ccc9d32651a88abb
+SHA-256: c0a38ccd1d7804e2771e3b33d51a1fe86ee99b0b2c1f4742e8b7426c8a96d432
+
+> Current evidence-growth checkpoint: **18 members / 10,527 heterogeneous view rows**. Earlier totals below are historical. [Scope and source boundaries](AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md).
 
 # Mega corpus research package
 
@@ -1035,7 +1068,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 821b380253db0dcbfae5d2ddd31b24de353831701b96578aac9814603e1bf652
+SHA-256: 91d647b13e9a0257db30b6349ba5a5f6babd407b7672cb547728788cf7faa7c1
 
 ---
 name: combined-corpus-research
@@ -1305,6 +1338,11 @@ Use links, inscription identifiers, bibliographic leads, and attributed research
 SigLA's separately documented component licence remains component-specific; this notice neither expands nor revokes that licence. No external inscription payload or image is included with this reference.
 
 Read `docs/LINEARA-XYZ-REFERENCE.md` for the source and rights boundary.
+
+
+## Available source layers — 2026-10-12
+
+Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The current verified package contains 10,527 mixed view rows across 18 members; earlier 9,562/9,116 totals describe historical packages. Added views: 802 dependent SigLA layout documents (5,144 source rectangles), two KN Fp 13 museum assertions, and Byblos 123 ordinal reviews plus 38 type-table rows. Preserve source coordinate units, the unresolved HT 6a exporter difference, modern cast status, source chronology, unassigned/competing types, false admission flags and component rights. These additions grant no new reading, independent witness, calibration result or expert acceptance.
 
 === END SOURCE FILE ===
 
