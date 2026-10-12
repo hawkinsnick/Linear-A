@@ -146,3 +146,7 @@ Use `Linear-A/corpus-factory/MEGA-CORPUS.md`, `build_mega_corpus.py` and `query_
 Linear B's `analysis/calibration-prepared-inputs-2026-10-12.json` reports real prepared observations: 5,932 documents, 5,890 nonempty transliteration surfaces and 42 missing/empty ones. Source word-ID crosswalks, linked linguistic annotations and source-certified graphical occurrences remain missing. `docs/CALIBRATION-PREPARED-INPUTS.md` and `research/calibration-acquisition-2026-10-12.json` distinguish preparation from gold delivery. Corpus expansion can continue while calibration is blocked. Do not replace occurrence gold with generated lexical analyses or expose the mixed mega-corpus interpretation layers to a blinded run.
 
 For combined geographic/dossier expansion, read `corpus-factory/COVERAGE-EXPANSION-2026-10-12.md`. Keep catalogue discovery identifiers separate from readings, Greek admission and physical objects; preserve source dependencies and component rights.
+
+## Source delivery checkpoint
+
+Read `research/source-access-delivery-2026-10-12.json` and `docs/RAISON-POPE-ACCESS-FOLLOWUP.md` when planning source acquisition. Preserve contact-verification and routing uncertainty. Distinguish drafted requests from sent correspondence and explicit permissions. Log edition/version, IDs, coverage and rights per delivered component before reconciliation. Do not admit an inaccessible edition, invented word-ID join or photograph as certified gold; no scientific gate is closed by this checkpoint.

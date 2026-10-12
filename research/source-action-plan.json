@@ -1,7 +1,7 @@
 {
   "format": "corpus-source-action-plan-v1",
   "corpus": "Linear-A",
-  "checked": "2026-10-11",
+  "checked": "2026-10-12",
   "claim_scope": "BOUNDED_SOURCE_AUDIT_NOT_GLOBAL_EXHAUSTION",
   "rights_only_ready": false,
   "tasks": [
@@ -38,6 +38,18 @@
       ],
       "next_action": "Acquire admissible independent evidence before specialist adjudication.",
       "acceptance": "Occurrence-specific review with independent provenance; a dependent digital interface cannot close this task."
+    },
+    {
+      "id": "LA-RAISON-POPE",
+      "source": "Raison\u2013Pope Corpus transnum\u00e9r\u00e9, separate 1980/1994 editions",
+      "dependency": "PERMISSION",
+      "status": "BLOCKED",
+      "evidence": [
+        "research/source-access-delivery-2026-10-12.json",
+        "docs/RAISON-POPE-ACCESS-FOLLOWUP.md"
+      ],
+      "next_action": "Follow up in the original thread; user confirmed no reply. Obtain lawful copy and written intended-use scope separately; draft is unsent.",
+      "acceptance": "Edition-specific lawful source delivery and written component scope before systematic ingestion; bibliography or purchase alone does not close the gate."
     }
   ],
   "rule": "Assess access, intended-use permission, source delivery, machine reconciliation and human adjudication separately. Never infer global exhaustion from a dated search or route failure. Do not reopen completed evidence by ignoring existing native audits."

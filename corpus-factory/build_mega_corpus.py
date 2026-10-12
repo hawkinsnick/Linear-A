@@ -20,7 +20,12 @@ CONTEXT = ['LICENSE', 'LICENSE-CODE', 'LICENSE-CONTENT.md', 'LICENSING.md', 'NOT
            'research/ediana-list-snapshot.json', 'research/ediana-edition-snapshot.json',
            'research/monumental-link-snapshot.json', 'docs/DIGITAL-ENTRY-DOSSIERS.md',
            'docs/COVERAGE-EXPANSION-2026-10-12.md',
-           'research/bbaw-squeeze-identifier-snapshot.json', 'docs/GEOGRAPHIC-EXPANSION.md']
+           'research/bbaw-squeeze-identifier-snapshot.json', 'docs/GEOGRAPHIC-EXPANSION.md',
+           'research/source-access-delivery-2026-10-12.json',
+           'docs/RAISON-POPE-ACCESS-FOLLOWUP.md', 'docs/DUNAND-SOURCE-REQUEST.md',
+           'docs/SOURCE-DELIVERY-REQUESTS.md',
+           'corpus-factory/SOURCE-DELIVERY-2026-10-12.md',
+           'corpus-factory/source-delivery-worklist-2026-10-12.json']
 
 
 def encode(data):

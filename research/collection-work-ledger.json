@@ -1,16 +1,20 @@
 {
   "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "defff9de64d018a699b8aceef119ef50ba6585987ff16f6c129bbab463327bcf",
-  "evidence_fingerprint": "72f5b975aa61bda93412a040681360e3aeaeb6d0b0bb2dbd17b1cb0fd4f0ee35",
+  "config_sha256": "c6e020e088a58b0c40453362172964ddd331d9478bf5fab99b3d5ea8d7526092",
+  "evidence_fingerprint": "fdfbc3256dde360d95a0d90b651dc165afcac389a2c3bb53e475f6fb0859ac7b",
   "input_sha256": {
-    "analysis/current-status.json": "43412996ca0fb70846b4e55d013d92d38fb2c825e93110b60002d642e57298e2",
+    "analysis/current-status.json": "1f00463ac8076087b51ea2aec776a0b18079e977bb18d7001e4ee2ec70349a53",
     "analysis/pre-expert-source-audit.json": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
     "corpus-factory/MEGA-CORPUS.md": "6bd3093f02eee399ef0a7bda867fe6d9f41bd433df2cd220ccc9d32651a88abb",
-    "corpus-factory/build_mega_corpus.py": "af2f62577d077b8ac8a857d4c83bac648011a57b90e147913de3b2a82902c525",
+    "corpus-factory/SOURCE-DELIVERY-2026-10-12.md": "c6d53a92c3c7572ba05e6fab22fe531a2f3639537e788f1174d8bd797ffa3116",
+    "corpus-factory/build_mega_corpus.py": "ebc8618f0bb1aa70fdc2ad2e4e7080a6f78b3fe7ff6973284cda80958bb1cd6a",
     "corpus-factory/query_mega_corpus.py": "a895b9c172de88716d86ddf7f6ba443e07446f091efec4cdf00a3dabe36f05cc",
+    "corpus-factory/source-delivery-worklist-2026-10-12.json": "5d5f0ea388a159bb08c0412fddf229ed62cad63fd5b0d2e78b88bf941d74efef",
+    "docs/RAISON-POPE-ACCESS-FOLLOWUP.md": "7b3ca0d6013e3ba52a01a179fa1ac08490ed6718513b90abe2d602681dcfe53b",
     "research/pre-expert-maximum.json": "bdc5b4a9891a9740c4bc91f04b7731b3b5b62e26c2d73108b760676397417265",
-    "research/source-action-plan.json": "b5dac8c803f8ac377b5740dcaaca140c50e57a7cbdf4843a22465071c47f42c4"
+    "research/source-access-delivery-2026-10-12.json": "ec8921137621724804b7ee2795c6eb7df4dbd5f978ff6bf14f162506839ed926",
+    "research/source-action-plan.json": "832939fccf5d6cc4d7bd367189861977dc31b8113306d1efa2c2b8840cb1d960"
   },
   "native_review_links": [
     "docs/PRE-EXPERT-HANDOFF.md"
@@ -50,6 +54,42 @@
   "source_leads": [
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_receipts/0/url",
+      "kind": "url",
+      "source_path": "research/source-access-delivery-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_receipts/1/url",
+      "kind": "url",
+      "source_path": "research/source-access-delivery-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_receipts/2/url",
+      "kind": "url",
+      "source_path": "research/source-access-delivery-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/ordinary_http_receipts/3/url",
+      "kind": "url",
+      "source_path": "research/source-access-delivery-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/0/work",
+      "kind": "work",
+      "source_path": "research/source-access-delivery-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/0/contact/source_url",
+      "kind": "source_url",
+      "source_path": "research/source-access-delivery-2026-10-12.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/tasks/0/source",
       "kind": "source",
       "source_path": "research/source-action-plan.json"
@@ -63,6 +103,12 @@
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/tasks/2/source",
+      "kind": "source",
+      "source_path": "research/source-action-plan.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/tasks/3/source",
       "kind": "source",
       "source_path": "research/source-action-plan.json"
     }
@@ -142,6 +188,16 @@
       "blocker_is_not_established_by_a_label": true,
       "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
       "json_pointer": "/tasks/0",
+      "native_dependency": null,
+      "native_status": null,
+      "native_task_id": "LA-RAISON-POPE",
+      "source_path": "research/source-access-delivery-2026-10-12.json",
+      "task": null
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/tasks/0",
       "native_dependency": "RECONCILIATION",
       "native_status": "OPEN",
       "native_task_id": "LA-SIGLA",
@@ -167,6 +223,16 @@
       "native_task_id": "LA-INDEPENDENT",
       "source_path": "research/source-action-plan.json",
       "task": "Acquire admissible independent evidence before specialist adjudication."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/tasks/3",
+      "native_dependency": "PERMISSION",
+      "native_status": "BLOCKED",
+      "native_task_id": "LA-RAISON-POPE",
+      "source_path": "research/source-action-plan.json",
+      "task": "Follow up in the original thread; user confirmed no reply. Obtain lawful copy and written intended-use scope separately; draft is unsent."
     }
   ],
   "terminal_pre_expert_maximum_established": false

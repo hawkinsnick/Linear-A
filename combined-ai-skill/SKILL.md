@@ -249,3 +249,7 @@ Linear B's `analysis/calibration-prepared-inputs-2026-10-12.json` reports real p
 ## Full dossier and geographic discovery views
 
 Read `corpus-factory/COVERAGE-EXPANSION-2026-10-12.md` for Anatolian and Cypriot expansion questions. Query the 287 Anatolian dossier entries with their source bibliography and uncertainty. Keep the 210 Cypriot legacy squeeze identifiers separate from the 592 parsed digital-edition entries and Greek admission/frequency populations. Preserve cast/fragment labels and unknown language/object joins. Do not turn the package's 9,562 mixed rows into a unique-inscription or independent-witness total.
+
+## Source delivery before expert review
+
+Use `corpus-factory/SOURCE-DELIVERY-2026-10-12.md` and its worklist for Raison–Pope, Dunand and Linear B input acquisition. Keep lawful access, source delivery, component permissions, exact alignment and scholarly acceptance separate. Respect native restrictions; preserve routing uncertainty and drafted-versus-sent status. No missing-source payload or permission was acquired by this checkpoint. Follow native intake checks before inspecting calibration answers.

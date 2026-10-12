@@ -161,6 +161,26 @@
       "path": "corpus-factory/mega-corpus-expansion-build-2026-10-12.json",
       "role": "coverage_expansion",
       "required": true
+    },
+    {
+      "path": "research/source-access-delivery-2026-10-12.json",
+      "required": true,
+      "role": "source_access_and_delivery"
+    },
+    {
+      "path": "docs/RAISON-POPE-ACCESS-FOLLOWUP.md",
+      "required": true,
+      "role": "source_access_and_delivery"
+    },
+    {
+      "path": "corpus-factory/SOURCE-DELIVERY-2026-10-12.md",
+      "required": true,
+      "role": "source_delivery_master"
+    },
+    {
+      "path": "corpus-factory/source-delivery-worklist-2026-10-12.json",
+      "required": true,
+      "role": "source_delivery_master"
     }
   ],
   "behavioral_gates": [
@@ -168,6 +188,7 @@
     "No Linear B value transfer as established Linear A reading",
     "Quarantined/superseded analyses remain non-supporting",
     "Calibration and independent-confirmation blockers must be disclosed",
-    "SigLA-derived rights preserved"
+    "SigLA-derived rights preserved",
+    "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries."
   ]
 }
