@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "2dca2a4ed10805afb434baddad061a695b4bde93",
-  "generated_at_utc": "2026-10-12T18:27:28+00:00",
+  "source_commit": "3783378e9f298cc497d43d66efdef19266d2e117",
+  "generated_at_utc": "2026-10-12T18:29:38+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
