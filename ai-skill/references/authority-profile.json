@@ -151,6 +151,16 @@
       "role": "mega_corpus_actual_receipt",
       "path": "corpus-factory/mega-corpus-build-2026-10-12.json",
       "required": true
+    },
+    {
+      "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
+      "role": "coverage_expansion",
+      "required": true
+    },
+    {
+      "path": "corpus-factory/mega-corpus-expansion-build-2026-10-12.json",
+      "role": "coverage_expansion",
+      "required": true
     }
   ],
   "behavioral_gates": [
