@@ -9,7 +9,9 @@ Authorities: [current state](analysis/current-status.json) and [residual evidenc
 
 Combined coverage checkpoint (2026-10-12): **18 corpora, 9,562 heterogeneous native-view rows**, including all 287 Anatolian dossiers and 210 Cypriot syllabic discovery identifiers. These are overlapping view rows, not unique inscriptions. [Expansion scope and remaining work](corpus-factory/COVERAGE-EXPANSION-2026-10-12.md).
 
-Latest available-evidence checkpoint: **18 corpora / 10,527 heterogeneous rows**. [Added source layers and qualifications](corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md). No new readings, calibration or expert acceptance.
+Earlier available-evidence checkpoint: **18 corpora / 10,527 heterogeneous rows**. [Added source layers and qualifications](corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md). No new readings, calibration or expert acceptance.
+
+Latest CH/CM checkpoint: **18 corpora / 10,759 heterogeneous rows**. [Source discovery and primary context](corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md). Reading and expert-acceptance gates remain unchanged.
 <!-- CURRENT-STATUS:END -->
 
 ## Researcher interfaces (3.0.19)

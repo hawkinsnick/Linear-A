@@ -1,4 +1,6 @@
-> Current evidence-growth checkpoint: **18 members / 10,527 heterogeneous view rows**. Earlier totals below are historical. [Scope and source boundaries](AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md).
+> Current CH/CM source-growth checkpoint: **18 members / 10,759 heterogeneous view rows**. [Scope and source boundaries](CH-CM-SOURCE-GROWTH-2026-10-12.md). Earlier totals are historical.
+
+> Earlier evidence-growth checkpoint: **18 members / 10,527 heterogeneous view rows**. Earlier totals below are historical. [Scope and source boundaries](AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md).
 
 # Mega corpus research package
 

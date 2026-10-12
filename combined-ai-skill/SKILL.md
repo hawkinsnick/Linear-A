@@ -270,4 +270,11 @@ Read `docs/LINEARA-XYZ-REFERENCE.md` for the source and rights boundary.
 
 ## Available source layers — 2026-10-12
 
-Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The current verified package contains 10,527 mixed view rows across 18 members; earlier 9,562/9,116 totals describe historical packages. Added views: 802 dependent SigLA layout documents (5,144 source rectangles), two KN Fp 13 museum assertions, and Byblos 123 ordinal reviews plus 38 type-table rows. Preserve source coordinate units, the unresolved HT 6a exporter difference, modern cast status, source chronology, unassigned/competing types, false admission flags and component rights. These additions grant no new reading, independent witness, calibration result or expert acceptance.
+Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The earlier verified package contains 10,527 mixed view rows across 18 members; earlier 9,562/9,116 totals describe historical packages. Added views: 802 dependent SigLA layout documents (5,144 source rectangles), two KN Fp 13 museum assertions, and Byblos 123 ordinal reviews plus 38 type-table rows. Preserve source coordinate units, the unresolved HT 6a exporter difference, modern cast status, source chronology, unassigned/competing types, false admission flags and component rights. These additions grant no new reading, independent witness, calibration result or expert acceptance.
+
+
+## CH/CM source growth — 2026-10-12
+
+Read `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md` and each member’s source-growth guide and audit. The current package contains 10,759 mixed view rows; earlier totals are historical. CH has 193 dependent DBAS catalogue leads, a 204/331 named-route union, 26 existing context rows, and three unmapped INSCRIBE pages. Script dashes, motif comparisons and CHIC sign numbers are not catalogue/object identifications. CM has nine exact Louvre inventory/edition assertions and primary Tiryns context; TN 241 is a Tracing Networks database ID and footnote 3 is separate. Preserve damage versus identification certainty, source units/qualifiers, publication dates and rights. No new readings, physical witnesses, glyph adjudication or expert acceptance.
+
+For the Tiryns primary context, preserve appendix `3 (?) signs`, its 8–9 mm sign-height range, and the unresolved main-description VB / appendix VC coordinate difference with printed/PDF locators. No certainty or coordinate correction is admitted.

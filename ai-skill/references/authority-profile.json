@@ -226,6 +226,16 @@
       "role": "evidence_growth",
       "path": "corpus-factory/mega-corpus-evidence-growth-2026-10-12.json",
       "required": true
+    },
+    {
+      "role": "ch_cm_source_growth",
+      "path": "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md",
+      "required": true
+    },
+    {
+      "role": "ch_cm_source_growth",
+      "path": "corpus-factory/ch-cm-source-growth-build-2026-10-12.json",
+      "required": true
     }
   ],
   "behavioral_gates": [
