@@ -71,3 +71,7 @@ Materialize the existing 18-member native research views, retain component conte
 ## Combined coverage expansion — 2026-10-12
 
 Integrate all 287 Anatolian dossiers and 210 new Cypriot syllabic catalogue identifiers. Update the master research instructions and package guide; preserve unresolved identity, source rights and separate reading populations. See `corpus-factory/COVERAGE-EXPANSION-2026-10-12.md`.
+
+## Source access and delivery — 2026-10-12
+
+Current route receipts and a concrete, unsent request are recorded in [docs/RAISON-POPE-ACCESS-FOLLOWUP.md](docs/RAISON-POPE-ACCESS-FOLLOWUP.md) and [research/source-access-delivery-2026-10-12.json](research/source-access-delivery-2026-10-12.json). Access, intended-use rights, source delivery and scientific acceptance remain separate. No missing edition payload, annotation package or graphical baseline was acquired by this checkpoint.

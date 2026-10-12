@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 00a9642acbbfd88a9aec75fa75665211e3fb93c0109ff1bd40abd432b87426c6
+Instruction snapshot SHA-256: 0e01df7b8ce92e26dee986e987adb7d59adb58e311c5a010ba7d9971f823f959
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1018,7 +1018,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 9c85f2748b9343329e00e737488cdc2c527da8a3f4bd3a93245e75d768ef5a99
+SHA-256: e534a50a26b2ebac3ddedb1d0179aa8951ffede683dbb22ef16eae7121a8e6b3
 
 ---
 name: combined-corpus-research
@@ -1271,6 +1271,10 @@ Linear B's `analysis/calibration-prepared-inputs-2026-10-12.json` reports real p
 ## Full dossier and geographic discovery views
 
 Read `corpus-factory/COVERAGE-EXPANSION-2026-10-12.md` for Anatolian and Cypriot expansion questions. Query the 287 Anatolian dossier entries with their source bibliography and uncertainty. Keep the 210 Cypriot legacy squeeze identifiers separate from the 592 parsed digital-edition entries and Greek admission/frequency populations. Preserve cast/fragment labels and unknown language/object joins. Do not turn the package's 9,562 mixed rows into a unique-inscription or independent-witness total.
+
+## Source delivery before expert review
+
+Use `corpus-factory/SOURCE-DELIVERY-2026-10-12.md` and its worklist for Raison–Pope, Dunand and Linear B input acquisition. Keep lawful access, source delivery, component permissions, exact alignment and scholarly acceptance separate. Respect native restrictions; preserve routing uncertainty and drafted-versus-sent status. No missing-source payload or permission was acquired by this checkpoint. Follow native intake checks before inspecting calibration answers.
 
 === END SOURCE FILE ===
 

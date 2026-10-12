@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-12",
+  "scope": "TARGETED_SOURCE_ACCESS_AND_DELIVERY; NOT_GLOBAL_EXHAUSTION",
+  "source_payload_acquired": false,
+  "source_permissions_granted_by_this_work": false,
+  "messages_sent_by_this_work": false,
+  "scientific_acceptance_granted": false,
+  "repository": "hawkinsnick/Linear-A",
+  "ordinary_http_receipts": [
+    {
+      "name": "rp-publisher",
+      "url": "https://www.peeters-leuven.be/",
+      "observed_at": "2026-10-12T15:50:21.063514+00:00",
+      "status": 200,
+      "final_url": "https://www.peeters-leuven.be/",
+      "sha256": "3b61d27d5fff8b2a9017863383f3e5a6ae7e4019012f50202e0420bbf8637d6a",
+      "bytes": 21937
+    },
+    {
+      "name": "rp-1994",
+      "url": "https://www.peeters-leuven.be/detail.php?search_key=9789068315615&series_number_str=",
+      "observed_at": "2026-10-12T15:52:24.156510+00:00",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "name": "rp-1980",
+      "url": "https://www.peeters-leuven.be/search_results.php?lang=en&any=Corpus%20transnum%C3%A9r%C3%A9",
+      "observed_at": "2026-10-12T15:52:24.157430+00:00",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "name": "peeters-contact",
+      "url": "https://www.peeters-leuven.be/cms.php?topic=contact&lang=en",
+      "observed_at": "2026-10-12T15:52:24.160888+00:00",
+      "error": "<urlopen error timed out>"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "LA-RAISON-POPE",
+      "work": "Jacques Raison and Maurice Pope, Corpus transnuméré du linéaire A, 2nd edition, Peeters, 1994, BCLL 74; first edition 1980 is a distinct source",
+      "contact": {
+        "role": "Peeters main office, for routing to rights holder and edition delivery",
+        "email": "peeters@peeters-leuven.be",
+        "source_url": "https://www.peeters-leuven.be/cms.php?lang=en&topic=contact",
+        "verification": "OFFICIAL_PAGE_WEB_RETRIEVAL; ordinary HTTP contact route timed out; recipient is routing office, not certified rights holder"
+      },
+      "correspondence": "USER_REPORTED_EARLIER_REQUEST_SENT; USER_CONFIRMED_NO_REPLY_2026_10_12; follow-up drafted, not sent",
+      "access": "PRIMARY_PAGES_NOT_ACQUIRED",
+      "permission": "PENDING_EXPLICIT_SCOPE",
+      "request": "Lawful edition copy or library supply; private OCR/AI-assisted collation; separate permission for public derivative concordances/transcriptions/sign inventory; separate image/facsimile permission; exact attribution and terms",
+      "fallback": "Library/ILL/purchase route for access, with intended use independently reviewed. Citation-only metadata until scope established. Never treat GORILA refusal as permission to reconstruct that edition from another source."
+    }
+  ],
+  "rule": "Access, intended-use rights, file delivery, exact source alignment and scientific adjudication are separate states. A drafted request or HTTP 200 does not close any scientific gate.",
+  "payload_scope": "Missing edition pages, linguistic annotation exports or graphical occurrence packages. Public route/catalogue metadata are excluded from this field."
+}
