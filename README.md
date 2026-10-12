@@ -8,6 +8,8 @@ Native release version: **3.0.15**; researcher-tooling checkpoint: **3.0.21** (a
 Authorities: [current state](analysis/current-status.json) and [residual evidence gates](research/residual-blocker-ledger-3.0.21.json). Historical release reports retain their original scope and dates.
 
 Combined coverage checkpoint (2026-10-12): **18 corpora, 9,562 heterogeneous native-view rows**, including all 287 Anatolian dossiers and 210 Cypriot syllabic discovery identifiers. These are overlapping view rows, not unique inscriptions. [Expansion scope and remaining work](corpus-factory/COVERAGE-EXPANSION-2026-10-12.md).
+
+Latest available-evidence checkpoint: **18 corpora / 10,527 heterogeneous rows**. [Added source layers and qualifications](corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md). No new readings, calibration or expert acceptance.
 <!-- CURRENT-STATUS:END -->
 
 ## Researcher interfaces (3.0.19)
@@ -163,3 +165,7 @@ Current route receipts and a concrete, unsent request are recorded in [docs/RAIS
 ### Linear A Explorer reference — 2026-10-12
 
 Added [an attributed secondary-reference notice](docs/LINEARA-XYZ-REFERENCE.md), with explicit GORILA non-permission and source-dependence rules in the individual and master AI skills. No external corpus payload is imported.
+
+## Available evidence growth — 2026-10-12
+
+See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.

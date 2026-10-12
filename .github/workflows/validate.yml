@@ -38,6 +38,8 @@ jobs:
           assert pathlib.Path('/tmp/structural-result.json').read_bytes() == pathlib.Path('analysis/structural-sensitivity-repair-v1-result.json').read_bytes(), 'Pinned historical sensitivity result drift'
           PY
       - run: python scripts/test_prospective_independence.py
+      - run: python -m unittest discover -s scripts -p test_sigla_layout_layer.py
+      - run: python scripts/build_sigla_layout_layer.py
       - run: python scripts/test_research_api.py
       - run: python scripts/test_capabilities_3_0_18.py
       - run: python scripts/advanced_query.py --stats > /tmp/advanced-query.json
@@ -62,6 +64,11 @@ jobs:
           python scripts/build_edition_concordance.py /tmp/sigla-corpus.json --check
           python scripts/build_critical_pilot.py /tmp/sigla-corpus.json --check
           python scripts/build_public_sigla_layer.py /tmp/sigla-corpus.json --check
+
+      - name: Replay licensed SigLA source layout
+        run: |
+          curl --fail --location --retry 4 --output /tmp/sigla-database.js https://sigla.phis.me/database.js
+          python scripts/build_sigla_layout_layer.py /tmp/sigla-database.js
 
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'

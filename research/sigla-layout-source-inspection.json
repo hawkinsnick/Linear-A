@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "checked": "2026-10-12",
+  "source_url": "https://sigla.phis.me/database.js",
+  "source_sha256": "cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d",
+  "application_url": "https://sigla.phis.me/sigilWeb.bc.js",
+  "application_sha256": "715d25b79fb91c1c557dcd463f7d1d78546a43a5ca302fa4cc0392f0e5a4a11f",
+  "application_locators": [
+    "Core_Rect serializer lines 42754–42767: x,y,w,h",
+    "attestation_to_yojson lines 70373–70414: position field",
+    "document_to_yojson lines 70646–70687: image_size field",
+    "Basic.rect lines 73191–73219 and rect_sign lines 74214–74237: SVG rectangle rendering"
+  ],
+  "license_source_url": "https://sigla.phis.me/about.html",
+  "source_license": "CC BY-NC-SA 4.0",
+  "attribution": "Ester Salgarella and Simon Castellan, SigLA",
+  "source_byte_change_since_frozen_derivative": false,
+  "independent_decoder": {
+    "repository": "ryanpavlicek/pyaegean",
+    "commit": "e08c5aeadb71693a6859290bb5561adb69873da7",
+    "reader_sha256": "edb06d47b051d22f0b2cc0ebafcf7ab2da06125ed388fa298dc14ecf1af3cf50",
+    "exporter_sha256": "8a70283101d61641e76f9ecd957d137d9eb3c747a330ba786d9d029f752ca46a",
+    "execution_scope": "Only standalone Marshal reader definitions and exporter field-mapping helpers; no corpus loaders, GORILA validation, model code, scoring or sealed outcomes executed."
+  },
+  "coordinate_replay": {
+    "documents": 802,
+    "rectangles": 5144,
+    "all_rectangles_equal": true,
+    "all_image_sizes_equal": true
+  },
+  "exporter_replay": {
+    "exact_slots": 5143,
+    "differing_slots": 1,
+    "differences": [
+      {
+        "document": "HT 6a",
+        "source_array_index": 11,
+        "frozen": {
+          "sign": "DD",
+          "kind": "syllable",
+          "word": 3,
+          "series": "A",
+          "number": 717,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        "replayed_candidate": {
+          "sign": "",
+          "kind": "blank",
+          "word": 3,
+          "series": "A",
+          "number": 717,
+          "raw_flags": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        "disposition": "EXPORTER_INTERPRETATION_DIFFERENCE; NO_SOURCE_BYTE_CHANGE; NO_CANONICAL_CORRECTION_APPLIED"
+      }
+    ]
+  },
+  "ordinary_http_receipts": [
+    {
+      "name": "sigla-home",
+      "url": "https://sigla.phis.me/",
+      "observed_at": "2026-10-12T16:10:02.769865+00:00",
+      "status": 200,
+      "final_url": "https://sigla.phis.me/",
+      "sha256": "abcfc7bc12c07849282517ad0bbdd444c0694eccf57c160c5ed607b40cfd8009",
+      "bytes": 1652
+    },
+    {
+      "name": "sigla-about",
+      "url": "https://sigla.phis.me/about.html",
+      "observed_at": "2026-10-12T16:10:02.770823+00:00",
+      "status": 200,
+      "final_url": "https://sigla.phis.me/about.html",
+      "sha256": "3e09b5034bc5c691460cdb0f786a720454a14fbff8942381ae1ace42689a40b0",
+      "bytes": 3672
+    },
+    {
+      "name": "sigla-changes",
+      "url": "https://sigla.phis.me/changes.html",
+      "observed_at": "2026-10-12T16:10:02.771295+00:00",
+      "status": 200,
+      "final_url": "https://sigla.phis.me/changes.html",
+      "sha256": "1ae446498796e9997d83e36b843d16bc46fb0df31bace662692f4da5fce17c80",
+      "bytes": 1842
+    },
+    {
+      "name": "sigla-database",
+      "url": "https://sigla.phis.me/database.js",
+      "observed_at": "2026-10-12T16:10:08.080802+00:00",
+      "status": 200,
+      "final_url": "https://sigla.phis.me/database.js",
+      "sha256": "cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d",
+      "bytes": 2516528
+    }
+  ],
+  "images_downloaded": false,
+  "canonical_readings_changed": false,
+  "independent_witness_established": false
+}

@@ -1,0 +1,462 @@
+{
+  "schema_version": "1.0",
+  "scope": "Actual available-evidence package build; base commits plus exact source hashes identify locally updated native views. Mixed rows are not unique inscriptions.",
+  "build_report": {
+    "format": "mega-corpus-research-package-v1",
+    "registered_members": 18,
+    "materialized_members": 18,
+    "record_view_rows": 10527,
+    "record_payload_sha256": "e373da6b7baddc487182a92d17f22e488d112fe932b6499b9eadabcef99fe969",
+    "record_rows_are_not_unique_inscription_counts": true,
+    "physical_object_count": null,
+    "independent_witness_count": null,
+    "scientific_approval_granted": false,
+    "calibration_executed": false,
+    "includes_local_only_payloads": true,
+    "redistribution_authorized_by_this_package": false,
+    "scope": "Existing explicitly declared native views and browser context; no new inscriptions, inferred readings or global completeness claim.",
+    "members": [
+      {
+        "repository": "hawkinsnick/Linear-A",
+        "checkout_base_commit": "23f63879db253dce50e33b3d1a352ac22bfe2880",
+        "configuration_sha256": "5988eabc100e68c5a2fa4fb1193d003744b9ae163ffbe0edcd1f67ed749635d9",
+        "views": [
+          {
+            "view": "authenticated-records",
+            "unit": "restricted_source_record",
+            "path": "data/generated/pre-expert/records.json",
+            "pointer": "",
+            "local_only": true,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 802,
+            "sha256": "37036c54f687fcdda56ce6e3e3820b2c34aab21bf0edcf43fab43e7377c725b1"
+          },
+          {
+            "view": "sigla-source-layout",
+            "unit": "source_document_layout",
+            "path": "research/sigla-source-layout.json",
+            "pointer": "/documents",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 802,
+            "sha256": "95a6ca7ca6bc6fd61df4b0f3873b775920ecf247642c90abcf56677fd809f4c2"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "checkout_base_commit": "07f2193b2f7358ca026b88c284a8ab178ea61888",
+        "configuration_sha256": "d6c8f5dd55cfe767d94589002652c3b0663e45c23aa1d0d700e1ed9ef4686a51",
+        "views": [
+          {
+            "view": "catalogue-slots",
+            "unit": "catalogue_control_slot",
+            "path": "catalogues/master.json",
+            "pointer": "/entries",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 254,
+            "sha256": "bd901ce1cdc48f7dda9d19435f0416a5bbabce304b6ebf784bc78f0048406e9f"
+          },
+          {
+            "view": "rich-records",
+            "unit": "rich_native_record",
+            "path": "interchange/documents.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 21,
+            "sha256": "05781183c6b0b2e7696004a546cb6a204cd2f41dbf8eeb621d82778e63921980"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Linear-B",
+        "checkout_base_commit": "c432e9b0f566334651043b68c55f1c9b253e3233",
+        "configuration_sha256": "0cdd6f4cc8b1d235de256b5029de56d6d3df6382fc80012860ce0ef15b9e44a6",
+        "views": [
+          {
+            "view": "authenticated-records",
+            "unit": "restricted_source_record",
+            "path": "data/generated/pre-expert/records.json",
+            "pointer": "",
+            "local_only": true,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 5932,
+            "sha256": "27e8ffee1f2dbda4a202fce785008bc13b5217b376d6ad758fd0ef207d8824ad"
+          },
+          {
+            "view": "kn-fp13-museum-assertions",
+            "unit": "museum_catalogue_assertion",
+            "path": "research/kn-fp13-object-concordance.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 2,
+            "sha256": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "checkout_base_commit": "0e52e4270169ada7e10104237db9343b4fef93be",
+        "configuration_sha256": "502350a5d14d24add722993b4d5df1bc9542f22a298981e9054451c0f0c28dca",
+        "views": [
+          {
+            "view": "CHIC-spine",
+            "unit": "catalogue_identity",
+            "path": "corpus/chic-catalogue-spine.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 331,
+            "sha256": "2855ec632844fa215929b33222a76a155d17abb0403889bf045a9e9f39efdfe8"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "checkout_base_commit": "1941c5631f72b1108374cfc3587b9ff4d9800c65",
+        "configuration_sha256": "a093776536928f3a7316b2c74d89756fa5ed5cd4cbb8fc4b76a5cf17581d7dd1",
+        "views": [
+          {
+            "view": "disc-object",
+            "unit": "physical_object",
+            "path": "corpus/disc.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 1,
+            "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+          },
+          {
+            "view": "disc-groups",
+            "unit": "graphical_group",
+            "path": "corpus/disc.json",
+            "pointer": "/groups",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 61,
+            "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "checkout_base_commit": "f588a8b660e5638e2bc5b62c626d17620525428e",
+        "configuration_sha256": "80cc7daa04e5346c4bdf33a72ecd126c3b4ddfb20ea3839e3d1e72418b4bbc0c",
+        "views": [
+          {
+            "view": "catalogue",
+            "unit": "core_or_candidate_catalogue_entry",
+            "path": "data/catalogue.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 39,
+            "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9"
+          },
+          {
+            "view": "dunand-1930-ordinal-review",
+            "unit": "source_facsimile_ordinal_review",
+            "path": "research/stele-a-facsimile-ordinal-review.json",
+            "pointer": "/ordinals",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 123,
+            "sha256": "9068c91d590722ae085e4e2424d9d9062385714578547c79ed3b3d334426a621"
+          },
+          {
+            "view": "dunand-1930-type-table",
+            "unit": "source_table_type_row",
+            "path": "research/stele-a-type-table.json",
+            "pointer": "/rows",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 38,
+            "sha256": "e166a364ccb6cede69f54f6499c8671885f6c6765ac333a2e3a36ab1244489b1"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "checkout_base_commit": "fe81f05d8aa8451bed409bb04e3171b180aa9495",
+        "configuration_sha256": "c0317737c0e4ef284107c2169a9ec01aa0e10f69095464e14f8db7adb1526117",
+        "views": [
+          {
+            "view": "IGXV1-entries",
+            "unit": "digital_edition_entry",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 592,
+            "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e"
+          },
+          {
+            "view": "bbaw-legacy-syllabic-squeeze-identifiers",
+            "unit": "source_catalogue_identifier",
+            "path": "research/geographic-expansion-register.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 210,
+            "sha256": "e57d1444c318de166b419f1cb23aec7dc4da4f1d5ed762a80173789f49d3ce0f"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Eteocypriot",
+        "checkout_base_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b",
+        "configuration_sha256": "5f14c53fdcc8ac43f3b66c6d99117d5f54464894431a18cd71ef7063478e9620",
+        "views": [
+          {
+            "view": "IGXV1-candidates",
+            "unit": "digital_edition_candidate",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 25,
+            "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Eteocretan",
+        "checkout_base_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+        "configuration_sha256": "2c4620ff3dbd7c423acf3c37599ec778b8419c138b5cc800fca771ffc1ee6dd0",
+        "views": [
+          {
+            "view": "attributed-readings",
+            "unit": "attributed_reading",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 12,
+            "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8"
+          },
+          {
+            "view": "coverage-objects",
+            "unit": "coverage_candidate",
+            "path": "research/coverage-register.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 11,
+            "sha256": "5dcbb6c2859cf3aa10b129a2ccf174584e2fb20c2ae2c5774d1cd2d6229893af"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "checkout_base_commit": "88a0346c7a4530bd45ef25c062f06c345f7cc812",
+        "configuration_sha256": "c8c4f80785d74ada6a6f4a686fedebbb79dd90479c72a4145cf13dc41e0965f0",
+        "views": [
+          {
+            "view": "ediana-reference",
+            "unit": "digital_catalogue_entry",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 453,
+            "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Phrygian",
+        "checkout_base_commit": "c95062b725b9a0ecaeb2b627c25ede045e00c8ec",
+        "configuration_sha256": "8e7ff2649f33985ff393d341190e7d573ba9b1963799ea2987ca33a2109d7f5f",
+        "views": [
+          {
+            "view": "canonical",
+            "unit": "canonical_record",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 0,
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+          },
+          {
+            "view": "ud-reference",
+            "unit": "derivative_sentence",
+            "path": "imports/ud-phrygian-kul.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 203,
+            "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c"
+          },
+          {
+            "view": "k01-catalogue",
+            "unit": "source_catalogue_entry",
+            "path": "research/k01-catalogue-concordance.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 8,
+            "sha256": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "checkout_base_commit": "277321ab9a45ad67e810eaba03df8545b90584d2",
+        "configuration_sha256": "2a2e76baf22590ace9906ee33b92cecf8e44a6f9c0fcae4f208cf0a77f3d8886",
+        "views": [
+          {
+            "view": "ediana-digital-entry-dossiers",
+            "unit": "digital_text_entry_dossier",
+            "path": "research/digital-entry-dossiers.json",
+            "pointer": "/entries",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 287,
+            "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Archanes-Script",
+        "checkout_base_commit": "71f33a770fcd4e6c1c4747177cb64978390ed27a",
+        "configuration_sha256": "756df661c383d64cd378dd9ac078f1181be957c2814ef73014530c332687a6b5",
+        "views": [
+          {
+            "view": "Decorte-baseline",
+            "unit": "authority_attributed_object",
+            "path": "research/decorte-2018-corpus-register.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 16,
+            "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "checkout_base_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+        "configuration_sha256": "930525b964c9faffc79513ebad68ba2f410be2f54917be9cd0b2ca5f23c31767",
+        "views": [
+          {
+            "view": "quarantine-candidates",
+            "unit": "quarantine_candidate",
+            "path": "research/candidate-register.json",
+            "pointer": "/candidates",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 2,
+            "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Lydian",
+        "checkout_base_commit": "192d53d5a316625055927111f549c2ccf1392343",
+        "configuration_sha256": "e04d704c596528fdb941c1914d6cb153e821c0d3278bb969b9d077a990ea20a8",
+        "views": [
+          {
+            "view": "ediana-records",
+            "unit": "digital_directory_record",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 118,
+            "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Sidetic",
+        "checkout_base_commit": "9bda1ff5d14b98d431f81c0dbb76bf169a091536",
+        "configuration_sha256": "e4d06fa3b076fd3b928cba56e0a45157537c27c9610049a1462a2e41a8bb3a4d",
+        "views": [
+          {
+            "view": "ediana-records",
+            "unit": "digital_directory_record",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 11,
+            "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Pisidian",
+        "checkout_base_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+        "configuration_sha256": "e091d6a5f7e587c78973c668381477f6d02e81030e876b33c7fccb90e26e2880",
+        "views": [
+          {
+            "view": "ediana-records",
+            "unit": "digital_directory_record",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 54,
+            "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d"
+          }
+        ]
+      },
+      {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "checkout_base_commit": "1cba0dfe51a33f3aea6e4171e3a11409222ff1fe",
+        "configuration_sha256": "3a8eaa6e5fd63b055aa0e87054dde343b5908465506bea8fef99d6941202bb80",
+        "views": [
+          {
+            "view": "provisional-bibliography",
+            "unit": "provisional_inscription_entry",
+            "path": "data/inscriptions.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 3,
+            "sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f"
+          },
+          {
+            "view": "ediana-reference-records",
+            "unit": "digital_catalogue_entry",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 2,
+            "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565"
+          },
+          {
+            "view": "ediana-reference-text-rows",
+            "unit": "digital_source_text_row",
+            "path": "data/reference/lines.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 114,
+            "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead"
+          }
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "status": "PASS_PACKAGE_INTEGRITY",
+    "record_view_rows": 10527,
+    "manifest_sha256": "1e9167dc8429a22b2580e79da0bdbe060dcfdb0213e01cbb08cdfeee1c508229",
+    "external_receipt_checked": false,
+    "scientific_approval_granted": false
+  },
+  "validation": {
+    "sigla_layout_synthetic_tests": 6,
+    "museum_concordance_synthetic_tests": 5,
+    "sigla_real_layout_replay": "PASS_802_DOCUMENTS_5144_RECTANGLES",
+    "damos_real_inventory_join": "PASS_STRING_ID_INVENTORY_AND_CHRONOLOGY",
+    "byblos_browser_lossless_replay": "PASS_123_ORDINAL_REVIEWS_38_TYPE_ROWS"
+  },
+  "scientific_approval_granted": false
+}

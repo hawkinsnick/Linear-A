@@ -163,3 +163,7 @@ Use links, inscription identifiers, bibliographic leads, and attributed research
 SigLA's separately documented component licence remains component-specific; this notice neither expands nor revokes that licence. No external inscription payload or image is included with this reference.
 
 Read `docs/LINEARA-XYZ-REFERENCE.md` for the source and rights boundary.
+
+## Available source evidence
+
+Read `docs/SIGLA-SOURCE-LAYOUT.md` when querying the expanded source layer. Preserve native sampling units, unresolved source classifications, replica/derivative dependence and component rights. Source rectangles, facsimile ordinals and table rows are not automatically ancient objects, certified glyphs or independent witnesses.

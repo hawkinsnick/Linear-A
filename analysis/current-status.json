@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "86cd5321372149e9d0f4d8e206b2139e584dc774398e8056b7a6e6730c263e0f"
+      "sha256": "75ca9a781013a10a840f751ea287c52808e83384329c56ff5472301dbcc04b73"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "feeb768b8d92ddcfbf6968acb2a1a4669bc7512f89c4ffb049601dfad1d7f0c3"
+      "sha256": "e0bff8df231cc387a24e07f360b572a1d2593fb29155289a0296949cad346613"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "7a81fc07f1bd8e6937ebdc096f94ebefad723535900916db9b23ad9d1cea4ea8"
+      "sha256": "c6fa66bc64f226384ddf15f72bfe1810457ee8c24ab6f1fb6394253bbcbc75b8"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -206,7 +206,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "2a07575c7f024f6eef8682b7db3c0e64f5e12348302ebc18b667f34f0cf8fbe3"
+      "sha256": "11aa59dfe80521c8408ef561b66dc5589af09e83c6109dc5ffadbc8f5366e46d"
     },
     {
       "path": "research/critical-pilot-sigla-witness.json",
@@ -314,11 +314,11 @@
     },
     {
       "path": "scripts/build_current_summary.py",
-      "sha256": "d7f2dc8b9611c11ba959f78863c559da3637257847098948944c6f44838ec427"
+      "sha256": "26258c9a73da86daf738e6678b3e87abd292d4fc37e615d076a2eb82b5c35618"
     },
     {
       "path": "research/source-action-plan.json",
-      "sha256": "832939fccf5d6cc4d7bd367189861977dc31b8113306d1efa2c2b8840cb1d960"
+      "sha256": "e4c24dbecc1aca0058226cbc90a0c5838f1aaff334e72a26ce2fcc2e19e6ad9e"
     },
     {
       "path": "docs/SOURCE-ACTION-PLAN.md",

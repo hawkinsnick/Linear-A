@@ -266,3 +266,8 @@ Use links, inscription identifiers, bibliographic leads, and attributed research
 SigLA's separately documented component licence remains component-specific; this notice neither expands nor revokes that licence. No external inscription payload or image is included with this reference.
 
 Read `docs/LINEARA-XYZ-REFERENCE.md` for the source and rights boundary.
+
+
+## Available source layers — 2026-10-12
+
+Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The current verified package contains 10,527 mixed view rows across 18 members; earlier 9,562/9,116 totals describe historical packages. Added views: 802 dependent SigLA layout documents (5,144 source rectangles), two KN Fp 13 museum assertions, and Byblos 123 ordinal reviews plus 38 type-table rows. Preserve source coordinate units, the unresolved HT 6a exporter difference, modern cast status, source chronology, unassigned/competing types, false admission flags and component rights. These additions grant no new reading, independent witness, calibration result or expert acceptance.

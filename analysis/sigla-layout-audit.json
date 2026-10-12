@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "source_sha256": "cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d",
+  "frozen_source_layer_sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+  "documents": 802,
+  "source_rectangles": 5144,
+  "layout_sha256": "95a6ca7ca6bc6fd61df4b0f3873b775920ecf247642c90abcf56677fd809f4c2",
+  "images_redistributed": false,
+  "new_readings_admitted": 0,
+  "physical_identity_certified": false,
+  "interpretation_authority": "SigLA published application: Core_Rect xywh, document image_size and attestation position serializers; see research/sigla-layout-source-inspection.json",
+  "frozen_slot_mapping": "Same upstream database SHA and document/array structure; independent exporter replay has one preserved reading-classification difference, not a source-byte change."
+}
