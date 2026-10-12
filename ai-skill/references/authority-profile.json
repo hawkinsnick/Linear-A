@@ -181,6 +181,16 @@
       "path": "corpus-factory/source-delivery-worklist-2026-10-12.json",
       "required": true,
       "role": "source_delivery_master"
+    },
+    {
+      "role": "secondary_reference_rights",
+      "path": "docs/LINEARA-XYZ-REFERENCE.md",
+      "required": true
+    },
+    {
+      "role": "master_secondary_reference_instructions",
+      "path": "combined-ai-skill/SKILL.md",
+      "required": true
     }
   ],
   "behavioral_gates": [
@@ -189,6 +199,7 @@
     "Quarantined/superseded analyses remain non-supporting",
     "Calibration and independent-confirmation blockers must be disclosed",
     "SigLA-derived rights preserved",
-    "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries."
+    "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries.",
+    "lineara.xyz is an attributed dependent discovery reference; this project has no GORILA redistribution permission. No indirect restricted-source reconstruction or independent-gold claim."
   ]
 }

@@ -158,3 +158,8 @@ The master corpus builder now materializes the declared native views of all 18 l
 ## Source access and delivery — 2026-10-12
 
 Current route receipts and a concrete, unsent request are recorded in [docs/RAISON-POPE-ACCESS-FOLLOWUP.md](docs/RAISON-POPE-ACCESS-FOLLOWUP.md) and [research/source-access-delivery-2026-10-12.json](research/source-access-delivery-2026-10-12.json). Access, intended-use rights, source delivery and scientific acceptance remain separate. No missing edition payload, annotation package or graphical baseline was acquired by this checkpoint.
+
+
+### Linear A Explorer reference — 2026-10-12
+
+Added [an attributed secondary-reference notice](docs/LINEARA-XYZ-REFERENCE.md), with explicit GORILA non-permission and source-dependence rules in the individual and master AI skills. No external corpus payload is imported.
