@@ -53,6 +53,9 @@ jobs:
           manifest = json.loads((root / 'mega-corpus-build-report.json').read_text())
           assert manifest['registered_members'] == manifest['materialized_members'] == 18
           assert manifest['scientific_approval_granted'] is False
+          views = {(m['repository'], v['view']): v for m in manifest['members'] for v in m['views']}
+          assert views[('hawkinsnick/Anatolian-Hieroglyphic', 'ediana-digital-entry-dossiers')]['rows'] == 287
+          assert views[('hawkinsnick/Cypriot-syllabic-Greek', 'bbaw-legacy-syllabic-squeeze-identifiers')]['rows'] == 210
           result = json.loads((root / 'private-mega-query.json').read_text())
           assert result['returned_rows'] == 1 and result['physical_object_count'] is None
           PY

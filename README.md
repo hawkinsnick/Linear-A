@@ -6,6 +6,8 @@
 Native release version: **3.0.15**; researcher-tooling checkpoint: **3.0.21** (a separate capability milestone). Known-answer calibration executed: **false**. Prospective evidence remains sealed; historical 2.5 analyses remain quarantined. Source permissions/access and admissible independent evidence govern further evidence growth.
 
 Authorities: [current state](analysis/current-status.json) and [residual evidence gates](research/residual-blocker-ledger-3.0.21.json). Historical release reports retain their original scope and dates.
+
+Combined coverage checkpoint (2026-10-12): **18 corpora, 9,562 heterogeneous native-view rows**, including all 287 Anatolian dossiers and 210 Cypriot syllabic discovery identifiers. These are overlapping view rows, not unique inscriptions. [Expansion scope and remaining work](corpus-factory/COVERAGE-EXPANSION-2026-10-12.md).
 <!-- CURRENT-STATUS:END -->
 
 ## Researcher interfaces (3.0.19)

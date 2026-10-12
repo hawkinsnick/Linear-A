@@ -1,0 +1,1940 @@
+{
+  "schema_version": "1.0",
+  "scope": "Actual local build from source-bound checkouts and explicitly admitted private A/B layers. Commits are base commits; local source hashes identify exact inspected evidence. Mixed rows are not new ancient evidence or unique objects.",
+  "build_report": {
+    "format": "mega-corpus-research-package-v1",
+    "members": [
+      {
+        "repository": "hawkinsnick/Linear-A",
+        "checkout_base_commit": "32b904812d938f1bc8f9a711e365dcc55a49ca2c",
+        "configuration_sha256": "defff9de64d018a699b8aceef119ef50ba6585987ff16f6c129bbab463327bcf",
+        "views": [
+          {
+            "view": "authenticated-records",
+            "unit": "restricted_source_record",
+            "path": "data/generated/pre-expert/records.json",
+            "pointer": "",
+            "local_only": true,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 802,
+            "sha256": "37036c54f687fcdda56ce6e3e3820b2c34aab21bf0edcf43fab43e7377c725b1"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "DATA-LICENSE-MATRIX.md",
+            "package_path": "members/Linear-A/DATA-LICENSE-MATRIX.md",
+            "sha256": "ec176b6c1a1a8852c76d047c54d6d1eafeab1e848cc832534470fa89107a0801",
+            "bytes": 5248
+          },
+          {
+            "path": "LICENSE",
+            "package_path": "members/Linear-A/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Linear-A/LICENSE-CODE",
+            "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+            "bytes": 444
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Linear-A/LICENSE-CONTENT.md",
+            "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+            "bytes": 969
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Linear-A/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Linear-A/NOTICE",
+            "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
+            "bytes": 918
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Linear-A/ai-skill/SKILL.md",
+            "sha256": "4400d8a18d2a3a664018d392aab22d9ba000af1e05b0ca8dfe9ee4b5c54ae7c2",
+            "bytes": 19336
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Linear-A/ai-skill/references/authority-profile.json",
+            "sha256": "fed2cbdd1a031319bd172237a1f5fab99ffbde2f211fa6b85b12fd701f84e1c1",
+            "bytes": 4450
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Linear-A/docs/AI-INTEGRITY.md",
+            "sha256": "15b1be2fa019d1340ccfaf857649e9f4dcb18c27c0033144f65c01db1b93783a",
+            "bytes": 2233
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Linear-A/research/cross-corpus-dependencies.json",
+            "sha256": "b42507756a270f8b1365f67819e613b2e82a5d76ab78238bec55447750b925ba",
+            "bytes": 449
+          },
+          {
+            "path": "data/generated/pre-expert/occurrences.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/occurrences.json",
+            "sha256": "4601b252e0a8fddc18412b9a0c8a21bbdfe646e058b5425f106dd6222ac689df",
+            "bytes": 3267117,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/records.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/records.json",
+            "sha256": "37036c54f687fcdda56ce6e3e3820b2c34aab21bf0edcf43fab43e7377c725b1",
+            "bytes": 541196,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/sign-concordance.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/sign-concordance.json",
+            "sha256": "a3e216853a8ac2e28b9de8fedba7efee74ab248906e1120ac09a183ac01654c7",
+            "bytes": 177789,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/source-metadata.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/source-metadata.json",
+            "sha256": "b1f8fadb054caa17dd00086c7cbe4545dcf4418b5bd566e4f3c67d81f7638c7f",
+            "bytes": 537,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/source-words.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/source-words.json",
+            "sha256": "1b29587e49faf960475f145f656a4000e85bfa2fc58b8bf4fb8d93d7556de623",
+            "bytes": 708671,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "checkout_base_commit": "07f2193b2f7358ca026b88c284a8ab178ea61888",
+        "configuration_sha256": "d6c8f5dd55cfe767d94589002652c3b0663e45c23aa1d0d700e1ed9ef4686a51",
+        "views": [
+          {
+            "view": "catalogue-slots",
+            "unit": "catalogue_control_slot",
+            "path": "catalogues/master.json",
+            "pointer": "/entries",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 254,
+            "sha256": "bd901ce1cdc48f7dda9d19435f0416a5bbabce304b6ebf784bc78f0048406e9f"
+          },
+          {
+            "view": "rich-records",
+            "unit": "rich_native_record",
+            "path": "interchange/documents.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 21,
+            "sha256": "05781183c6b0b2e7696004a546cb6a204cd2f41dbf8eeb621d82778e63921980"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Cypro-Minoan/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Cypro-Minoan/LICENSE-CODE",
+            "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+            "bytes": 444
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Cypro-Minoan/LICENSE-CONTENT.md",
+            "sha256": "29d8d224a0edadb87345f77f4635b57d73771e330d428ba633bfbed244f9570b",
+            "bytes": 1534
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Cypro-Minoan/LICENSING.md",
+            "sha256": "bd509c492df5fca42d4c0041fd1ec92d43e7bd6a5051196c550ef48744549953",
+            "bytes": 3052
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Cypro-Minoan/NOTICE",
+            "sha256": "e5cae5cefcaaaf0f491598b3793beb874def98c83b544b1be6726145196efe54",
+            "bytes": 1605
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Cypro-Minoan/ai-skill/SKILL.md",
+            "sha256": "aa9ce837eb6f40f8c3ce12104b0c10904478cc2a8db79db94770964fa6349cc6",
+            "bytes": 8721
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Cypro-Minoan/ai-skill/references/authority-profile.json",
+            "sha256": "9ff070821a44e1a171ff4cf3fb864681217813bfa92e95d0293e878fd6903092",
+            "bytes": 5665
+          },
+          {
+            "path": "corpus/index.json",
+            "package_path": "members/Cypro-Minoan/corpus/index.json",
+            "sha256": "1e024d9d65ae5d28d9bfdf3127d1ceb867067b1dd9c1fc6cdc81a14e23db3cbf",
+            "bytes": 1169
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Cypro-Minoan/docs/AI-INTEGRITY.md",
+            "sha256": "f735ed84a422bd81245aba10e894585a9110079932a445f35be515834e739b6b",
+            "bytes": 2391
+          },
+          {
+            "path": "occurrences/occurrences.json",
+            "package_path": "members/Cypro-Minoan/occurrences/occurrences.json",
+            "sha256": "2fc84ae1d10c1519329106e5c87d1bb8b1a15cc12b12fa00509a912d2143d90b",
+            "bytes": 8806
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Cypro-Minoan/research/browser-sources.json",
+            "sha256": "ed63aa0bca9ad4b8957ecd53e5c210066ab27502898f10b44f9579d4d1a56067",
+            "bytes": 380
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Cypro-Minoan/research/cross-corpus-dependencies.json",
+            "sha256": "f0614d77c3e5183ab2228f2223f4fed46f091434e3cff1455b2457836e351696",
+            "bytes": 453
+          },
+          {
+            "path": "research/identity-reconciliation-v2.json",
+            "package_path": "members/Cypro-Minoan/research/identity-reconciliation-v2.json",
+            "sha256": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380",
+            "bytes": 29455
+          },
+          {
+            "path": "research/record-dossiers.json",
+            "package_path": "members/Cypro-Minoan/research/record-dossiers.json",
+            "sha256": "34fbe418a3fff188747c07aa4c422fd34b0e31ee49929a07e48ee0f58b6308b9",
+            "bytes": 203208
+          },
+          {
+            "path": "research/reference-reconciliation-v2.json",
+            "package_path": "members/Cypro-Minoan/research/reference-reconciliation-v2.json",
+            "sha256": "ca89a3c3cdfa3cae006298c8d117c573e2000312fcaf5a947b0097b43048acfe",
+            "bytes": 13899
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Linear-B",
+        "checkout_base_commit": "52f04055581956bd7dae910bbe90ede678dfa1cd",
+        "configuration_sha256": "f408ac78a667f578f84e3e5aef858d650f49c79f8fd2f7351b381705fe33a081",
+        "views": [
+          {
+            "view": "authenticated-records",
+            "unit": "restricted_source_record",
+            "path": "data/generated/pre-expert/records.json",
+            "pointer": "",
+            "local_only": true,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 5932,
+            "sha256": "27e8ffee1f2dbda4a202fce785008bc13b5217b376d6ad758fd0ef207d8824ad"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Linear-B/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Linear-B/LICENSE-CODE",
+            "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+            "bytes": 444
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Linear-B/LICENSE-CONTENT.md",
+            "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+            "bytes": 969
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Linear-B/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Linear-B/NOTICE",
+            "sha256": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa",
+            "bytes": 1131
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Linear-B/ai-skill/SKILL.md",
+            "sha256": "5674440df35bc717d4eadb95908910a648131b9dfe2c0c98e327a9fb845ad895",
+            "bytes": 7901
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Linear-B/ai-skill/references/authority-profile.json",
+            "sha256": "563c66a1c433170259bed736f3dddc24505cc276f0dbd1927361933be89b9539",
+            "bytes": 3169
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Linear-B/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Linear-B/research/browser-sources.json",
+            "sha256": "a96e04ba64eff41cfaf36128bd3cd5388701b3cb479b74d2ef9215da835848c1",
+            "bytes": 419
+          },
+          {
+            "path": "research/corpus-coverage-register.json",
+            "package_path": "members/Linear-B/research/corpus-coverage-register.json",
+            "sha256": "03ae95b4b1b8c63b91d7b829a826d38167fc3c99cc75719458248b62faa038e5",
+            "bytes": 3467
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Linear-B/research/cross-corpus-dependencies.json",
+            "sha256": "4f307ebaa67e3820c65543b5746348c4aa3c7dc1ca63f60fcb2f1835b89e865a",
+            "bytes": 449
+          },
+          {
+            "path": "sources/damos-v2.json",
+            "package_path": "members/Linear-B/sources/damos-v2.json",
+            "sha256": "4b0c7e22afc5b809b2a3aa936ce94385b3f3cfbf254ecc24e6c706722369053d",
+            "bytes": 952
+          },
+          {
+            "path": "sources/registry.json",
+            "package_path": "members/Linear-B/sources/registry.json",
+            "sha256": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0",
+            "bytes": 581
+          },
+          {
+            "path": "data/generated/pre-expert/identity-register.json",
+            "package_path": "members/Linear-B/data/generated/pre-expert/identity-register.json",
+            "sha256": "769c2932aaedbff9d40d902600f99d021f0ec2d95cf622de8302c0cc928cd6d6",
+            "bytes": 3224386,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/records.json",
+            "package_path": "members/Linear-B/data/generated/pre-expert/records.json",
+            "sha256": "27e8ffee1f2dbda4a202fce785008bc13b5217b376d6ad758fd0ef207d8824ad",
+            "bytes": 5082179,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/source-metadata.json",
+            "package_path": "members/Linear-B/data/generated/pre-expert/source-metadata.json",
+            "sha256": "8da42dedc8275ceb104b9ccb55fb78a0100b744b4f281f06f0ccd0f8faf6d69e",
+            "bytes": 414,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "checkout_base_commit": "0e52e4270169ada7e10104237db9343b4fef93be",
+        "configuration_sha256": "502350a5d14d24add722993b4d5df1bc9542f22a298981e9054451c0f0c28dca",
+        "views": [
+          {
+            "view": "CHIC-spine",
+            "unit": "catalogue_identity",
+            "path": "corpus/chic-catalogue-spine.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 331,
+            "sha256": "2855ec632844fa215929b33222a76a155d17abb0403889bf045a9e9f39efdfe8"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Cretan-hieroglyphs/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Cretan-hieroglyphs/LICENSE-CODE",
+            "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+            "bytes": 444
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Cretan-hieroglyphs/LICENSE-CONTENT.md",
+            "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+            "bytes": 969
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Cretan-hieroglyphs/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Cretan-hieroglyphs/NOTICE",
+            "sha256": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c",
+            "bytes": 483
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Cretan-hieroglyphs/ai-skill/SKILL.md",
+            "sha256": "c90b7208e83c59fd0541ed5fc73e0df5330c5b4ca5104efcc984b089d33c3064",
+            "bytes": 6016
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Cretan-hieroglyphs/ai-skill/references/authority-profile.json",
+            "sha256": "c90b747e19b7da79b4c521d878d435c8a66a5bb891a34c6a0a31f5b19b1dbbfd",
+            "bytes": 3629
+          },
+          {
+            "path": "corpus/chic-catalogue-spine.json",
+            "package_path": "members/Cretan-hieroglyphs/corpus/chic-catalogue-spine.json",
+            "sha256": "2855ec632844fa215929b33222a76a155d17abb0403889bf045a9e9f39efdfe8",
+            "bytes": 129978
+          },
+          {
+            "path": "corpus/context-assertions.json",
+            "package_path": "members/Cretan-hieroglyphs/corpus/context-assertions.json",
+            "sha256": "cc01d5fbb7b04e6df0378d407b66b7549b56014d5b74e69ca4f62f10765bc66e",
+            "bytes": 110680
+          },
+          {
+            "path": "corpus/critical-readings.json",
+            "package_path": "members/Cretan-hieroglyphs/corpus/critical-readings.json",
+            "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+            "bytes": 10207
+          },
+          {
+            "path": "corpus/graph-observations.json",
+            "package_path": "members/Cretan-hieroglyphs/corpus/graph-observations.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "bytes": 3
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Cretan-hieroglyphs/docs/AI-INTEGRITY.md",
+            "sha256": "f735ed84a422bd81245aba10e894585a9110079932a445f35be515834e739b6b",
+            "bytes": 2391
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Cretan-hieroglyphs/research/browser-sources.json",
+            "sha256": "cace8ed147e590174d76fc5a98135fef79b0bc4dc9685b154922265c8ffadda9",
+            "bytes": 628
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Cretan-hieroglyphs/research/cross-corpus-dependencies.json",
+            "sha256": "f20d6beea84093f14dfd0ba64ccfbaba1a61eb48f24d6abfb54ddf75fd6453b1",
+            "bytes": 19966
+          },
+          {
+            "path": "research/disagreements.json",
+            "package_path": "members/Cretan-hieroglyphs/research/disagreements.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "bytes": 3
+          },
+          {
+            "path": "research/identity-reconciliation-v2.json",
+            "package_path": "members/Cretan-hieroglyphs/research/identity-reconciliation-v2.json",
+            "sha256": "422c1b82bce89b7feff88737907780eea178c2a2f91a705106e9dec3f4dc3005",
+            "bytes": 91684
+          },
+          {
+            "path": "research/record-dossiers.json",
+            "package_path": "members/Cretan-hieroglyphs/research/record-dossiers.json",
+            "sha256": "bda9267af29ec403766138c3f47d8f6d4e1dc153281ecb1718f972bf9b7c5e20",
+            "bytes": 604395
+          },
+          {
+            "path": "research/reference-reconciliation-v2.json",
+            "package_path": "members/Cretan-hieroglyphs/research/reference-reconciliation-v2.json",
+            "sha256": "a9397e546c324edd4e98ad6cd072778fed4566bfef0b1e4fb22c854dab7a3b0a",
+            "bytes": 16411
+          },
+          {
+            "path": "signs/chic-core-sign-registry.json",
+            "package_path": "members/Cretan-hieroglyphs/signs/chic-core-sign-registry.json",
+            "sha256": "75203625af9d165a904cf1bc8c42a68ad9d6a5d4287acd3b64589b80bd606f64",
+            "bytes": 19482
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "checkout_base_commit": "1941c5631f72b1108374cfc3587b9ff4d9800c65",
+        "configuration_sha256": "a093776536928f3a7316b2c74d89756fa5ed5cd4cbb8fc4b76a5cf17581d7dd1",
+        "views": [
+          {
+            "view": "disc-object",
+            "unit": "physical_object",
+            "path": "corpus/disc.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 1,
+            "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+          },
+          {
+            "view": "disc-groups",
+            "unit": "graphical_group",
+            "path": "corpus/disc.json",
+            "pointer": "/groups",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 61,
+            "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Phaistos-Disc/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Phaistos-Disc/LICENSE-CODE",
+            "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+            "bytes": 386
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Phaistos-Disc/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Phaistos-Disc/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Phaistos-Disc/NOTICE",
+            "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
+            "bytes": 918
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Phaistos-Disc/ai-skill/SKILL.md",
+            "sha256": "b50778482c149695c84db693f0e947fee6bd32925733d2db516f6ec926667675",
+            "bytes": 5010
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Phaistos-Disc/ai-skill/references/authority-profile.json",
+            "sha256": "63af694195771266a1f9c3e9a57dcfd61b63f71c7aefe9db53503e3a5cbe364e",
+            "bytes": 1809
+          },
+          {
+            "path": "data/evans1909-groups.csv",
+            "package_path": "members/Phaistos-Disc/data/evans1909-groups.csv",
+            "sha256": "4379cfee7cbfc69c545e139ec3db9963504604510b30922a228720b4691019a1",
+            "bytes": 1219
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Phaistos-Disc/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Phaistos-Disc/research/browser-sources.json",
+            "sha256": "0a83f8d916b8c1b470766a5093d2c7af68d4237790a6666bc042090e3ee9dcef",
+            "bytes": 353
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Phaistos-Disc/research/cross-corpus-dependencies.json",
+            "sha256": "5f69cea9dce3a980c013bfa2d28059eea53a0c9891a22ca5a5860d6e5783cc68",
+            "bytes": 454
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "checkout_base_commit": "f32504665a191d14d4ec2aaecee01c439ce08471",
+        "configuration_sha256": "f3c9096ff42af34b57fc9c4750331f33c61084642882781e288651cf579623c4",
+        "views": [
+          {
+            "view": "catalogue",
+            "unit": "core_or_candidate_catalogue_entry",
+            "path": "data/catalogue.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 39,
+            "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Byblos-syllabary/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Byblos-syllabary/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Byblos-syllabary/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Byblos-syllabary/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Byblos-syllabary/NOTICE",
+            "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
+            "bytes": 918
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Byblos-syllabary/ai-skill/SKILL.md",
+            "sha256": "2029cf65934b1165cf8aefe5d82ceba0531a8d5672157a72549a3e83c9b23a4e",
+            "bytes": 6809
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Byblos-syllabary/ai-skill/references/authority-profile.json",
+            "sha256": "ab31a0973814db660f0e42b22d0a681dbfad65259ab555fa6fd3a8c6ab7211cf",
+            "bytes": 8967
+          },
+          {
+            "path": "data/catalogue.json",
+            "package_path": "members/Byblos-syllabary/data/catalogue.json",
+            "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+            "bytes": 45235
+          },
+          {
+            "path": "data/research_entities.json",
+            "package_path": "members/Byblos-syllabary/data/research_entities.json",
+            "sha256": "be181d196efb4c0fb27866bdaab4539be6a68ed6a56fa6c0b183109ede6700d7",
+            "bytes": 5962
+          },
+          {
+            "path": "data/sources.json",
+            "package_path": "members/Byblos-syllabary/data/sources.json",
+            "sha256": "596703acb537138aa385ff1b6220846831e1478703c929e8e31a2409524f38fb",
+            "bytes": 41428
+          },
+          {
+            "path": "data/surfaces.json",
+            "package_path": "members/Byblos-syllabary/data/surfaces.json",
+            "sha256": "c554dd2941514b3bfbf4915f37459340a5c37783cd057ccc69a9882f9c5acb7e",
+            "bytes": 10356
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Byblos-syllabary/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Byblos-syllabary/research/browser-sources.json",
+            "sha256": "561d1f7f43719e060a2d4e1bf4d474af51ab99c868f75ce79ff7437855d0c5ad",
+            "bytes": 436
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Byblos-syllabary/research/cross-corpus-dependencies.json",
+            "sha256": "818ecb152fa14b2c9a2a3f9c9d746f923d987ec7a35734cb3135ab6928307d78",
+            "bytes": 457
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "checkout_base_commit": "f470ff418568b31d70edcf488c775ef55fc6efec",
+        "configuration_sha256": "c0317737c0e4ef284107c2169a9ec01aa0e10f69095464e14f8db7adb1526117",
+        "views": [
+          {
+            "view": "IGXV1-entries",
+            "unit": "digital_edition_entry",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 592,
+            "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e"
+          },
+          {
+            "view": "bbaw-legacy-syllabic-squeeze-identifiers",
+            "unit": "source_catalogue_identifier",
+            "path": "research/geographic-expansion-register.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 210,
+            "sha256": "e57d1444c318de166b419f1cb23aec7dc4da4f1d5ed762a80173789f49d3ce0f"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Cypriot-syllabic-Greek/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Cypriot-syllabic-Greek/LICENSE-CODE",
+            "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+            "bytes": 386
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Cypriot-syllabic-Greek/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Cypriot-syllabic-Greek/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Cypriot-syllabic-Greek/NOTICE",
+            "sha256": "bb405a27ffb974a3105578f8419100b397c2f178b0b5babd3318ea19c7ee6744",
+            "bytes": 2103
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Cypriot-syllabic-Greek/ai-skill/SKILL.md",
+            "sha256": "d457935834992899eb7f4bdf5fc8b38e41140686351c57c4d8bd685bac0e3953",
+            "bytes": 4678
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Cypriot-syllabic-Greek/ai-skill/references/authority-profile.json",
+            "sha256": "1daeb9383b946529df0443fe24fa1b0f18c080da2d62b9e5d2ec21ba3474a995",
+            "bytes": 2643
+          },
+          {
+            "path": "data/records.json",
+            "package_path": "members/Cypriot-syllabic-Greek/data/records.json",
+            "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+            "bytes": 2035765
+          },
+          {
+            "path": "data/signs.json",
+            "package_path": "members/Cypriot-syllabic-Greek/data/signs.json",
+            "sha256": "d9ae0a047892b10ff8efa144480d7f4c984f95ad47a560607a71ba5c9f0d30da",
+            "bytes": 15706
+          },
+          {
+            "path": "data/source-index.json",
+            "package_path": "members/Cypriot-syllabic-Greek/data/source-index.json",
+            "sha256": "be01669bf4b646938c2b8ff3b3bbe868efb1ed73622165f6dc757f1257858488",
+            "bytes": 11439
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Cypriot-syllabic-Greek/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Cypriot-syllabic-Greek/research/browser-sources.json",
+            "sha256": "6200528290dd579d3a2108b5e2be85d80378b3e36e2fedf0deaaeb96fedf1510",
+            "bytes": 458
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Cypriot-syllabic-Greek/research/cross-corpus-dependencies.json",
+            "sha256": "96ac029ed552a1693e91d9a7b7d4e353399c367681ca404f4caaf58e85c987c3",
+            "bytes": 463
+          },
+          {
+            "path": "research/geographic-expansion-register.json",
+            "package_path": "members/Cypriot-syllabic-Greek/research/geographic-expansion-register.json",
+            "sha256": "e57d1444c318de166b419f1cb23aec7dc4da4f1d5ed762a80173789f49d3ce0f",
+            "bytes": 177356
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Eteocypriot",
+        "checkout_base_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b",
+        "configuration_sha256": "5f14c53fdcc8ac43f3b66c6d99117d5f54464894431a18cd71ef7063478e9620",
+        "views": [
+          {
+            "view": "IGXV1-candidates",
+            "unit": "digital_edition_candidate",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 25,
+            "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Eteocypriot/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Eteocypriot/LICENSE-CODE",
+            "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+            "bytes": 386
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Eteocypriot/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Eteocypriot/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Eteocypriot/NOTICE",
+            "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
+            "bytes": 2660
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Eteocypriot/ai-skill/SKILL.md",
+            "sha256": "d1465cf05a921b2e36fdc3b96ddea1d05308df64b0ac996d70ab26a5058c2914",
+            "bytes": 4852
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Eteocypriot/ai-skill/references/authority-profile.json",
+            "sha256": "e5050da3a6039261317e284633b5673f6094dc6b42473c17aae114229aa07732",
+            "bytes": 3878
+          },
+          {
+            "path": "data/records.json",
+            "package_path": "members/Eteocypriot/data/records.json",
+            "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+            "bytes": 142613
+          },
+          {
+            "path": "data/signs.json",
+            "package_path": "members/Eteocypriot/data/signs.json",
+            "sha256": "d9ae0a047892b10ff8efa144480d7f4c984f95ad47a560607a71ba5c9f0d30da",
+            "bytes": 15706
+          },
+          {
+            "path": "data/upstream-candidates.json",
+            "package_path": "members/Eteocypriot/data/upstream-candidates.json",
+            "sha256": "6c951f6881104ce3d9076a194eefc0bfded32381c8f8923275551a67ef673d0c",
+            "bytes": 28996
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Eteocypriot/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Eteocypriot/research/browser-sources.json",
+            "sha256": "b989cdab1a0c6d82f68659529af43f9b950c42eb40b0f86ca430120397ac6821",
+            "bytes": 403
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Eteocypriot/research/cross-corpus-dependencies.json",
+            "sha256": "cb7ca1a95c848797a438d59df2d69854295c077f62321fcb53545588e42965b0",
+            "bytes": 452
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Eteocretan",
+        "checkout_base_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+        "configuration_sha256": "2c4620ff3dbd7c423acf3c37599ec778b8419c138b5cc800fca771ffc1ee6dd0",
+        "views": [
+          {
+            "view": "attributed-readings",
+            "unit": "attributed_reading",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 12,
+            "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8"
+          },
+          {
+            "view": "coverage-objects",
+            "unit": "coverage_candidate",
+            "path": "research/coverage-register.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 11,
+            "sha256": "5dcbb6c2859cf3aa10b129a2ccf174584e2fb20c2ae2c5774d1cd2d6229893af"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Eteocretan/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Eteocretan/LICENSE-CODE",
+            "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+            "bytes": 386
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Eteocretan/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Eteocretan/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Eteocretan/NOTICE",
+            "sha256": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4",
+            "bytes": 3866
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Eteocretan/ai-skill/SKILL.md",
+            "sha256": "0fc092ac092caa58105ba85e6d04fd6771a0e692555247bee8d5ad41dc884d1d",
+            "bytes": 9985
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Eteocretan/ai-skill/references/authority-profile.json",
+            "sha256": "fc5d7654a38c190e721fd51b9852676add07e599772fd6d8c2059e1c1d5b51c9",
+            "bytes": 6044
+          },
+          {
+            "path": "data/readings.json",
+            "package_path": "members/Eteocretan/data/readings.json",
+            "sha256": "038cc319aa683149491a1423c2b29b83681178df881605c589b366480d3dca2e",
+            "bytes": 48473
+          },
+          {
+            "path": "data/records.json",
+            "package_path": "members/Eteocretan/data/records.json",
+            "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+            "bytes": 113351
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Eteocretan/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Eteocretan/research/browser-sources.json",
+            "sha256": "3e8bbd4459960af84b177627dca22e0a796c547717479e5e58cd58442a16a742",
+            "bytes": 368
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Eteocretan/research/cross-corpus-dependencies.json",
+            "sha256": "8e7062fda349de421d3b98958c80c1e97cc1acf8dc5b6dafd6c71639b270b7a4",
+            "bytes": 451
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "checkout_base_commit": "88a0346c7a4530bd45ef25c062f06c345f7cc812",
+        "configuration_sha256": "c8c4f80785d74ada6a6f4a686fedebbb79dd90479c72a4145cf13dc41e0965f0",
+        "views": [
+          {
+            "view": "ediana-reference",
+            "unit": "digital_catalogue_entry",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 453,
+            "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Lycian-and-Carian/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Lycian-and-Carian/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Lycian-and-Carian/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Lycian-and-Carian/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Lycian-and-Carian/NOTICE",
+            "sha256": "eaee4c2a291fdbcc39e37e1d674962020cf904124db5c0b71d1215e9549bfc55",
+            "bytes": 2733
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Lycian-and-Carian/ai-skill/SKILL.md",
+            "sha256": "2c82ca399cfb1e0b4d0d1562ebab2aa7f4f2b0f2fdf4279716fe4bb5cc462c86",
+            "bytes": 4729
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Lycian-and-Carian/ai-skill/references/authority-profile.json",
+            "sha256": "06834a4b320ea96b05aad2c0241129c55fdc611a3a19362135049dc998906ab3",
+            "bytes": 1892
+          },
+          {
+            "path": "data/records.json",
+            "package_path": "members/Lycian-and-Carian/data/records.json",
+            "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+            "bytes": 3947594
+          },
+          {
+            "path": "data/source-index.json",
+            "package_path": "members/Lycian-and-Carian/data/source-index.json",
+            "sha256": "db9a489bcc8124b83e2b52320045291865b21cc3498af77f21f4277031eb8c13",
+            "bytes": 37694
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Lycian-and-Carian/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Lycian-and-Carian/research/browser-sources.json",
+            "sha256": "8f00e2f924d46bd70f7dcb48ce85473f3d4922c68f3384b6a7e72fede5170e8d",
+            "bytes": 379
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Lycian-and-Carian/research/cross-corpus-dependencies.json",
+            "sha256": "cdc92d9612187766570378cf87a81ee7019266b203a8b3117bfd303eceaf455d",
+            "bytes": 4190
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Phrygian",
+        "checkout_base_commit": "c95062b725b9a0ecaeb2b627c25ede045e00c8ec",
+        "configuration_sha256": "8e7ff2649f33985ff393d341190e7d573ba9b1963799ea2987ca33a2109d7f5f",
+        "views": [
+          {
+            "view": "canonical",
+            "unit": "canonical_record",
+            "path": "data/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 0,
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+          },
+          {
+            "view": "ud-reference",
+            "unit": "derivative_sentence",
+            "path": "imports/ud-phrygian-kul.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 203,
+            "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c"
+          },
+          {
+            "view": "k01-catalogue",
+            "unit": "source_catalogue_entry",
+            "path": "research/k01-catalogue-concordance.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 8,
+            "sha256": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "DATA-LICENSE-MATRIX.md",
+            "package_path": "members/Phrygian/DATA-LICENSE-MATRIX.md",
+            "sha256": "a1e9573fba7d9fd3e7d302462d171cc517143adb764c035c53840d6fc4d468f0",
+            "bytes": 541
+          },
+          {
+            "path": "LICENSE",
+            "package_path": "members/Phrygian/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Phrygian/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Phrygian/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Phrygian/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Phrygian/NOTICE",
+            "sha256": "a342cfc8b7007832870b799fe6d55e72342f67ebf8d3c598bb8fb2a13b19b93a",
+            "bytes": 1760
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Phrygian/ai-skill/SKILL.md",
+            "sha256": "bf621fe2fd2c648c118ead0cf1d9169c947098cfaa58271c78047d95b852505f",
+            "bytes": 11605
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Phrygian/ai-skill/references/authority-profile.json",
+            "sha256": "f1d627b9afd2793e84bda11cbd07c0202a7c402a7aba6d59e8fb21fceb827d0a",
+            "bytes": 6493
+          },
+          {
+            "path": "data/records.json",
+            "package_path": "members/Phrygian/data/records.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "bytes": 3
+          },
+          {
+            "path": "data/sources.json",
+            "package_path": "members/Phrygian/data/sources.json",
+            "sha256": "96d09133ba976e8d6e1a5bcf6edcb58de8fde8f82d0667e01162de20d9628a73",
+            "bytes": 1329
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Phrygian/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Phrygian/research/browser-sources.json",
+            "sha256": "2a60eac49c614158fd36dfd0898b2745cb708f49e8dcec9b248245ead1524a7c",
+            "bytes": 412
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Phrygian/research/cross-corpus-dependencies.json",
+            "sha256": "affeabb737827c5078ebb27c8d73b1864bb868143b6a051cbb374b8eecde717c",
+            "bytes": 449
+          },
+          {
+            "path": "research/k01-catalogue-concordance.json",
+            "package_path": "members/Phrygian/research/k01-catalogue-concordance.json",
+            "sha256": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0",
+            "bytes": 12265
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "checkout_base_commit": "ab2f8e541450514e112ef3d279a2903bbb220291",
+        "configuration_sha256": "2a2e76baf22590ace9906ee33b92cecf8e44a6f9c0fcae4f208cf0a77f3d8886",
+        "views": [
+          {
+            "view": "ediana-digital-entry-dossiers",
+            "unit": "digital_text_entry_dossier",
+            "path": "research/digital-entry-dossiers.json",
+            "pointer": "/entries",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 287,
+            "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Anatolian-Hieroglyphic/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Anatolian-Hieroglyphic/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Anatolian-Hieroglyphic/LICENSE-CONTENT.md",
+            "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+            "bytes": 908
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Anatolian-Hieroglyphic/LICENSING.md",
+            "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+            "bytes": 1581
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Anatolian-Hieroglyphic/NOTICE",
+            "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+            "bytes": 850
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Anatolian-Hieroglyphic/ai-skill/SKILL.md",
+            "sha256": "8ae8d76bf909c49c5a00b63288c99ebe0ccd6413fa6760fa72a26696784ee917",
+            "bytes": 4012
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Anatolian-Hieroglyphic/ai-skill/references/authority-profile.json",
+            "sha256": "a5d598bfbd8e235d399649d85ae333a6f9a97d9d30aeeebd5747d96bb7f4535a",
+            "bytes": 2024
+          },
+          {
+            "path": "data/sources.json",
+            "package_path": "members/Anatolian-Hieroglyphic/data/sources.json",
+            "sha256": "6cb2bde6c110e794adc90fe58f30ce817b33d4b37db4c90d2fef5537c48f3b37",
+            "bytes": 1514
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Anatolian-Hieroglyphic/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Anatolian-Hieroglyphic/research/browser-sources.json",
+            "sha256": "fad4f5421780bd8a6f7e9575f349e2ec7e40f87a91feae57aaf0b0643d5eb6c1",
+            "bytes": 398
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Anatolian-Hieroglyphic/research/cross-corpus-dependencies.json",
+            "sha256": "96d8163fe5ea1b3e204a46b53f6e1457c65eb41277a33b544f9528dacf142512",
+            "bytes": 463
+          },
+          {
+            "path": "research/digital-entry-dossiers.json",
+            "package_path": "members/Anatolian-Hieroglyphic/research/digital-entry-dossiers.json",
+            "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+            "bytes": 545735
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Archanes-Script",
+        "checkout_base_commit": "71f33a770fcd4e6c1c4747177cb64978390ed27a",
+        "configuration_sha256": "756df661c383d64cd378dd9ac078f1181be957c2814ef73014530c332687a6b5",
+        "views": [
+          {
+            "view": "Decorte-baseline",
+            "unit": "authority_attributed_object",
+            "path": "research/decorte-2018-corpus-register.json",
+            "pointer": "/records",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 16,
+            "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Archanes-Script/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Archanes-Script/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Archanes-Script/LICENSE-CONTENT.md",
+            "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+            "bytes": 908
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Archanes-Script/LICENSING.md",
+            "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+            "bytes": 1581
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Archanes-Script/NOTICE",
+            "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+            "bytes": 850
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Archanes-Script/ai-skill/SKILL.md",
+            "sha256": "59b4f3dae7e63af1ef170dd4bffe821b3f3640f1396e5e36da47e0a610a58642",
+            "bytes": 2845
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Archanes-Script/ai-skill/references/authority-profile.json",
+            "sha256": "16f36d6c0c4d2f926a028f80fec7b4c8a18441ebfa3d9d73b9c2162f022104bd",
+            "bytes": 1240
+          },
+          {
+            "path": "data/sources.json",
+            "package_path": "members/Archanes-Script/data/sources.json",
+            "sha256": "4519251bf4756d46d9dc5b21afcf546e7972b83f697349dfbeab63c379b9858d",
+            "bytes": 733
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Archanes-Script/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Archanes-Script/research/browser-sources.json",
+            "sha256": "0505902d3acc2b2abe25c44ad4c9e439c4abde80d7a1c812a03acd804c32395f",
+            "bytes": 347
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Archanes-Script/research/cross-corpus-dependencies.json",
+            "sha256": "fb00483d86e7b7debfc3ad7ff1ad87046a9e46bf0bbe3a55fa3bb948b287dc83",
+            "bytes": 18432
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "checkout_base_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+        "configuration_sha256": "930525b964c9faffc79513ebad68ba2f410be2f54917be9cd0b2ca5f23c31767",
+        "views": [
+          {
+            "view": "quarantine-candidates",
+            "unit": "quarantine_candidate",
+            "path": "research/candidate-register.json",
+            "pointer": "/candidates",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 2,
+            "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Aegean-anomalous/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Aegean-anomalous/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Aegean-anomalous/LICENSE-CONTENT.md",
+            "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+            "bytes": 908
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Aegean-anomalous/LICENSING.md",
+            "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+            "bytes": 1581
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Aegean-anomalous/NOTICE",
+            "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+            "bytes": 850
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Aegean-anomalous/ai-skill/SKILL.md",
+            "sha256": "cc1f60303ce09935e64a2adb25abf1d98f8180a4a9236df325202a8da7bb85d0",
+            "bytes": 2874
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Aegean-anomalous/ai-skill/references/authority-profile.json",
+            "sha256": "e65a6528b8707c925c771a15dfd3d8b5f80fde8f594fe9f7d7d508a29833d3f4",
+            "bytes": 1358
+          },
+          {
+            "path": "data/sources.json",
+            "package_path": "members/Aegean-anomalous/data/sources.json",
+            "sha256": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
+            "bytes": 690
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Aegean-anomalous/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Aegean-anomalous/research/browser-sources.json",
+            "sha256": "726b410d5ea5ab3855e757cfd94ab138714d716207b0332532cc4e6a52349053",
+            "bytes": 348
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Aegean-anomalous/research/cross-corpus-dependencies.json",
+            "sha256": "d6aed12afca70444c6a9dc54bcd89e0d40cf01ed1091e0fef78269b241ea67ef",
+            "bytes": 1990
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Lydian",
+        "checkout_base_commit": "192d53d5a316625055927111f549c2ccf1392343",
+        "configuration_sha256": "e04d704c596528fdb941c1914d6cb153e821c0d3278bb969b9d077a990ea20a8",
+        "views": [
+          {
+            "view": "ediana-records",
+            "unit": "digital_directory_record",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 118,
+            "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "DATA-LICENSE-MATRIX.md",
+            "package_path": "members/Lydian/DATA-LICENSE-MATRIX.md",
+            "sha256": "3f7ccb9afb09c7c765d7cf5fd575d92090742d60116d7dc55c9bd08e2ee5ecb3",
+            "bytes": 1565
+          },
+          {
+            "path": "LICENSE",
+            "package_path": "members/Lydian/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Lydian/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Lydian/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Lydian/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Lydian/NOTICE",
+            "sha256": "e416022d6486fe418616787da0e08468cb87abd3da740a804ec00fd56f7101f6",
+            "bytes": 868
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Lydian/ai-skill/SKILL.md",
+            "sha256": "2421cc5eaa21f1cfcf5d47bb14ad42aafddee51329f10a1c370ac82aea0549c5",
+            "bytes": 7544
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Lydian/ai-skill/references/authority-profile.json",
+            "sha256": "2f908ed72f037ef8dd2fc67c4b9b48640cbbe408508f08d1664208857f8b6c9d",
+            "bytes": 4597
+          },
+          {
+            "path": "data/reference/records.json",
+            "package_path": "members/Lydian/data/reference/records.json",
+            "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+            "bytes": 152492
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Lydian/docs/AI-INTEGRITY.md",
+            "sha256": "dec7e02a345d82430d258d6e23695fe0607b32c5172aa3796203022fe9d11fee",
+            "bytes": 2023
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Lydian/research/browser-sources.json",
+            "sha256": "00f82f8b5aacdde628550cb637b73e7ba5598b02b46114a48046821fd56b7fb9",
+            "bytes": 385
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Lydian/research/cross-corpus-dependencies.json",
+            "sha256": "a2897fb1e7faf6eb4f5f2774e71245e714b89f08555e8babd00a5d6ba472bd19",
+            "bytes": 447
+          },
+          {
+            "path": "research/source-register.json",
+            "package_path": "members/Lydian/research/source-register.json",
+            "sha256": "5e5b43347d15c74121e6837933b0b1a95e89f0136c0b4f8d38d0cef504460dd3",
+            "bytes": 495
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Sidetic",
+        "checkout_base_commit": "9bda1ff5d14b98d431f81c0dbb76bf169a091536",
+        "configuration_sha256": "e4d06fa3b076fd3b928cba56e0a45157537c27c9610049a1462a2e41a8bb3a4d",
+        "views": [
+          {
+            "view": "ediana-records",
+            "unit": "digital_directory_record",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 11,
+            "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "DATA-LICENSE-MATRIX.md",
+            "package_path": "members/Sidetic/DATA-LICENSE-MATRIX.md",
+            "sha256": "6d140b300c53b2768777acdfb9c41c903f5bdfda7cfc971f87bdef8dabca99b0",
+            "bytes": 1890
+          },
+          {
+            "path": "LICENSE",
+            "package_path": "members/Sidetic/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Sidetic/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Sidetic/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Sidetic/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Sidetic/NOTICE",
+            "sha256": "e31cea6cc45e6ae97447e910c9f9269b47e437efa690bc373df41bf55c5d18ae",
+            "bytes": 1767
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Sidetic/ai-skill/SKILL.md",
+            "sha256": "ee3ea3296f42a464d6bf9d9ab455d412a7a42fc23d8d33ab837a3230f7623d74",
+            "bytes": 7326
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Sidetic/ai-skill/references/authority-profile.json",
+            "sha256": "1ebd6808213c9073040a7c5a504f8246a25517dc8376b841a96ac0fc6edcb574",
+            "bytes": 4465
+          },
+          {
+            "path": "data/reference/records.json",
+            "package_path": "members/Sidetic/data/reference/records.json",
+            "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+            "bytes": 12776
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Sidetic/docs/AI-INTEGRITY.md",
+            "sha256": "dec7e02a345d82430d258d6e23695fe0607b32c5172aa3796203022fe9d11fee",
+            "bytes": 2023
+          },
+          {
+            "path": "research/browser-sources.json",
+            "package_path": "members/Sidetic/research/browser-sources.json",
+            "sha256": "01225645ae5d4ee1c265cbdec368970c4de094e3997fed1408518a6cac060f95",
+            "bytes": 386
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Sidetic/research/cross-corpus-dependencies.json",
+            "sha256": "b2890d635b92ced93c216db958cfc41b9db9f4aed5d754d270e2b68d7b10cd94",
+            "bytes": 448
+          },
+          {
+            "path": "research/source-register.json",
+            "package_path": "members/Sidetic/research/source-register.json",
+            "sha256": "4c0b2e073b7c605a8ba1da614fab05ac9d1c6ebca133aacbc64cbebba9b9267c",
+            "bytes": 496
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Pisidian",
+        "checkout_base_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+        "configuration_sha256": "e091d6a5f7e587c78973c668381477f6d02e81030e876b33c7fccb90e26e2880",
+        "views": [
+          {
+            "view": "ediana-records",
+            "unit": "digital_directory_record",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 54,
+            "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "DATA-LICENSE-MATRIX.md",
+            "package_path": "members/Pisidian/DATA-LICENSE-MATRIX.md",
+            "sha256": "6daff2528007b5a79fead00b31fedcf4158d0de3c2b635138b74a2f9834749a3",
+            "bytes": 1538
+          },
+          {
+            "path": "LICENSE",
+            "package_path": "members/Pisidian/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Pisidian/LICENSE-CODE",
+            "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+            "bytes": 324
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Pisidian/LICENSE-CONTENT.md",
+            "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+            "bytes": 762
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Pisidian/LICENSING.md",
+            "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+            "bytes": 2487
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Pisidian/NOTICE",
+            "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0",
+            "bytes": 870
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Pisidian/ai-skill/SKILL.md",
+            "sha256": "3a4f1778647659212f1251ccc59563b018a01bf06bd9e037597c17e57a83028c",
+            "bytes": 6612
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Pisidian/ai-skill/references/authority-profile.json",
+            "sha256": "767d758f28ca0e75b577f23cda3da0e083545f772659b93db3002e5e87e88a71",
+            "bytes": 4227
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Pisidian/docs/AI-INTEGRITY.md",
+            "sha256": "dec7e02a345d82430d258d6e23695fe0607b32c5172aa3796203022fe9d11fee",
+            "bytes": 2023
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Pisidian/research/cross-corpus-dependencies.json",
+            "sha256": "f13c10dcf23f224903d37356cf122e04a3a33b6a01598c174573c5d071d47deb",
+            "bytes": 449
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      },
+      {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "checkout_base_commit": "1cba0dfe51a33f3aea6e4171e3a11409222ff1fe",
+        "configuration_sha256": "3a8eaa6e5fd63b055aa0e87054dde343b5908465506bea8fef99d6941202bb80",
+        "views": [
+          {
+            "view": "provisional-bibliography",
+            "unit": "provisional_inscription_entry",
+            "path": "data/inscriptions.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 3,
+            "sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f"
+          },
+          {
+            "view": "ediana-reference-records",
+            "unit": "digital_catalogue_entry",
+            "path": "data/reference/records.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 2,
+            "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565"
+          },
+          {
+            "view": "ediana-reference-text-rows",
+            "unit": "digital_source_text_row",
+            "path": "data/reference/lines.json",
+            "pointer": "",
+            "local_only": false,
+            "status": "MATERIALIZED_NATIVE_VIEW",
+            "rows": 114,
+            "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead"
+          }
+        ],
+        "context_files": [
+          {
+            "path": "LICENSE",
+            "package_path": "members/Milyan-Lycian-B/LICENSE",
+            "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+            "bytes": 582
+          },
+          {
+            "path": "LICENSE-CODE",
+            "package_path": "members/Milyan-Lycian-B/LICENSE-CODE",
+            "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+            "bytes": 444
+          },
+          {
+            "path": "LICENSE-CONTENT.md",
+            "package_path": "members/Milyan-Lycian-B/LICENSE-CONTENT.md",
+            "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
+            "bytes": 1267
+          },
+          {
+            "path": "LICENSING.md",
+            "package_path": "members/Milyan-Lycian-B/LICENSING.md",
+            "sha256": "3390ae7ed576a8de35790d19ad6bb615fc9ed9bc0c6ee3f430d4c5883d809956",
+            "bytes": 2785
+          },
+          {
+            "path": "NOTICE",
+            "package_path": "members/Milyan-Lycian-B/NOTICE",
+            "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
+            "bytes": 1216
+          },
+          {
+            "path": "ai-skill/SKILL.md",
+            "package_path": "members/Milyan-Lycian-B/ai-skill/SKILL.md",
+            "sha256": "023e5c08dcedd913a8e0048e4048830947e920645a401ad2eeaa5b443b88864f",
+            "bytes": 5778
+          },
+          {
+            "path": "ai-skill/references/authority-profile.json",
+            "package_path": "members/Milyan-Lycian-B/ai-skill/references/authority-profile.json",
+            "sha256": "11d48653bb4d59b257116e291a890bfdd74ffc15ec82a866f9c1a119caa184cc",
+            "bytes": 1939
+          },
+          {
+            "path": "docs/AI-INTEGRITY.md",
+            "package_path": "members/Milyan-Lycian-B/docs/AI-INTEGRITY.md",
+            "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+            "bytes": 1766
+          },
+          {
+            "path": "research/cross-corpus-dependencies.json",
+            "package_path": "members/Milyan-Lycian-B/research/cross-corpus-dependencies.json",
+            "sha256": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
+            "bytes": 4188
+          }
+        ],
+        "physical_object_count": null,
+        "independent_witness_count": null,
+        "rights_rule": "Native component/source terms apply; package formation grants no redistribution permission."
+      }
+    ],
+    "registered_members": 18,
+    "materialized_members": 18,
+    "record_view_rows": 9562,
+    "record_payload_sha256": "53fc08c551bdcfd832c9b8e3cbe0bcc9e6cbeb5a1faca551374ee067f10e771f",
+    "record_rows_are_not_unique_inscription_counts": true,
+    "physical_object_count": null,
+    "independent_witness_count": null,
+    "scientific_approval_granted": false,
+    "calibration_executed": false,
+    "includes_local_only_payloads": true,
+    "redistribution_authorized_by_this_package": false,
+    "scope": "Existing explicitly declared native views and browser context; no new inscriptions, inferred readings or global completeness claim."
+  },
+  "verification": {
+    "status": "PASS_PACKAGE_INTEGRITY",
+    "record_view_rows": 9562,
+    "manifest_sha256": "60e679ccd2fd9f3f3ce96e060ed11e02307ee2c7fcf1996dc6cba5bb50e8ab23",
+    "external_receipt_checked": true,
+    "scientific_approval_granted": false
+  },
+  "source_extraction": {
+    "source_url": "https://ig.bbaw.de/de/abklatsche/ig-xv-cyprus",
+    "response_sha256": "b97ea0bd934a6a68d7dfd9f42db6189dab90efc308433940fe426e2e31566b89",
+    "identifier_rows": 210,
+    "independent_lxml_row_comparison": "PASS",
+    "excluded": "alphabetic section, source images, readings, protected text"
+  },
+  "validation": {
+    "anatolian_pytest": {
+      "passed": 44
+    },
+    "cypriot_release_check": {
+      "unittest_passed": 39
+    },
+    "scientific_approval_granted": false
+  }
+}

@@ -1,6 +1,6 @@
 # Mega corpus research package
 
-The first package materializes **18 language corpora and 9,116 native view rows**. It includes the existing source-bound readings and browser context, reconciliation apparatus where supplied, individual AI instructions and licensing information. These rows include catalogue entries, source records, groups, sentences and text rows; they overlap and are not a unique-inscription total. No new ancient evidence or expert acceptance is claimed.
+The expanded package materializes **18 language corpora and 9,562 native view rows**. The original 9,116-row build remains a historical baseline. It includes the existing source-bound readings and browser context, reconciliation apparatus where supplied, individual AI instructions and licensing information. These rows include catalogue entries, source records, groups, sentences and text rows; they overlap and are not a unique-inscription total. No new ancient evidence or expert acceptance is claimed.
 
 This is a reproducible private research package. The public repository supplies the builders and aggregate verification receipts; it does not redistribute restricted A/B derivatives or grant new rights over other components.
 
@@ -14,12 +14,12 @@ This is a reproducible private research package. The public repository supplies 
 | Cretan-hieroglyphs | CHIC-spine: 331 |
 | Phaistos-Disc | disc-object: 1; disc-groups: 61 |
 | Byblos-syllabary | catalogue: 39 |
-| Cypriot-syllabic-Greek | IGXV1-entries: 592 |
+| Cypriot-syllabic-Greek | IGXV1-entries: 592; BBAW legacy syllabic squeeze identifiers: 210 |
 | Eteocypriot | IGXV1-candidates: 25 |
 | Eteocretan | attributed-readings: 12; coverage-objects: 11 |
 | Lycian-and-Carian | ediana-reference: 453 |
 | Phrygian | canonical: 0; ud-reference: 203; k01-catalogue: 8 |
-| Anatolian-Hieroglyphic | observed-ediana-IDs: 19; portable-entry-subset: 32 |
+| Anatolian-Hieroglyphic | full eDiAna digital-entry dossiers: 287 |
 | Archanes-Script | Decorte-baseline: 16 |
 | Aegean-anomalous | quarantine-candidates: 2 |
 | Lydian | ediana-records: 118 |
@@ -50,3 +50,9 @@ A CI workflow rebuilds the actual full 18-member package from exact A/B input by
 The actual local build and package SHA-256 are recorded in `mega-corpus-build-2026-10-12.json`. This is a historical source-bound receipt; later native source changes require a new package and manifest, not silent reuse of old hashes.
 
 The authenticated private A/B auxiliary exports also travel with the package, under their own native hashes. In particular, Linear A's 5,144 source occurrence slots and 1,401 source-defined word groups are retained; they are not newly admitted readings, linguistic words or additional independent witnesses. Native export metadata and attribution remain attached.
+
+## Geographic and dossier expansion — 2026-10-12
+
+All 287 Anatolian digital-entry dossiers replace the previous overlapping 19-ID/32-portable-row views. This integrates existing reconciled evidence: 280 entries have principal-reference fields, 32 explicit class assertions and 255 unknown classes; no new reading is admitted. The full bibliography, source notices and period candidates remain qualified. Cypriot Greek adds 210 source-identifier rows from BBAW's legacy syllabic squeeze catalogue, including 138 Rantidi labels. Casts, fragments and uncertain geographic labels remain intact; language and IG/object joins remain unadjudicated. Its 170 admitted source-interpreted Greek entries and existing frequency population are unchanged.
+
+The net increase of 446 is a change in heterogeneous indexed rows, not 446 new inscriptions or independent witnesses. See [the expansion report](COVERAGE-EXPANSION-2026-10-12.md) and its source-bound actual package receipt. Neither integration nor discovery enumeration completes direct edition collation.

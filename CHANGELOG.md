@@ -67,3 +67,7 @@ Guard native bundle and master starter publication against source changes; remov
 ## 2026-10-12 — full corpus materialization and calibration input preparation
 
 Materialize the existing 18-member native research views, retain component context and lossless payloads, and prepare actual Linear B observations with source IDs and missingness. Add hostile packaging checks and update individual/master AI instructions. No new ancient records, gold reveal, calibration scores or independent acceptance are inferred from package formation.
+
+## Combined coverage expansion — 2026-10-12
+
+Integrate all 287 Anatolian dossiers and 210 new Cypriot syllabic catalogue identifiers. Update the master research instructions and package guide; preserve unresolved identity, source rights and separate reading populations. See `corpus-factory/COVERAGE-EXPANSION-2026-10-12.md`.
