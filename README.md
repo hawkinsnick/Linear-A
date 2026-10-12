@@ -11,7 +11,9 @@ Combined coverage checkpoint (2026-10-12): **18 corpora, 9,562 heterogeneous nat
 
 Earlier available-evidence checkpoint: **18 corpora / 10,527 heterogeneous rows**. [Added source layers and qualifications](corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md). No new readings, calibration or expert acceptance.
 
-Latest CH/CM checkpoint: **18 corpora / 10,759 heterogeneous rows**. [Source discovery and primary context](corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md). Reading and expert-acceptance gates remain unchanged.
+Earlier CH/CM source-growth checkpoint: **18 corpora / 10,759 heterogeneous rows**. [Source discovery and primary context](corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md). Reading and expert-acceptance gates remain unchanged.
+
+Latest acquisition-frontier checkpoint: **18 corpora / 10,791 heterogeneous rows**. [Context cohort and provisional candidates](corpus-factory/CH-CM-ACQUISITION-FRONTIER-2026-10-12.md). Reading/analysis/expert gates remain unchanged.
 <!-- CURRENT-STATUS:END -->
 
 ## Researcher interfaces (3.0.19)

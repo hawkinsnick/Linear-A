@@ -89,3 +89,8 @@ See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded 
 ### CH/CM source growth — 2026-10-12
 
 Expanded qualified discovery/context views to 10,759 mixed rows, with native source audits, individual/master skills and researcher starter updated. No reading or expert gate change. See `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md`.
+
+
+### CH/CM acquisition frontier — 2026-10-12
+
+Integrated five new CH contexts, 25 metadata cohort rows and two licensed tentative Dor candidates; actual typed package verifies 10,791 mixed rows. Updated native/master skills, researcher starter, scope and uncertainty documentation. No core reading or expert gate change.

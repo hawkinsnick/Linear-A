@@ -528,8 +528,8 @@
     },
     {
       "path": "scripts/build_current_summary.py",
-      "sha256": "ab81007b031b180cf1d0fca3e0dbd2ec55e211806fd54d285d069bd03e365f86",
-      "bytes": 5311,
+      "sha256": "a9018079838ea4ee5ba0ce5ccdc0b1f70abe78355758331f453e0743186e9a05",
+      "bytes": 5746,
       "category": "scripts",
       "summary": {}
     },

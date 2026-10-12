@@ -65,7 +65,10 @@ jobs:
           assert views[('hawkinsnick/Cretan-hieroglyphs', 'inscribe-context-records')]['rows'] == 26
           assert views[('hawkinsnick/Cypro-Minoan', 'louvre-object-concordance')]['rows'] == 9
           assert views[('hawkinsnick/Cypro-Minoan', 'tiryns-primary-context')]['rows'] == 1
-          assert manifest['record_view_rows'] == 10759
+          assert views[('hawkinsnick/Cretan-hieroglyphs', 'stratified-context-supplements')]['rows'] == 5
+          assert views[('hawkinsnick/Cretan-hieroglyphs', 'representative-acquisition-cohort')]['rows'] == 25
+          assert views[('hawkinsnick/Cypro-Minoan', 'dor-2025-provisional-candidates')]['rows'] == 2
+          assert manifest['record_view_rows'] == 10791
           result = json.loads((root / 'private-mega-query.json').read_text())
           assert result['returned_rows'] == 1 and result['physical_object_count'] is None
           PY

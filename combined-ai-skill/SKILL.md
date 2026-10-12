@@ -275,6 +275,13 @@ Read `corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md`. The earlier verif
 
 ## CH/CM source growth — 2026-10-12
 
-Read `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md` and each member’s source-growth guide and audit. The current package contains 10,759 mixed view rows; earlier totals are historical. CH has 193 dependent DBAS catalogue leads, a 204/331 named-route union, 26 existing context rows, and three unmapped INSCRIBE pages. Script dashes, motif comparisons and CHIC sign numbers are not catalogue/object identifications. CM has nine exact Louvre inventory/edition assertions and primary Tiryns context; TN 241 is a Tracing Networks database ID and footnote 3 is separate. Preserve damage versus identification certainty, source units/qualifiers, publication dates and rights. No new readings, physical witnesses, glyph adjudication or expert acceptance.
+Read `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md` and each member’s source-growth guide and audit. The earlier source-growth package contains 10,759 mixed view rows; earlier totals are historical. CH has 193 dependent DBAS catalogue leads, a 204/331 named-route union, 26 existing context rows, and three unmapped INSCRIBE pages. Script dashes, motif comparisons and CHIC sign numbers are not catalogue/object identifications. CM has nine exact Louvre inventory/edition assertions and primary Tiryns context; TN 241 is a Tracing Networks database ID and footnote 3 is separate. Preserve damage versus identification certainty, source units/qualifiers, publication dates and rights. No new readings, physical witnesses, glyph adjudication or expert acceptance.
 
 For the Tiryns primary context, preserve appendix `3 (?) signs`, its 8–9 mm sign-height range, and the unresolved main-description VB / appendix VC coordinate difference with printed/PDF locators. No certainty or coordinate correction is admitted.
+
+
+## CH/CM acquisition frontier — 2026-10-12
+
+Read `corpus-factory/CH-CM-ACQUISITION-FRONTIER-2026-10-12.md` and each member’s frontier views/audit. Current package: 10,791 mixed view rows. CH has 31 context-bearing identities and a 25-object metadata cohort (8/5/8/4); metadata selection is not representative reading coverage. Preserve source dimensions/zeros and UI/object distinctions. The two 2025 Dor candidates retain appears/possible/perhaps, CM versus Cypro-syllabic alternatives, four-to-five count range and black/red dipinto distinction. They remain outside 254 controlled slots and 21 rich records, with no accepted new occurrences or automatic catalogue number 255. Preserve source CC BY 4.0 and all author attribution; project NC terms do not supersede the source component. Core reading, analysis and expert gates remain unchanged.
+
+The Dor anchor label belongs to the Polig–Donnelly 2022 signary as cited by the 2025 publication. A native sign-registry equivalence, complete-object sign inventory or Unicode mapping is not inferred.
