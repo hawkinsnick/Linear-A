@@ -48,3 +48,5 @@ The builder refuses missing declared inputs, hash drift, identity collisions, se
 A CI workflow rebuilds the actual full 18-member package from exact A/B input bytes and native repositories, validates it, and publishes only aggregate receipts. Corpus source payloads are not uploaded as CI artifacts.
 
 The actual local build and package SHA-256 are recorded in `mega-corpus-build-2026-10-12.json`. This is a historical source-bound receipt; later native source changes require a new package and manifest, not silent reuse of old hashes.
+
+The authenticated private A/B auxiliary exports also travel with the package, under their own native hashes. In particular, Linear A's 5,144 source occurrence slots and 1,401 source-defined word groups are retained; they are not newly admitted readings, linguistic words or additional independent witnesses. Native export metadata and attribution remain attached.

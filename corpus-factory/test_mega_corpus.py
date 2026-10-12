@@ -97,6 +97,36 @@ class MegaCorpusTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'approval'):
             verify_package(self.output)
 
+    def configure_local_layers(self):
+        self.put('data/occurrences.json', [{'id': 'SYNTHETIC-SLOT', 'uncertain': True}])
+        audit = {'documents': 1, 'local_export_manifest': [
+            {'file': name, 'sha256': digest((self.root / 'data' / name).read_bytes())}
+            for name in ['records.json', 'occurrences.json']]}
+        self.put('analysis/source-audit.json', audit)
+        config_path = self.root / 'research/collection-readiness-inputs.json'
+        config = json.loads(config_path.read_bytes())
+        config['record_sets'][0].update(local_only=True, count_path='analysis/source-audit.json', count_pointer='/documents')
+        self.put('research/collection-readiness-inputs.json', config)
+        ledger_path = self.root / 'research/collection-work-ledger.json'
+        ledger = json.loads(ledger_path.read_bytes())
+        ledger['config_sha256'] = digest(config_path.read_bytes())
+        ledger['input_sha256']['analysis/source-audit.json'] = digest((self.root / 'analysis/source-audit.json').read_bytes())
+        self.put('research/collection-work-ledger.json', ledger)
+
+    def test_authenticated_occurrence_layers_travel_with_private_records(self):
+        self.configure_local_layers()
+        report = write_package(self.base / 'checkouts', self.output, include_local=True, registry=self.registry)
+        self.assertEqual(report['record_view_rows'], 1)
+        payload = self.output / 'members/Synthetic-Corpus/data/occurrences.json'
+        self.assertEqual(payload.read_bytes(), (self.root / 'data/occurrences.json').read_bytes())
+        verify_package(self.output)
+
+    def test_auxiliary_layer_drift_is_rejected(self):
+        self.configure_local_layers()
+        self.put('data/occurrences.json', [])
+        with self.assertRaisesRegex(ValueError, 'auxiliary layer digest'):
+            write_package(self.base / 'checkouts', self.output, include_local=True, registry=self.registry)
+
 
 if __name__ == '__main__':
     unittest.main()

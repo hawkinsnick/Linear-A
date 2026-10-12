@@ -1,11 +1,11 @@
 {
   "checked": "2026-10-12",
   "scope": "First full native-view package from local checkouts; exact input hashes identify the contents. Base commits plus hashes can include local code/documentation updates. Not a global complete corpus or new source admission.",
-  "builder_sha256": "35258f04f63b78823e8ca12557f2090c9af43b0b9ac1fb9d3df98ddfe9ee252a",
+  "builder_sha256": "6995cd7280366c74e2ba3fd9961caa8dc6ccd970f79b329cf1676000ef2df5a5",
   "package_verification": {
     "status": "PASS_PACKAGE_INTEGRITY",
     "record_view_rows": 9116,
-    "manifest_sha256": "6d5f92ee01072a44f1b66b1f6570361c5f11921221e0a344b88b3991d8a18dd0",
+    "manifest_sha256": "b24daa2efc4ebff7ada2ddeab6d0e2327ed3dc18023f56422badf4e91976e54a",
     "external_receipt_checked": false,
     "scientific_approval_granted": false
   },
@@ -14,7 +14,7 @@
     "members": [
       {
         "repository": "hawkinsnick/Linear-A",
-        "checkout_base_commit": "87d853a0493e4f05bbc39a74132e3c552c66146a",
+        "checkout_base_commit": "4d9a5436a579cc6d38040882a37872e3cbc08374",
         "configuration_sha256": "defff9de64d018a699b8aceef119ef50ba6585987ff16f6c129bbab463327bcf",
         "views": [
           {
@@ -74,8 +74,8 @@
           {
             "path": "ai-skill/references/authority-profile.json",
             "package_path": "members/Linear-A/ai-skill/references/authority-profile.json",
-            "sha256": "158f97b7d2bf10ab3c6876d2400ba8e3702912d9c7df3883995a451ec3b5b5b2",
-            "bytes": 4019
+            "sha256": "e8ecbe113d5588f74c37571ab046f79b697ecf7a1f3f4e8e2affee550ed9a54c",
+            "bytes": 4165
           },
           {
             "path": "docs/AI-INTEGRITY.md",
@@ -88,6 +88,46 @@
             "package_path": "members/Linear-A/research/cross-corpus-dependencies.json",
             "sha256": "b42507756a270f8b1365f67819e613b2e82a5d76ab78238bec55447750b925ba",
             "bytes": 449
+          },
+          {
+            "path": "data/generated/pre-expert/occurrences.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/occurrences.json",
+            "sha256": "4601b252e0a8fddc18412b9a0c8a21bbdfe646e058b5425f106dd6222ac689df",
+            "bytes": 3267117,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/records.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/records.json",
+            "sha256": "37036c54f687fcdda56ce6e3e3820b2c34aab21bf0edcf43fab43e7377c725b1",
+            "bytes": 541196,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/sign-concordance.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/sign-concordance.json",
+            "sha256": "a3e216853a8ac2e28b9de8fedba7efee74ab248906e1120ac09a183ac01654c7",
+            "bytes": 177789,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/source-metadata.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/source-metadata.json",
+            "sha256": "b1f8fadb054caa17dd00086c7cbe4545dcf4418b5bd566e4f3c67d81f7638c7f",
+            "bytes": 537,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/source-words.json",
+            "package_path": "members/Linear-A/data/generated/pre-expert/source-words.json",
+            "sha256": "1b29587e49faf960475f145f656a4000e85bfa2fc58b8bf4fb8d93d7556de623",
+            "bytes": 708671,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
           }
         ],
         "physical_object_count": null,
@@ -218,7 +258,7 @@
       },
       {
         "repository": "hawkinsnick/Linear-B",
-        "checkout_base_commit": "5f4c06274e90d67a2edac17d3be7526604f2a140",
+        "checkout_base_commit": "c568d6c1b9adc45e65b9581cbf1f32720cc02cd0",
         "configuration_sha256": "f408ac78a667f578f84e3e5aef858d650f49c79f8fd2f7351b381705fe33a081",
         "views": [
           {
@@ -310,6 +350,30 @@
             "package_path": "members/Linear-B/sources/registry.json",
             "sha256": "3d8c9e5449d95a2c960fcf87a59e5962a40a92b9e37c18c99cd23894f96d8ec0",
             "bytes": 581
+          },
+          {
+            "path": "data/generated/pre-expert/identity-register.json",
+            "package_path": "members/Linear-B/data/generated/pre-expert/identity-register.json",
+            "sha256": "769c2932aaedbff9d40d902600f99d021f0ec2d95cf622de8302c0cc928cd6d6",
+            "bytes": 3224386,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/records.json",
+            "package_path": "members/Linear-B/data/generated/pre-expert/records.json",
+            "sha256": "27e8ffee1f2dbda4a202fce785008bc13b5217b376d6ad758fd0ef207d8824ad",
+            "bytes": 5082179,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
+          },
+          {
+            "path": "data/generated/pre-expert/source-metadata.json",
+            "package_path": "members/Linear-B/data/generated/pre-expert/source-metadata.json",
+            "sha256": "8da42dedc8275ceb104b9ccb55fb78a0100b744b4f281f06f0ccd0f8faf6d69e",
+            "bytes": 414,
+            "local_only": true,
+            "role": "AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS"
           }
         ],
         "physical_object_count": null,
@@ -1854,5 +1918,6 @@
     "graphical_certification_acquired": false
   },
   "source_payload_committed": false,
-  "expert_review_requested": false
+  "expert_review_requested": false,
+  "native_auxiliary_layers_retained": true
 }

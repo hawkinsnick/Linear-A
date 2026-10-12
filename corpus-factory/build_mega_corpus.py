@@ -70,6 +70,7 @@ def collect(checkouts, registry, include_local=False):
                      'physical_object_count': None, 'independent_witness_count': None,
                      'rights_rule': 'Native component/source terms apply; package formation grants no redistribution permission.'}
         names = set()
+        local_context = {}
         for view in config['record_sets']:
             if view['name'] in names:
                 raise ValueError('duplicate native view name')
@@ -96,6 +97,15 @@ def collect(checkouts, registry, include_local=False):
                 receipts = {entry['file']: entry['sha256'] for entry in audit['local_export_manifest']}
                 if receipts.get(path.name) != file_hash:
                     raise ValueError('restricted payload differs from authenticated native audit')
+                # Carry the other admitted native export layers as context as well:
+                # Linear A occurrences/groupings must not disappear behind metadata rows.
+                for entry in audit['local_export_manifest']:
+                    auxiliary = safe_path(root, str(Path(view['path']).parent / entry['file']))
+                    auxiliary_raw = auxiliary.read_bytes()
+                    if digest(auxiliary_raw) != entry['sha256']:
+                        raise ValueError('authenticated auxiliary layer digest drift')
+                    relative = auxiliary.relative_to(root.resolve()).as_posix()
+                    local_context[relative] = auxiliary_raw
             ids = set()
             for index, row in enumerate(rows):
                 identity = row.get(view['id_key']) if isinstance(row, dict) else row
@@ -124,6 +134,12 @@ def collect(checkouts, registry, include_local=False):
             destination = 'members/' + repo.split('/')[-1] + '/' + relative
             files[destination] = raw
             component['context_files'].append({'path': relative, 'package_path': destination, 'sha256': digest(raw), 'bytes': len(raw)})
+        for relative, raw in sorted(local_context.items()):
+            destination = 'members/' + repo.split('/')[-1] + '/' + relative
+            files[destination] = raw
+            component['context_files'].append({'path': relative, 'package_path': destination, 'sha256': digest(raw),
+                                               'bytes': len(raw), 'local_only': True,
+                                               'role': 'AUTHENTICATED_NATIVE_AUXILIARY_LAYER; NOT_ADDITIONAL_UNIQUE_OBJECTS'})
         members.append(component)
     if len({row['record_key'] for row in records}) != len(records):
         raise ValueError('package key collision')
