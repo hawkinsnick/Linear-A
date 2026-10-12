@@ -148,3 +148,7 @@ Fleet software admission reconciliation and retained scholarly gates: [10 Octobe
 ## Publication and dependency repairs
 
 The [2026-10-12 defect checkpoint](corpus-factory/DEFECT-REMEDIATION-2026-10-12.md) records source-parent publication guards, removal of duplicate publishers and restoration of the master source-dependency register. These engineering repairs grant no scholarly acceptance.
+
+## Unified corpus and prepared calibration inputs
+
+The master corpus builder now materializes the declared native views of all 18 language members while retaining context and component rights. [Mega-corpus guide](https://github.com/hawkinsnick/Linear-A/blob/main/corpus-factory/MEGA-CORPUS.md). Linear B has a real 5,932-record observation package; linguistic annotations and graphical occurrences remain separate source-delivery dependencies. Coverage growth proceeds before final expert acceptance.

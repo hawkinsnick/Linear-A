@@ -131,6 +131,26 @@
       "role": "defect_validation_receipts",
       "path": "corpus-factory/defect-validation-2026-10-12.json",
       "required": true
+    },
+    {
+      "role": "mega_corpus_guide",
+      "path": "corpus-factory/MEGA-CORPUS.md",
+      "required": true
+    },
+    {
+      "role": "mega_corpus_builder",
+      "path": "corpus-factory/build_mega_corpus.py",
+      "required": true
+    },
+    {
+      "role": "mega_corpus_query",
+      "path": "corpus-factory/query_mega_corpus.py",
+      "required": true
+    },
+    {
+      "role": "mega_corpus_actual_receipt",
+      "path": "corpus-factory/mega-corpus-build-2026-10-12.json",
+      "required": true
     }
   ],
   "behavioral_gates": [

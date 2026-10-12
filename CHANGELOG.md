@@ -63,3 +63,7 @@ Generate the current README summary from native authorities and reject drift in 
 ## 2026-10-12 — remaining publication and master dependency defects
 
 Guard native bundle and master starter publication against source changes; remove legacy duplicate publishers in the Lydian/Sidetic/Pisidian workflows; restore the 15-group master dependency register from 17 immutable native projections. Native and master skills require the new controls. Scholarly, source-rights and calibration gates remain explicit.
+
+## 2026-10-12 — full corpus materialization and calibration input preparation
+
+Materialize the existing 18-member native research views, retain component context and lossless payloads, and prepare actual Linear B observations with source IDs and missingness. Add hostile packaging checks and update individual/master AI instructions. No new ancient records, gold reveal, calibration scores or independent acceptance are inferred from package formation.
