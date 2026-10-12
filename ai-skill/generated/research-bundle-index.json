@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "15bb352addd24181c86e81f976465a7a0e8af3eb",
-  "generated_at_utc": "2026-10-11T22:52:52+00:00",
+  "source_commit": "a888890198809779ae1ed363f0cbc9a480c3574d",
+  "generated_at_utc": "2026-10-12T12:04:48+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,42 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "defect_validation_receipts",
+      "path": "corpus-factory/defect-validation-2026-10-12.json",
+      "sha256": "ab552dae40c4e57f4ee0b9f2ab310aa59fa5582f332d116313d699a54603b598",
+      "bytes": 69535
+    },
+    {
+      "role": "native_skill_instructions",
+      "path": "ai-skill/SKILL.md",
+      "sha256": "5e1fc967c831d25e67921538577be32c69867ae00aa913c28a6f21a34493af52",
+      "bytes": 17737
+    },
+    {
+      "role": "cross_corpus_dependencies",
+      "path": "research/cross-corpus-dependencies.json",
+      "sha256": "b42507756a270f8b1365f67819e613b2e82a5d76ab78238bec55447750b925ba",
+      "bytes": 449
+    },
+    {
+      "role": "ai_integrity_guide",
+      "path": "docs/AI-INTEGRITY.md",
+      "sha256": "15b1be2fa019d1340ccfaf857649e9f4dcb18c27c0033144f65c01db1b93783a",
+      "bytes": 2233
+    },
+    {
+      "role": "master_cross_corpus_dependencies",
+      "path": "corpus-factory/cross-corpus-dependencies.json",
+      "sha256": "623c843ffdf201b73b66809595889ab4b0d025088043411574d39feacfde4c05",
+      "bytes": 29447
+    },
+    {
+      "role": "defect_remediation_checkpoint",
+      "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
+      "sha256": "d07626727d2f641db1dd0e87a0c65878a3d4255b2e48b118f9ee8d9b20b97778",
+      "bytes": 3429
+    },
     {
       "role": "pre_expert_exit_criteria",
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -40,8 +76,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "6ea6daedf2ded6418638e157e99d4bea5ead7d0305adf71f5e024257cb1f736b",
-      "bytes": 11769
+      "sha256": "8fa0278e7c9a421bf0d72b78255fee74a5c3b2bb804d545b928c9f8a6a153eec",
+      "bytes": 12082
     },
     {
       "role": "current_summary_builder",
@@ -70,13 +106,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "142e73dd3d512c8ead027ac779e476167353cdf3a1fb94ed6bfc75911e25d2f8",
+      "sha256": "dd70d1fe6e5bd0aa6ccbf9d35bba28d10f8b80cb8b8d7042f08750699a384633",
       "bytes": 8185
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "7891b84e2e727b5770df05182081f183391c0d30d956d0b10077723f77e2ace0",
+      "sha256": "a0f29a419814edab96c89b2b87c0cc8504c8f82400beb19d9ffc30ace82a8709",
       "bytes": 1820
     },
     {
@@ -268,8 +304,8 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "5872a96ccd28a17b2d3f0811d8a6c76a613d064fa86b4941492ae6f2a9da3b36",
-      "bytes": 16819
+      "sha256": "3a0844fd4345fdd1349ccbcebfd869840de5d01b8f0013078b6f971b33edbdcf",
+      "bytes": 18211
     },
     {
       "role": "claims",
