@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c39102ae6cb9d0544d5ccde6b2cbf018a20800f5",
-  "generated_at_utc": "2026-10-12T14:15:21+00:00",
+  "source_commit": "4a90a724fcb39d6853a219e743e8a3f7d49673b7",
+  "generated_at_utc": "2026-10-12T14:19:54+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -22,8 +22,8 @@
     {
       "role": "coverage_expansion_actual_receipt",
       "path": "corpus-factory/mega-corpus-expansion-build-2026-10-12.json",
-      "sha256": "42007cd1654e2632656d57ee22e96c9dc10e1b04850d6ce9264afef5c325a036",
-      "bytes": 83534
+      "sha256": "1935578050c4b625236219d469d26ab290d39d44cab7c06705906d9ea1bb33e3",
+      "bytes": 85723
     },
     {
       "role": "mega_corpus_actual_receipt",
@@ -40,8 +40,8 @@
     {
       "role": "mega_corpus_builder",
       "path": "corpus-factory/build_mega_corpus.py",
-      "sha256": "6995cd7280366c74e2ba3fd9961caa8dc6ccd970f79b329cf1676000ef2df5a5",
-      "bytes": 15073
+      "sha256": "af2f62577d077b8ac8a857d4c83bac648011a57b90e147913de3b2a82902c525",
+      "bytes": 15395
     },
     {
       "role": "mega_corpus_query",
@@ -142,13 +142,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "f99a2520e56790a84c79d4885198ce660a8b400d4c1a211fb1ebe7528eab0475",
+      "sha256": "1f3aff5e0bb7e6346a81ff24e13a12183a597a157ffa654a6236e6d82b2b932d",
       "bytes": 8512
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "626395684bdce05c4c2b5f1007f56e0a6235f1ddd98fd2450feba518a0b36afa",
+      "sha256": "b144d9bcd2f7ba760699aef05c07a79dc98d5188b8af008c5a89d9079e208725",
       "bytes": 1820
     },
     {
@@ -340,7 +340,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "3a0844fd4345fdd1349ccbcebfd869840de5d01b8f0013078b6f971b33edbdcf",
+      "sha256": "43412996ca0fb70846b4e55d013d92d38fb2c825e93110b60002d642e57298e2",
       "bytes": 18211
     },
     {
