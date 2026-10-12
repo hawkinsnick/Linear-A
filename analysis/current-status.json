@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "9faa94f3cf530b41266d6d2e15360024881eaf8abe1000febf17b3f01c16124a"
+      "sha256": "598101d10d382b430fa3fdc8b7a95d37bb07f3b08189e05d5d7aabb6a4baa046"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "49794b2dc3746c3cf9d5113b2730976766fa3e2c72a7c19125d5aef348c4f79b"
+      "sha256": "e14d7f2cb244aae8f65432fbec25db5783a2983f0727c88f4dd4c577f55a9b0d"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "73440b9067284eb13cdae1891fa1e67629ad8008a9493d99edc002e479675fad"
+      "sha256": "71a8f38a8a153b9ec15b564a5a615d4757ae2661aa38893d271365cf3126e7fc"
     },
     {
       "path": "research/workbench-milestone-v1.json",
@@ -314,7 +314,7 @@
     },
     {
       "path": "scripts/build_current_summary.py",
-      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6"
+      "sha256": "d7f2dc8b9611c11ba959f78863c559da3637257847098948944c6f44838ec427"
     },
     {
       "path": "research/source-action-plan.json",

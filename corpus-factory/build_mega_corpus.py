@@ -16,7 +16,11 @@ CONTEXT = ['LICENSE', 'LICENSE-CODE', 'LICENSE-CONTENT.md', 'LICENSING.md', 'NOT
            'DATA-LICENSE-MATRIX.md', 'ai-skill/SKILL.md', 'ai-skill/references/authority-profile.json',
            'research/cross-corpus-dependencies.json', 'research/browser-sources.json',
            'research/reference-reconciliation-v2.json', 'research/identity-reconciliation-v2.json',
-           'research/record-dossiers.json', 'docs/AI-INTEGRITY.md']
+           'research/record-dossiers.json', 'docs/AI-INTEGRITY.md',
+           'research/ediana-list-snapshot.json', 'research/ediana-edition-snapshot.json',
+           'research/monumental-link-snapshot.json', 'docs/DIGITAL-ENTRY-DOSSIERS.md',
+           'docs/COVERAGE-EXPANSION-2026-10-12.md',
+           'research/bbaw-squeeze-identifier-snapshot.json', 'docs/GEOGRAPHIC-EXPANSION.md']
 
 
 def encode(data):

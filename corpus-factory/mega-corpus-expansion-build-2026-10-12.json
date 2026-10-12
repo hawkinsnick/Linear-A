@@ -6,7 +6,7 @@
     "members": [
       {
         "repository": "hawkinsnick/Linear-A",
-        "checkout_base_commit": "32b904812d938f1bc8f9a711e365dcc55a49ca2c",
+        "checkout_base_commit": "c39102ae6cb9d0544d5ccde6b2cbf018a20800f5",
         "configuration_sha256": "defff9de64d018a699b8aceef119ef50ba6585987ff16f6c129bbab463327bcf",
         "views": [
           {
@@ -714,7 +714,7 @@
       },
       {
         "repository": "hawkinsnick/Cypriot-syllabic-Greek",
-        "checkout_base_commit": "f470ff418568b31d70edcf488c775ef55fc6efec",
+        "checkout_base_commit": "3e5112fc36cd03798680ba2f9c42d6392889375d",
         "configuration_sha256": "c0317737c0e4ef284107c2169a9ec01aa0e10f69095464e14f8db7adb1526117",
         "views": [
           {
@@ -804,6 +804,18 @@
             "package_path": "members/Cypriot-syllabic-Greek/docs/AI-INTEGRITY.md",
             "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
             "bytes": 1766
+          },
+          {
+            "path": "docs/GEOGRAPHIC-EXPANSION.md",
+            "package_path": "members/Cypriot-syllabic-Greek/docs/GEOGRAPHIC-EXPANSION.md",
+            "sha256": "ac8a86c5e3144608fa37f468a1b7f846269f32a13aab9756f8f684304cc5c55f",
+            "bytes": 2855
+          },
+          {
+            "path": "research/bbaw-squeeze-identifier-snapshot.json",
+            "package_path": "members/Cypriot-syllabic-Greek/research/bbaw-squeeze-identifier-snapshot.json",
+            "sha256": "f36977144ccf2f7e5d801c9026129ac5d6834d6a7030687b304b82bdc14d85e7",
+            "bytes": 33488
           },
           {
             "path": "research/browser-sources.json",
@@ -1254,7 +1266,7 @@
       },
       {
         "repository": "hawkinsnick/Anatolian-Hieroglyphic",
-        "checkout_base_commit": "ab2f8e541450514e112ef3d279a2903bbb220291",
+        "checkout_base_commit": "9824536881c4ce43c34c0f03079fe20a5aa57da9",
         "configuration_sha256": "2a2e76baf22590ace9906ee33b92cecf8e44a6f9c0fcae4f208cf0a77f3d8886",
         "views": [
           {
@@ -1324,6 +1336,18 @@
             "bytes": 1766
           },
           {
+            "path": "docs/COVERAGE-EXPANSION-2026-10-12.md",
+            "package_path": "members/Anatolian-Hieroglyphic/docs/COVERAGE-EXPANSION-2026-10-12.md",
+            "sha256": "2fbd928ce8ba7c0f276a537800d1e620a44a2e7367b7fc2cfc8c05d8699fc0b3",
+            "bytes": 1611
+          },
+          {
+            "path": "docs/DIGITAL-ENTRY-DOSSIERS.md",
+            "package_path": "members/Anatolian-Hieroglyphic/docs/DIGITAL-ENTRY-DOSSIERS.md",
+            "sha256": "387a40ed51e7f423e164ae58e9f522a4e9228b7dcfe7b13462bdf77aa7ba59f3",
+            "bytes": 46152
+          },
+          {
             "path": "research/browser-sources.json",
             "package_path": "members/Anatolian-Hieroglyphic/research/browser-sources.json",
             "sha256": "fad4f5421780bd8a6f7e9575f349e2ec7e40f87a91feae57aaf0b0643d5eb6c1",
@@ -1340,6 +1364,24 @@
             "package_path": "members/Anatolian-Hieroglyphic/research/digital-entry-dossiers.json",
             "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
             "bytes": 545735
+          },
+          {
+            "path": "research/ediana-edition-snapshot.json",
+            "package_path": "members/Anatolian-Hieroglyphic/research/ediana-edition-snapshot.json",
+            "sha256": "3fe7070f705a486a0c4bdc7106869a7b2d0e81f78d058e021d8d2324390bb6aa",
+            "bytes": 73676
+          },
+          {
+            "path": "research/ediana-list-snapshot.json",
+            "package_path": "members/Anatolian-Hieroglyphic/research/ediana-list-snapshot.json",
+            "sha256": "ec9cde442e4de174cc56c1353328a52e7740b91173f2553a3260b5aa2b422a7e",
+            "bytes": 19848
+          },
+          {
+            "path": "research/monumental-link-snapshot.json",
+            "package_path": "members/Anatolian-Hieroglyphic/research/monumental-link-snapshot.json",
+            "sha256": "c480ca875bb0b1d4392e5dbf11a0e0980f5d1c0fa29d352080e160efb189d364",
+            "bytes": 54831
           }
         ],
         "physical_object_count": null,
@@ -1917,7 +1959,7 @@
   "verification": {
     "status": "PASS_PACKAGE_INTEGRITY",
     "record_view_rows": 9562,
-    "manifest_sha256": "60e679ccd2fd9f3f3ce96e060ed11e02307ee2c7fcf1996dc6cba5bb50e8ab23",
+    "manifest_sha256": "c98fdd0339ab08377b01cbcdade358f71376329bfd38d78c06c4f2167b7ae680",
     "external_receipt_checked": true,
     "scientific_approval_granted": false
   },
@@ -1936,5 +1978,6 @@
       "unittest_passed": 39
     },
     "scientific_approval_granted": false
-  }
+  },
+  "builder_sha256": "af2f62577d077b8ac8a857d4c83bac648011a57b90e147913de3b2a82902c525"
 }
