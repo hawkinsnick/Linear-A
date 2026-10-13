@@ -167,3 +167,7 @@ Read `docs/LINEARA-XYZ-REFERENCE.md` for the source and rights boundary.
 ## Available source evidence
 
 Read `docs/SIGLA-SOURCE-LAYOUT.md` when querying the expanded source layer. Preserve native sampling units, unresolved source classifications, replica/derivative dependence and component rights. Source rectangles, facsimile ordinals and table rows are not automatically ancient objects, certified glyphs or independent witnesses.
+
+
+## John Younger and Nestor: literature routing
+Read `docs/YOUNGER-NESTOR-LITERATURE.md` and `research/younger-nestor-literature.json` for the bounded reference layer. Use bibliographic records to discover and cite publications; preserve consultation depth and source-specific rights. Do not imply that Younger web commentary or the Nestor database has been imported. Treat Nestor as bibliographic discovery, not an inscription witness or endorsement of a listed hypothesis. Do not admit sign values, translations, morphology, independent witnesses or calibration gold from titles or encoding proposals. Keep the direct Younger retrieval failure explicit and the GORILA restriction unchanged.

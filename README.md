@@ -171,3 +171,8 @@ Added [an attributed secondary-reference notice](docs/LINEARA-XYZ-REFERENCE.md),
 ## Available evidence growth — 2026-10-12
 
 See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.
+
+
+## Younger and Nestor literature references
+
+[The dated literature guide](docs/YOUNGER-NESTOR-LITERATURE.md) records eight selected references (two resources and six publications), consultation depth and reuse boundaries. No Younger commentary, Nestor database dump or new inscription readings are imported.

@@ -236,6 +236,16 @@
       "role": "ch_cm_source_growth",
       "path": "corpus-factory/ch-cm-source-growth-build-2026-10-12.json",
       "required": true
+    },
+    {
+      "role": "younger_nestor_literature",
+      "path": "research/younger-nestor-literature.json",
+      "required": true
+    },
+    {
+      "role": "younger_nestor_guide",
+      "path": "docs/YOUNGER-NESTOR-LITERATURE.md",
+      "required": true
     }
   ],
   "behavioral_gates": [

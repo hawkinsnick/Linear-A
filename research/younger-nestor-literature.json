@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "scope": "Bounded Younger/Nestor literature pilot, not exhaustive scholarship or bulk database import",
+  "checked_date": "2026-10-12",
+  "record_count": 8,
+  "resources": 2,
+  "publications": 6,
+  "new_canonical_readings": 0,
+  "entries": [
+    {
+      "id": "YOUNGER-LINEAR-A-WEB",
+      "authors": [
+        "John G. Younger"
+      ],
+      "year": null,
+      "title": "Linear A Texts in phonetic transcription",
+      "url": "https://people.ku.edu/~jyounger/LinearA/",
+      "kind": "online_resource",
+      "source_url": "https://www.classics.cam.ac.uk/research/projects/mycep/links",
+      "locator": "Online Resources: John Younger’s Linear A website",
+      "consultation": "DIRECT_RETRIEVAL_FAILED_EXTERNAL_RESOURCE_DESCRIPTION_ONLY",
+      "scope": "Linear A texts and related resources; content not acquired",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "NESTOR-BIBLIOGRAPHY",
+      "authors": [],
+      "year": null,
+      "title": "Nestor: Bibliography of Aegean Prehistory and Related Areas",
+      "url": "https://classics.uc.edu/nestor/",
+      "kind": "bibliographic_resource",
+      "source_url": "https://classics.uc.edu/nestor/pages/history",
+      "locator": "Nestor History; attribution to University of Cincinnati, editor Carol R. Hershenson",
+      "consultation": "RESOURCE_DESCRIPTION_INSPECTED",
+      "scope": "Discovery bibliography; not inscription readings",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "EVERSON-YOUNGER-2010",
+      "authors": [
+        "Michael Everson",
+        "John Younger"
+      ],
+      "year": 2010,
+      "title": "Revised proposal for encoding the Linear A script in the SMP of the UCS",
+      "url": "https://escholarship.org/uc/item/2bs980nh",
+      "kind": "encoding_proposal",
+      "source_url": "https://escholarship.org/content/qt2bs980nh/qt2bs980nh.pdf",
+      "locator": "PDF ordinal 1 repository cover; ordinal 2 proposal header; dated 2010-12-28; N3973 / L2/10-422",
+      "consultation": "PUBLICATION_HEADER_AND_METADATA_INSPECTED",
+      "scope": "Character encoding history; not independent epigraphic certification",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "YOUNGER-2015-ROUNDELS",
+      "authors": [
+        "John Younger"
+      ],
+      "year": 2015,
+      "title": "The Myrtos–Pyrgos and Gournia roundels inscribed in Linear A: Suffixes, prefixes, and a journey to Syme",
+      "container": "The Great Islands: Studies of Crete and Cyprus presented to Gerald Cadogan",
+      "pages": "67–70",
+      "url": "https://www.aegeussociety.org/en/new_book/the-great-islands-studies-of-crete-and-cyprus-presented-to-gerald-cadogan/",
+      "kind": "chapter",
+      "source_url": "https://www.aegeussociety.org/en/new_book/the-great-islands-studies-of-crete-and-cyprus-presented-to-gerald-cadogan/",
+      "locator": "Contents: John Younger, pp. 67–70",
+      "consultation": "SECONDARY_CONTENTS_METADATA_ONLY",
+      "scope": "Roundel literature lead; title's linguistic proposals are not adopted",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "DAVIS-2024-LANGUAGES",
+      "authors": [
+        "Brent Davis"
+      ],
+      "year": 2024,
+      "title": "Investigations into the Language(s) Behind Cretan Hieroglyphic and Linear A",
+      "container": "Cretan Hieroglyphic",
+      "pages": "165–190",
+      "url": "https://doi.org/10.1017/9781009490122.010",
+      "kind": "chapter",
+      "source_url": "https://classics.uc.edu/nestor/images/stories/issues-archived/2026/nedb53_09sep26final.pdf",
+      "locator": "Nestor 53.9, printed p.130 / PDF ordinal 7",
+      "consultation": "NESTOR_BIBLIOGRAPHIC_ENTRY_ONLY",
+      "scope": "Language hypotheses; chapter contents not consulted",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "YOUNGER-2024-EPILOGUE",
+      "authors": [
+        "John G. Younger"
+      ],
+      "year": 2024,
+      "title": "Epilogue",
+      "container": "Cretan Hieroglyphic",
+      "pages": "222–224",
+      "url": "https://doi.org/10.1017/9781009490122.012",
+      "kind": "chapter",
+      "source_url": "https://classics.uc.edu/nestor/images/stories/issues-archived/2026/nedb53_09sep26final.pdf",
+      "locator": "Nestor 53.9, printed p.141 / PDF ordinal 18",
+      "consultation": "NESTOR_BIBLIOGRAPHIC_ENTRY_ONLY",
+      "scope": "Adjacent Cretan script scholarship; chapter contents not consulted",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "DI-MINO-2026-LIBATION",
+      "authors": [
+        "Tom di Mino"
+      ],
+      "year": 2026,
+      "title": "Ya Diktu: Grammar of the Minoan Peak Sanctuary Libation Formula",
+      "url": "https://zenodo.org/records/21980325",
+      "kind": "repository_work_unassessed",
+      "source_url": "https://classics.uc.edu/nestor/images/stories/issues-archived/2026/nedb53_09sep26final.pdf",
+      "locator": "Nestor 53.9, printed p.131 / PDF ordinal 8",
+      "consultation": "NESTOR_BIBLIOGRAPHIC_ENTRY_ONLY",
+      "scope": "Unassessed hypothesis lead; peer-review status unknown; no grammatical claims adopted",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    },
+    {
+      "id": "BENNET-2008-DISAPPEARANCE",
+      "authors": [
+        "John Bennet"
+      ],
+      "year": 2008,
+      "title": "Now You See It; Now You Don’t! The Disappearance of the Linear A Script on Crete",
+      "container": "The Disappearance of Writing Systems. Perspectives on Literacy and Communication",
+      "pages": "1–29",
+      "url": "https://classics.uc.edu/nestor/images/stories/annual_issues/nestor_2010.pdf",
+      "kind": "chapter",
+      "source_url": "https://classics.uc.edu/nestor/images/stories/annual_issues/nestor_2010.pdf",
+      "locator": "Nestor entry §20100006",
+      "consultation": "NESTOR_BIBLIOGRAPHIC_ENTRY_ONLY",
+      "scope": "Writing-system history lead; chapter contents not consulted",
+      "checked_date": "2026-10-12",
+      "admission": "BIBLIOGRAPHIC_REFERENCE_ONLY",
+      "full_text_imported": false,
+      "inscription_reading_admitted": false,
+      "independent_witness": false,
+      "rights": {
+        "source_license": "NOASSERTION",
+        "permission_for_full_text_redistribution": false,
+        "operation": "Selected citation facts and links only; no source text, database dump, images or transcriptions bundled"
+      }
+    }
+  ],
+  "next_actions": [
+    "Recover authoritative access to Younger web content; record access and intended-use rights separately.",
+    "Use Nestor regular bibliographic search and downloadable citation metadata for further source-located discovery; rights review before bulk import.",
+    "Inspect each underlying publication before extracting attributed interpretive assertions.",
+    "Deduplicate citations and retain edition ancestry before any independence claim."
+  ],
+  "rights_boundary": "GORILA project-specific refusal unchanged. A bibliography, encoding proposal, or secondary website is not a route to reconstruct restricted transcriptions."
+}
+
