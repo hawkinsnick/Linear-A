@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "b85a649301bf99b817032e173b3537bb9b2f8e65",
-  "generated_at_utc": "2026-10-12T20:25:21+00:00",
+  "source_commit": "0c8aa5f23160016eb81b46f85a9d076f946e6cbc",
+  "generated_at_utc": "2026-10-13T19:30:39+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -76,8 +76,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "2b43abe1f86947d5015519af112dd3866a3fd28f184e784aa982b50373536a56",
-      "bytes": 40946
+      "sha256": "ae0e299a04dcf11375d9c8c4a92cbfdbec9086c31d01c29bcfa5d516b0a2a45d",
+      "bytes": 41912
     },
     {
       "role": "source_delivery_guide",
@@ -202,8 +202,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "a9cc6e855cc8eb12c0ae74f106bafb90ec9b83b11f68860e0ae3dddda1b2c2f5",
-      "bytes": 14376
+      "sha256": "1c65b521b99328979960dff74769fc2129b2e9cc29476b9f63e1d515a6612cec",
+      "bytes": 14824
     },
     {
       "role": "current_summary_builder",
