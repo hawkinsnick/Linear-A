@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: f9cb09f4b32677f2201bc69376bacedad0d2206a0a929eac87f4dea684e92edc
+Instruction snapshot SHA-256: bcd49baf6eeac756b5632b0ba834ebaff3a847a1445979cfff26ccbb4566fc1e
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1100,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 2b43abe1f86947d5015519af112dd3866a3fd28f184e784aa982b50373536a56
+SHA-256: ae0e299a04dcf11375d9c8c4a92cbfdbec9086c31d01c29bcfa5d516b0a2a45d
 
 ---
 name: combined-corpus-research
@@ -1383,6 +1383,9 @@ Read `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md` and each member’s sour
 
 For the Tiryns primary context, preserve appendix `3 (?) signs`, its 8–9 mm sign-height range, and the unresolved main-description VB / appendix VC coordinate difference with printed/PDF locators. No certainty or coordinate correction is admitted.
 
+## Cretan Hieroglyphic H/Y primary frontier — 2026-10-13
+Read `corpus-factory/CH-HY-FRONTIER-2026-10-13.md` and the member’s `docs/HY-FRONTIER-2026-10-13.md` plus native registers/receipt. Report the former 127-route gap (114 H, 13 Y) as closed for historical primary catalogue contexts: the three-route union is 331/331 identities, while the earlier two-route union remains 204. Canonical coverage stays 13 versions on six entries, 325 without encoded readings, and zero independent reviews. Preserve CHIC-331 unknown holding/angle brackets, historical-versus-current museum status, Vrysinas proposed identifications/alternatives and primary visual-collation limits, and the two CMS script dashes. Keep post-1996 candidates outside the CHIC spine and do not infer independent witnesses, whole-corpus completeness or expert-only readiness. The 127-row supplement is not yet included in a rebuilt mega-corpus; do not revise its historical row total by addition.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1455,7 +1458,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: bb4de1573ab07be1ba61bfebe89e77d5a30e3909e8f3b1c1832307ef26780136
+SHA-256: 48272f3280ec9b4b78ea5426f279d10308c87607d5d43950a37d10a47a9358f8
 
 {
   "schema_version": "1.0.0",
@@ -1595,7 +1598,7 @@ SHA-256: bb4de1573ab07be1ba61bfebe89e77d5a30e3909e8f3b1c1832307ef26780136
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions. The 2026-10-13 primary H/Y supplement closes the bounded 127-route discovery gap through historical museum/provenance/type assertions; three-route union 331/331, reading coverage unchanged. Vrysinas text comparisons await primary visual collation; CMS comparands remain script-unassigned.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -1622,7 +1625,10 @@ SHA-256: bb4de1573ab07be1ba61bfebe89e77d5a30e3909e8f3b1c1832307ef26780136
       "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
       "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
       "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
-      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126"
+      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126",
+      "hy_frontier_guide_path": "docs/HY-FRONTIER-2026-10-13.md",
+      "hy_frontier_receipt_path": "analysis/hy-frontier-2026-10-13.json",
+      "hy_frontier_commit": "6de5e7bb6e3cbb28e73e4d991af18bb38add7adc"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",

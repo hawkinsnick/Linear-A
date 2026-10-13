@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "03dd53a45c6a919ebef3d45f4f615fb6195844f8f7d2ff7188744c4540ce6128",
+  "build_script_sha256": "710e6c0e526459840eab08ab68e7c9a2724153a18410f2d2009875f5c121f12c",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "2b43abe1f86947d5015519af112dd3866a3fd28f184e784aa982b50373536a56",
-      "bytes": 40946
+      "sha256": "ae0e299a04dcf11375d9c8c4a92cbfdbec9086c31d01c29bcfa5d516b0a2a45d",
+      "bytes": 41912
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "bb4de1573ab07be1ba61bfebe89e77d5a30e3909e8f3b1c1832307ef26780136",
-      "bytes": 46315
+      "sha256": "48272f3280ec9b4b78ea5426f279d10308c87607d5d43950a37d10a47a9358f8",
+      "bytes": 46816
     },
     {
       "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
@@ -92,6 +92,11 @@
       "path": "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md",
       "sha256": "f39c44e31731d7ae0abd4c5c7aaa76c0d56c9781e9d7d21291b49dda93a92fb1",
       "bytes": 3524
+    },
+    {
+      "path": "corpus-factory/CH-HY-FRONTIER-2026-10-13.md",
+      "sha256": "a8a5de97f92890898731d6fc2d09724859974ef244e416e85da075cf326a0140",
+      "bytes": 1984
     },
     {
       "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
@@ -179,5 +184,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "f9cb09f4b32677f2201bc69376bacedad0d2206a0a929eac87f4dea684e92edc"
+  "snapshot_sha256": "bcd49baf6eeac756b5632b0ba834ebaff3a847a1445979cfff26ccbb4566fc1e"
 }

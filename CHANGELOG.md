@@ -89,3 +89,6 @@ See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded 
 ### CH/CM source growth — 2026-10-12
 
 Expanded qualified discovery/context views to 10,759 mixed rows, with native source audits, individual/master skills and researcher starter updated. No reading or expert gate change. See `corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md`.
+
+## 2026-10-13 — CH primary H/Y frontier routing
+Updated CH member routing, master instructions and starter sources for 127 new historical primary catalogue contexts and three discovery dispositions; no new canonical readings, mixed-package rebuild or scientific acceptance.

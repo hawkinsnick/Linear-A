@@ -171,3 +171,7 @@ Added [an attributed secondary-reference notice](docs/LINEARA-XYZ-REFERENCE.md),
 ## Available evidence growth — 2026-10-12
 
 See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded source-bound evidence layer, scope and unresolved qualifications. No new canonical readings or scientific acceptance are granted.
+
+## CH primary H/Y discovery checkpoint — 2026-10-13
+
+[Cretan Hieroglyphic’s primary-concordance supplement](corpus-factory/CH-HY-FRONTIER-2026-10-13.md) supplies historical context for the former 127-route gap. The three-route union is 331/331 catalogue identities; encoded reading coverage remains six entries. Master instructions and starter downloads carry the updated limits. The mixed mega-corpus has not been rebuilt at this checkpoint.

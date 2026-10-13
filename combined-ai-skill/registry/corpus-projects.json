@@ -136,7 +136,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions. The 2026-10-13 primary H/Y supplement closes the bounded 127-route discovery gap through historical museum/provenance/type assertions; three-route union 331/331, reading coverage unchanged. Vrysinas text comparisons await primary visual collation; CMS comparands remain script-unassigned.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -163,7 +163,10 @@
       "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
       "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
       "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
-      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126"
+      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126",
+      "hy_frontier_guide_path": "docs/HY-FRONTIER-2026-10-13.md",
+      "hy_frontier_receipt_path": "analysis/hy-frontier-2026-10-13.json",
+      "hy_frontier_commit": "6de5e7bb6e3cbb28e73e4d991af18bb38add7adc"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
