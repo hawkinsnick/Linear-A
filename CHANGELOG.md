@@ -99,3 +99,7 @@ Updated master registry/instructions and researcher starter for CM 26-on-twelve 
 ## CMOC-0209 bounded source check — 2026-10-14
 
 Read `corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md` and the member’s native register, guide and reconciliation. Current CM coverage is 28 assertions on 13/21 rich records, eight without encoded positions. Two isolated positions only; retain the uncertain 10 proposal, reported originals and unresolved internal 09/10 discrepancy. Do not admit either conflicting label, infer complete-tablet coverage, independent witnesses, primary collation or expert acceptance. Earlier dated counts remain historical; corpus-wide inference remains blocked.
+
+## Inputs and primary reconciliation — 14 October 2026
+
+Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three native checkpoint registers/guides. Linear B has a published appendix ID example only (one item, seven units: five lexical words, one logogram, one numeral); same-snapshot crosswalk, annotations and graphical certification remain undelivered. Milyan TL55 eight is Texier quoted by Kalinka, whose printed transliteration has nine entry groups; preserve boundary differences and unchanged114 source rows without physical-line/full-reading acceptance. Byblos drawing categories partition123 as119+3+1; retain literal 32 collision, eight gaps and unadopted32/92 hypothesis. No ancient-loss certification, expert acceptance or calibration. Current CM209 checkpoint is unchanged.

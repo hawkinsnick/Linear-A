@@ -121,13 +121,14 @@
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim. Current 2026-10-14 private pre-reveal byte binding is implemented; no semantic verification, authority/rights acceptance, gold reveal or calibration result. Linked source annotations and certified graphics remain missing.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim. Current 2026-10-14 private pre-reveal byte binding is implemented; no semantic verification, authority/rights acceptance, gold reveal or calibration result. Linked source annotations and certified graphics remain missing. Current 2026-10-14 appendix ID checkpoint: one published item and seven units (five lexical, one logogram, one numeral); publication example only, not current same-version word crosswalk, gold or graphical certification. Delivery still open; no calibration or correspondence.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
       "collection_replay_path": "scripts/build_collection_handoff.py",
-      "calibration_freeze_guide_path": "docs/CALIBRATION-FREEZE-2026-10-14.md"
+      "calibration_freeze_guide_path": "docs/CALIBRATION-FREEZE-2026-10-14.md",
+      "input_reconciliation_20261014_path": "research/damos-published-id-example-2026-10-14.json"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -210,7 +211,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint: Agreed final Byblos pass complete; scoped pause, not terminal pre-expert readiness. 123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused targets. 32/92 and ordinal-27 hypotheses remain unadopted. Historical register: 103 display targets = 98 horizontal bands + five columns across fifteen panels, not canonical lines or faces. Six count-policy review questions; no direct 1945 book pages, verified sequences or independent approvals. Further source/identity work remains open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint: Agreed final Byblos pass complete; scoped pause, not terminal pre-expert readiness. 123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused targets. 32/92 and ordinal-27 hypotheses remain unadopted. Historical register: 103 display targets = 98 horizontal bands + five columns across fifteen panels, not canonical lines or faces. Six count-policy review questions; no direct 1945 book pages, verified sequences or independent approvals. Further source/identity work remains open. Current 2026-10-14 source partition: 123 ordinals =119 form-bearing depictions +3 minimal-mark +1 edge-only; not certified ancient surviving/lost categories. Literal assignments 114 single, one collision, eight unassigned. 32-to-92 unadopted; primary1945/1978 access and independent review remain open; zero new canonical sequences.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -248,7 +249,8 @@
       "expert_review_handoff_path": "docs/EXPERT-REVIEW-HANDOFF.md",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "input_reconciliation_20261014_path": "research/count-assignment-checkpoint-2026-10-14.json"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -716,7 +718,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target; not an exhaustion claim. Two eDiAna source records and 114 text rows populated, reference API and lossless EpiDoc validated. Kalinka scan inspected for precise locators and explicit eight-versus-nine TL 55 segmentation conflict. Canonical verified readings remain zero; primary critical comparison and independent expert acceptance open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target; not an exhaustion claim. Two eDiAna source records and 114 text rows populated, reference API and lossless EpiDoc validated. Kalinka scan inspected for precise locators and explicit eight-versus-nine TL 55 segmentation conflict. Canonical verified readings remain zero; primary critical comparison and independent expert acceptance open. Current 2026-10-14 TL55 count voices accounted: eight is Texier quoted on Kalinka p.53; nine printed transliteration entry groups on p.54 match nine frozen rows in count. Exact text/boundaries and physical-line certification remain open. All114 source rows unchanged; no verified canonical reading or independent review.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -752,7 +754,8 @@
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
       "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
-      "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b"
+      "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b",
+      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json"
     }
   ],
   "corpus_factory": {

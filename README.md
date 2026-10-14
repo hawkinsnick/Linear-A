@@ -181,3 +181,5 @@ See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded 
 [Current checkpoint](corpus-factory/CM-LB-PROGRESS-2026-10-14.md): CM source coverage grows to 26 assertions on 12/21 rich records. LB adds tested private pre-reveal byte binding; actual calibration remains blocked by linked gold/graphical source dependencies. Individual and master instructions preserve the distinct evidence and acceptance boundaries.
 
 Current one-record CM checkpoint: 28 source assertions on 13/21 rich records; eight lack encoded positions. CMOC-0209 contributes two isolated positions, one uncertain; internal source disagreement and expert gates remain open. [Scope and source controls](corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md).
+
+Priorities 2/3 checkpoint: Linear B published ID evidence, TL55 count-voice reconciliation and Byblos source-drawing count partition. Source delivery and full primary collation remain open. [Evidence and limits](corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md).
