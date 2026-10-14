@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 16 unchanged occurrences on nine of 21 rich records; six primary and ten dependent-secondary assertions. Three reported Olivier/Valério disagreements need primary pages or independent adjudication; BnF holding registered, not text acquisition. All 21 identities accounted, 14 explicit joins, seven unresolved. Catalogue ingestion markers enforced; no new reading positions or expert acceptance. Donnelly pp. 104–105 now confirm the legacy AM 1639 attribution; probable status, figure lineage and absent numbered join retained, no new occurrence. Current 2026-10-14 source growth: 26 assertions on 12/21 rich records, nine uncovered; six primary and twenty dependent. Prior sixteen preserved; no independent review or physical certification.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Current CMOC-0209 checkpoint, 2026-10-14: 28 source assertions on 13/21 rich records, eight without encoded positions; six primary-publication and 22 dependent-secondary assertions. Two isolated CM209 positions only; one uncertain; prior 26 preserved. Reported originals retained; internal 09/10 discrepancy unresolved with neither admitted. Full-tablet coverage, direct Olivier collation, independent review and corpus-wide frequency remain open/blocked. The 254 catalogue slots and 21 rich records are separate units. Historical snapshots retain their dated scope.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -75,7 +75,7 @@
       "collection_replay_path": "scripts/build_collection_handoff.py",
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
-      "epidoc_validation_boundary": "Pinned RNG and all 57 embedded upstream Schematron patterns pass for the 16-occurrence partial pilot, including retained editorial notes; complete object coverage and independent review remain open.",
+      "epidoc_validation_boundary": "Current 28-assertion partial pilot preserves native uncertainty and editorial notes; pinned RNG and embedded upstream Schematron validation are interchange checks, not epigraphic acceptance.",
       "upstream_epidoc_validation_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
       "catalogue_concordance_path": "catalogues/source-located-concordance.json",
       "catalogue_mapping_audit_path": "analysis/catalogue-mapping-audit.json",
@@ -93,7 +93,9 @@
       "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
       "existing_reconciliation_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
       "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
-      "finite_source_growth_path": "research/source-growth-2026-10-14.json"
+      "finite_source_growth_path": "research/source-growth-2026-10-14.json",
+      "CM209_source_check_path": "research/source-check-CMOC-0209-2026-10-14.json",
+      "CM209_source_guide_path": "docs/CMOC-0209-SOURCE-CHECK.md"
     },
     {
       "repository": "hawkinsnick/Linear-B",

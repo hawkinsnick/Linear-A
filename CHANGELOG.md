@@ -95,3 +95,7 @@ Updated CH member routing, master instructions and starter sources for 127 new h
 
 ## 2026-10-14 — CM finite source growth and LB freeze routing
 Updated master registry/instructions and researcher starter for CM 26-on-twelve source coverage and LB private pre-reveal byte binding. No expert acceptance or calibration performance claimed.
+
+## CMOC-0209 bounded source check — 2026-10-14
+
+Read `corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md` and the member’s native register, guide and reconciliation. Current CM coverage is 28 assertions on 13/21 rich records, eight without encoded positions. Two isolated positions only; retain the uncertain 10 proposal, reported originals and unresolved internal 09/10 discrepancy. Do not admit either conflicting label, infer complete-tablet coverage, independent witnesses, primary collation or expert acceptance. Earlier dated counts remain historical; corpus-wide inference remains blocked.

@@ -167,3 +167,7 @@ Read `docs/LINEARA-XYZ-REFERENCE.md` for the source and rights boundary.
 ## Available source evidence
 
 Read `docs/SIGLA-SOURCE-LAYOUT.md` when querying the expanded source layer. Preserve native sampling units, unresolved source classifications, replica/derivative dependence and component rights. Source rectangles, facsimile ordinals and table rows are not automatically ancient objects, certified glyphs or independent witnesses.
+
+## CMOC-0209 bounded source check — 2026-10-14
+
+Read `corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md` and the member’s native register, guide and reconciliation. Current CM coverage is 28 assertions on 13/21 rich records, eight without encoded positions. Two isolated positions only; retain the uncertain 10 proposal, reported originals and unresolved internal 09/10 discrepancy. Do not admit either conflicting label, infer complete-tablet coverage, independent witnesses, primary collation or expert acceptance. Earlier dated counts remain historical; corpus-wide inference remains blocked.
