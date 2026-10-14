@@ -92,3 +92,6 @@ Expanded qualified discovery/context views to 10,759 mixed rows, with native sou
 
 ## 2026-10-13 — CH primary H/Y frontier routing
 Updated CH member routing, master instructions and starter sources for 127 new historical primary catalogue contexts and three discovery dispositions; no new canonical readings, mixed-package rebuild or scientific acceptance.
+
+## 2026-10-14 — CM finite source growth and LB freeze routing
+Updated master registry/instructions and researcher starter for CM 26-on-twelve source coverage and LB private pre-reveal byte binding. No expert acceptance or calibration performance claimed.

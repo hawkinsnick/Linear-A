@@ -51,7 +51,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 16 unchanged occurrences on nine of 21 rich records; six primary and ten dependent-secondary assertions. Three reported Olivier/Valério disagreements need primary pages or independent adjudication; BnF holding registered, not text acquisition. All 21 identities accounted, 14 explicit joins, seven unresolved. Catalogue ingestion markers enforced; no new reading positions or expert acceptance. Donnelly pp. 104–105 now confirm the legacy AM 1639 attribution; probable status, figure lineage and absent numbered join retained, no new occurrence.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 16 unchanged occurrences on nine of 21 rich records; six primary and ten dependent-secondary assertions. Three reported Olivier/Valério disagreements need primary pages or independent adjudication; BnF holding registered, not text acquisition. All 21 identities accounted, 14 explicit joins, seven unresolved. Catalogue ingestion markers enforced; no new reading positions or expert acceptance. Donnelly pp. 104–105 now confirm the legacy AM 1639 attribution; probable status, figure lineage and absent numbered join retained, no new occurrence. Current 2026-10-14 source growth: 26 assertions on 12/21 rich records, nine uncovered; six primary and twenty dependent. Prior sixteen preserved; no independent review or physical certification.",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
       "admission": {
         "status": "PASS",
@@ -92,7 +92,8 @@
       "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
       "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
       "existing_reconciliation_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
-      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
+      "finite_source_growth_path": "research/source-growth-2026-10-14.json"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -118,12 +119,13 @@
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim. Current 2026-10-14 private pre-reveal byte binding is implemented; no semantic verification, authority/rights acceptance, gold reveal or calibration result. Linked source annotations and certified graphics remain missing.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "calibration_freeze_guide_path": "docs/CALIBRATION-FREEZE-2026-10-14.md"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",

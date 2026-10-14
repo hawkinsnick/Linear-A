@@ -175,3 +175,7 @@ See [docs/SIGLA-SOURCE-LAYOUT.md](docs/SIGLA-SOURCE-LAYOUT.md) for the expanded 
 ## CH primary H/Y discovery checkpoint — 2026-10-13
 
 [Cretan Hieroglyphic’s primary-concordance supplement](corpus-factory/CH-HY-FRONTIER-2026-10-13.md) supplies historical context for the former 127-route gap. The three-route union is 331/331 catalogue identities; encoded reading coverage remains six entries. Master instructions and starter downloads carry the updated limits. The mixed mega-corpus has not been rebuilt at this checkpoint.
+
+## CM coverage and LB calibration controls — 2026-10-14
+
+[Current checkpoint](corpus-factory/CM-LB-PROGRESS-2026-10-14.md): CM source coverage grows to 26 assertions on 12/21 rich records. LB adds tested private pre-reveal byte binding; actual calibration remains blocked by linked gold/graphical source dependencies. Individual and master instructions preserve the distinct evidence and acceptance boundaries.
