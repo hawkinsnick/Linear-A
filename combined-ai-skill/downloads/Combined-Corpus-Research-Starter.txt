@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: fd7edf1f07871dade99ff702ab87c183ecacef45fceb1ebf4c3b08db60bbb3e9
+Instruction snapshot SHA-256: 7990d9877925167a731cab153e1686fd2f7a0db6b1e21d56fa8479563b7d80dc
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1100,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 479f870632e467884aaaa62038eb64f3b496c1dad7fcaa4e8e971eca68d57233
+SHA-256: cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2
 
 ---
 name: combined-corpus-research
@@ -1398,6 +1398,10 @@ Read `corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md` and the member’s native
 ## Inputs and primary reconciliation — 14 October 2026
 
 Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three native checkpoint registers/guides. Linear B has a published appendix ID example only (one item, seven units: five lexical words, one logogram, one numeral); same-snapshot crosswalk, annotations and graphical certification remain undelivered. Milyan TL55 eight is Texier quoted by Kalinka, whose printed transliteration has nine entry groups; preserve boundary differences and unchanged114 source rows without physical-line/full-reading acceptance. Byblos drawing categories partition123 as119+3+1; retain literal 32 collision, eight gaps and unadopted32/92 hypothesis. No ancient-loss certification, expert acceptance or calibration. Current CM209 checkpoint is unchanged.
+
+## Queryable Linear A critical evidence
+
+For Linear A pilot evidence or competing-reading questions, read `docs/CRITICAL-EVIDENCE-QUERIES.md` and `analysis/critical-evidence-coverage-v1.json`. Use `python scripts/query_critical_evidence.py --record 'HT 17'` (exact native ID) or `--coverage`. Keep source witness fields, attributed assertions and legacy queue labels separate. Cite assertion/case IDs, source locators and the input hash. Do not describe legacy alternatives as two attributed scholarly readings: no such pair is collated in this pilot. Report the five unjoined cases separately from the ten joined cases; an interpretation-only case is not an inscription. Absence from this bounded pilot does not mean absence from the corpus. Preserve all uncertainty, source dependence, mixed rights and unreviewed states. These capabilities and counts apply only to Linear A; route other corpora through their own evidence models.
 
 === END SOURCE FILE ===
 
