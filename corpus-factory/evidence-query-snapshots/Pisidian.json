@@ -1,0 +1,91 @@
+{
+  "format": "corpus-native-evidence-query-coverage-v1",
+  "repository": "hawkinsnick/Pisidian",
+  "profile_sha256": "b2d681c22b531f726e822709b8c9929168887f6866d6429dca7a6db43835f0ff",
+  "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+  "collections": [
+    {
+      "name": "digital-reference",
+      "native_unit": "frozen eDiAna directory record",
+      "record_count": 54,
+      "scope": "Source rows and bibliographic references are not critical-edition or object certification.",
+      "example_ids": [
+        "pisidian:ediana:0",
+        "pisidian:ediana:1",
+        "pisidian:ediana:2"
+      ],
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+        "role": "digital-reference",
+        "encoding": "json"
+      }
+    }
+  ],
+  "context_resources": [
+    {
+      "path": "data/reference/records.json",
+      "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "digital-reference",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-register.json",
+      "sha256": "bb91a0edbd9cffa134befb40b45104665c91e703a32ac0711791d9ee05569905",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-issues.json",
+      "sha256": "c6a7bc889fa15a797d4a90978cd3a5a26d3eeea82f50b0bc1233d92528ffe521",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-checks.json",
+      "sha256": "b6add789bd9f6a5ad36269274a99c4818cf20a466d10d6a7573242b27b70f827",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-worklist.json",
+      "sha256": "f2c4905dddfb5fbfb26740c7040d2f7fa19baf19d3717c847fa022a49594b153",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    }
+  ],
+  "scholarly_limits": [
+    "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view."
+  ],
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool."
+}

@@ -1,0 +1,133 @@
+{
+  "format": "corpus-native-evidence-query-coverage-v1",
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "profile_sha256": "987923865a4cd727e1fc54f5a3b0550f1279a3fa7eedf6f21a34da20e5d170ac",
+  "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+  "collections": [
+    {
+      "name": "quarantined-candidates",
+      "native_unit": "quarantined candidate entity",
+      "record_count": 2,
+      "scope": "Writing status and script membership may remain disputed.",
+      "example_ids": [
+        "ARKALOCHORI-AXE",
+        "MALIA-ALTAR-STONE"
+      ],
+      "provenance": {
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates",
+        "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+        "role": "quarantined-candidates",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "disagreement-register",
+      "native_unit": "research disagreement/control item",
+      "record_count": 5,
+      "scope": "Contains membership, counting and interpretive disputes.",
+      "example_ids": [
+        "ANO-DIS-001",
+        "ANO-DIS-002",
+        "ANO-DIS-003"
+      ],
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+        "pointer": "/items",
+        "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+        "role": "disagreement-register",
+        "encoding": "json"
+      }
+    }
+  ],
+  "context_resources": [
+    {
+      "path": "research/candidate-register.json",
+      "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "quarantined-candidates",
+      "encoding": "json"
+    },
+    {
+      "path": "research/disagreement-register.json",
+      "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "disagreement-register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-lineage-register.json",
+      "sha256": "a53385f4ca46d74b80f3a373bb1612621d33229dbc1cd05c4f079eff477ea3a0",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/rights-source-matrix.json",
+      "sha256": "6f514f4ae4903ad8a0ba66b3adf74395e175f53625feeffc3360e82bcc9bc506",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-quality-register.json",
+      "sha256": "46f4a8c35efa37b1f123f7d70beb84aa962c750ee2a9abf12711063674900ea0",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/counting-convention-register.json",
+      "sha256": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/classification-history.json",
+      "sha256": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/malia-evidence-packet.json",
+      "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    }
+  ],
+  "scholarly_limits": [
+    "Candidate admission to quarantine does not establish writing, language or script membership. Phaistos Disc stays in its dedicated corpus; source-specific counts and drawings are not silently unified."
+  ],
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool."
+}

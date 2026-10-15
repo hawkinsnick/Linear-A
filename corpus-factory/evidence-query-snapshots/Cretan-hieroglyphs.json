@@ -1,0 +1,145 @@
+{
+  "format": "corpus-native-evidence-query-coverage-v1",
+  "repository": "hawkinsnick/Cretan-hieroglyphs",
+  "profile_sha256": "43a8919e3638886833b98f838bf95d83abaa90e811d693251f0bc42579637ead",
+  "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+  "collections": [
+    {
+      "name": "catalogue-dossiers",
+      "native_unit": "CHIC catalogue dossier",
+      "record_count": 331,
+      "scope": "331 identifiers with unequal context and reading coverage.",
+      "example_ids": [
+        "CHIC-001",
+        "CHIC-002",
+        "CHIC-003"
+      ],
+      "provenance": {
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers",
+        "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+        "role": "catalogue-dossiers",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "critical-readings",
+      "native_unit": "source reading assertion",
+      "record_count": 13,
+      "scope": "Face/line readings are separate assertions, not unique objects.",
+      "example_ids": [
+        "CHIC-036-a-CHIC1996",
+        "CHIC-036-b-CHIC1996",
+        "CHIC-040-a-CHIC1996"
+      ],
+      "provenance": {
+        "path": "corpus/critical-readings.json",
+        "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+        "role": "critical-readings",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "qualified-assertions",
+      "native_unit": "qualified source assertion",
+      "record_count": 13,
+      "scope": "Preserves source and reconciliation qualification.",
+      "example_ids": [
+        "CHIC-036-a-CHIC1996",
+        "CHIC-036-b-CHIC1996",
+        "CHIC-040-a-CHIC1996"
+      ],
+      "provenance": {
+        "path": "research/qualified-assertion-views.json",
+        "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+        "pointer": "/assertions",
+        "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+        "role": "qualified-assertions",
+        "encoding": "json"
+      }
+    }
+  ],
+  "context_resources": [
+    {
+      "path": "research/record-dossiers.json",
+      "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "catalogue-dossiers",
+      "encoding": "json"
+    },
+    {
+      "path": "corpus/critical-readings.json",
+      "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "critical-readings",
+      "encoding": "json"
+    },
+    {
+      "path": "research/qualified-assertion-views.json",
+      "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "qualified-assertions",
+      "encoding": "json"
+    },
+    {
+      "path": "research/disagreements.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-reconciliation.json",
+      "sha256": "b5f68545c018b160f6435ddc04c09de34a99f64f5fa8887e4594bbe38d8e5601",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/hy-primary-concordance-2026-10-13.json",
+      "sha256": "53189fe04dab6b94be4051a688cbe15aaf47fa56448dcc64a3cfd3c45880c8c0",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/reference-reconciliation-v2.json",
+      "sha256": "a9397e546c324edd4e98ad6cd072778fed4566bfef0b1e4fb22c854dab7a3b0a",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    }
+  ],
+  "scholarly_limits": [
+    "A catalogue concordance is not a reading. An empty disagreement register does not demonstrate scholarly agreement. INSCRIBE and CHIC dependencies remain explicit."
+  ],
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool."
+}

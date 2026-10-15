@@ -108,6 +108,10 @@ Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three nati
 
 Added exact-ID JSON evidence dossiers and replayable coverage accounting over existing Linear A pilot evidence, including unjoined legacy cases. Added corruption/loss/identity tests and CI checks. Updated individual and master AI instructions and starter generation. No source acquisition, adjudication, new reading or expert acceptance. See `docs/CRITICAL-EVIDENCE-QUERIES.md`.
 
+## 2026-10-15 — Native evidence and alternative-reading queries
+
+Added pinned native evidence profiles, exact-ID/JSON-pointer queries, coverage replay, loss/corruption/identity/path tests and CI. Updated researcher documentation, AI instructions and evidence bundle indexing. Existing source data and scientific acceptance states are unchanged.
+
 ## Milyan Schürr2005 bounded collation
 
 Read `corpus-factory/MILYAN-SCHUERR2005-COLLATION.md` and the native register/qualified view. The PDF is now acquired; nine source labels and six selected issues are located, not completely collated or accepted. Preserve alternative/doubtful readings, emendation versus graphic evidence, source row-boundary allocations, and the distinction between revised transcription and poetic reconstruction. `research_api.py collation` exposes nine qualified reference rows; rows without selected issues have not passed full collation. All114 source strings and zero verified canonical readings remain unchanged. Qualified reference data and comparison annotations retain CC-BY-SA-4.0; source article/images are excluded and not relicensed. PDF extraction and unattributed overlays are not authorities. No new independent witness, expert review or bulk reuse permission.

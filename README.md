@@ -188,6 +188,14 @@ Priorities 2/3 checkpoint: Linear B published ID evidence, TL55 count-voice reco
 
 The [critical evidence query guide](docs/CRITICAL-EVIDENCE-QUERIES.md) provides exact-ID dossiers over the existing 10-entry pilot: 168 source attestation slots and 51 attributed assertions. Source witness data, editorial assertions and legacy alternatives remain separate. The [coverage report](analysis/critical-evidence-coverage-v1.json) explicitly retains five unjoined queue cases. No alternative pair has yet been individually collated to attributed witnesses in this pilot; no readings or expert acceptance are added.
 
+## Evidence and alternative-reading queries
+
+[Query source evidence and unresolved alternatives](docs/EVIDENCE-AND-ALTERNATIVES.md) using exact native IDs, full source records, pinned artifact locators and explicit corpus-specific scope. [Coverage by native view](analysis/evidence-query-coverage.json) keeps catalogue entries, reading versions, assertions and research issues distinct. This interface adds no source collation, canonical reading or expert acceptance.
+
+## Evidence queries across the language collection
+
+The [18-corpus evidence guide](corpus-factory/EVIDENCE-AND-ALTERNATIVES.md) routes researchers to each native query, source/rights context and measured coverage. Native units remain separate; searchable alternatives do not establish completed scholarly collation.
+
 Milyan now has a bounded Schürr2005 comparison and qualified nine-row researcher view, retaining six selected issues and all114 frozen strings. [Scope, source layers and remaining gates](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).
 
 

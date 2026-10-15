@@ -1,0 +1,94 @@
+{
+  "format": "corpus-native-evidence-query-v1",
+  "repository": "hawkinsnick/Linear-A",
+  "collections": [
+    {
+      "name": "source-documents",
+      "path": "research/sigla-source-documents.jsonl",
+      "pointer": "",
+      "id_pointer": "/source_record_id",
+      "unit": "SigLA source document entry",
+      "scope": "Full committed public source-document view; face/object identities remain unadjudicated."
+    },
+    {
+      "name": "critical-pilot",
+      "path": "research/critical-pilot.json",
+      "pointer": "/entries",
+      "id_pointer": "/source_record_id",
+      "unit": "selected critical pilot entry",
+      "scope": "Ten problem-selected entries, not representative coverage."
+    },
+    {
+      "name": "legacy-cases",
+      "path": "research/critical-pilot.json",
+      "pointer": "/cases",
+      "id_pointer": "/case_id",
+      "unit": "legacy project queue case",
+      "scope": "Includes unjoined and interpretation-only cases; not individually attributed alternative pairs."
+    }
+  ],
+  "relations": [
+    {
+      "from": "source-documents",
+      "to": "critical-pilot",
+      "from_pointer": "/source_record_id",
+      "to_pointer": "/source_record_id",
+      "label": "EXACT_DECLARED_ID_MATCH_NOT_PHYSICAL_CERTIFICATION_OR_INDEPENDENCE"
+    },
+    {
+      "from": "critical-pilot",
+      "to": "legacy-cases",
+      "from_pointer": "/source_record_id",
+      "to_pointer": "/source_record_id",
+      "label": "EXACT_DECLARED_ID_MATCH_NOT_PHYSICAL_CERTIFICATION_OR_INDEPENDENCE"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "research/sigla-source-documents.jsonl",
+      "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+      "encoding": "jsonl",
+      "role": "source-documents"
+    },
+    {
+      "path": "research/critical-pilot.json",
+      "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+      "encoding": "json",
+      "role": "critical-pilot, legacy-cases"
+    },
+    {
+      "path": "DATA-LICENSE-MATRIX.md",
+      "sha256": "eb621059d0e2d381ead371b1e1d728caaf4d62c0665ba6b6d5879b463e9daf41",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "SOURCE-POLICY.md",
+      "sha256": "07a5223aabef60c798cb2ed9fe98a0ef44032dc05ad9731e66c71de733abf317",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
+      "sha256": "97d2bc4e24cc79e141fd59f7c01cc5cfe01353509f44b1b7f64adf16b6c1e896",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    }
+  ],
+  "scholarly_limits": [
+    "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal."
+  ],
+  "native_artifacts_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
+}
