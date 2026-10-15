@@ -24,6 +24,8 @@ Use exact native IDs. If an ID occurs in more than one view, specify `--collecti
 | critical-pilot | 10 | selected critical pilot entry | Ten problem-selected entries, not representative coverage. |
 | legacy-cases | 15 | legacy project queue case | Includes unjoined and interpretation-only cases; not individually attributed alternative pairs. |
 
+| attribution-audit | 10 | bounded legacy-case attribution audit | Explicit source qualifications and remaining gaps; no two-source same-locus competing pair established. |
+
 Counts overlap and must not be added as unique inscriptions, objects or independent witnesses. The coverage report deliberately leaves alternative-pair and independent-witness counts unknown; a comparison register can include reported, dependent or unaligned assertions.
 
 ## Trace a claim
@@ -47,3 +49,7 @@ Pointers use RFC 6901 escaping (`~1` for slash, `~0` for tilde). JSONL artifacts
 For each proposed alternative, identify the author or edition, precise page/plate/position, literal reading, consultation state, source lineage and reuse terms. Distinguish observed damage, supplied text, segmentation, transliteration conventions, source-reported analysis and project hypotheses. Align the same locus before comparing readings. Keep unresolved attribution and alignment explicit. Existing register entries must not be promoted to completed collation merely because they are searchable.
 
 The profile and report are `research/evidence-query-profile.json` and `analysis/evidence-query-coverage.json`. Source pins fail closed: changes to a registered source require inspecting the change, updating its profile pin, regenerating coverage and rerunning tests. Hashes establish byte identity, not historical truth. Source-specific rights prevail over project licenses; this interface grants no new extraction or redistribution permission.
+
+## Current qualification of legacy disputes
+
+Read [the ten-case attribution audit](LEGACY-CASE-ATTRIBUTION.md) before treating RC2/visual/branch register labels as attributed disagreements. The `attribution-audit` view preserves assessments for U001–U009 and U011; exact case-ID links qualify the unchanged `legacy-cases` view. Query U008 for the KH8 locus conflict. The source profile now mixes older native artifacts with a new original audit: per-artifact snapshot metadata and SHA-256 identify inputs; a null shared snapshot commit avoids assigning the new audit to an older commit.

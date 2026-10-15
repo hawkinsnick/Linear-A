@@ -200,3 +200,7 @@ Milyan now has a bounded Schürr2005 comparison and qualified nine-row researche
 
 
 Milyan TL55 now has completed first-pass review coverage for9 revised lines and74 apparatus entries, with4 digital boundary markers accounted for. The independent-review packet is prepared; full critical collation and expert adjudication remain open. [Evidence and review scope](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).
+
+## Ten-case source-attribution pass
+
+The [joined legacy-case audit](docs/LEGACY-CASE-ATTRIBUTION.md) examines all ten exact joined cases and preserves all twenty queued alternatives. It identifies three qualified publication contexts and specific evidence gaps for every case, correcting unsupported numerical, locus and physical-adjudication claims in older project registers. No two-source same-locus competing pair, new reading or expert acceptance is established. The query interfaces expose the audit beside unchanged historical records.

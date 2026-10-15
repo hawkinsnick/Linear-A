@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 58a930f2bc0c0e72263e4f156444b5a899dd6fc862d921f0ec27f273e65de1c1
+Instruction snapshot SHA-256: 0bab584e96b97243e8b83f02e4bbeb5b3f7861d6ae887a34cc4995e83e0492e0
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1100,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: d2173c597e29d3469b29a5380ef6519ac3dafe0052816ec8123ce7ef0bb665a0
+SHA-256: 0d192661867f6bd1f2ebd60b04532d24f656d810b3445b2990012b0f8a880e39
 
 ---
 name: combined-corpus-research
@@ -1418,6 +1418,10 @@ Milyan’s `research/tl55-first-pass-review.json` records the completed first do
 
 Read `review/tl55-independent-review.json`: PREPARED_NOT_REVIEWED, null reviewer/assessment, zero accepted readings. Complete first-pass coverage does not establish complete sign-by-sign epigraphic collation, expert adjudication, full-article interpretation, physical-line certification or independent evidence. Never close expert review with an AI-generated assessment, automated validation or the source publication itself. Native checks protect input hashes, all74 entry identities, all4 markers and the unperformed review state. Source PDF/images and full modern edition remain excluded; original notes and qualified reference context retain component licensing. Full critical collation and external adjudication remain open.
 
+## Linear A legacy-case attribution audit
+
+For U001–U009 and U011, load `research/legacy-case-attribution.json`, its pinned search log and `docs/LEGACY-CASE-ATTRIBUTION.md`. Treat this audit as the current qualification of unsupported claims in the unchanged RC2, visual-evidence and branch registers. Report the bounded pass as complete, with all ten scholarly cases still open: three published contexts are not three recovered alternative pairs. Do not call the HT17 37/38 case a verified SigLA numerical conflict; sign-number37 is not an account quantity. Keep KH8 A567 and A510 at their distinct source slots until the disputed locus is established. The identified Consani passage does not establish the full MA10b pair; Flouda’s punctuation report does not establish the queued before-IZU lexical split or independent physical adjudication. Preserve every legacy literal, source dependence, consultation limit and remaining gap; never infer a source because another project register repeats the claim. Use `legacy_case_attribution.py --case U008` or the native `attribution-audit` collection for the case assessment. No new GORILA data, canonical reading, expert review or source-collated competing pair is admitted by this pass.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1490,7 +1494,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 77c34c3fcfac4554db18bb313782f087462d7570c9df3b41d87b6c69168f23ed
+SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
 
 {
   "schema_version": "1.0.0",
@@ -1522,7 +1526,7 @@ SHA-256: 77c34c3fcfac4554db18bb313782f087462d7570c9df3b41d87b6c69168f23ed
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion. Bounded joined-case attribution pass: ten cases/twenty queued alternatives, three qualified publication contexts, explicit evidence gaps in all ten; no fully attributed same-locus competing pair, new reading or expert acceptance. Current attribution audit qualifies unsupported older project register claims.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
@@ -1536,7 +1540,10 @@ SHA-256: 77c34c3fcfac4554db18bb313782f087462d7570c9df3b41d87b6c69168f23ed
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "legacy_attribution_path": "research/legacy-case-attribution.json",
+      "legacy_attribution_audit_path": "analysis/legacy-case-attribution-audit.json",
+      "legacy_attribution_guide_path": "docs/LEGACY-CASE-ATTRIBUTION.md"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",

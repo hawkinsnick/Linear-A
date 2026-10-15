@@ -25,6 +25,14 @@
       "id_pointer": "/case_id",
       "unit": "legacy project queue case",
       "scope": "Includes unjoined and interpretation-only cases; not individually attributed alternative pairs."
+    },
+    {
+      "name": "attribution-audit",
+      "path": "research/legacy-case-attribution.json",
+      "pointer": "/cases",
+      "id_pointer": "/case_id",
+      "unit": "bounded legacy-case attribution audit",
+      "scope": "Ten joined cases with explicit remaining gaps; no fully attributed same-locus competing pair established."
     }
   ],
   "relations": [
@@ -41,6 +49,13 @@
       "from_pointer": "/source_record_id",
       "to_pointer": "/source_record_id",
       "label": "EXACT_DECLARED_ID_MATCH_NOT_PHYSICAL_CERTIFICATION_OR_INDEPENDENCE"
+    },
+    {
+      "from": "legacy-cases",
+      "to": "attribution-audit",
+      "from_pointer": "/case_id",
+      "to_pointer": "/case_id",
+      "label": "CURRENT_ATTRIBUTION_QUALIFICATION_OF_UNCHANGED_LEGACY_CASE"
     }
   ],
   "artifacts": [
@@ -48,47 +63,70 @@
       "path": "research/sigla-source-documents.jsonl",
       "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
       "encoding": "jsonl",
-      "role": "source-documents"
+      "role": "source-documents",
+      "source_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
     },
     {
       "path": "research/critical-pilot.json",
       "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
       "encoding": "json",
-      "role": "critical-pilot, legacy-cases"
+      "role": "critical-pilot, legacy-cases",
+      "source_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
     },
     {
       "path": "DATA-LICENSE-MATRIX.md",
       "sha256": "eb621059d0e2d381ead371b1e1d728caaf4d62c0665ba6b6d5879b463e9daf41",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
     },
     {
       "path": "SOURCE-POLICY.md",
       "sha256": "07a5223aabef60c798cb2ed9fe98a0ef44032dc05ad9731e66c71de733abf317",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
-      "sha256": "97d2bc4e24cc79e141fd59f7c01cc5cfe01353509f44b1b7f64adf16b6c1e896",
+      "sha256": "9f910d0ceffac046986a10a94b83f73fd25544ab63f606d4a56425e7ca280b14",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": null
     },
     {
       "path": "LICENSE-CONTENT.md",
       "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
     },
     {
       "path": "NOTICE",
       "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
+    },
+    {
+      "path": "research/legacy-case-attribution.json",
+      "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+      "encoding": "json",
+      "role": "current ten-case attribution audit",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "research/legacy-case-source-searches.json",
+      "sha256": "e08e4e61fa1d152abbfef7ee16f5ea3e6b4bc1b44fabd87ced29fba54c8f18bf",
+      "encoding": "json",
+      "role": "bounded source-discovery search log",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
-    "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal."
+    "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
+    "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs."
   ],
-  "native_artifacts_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
+  "native_artifacts_snapshot_commit": null,
+  "snapshot_commit_scope": "Mixed inputs: existing native artifacts retain their prior per-artifact commit; the new original attribution audit is pinned by bytes and published repository history, not assigned to an earlier commit."
 }

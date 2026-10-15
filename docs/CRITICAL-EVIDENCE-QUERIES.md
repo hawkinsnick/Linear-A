@@ -37,3 +37,7 @@ Extend this workflow to other corpora only through their native evidence models.
 ## Rights and boundaries
 
 The tool reads already committed evidence and preserves its existing mixed rights statement; it introduces no permission to ingest GORILA, reproduce plates, or redistribute restricted content. SigLA-derived witness material retains attribution to Ester Salgarella and Simon Castellan, its pyaegean intermediary, and CC BY-NC-SA 4.0 terms. See `SOURCE-POLICY.md`, `DATA-LICENSE-MATRIX.md` and the source pilot. Historical consultation records do not imply permission for new extraction. This query output is a view of the same evidence, not another independent witness.
+
+## Completed bounded attribution pass
+
+The [ten-case audit](LEGACY-CASE-ATTRIBUTION.md) now qualifies the ten joined cases. Dossiers include `current_attribution_audit` beside unchanged legacy literals. All cases retain explicit evidence gaps; the historical registers do not supply missing source authors or same-locus alignment.

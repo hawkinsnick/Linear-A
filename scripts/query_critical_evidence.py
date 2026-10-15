@@ -31,6 +31,10 @@ def dossier(record_id, root=ROOT):
     assertions = entry.pop('assertions')
     witness = entry.pop('source_attestations')
     cases = [copy.deepcopy(c) for c in pilot['cases'] if c['source_record_id'] == record_id]
+    attribution = []
+    if (Path(root) / 'research/legacy-case-attribution.json').is_file():
+        from legacy_case_attribution import case as attributed_case
+        attribution = [attributed_case(c['case_id'], root) for c in cases]
     page_ids = set(entry['gorila_page_ids'])
     scholar_ids = {a['source_id'] for a in assertions} - page_ids
     return {
@@ -46,6 +50,8 @@ def dossier(record_id, root=ROOT):
             'edition_pages': [copy.deepcopy(p) for p in pilot['pages'] if p['page_id'] in page_ids],
             'scholarly_reports': [copy.deepcopy(s) for s in pilot['scholarly_sources'] if s['source_id'] in scholar_ids]},
         'legacy_queue_cases': cases,
+        'current_attribution_audit': attribution,
+        'attribution_precedence': 'Use the current attribution audit to qualify unsupported historical register claims; legacy literals are unchanged.',
         'alternative_reading_status': 'LEGACY_QUEUE_LABELS_NOT_INDIVIDUALLY_SOURCE_COLLATED',
         'rights': pilot['rights'], 'boundary': BOUNDARY,
     }

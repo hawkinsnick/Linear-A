@@ -4,9 +4,9 @@
     {
       "repository": "hawkinsnick/Linear-A",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Linear-A.json",
-      "profile_sha256": "771570dba0fa8bf9b690b4686fa80d6190df18739441c8a0bf76247e0f3234bf",
+      "profile_sha256": "e0219e34df86d5384b472bcde868cec008dc41b1fc9e5d5409018419f614cc09",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "ce805635c0bb15a26913d5397b3943f1b5f396ec"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",

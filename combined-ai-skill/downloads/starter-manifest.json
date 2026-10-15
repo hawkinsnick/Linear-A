@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "6649488d2fb3ae2b56bf375f34986dcd608a271bef30fe63dbc6ecd6cba81811",
+  "build_script_sha256": "be5dafe161baff41589cea4892fbfe7a883cc90e26d98d1ef5ed08a1ec84b296",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "d2173c597e29d3469b29a5380ef6519ac3dafe0052816ec8123ce7ef0bb665a0",
-      "bytes": 48691
+      "sha256": "0d192661867f6bd1f2ebd60b04532d24f656d810b3445b2990012b0f8a880e39",
+      "bytes": 49931
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "77c34c3fcfac4554db18bb313782f087462d7570c9df3b41d87b6c69168f23ed",
-      "bytes": 54436
+      "sha256": "e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488",
+      "bytes": 54979
     },
     {
       "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
@@ -120,8 +120,8 @@
     },
     {
       "path": "corpus-factory/EVIDENCE-AND-ALTERNATIVES.md",
-      "sha256": "250928e045d68ce6e728492a319f217ccbcaa3688950c16e02ffb824e4334f91",
-      "bytes": 5810
+      "sha256": "ee632150f773074f378f5ceecc44eee5a931988b168f62908533e2665b6db4cb",
+      "bytes": 6252
     },
     {
       "path": "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
@@ -180,8 +180,8 @@
     },
     {
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "c7e1c4a12ac1f73fef51645e06bbc424f75d69a2de4cb0395680c71fb153ff17",
-      "bytes": 7962
+      "sha256": "e23be0698996df86f68b119cba4501fbdf028e76b6b437891568f2669a473133",
+      "bytes": 7924
     },
     {
       "path": "corpus-factory/fleet-enumeration-audit-v2.json",
@@ -210,8 +210,13 @@
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
-      "sha256": "97d2bc4e24cc79e141fd59f7c01cc5cfe01353509f44b1b7f64adf16b6c1e896",
-      "bytes": 3780
+      "sha256": "9f910d0ceffac046986a10a94b83f73fd25544ab63f606d4a56425e7ca280b14",
+      "bytes": 4112
+    },
+    {
+      "path": "docs/LEGACY-CASE-ATTRIBUTION.md",
+      "sha256": "bd9d9ce3ade70d11d1e3902b3ba661f4b46781f535a4732a60c9ff56d0ecce95",
+      "bytes": 7762
     },
     {
       "path": "docs/LINEARA-XYZ-REFERENCE.md",
@@ -219,5 +224,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "58a930f2bc0c0e72263e4f156444b5a899dd6fc862d921f0ec27f273e65de1c1"
+  "snapshot_sha256": "0bab584e96b97243e8b83f02e4bbeb5b3f7861d6ae887a34cc4995e83e0492e0"
 }

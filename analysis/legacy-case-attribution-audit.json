@@ -1,0 +1,13 @@
+{
+  "format": "linear-a-legacy-attribution-audit-v1",
+  "input_path": "research/legacy-case-attribution.json",
+  "input_sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+  "joined_cases_examined": 10,
+  "alternatives_preserved": 20,
+  "cases_with_specific_remaining_gaps": 10,
+  "qualified_published_contexts": 3,
+  "same_locus_competing_pairs_established": 0,
+  "canonical_readings_added": 0,
+  "expert_reviews_added": 0,
+  "boundary": "Bounded attribution pass complete; all scholarly cases remain open. New publication context is not new physical evidence or an independently collated alternative pair."
+}
