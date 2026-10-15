@@ -1,0 +1,20 @@
+{
+  "format": "corpus-source-collation-audit-v1",
+  "repository": "hawkinsnick/Pisidian",
+  "status": "PASS_PACKET_INTEGRITY_NOT_EPIGRAPHIC_ADJUDICATION",
+  "packet_sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e",
+  "implementation_sha256": "7b050980c9c807dd37070878e1b1e9f34bcec866861ba40bdec6d8d3c3ed4714",
+  "comparison_tasks": 4,
+  "source_consultation_modes": {
+    "DIRECT_RENDERED_PDF_PAGE_IMAGES": 3
+  },
+  "rendered_page_inspections": 5,
+  "project_representation_corrections": 0,
+  "frozen_readings_changed": false,
+  "accepted_readings_added": 0,
+  "independent_reviews_added": 0,
+  "source_files_redistributed": false,
+  "alternative_pair_total": null,
+  "independent_witness_total": null,
+  "literature_exhaustive": false
+}

@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Lydian",
-  "profile_sha256": "4f1d96825e8640a6a4627d939723441991c6dbde2bc5cc9bea8c8478e9acb4be",
+  "profile_sha256": "c98487e62ee7ebb11070ce1a0343254b5f020d8a1eef058b05f7eb75bf1a95ad",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -54,10 +54,29 @@
       ],
       "provenance": {
         "path": "research/attribution-review.json",
-        "sha256": "54318d84056d52d4692aef68d206e101b543224d60cc94c49051de52a333afa0",
+        "sha256": "a5950cfd5d6f1654e1787de11de09062b05fd1a8715a52bd083c651c706e6c69",
         "pointer": "/cases",
         "native_artifacts_snapshot_commit": null,
         "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "source-collation-2026-10-15",
+      "native_unit": "selected source collation task",
+      "record_count": 3,
+      "scope": "Three selected comparisons. Littmann’s tentative historical interpretation and Gusmani’s d/v ambiguity, conventions and published figure context are directly page-checked. Payne–Sasseville2016 was freshly inspected as author-posted web text only; exact PDF typography and RTI remain open after403 responses.",
+      "example_ids": [
+        "LYD-LW40-HISTORICAL",
+        "LYD-LW40-2016",
+        "LYD-GUSMANI1975-LW59"
+      ],
+      "provenance": {
+        "path": "research/source-collation-2026-10-15.json",
+        "sha256": "efe7cf4e240d4b98adc40a3df8d63812493ba4ef8de58f47ddfb3601a4da9cd6",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "fresh bounded source collation; consultation modes differ by source",
         "encoding": "json"
       }
     }
@@ -145,16 +164,25 @@
     },
     {
       "path": "research/attribution-review.json",
-      "sha256": "54318d84056d52d4692aef68d206e101b543224d60cc94c49051de52a333afa0",
+      "sha256": "a5950cfd5d6f1654e1787de11de09062b05fd1a8715a52bd083c651c706e6c69",
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-collation-2026-10-15.json",
+      "sha256": "efe7cf4e240d4b98adc40a3df8d63812493ba4ef8de58f47ddfb3601a4da9cd6",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "fresh bounded source collation; consultation modes differ by source",
       "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "Three selected comparisons. Littmann’s tentative historical interpretation and Gusmani’s d/v ambiguity, conventions and published figure context are directly page-checked. Payne–Sasseville2016 was freshly inspected as author-posted web text only; exact PDF typography and RTI remain open after403 responses."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

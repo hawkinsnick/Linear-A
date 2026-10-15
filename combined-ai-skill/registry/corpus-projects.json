@@ -114,7 +114,11 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -740,7 +744,11 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -793,7 +801,11 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -846,7 +858,11 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",

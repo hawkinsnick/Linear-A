@@ -208,3 +208,5 @@ The [joined legacy-case audit](docs/LEGACY-CASE-ATTRIBUTION.md) examines all ten
 Bounded attribution and comparison review: [source qualifications and remaining gaps](docs/ATTRIBUTION-REVIEW.md).
 
 All18 language corpora: [bounded attribution review and source gaps](corpus-factory/ATTRIBUTION-REVIEW.md).
+
+[Selected source collation: Cypro-Minoan, Lydian, Sidetic and Pisidian](corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md).

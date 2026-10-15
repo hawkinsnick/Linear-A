@@ -13,10 +13,11 @@
     {
       "repository": "hawkinsnick/Cypro-Minoan",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Cypro-Minoan.json",
-      "snapshot_sha256": "f5f0e92318f14605b5f822668234efec24d9487f805d67fbc8a9928a01430200",
-      "review_manifest_sha256": "9e98390e940f25de59922414d196fba61dd35b737a747f583f319e6a11a3a7e3",
+      "snapshot_sha256": "8fab2e68b2980c81ea8a47ee92f7868e030a70a9022b1339ea12ecc288c9f1cf",
+      "review_manifest_sha256": "b812c900449840a989c4ab278c40bbcdaa7cf81700f33f354e3119020f920a0a",
       "review_base_commit": "8dd9efd573c2fa2bb8208cacfa61502883643996",
-      "scope": "All six comparisons: five reassessments have an indirect Olivier side; one is an internal Valério inconsistency. Direct consultation and independence are separate questions."
+      "scope": "All six comparisons: five reassessments have an indirect Olivier side; one is an internal Valério inconsistency. Direct consultation and independence are separate questions.",
+      "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -117,26 +118,29 @@
     {
       "repository": "hawkinsnick/Lydian",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Lydian.json",
-      "snapshot_sha256": "dea9597d7f3d5baf04d99ade5af3c3c715fa1845ec1e2a59bbfa3854dd68e5a0",
-      "review_manifest_sha256": "54318d84056d52d4692aef68d206e101b543224d60cc94c49051de52a333afa0",
+      "snapshot_sha256": "85a29460804949e1a858c57c24741dd73daf36b2d9a2b47065518874fcf29d4d",
+      "review_manifest_sha256": "a5950cfd5d6f1654e1787de11de09062b05fd1a8715a52bd083c651c706e6c69",
       "review_base_commit": "edbc1c17244559f9a361035fc3c482d7a083a185",
-      "scope": "Four controls plus all37 existing source checks, including LW40 proposals, catalogue collisions, source typography and Gusmani concordance candidates."
+      "scope": "Four controls plus all37 existing source checks, including LW40 proposals, catalogue collisions, source typography and Gusmani concordance candidates.",
+      "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"
     },
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Sidetic.json",
-      "snapshot_sha256": "45ab5aafa2d666411da4b61f12a744c7450341cda2c9b3b120f7eb2e3891536b",
-      "review_manifest_sha256": "6f3258534e4b3d8cf81ba8eb5b526a6dbbc4791c8ffb92cd12153a8b1f16eb3d",
+      "snapshot_sha256": "5365ceaececc6cb22b1fde19654528ab26ee477075352021d1f4b1f78655d922",
+      "review_manifest_sha256": "4e0cfc5ceeb726d3a4f2be486a01239ae90ba9a5cd4ac05f98733494680f2069",
       "review_base_commit": "9c5b78bee9620ae7e2ca15cf28c9a687ab6469c4",
-      "scope": "Five controls plus all four source checks, including Ferrer’s damaged-name proposal and separate Greek ethnic, N22 and S9 proposals. No canonical sign remapping."
+      "scope": "Five controls plus all four source checks, including Ferrer’s damaged-name proposal and separate Greek ethnic, N22 and S9 proposals. No canonical sign remapping.",
+      "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"
     },
     {
       "repository": "hawkinsnick/Pisidian",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Pisidian.json",
-      "snapshot_sha256": "5d9e0ee68692c2fed31a378c0da7b51b3c8bb302a5662c0f54b6e6073c329864",
-      "review_manifest_sha256": "cfa83882fbca2c9a6c0fd6c66fe28c0ec44aa3de4289f9e85dfa24de0932b71f",
+      "snapshot_sha256": "6ab3cc3bc2c39072fc8849334232b2251f4e6bdef640ea40e211e6c8868262f1",
+      "review_manifest_sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
       "review_base_commit": "27f1f444e2ed5bf7c1ad3644ad27b4c269d798f9",
-      "scope": "All29 existing source checks plus the bibliography-key issue; numbering, editorial o/theta and e/s conventions, segmentation and classification remain separate. No invented disagreement register."
+      "scope": "All29 existing source checks plus the bibliography-key issue; numbering, editorial o/theta and e/s conventions, segmentation and classification remain separate. No invented disagreement register.",
+      "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
