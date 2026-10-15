@@ -13,6 +13,8 @@ SOURCE_PATHS = (
     "corpus-factory/EVIDENCE-AND-ALTERNATIVES.md",
     "corpus-factory/evidence-query-rollout.json",
     "docs/CRITICAL-EVIDENCE-QUERIES.md",
+
+    "corpus-factory/MILYAN-SCHUERR2005-COLLATION.md",
     "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
     "corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md",
     "corpus-factory/CM-LB-PROGRESS-2026-10-14.md",

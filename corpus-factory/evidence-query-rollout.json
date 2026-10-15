@@ -123,9 +123,9 @@
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Milyan-Lycian-B.json",
-      "profile_sha256": "419ac9d51dfda5f5caf6e63a88bc5a1c4241fcd26bf42210734711453c1b4876",
+      "profile_sha256": "c4f25b172957935b158c4bb7b5cf62d2e08a6e9f6aa1b12c76a5591bb22b15fd",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4"
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     }
   ],
   "scope": "Pinned native evidence-query views, not new collation or scholarly acceptance. Snapshots describe byte-bound local native sources; publication receipts are separate.",

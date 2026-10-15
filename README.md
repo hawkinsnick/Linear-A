@@ -195,3 +195,8 @@ The [critical evidence query guide](docs/CRITICAL-EVIDENCE-QUERIES.md) provides 
 ## Evidence queries across the language collection
 
 The [18-corpus evidence guide](corpus-factory/EVIDENCE-AND-ALTERNATIVES.md) routes researchers to each native query, source/rights context and measured coverage. Native units remain separate; searchable alternatives do not establish completed scholarly collation.
+
+Milyan now has a bounded Schürr2005 comparison and qualified nine-row researcher view, retaining six selected issues and all114 frozen strings. [Scope, source layers and remaining gates](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).
+
+
+Milyan TL55 now has completed first-pass review coverage for9 revised lines and74 apparatus entries, with4 digital boundary markers accounted for. The independent-review packet is prepared; full critical collation and expert adjudication remain open. [Evidence and review scope](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).

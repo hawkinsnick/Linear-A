@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "5a9424eb8ac77a4c3e251d7ec475f37cb698912ef884a12e980907d8cea0bab9",
+  "build_script_sha256": "6649488d2fb3ae2b56bf375f34986dcd608a271bef30fe63dbc6ecd6cba81811",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "d6f3e7b0f3ba128295fe61276b61bbf7c189b9ba6839ecdee88b4dfce58b8407",
-      "bytes": 46480
+      "sha256": "d2173c597e29d3469b29a5380ef6519ac3dafe0052816ec8123ce7ef0bb665a0",
+      "bytes": 48691
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "acee084a55055419515a61ff81a9afbe9798200dc59300726dd85a4a335fe113",
-      "bytes": 53967
+      "sha256": "77c34c3fcfac4554db18bb313782f087462d7570c9df3b41d87b6c69168f23ed",
+      "bytes": 54436
     },
     {
       "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
@@ -120,8 +120,8 @@
     },
     {
       "path": "corpus-factory/EVIDENCE-AND-ALTERNATIVES.md",
-      "sha256": "f98dc4a5f59920805a8159b4ffec2088331ce25f455d2284ca8b1571f7f6e6a2",
-      "bytes": 5670
+      "sha256": "250928e045d68ce6e728492a319f217ccbcaa3688950c16e02ffb824e4334f91",
+      "bytes": 5810
     },
     {
       "path": "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
@@ -132,6 +132,11 @@
       "path": "corpus-factory/MEGA-CORPUS.md",
       "sha256": "2f3caee339ba05c23cc1c300e093a06ae7083800898e76386841f773788bf2f0",
       "bytes": 6787
+    },
+    {
+      "path": "corpus-factory/MILYAN-SCHUERR2005-COLLATION.md",
+      "sha256": "13259cb15dcaf89eee0d46a5c35f75009288a55b84bd277ccd11cd8625ec8c5f",
+      "bytes": 3482
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -175,7 +180,7 @@
     },
     {
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "0a3e415fefedc424688d16d5837aa390478afbed98d4eb264aeea5e56d42dce0",
+      "sha256": "c7e1c4a12ac1f73fef51645e06bbc424f75d69a2de4cb0395680c71fb153ff17",
       "bytes": 7962
     },
     {
@@ -214,5 +219,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "44502b1f8c8967af69325288217619b0bb19b7ecd110bae3c7dd5cce7c143730"
+  "snapshot_sha256": "58a930f2bc0c0e72263e4f156444b5a899dd6fc862d921f0ec27f273e65de1c1"
 }

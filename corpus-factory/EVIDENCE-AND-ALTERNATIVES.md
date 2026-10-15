@@ -31,7 +31,7 @@ These are selected, overlapping views with different units. They must not be poo
 - Cretan Hieroglyphic: 331 catalogue dossiers remain separate from 13 face/line reading assertions. Catalogue coverage does not imply full readings.
 - Phaistos Disc: graphical groups, sign slots, conjectural claims and stroke assertions retain different native units. An erased slot is not filled by a conjecture.
 - Eteocretan: reading versions can be compared under the same declared project object ID without asserting source independence or physical certification.
-- Milyan: source entries link to all 114 digital text rows; the historical eight-line quotation, nine edition groups and uncompleted physical-line collation remain distinct.
+- Milyan: source entries link to all 114 digital text rows; the newly landed nine-row qualified view links to 74 first-pass apparatus review notes. The historical eight-line quotation and nine edition groups remain distinct. Full critical collation and the prepared-but-unperformed independent review remain open.
 - Linear B: this committed evidence profile exposes one published appendix example and its seven typed ID units. It does not pretend to materialize the separately authenticated 5,932-observation package or disclose private gold.
 - Other members preserve source-specific language partitions, catalogue conflicts, counting conventions, metadata-only leads and quarantined script-membership claims.
 
