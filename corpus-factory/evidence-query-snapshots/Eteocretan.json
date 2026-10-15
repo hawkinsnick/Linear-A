@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Eteocretan",
-  "profile_sha256": "454e176273afba6166cedf14bdcad9a01276ce98b87d69056d49b145cc83048b",
+  "profile_sha256": "a15f265e8d0f2e5852b3d6b213f55105f1e67ff5cca0dc8a98c4e71171d11ac7",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -18,7 +18,7 @@
         "path": "data/records.json",
         "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
         "pointer": "",
-        "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+        "native_artifacts_snapshot_commit": null,
         "role": "reading-versions",
         "encoding": "json"
       }
@@ -37,8 +37,27 @@
         "path": "research/disagreement-register.json",
         "sha256": "38bcaebd4a345f8bbf8835752188d5ebc32b69384b22e6dc451d1bd95b81ca23",
         "pointer": "/items",
-        "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+        "native_artifacts_snapshot_commit": null,
         "role": "disagreement-register",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "attribution-review",
+      "native_unit": "bounded documentary attribution review task",
+      "record_count": 5,
+      "scope": "All five controls; Duhoux-derived classification remains indirect, Conway versions remain a lineage, and Lejeune’s Dreros discussion depends on the earlier editor.",
+      "example_ids": [
+        "ECR-DIS-001",
+        "ECR-DIS-002",
+        "ECR-DIS-003"
+      ],
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c7649b96e32951448eb7d46eb4bba728441495c973974ad9b97983fcff71edc4",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
         "encoding": "json"
       }
     }
@@ -48,7 +67,7 @@
       "path": "data/records.json",
       "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "reading-versions",
       "encoding": "json"
     },
@@ -56,7 +75,7 @@
       "path": "research/disagreement-register.json",
       "sha256": "38bcaebd4a345f8bbf8835752188d5ebc32b69384b22e6dc451d1bd95b81ca23",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "disagreement-register",
       "encoding": "json"
     },
@@ -64,7 +83,7 @@
       "path": "research/source-lineage-register.json",
       "sha256": "a089f2ebe43cd1a59b748bc18130eee2453b23b3bcf8704c034a7d6aa7b245f3",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -72,7 +91,7 @@
       "path": "research/rights-source-matrix.json",
       "sha256": "f018cb263ef107bc7d8fcc9cdc785dfe30ff6f63c8cc5c9d1d208402a99413e9",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -80,7 +99,7 @@
       "path": "research/dreros1-lejeune-critical-witness.json",
       "sha256": "b2f460b6f20d5292271e9eafc14b133dc795191e56a0e75adeae28ec4f624bb0",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -88,7 +107,7 @@
       "path": "research/dreros-source-genealogy.json",
       "sha256": "7c544abc7df7e44a41c56b611545850157a942abc0fdaccde634d263fbeed7bb",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -96,7 +115,7 @@
       "path": "research/praisos-guarducci-number-concordance.json",
       "sha256": "4d99b3f7abf2c1aa1d57e8a28b7c5e2478fc1636b4daa7fe1f69fa1b01d9f822",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -104,7 +123,7 @@
       "path": "LICENSE-CONTENT.md",
       "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "text"
     },
@@ -112,13 +131,22 @@
       "path": "NOTICE",
       "sha256": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "text"
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "c7649b96e32951448eb7d46eb4bba728441495c973974ad9b97983fcff71edc4",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded attribution review",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
-    "Source reading versions linked by a declared project object ID are not certified physical identities. Lejeune reproduces an earlier editor; secondary readings must not be upgraded to direct autopsy."
+    "Source reading versions linked by a declared project object ID are not certified physical identities. Lejeune reproduces an earlier editor; secondary readings must not be upgraded to direct autopsy.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

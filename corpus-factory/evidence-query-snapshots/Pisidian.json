@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Pisidian",
-  "profile_sha256": "b2d681c22b531f726e822709b8c9929168887f6866d6429dca7a6db43835f0ff",
+  "profile_sha256": "19b046473bc89697f943a5149c503eeff9e477eb43eb404f0020294902727654",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -18,8 +18,27 @@
         "path": "data/reference/records.json",
         "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
         "pointer": "",
-        "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+        "native_artifacts_snapshot_commit": null,
         "role": "digital-reference",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "attribution-review",
+      "native_unit": "bounded documentary attribution review task",
+      "record_count": 30,
+      "scope": "All29 existing source checks plus the bibliography-key issue; numbering, editorial o/theta and e/s conventions, segmentation and classification remain separate. No invented disagreement register.",
+      "example_ids": [
+        "PIS-KESME2-PRIMARY",
+        "PIS-KESME2-AMBIGUITIES",
+        "PIS-PRIMARY-50"
+      ],
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "cfa83882fbca2c9a6c0fd6c66fe28c0ec44aa3de4289f9e85dfa24de0932b71f",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
         "encoding": "json"
       }
     }
@@ -29,7 +48,7 @@
       "path": "data/reference/records.json",
       "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "digital-reference",
       "encoding": "json"
     },
@@ -37,7 +56,7 @@
       "path": "research/source-register.json",
       "sha256": "bb91a0edbd9cffa134befb40b45104665c91e703a32ac0711791d9ee05569905",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -45,7 +64,7 @@
       "path": "research/source-issues.json",
       "sha256": "c6a7bc889fa15a797d4a90978cd3a5a26d3eeea82f50b0bc1233d92528ffe521",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -53,7 +72,7 @@
       "path": "research/source-checks.json",
       "sha256": "b6add789bd9f6a5ad36269274a99c4818cf20a466d10d6a7573242b27b70f827",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -61,7 +80,7 @@
       "path": "research/source-worklist.json",
       "sha256": "f2c4905dddfb5fbfb26740c7040d2f7fa19baf19d3717c847fa022a49594b153",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -69,7 +88,7 @@
       "path": "LICENSE-CONTENT.md",
       "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "text"
     },
@@ -77,13 +96,22 @@
       "path": "NOTICE",
       "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f",
+      "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
       "encoding": "text"
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "cfa83882fbca2c9a6c0fd6c66fe28c0ec44aa3de4289f9e85dfa24de0932b71f",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded attribution review",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
-    "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view."
+    "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

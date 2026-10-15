@@ -1,0 +1,28 @@
+{
+  "format": "corpus-attribution-review-audit-v1",
+  "repository": "hawkinsnick/Linear-A",
+  "status": "PASS_PINNED_DOCUMENTARY_REVIEW_NOT_SCHOLARLY_ACCEPTANCE",
+  "manifest_sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+  "implementation_sha256": "29fd40045d96e9ee0d1d8f692b856a1b8a0631b9a5fa4fc86080d951c1236dbf",
+  "input_count": 1,
+  "review_case_count": 10,
+  "case_classes": {
+    "READING_COMPARISON": 10
+  },
+  "pair_attribution_states": {
+    "UNESTABLISHED_LEGACY_PAIR": 10
+  },
+  "complete_selections": [
+    {
+      "path": "research/legacy-case-attribution.json",
+      "pointer": "/cases",
+      "expected_rows": 10
+    }
+  ],
+  "literature_exhaustive": false,
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0,
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY"
+}
