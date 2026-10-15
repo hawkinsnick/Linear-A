@@ -206,3 +206,12 @@ Read `docs/ATTRIBUTION-REVIEW.md` and `research/attribution-review.json` before 
 Ten joined legacy cases retain their existing case-specific attribution audit; five unjoined queue cases remain outside that earlier pass. No fully attributed same-locus competing pair was established. GORILA refusal remains binding.
 
 For the four-member selected source follow-up, consult `corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md`; it adds no new Linear A collation or GORILA access. Preserve the per-member consultation limits and Sidetic representation correction.
+
+
+## Milyan TL55 exhaustive encoded-sign comparison
+
+Read native `research/tl55-sign-alignment.json`, `docs/TL55-SIGN-COMPARISON.md` and `review/tl55-sign-adjudication.json`. All1348 literal reference grapheme/notation units and1233 printed source-unit positions are accounted for across nine source labels in1441 candidate alignment records. The36 ambiguous records overlap relation categories; the152 pending triage items are not152 proven errors, alternative scholarly reading pairs or witnesses. Mixed print/notation units must not become counts of ancient signs.
+
+Use native `python scripts/research_api.py signs --text TL55-L2-A087` for exact reference offsets, source page/PDF bounding boxes, uncertainty and comparison method. Public validation checks exact frozen inputs and exhaustive accounting; optional `tl55_sign_alignment.py --pdf PATH` replays the exact lawfully held PDF with the declared font mapping and optimal-path alignment. These are same-method checks, not independent scholarly review. No stored reference normalization; comparison-only NFC and chi/x conventions do not establish literal equality. Preserve the explicit alternative, every underdot/underlined colon, opaque editorial entities, wrap hyphens, vacat and ambiguous partner status.
+
+The encoded-sign comparison layer is complete in coverage; full epigraphic certification, expert adjudication and broader modern-edition reuse remain open. Original first-pass and six-issue packets stay historical checkpoints; the current supplement has null reviewer/assessment and zero accepted readings. Do not turn automated agreement into a canonical correction, lexical claim, independent witness or expert acceptance. The PDF, source images and full modern transcription remain outside GitHub; all114 frozen reference rows and canonical zero are unchanged.

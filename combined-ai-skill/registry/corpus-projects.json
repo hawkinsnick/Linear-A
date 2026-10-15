@@ -873,7 +873,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open.",
+      "current_gate": "PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open. TL55 exhaustive encoded-sign comparison now accounts for1348 literal reference grapheme/notation units and1233 printed source-unit positions in1441 candidate alignment records, including36 ambiguous records. The152-item sign-adjudication supplement is prepared, not reviewed. Exact-PDF local glyph/algorithm replay passed; this is not independent epigraphic acceptance. No source PDF/full modern transcription/images are public, all114 frozen source rows unchanged and zero accepted canonical readings.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -924,7 +924,11 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "tl55_sign_alignment_path": "research/tl55-sign-alignment.json",
+      "tl55_sign_adjudication_path": "review/tl55-sign-adjudication.json",
+      "tl55_sign_comparison_guide_path": "docs/TL55-SIGN-COMPARISON.md",
+      "tl55_sign_validator_path": "scripts/tl55_sign_alignment.py"
     }
   ],
   "corpus_factory": {

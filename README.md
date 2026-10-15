@@ -210,3 +210,6 @@ Bounded attribution and comparison review: [source qualifications and remaining 
 All18 language corpora: [bounded attribution review and source gaps](corpus-factory/ATTRIBUTION-REVIEW.md).
 
 [Selected source collation: Cypro-Minoan, Lydian, Sidetic and Pisidian](corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md).
+
+
+Milyan TL55 now includes an exhaustive encoded-sign comparison and a152-item pending adjudication supplement. All reference/source positions are accounted for;36 candidate alignments remain ambiguous. [Scope and usage](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md). No expert acceptance is claimed.
