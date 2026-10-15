@@ -103,3 +103,7 @@ Read `corpus-factory/CM209-SOURCE-CHECK-2026-10-14.md` and the member’s native
 ## Inputs and primary reconciliation — 14 October 2026
 
 Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three native checkpoint registers/guides. Linear B has a published appendix ID example only (one item, seven units: five lexical words, one logogram, one numeral); same-snapshot crosswalk, annotations and graphical certification remain undelivered. Milyan TL55 eight is Texier quoted by Kalinka, whose printed transliteration has nine entry groups; preserve boundary differences and unchanged114 source rows without physical-line/full-reading acceptance. Byblos drawing categories partition123 as119+3+1; retain literal 32 collision, eight gaps and unadopted32/92 hypothesis. No ancient-loss certification, expert acceptance or calibration. Current CM209 checkpoint is unchanged.
+
+## 2026-10-15 — Queryable critical evidence pilot
+
+Added exact-ID JSON evidence dossiers and replayable coverage accounting over existing Linear A pilot evidence, including unjoined legacy cases. Added corruption/loss/identity tests and CI checks. Updated individual and master AI instructions and starter generation. No source acquisition, adjudication, new reading or expert acceptance. See `docs/CRITICAL-EVIDENCE-QUERIES.md`.

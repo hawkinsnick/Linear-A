@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "80f24d713a7d6690ac822705530c0227f699c3272211b39b1436ed34f173d6ba",
+  "build_script_sha256": "49f94ecf38e3a3c9d9c2e5518b31d719890c8b0124c8fee79806549e815988b6",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "479f870632e467884aaaa62038eb64f3b496c1dad7fcaa4e8e971eca68d57233",
-      "bytes": 44420
+      "sha256": "cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2",
+      "bytes": 45354
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -194,10 +194,15 @@
       "bytes": 2009
     },
     {
+      "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
+      "sha256": "97d2bc4e24cc79e141fd59f7c01cc5cfe01353509f44b1b7f64adf16b6c1e896",
+      "bytes": 3780
+    },
+    {
       "path": "docs/LINEARA-XYZ-REFERENCE.md",
       "sha256": "a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1",
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "fd7edf1f07871dade99ff702ab87c183ecacef45fceb1ebf4c3b08db60bbb3e9"
+  "snapshot_sha256": "7990d9877925167a731cab153e1686fd2f7a0db6b1e21d56fa8479563b7d80dc"
 }

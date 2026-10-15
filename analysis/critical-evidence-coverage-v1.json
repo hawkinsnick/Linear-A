@@ -1,0 +1,187 @@
+{
+  "format": "linear-a-evidence-dossier-coverage-v1",
+  "input_path": "research/critical-pilot.json",
+  "input_sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+  "selection_reason": "Eight exact source entries behind the existing inspected disagreement cases, plus ARKH 2 and KN Zb 40 to add Arkhanes, another vessel form and a quantity-bearing tablet. Convenience/problem-driven selection, not a representative sample.",
+  "records": [
+    {
+      "source_record_id": "HT 15",
+      "source_attestation_slots": 12,
+      "attributed_assertions": 5,
+      "legacy_case_ids": [
+        "U002"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "HT 17",
+      "source_attestation_slots": 11,
+      "attributed_assertions": 6,
+      "legacy_case_ids": [
+        "U001",
+        "U003"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "HT 34",
+      "source_attestation_slots": 29,
+      "attributed_assertions": 6,
+      "legacy_case_ids": [
+        "U004",
+        "U005"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "HT 49a",
+      "source_attestation_slots": 32,
+      "attributed_assertions": 5,
+      "legacy_case_ids": [
+        "U006"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "KH 74",
+      "source_attestation_slots": 7,
+      "attributed_assertions": 4,
+      "legacy_case_ids": [
+        "U007"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "KH 8",
+      "source_attestation_slots": 15,
+      "attributed_assertions": 5,
+      "legacy_case_ids": [
+        "U008"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "MA 10b",
+      "source_attestation_slots": 10,
+      "attributed_assertions": 5,
+      "legacy_case_ids": [
+        "U009"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "KN Zc 6",
+      "source_attestation_slots": 23,
+      "attributed_assertions": 7,
+      "legacy_case_ids": [
+        "U011"
+      ],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "ARKH 2",
+      "source_attestation_slots": 23,
+      "attributed_assertions": 5,
+      "legacy_case_ids": [],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    },
+    {
+      "source_record_id": "KN Zb 40",
+      "source_attestation_slots": 6,
+      "attributed_assertions": 3,
+      "legacy_case_ids": [],
+      "source_collated_alternative_pairs": 0,
+      "expert_validated": false
+    }
+  ],
+  "record_count": 10,
+  "attributed_assertion_count": 51,
+  "source_attestation_slots": 168,
+  "joined_legacy_case_count": 10,
+  "total_legacy_case_count": 15,
+  "unjoined_legacy_cases": [
+    {
+      "case_id": "U010",
+      "legacy_document_id": "HTZd157+156",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "TAJA|K vs TAJAK",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U012",
+      "legacy_document_id": "PKZa8",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "JASAUNAKANASI vs JASA|UNAKANASI",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U013",
+      "legacy_document_id": "PRZa1",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "TANASUTEKE vs TANASUTE|KE",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U014",
+      "legacy_document_id": "SYZb7",
+      "legacy_kind": "boundary",
+      "legacy_alternatives": "RAKINISE vs RAKI|NISE",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "NO_EXACT_PILOT_SOURCE_ID",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    },
+    {
+      "case_id": "U015",
+      "legacy_document_id": "fraction K",
+      "legacy_kind": "metrology",
+      "legacy_alternatives": "1/16 vs 1/10",
+      "legacy_provenance": "data/unresolved_cases.csv; project queue strings, not individually source-collated witness readings",
+      "source_record_id": null,
+      "source_join_status": "INTERPRETATION_ONLY_NOT_A_DOCUMENT",
+      "authenticated_source_excerpts": [],
+      "quantity_field_status": "NOT_SUPPLIED_BY_AUTHENTICATED_SIGLA_EXPORT",
+      "disposition": "COMPETING_LABELS_RETAINED_NO_ADJUDICATION",
+      "review_decision": "UNREVIEWED",
+      "expert_validated": false
+    }
+  ],
+  "source_collated_alternative_pairs": 0,
+  "alternative_pair_count_basis": "Every pilot case explicitly labels its alternatives as legacy project queue strings, not individually source-collated witness readings.",
+  "expert_validated_records": 0,
+  "boundary": "A bounded, problem-selected Linear A pilot, not representative corpus coverage. Legacy alternatives are project queue labels, not two attributed scholarly readings. Source agreement is not independent confirmation. No new readings or expert acceptance."
+}
