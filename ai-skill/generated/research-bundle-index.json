@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "d5a6c7adc27ece456ede4355aed4c1607fdebc7c",
-  "generated_at_utc": "2026-10-14T17:45:37+00:00",
+  "source_commit": "158f6f19e2433b209182bf4e0329ed005fbb438d",
+  "generated_at_utc": "2026-10-15T01:34:55+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,24 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "critical_evidence_query",
+      "path": "scripts/query_critical_evidence.py",
+      "sha256": "cec752dd52d4ce112210155dc5b47acb65dddec38c7bb845cc5da2e012650abf",
+      "bytes": 4936
+    },
+    {
+      "role": "critical_evidence_coverage",
+      "path": "analysis/critical-evidence-coverage-v1.json",
+      "sha256": "4eb40ac29c3242ca3d4f117afd9d5dc319b1b36ddd6daf3e0e0d8cc2a2fff756",
+      "bytes": 6871
+    },
+    {
+      "role": "critical_evidence_query_guide",
+      "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
+      "sha256": "97d2bc4e24cc79e141fd59f7c01cc5cfe01353509f44b1b7f64adf16b6c1e896",
+      "bytes": 3780
+    },
     {
       "role": "input_reconciliation_guide",
       "path": "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
@@ -88,8 +106,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "479f870632e467884aaaa62038eb64f3b496c1dad7fcaa4e8e971eca68d57233",
-      "bytes": 44420
+      "sha256": "cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2",
+      "bytes": 45354
     },
     {
       "role": "source_delivery_guide",
@@ -160,8 +178,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "bb03f1c7a3b964a5df799c767ef6c0e8f649bd5a7203faaf903ea64c9dbe5b8b",
-      "bytes": 23241
+      "sha256": "60235c9741321874bcffef41beb95a383d11f3f585d3e33ef182823cd1f2dda3",
+      "bytes": 24175
     },
     {
       "role": "cross_corpus_dependencies",
@@ -214,8 +232,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "d426012214605fde77d73659cd190fbca6bdfeec52f4f1246b79b1f8f87c128a",
-      "bytes": 15815
+      "sha256": "99e5f710c7317ef70c0f8068949bc2fb000b319fcdbe451681a6cebb662ae3a2",
+      "bytes": 16401
     },
     {
       "role": "current_summary_builder",
