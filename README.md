@@ -213,3 +213,6 @@ All18 language corpora: [bounded attribution review and source gaps](corpus-fact
 
 
 Milyan TL55 now includes an exhaustive encoded-sign comparison and a152-item pending adjudication supplement. All reference/source positions are accounted for;36 candidate alignments remain ambiguous. [Scope and usage](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md). No expert acceptance is claimed.
+
+
+Milyan TL55: bounded documentary sign comparison complete, including source-located assessments of all152 flagged records. Non-unique ranges are preserved; independent expert adjudication remains open. [Scope and usage](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).

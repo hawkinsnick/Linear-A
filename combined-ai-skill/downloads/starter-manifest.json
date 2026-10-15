@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "2afba41c8096b8c2fa485e4eddf44692861724d229571f70ef87fc800d3f5733",
-      "bytes": 53451
+      "sha256": "f2cb02039e0c171ab74855b2f4c797da17052fc66c3316709de2c2c9cd682342",
+      "bytes": 55139
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "93a0f65fb898c9d5fc7703edadbb657aed080523bddedfb0fee84fb65855f209",
-      "bytes": 62215
+      "sha256": "73e9b7726852c96386f7a3d60932a48e55096e0eaec98a777c12ffeb735c5cb2",
+      "bytes": 62854
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -145,8 +145,8 @@
     },
     {
       "path": "corpus-factory/MILYAN-SCHUERR2005-COLLATION.md",
-      "sha256": "26f863bb8f10d71fbea62060871cecc0df759c4988507ce8ea00c2a19b8ff089",
-      "bytes": 5315
+      "sha256": "90b62aef385aaa0514e72d66bbea37a729df5ca79f42e057e15155b17b7f53f3",
+      "bytes": 7003
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -244,5 +244,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "0d4a114266e81209f9febd1cabb602e31b791868707b8499f4a764bd3de90a13"
+  "snapshot_sha256": "0a0d8110f1eaf071a32054ceaf156bb16be7b4bdc029eb3c9bbcfdacb6c73407"
 }
