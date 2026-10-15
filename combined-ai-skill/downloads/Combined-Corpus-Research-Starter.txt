@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 7990d9877925167a731cab153e1686fd2f7a0db6b1e21d56fa8479563b7d80dc
+Instruction snapshot SHA-256: 44502b1f8c8967af69325288217619b0bb19b7ecd110bae3c7dd5cce7c143730
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1100,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2
+SHA-256: d6f3e7b0f3ba128295fe61276b61bbf7c189b9ba6839ecdee88b4dfce58b8407
 
 ---
 name: combined-corpus-research
@@ -1403,6 +1403,10 @@ Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three nati
 
 For Linear A pilot evidence or competing-reading questions, read `docs/CRITICAL-EVIDENCE-QUERIES.md` and `analysis/critical-evidence-coverage-v1.json`. Use `python scripts/query_critical_evidence.py --record 'HT 17'` (exact native ID) or `--coverage`. Keep source witness fields, attributed assertions and legacy queue labels separate. Cite assertion/case IDs, source locators and the input hash. Do not describe legacy alternatives as two attributed scholarly readings: no such pair is collated in this pilot. Report the five unjoined cases separately from the ten joined cases; an interpretation-only case is not an inscription. Absence from this bounded pilot does not mean absence from the corpus. Preserve all uncertainty, source dependence, mixed rights and unreviewed states. These capabilities and counts apply only to Linear A; route other corpora through their own evidence models.
 
+## Native evidence queries across all members
+
+Read `corpus-factory/EVIDENCE-AND-ALTERNATIVES.md` and `corpus-factory/evidence-query-rollout.json` when tracing evidence or alternative readings. Route each member through its registered `evidence_query_profile_path`, `evidence_query_coverage_path` and `evidence_query_guide_path`. Use exact native IDs and collection names; preserve whole source records, source locators, uncertainty, inspection state, component rights and language partitions. Explicit ID links establish declared editorial associations only. Do not apply all corpus-level registers to every record, equate untraced labels with attributed readings, or count catalogue entries as collated inscriptions. Keep all native view counts separate. Alternative-pair and independent-witness metrics remain unknown in these query reports; consult qualified native comparison records for their actual scope. The 18-member rollout is an engineering capability over existing evidence, not new collation or expert acceptance. Egyptian Hieroglyphic Corpus and LightroomIsSlow remain outside this language-corpus membership.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1475,7 +1479,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
+SHA-256: acee084a55055419515a61ff81a9afbe9798200dc59300726dd85a4a335fe113
 
 {
   "schema_version": "1.0.0",
@@ -1517,7 +1521,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "edition_catalogue_audit_path": "analysis/edition-catalogue-pilot-audit.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -1574,7 +1582,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
       "finite_source_growth_path": "research/source-growth-2026-10-14.json",
       "CM209_source_check_path": "research/source-check-CMOC-0209-2026-10-14.json",
-      "CM209_source_guide_path": "docs/CMOC-0209-SOURCE-CHECK.md"
+      "CM209_source_guide_path": "docs/CMOC-0209-SOURCE-CHECK.md",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -1607,7 +1619,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "collection_review_packet_path": "review/collection-packet.json",
       "collection_replay_path": "scripts/build_collection_handoff.py",
       "calibration_freeze_guide_path": "docs/CALIBRATION-FREEZE-2026-10-14.md",
-      "input_reconciliation_20261014_path": "research/damos-published-id-example-2026-10-14.json"
+      "input_reconciliation_20261014_path": "research/damos-published-id-example-2026-10-14.json",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -1650,7 +1666,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126",
       "hy_frontier_guide_path": "docs/HY-FRONTIER-2026-10-13.md",
       "hy_frontier_receipt_path": "analysis/hy-frontier-2026-10-13.json",
-      "hy_frontier_commit": "6de5e7bb6e3cbb28e73e4d991af18bb38add7adc"
+      "hy_frontier_commit": "6de5e7bb6e3cbb28e73e4d991af18bb38add7adc",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -1677,7 +1697,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       },
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
@@ -1729,7 +1753,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
       "collection_replay_path": "scripts/build_collection_handoff.py",
-      "input_reconciliation_20261014_path": "research/count-assignment-checkpoint-2026-10-14.json"
+      "input_reconciliation_20261014_path": "research/count-assignment-checkpoint-2026-10-14.json",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -1758,7 +1786,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       },
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -1807,7 +1839,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       },
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -1845,7 +1881,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       },
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -1874,7 +1914,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       },
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -1919,7 +1963,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "k01_catalogue_concordance_path": "research/k01-catalogue-concordance.json",
       "upstream_epidoc_validation_commit": "6f0be30df492acdb6b07c05507d9e3f991156314",
-      "interoperability_scope": "203 frozen UD source records; all native fields round-trip; 57 upstream patterns, 613 fired rules, zero findings. No full critical-corpus or physical identity certification."
+      "interoperability_scope": "203 frozen UD source records; all native fields round-trip; 57 upstream patterns, 613 fired rules, zero findings. No full critical-corpus or physical identity certification.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -1969,7 +2017,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "id": "archanes_script",
@@ -2010,7 +2062,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "id": "aegean_anomalous",
@@ -2051,7 +2107,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
       "collection_work_ledger_path": "research/collection-work-ledger.json",
       "collection_review_packet_path": "review/collection-packet.json",
-      "collection_replay_path": "scripts/build_collection_handoff.py"
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Lydian",
@@ -2096,7 +2156,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "reference_epidoc_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
-      "epidoc_validation_boundary": "All 118 frozen native directory records and 471 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
+      "epidoc_validation_boundary": "All 118 frozen native directory records and 471 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -2141,7 +2205,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "reference_epidoc_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
-      "epidoc_validation_boundary": "All 11 frozen native directory records and 32 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
+      "epidoc_validation_boundary": "All 11 frozen native directory records and 32 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -2186,7 +2254,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
       "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
       "reference_epidoc_commit": "fd30fead96c78b6da3a67066652084440b6df701",
-      "epidoc_validation_boundary": "All 54 frozen native directory records and 99 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance."
+      "epidoc_validation_boundary": "All 54 frozen native directory records and 99 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
@@ -2234,7 +2306,11 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
       "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
       "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b",
-      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json"
+      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py"
     }
   ],
   "corpus_factory": {

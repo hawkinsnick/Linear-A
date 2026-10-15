@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "49f94ecf38e3a3c9d9c2e5518b31d719890c8b0124c8fee79806549e815988b6",
+  "build_script_sha256": "5a9424eb8ac77a4c3e251d7ec475f37cb698912ef884a12e980907d8cea0bab9",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2",
-      "bytes": 45354
+      "sha256": "d6f3e7b0f3ba128295fe61276b61bbf7c189b9ba6839ecdee88b4dfce58b8407",
+      "bytes": 46480
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4",
-      "bytes": 48549
+      "sha256": "acee084a55055419515a61ff81a9afbe9798200dc59300726dd85a4a335fe113",
+      "bytes": 53967
     },
     {
       "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
@@ -117,6 +117,11 @@
       "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
       "sha256": "d07626727d2f641db1dd0e87a0c65878a3d4255b2e48b118f9ee8d9b20b97778",
       "bytes": 3429
+    },
+    {
+      "path": "corpus-factory/EVIDENCE-AND-ALTERNATIVES.md",
+      "sha256": "f98dc4a5f59920805a8159b4ffec2088331ce25f455d2284ca8b1571f7f6e6a2",
+      "bytes": 5670
     },
     {
       "path": "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
@@ -169,6 +174,11 @@
       "bytes": 69535
     },
     {
+      "path": "corpus-factory/evidence-query-rollout.json",
+      "sha256": "0a3e415fefedc424688d16d5837aa390478afbed98d4eb264aeea5e56d42dce0",
+      "bytes": 7962
+    },
+    {
       "path": "corpus-factory/fleet-enumeration-audit-v2.json",
       "sha256": "27facfe3b2facd44ac7bb3b4a593621009db0f160787ba1dd3f2089402a50d01",
       "bytes": 100819
@@ -204,5 +214,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "7990d9877925167a731cab153e1686fd2f7a0db6b1e21d56fa8479563b7d80dc"
+  "snapshot_sha256": "44502b1f8c8967af69325288217619b0bb19b7ecd110bae3c7dd5cce7c143730"
 }

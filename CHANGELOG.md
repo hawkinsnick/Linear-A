@@ -107,3 +107,7 @@ Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three nati
 ## 2026-10-15 — Queryable critical evidence pilot
 
 Added exact-ID JSON evidence dossiers and replayable coverage accounting over existing Linear A pilot evidence, including unjoined legacy cases. Added corruption/loss/identity tests and CI checks. Updated individual and master AI instructions and starter generation. No source acquisition, adjudication, new reading or expert acceptance. See `docs/CRITICAL-EVIDENCE-QUERIES.md`.
+
+## 2026-10-15 — Native evidence and alternative-reading queries
+
+Added pinned native evidence profiles, exact-ID/JSON-pointer queries, coverage replay, loss/corruption/identity/path tests and CI. Updated researcher documentation, AI instructions and evidence bundle indexing. Existing source data and scientific acceptance states are unchanged.
