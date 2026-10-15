@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "8f02c380b0640af2af7a0993ebb0bfcbcbba4487",
-  "generated_at_utc": "2026-10-15T01:49:40+00:00",
+  "source_commit": "29342094fc35ea98649fd232f97c259b86b3e1b3",
+  "generated_at_utc": "2026-10-15T01:53:52+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,48 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "fleet_evidence_query_guide",
+      "path": "corpus-factory/EVIDENCE-AND-ALTERNATIVES.md",
+      "sha256": "250928e045d68ce6e728492a319f217ccbcaa3688950c16e02ffb824e4334f91",
+      "bytes": 5810
+    },
+    {
+      "role": "fleet_evidence_query_rollout",
+      "path": "corpus-factory/evidence-query-rollout.json",
+      "sha256": "c7e1c4a12ac1f73fef51645e06bbc424f75d69a2de4cb0395680c71fb153ff17",
+      "bytes": 7962
+    },
+    {
+      "role": "native_evidence_profile",
+      "path": "research/evidence-query-profile.json",
+      "sha256": "771570dba0fa8bf9b690b4686fa80d6190df18739441c8a0bf76247e0f3234bf",
+      "bytes": 3377
+    },
+    {
+      "role": "native_evidence_coverage",
+      "path": "analysis/evidence-query-coverage.json",
+      "sha256": "f3cf4cf7f4f7a2b78dbcddae87e193867d00318a055d9a0a1fcb9a6880006c7b",
+      "bytes": 5288
+    },
+    {
+      "role": "native_evidence_query",
+      "path": "scripts/evidence_query.py",
+      "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+      "bytes": 11289
+    },
+    {
+      "role": "native_evidence_query_tests",
+      "path": "scripts/test_native_evidence_query.py",
+      "sha256": "ddd2af2ce39904014c8a58122278e524e7ae9d504c47218e26f1ba581bb581f4",
+      "bytes": 6771
+    },
+    {
+      "role": "native_evidence_guide",
+      "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "sha256": "765ccf08be6132cdb2fc224ac89ea0febec3525e91df66789eaba9157a6d8cff",
+      "bytes": 3995
+    },
     {
       "role": "milyan_primary_collation",
       "path": "corpus-factory/MILYAN-SCHUERR2005-COLLATION.md",
@@ -112,8 +154,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "726e663956a89da56f1635ab2e41cd6ebeb71ed886ab399b4f3004b1fd8501b0",
-      "bytes": 47565
+      "sha256": "d2173c597e29d3469b29a5380ef6519ac3dafe0052816ec8123ce7ef0bb665a0",
+      "bytes": 48691
     },
     {
       "role": "source_delivery_guide",
@@ -184,8 +226,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "48a48d0351ad9070c6c6775badb24b8d3984ae021d26e8856b70b2d4180f8084",
-      "bytes": 26386
+      "sha256": "d81aeb557de4ce8ad0d911ac1defda72438149553770a90a08b8fda395baf3c8",
+      "bytes": 27532
     },
     {
       "role": "cross_corpus_dependencies",
@@ -238,8 +280,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "749ef1cf0c9ea2ad058852d7a0cf518bd8f814e6db460dfb003586ed113dde05",
-      "bytes": 16969
+      "sha256": "e6d9dd9111e03f1f31045c1904f556eb21d614c5f0a5232170c38fd578337848",
+      "bytes": 17755
     },
     {
       "role": "current_summary_builder",
