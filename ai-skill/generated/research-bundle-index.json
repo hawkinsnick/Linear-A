@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "158f6f19e2433b209182bf4e0329ed005fbb438d",
-  "generated_at_utc": "2026-10-15T01:34:55+00:00",
+  "source_commit": "119ad6aa22f37982423aeb8a3f884f44aea8944d",
+  "generated_at_utc": "2026-10-15T01:38:50+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,12 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "milyan_primary_collation",
+      "path": "corpus-factory/MILYAN-SCHUERR2005-COLLATION.md",
+      "sha256": "08aff276a57f0dc19f28b00bb57533659a0a1ceb4e208728cc4f0d488b69f8a2",
+      "bytes": 2153
+    },
     {
       "role": "critical_evidence_query",
       "path": "scripts/query_critical_evidence.py",
@@ -106,8 +112,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2",
-      "bytes": 45354
+      "sha256": "974bf30d5734180e514cb74e4df8974e069b21a69c383661a2bd0c922676fd6f",
+      "bytes": 46257
     },
     {
       "role": "source_delivery_guide",
@@ -178,8 +184,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "60235c9741321874bcffef41beb95a383d11f3f585d3e33ef182823cd1f2dda3",
-      "bytes": 24175
+      "sha256": "20330cfe9c9dd4e97cf2ae30fa3a78e4a8d0d01c9bb9693b39c8e5f868222103",
+      "bytes": 25078
     },
     {
       "role": "cross_corpus_dependencies",
@@ -232,8 +238,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "99e5f710c7317ef70c0f8068949bc2fb000b319fcdbe451681a6cebb662ae3a2",
-      "bytes": 16401
+      "sha256": "189a432b01a2dcfed985f4d8adb5c34c116aabfb334f0e77a850ed9152113004",
+      "bytes": 16639
     },
     {
       "role": "current_summary_builder",
