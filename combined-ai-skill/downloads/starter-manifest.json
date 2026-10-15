@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "49f94ecf38e3a3c9d9c2e5518b31d719890c8b0124c8fee79806549e815988b6",
+  "build_script_sha256": "1bcefac511fcfcb21e6ec827c434f76dbd9d1b0ab27a6742827748d446e95443",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2",
-      "bytes": 45354
+      "sha256": "974bf30d5734180e514cb74e4df8974e069b21a69c383661a2bd0c922676fd6f",
+      "bytes": 46257
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4",
-      "bytes": 48549
+      "sha256": "28e4e7eb4623a9b1b7ea37ca961be08056c4ea86bc3f3f847a58e59ce561fa33",
+      "bytes": 48840
     },
     {
       "path": "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md",
@@ -127,6 +127,11 @@
       "path": "corpus-factory/MEGA-CORPUS.md",
       "sha256": "2f3caee339ba05c23cc1c300e093a06ae7083800898e76386841f773788bf2f0",
       "bytes": 6787
+    },
+    {
+      "path": "corpus-factory/MILYAN-SCHUERR2005-COLLATION.md",
+      "sha256": "08aff276a57f0dc19f28b00bb57533659a0a1ceb4e208728cc4f0d488b69f8a2",
+      "bytes": 2153
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -204,5 +209,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "7990d9877925167a731cab153e1686fd2f7a0db6b1e21d56fa8479563b7d80dc"
+  "snapshot_sha256": "4a37ffd55dd39b33effbc28115b3fa8144c1fa015f27bb9634710829e634e100"
 }

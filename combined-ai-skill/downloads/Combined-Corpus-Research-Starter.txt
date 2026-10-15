@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 7990d9877925167a731cab153e1686fd2f7a0db6b1e21d56fa8479563b7d80dc
+Instruction snapshot SHA-256: 4a37ffd55dd39b33effbc28115b3fa8144c1fa015f27bb9634710829e634e100
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1100,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: cbc16fdd48339738a36b2c28aec62119a55552b20602308b8a5bcf20cc0583f2
+SHA-256: 974bf30d5734180e514cb74e4df8974e069b21a69c383661a2bd0c922676fd6f
 
 ---
 name: combined-corpus-research
@@ -1403,6 +1403,10 @@ Read `corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md` and the three nati
 
 For Linear A pilot evidence or competing-reading questions, read `docs/CRITICAL-EVIDENCE-QUERIES.md` and `analysis/critical-evidence-coverage-v1.json`. Use `python scripts/query_critical_evidence.py --record 'HT 17'` (exact native ID) or `--coverage`. Keep source witness fields, attributed assertions and legacy queue labels separate. Cite assertion/case IDs, source locators and the input hash. Do not describe legacy alternatives as two attributed scholarly readings: no such pair is collated in this pilot. Report the five unjoined cases separately from the ten joined cases; an interpretation-only case is not an inscription. Absence from this bounded pilot does not mean absence from the corpus. Preserve all uncertainty, source dependence, mixed rights and unreviewed states. These capabilities and counts apply only to Linear A; route other corpora through their own evidence models.
 
+## Milyan Schürr2005 bounded collation
+
+Read `corpus-factory/MILYAN-SCHUERR2005-COLLATION.md` and the native register/qualified view. The PDF is now acquired; nine source labels and six selected issues are located, not completely collated or accepted. Preserve alternative/doubtful readings, emendation versus graphic evidence, source row-boundary allocations, and the distinction between revised transcription and poetic reconstruction. `research_api.py collation` exposes nine qualified reference rows; rows without selected issues have not passed full collation. All114 source strings and zero verified canonical readings remain unchanged. Qualified reference data and comparison annotations retain CC-BY-SA-4.0; source article/images are excluded and not relicensed. PDF extraction and unattributed overlays are not authorities. No new independent witness, expert review or bulk reuse permission.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1475,7 +1479,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
+SHA-256: 28e4e7eb4623a9b1b7ea37ca961be08056c4ea86bc3f3f847a58e59ce561fa33
 
 {
   "schema_version": "1.0.0",
@@ -2197,7 +2201,7 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target; not an exhaustion claim. Two eDiAna source records and 114 text rows populated, reference API and lossless EpiDoc validated. Kalinka scan inspected for precise locators and explicit eight-versus-nine TL 55 segmentation conflict. Canonical verified readings remain zero; primary critical comparison and independent expert acceptance open. Current 2026-10-14 TL55 count voices accounted: eight is Texier quoted on Kalinka p.53; nine printed transliteration entry groups on p.54 match nine frozen rows in count. Exact text/boundaries and physical-line certification remain open. All114 source rows unchanged; no verified canonical reading or independent review.",
+      "current_gate": "PRE_EXPERT_MAXIMUM remains open. Frozen eDiAna reference:114 rows on three provisional segments/two reported monuments, zero verified canonical readings and zero independent reviews. Schürr2005 author-posted PDF is acquired and bounded critical comparison is published: source labels1–9 and apparatus routes, six qualified reading/editorial/boundary issues, nine-row qualified API view. All reference strings unchanged. Documentation, revised transcription and reconstruction remain separate; source glyph extraction/annotation overlays are not authoritative. Exact full critical collation, broader source reuse rights and expert assessment remain open. Historical count voices (Texier8 versus nine edition entry groups) remain attributed.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -2234,7 +2238,10 @@ SHA-256: 3e980d358b5cc9915478b96d23bc858d937d76ee04dc610795313bfc7dd1d7d4
       "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
       "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
       "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b",
-      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json"
+      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "schuerr2005_collation_path": "research/schuerr2005-tl55-collation.json",
+      "qualified_collation_path": "research/tl55-qualified-collation.json",
+      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md"
     }
   ],
   "corpus_factory": {

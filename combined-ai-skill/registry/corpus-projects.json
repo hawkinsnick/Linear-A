@@ -718,7 +718,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target; not an exhaustion claim. Two eDiAna source records and 114 text rows populated, reference API and lossless EpiDoc validated. Kalinka scan inspected for precise locators and explicit eight-versus-nine TL 55 segmentation conflict. Canonical verified readings remain zero; primary critical comparison and independent expert acceptance open. Current 2026-10-14 TL55 count voices accounted: eight is Texier quoted on Kalinka p.53; nine printed transliteration entry groups on p.54 match nine frozen rows in count. Exact text/boundaries and physical-line certification remain open. All114 source rows unchanged; no verified canonical reading or independent review.",
+      "current_gate": "PRE_EXPERT_MAXIMUM remains open. Frozen eDiAna reference:114 rows on three provisional segments/two reported monuments, zero verified canonical readings and zero independent reviews. Schürr2005 author-posted PDF is acquired and bounded critical comparison is published: source labels1–9 and apparatus routes, six qualified reading/editorial/boundary issues, nine-row qualified API view. All reference strings unchanged. Documentation, revised transcription and reconstruction remain separate; source glyph extraction/annotation overlays are not authoritative. Exact full critical collation, broader source reuse rights and expert assessment remain open. Historical count voices (Texier8 versus nine edition entry groups) remain attributed.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -755,7 +755,10 @@
       "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
       "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
       "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b",
-      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json"
+      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "schuerr2005_collation_path": "research/schuerr2005-tl55-collation.json",
+      "qualified_collation_path": "research/tl55-qualified-collation.json",
+      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md"
     }
   ],
   "corpus_factory": {
