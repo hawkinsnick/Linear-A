@@ -11,7 +11,7 @@
     {
       "repository": "hawkinsnick/Cypro-Minoan",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Cypro-Minoan.json",
-      "profile_sha256": "611b92db077738ee0bc81fbcd11c1054312c0ffaf6f4f72aefb8ff7bdd3c0a9a",
+      "profile_sha256": "643e00e243b8add6ca9dbdaf3eb13da5ebe4deebdcb82ff506a5dd2c43895689",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "native_artifacts_snapshot_commit": null
     },
@@ -102,21 +102,21 @@
     {
       "repository": "hawkinsnick/Lydian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Lydian.json",
-      "profile_sha256": "4f1d96825e8640a6a4627d939723441991c6dbde2bc5cc9bea8c8478e9acb4be",
+      "profile_sha256": "c98487e62ee7ebb11070ce1a0343254b5f020d8a1eef058b05f7eb75bf1a95ad",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Sidetic.json",
-      "profile_sha256": "dca2defbcbdab9296c37cf5b382c03f375bf9a3b29f90c8a1cf0ebcade390152",
+      "profile_sha256": "02dcb5f46a9f65ab24da0383f3bea3bc6f9a41c78f62db175f18930f41359e03",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Pisidian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Pisidian.json",
-      "profile_sha256": "19b046473bc89697f943a5149c503eeff9e477eb43eb404f0020294902727654",
+      "profile_sha256": "c96b16305f4403a179d09e516c52489b33d56e51561d7f5a5278a4cf94ece65a",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "native_artifacts_snapshot_commit": null
     },

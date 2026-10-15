@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "9f35d00bc2487efe03e2ccd90166d6d517891ef8c686f75a2e054af1892e1ccb",
+  "build_script_sha256": "4aa066c9f579f56ec81faf4aa7c36d503acdc1489df06aed43b6b8ebc27125b1",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,13 +55,13 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "ecaa70226a422126594f34d89fee726b63233bf542652610c641b31bad893fd8",
-      "bytes": 50798
+      "sha256": "af276b2791520dd9ad1b59d6ca8d11057926c2699aac283eb5e8b56618d015fa",
+      "bytes": 51618
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
-      "sha256": "b74f5051a0819fa032531ace18df7afc63a1fa70eb530f52ca73491cbb4376cd",
-      "bytes": 9053
+      "sha256": "4a12d42885f219b5aea51b3956db4c93d1c684c1416e4421c2855073f95289ef",
+      "bytes": 9873
     },
     {
       "path": "combined-ai-skill/manifest.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "b5d13dcf448931e2a933fb0476996b26732ea4eec636e9f3816ccd527064c08f",
-      "bytes": 60217
+      "sha256": "b64f32ddac36ee76f1a5190aa0478c18557900aea5685b77ca251078555dca9a",
+      "bytes": 61425
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -129,6 +129,11 @@
       "bytes": 6252
     },
     {
+      "path": "corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md",
+      "sha256": "94285b12ce718d5618dcc6856a83be542d46c71d86443f46db3f5884ca75ea2a",
+      "bytes": 3144
+    },
+    {
       "path": "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
       "sha256": "b5197fdd3e12068f54ba25e50a810d9ad6045519b76a46edd21d300d69e5bca8",
       "bytes": 3272
@@ -170,8 +175,8 @@
     },
     {
       "path": "corpus-factory/attribution-review-rollout.json",
-      "sha256": "bcf50aee7fb2e5dffdf4937c4ca2701afed023991d37111baffcae284945bf52",
-      "bytes": 11296
+      "sha256": "05cf3d15a38ab020dd0e8aa6de821eeb6a5e8bae98947930b256f3315db0fcfa",
+      "bytes": 11640
     },
     {
       "path": "corpus-factory/coverage-denominators.json",
@@ -190,7 +195,7 @@
     },
     {
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "b05d7f41aac1e9046e7ecdaab3904944acf88e8190a42ceec31d1f2099567f80",
+      "sha256": "1169c1c197716cccfdab20139ef7b4d9e9a25b95901bf6e8da22d9fb97416d64",
       "bytes": 7278
     },
     {
@@ -214,6 +219,11 @@
       "bytes": 2915
     },
     {
+      "path": "corpus-factory/source-collation-2026-10-15.json",
+      "sha256": "09a97e2233ff11e3b18f4a0aff6077220fddbc0cc632b74043d8cc006f08cd2b",
+      "bytes": 1990
+    },
+    {
       "path": "corpus-factory/source-delivery-worklist-2026-10-12.json",
       "sha256": "5d5f0ea388a159bb08c0412fddf229ed62cad63fd5b0d2e78b88bf941d74efef",
       "bytes": 2009
@@ -234,5 +244,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "aeaa3a57e52e9fea90f7c93dab2068522d8c77adf4cccc3c7b2fd1af2c1235eb"
+  "snapshot_sha256": "71703d0f2e1f10cd38ecee5c2dab78becd81e9ab4b41be7d311289386f8d9cd6"
 }

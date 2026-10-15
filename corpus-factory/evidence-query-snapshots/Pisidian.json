@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Pisidian",
-  "profile_sha256": "19b046473bc89697f943a5149c503eeff9e477eb43eb404f0020294902727654",
+  "profile_sha256": "c96b16305f4403a179d09e516c52489b33d56e51561d7f5a5278a4cf94ece65a",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -35,10 +35,29 @@
       ],
       "provenance": {
         "path": "research/attribution-review.json",
-        "sha256": "cfa83882fbca2c9a6c0fd6c66fe28c0ec44aa3de4289f9e85dfa24de0932b71f",
+        "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
         "pointer": "/cases",
         "native_artifacts_snapshot_commit": null,
         "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "source-collation-2026-10-15",
+      "native_unit": "selected source collation task",
+      "record_count": 4,
+      "scope": "Four selected comparisons. Preserve the2023 edition line/vacat assertions, Adiego2017 circumflex conventions and Adiego2012 questioned restoration separately from linguistic interpretation, frozen source strings and physical sign adjudication.",
+      "example_ids": [
+        "PIS-N25-2023",
+        "PIS-N24-2023",
+        "PIS-KESME2-AMBIGUITIES"
+      ],
+      "provenance": {
+        "path": "research/source-collation-2026-10-15.json",
+        "sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "fresh bounded source collation; consultation modes differ by source",
         "encoding": "json"
       }
     }
@@ -102,16 +121,25 @@
     },
     {
       "path": "research/attribution-review.json",
-      "sha256": "cfa83882fbca2c9a6c0fd6c66fe28c0ec44aa3de4289f9e85dfa24de0932b71f",
+      "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-collation-2026-10-15.json",
+      "sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "fresh bounded source collation; consultation modes differ by source",
       "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "Four selected comparisons. Preserve the2023 edition line/vacat assertions, Adiego2017 circumflex conventions and Adiego2012 questioned restoration separately from linguistic interpretation, frozen source strings and physical sign adjudication."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

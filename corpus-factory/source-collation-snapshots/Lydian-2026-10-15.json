@@ -1,0 +1,21 @@
+{
+  "format": "corpus-source-collation-audit-v1",
+  "repository": "hawkinsnick/Lydian",
+  "status": "PASS_PACKET_INTEGRITY_NOT_EPIGRAPHIC_ADJUDICATION",
+  "packet_sha256": "efe7cf4e240d4b98adc40a3df8d63812493ba4ef8de58f47ddfb3601a4da9cd6",
+  "implementation_sha256": "7b050980c9c807dd37070878e1b1e9f34bcec866861ba40bdec6d8d3c3ed4714",
+  "comparison_tasks": 3,
+  "source_consultation_modes": {
+    "DIRECT_AUTHOR_POSTED_WEB_TEXT_PAGE_MARKERS": 1,
+    "DIRECT_RENDERED_PDF_PAGE_IMAGES": 2
+  },
+  "rendered_page_inspections": 7,
+  "project_representation_corrections": 0,
+  "frozen_readings_changed": false,
+  "accepted_readings_added": 0,
+  "independent_reviews_added": 0,
+  "source_files_redistributed": false,
+  "alternative_pair_total": null,
+  "independent_witness_total": null,
+  "literature_exhaustive": false
+}
