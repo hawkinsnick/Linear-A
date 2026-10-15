@@ -1,0 +1,534 @@
+{
+  "format": "linear-a-legacy-attribution-v1",
+  "checked_utc": "2026-10-15T02:09:59+00:00",
+  "scope": "All10 exact joined legacy cases from the critical pilot; five unjoined cases remain outside this attribution pass. Bounded source-history and publication checks, not exhaustive literature search or new epigraphic collation.",
+  "inputs": [
+    {
+      "path": "data/unresolved_cases.csv",
+      "sha256": "21f326f53f605e4703cbcb787373701ed594ef9fc1c49ce67c0d6b64f7396004"
+    },
+    {
+      "path": "data/rc2_case_register.csv",
+      "sha256": "eac1c9bf65b10374059f6015abd89de677b9bf2ee85be939d36f04e00ff46c10"
+    },
+    {
+      "path": "data/unresolved_cases_rc2.csv",
+      "sha256": "2ba2c57dfef64f2b2a0e9232ba49657e985b707e8fc410eea0af19cb99538b44"
+    },
+    {
+      "path": "data/visual_evidence_register.csv",
+      "sha256": "ada3f111585b0a580089dd1799c54b897815d0ff21067797cf74990fb57801c3"
+    },
+    {
+      "path": "data/branch_catalog.csv",
+      "sha256": "0e5514dae760f554afe9a8bd18fab299128595f4cee0298dbcf03264835c28a5"
+    },
+    {
+      "path": "research/critical-pilot.json",
+      "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e"
+    },
+    {
+      "path": "SOURCE-POLICY.md",
+      "sha256": "07a5223aabef60c798cb2ed9fe98a0ef44032dc05ad9731e66c71de733abf317"
+    },
+    {
+      "path": "research/legacy-case-source-searches.json",
+      "sha256": "e08e4e61fa1d152abbfef7ee16f5ea3e6b4bc1b44fabd87ced29fba54c8f18bf"
+    }
+  ],
+  "project_ingress": {
+    "earliest_observed_git_commit": "b06c90ca15907b085375e5270bae104c418abe2d",
+    "archive_path": "linear-a-v2.3.0-github-batch-2-of-3/data/unresolved_cases.csv",
+    "archive_csv_sha256": "21f326f53f605e4703cbcb787373701ed594ef9fc1c49ce67c0d6b64f7396004",
+    "normalized_root_commit": "0bae8e9bf1abbbb4f5da3ec4f663eb5683d1365e",
+    "finding": "All15 queue rows arrive in the same uploaded archive; columns provide no individual scholar, publication or source locator. The same bytes survive at the normalized root. This establishes project history only, not authorship or origin before upload."
+  },
+  "sources": [
+    {
+      "source_id": "CONSANI2002",
+      "citation": "Carlo Consani (2002), “Double writings” in Minoan Linear A, Collectanea Philologica 4, 15–25.",
+      "receipt": {
+        "id": "consani2002",
+        "url": "https://dspace.uni.lodz.pl/xmlui/bitstream/handle/11089/51333/Consani_15-25.pdf?isAllowed=y&sequence=1",
+        "resolved_url": "https://dspace.uni.lodz.pl/xmlui/bitstream/handle/11089/51333/Consani_15-25.pdf?isAllowed=y&sequence=1",
+        "bytes": 6753325,
+        "sha256": "eecc5ad245c6ebe41928251d36ce901dfa20c60dbed3820c445dd2b372fe1ab1",
+        "pdf_magic": true
+      },
+      "consultation": "Repository PDF, printed page visually inspected",
+      "locator": "Printed p.16, last portion of §1; PDF ordinal 2.",
+      "full_source_redistributed": false,
+      "independence_established": false,
+      "rights": "Bibliographic metadata and brief original source-attributed discussion only. No source file, figures, full transcription or modern edition text redistributed; upstream rights and GORILA refusal retained.",
+      "source_dependence": "Consani p.16 explicitly refers to GORILA; this discussion is not an independent object witness.",
+      "local_filename": "consani2002.pdf"
+    },
+    {
+      "source_id": "SALGARELLA2022",
+      "citation": "Ester Salgarella (2022), Mix and Match: A Combinatory (Re-)Classification of Linear A Signs, TALANTA 54, 31–52; accepted manuscript DOI 10.17863/CAM.75845.",
+      "receipt": {
+        "id": "salgarella2022",
+        "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/70a9babb-6286-4a27-a52f-44f2f04bd389/content",
+        "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/70a9babb-6286-4a27-a52f-44f2f04bd389/content",
+        "bytes": 53001,
+        "sha256": "f2575e222bcd0a34f2694ef1c42f8e14d2b0290be9c08b975205e861a8f1e3de",
+        "source_version": "Accepted DOCX; paragraph/XML locators only, not printed journal pagination"
+      },
+      "consultation": "Author accepted DOCX, paragraph text inspected",
+      "locator": "Accepted DOCX word/document.xml, zero-based paragraph54, A605 example; not journal pagination.",
+      "full_source_redistributed": false,
+      "independence_established": false,
+      "rights": "Bibliographic metadata and brief original source-attributed discussion only. No source file, figures, full transcription or modern edition text redistributed; upstream rights and GORILA refusal retained.",
+      "repository_record": "https://www.repository.cam.ac.uk/items/d1c8c2dd-ee5b-4e61-9524-2c0eb5280eff",
+      "repository_license_as_displayed": "CC BY-NC-ND 4.0; no modified source edition is distributed",
+      "local_filename": "salgarella2022.docx"
+    },
+    {
+      "source_id": "FLOUDA2013_REPRINT",
+      "citation": "Georgia Flouda (2013), Materiality of Minoan Writing: Modes of display and perception, in Writing as Material Practice, 143–174; DOI 10.5334/bai.h.",
+      "receipt": {
+        "id": "flouda2013-reprint",
+        "url": "https://socialsci.libretexts.org/Bookshelves/Anthropology/Archaeology/Book:_Writing_as_Material_Practice_-_Substance_Surface_and_Medium_(Piquette_et_al.)/08:_Materiality_of_Minoan_Writing-_Modes_of_Display_and_Perception_(Georgia_Flouda)/8.04:_Linear_A_-_The_social_and_cultural_construction_of_Neopalatial_literacy",
+        "resolved_url": "https://socialsci.libretexts.org/Bookshelves/Anthropology/Archaeology/Book:_Writing_as_Material_Practice_-_Substance_Surface_and_Medium_(Piquette_et_al.)/08:_Materiality_of_Minoan_Writing-_Modes_of_Display_and_Perception_(Georgia_Flouda)/8.04:_Linear_A_-_The_social_and_cultural_construction_of_Neopalatial_literacy",
+        "bytes": 153227,
+        "sha256": "2fffd2027b6241d1cfc943ff32535d7bed8fd5287c29454df63addbbc76a4050",
+        "consultation": "PUBLIC_SCHOLARLY_REPRINT_HTML_NOT_ORIGINAL_PDF"
+      },
+      "consultation": "Scholarly reprint HTML inspected; original PDF not acquired",
+      "locator": "LibreTexts §Alignment and Directionality, paragraph beginning “The readability”; zero-based HTML p index38, section_3.",
+      "full_source_redistributed": false,
+      "independence_established": false,
+      "rights": "Bibliographic metadata and brief original source-attributed discussion only. No source file, figures, full transcription or modern edition text redistributed; upstream rights and GORILA refusal retained.",
+      "source_dependence": "Flouda discusses earlier scholarship and Figure15; no new image inspection, independent autopsy or IZU-locus alignment is claimed.",
+      "local_filename": "flouda-discussion.html"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "U001",
+      "source_record_id": "HT 17",
+      "legacy_document_id": "HT17",
+      "legacy_alternatives": "37 vs 38",
+      "attribution_disposition": "QUANTITY_ATTRIBUTION_GAP",
+      "finding": "The authenticated SigLA export supplies no account-quantity field. Its sign-number37 identifies TI at slot2, not the numerical amount37. This does not establish how the legacy37 arose. A pre-existing historical edition assertion records the other amount; this pass adds no GORILA extraction.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/1/source_attestations/2",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "37",
+          "attribution_status": "UNTRACED_ACCOUNT_QUANTITY",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "38",
+          "attribution_status": "PREEXISTING_HISTORICAL_EDITION_ASSERTION_ONLY",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Recover an attributed source and exact account locus for37. The claimed conflict needs two source-specific numerical assertions at the same locus; do not use sign-number37 or recopy restricted editions.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U002",
+      "source_record_id": "HT 15",
+      "legacy_document_id": "HT15",
+      "legacy_alternatives": "L4L4 vs L3L3",
+      "attribution_disposition": "ONE_SOURCE_COMPONENT_RELATED_OTHER_UNTRACED",
+      "finding": "The admitted SigLA slot preserves an L3+L3 compound component. This is not a demonstrated L4/L3 palaeographic dispute. The vague legacy citation to Salgarella lacks a title and locator; the inspected accepted Mix and Match text contains no HT15 or L3/L4 match.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/0/source_attestations/7",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "L4L4",
+          "attribution_status": "UNTRACED_LEGACY_LITERAL",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "L3L3",
+          "attribution_status": "RELATED_SOURCE_COMPOUND_COMPONENT_NOT_EXACT_LEGACY_LITERAL",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Find the specific publication and locus for the L4L4 reading and establish how each author renders the compound. Do not infer a fraction value or correct a sign from typographical resemblance.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U003",
+      "source_record_id": "HT 17",
+      "legacy_document_id": "HT17",
+      "legacy_alternatives": "private-use/variant vs *164A",
+      "attribution_disposition": "ENCODING_AND_VARIANT_ATTRIBUTION_GAP",
+      "finding": "The admitted record has separate occurrences labelled*164 and VIN with source number164. It does not encode the legacy suffixA or identify the alleged private-use glyph/font. Shared numbers do not align the two occurrences or certify an allograph.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/1/source_attestations/1",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/1/source_attestations/5",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "private-use/variant",
+          "attribution_status": "UNIDENTIFIED_CODE_POINT_AND_SOURCE",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "*164A",
+          "attribution_status": "UNTRACED_SUFFIX_AND_OCCURRENCE",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Recover the literal private-use code point, font/sign chart, named author and occurrence locator; recover the source of the suffixA before testing identity.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U004",
+      "source_record_id": "HT 34",
+      "legacy_document_id": "HT34",
+      "legacy_alternatives": "SI*516 vs SII",
+      "attribution_disposition": "ONE_SOURCE_SEQUENCE_RELATED_OTHER_UNTRACED",
+      "finding": "The admitted source places SI and the A516-coded uncertain sign in source word1. It does not attribute an alternate SII reading to a named scholar or prove whether that rendering is a sign, compound or segmentation convention.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/2/source_attestations/3",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/2/source_attestations/4",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "SI*516",
+          "attribution_status": "RELATED_SOURCE_SEQUENCE_NOT_LITERAL_EQUIVALENCE",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "SII",
+          "attribution_status": "UNTRACED_LEGACY_LITERAL",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Recover the author, exact notation and locus for SII, then compare the same position while preserving uncertain composition. A numeral-style sign identifier is not a word reading.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U005",
+      "source_record_id": "HT 34",
+      "legacy_document_id": "HT34",
+      "legacy_alternatives": "MIJAI vs MIJARU",
+      "attribution_disposition": "BOTH_LEGACY_WORD_READINGS_UNTRACED",
+      "finding": "The pilot retains two uncertain composite-sign fields at different slots. Neither is a documented source quotation of MIJAI or MIJARU, and the legacy queue supplies no occurrence alignment.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/2/source_attestations/7",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/2/source_attestations/18",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "MIJAI",
+          "attribution_status": "UNTRACED_LEGACY_LITERAL_AND_LOCUS",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "MIJARU",
+          "attribution_status": "UNTRACED_LEGACY_LITERAL_AND_LOCUS",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Locate a named source and precise occurrence for each claimed word reading. Establish the same locus before treating different composite-sign slots as variants of a word.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U006",
+      "source_record_id": "HT 49a",
+      "legacy_document_id": "HT49a",
+      "legacy_alternatives": "SUKI vs SU + VESST",
+      "attribution_disposition": "SOURCE_SEQUENCE_WITH_UNTRACED_DAMAGE_ALTERNATIVE",
+      "finding": "SU and KI are explicit admitted source slots8–9 in source word4. They support a source sequence, not an independently collated reading of the object. The other legacy label and its asserted damage interpretation lack a named source and exact locus.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/3/source_attestations/8",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/3/source_attestations/9",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "SUKI",
+          "attribution_status": "SOURCE_SEQUENCE_SUPPORTED_NOT_EXACT_UNSEPARATED_LITERAL",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "SU + VESST",
+          "attribution_status": "UNTRACED_EDITORIAL_LABEL_AND_LOCUS",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Recover the source behind SU + VESST or SU-[damaged], including the original editorial abbreviation and position; do not turn an editorial vestigia/damage label into a sign or a modern lexical token.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U007",
+      "source_record_id": "KH 74",
+      "legacy_document_id": "KH74",
+      "legacy_alternatives": "SI*805MI vs SI*301MI",
+      "attribution_disposition": "COMPOSITE_NOTATION_WITH_UNTRACED_805",
+      "finding": "The admitted slot is coded A605 and retains a compound containing301 and73. Salgarella’s accepted manuscript discusses A605 at sign-class level, not this occurrence or the legacy805 alternative. Neither rendering is adjudicated as a syllabic word.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/4/source_attestations/5",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/4/source_attestations/6",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [
+        {
+          "source_id": "SALGARELLA2022",
+          "kind": "SIGN_CLASS_CONTEXT_NOT_OCCURRENCE_WITNESS",
+          "locator": "Accepted DOCX word/document.xml, zero-based paragraph54; II.a, A605 example.",
+          "finding": "The author includes A605 among composite-sign examples; this does not locate the legacy805 reading."
+        }
+      ],
+      "alternatives": [
+        {
+          "literal": "SI*805MI",
+          "attribution_status": "UNTRACED_SOURCE_IDENTIFIER_AND_LOCUS",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "SI*301MI",
+          "attribution_status": "RELATED_SOURCE_COMPOSITE_NOT_EXACT_LEGACY_LITERAL",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Recover the named source, notation system and same-locus evidence for805; determine whether the legacy301MI rendering is a decomposition convention rather than a different physical sign.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U008",
+      "source_record_id": "KH 8",
+      "legacy_document_id": "KH8",
+      "legacy_alternatives": "QA2PU vs *510",
+      "attribution_disposition": "LEGACY_LOCUS_CONFLATION_IDENTIFIED",
+      "finding": "A567 and A510 both occur in the admitted KH8 record, at slots11 and14 respectively. The RC2/visual/branch registers identify A567 while the original queue names*510. Presence in one document is not same-locus alignment.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/5/source_attestations/11",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/5/source_attestations/14",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [],
+      "alternatives": [
+        {
+          "literal": "QA2PU",
+          "attribution_status": "UNTRACED_LEGACY_LITERAL_AND_LOCUS",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "*510",
+          "attribution_status": "SOURCE_IDENTIFIER_PRESENT_LOCUS_CONFLICT_WITH_RC2",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Resolve whether the legacy case targets slot11, slot14 or another locus. Recover the source of QA2PU and its notation before comparing it to either identifier.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U009",
+      "source_record_id": "MA 10b",
+      "legacy_document_id": "MA10b",
+      "legacy_alternatives": "TI*412VAS vs *404TI",
+      "attribution_disposition": "PARTIAL_SCHOLARLY_CONTEXT_NOT_LEGACY_PAIR",
+      "finding": "The admitted record has several different vessel compounds. The identified Consani2002 discussion supports the404VAS+A example at MA10b.2; that passage does not substantiate the early register’s assertion that the same cited discussion lists both404 and412 there. The exact Consani publication meant by that register was never specified.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/6/source_attestations/5",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/6/source_attestations/7",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/6/source_attestations/8",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [
+        {
+          "source_id": "CONSANI2002",
+          "kind": "ATTRIBUTED_DISCUSSION_NOT_INDEPENDENT_COLLATION",
+          "locator": "Printed p.16, paragraph before “But also keeping in mind”; PDF ordinal2, visually inspected.",
+          "finding": "The inspected passage gives the404VAS+A example at MA10b.2; it does not establish the full legacy pair or a412 alternative at that locus."
+        }
+      ],
+      "alternatives": [
+        {
+          "literal": "TI*412VAS",
+          "attribution_status": "RELATED_SOURCE_COMPOSITE_NOT_EXACT_LEGACY_LITERAL",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "*404TI",
+          "attribution_status": "UNTRACED_LEGACY_LITERAL_NOT_CONSANI_404VAS_A",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Identify the source of each complete legacy string, its notation and locus. Distinguish adjacent vessel compounds from alternative readings of one occurrence; do not infer new GORILA-derived structured readings from the discussion.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    },
+    {
+      "case_id": "U011",
+      "source_record_id": "KN Zc 6",
+      "legacy_document_id": "KNZc6",
+      "legacy_alternatives": "single group vs split before IZU",
+      "attribution_disposition": "PUNCTUATION_REPORT_RECOVERED_WORD_BREAK_UNALIGNED",
+      "finding": "Flouda reports punctuation at the beginning and end of the second sign-group of KNZc6. This is an attributed spatial/punctuation statement, not proof of the specific legacy split beforeIZU, a lexical boundary or independent physical adjudication. Source-word membership cannot establish the proposed physical locus.",
+      "source_evidence": [
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/7/source_attestations/19",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/7/source_attestations/20",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/7/source_attestations/21",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "pointer": "/entries/7/source_attestations/22",
+          "scope": "Admitted SigLA-derived source field; slot index is not an inscription line number."
+        }
+      ],
+      "published_contexts": [
+        {
+          "source_id": "FLOUDA2013_REPRINT",
+          "kind": "ATTRIBUTED_PUNCTUATION_REPORT_NOT_LEXICAL_ADJUDICATION",
+          "locator": "Alignment and Directionality; paragraph beginning “The readability”; Figure15a reference.",
+          "finding": "The author reports punctuation delimiting the second sign-group; no equivalence to the queued before-IZU break is established."
+        }
+      ],
+      "alternatives": [
+        {
+          "literal": "single group",
+          "attribution_status": "UNTRACED_LEGACY_SCOPE",
+          "complete_author_source_locus_attribution": false
+        },
+        {
+          "literal": "split before IZU",
+          "attribution_status": "EXACT_LEGACY_LOCUS_NOT_ALIGNED_TO_PUBLISHED_PUNCTUATION",
+          "complete_author_source_locus_attribution": false
+        }
+      ],
+      "same_locus_competing_pair_established": false,
+      "independent_witnesses_established": false,
+      "canonical_reading_changed": false,
+      "expert_review_granted": false,
+      "remaining_evidence_gap": "Map the claimed before-IZU locus to the same spatial positions as the author’s punctuation statement, using permissible original evidence. Separate a punctuation observation from the hypothesis that it divides linguistic words.",
+      "pass_status": "BOUNDED_ATTRIBUTION_PASS_COMPLETE_SCHOLARLY_CASE_OPEN"
+    }
+  ],
+  "search_limits": [
+    "Exact-string and identifier searches used both web search engines; no match is not proof that a reading never appeared in scholarship.",
+    "The inspected Salgarella2022 accepted text does not supply the vague HT15 L3/L4 reference. A separate Salgarella general Linear A manuscript was examined but yielded no case-specific locator; it is not treated as evidence for the queued pair.",
+    "Consani2002 is a relevant identified publication; the unnamed Consani publication intended by the early register cannot be assumed identical.",
+    "No GORILA page, photograph, tracing or downstream corpus payload was newly ingested or reconstructed."
+  ],
+  "rights_boundary": "Source-specific terms remain applicable. SigLA-derived identifiers/fields retain CC BY-NC-SA4.0 and Salgarella/Castellan attribution through pyaegean. Original audit notes and bibliographic references are not a licence grant over the modern publications. Historical GORILA inspection records are referenced only as existing audit history; no new restricted reading is extracted.",
+  "canonical_readings_added": 0,
+  "source_collated_competing_pairs_added": 0,
+  "expert_reviews_added": 0
+}

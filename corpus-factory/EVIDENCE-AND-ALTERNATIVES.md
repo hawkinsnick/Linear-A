@@ -40,3 +40,7 @@ These are selected, overlapping views with different units. They must not be poo
 Trace unassigned alternatives to named editions and exact loci; distinguish direct consultation from a later author reporting an earlier reading. Establish alignment before comparison, record lineage and rights, and leave attribution/identity gaps open when sources are unavailable. A searchable disagreement register is not a completed critical apparatus.
 
 Use the individual guides rather than transferring Linear A field semantics to another corpus. The master registry routes to their profiles and coverage reports. The local snapshot validator checks member completeness, report integrity and unknown alternative/independence metrics; it does not independently verify the historical claims.
+
+## Linear A legacy attribution checkpoint
+
+[The bounded ten-case pass](../docs/LEGACY-CASE-ATTRIBUTION.md) preserves twenty queued alternatives, identifies three qualified publication contexts and records exact remaining gaps. Historical numerical-source, occurrence-locus and physical-adjudication claims are explicitly qualified. The ten scholarly disputes remain open; no same-locus competing pair or new accepted reading is established.

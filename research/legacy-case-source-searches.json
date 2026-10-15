@@ -1,0 +1,124 @@
+{
+  "format": "linear-a-legacy-source-search-log-v1",
+  "scope": "Selected actual discovery queries from this pass; not an exhaustive bibliography or a claim that unmatched readings do not exist. Queries are discovery tools, not source witnesses.",
+  "case_queries": [
+    {
+      "case_id": "U001",
+      "queries": [
+        "\"HT 17\" \"37\" \"38\"",
+        "\"HT 17\" Linear A numeral 37"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U002",
+      "queries": [
+        "\"Salgarella\" \"HT15\" \"L3\"",
+        "\"HT 15\" \"L4\" Linear A Salgarella"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U003",
+      "queries": [
+        "\"HT 17\" \"164\" Linear A variant"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U004",
+      "queries": [
+        "\"HT 34\" \"SI-I\" Linear A"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U005",
+      "queries": [
+        "\"MIJAI\" \"MIJARU\"",
+        "\"HT 34\" \"MI-JA-I\" \"MI-JA-RU\""
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U006",
+      "queries": [
+        "\"SUKI\" \"VESST\"",
+        "\"HT 49a\" \"SU\" \"KI\""
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U007",
+      "queries": [
+        "Linear A KH 74 301 805"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U008",
+      "queries": [
+        "\"KH 8\" \"567\" Linear A"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U009",
+      "queries": [
+        "\"Consani\" \"MA 10b\"",
+        "\"MA 10b\" \"404\" \"412\""
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    },
+    {
+      "case_id": "U011",
+      "queries": [
+        "\"KN Zc 6\" \"punctuation mark\" Flouda"
+      ],
+      "result_status": "NO_COMPLETE_TWO_AUTHOR_SAME_LOCUS_PAIR_ESTABLISHED",
+      "method": "Web search; both engines used across this pass. Per-result claims require source inspection, not snippets."
+    }
+  ],
+  "inspected_sources": [
+    {
+      "source_id": "CONSANI2002",
+      "url": "https://dspace.uni.lodz.pl/xmlui/bitstream/handle/11089/51333/Consani_15-25.pdf?isAllowed=y&sequence=1",
+      "sha256": "eecc5ad245c6ebe41928251d36ce901dfa20c60dbed3820c445dd2b372fe1ab1",
+      "consultation": "Repository PDF, printed page visually inspected"
+    },
+    {
+      "source_id": "SALGARELLA2022",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/70a9babb-6286-4a27-a52f-44f2f04bd389/content",
+      "sha256": "f2575e222bcd0a34f2694ef1c42f8e14d2b0290be9c08b975205e861a8f1e3de",
+      "consultation": "Author accepted DOCX, paragraph text inspected"
+    },
+    {
+      "source_id": "FLOUDA2013_REPRINT",
+      "url": "https://socialsci.libretexts.org/Bookshelves/Anthropology/Archaeology/Book:_Writing_as_Material_Practice_-_Substance_Surface_and_Medium_(Piquette_et_al.)/08:_Materiality_of_Minoan_Writing-_Modes_of_Display_and_Perception_(Georgia_Flouda)/8.04:_Linear_A_-_The_social_and_cultural_construction_of_Neopalatial_literacy",
+      "sha256": "2fffd2027b6241d1cfc943ff32535d7bed8fd5287c29454df63addbbc76a4050",
+      "consultation": "Scholarly reprint HTML inspected; original PDF not acquired"
+    }
+  ],
+  "ordinary_access_failures": [
+    {
+      "source": "Consani2002 BaZHUM PDF route",
+      "url": "https://bazhum.muzhp.pl/media/files/Collectanea_Philologica/Collectanea_Philologica-r2002-t4/Collectanea_Philologica-r2002-t4-s15-25/Collectanea_Philologica-r2002-t4-s15-25.pdf",
+      "result": "HTTP403; a separate public University of Lodz repository copy was inspected; no bypass attempted."
+    },
+    {
+      "source": "Flouda2013 UPL chapter PDF",
+      "url": "https://uplopen.com/chapters/4491/files/fee980f9-33bf-4ee0-a7b5-d98796199e1f.pdf",
+      "result": "HTTP403; public scholarly reprint HTML inspected instead; original PDF acquisition not claimed."
+    }
+  ],
+  "excluded_routes": "Downstream GORILA-derived corpus pages, search snippets, speculative decipherments and unnamed indexes are not promoted to attributed independent witnesses. No source corpus was harvested."
+}
