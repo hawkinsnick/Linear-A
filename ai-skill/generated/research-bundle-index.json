@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "cea8ae71fa5560dd32ccad8e243653d833bc24c2",
-  "generated_at_utc": "2026-10-15T02:38:34+00:00",
+  "source_commit": "5a4ad0dcd9da5587982957384828f83a4958f8cd",
+  "generated_at_utc": "2026-10-15T14:41:48+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -14,6 +14,54 @@
   },
   "artifacts": [
     {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md",
+      "sha256": "94285b12ce718d5618dcc6856a83be542d46c71d86443f46db3f5884ca75ea2a",
+      "bytes": 3144
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/source-collation-2026-10-15.json",
+      "sha256": "09a97e2233ff11e3b18f4a0aff6077220fddbc0cc632b74043d8cc006f08cd2b",
+      "bytes": 1990
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/validate_source_collation_20261015.py",
+      "sha256": "0b3758ea32ac26147c638b337a8c5536b88f80cf2d999cfad872821e25f6a6aa",
+      "bytes": 2705
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/test_source_collation_20261015.py",
+      "sha256": "91cc398a6c68f59cd13d50fe1e9ff32e92662e3db700715fa55b8754eed3d4a6",
+      "bytes": 1859
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/source-collation-snapshots/Cypro-Minoan-2026-10-15.json",
+      "sha256": "b379ed42550ea0fb0d8a57b372961683eb20703af3dc5f48d3cd1b6176bbe1c7",
+      "bytes": 804
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/source-collation-snapshots/Lydian-2026-10-15.json",
+      "sha256": "adcef711d5cef160c265e08a0d11e3130dfc161ee0cdfec01bb7147941ab37a4",
+      "bytes": 816
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/source-collation-snapshots/Sidetic-2026-10-15.json",
+      "sha256": "3538f4e38ec6504f534b56762e6a53bc9f0a86010f7a7cd543a8e5b26022ea2d",
+      "bytes": 822
+    },
+    {
+      "role": "four_corpus_source_collation",
+      "path": "corpus-factory/source-collation-snapshots/Pisidian-2026-10-15.json",
+      "sha256": "d96103852fc803ffb241e39969a741dc8293269f847f2b59db36beff850361f8",
+      "bytes": 765
+    },
+    {
       "role": "fleet_attribution_review",
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
       "sha256": "5dc9e50f2130ce9ea6473638fe19efd8607e5982af1cfaff63e72c6e97929d57",
@@ -22,8 +70,8 @@
     {
       "role": "fleet_attribution_review",
       "path": "corpus-factory/attribution-review-rollout.json",
-      "sha256": "bcf50aee7fb2e5dffdf4937c4ca2701afed023991d37111baffcae284945bf52",
-      "bytes": 11296
+      "sha256": "05cf3d15a38ab020dd0e8aa6de821eeb6a5e8bae98947930b256f3315db0fcfa",
+      "bytes": 11640
     },
     {
       "role": "fleet_attribution_review",
@@ -46,7 +94,7 @@
     {
       "role": "fleet_attribution_snapshot",
       "path": "corpus-factory/attribution-review-snapshots/Cypro-Minoan.json",
-      "sha256": "f5f0e92318f14605b5f822668234efec24d9487f805d67fbc8a9928a01430200",
+      "sha256": "8fab2e68b2980c81ea8a47ee92f7868e030a70a9022b1339ea12ecc288c9f1cf",
       "bytes": 934
     },
     {
@@ -124,19 +172,19 @@
     {
       "role": "fleet_attribution_snapshot",
       "path": "corpus-factory/attribution-review-snapshots/Lydian.json",
-      "sha256": "dea9597d7f3d5baf04d99ade5af3c3c715fa1845ec1e2a59bbfa3854dd68e5a0",
+      "sha256": "85a29460804949e1a858c57c24741dd73daf36b2d9a2b47065518874fcf29d4d",
       "bytes": 1162
     },
     {
       "role": "fleet_attribution_snapshot",
       "path": "corpus-factory/attribution-review-snapshots/Sidetic.json",
-      "sha256": "45ab5aafa2d666411da4b61f12a744c7450341cda2c9b3b120f7eb2e3891536b",
+      "sha256": "5365ceaececc6cb22b1fde19654528ab26ee477075352021d1f4b1f78655d922",
       "bytes": 1136
     },
     {
       "role": "fleet_attribution_snapshot",
       "path": "corpus-factory/attribution-review-snapshots/Pisidian.json",
-      "sha256": "5d9e0ee68692c2fed31a378c0da7b51b3c8bb302a5662c0f54b6e6073c329864",
+      "sha256": "6ab3cc3bc2c39072fc8849334232b2251f4e6bdef640ea40e211e6c8868262f1",
       "bytes": 1023
     },
     {
@@ -220,7 +268,7 @@
     {
       "role": "fleet_evidence_query_rollout",
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "b05d7f41aac1e9046e7ecdaab3904944acf88e8190a42ceec31d1f2099567f80",
+      "sha256": "1169c1c197716cccfdab20139ef7b4d9e9a25b95901bf6e8da22d9fb97416d64",
       "bytes": 7278
     },
     {
@@ -352,8 +400,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "ecaa70226a422126594f34d89fee726b63233bf542652610c641b31bad893fd8",
-      "bytes": 50798
+      "sha256": "af276b2791520dd9ad1b59d6ca8d11057926c2699aac283eb5e8b56618d015fa",
+      "bytes": 51618
     },
     {
       "role": "source_delivery_guide",
@@ -424,8 +472,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "90860a2616bfcc0a3121545ae9fe3341d7c05986eb7f418e58cd6edb36e91c83",
-      "bytes": 29820
+      "sha256": "366acf7744cd40c3b07385017d79da3c55e6e0f9e1e209c666a9fcb90ddf551c",
+      "bytes": 30072
     },
     {
       "role": "cross_corpus_dependencies",
@@ -478,8 +526,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "952556494e9d8b51937506fd74b887af7a06b375f74aef8292a0344b92c11e7b",
-      "bytes": 18524
+      "sha256": "6c84ff651d3d01349db0056ae805c52f342d0f4c0733bc2e497204012a42221c",
+      "bytes": 18657
     },
     {
       "role": "current_summary_builder",
