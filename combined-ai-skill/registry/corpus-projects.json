@@ -718,7 +718,7 @@
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM remains open. Frozen eDiAna reference:114 rows on three provisional segments/two reported monuments, zero verified canonical readings and zero independent reviews. Schürr2005 author-posted PDF is acquired and bounded critical comparison is published: source labels1–9 and apparatus routes, six qualified reading/editorial/boundary issues, nine-row qualified API view. All reference strings unchanged. Documentation, revised transcription and reconstruction remain separate; source glyph extraction/annotation overlays are not authoritative. Exact full critical collation, broader source reuse rights and expert assessment remain open. Historical count voices (Texier8 versus nine edition entry groups) remain attributed.",
+      "current_gate": "PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -758,7 +758,10 @@
       "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json",
       "schuerr2005_collation_path": "research/schuerr2005-tl55-collation.json",
       "qualified_collation_path": "research/tl55-qualified-collation.json",
-      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md"
+      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "tl55_first_pass_review_path": "research/tl55-first-pass-review.json",
+      "tl55_independent_review_packet_path": "review/tl55-independent-review.json",
+      "tl55_first_pass_validator_path": "scripts/tl55_review.py"
     }
   ],
   "corpus_factory": {

@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 4a37ffd55dd39b33effbc28115b3fa8144c1fa015f27bb9634710829e634e100
+Instruction snapshot SHA-256: 960c06f933e21718d4da808613d68341f7d86fcc434639a643e94e863ddd2610
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1100,7 +1100,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 974bf30d5734180e514cb74e4df8974e069b21a69c383661a2bd0c922676fd6f
+SHA-256: 726e663956a89da56f1635ab2e41cd6ebeb71ed886ab399b4f3004b1fd8501b0
 
 ---
 name: combined-corpus-research
@@ -1407,6 +1407,13 @@ For Linear A pilot evidence or competing-reading questions, read `docs/CRITICAL-
 
 Read `corpus-factory/MILYAN-SCHUERR2005-COLLATION.md` and the native register/qualified view. The PDF is now acquired; nine source labels and six selected issues are located, not completely collated or accepted. Preserve alternative/doubtful readings, emendation versus graphic evidence, source row-boundary allocations, and the distinction between revised transcription and poetic reconstruction. `research_api.py collation` exposes nine qualified reference rows; rows without selected issues have not passed full collation. All114 source strings and zero verified canonical readings remain unchanged. Qualified reference data and comparison annotations retain CC-BY-SA-4.0; source article/images are excluded and not relicensed. PDF extraction and unattributed overlays are not authorities. No new independent witness, expert review or bulk reuse permission.
 
+
+## TL55 first-pass coverage and expert handoff
+
+Milyan’s `research/tl55-first-pass-review.json` records the completed first documentary comparison pass for all9 revised lines and74 apparatus entries, numbered7,10,11,10,13,10,5,6,2 within source lines. Four literal digital break markers occur in rows2,4,7,8. The qualified query exposes exhaustive literal span accounting and attributed apparatus review notes. Six selected issue dossiers are not the total discrepancy count. Preserve all114 source rows and every uncertainty/alternative; no canonical reading is promoted.
+
+Read `review/tl55-independent-review.json`: PREPARED_NOT_REVIEWED, null reviewer/assessment, zero accepted readings. Complete first-pass coverage does not establish complete sign-by-sign epigraphic collation, expert adjudication, full-article interpretation, physical-line certification or independent evidence. Never close expert review with an AI-generated assessment, automated validation or the source publication itself. Native checks protect input hashes, all74 entry identities, all4 markers and the unperformed review state. Source PDF/images and full modern edition remain excluded; original notes and qualified reference context retain component licensing. Full critical collation and external adjudication remain open.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1479,7 +1486,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 28e4e7eb4623a9b1b7ea37ca961be08056c4ea86bc3f3f847a58e59ce561fa33
+SHA-256: 7d45c9391b18921415d3688f589f35a46424a8d325bafdcf67f6fd5acd9be4dd
 
 {
   "schema_version": "1.0.0",
@@ -2201,7 +2208,7 @@ SHA-256: 28e4e7eb4623a9b1b7ea37ca961be08056c4ea86bc3f3f847a58e59ce561fa33
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM remains open. Frozen eDiAna reference:114 rows on three provisional segments/two reported monuments, zero verified canonical readings and zero independent reviews. Schürr2005 author-posted PDF is acquired and bounded critical comparison is published: source labels1–9 and apparatus routes, six qualified reading/editorial/boundary issues, nine-row qualified API view. All reference strings unchanged. Documentation, revised transcription and reconstruction remain separate; source glyph extraction/annotation overlays are not authoritative. Exact full critical collation, broader source reuse rights and expert assessment remain open. Historical count voices (Texier8 versus nine edition entry groups) remain attributed.",
+      "current_gate": "PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -2241,7 +2248,10 @@ SHA-256: 28e4e7eb4623a9b1b7ea37ca961be08056c4ea86bc3f3f847a58e59ce561fa33
       "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json",
       "schuerr2005_collation_path": "research/schuerr2005-tl55-collation.json",
       "qualified_collation_path": "research/tl55-qualified-collation.json",
-      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md"
+      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "tl55_first_pass_review_path": "research/tl55-first-pass-review.json",
+      "tl55_independent_review_packet_path": "review/tl55-independent-review.json",
+      "tl55_first_pass_validator_path": "scripts/tl55_review.py"
     }
   ],
   "corpus_factory": {

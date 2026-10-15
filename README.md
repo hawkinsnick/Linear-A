@@ -189,3 +189,6 @@ Priorities 2/3 checkpoint: Linear B published ID evidence, TL55 count-voice reco
 The [critical evidence query guide](docs/CRITICAL-EVIDENCE-QUERIES.md) provides exact-ID dossiers over the existing 10-entry pilot: 168 source attestation slots and 51 attributed assertions. Source witness data, editorial assertions and legacy alternatives remain separate. The [coverage report](analysis/critical-evidence-coverage-v1.json) explicitly retains five unjoined queue cases. No alternative pair has yet been individually collated to attributed witnesses in this pilot; no readings or expert acceptance are added.
 
 Milyan now has a bounded Schürr2005 comparison and qualified nine-row researcher view, retaining six selected issues and all114 frozen strings. [Scope, source layers and remaining gates](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).
+
+
+Milyan TL55 now has completed first-pass review coverage for9 revised lines and74 apparatus entries, with4 digital boundary markers accounted for. The independent-review packet is prepared; full critical collation and expert adjudication remain open. [Evidence and review scope](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).
