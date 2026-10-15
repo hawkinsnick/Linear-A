@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "ebaaaf84c0bf334b67bee814b7f52cf774c68805",
-  "generated_at_utc": "2026-10-15T02:17:36+00:00",
+  "source_commit": "cea8ae71fa5560dd32ccad8e243653d833bc24c2",
+  "generated_at_utc": "2026-10-15T02:38:34+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,168 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "fleet_attribution_review",
+      "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
+      "sha256": "5dc9e50f2130ce9ea6473638fe19efd8607e5982af1cfaff63e72c6e97929d57",
+      "bytes": 6694
+    },
+    {
+      "role": "fleet_attribution_review",
+      "path": "corpus-factory/attribution-review-rollout.json",
+      "sha256": "bcf50aee7fb2e5dffdf4937c4ca2701afed023991d37111baffcae284945bf52",
+      "bytes": 11296
+    },
+    {
+      "role": "fleet_attribution_review",
+      "path": "corpus-factory/validate_attribution_reviews.py",
+      "sha256": "382fee0f4f6c388145c1c6ffecaca5a73216cc0e628ed0bc271f58a292828ad7",
+      "bytes": 2843
+    },
+    {
+      "role": "fleet_attribution_review",
+      "path": "corpus-factory/test_attribution_reviews.py",
+      "sha256": "ef332b7db6e0bdafb5b1aace14aed78137112fd42bb8d8d33e6de9e3ebbd58b1",
+      "bytes": 2156
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Linear-A.json",
+      "sha256": "117d7176b9430572d50e79cff4af1effda335fd95f54bad54bf039bc3626e88f",
+      "bytes": 905
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Cypro-Minoan.json",
+      "sha256": "f5f0e92318f14605b5f822668234efec24d9487f805d67fbc8a9928a01430200",
+      "bytes": 934
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Linear-B.json",
+      "sha256": "3863bde3c5153ab671b23835d1b958f665044665c5ba69564046b64e6aad4d4d",
+      "bytes": 789
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Cretan-hieroglyphs.json",
+      "sha256": "85770f59c822e639d8eeab9826bb54364514f1a64d2edb0956341accbd32ba06",
+      "bytes": 928
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Phaistos-Disc.json",
+      "sha256": "9bac28990477bf654bf03eb3a6809c822dfd6d07ea86ee85154daa8e9a09ce26",
+      "bytes": 994
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Byblos-syllabary.json",
+      "sha256": "5726a8933641acdc442de12cf0332d711d48ee810b8a7eb8ce9fb2e9fa3d5a2e",
+      "bytes": 965
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Cypriot-syllabic-Greek.json",
+      "sha256": "2969008d9978f97921ccca9b1969094fa1222f391a7b1a812137dd485aa8f90b",
+      "bytes": 949
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Eteocypriot.json",
+      "sha256": "c7c0e8abbd629b3430879df6bcbcf7213c44f91d8d04f6b6ee9464a27ef91fed",
+      "bytes": 938
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Eteocretan.json",
+      "sha256": "f350013788e00032e6cd6567e9a2bc3f4b59a24b0bb54951231803162b7abf14",
+      "bytes": 979
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Lycian-and-Carian.json",
+      "sha256": "b1fa3bec910b6d12c2326529ef319121add4cce2d23a749c82b1241ae3f568d8",
+      "bytes": 973
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Phrygian.json",
+      "sha256": "71400175aba6860eeadeedd218c1a0a8086252e674712a24f0dd5754ca603230",
+      "bytes": 969
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Anatolian-Hieroglyphic.json",
+      "sha256": "ff79e2d4a8dc230da607b3138cda223ef2169437533045670f6d182f715a9892",
+      "bytes": 971
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Archanes-Script.json",
+      "sha256": "d40bedcadd0d1e447922f9aca86d75b01510464edef9be3dd4f7345a69dcc808",
+      "bytes": 974
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Aegean-anomalous.json",
+      "sha256": "69dd622221941ac96dee908fbf65958846a7650ceab735f3756b24b863ebcf77",
+      "bytes": 945
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Lydian.json",
+      "sha256": "dea9597d7f3d5baf04d99ade5af3c3c715fa1845ec1e2a59bbfa3854dd68e5a0",
+      "bytes": 1162
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Sidetic.json",
+      "sha256": "45ab5aafa2d666411da4b61f12a744c7450341cda2c9b3b120f7eb2e3891536b",
+      "bytes": 1136
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Pisidian.json",
+      "sha256": "5d9e0ee68692c2fed31a378c0da7b51b3c8bb302a5662c0f54b6e6073c329864",
+      "bytes": 1023
+    },
+    {
+      "role": "fleet_attribution_snapshot",
+      "path": "corpus-factory/attribution-review-snapshots/Milyan-Lycian-B.json",
+      "sha256": "deeb91b1d0e7e06ce65e77a22b674de6c65c9c58423080944e5d1b463caec7b4",
+      "bytes": 1004
+    },
+    {
+      "role": "attribution_review",
+      "path": "research/attribution-review.json",
+      "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+      "bytes": 10046
+    },
+    {
+      "role": "attribution_review",
+      "path": "analysis/attribution-review-audit.json",
+      "sha256": "117d7176b9430572d50e79cff4af1effda335fd95f54bad54bf039bc3626e88f",
+      "bytes": 905
+    },
+    {
+      "role": "attribution_review",
+      "path": "docs/ATTRIBUTION-REVIEW.md",
+      "sha256": "1de4bd71503aad134dc7e2485decb9a56693a7899847e7e7001020acfc5693d0",
+      "bytes": 5900
+    },
+    {
+      "role": "attribution_review",
+      "path": "scripts/attribution_review.py",
+      "sha256": "29fd40045d96e9ee0d1d8f692b856a1b8a0631b9a5fa4fc86080d951c1236dbf",
+      "bytes": 6044
+    },
+    {
+      "role": "attribution_review",
+      "path": "scripts/test_attribution_review.py",
+      "sha256": "d81e1c610325e822a1e079db18a619defe57654d7318a13a8be336760b37cae0",
+      "bytes": 3274
+    },
     {
       "role": "legacy_attribution_register",
       "path": "research/legacy-case-attribution.json",
@@ -58,20 +220,20 @@
     {
       "role": "fleet_evidence_query_rollout",
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "e23be0698996df86f68b119cba4501fbdf028e76b6b437891568f2669a473133",
-      "bytes": 7924
+      "sha256": "b05d7f41aac1e9046e7ecdaab3904944acf88e8190a42ceec31d1f2099567f80",
+      "bytes": 7278
     },
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "e0219e34df86d5384b472bcde868cec008dc41b1fc9e5d5409018419f614cc09",
-      "bytes": 5382
+      "sha256": "bfb7e406225c3f191b7bf1c90e33e76738ba131386a840784b36a7e19643f60e",
+      "bytes": 6261
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "6c249fd791a8fb83ecbf1e404a4c034f82b9c5cfd2cac8c094888f0df630b57e",
-      "bytes": 6400
+      "sha256": "7f8fcc0753ae3e7ea33a092c59dbb42cb7ec29e75e39baf54537183ebd305f89",
+      "bytes": 7658
     },
     {
       "role": "native_evidence_query",
@@ -88,8 +250,8 @@
     {
       "role": "native_evidence_guide",
       "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "sha256": "2fcdb66ee0e34d1f2ae85a4923fad87d00a5b7be7e218c6da98854fd18af92ab",
-      "bytes": 4759
+      "sha256": "51e70e07d30ed61435ebaa872a00acc612b5183440ab452cf116fa675b5af15e",
+      "bytes": 5807
     },
     {
       "role": "milyan_primary_collation",
@@ -190,8 +352,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "0d192661867f6bd1f2ebd60b04532d24f656d810b3445b2990012b0f8a880e39",
-      "bytes": 49931
+      "sha256": "ecaa70226a422126594f34d89fee726b63233bf542652610c641b31bad893fd8",
+      "bytes": 50798
     },
     {
       "role": "source_delivery_guide",
@@ -262,8 +424,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "d9835b5fc98cd204fb35470a14411c2108563a40e57f165f9ac7ef15e456259a",
-      "bytes": 28772
+      "sha256": "90860a2616bfcc0a3121545ae9fe3341d7c05986eb7f418e58cd6edb36e91c83",
+      "bytes": 29820
     },
     {
       "role": "cross_corpus_dependencies",
@@ -316,8 +478,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "6bf4b739d8c2979749e1f86f8e941409c6f3cb68e9bf4ab2087071a85a09c7b7",
-      "bytes": 18299
+      "sha256": "952556494e9d8b51937506fd74b887af7a06b375f74aef8292a0344b92c11e7b",
+      "bytes": 18524
     },
     {
       "role": "current_summary_builder",
