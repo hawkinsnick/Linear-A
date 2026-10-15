@@ -1,0 +1,217 @@
+{
+  "format": "corpus-attribution-review-v1",
+  "repository": "hawkinsnick/Linear-A",
+  "checked": "2026-10-15",
+  "scope": "Ten joined legacy cases retain their existing case-specific attribution audit; five unjoined queue cases remain outside that earlier pass. No fully attributed same-locus competing pair was established. GORILA refusal remains binding.",
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY",
+  "consultation_boundary": "Existing source consultation receipts and limits are inherited exactly from the referenced native packets. This pass inspects those packets, not the underlying publications afresh. No exhaustive literature search, new autopsy or independent review is claimed.",
+  "rights": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed.",
+  "inputs": [
+    {
+      "path": "research/legacy-case-attribution.json",
+      "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+      "source_snapshot_commit": "a543dc165998bcc8f81fea800b03cefc597eae3d"
+    }
+  ],
+  "complete_selections": [
+    {
+      "path": "research/legacy-case-attribution.json",
+      "pointer": "/cases",
+      "expected_rows": 10
+    }
+  ],
+  "cases": [
+    {
+      "review_id": "U001",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/0"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U002",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/1"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U003",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/2"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U004",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/3"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U005",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/4"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U006",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/5"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U007",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/6"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U008",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/7"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U009",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/8"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "U011",
+      "case_class": "READING_COMPARISON",
+      "finding": "The existing bounded case audit locates qualified publication contexts and records the remaining attribution/locus gaps; it establishes no complete competing same-locus pair.",
+      "remaining_gap": "Use the referenced case-specific gaps and search receipts. Five unjoined legacy cases remain outside the original ten-case attribution pass; GORILA refusal remains binding.",
+      "evidence": [
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/cases/9"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "pointer": "/sources"
+        }
+      ],
+      "pair_attribution": "UNESTABLISHED_LEGACY_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    }
+  ],
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0
+}

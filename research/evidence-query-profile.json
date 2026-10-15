@@ -33,6 +33,14 @@
       "id_pointer": "/case_id",
       "unit": "bounded legacy-case attribution audit",
       "scope": "Ten joined cases with explicit remaining gaps; no fully attributed same-locus competing pair established."
+    },
+    {
+      "name": "attribution-review",
+      "path": "research/attribution-review.json",
+      "pointer": "/cases",
+      "id_pointer": "/review_id",
+      "unit": "bounded documentary attribution review task",
+      "scope": "Ten joined legacy cases retain their existing case-specific attribution audit; five unjoined queue cases remain outside that earlier pass. No fully attributed same-locus competing pair was established. GORILA refusal remains binding."
     }
   ],
   "relations": [
@@ -121,12 +129,20 @@
       "encoding": "json",
       "role": "bounded source-discovery search log",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+      "encoding": "json",
+      "role": "bounded attribution review",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
     "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
-    "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs."
+    "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
   ],
   "native_artifacts_snapshot_commit": null,
-  "snapshot_commit_scope": "Mixed inputs: existing native artifacts retain their prior per-artifact commit; the new original attribution audit is pinned by bytes and published repository history, not assigned to an earlier commit."
+  "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."
 }

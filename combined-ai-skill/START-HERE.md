@@ -78,3 +78,7 @@ The instructions are vendor-neutral. Use your assistant's supported file/context
 ## Prepare expert validation
 
 Use the [expert review guide](EXPERT-REVIEW.md) to select records and prepare a source-bound request. Lydian, Sidetic and Pisidian have individual review pages you can browse without installing software. The guide explains what reviewers should assess and which evidence is still pending.
+
+## Corpus-wide bounded attribution review
+
+All18 registered members expose `research/attribution-review.json`, `analysis/attribution-review-audit.json`, `docs/ATTRIBUTION-REVIEW.md` and `scripts/attribution_review.py`. Consult the member’s case query and exact pinned evidence before claiming an alternative reading. The238 review tasks include classification, counts, identity, source role, representation, interpretations and apparatus notes; they are not238 scholarly pairs or objects. This pass reviews existing repository packets, not sources afresh. Inherit their author/publication, locus, consultation limits, source dependence and current gaps; keep missing evidence unknown. Read `corpus-factory/ATTRIBUTION-REVIEW.md` and the member-specific scope. Do not claim new readings, autopsy, independent review, source independence or literature completeness.

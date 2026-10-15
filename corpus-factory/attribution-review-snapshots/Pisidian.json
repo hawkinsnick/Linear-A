@@ -1,0 +1,33 @@
+{
+  "format": "corpus-attribution-review-audit-v1",
+  "repository": "hawkinsnick/Pisidian",
+  "status": "PASS_PINNED_DOCUMENTARY_REVIEW_NOT_SCHOLARLY_ACCEPTANCE",
+  "manifest_sha256": "cfa83882fbca2c9a6c0fd6c66fe28c0ec44aa3de4289f9e85dfa24de0932b71f",
+  "implementation_sha256": "29fd40045d96e9ee0d1d8f692b856a1b8a0631b9a5fa4fc86080d951c1236dbf",
+  "input_count": 3,
+  "review_case_count": 30,
+  "case_classes": {
+    "BIBLIOGRAPHY": 1,
+    "CLASSIFICATION": 1,
+    "COUNT_OR_IDENTITY": 24,
+    "INTERPRETATION": 1,
+    "READING_COMPARISON": 3
+  },
+  "pair_attribution_states": {
+    "NOT_APPLICABLE": 27,
+    "PARTIAL_LOCATED_COMPARISON": 3
+  },
+  "complete_selections": [
+    {
+      "path": "research/source-checks.json",
+      "pointer": "/checks",
+      "expected_rows": 29
+    }
+  ],
+  "literature_exhaustive": false,
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0,
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY"
+}

@@ -45,7 +45,11 @@
       "evidence_query_implementation_path": "scripts/evidence_query.py",
       "legacy_attribution_path": "research/legacy-case-attribution.json",
       "legacy_attribution_audit_path": "analysis/legacy-case-attribution-audit.json",
-      "legacy_attribution_guide_path": "docs/LEGACY-CASE-ATTRIBUTION.md"
+      "legacy_attribution_guide_path": "docs/LEGACY-CASE-ATTRIBUTION.md",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -106,7 +110,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -143,7 +151,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -190,7 +202,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -221,7 +237,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
@@ -277,7 +297,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -310,7 +334,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -363,7 +391,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -405,7 +437,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -438,7 +474,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -487,7 +527,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -541,7 +585,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "id": "archanes_script",
@@ -586,7 +634,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "id": "aegean_anomalous",
@@ -631,7 +683,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Lydian",
@@ -680,7 +736,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -729,7 +789,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -778,7 +842,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
@@ -836,7 +904,11 @@
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     }
   ],
   "corpus_factory": {

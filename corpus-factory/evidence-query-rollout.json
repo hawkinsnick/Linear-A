@@ -4,128 +4,128 @@
     {
       "repository": "hawkinsnick/Linear-A",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Linear-A.json",
-      "profile_sha256": "e0219e34df86d5384b472bcde868cec008dc41b1fc9e5d5409018419f614cc09",
+      "profile_sha256": "bfb7e406225c3f191b7bf1c90e33e76738ba131386a840784b36a7e19643f60e",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Cypro-Minoan.json",
-      "profile_sha256": "caec9466e31f5d94d9b4bfd50d739ccf5ce0f244fb22b432ab4cad710a38b61b",
+      "profile_sha256": "611b92db077738ee0bc81fbcd11c1054312c0ffaf6f4f72aefb8ff7bdd3c0a9a",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "c8e9133d2397c38f6c61124ee363f9826e6ffe21"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Linear-B",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Linear-B.json",
-      "profile_sha256": "65379e1ef3456ce38cd8015a3c05b3264ab0749871dd0d064b3c8c9cb09a4ec8",
+      "profile_sha256": "47a4c6b406cedd281bf4ae39fea58cf2a54dba95edd9a9436fa74dc100ed409e",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "a1f029b64f945f88009cdecbfb59c964f804cc46"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Cretan-hieroglyphs.json",
-      "profile_sha256": "43a8919e3638886833b98f838bf95d83abaa90e811d693251f0bc42579637ead",
+      "profile_sha256": "74844fcc1ab55b7ba810c5d4beab085c24eb24cbe170551bee7d4a5095059b2d",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "6919e5d986563c63af42c10249770ea80ab6f31d"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Phaistos-Disc.json",
-      "profile_sha256": "f30851cebc3d90c66d3589e4b939b467c951714cda61bba87c040f2774356012",
+      "profile_sha256": "4cdd57c203b301fdb0a603d441ffcd6a3278b9b7d48b65128814b4f8b3e5cd71",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "1941c5631f72b1108374cfc3587b9ff4d9800c65"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Byblos-syllabary.json",
-      "profile_sha256": "92e84d7b724f65515e00dd74367c5ba960e0aacbccb825c8120820c6192899e3",
+      "profile_sha256": "0208ff9902d8cfcf67be552a275041fb0a712d57231d4931145ddb8d496a441b",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "97b4c89bbde7ac13cc4f3c7e11236afaea3d5d93"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Cypriot-syllabic-Greek.json",
-      "profile_sha256": "087326a5203a7b111c90dd457aab7bb938ac4998d4476d00a79a7156d7d550c2",
+      "profile_sha256": "e3aab01e02787ddaaa5299213004b70082660cb3a130c38fc17f1fa1e00c60ef",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "fe81f05d8aa8451bed409bb04e3171b180aa9495"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Eteocypriot.json",
-      "profile_sha256": "ca7a523b6e62b535cbaeabb5f8da22d2f0f6112b77a9b112e0efda2e7ad38fd3",
+      "profile_sha256": "2af8cbcd14a78c49b915448291b8c51e9443aebb54e287ff814439550d159341",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "71e8551b1f520d7ad9bc33f4861ea8aefef68a9b"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Eteocretan",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Eteocretan.json",
-      "profile_sha256": "454e176273afba6166cedf14bdcad9a01276ce98b87d69056d49b145cc83048b",
+      "profile_sha256": "a15f265e8d0f2e5852b3d6b213f55105f1e67ff5cca0dc8a98c4e71171d11ac7",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "6c581711fd0932c22993981e1bc0b1709efdd0ae"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Lycian-and-Carian.json",
-      "profile_sha256": "03059ba8d1d85fdcc93a0a9c59c96e503550c33c275c09f4327a3a73e5a041a7",
+      "profile_sha256": "80ddb4edc3256addaae6f2b5f917d838445a50abef4184f9e9119590b893d522",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "88a0346c7a4530bd45ef25c062f06c345f7cc812"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Phrygian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Phrygian.json",
-      "profile_sha256": "c4f08a1d4cdd39c95c2841c84c6d5c367a7597c8643b37df633245976429c264",
+      "profile_sha256": "3931553c49b7d6614909d0cb376c6797e6d8db8fd9b3b5bc055d8eeb6826c92e",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "c95062b725b9a0ecaeb2b627c25ede045e00c8ec"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Anatolian-Hieroglyphic.json",
-      "profile_sha256": "35271577950a95e85e5f06cd9d58fea530f506d9daa6bba12681ef755dd3e5a1",
+      "profile_sha256": "c7f0df7bfb4505a2b3cfaa26b27508389f0816276dade03b8a8c82c4333cee06",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "277321ab9a45ad67e810eaba03df8545b90584d2"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Archanes-Script",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Archanes-Script.json",
-      "profile_sha256": "9e85b76a430b19ad2a64579571b195e675e9573366b63153855ede872141f0b6",
+      "profile_sha256": "f7751f2e8d3ca383e8fa98301da9e4da701c7df70a4cb334bdf54baa5b85f6ad",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "71f33a770fcd4e6c1c4747177cb64978390ed27a"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Aegean-anomalous",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Aegean-anomalous.json",
-      "profile_sha256": "987923865a4cd727e1fc54f5a3b0550f1279a3fa7eedf6f21a34da20e5d170ac",
+      "profile_sha256": "d08524a1a6a835f98e90f7eae971bb6b92f99bff3e89b8402d2e610b75c2b11f",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "9433be788a5e978852c89ac9354871ae3ead4ef2"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Lydian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Lydian.json",
-      "profile_sha256": "18689998118d8dde3d54d2ab6208bdbd76df16777feb12709fb4d7ed77c2ec7a",
+      "profile_sha256": "4f1d96825e8640a6a4627d939723441991c6dbde2bc5cc9bea8c8478e9acb4be",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "192d53d5a316625055927111f549c2ccf1392343"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Sidetic.json",
-      "profile_sha256": "6c98adc8ee6f52ae3b8a2c41e5cffe447c5289eb8d378c48f32db683e80f046f",
+      "profile_sha256": "dca2defbcbdab9296c37cf5b382c03f375bf9a3b29f90c8a1cf0ebcade390152",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "9bda1ff5d14b98d431f81c0dbb76bf169a091536"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Pisidian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Pisidian.json",
-      "profile_sha256": "b2d681c22b531f726e822709b8c9929168887f6866d6429dca7a6db43835f0ff",
+      "profile_sha256": "19b046473bc89697f943a5149c503eeff9e477eb43eb404f0020294902727654",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "b5f40b7b8e4d58ba0c75963f8942b0d61ccfb82f"
+      "native_artifacts_snapshot_commit": null
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Milyan-Lycian-B.json",
-      "profile_sha256": "c4f25b172957935b158c4bb7b5cf62d2e08a6e9f6aa1b12c76a5591bb22b15fd",
+      "profile_sha256": "e2f14ec01f2caa413a9c5f788270395be90b61551e3c4a1cc9bf87bd398d4454",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
+      "native_artifacts_snapshot_commit": null
     }
   ],
   "scope": "Pinned native evidence-query views, not new collation or scholarly acceptance. Snapshots describe byte-bound local native sources; publication receipts are separate.",

@@ -204,3 +204,7 @@ Milyan TL55 now has completed first-pass review coverage for9 revised lines and7
 ## Ten-case source-attribution pass
 
 The [joined legacy-case audit](docs/LEGACY-CASE-ATTRIBUTION.md) examines all ten exact joined cases and preserves all twenty queued alternatives. It identifies three qualified publication contexts and specific evidence gaps for every case, correcting unsupported numerical, locus and physical-adjudication claims in older project registers. No two-source same-locus competing pair, new reading or expert acceptance is established. The query interfaces expose the audit beside unchanged historical records.
+
+Bounded attribution and comparison review: [source qualifications and remaining gaps](docs/ATTRIBUTION-REVIEW.md).
+
+All18 language corpora: [bounded attribution review and source gaps](corpus-factory/ATTRIBUTION-REVIEW.md).

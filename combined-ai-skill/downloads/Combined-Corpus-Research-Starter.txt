@@ -2,12 +2,50 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 0bab584e96b97243e8b83f02e4bbeb5b3f7861d6ae887a34cc4995e83e0492e0
+Instruction snapshot SHA-256: aeaa3a57e52e9fea90f7c93dab2068522d8c77adf4cccc3c7b2fd1af2c1235eb
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
 Directory summaries are snapshot routing metadata, not current independently checked inscription facts.
 If a required member file cannot be accessed, identify what is missing and help select the next files.
+
+=== SOURCE FILE: corpus-factory/ATTRIBUTION-REVIEW.md ===
+SHA-256: 5dc9e50f2130ce9ea6473638fe19efd8607e5982af1cfaff63e72c6e97929d57
+
+# Corpus attribution review — 2026-10-15
+
+All18 registered language corpus projects have a bounded review of their selected existing disagreement/comparison packets. The238 tasks retain their native units: a control, source check or apparatus note is not an inscription or an independently collated alternative pair.
+
+This checkpoint inspects pinned repository evidence, not the underlying publications afresh. Earlier primary consultation receipts and limitations remain in each native packet. No new autopsy, accepted reading, independent review or exhaustive literature coverage is claimed.
+
+| Corpus | Review tasks | Scope |
+|---|---:|---|
+| [Linear-A](https://github.com/hawkinsnick/Linear-A/blob/main/docs/ATTRIBUTION-REVIEW.md) | 10 | Ten joined legacy cases retain their existing case-specific attribution audit; five unjoined queue cases remain outside that earlier pass. No fully attributed same-locus competing pair was established. GORILA refusal remains binding. |
+| [Cypro-Minoan](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/docs/ATTRIBUTION-REVIEW.md) | 6 | All six comparisons: five reassessments have an indirect Olivier side; one is an internal Valério inconsistency. Direct consultation and independence are separate questions. |
+| [Linear-B](https://github.com/hawkinsnick/Linear-B/blob/main/docs/ATTRIBUTION-REVIEW.md) | 2 | Two documentary controls: the published DAMOS example is not the live observation snapshot, and the Cambridge cast is not a second ancient witness. No native alternative apparatus is supplied by these packets. |
+| [Cretan-hieroglyphs](https://github.com/hawkinsnick/Cretan-hieroglyphs/blob/main/docs/ATTRIBUTION-REVIEW.md) | 3 | Two located material conflicts and an explicit reading-apparatus gap. An empty dedicated disagreements list does not imply scholarly consensus. |
+| [Phaistos-Disc](https://github.com/hawkinsnick/Phaistos-Disc/blob/main/docs/ATTRIBUTION-REVIEW.md) | 7 | All seven claims distinguish erased-sign conjecture, sign/mark differences, same-source discrepancies, arithmetic scope and traversal hypotheses. |
+| [Byblos-syllabary](https://github.com/hawkinsnick/Byblos-syllabary/blob/main/docs/ATTRIBUTION-REVIEW.md) | 17 | Stele A counting units, drawing partitions, Dunand-through-Dhorme voice and all fourteen core layout comparisons remain qualified. Numeric agreement does not validate signs. |
+| [Cypriot-syllabic-Greek](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/blob/main/docs/ATTRIBUTION-REVIEW.md) | 4 | All four controls distinguish language attribution, expected revisions without encoded pairs, coin units and fascicle coverage. Shared IG data remain dependent evidence. |
+| [Eteocypriot](https://github.com/hawkinsnick/Eteocypriot/blob/main/docs/ATTRIBUTION-REVIEW.md) | 4 | All four controls; Masson’s Eteocypriot coin-type attribution and IG’s syllabic-only title are not equivalent opposite language claims. Parts and specimens remain distinct. |
+| [Eteocretan](https://github.com/hawkinsnick/Eteocretan/blob/main/docs/ATTRIBUTION-REVIEW.md) | 5 | All five controls; Duhoux-derived classification remains indirect, Conway versions remain a lineage, and Lejeune’s Dreros discussion depends on the earlier editor. |
+| [Lycian-and-Carian](https://github.com/hawkinsnick/Lycian-and-Carian/blob/main/docs/ATTRIBUTION-REVIEW.md) | 5 | All five controls retain partitions and source uncertainty. Global editorial-choice statements do not supply record-specific aligned variants. |
+| [Phrygian](https://github.com/hawkinsnick/Phrygian/blob/main/docs/ATTRIBUTION-REVIEW.md) | 4 | All four controls include the Anfosso general-formula/object-fragment mismatch and Güney–Yanık’s short edition versus conditional longer restoration. |
+| [Anatolian-Hieroglyphic](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/blob/main/docs/ATTRIBUTION-REVIEW.md) | 4 | All four controls retain period unknowns/conflicts, fragment units and Hawkins-derived editorial lineage. Metadata reconciliation is not direct edition collation. |
+| [Archanes-Script](https://github.com/hawkinsnick/Archanes-Script/blob/main/docs/ATTRIBUTION-REVIEW.md) | 5 | Four controls plus the AS#04 material delta; Yule counts are reported through Decorte, and corpus, script, formula and signary models remain authority-specific. |
+| [Aegean-anomalous](https://github.com/hawkinsnick/Aegean-anomalous/blob/main/docs/ATTRIBUTION-REVIEW.md) | 5 | All five controls; 14/15/16 segmentation histories and classification arguments remain source-specific. Boundary bars cannot automatically explain the Malia count difference. |
+| [Lydian](https://github.com/hawkinsnick/Lydian/blob/main/docs/ATTRIBUTION-REVIEW.md) | 41 | Four controls plus all37 existing source checks, including LW40 proposals, catalogue collisions, source typography and Gusmani concordance candidates. |
+| [Sidetic](https://github.com/hawkinsnick/Sidetic/blob/main/docs/ATTRIBUTION-REVIEW.md) | 9 | Five controls plus all four source checks, including Ferrer’s damaged-name proposal and separate Greek ethnic, N22 and S9 proposals. No canonical sign remapping. |
+| [Pisidian](https://github.com/hawkinsnick/Pisidian/blob/main/docs/ATTRIBUTION-REVIEW.md) | 30 | All29 existing source checks plus the bibliography-key issue; numbering, editorial o/theta and e/s conventions, segmentation and classification remain separate. No invented disagreement register. |
+| [Milyan-Lycian-B](https://github.com/hawkinsnick/Milyan-Lycian-B/blob/main/docs/ATTRIBUTION-REVIEW.md) | 77 | All74 attributed Schürr apparatus notes, the Texier-through-Kalinka count distinction and two unacquired TL44 edition targets. First documentary review is not independent acceptance. |
+
+Use each corpus’s `scripts/attribution_review.py --case ID` to retrieve the finding, remaining gap and complete referenced native evidence together. `scripts/evidence_query.py --list attribution-review` lists its review tasks. SHA-256 changes block attribution queries until the evidence is inspected and the review refreshed.
+
+The master keeps per-member integrity snapshots and source-routing instructions; it does not pool protected source content or infer cross-script equivalence. The Linear A GORILA refusal remains in force. Egyptian-Hieroglyphic-Corpus and LightroomIsSlow remain outside this18-member registry.
+
+Next source work should follow the per-case gaps: direct Olivier consultation for Cypro-Minoan; exact typographic/sign collation for located Lydian/Sidetic/Pisidian proposals; lawful critical-edition access for unlocated pairs; independent qualified review where documentary work is already complete. No priority is inferred merely from a large number of apparatus notes.
+
+=== END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md ===
 SHA-256: f39c44e31731d7ae0abd4c5c7aaa76c0d56c9781e9d7d21291b49dda93a92fb1
@@ -969,7 +1007,7 @@ SHA-256: 623c843ffdf201b73b66809595889ab4b0d025088043411574d39feacfde4c05
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/START-HERE.md ===
-SHA-256: 1b9153ad7aedf8f7cb0c8626a0bf88c6ce3a8546237d648f65c6e51345fa891d
+SHA-256: b74f5051a0819fa032531ace18df7afc63a1fa70eb530f52ca73491cbb4376cd
 
 # Start with the Combined Corpus Research AI
 
@@ -1052,6 +1090,10 @@ The instructions are vendor-neutral. Use your assistant's supported file/context
 
 Use the [expert review guide](EXPERT-REVIEW.md) to select records and prepare a source-bound request. Lydian, Sidetic and Pisidian have individual review pages you can browse without installing software. The guide explains what reviewers should assess and which evidence is still pending.
 
+## Corpus-wide bounded attribution review
+
+All18 registered members expose `research/attribution-review.json`, `analysis/attribution-review-audit.json`, `docs/ATTRIBUTION-REVIEW.md` and `scripts/attribution_review.py`. Consult the member’s case query and exact pinned evidence before claiming an alternative reading. The238 review tasks include classification, counts, identity, source role, representation, interpretations and apparatus notes; they are not238 scholarly pairs or objects. This pass reviews existing repository packets, not sources afresh. Inherit their author/publication, locus, consultation limits, source dependence and current gaps; keep missing evidence unknown. Read `corpus-factory/ATTRIBUTION-REVIEW.md` and the member-specific scope. Do not claim new readings, autopsy, independent review, source independence or literature completeness.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/PROMPTS.md ===
@@ -1100,7 +1142,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 0d192661867f6bd1f2ebd60b04532d24f656d810b3445b2990012b0f8a880e39
+SHA-256: ecaa70226a422126594f34d89fee726b63233bf542652610c641b31bad893fd8
 
 ---
 name: combined-corpus-research
@@ -1422,6 +1464,10 @@ Read `review/tl55-independent-review.json`: PREPARED_NOT_REVIEWED, null reviewer
 
 For U001–U009 and U011, load `research/legacy-case-attribution.json`, its pinned search log and `docs/LEGACY-CASE-ATTRIBUTION.md`. Treat this audit as the current qualification of unsupported claims in the unchanged RC2, visual-evidence and branch registers. Report the bounded pass as complete, with all ten scholarly cases still open: three published contexts are not three recovered alternative pairs. Do not call the HT17 37/38 case a verified SigLA numerical conflict; sign-number37 is not an account quantity. Keep KH8 A567 and A510 at their distinct source slots until the disputed locus is established. The identified Consani passage does not establish the full MA10b pair; Flouda’s punctuation report does not establish the queued before-IZU lexical split or independent physical adjudication. Preserve every legacy literal, source dependence, consultation limit and remaining gap; never infer a source because another project register repeats the claim. Use `legacy_case_attribution.py --case U008` or the native `attribution-audit` collection for the case assessment. No new GORILA data, canonical reading, expert review or source-collated competing pair is admitted by this pass.
 
+## Corpus-wide bounded attribution review
+
+All18 registered members expose `research/attribution-review.json`, `analysis/attribution-review-audit.json`, `docs/ATTRIBUTION-REVIEW.md` and `scripts/attribution_review.py`. Consult the member’s case query and exact pinned evidence before claiming an alternative reading. The238 review tasks include classification, counts, identity, source role, representation, interpretations and apparatus notes; they are not238 scholarly pairs or objects. This pass reviews existing repository packets, not sources afresh. Inherit their author/publication, locus, consultation limits, source dependence and current gaps; keep missing evidence unknown. Read `corpus-factory/ATTRIBUTION-REVIEW.md` and the member-specific scope. Do not claim new readings, autopsy, independent review, source independence or literature completeness.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1494,7 +1540,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
+SHA-256: b5d13dcf448931e2a933fb0476996b26732ea4eec636e9f3816ccd527064c08f
 
 {
   "schema_version": "1.0.0",
@@ -1543,7 +1589,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_implementation_path": "scripts/evidence_query.py",
       "legacy_attribution_path": "research/legacy-case-attribution.json",
       "legacy_attribution_audit_path": "analysis/legacy-case-attribution-audit.json",
-      "legacy_attribution_guide_path": "docs/LEGACY-CASE-ATTRIBUTION.md"
+      "legacy_attribution_guide_path": "docs/LEGACY-CASE-ATTRIBUTION.md",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -1604,7 +1654,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Linear-B",
@@ -1641,7 +1695,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -1688,7 +1746,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -1719,7 +1781,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
@@ -1775,7 +1841,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
@@ -1808,7 +1878,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
@@ -1861,7 +1935,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -1903,7 +1981,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
@@ -1936,7 +2018,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -1985,7 +2071,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -2039,7 +2129,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "id": "archanes_script",
@@ -2084,7 +2178,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "id": "aegean_anomalous",
@@ -2129,7 +2227,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Lydian",
@@ -2178,7 +2280,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Sidetic",
@@ -2227,7 +2333,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -2276,7 +2386,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
@@ -2334,7 +2448,11 @@ SHA-256: e5abfe8b693a20c199df078f7a56e1aafc976304ac2a1d07b4495d78242d5488
       "evidence_query_profile_path": "research/evidence-query-profile.json",
       "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
       "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "evidence_query_implementation_path": "scripts/evidence_query.py"
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
     }
   ],
   "corpus_factory": {

@@ -53,3 +53,9 @@ The profile and report are `research/evidence-query-profile.json` and `analysis/
 ## Current qualification of legacy disputes
 
 Read [the ten-case attribution audit](LEGACY-CASE-ATTRIBUTION.md) before treating RC2/visual/branch register labels as attributed disagreements. The `attribution-audit` view preserves assessments for U001–U009 and U011; exact case-ID links qualify the unchanged `legacy-cases` view. Query U008 for the KH8 locus conflict. The source profile now mixes older native artifacts with a new original audit: per-artifact snapshot metadata and SHA-256 identify inputs; a null shared snapshot commit avoids assigning the new audit to an older commit.
+
+## Bounded attribution review (2026-10-15)
+
+Read `docs/ATTRIBUTION-REVIEW.md` and `research/attribution-review.json` before describing a dispute or source comparison. Run `python scripts/attribution_review.py --case ID` with the referenced evidence available. Preserve complete native evidence and distinguish reading, interpretation, classification, count, identity and representation questions. This checkpoint reviews pinned repository packets; it does not repeat their primary consultation or grant independent review. Inherit the exact author/publication, locator, consultation limits and dependence from each pointer; missing fields remain unknown. Use the case-specific remaining work. Do not count register entries or apparatus notes as fully attributed pairs, physical objects or independent witnesses.
+
+Ten joined legacy cases retain their existing case-specific attribution audit; five unjoined queue cases remain outside that earlier pass. No fully attributed same-locus competing pair was established. GORILA refusal remains binding.
