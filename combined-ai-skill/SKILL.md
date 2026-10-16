@@ -353,3 +353,7 @@ Read `corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md` and native `research/tl44
 ## Lydian/Sidetic supplied-PDF follow-up — 2026-10-15
 
 The current four-corpus source-collation guide and native packets supersede their earlier web-only acquisition gaps for Payne–Sasseville2016, Phillips–Rutherford2025 and Rizza–Zinko2025. All three now have supplied-PDF byte and visual page receipts. Attribute LW40’s ẹšν̣ tasẽν̣ acνil / partaras maλiλ to its edition; preserve initial-e and final-ν underdots and distinguish the plain ẽ tilde. For Sidetic, retain the qualified Abydos w(?), source-specific N22 a/a2/V labels, bracketed pigbe[s], and the distinction between provisional N02 u2 and N22 V. These close selected publication checks, not physical-sign adjudication, independent review or whole-corpus completion. The17 selected tasks remain17, with44 page inspections including one blank leaf; no new object count follows. Supplied PDFs/images are not included in public bundles.
+
+## Software P0 audit evidence
+
+Read `corpus-factory/P0-REAUDIT-2026-10-16.md` and its revision-bound `p0-validation-2026-10-16.json` before citing the 2026-10-16 software audit. Preserve its scoped exclusions. Revalidate changed authorities; never infer scientific acceptance, resolved permissions, or independent review from passing software checks or an empty issue search.

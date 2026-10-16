@@ -23,3 +23,5 @@ A new corpus is not fleet-admitted until all of the following exist and validate
 3. Explicit registration in the Combined Corpus Research AI and parity with the canonical fleet gap register.
 
 A repository, dataset, release, or green local workflow does not waive these gates. Camera/OCR applications and other downstream software remain separate from corpus scholarly authority.
+
+Software integrity checkpoint: [2026-10-16 scoped P0 re-audit](P0-REAUDIT-2026-10-16.md), with revision-bound commands and explicit research dependencies.

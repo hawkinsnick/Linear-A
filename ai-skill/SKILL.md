@@ -234,3 +234,7 @@ Read `corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md` and native `research/tl44
 ## Lydian/Sidetic source-check routing update — 2026-10-15
 
 Read `corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md` and the current Lydian/Sidetic native packets. The three previously web-only sources now have supplied-PDF visual receipts. Keep source-specific uncertainty, canonical snapshots and independent-review states distinct; do not reassert the superseded PDF acquisition gap or distribute source files.
+
+## Software P0 audit evidence
+
+Read `corpus-factory/P0-REAUDIT-2026-10-16.md` and its revision-bound `p0-validation-2026-10-16.json` before citing the 2026-10-16 software audit. Preserve its scoped exclusions. Revalidate changed authorities; never infer scientific acceptance, resolved permissions, or independent review from passing software checks or an empty issue search.

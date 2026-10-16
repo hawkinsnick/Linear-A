@@ -48,6 +48,7 @@ CANDIDATES=[("milyan_tl44_source_checkpoint", "corpus-factory/MILYAN-TL44-SOURCE
  ("rights_matrix","DATA-LICENSE-MATRIX.md"),("rights","docs/RIGHTS.md"),
  ("rights_and_licensing","docs/RIGHTS-AND-LICENSING.md"),("notice","NOTICE"),("third_party","THIRD-PARTY-NOTICES.md")
 ]
+CANDIDATES += [("software_p0_audit_guide", "corpus-factory/P0-REAUDIT-2026-10-16.md"), ("software_p0_validation_receipts", "corpus-factory/p0-validation-2026-10-16.json")]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel
