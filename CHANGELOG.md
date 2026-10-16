@@ -144,3 +144,8 @@ The Milyan bounded documentary sign-comparison task is COMPLETE: all1441 encoded
 Use native `research_api.py sign-review --text TL55-REVIEW-55` for notes, exact reference literals, source-position coordinates, input hashes and rights. `signs` retains original candidate flags with the documentary overlay attached. `tl55_documentary_review.py` checks exact coverage and no acceptance; optional `--pdf PATH` verifies the exact source and preferred placeholder/delimiter/run correspondences. Mapping a proposed letter to an unknown slot does not validate the restoration. Do not pick a unique letter from a repeated run or damaged range when the evidence supplies only a range comparison.
 
 This closes documentary work for the revised TL55 transcription/apparatus under the stated provisional source-label allocation. It does not close independent expert adjudication, epigraphic/physical-line certification, monument autopsy, full-article lexical/poetic interpretation, TL44 source work or source rights. The original152-item expert packet stays PREPARED_NOT_REVIEWED; all114 frozen reference rows and canonical zero remain unchanged.
+
+
+## 2026-10-16 — Milyan TL44 source checkpoint
+
+Confirmed two modern DOI identities and105 existing digital row-label routes to visually inspected Kalinka pages. Three selected boundary/inventory observations preserve frozen strings; modern article PDFs, sign/apparatus collation and West pagination confirmation remain open. [Source scope and next dependency](corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md). Both native and combined AI instructions retain the limits; no accepted reading or independent review is claimed.

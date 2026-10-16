@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 0a0d8110f1eaf071a32054ceaf156bb16be7b4bdc029eb3c9bbcfdacb6c73407
+Instruction snapshot SHA-256: 662ba2ded798d2b2c51c2ba291a66d20bd0231cb3cb8f2975eb752da653ead6a
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1168,7 +1168,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: f2cb02039e0c171ab74855b2f4c797da17052fc66c3316709de2c2c9cd682342
+SHA-256: fbc9c8b6bbdbd9f2dc4d9adf8cec7750c0c38acf6028774ba3646e649bfc92a5
 
 ---
 name: combined-corpus-research
@@ -1516,6 +1516,11 @@ Use native `research_api.py sign-review --text TL55-REVIEW-55` for notes, exact 
 
 This closes documentary work for the revised TL55 transcription/apparatus under the stated provisional source-label allocation. It does not close independent expert adjudication, epigraphic/physical-line certification, monument autopsy, full-article lexical/poetic interpretation, TL44 source work or source rights. The original152-item expert packet stays PREPARED_NOT_REVIEWED; all114 frozen reference rows and canonical zero remain unchanged.
 
+
+## Milyan TL44 source checkpoint
+
+Read `corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md` and native `research/tl44-source-checkpoint.json`. Two DOI identities are confirmed; both modern PDFs remain unacquired. Keep North2016 and West2018 print years distinct from platform dates, and retain West55–105/55–106 pagination conflict pending actual PDF inspection. All105 existing TL44 digital rows have proposed Kalinka label/page routes, not105 sign collations or certified physical lines. Preserve the c64/65 carryover, West page boundary and separately unplaced fragments. The three observations are bounded, not an exhaustive disagreement count. Native `tl44_source_checkpoint.py` and evidence collections expose exact IDs/hashes/limits. All114 frozen rows, canonical zero and completed bounded TL55 documentary work remain unchanged; no independent review, source independence or bulk modern reuse grant follows.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1588,7 +1593,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 73e9b7726852c96386f7a3d60932a48e55096e0eaec98a777c12ffeb735c5cb2
+SHA-256: 62b2fb07b7fbcdef7b0994e337f47abbd2bbdb9bb4b3f0a3903c53b2a1cf866a
 
 {
   "schema_version": "1.0.0",
@@ -2465,7 +2470,7 @@ SHA-256: 73e9b7726852c96386f7a3d60932a48e55096e0eaec98a777c12ffeb735c5cb2
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "TL55 bounded documentary sign comparison COMPLETE: all152 flagged candidate records have58 source-located assessments; all36 algorithm flags retain explicit positional(19), repeated-run(2) or range-only(15) dispositions. No unique epigraphic pairing or accepted restoration is fabricated. Independent expert adjudication remains open. PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open. TL55 exhaustive encoded-sign comparison now accounts for1348 literal reference grapheme/notation units and1233 printed source-unit positions in1441 candidate alignment records, including36 ambiguous records. The152-item sign-adjudication supplement is prepared, not reviewed. Exact-PDF local glyph/algorithm replay passed; this is not independent epigraphic acceptance. No source PDF/full modern transcription/images are public, all114 frozen source rows unchanged and zero accepted canonical readings.",
+      "current_gate": "TL44: two modern DOI identities confirmed from publisher-deposited metadata;105 existing digital row-label/page routes to visually inspected Kalinka1901 pages, three selected boundary/inventory observations. These are not105 sign collations. Both modern article PDFs remain unacquired; West pagination55–105 versus55–106 unresolved pending PDF inspection. No accepted readings or independent witness added. TL55 bounded documentary sign comparison COMPLETE: all152 flagged candidate records have58 source-located assessments; all36 algorithm flags retain explicit positional(19), repeated-run(2) or range-only(15) dispositions. No unique epigraphic pairing or accepted restoration is fabricated. Independent expert adjudication remains open. PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open. TL55 exhaustive encoded-sign comparison now accounts for1348 literal reference grapheme/notation units and1233 printed source-unit positions in1441 candidate alignment records, including36 ambiguous records. The152-item sign-adjudication supplement is prepared, not reviewed. Exact-PDF local glyph/algorithm replay passed; this is not independent epigraphic acceptance. No source PDF/full modern transcription/images are public, all114 frozen source rows unchanged and zero accepted canonical readings.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -2524,7 +2529,12 @@ SHA-256: 73e9b7726852c96386f7a3d60932a48e55096e0eaec98a777c12ffeb735c5cb2
       "tl55_documentary_sign_comparison_complete": true,
       "tl55_documentary_review_path": "research/tl55-documentary-sign-review.json",
       "tl55_documentary_completion_guide_path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
-      "tl55_documentary_replay_path": "scripts/tl55_documentary_review.py"
+      "tl55_documentary_replay_path": "scripts/tl55_documentary_review.py",
+      "tl44_source_checkpoint_path": "research/tl44-source-checkpoint.json",
+      "tl44_source_checkpoint_guide_path": "docs/TL44-SOURCE-CHECKPOINT.md",
+      "tl44_source_checkpoint_validator_path": "scripts/tl44_source_checkpoint.py",
+      "tl44_label_routes": 105,
+      "tl44_modern_article_pdfs_acquired": 0
     }
   ],
   "corpus_factory": {

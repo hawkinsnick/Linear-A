@@ -216,3 +216,8 @@ Milyan TL55 now includes an exhaustive encoded-sign comparison and a152-item pen
 
 
 Milyan TL55: bounded documentary sign comparison complete, including source-located assessments of all152 flagged records. Non-unique ranges are preserved; independent expert adjudication remains open. [Scope and usage](corpus-factory/MILYAN-SCHUERR2005-COLLATION.md).
+
+
+## 2026-10-16 — Milyan TL44 source checkpoint
+
+Confirmed two modern DOI identities and105 existing digital row-label routes to visually inspected Kalinka pages. Three selected boundary/inventory observations preserve frozen strings; modern article PDFs, sign/apparatus collation and West pagination confirmation remain open. [Source scope and next dependency](corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md). Both native and combined AI instructions retain the limits; no accepted reading or independent review is claimed.
