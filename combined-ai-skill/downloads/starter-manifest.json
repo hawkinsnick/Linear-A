@@ -55,8 +55,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "fbc9c8b6bbdbd9f2dc4d9adf8cec7750c0c38acf6028774ba3646e649bfc92a5",
-      "bytes": 56059
+      "sha256": "f5b72e24acee3185127d4996c140231e54e2286a6bc14cd11383e76b25d59015",
+      "bytes": 56982
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -130,8 +130,8 @@
     },
     {
       "path": "corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md",
-      "sha256": "94285b12ce718d5618dcc6856a83be542d46c71d86443f46db3f5884ca75ea2a",
-      "bytes": 3144
+      "sha256": "bf147786dc2004719b6c1ddfe3c3f895bf6eeca240bfc1cb299a665f462a2371",
+      "bytes": 3880
     },
     {
       "path": "corpus-factory/INPUTS-AND-RECONCILIATION-2026-10-14.md",
@@ -180,7 +180,7 @@
     },
     {
       "path": "corpus-factory/attribution-review-rollout.json",
-      "sha256": "05cf3d15a38ab020dd0e8aa6de821eeb6a5e8bae98947930b256f3315db0fcfa",
+      "sha256": "9c7162c2923c8a81201de0756fdee5bb4f77522c37aaeef686732a4a5f5b5d87",
       "bytes": 11640
     },
     {
@@ -200,7 +200,7 @@
     },
     {
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "1169c1c197716cccfdab20139ef7b4d9e9a25b95901bf6e8da22d9fb97416d64",
+      "sha256": "c2aecb34f1941c60b00ada215f3df01b8d739c4f6b94f0f54bf635ed77fc147e",
       "bytes": 7278
     },
     {
@@ -225,8 +225,8 @@
     },
     {
       "path": "corpus-factory/source-collation-2026-10-15.json",
-      "sha256": "09a97e2233ff11e3b18f4a0aff6077220fddbc0cc632b74043d8cc006f08cd2b",
-      "bytes": 1990
+      "sha256": "bcb50aeae67b5c57ff2ca4e6dd0c95b0a3a91a00758f4e02871f510cd97f19ec",
+      "bytes": 2302
     },
     {
       "path": "corpus-factory/source-delivery-worklist-2026-10-12.json",
@@ -249,5 +249,5 @@
       "bytes": 1558
     }
   ],
-  "snapshot_sha256": "662ba2ded798d2b2c51c2ba291a66d20bd0231cb3cb8f2975eb752da653ead6a"
+  "snapshot_sha256": "224d2c3f7fbda24ab1d8dd4666ac3bc10a8c31f2c90da0427268f3b439b8ea0c"
 }

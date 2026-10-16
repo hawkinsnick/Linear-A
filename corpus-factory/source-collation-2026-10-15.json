@@ -12,15 +12,15 @@
     {
       "repository": "hawkinsnick/Lydian",
       "snapshot_path": "corpus-factory/source-collation-snapshots/Lydian-2026-10-15.json",
-      "snapshot_sha256": "adcef711d5cef160c265e08a0d11e3130dfc161ee0cdfec01bb7147941ab37a4",
-      "packet_sha256": "efe7cf4e240d4b98adc40a3df8d63812493ba4ef8de58f47ddfb3601a4da9cd6",
+      "snapshot_sha256": "2c22768e20ba1aee3f61a72960e332e34761ee54929f08ce3e61fa58b70b3434",
+      "packet_sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67",
       "source_path": "research/source-collation-2026-10-15.json"
     },
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/source-collation-snapshots/Sidetic-2026-10-15.json",
-      "snapshot_sha256": "3538f4e38ec6504f534b56762e6a53bc9f0a86010f7a7cd543a8e5b26022ea2d",
-      "packet_sha256": "5fedbd6888655f162068aae1b762ef173b54d1ae219dd3a2b90951dfe10c97db",
+      "snapshot_sha256": "f29a8e42157715035755fe632f2a4f408767d38af7b6c412ab07eec075a7cdd7",
+      "packet_sha256": "28eee2baba3da54e66b71c92f12a8feda2c008edbc1915b610e98e7a901483ea",
       "source_path": "research/source-collation-2026-10-15.json"
     },
     {
@@ -32,11 +32,18 @@
     }
   ],
   "selected_comparison_tasks": 17,
-  "rendered_page_inspections": 27,
+  "rendered_page_inspections": 44,
   "project_representation_corrections": 1,
   "accepted_readings_added": 0,
   "independent_reviews_added": 0,
   "frozen_readings_changed": false,
   "source_files_redistributed": false,
-  "literature_exhaustive": false
+  "literature_exhaustive": false,
+  "follow_up": {
+    "checked_local_date": "2026-10-15",
+    "supplied_pdf_sources": 3,
+    "new_rendered_page_inspections": 17,
+    "blank_final_leaf_inspections_in_follow_up": 1,
+    "scope": "Lydian LW40 and two Sidetic2025 publication checks; no new canonical readings, independent reviews or objects."
+  }
 }

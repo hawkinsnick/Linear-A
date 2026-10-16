@@ -118,8 +118,8 @@
     {
       "repository": "hawkinsnick/Lydian",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Lydian.json",
-      "snapshot_sha256": "85a29460804949e1a858c57c24741dd73daf36b2d9a2b47065518874fcf29d4d",
-      "review_manifest_sha256": "a5950cfd5d6f1654e1787de11de09062b05fd1a8715a52bd083c651c706e6c69",
+      "snapshot_sha256": "70885baa4bbb5abb56a340542de0b612b4126975e028914bdf5491bac624a6bd",
+      "review_manifest_sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
       "review_base_commit": "edbc1c17244559f9a361035fc3c482d7a083a185",
       "scope": "Four controls plus all37 existing source checks, including LW40 proposals, catalogue collisions, source typography and Gusmani concordance candidates.",
       "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"
@@ -127,8 +127,8 @@
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Sidetic.json",
-      "snapshot_sha256": "5365ceaececc6cb22b1fde19654528ab26ee477075352021d1f4b1f78655d922",
-      "review_manifest_sha256": "4e0cfc5ceeb726d3a4f2be486a01239ae90ba9a5cd4ac05f98733494680f2069",
+      "snapshot_sha256": "74843662053ee020a2139c1eeb738965f81197bfb392845563d0afef7823626f",
+      "review_manifest_sha256": "975f81896b8423afdb0431a08f0f0785ea395826df8f462e2e4e830bbd41ddbb",
       "review_base_commit": "9c5b78bee9620ae7e2ca15cf28c9a687ab6469c4",
       "scope": "Five controls plus all four source checks, including Ferrer’s damaged-name proposal and separate Greek ethnic, N22 and S9 proposals. No canonical sign remapping.",
       "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"

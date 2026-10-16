@@ -229,3 +229,8 @@ This closes documentary work for the revised TL55 transcription/apparatus under 
 ## Milyan TL44 source checkpoint
 
 Read `corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md` and native `research/tl44-source-checkpoint.json`. Two DOI identities are confirmed; both modern PDFs remain unacquired. Keep North2016 and West2018 print years distinct from platform dates, and retain West55–105/55–106 pagination conflict pending actual PDF inspection. All105 existing TL44 digital rows have proposed Kalinka label/page routes, not105 sign collations or certified physical lines. Preserve the c64/65 carryover, West page boundary and separately unplaced fragments. The three observations are bounded, not an exhaustive disagreement count. Native `tl44_source_checkpoint.py` and evidence collections expose exact IDs/hashes/limits. All114 frozen rows, canonical zero and completed bounded TL55 documentary work remain unchanged; no independent review, source independence or bulk modern reuse grant follows.
+
+
+## Lydian/Sidetic source-check routing update — 2026-10-15
+
+Read `corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md` and the current Lydian/Sidetic native packets. The three previously web-only sources now have supplied-PDF visual receipts. Keep source-specific uncertainty, canonical snapshots and independent-review states distinct; do not reassert the superseded PDF acquisition gap or distribute source files.

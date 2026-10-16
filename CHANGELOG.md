@@ -149,3 +149,8 @@ This closes documentary work for the revised TL55 transcription/apparatus under 
 ## 2026-10-16 — Milyan TL44 source checkpoint
 
 Confirmed two modern DOI identities and105 existing digital row-label routes to visually inspected Kalinka pages. Three selected boundary/inventory observations preserve frozen strings; modern article PDFs, sign/apparatus collation and West pagination confirmation remain open. [Source scope and next dependency](corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md). Both native and combined AI instructions retain the limits; no accepted reading or independent review is claimed.
+
+
+### 2026-10-15 Lydian/Sidetic supplied-PDF follow-up
+
+Updated documentary snapshots, source-collation guide and master/native AI guidance after three supplied-PDF checks. Seventeen selected tasks remain17;44 page inspections include one blank leaf. No canonical reading, independent review or object count added.
