@@ -1,0 +1,167 @@
+{
+  "checked": "2026-10-16",
+  "scope": "Three changed native repositories and central P1 refresh scopes only. Tests include15 new native loss/promotion/linkage cases and4 central rejection cases. Native full unittest discovery reports60/54/55 cases, with2 upstream-dependent skips in total; no fresh upstream EpiDoc or browser run is claimed. Central commands ran against the staged source changes on the recorded base.",
+  "central_base_commit": "5e1b92373cb11eb306c603783ba3b9c906cd5696",
+  "environment": "jsonschema4.26.0 installed from declared requirements into a temporary validation dependency directory.",
+  "native_checks": {
+    "Phrygian": [
+      {
+        "command": "python scripts/p1_source_followup.py",
+        "exit": 0,
+        "output": "{\"status\": \"PASS_BOUNDED_SOURCE_FOLLOWUP\", \"repository\": \"hawkinsnick/Phrygian\", \"cases\": 2, \"inspected_pdf_pages\": 4, \"scientific_acceptance_granted\": false}\n"
+      },
+      {
+        "command": "python -m unittest discover -s tests",
+        "exit": 0,
+        "output": "............................................................s\n----------------------------------------------------------------------\nRan 60 tests in 0.565s\n\nOK (skipped=1)\n"
+      },
+      {
+        "command": "python scripts/test_native_evidence_query.py",
+        "exit": 0,
+        "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.045s\n\nOK\n"
+      },
+      {
+        "command": "python scripts/evidence_query.py --check",
+        "exit": 0,
+        "output": "{\n  \"status\": \"PASS_NATIVE_EVIDENCE_REPLAY\",\n  \"repository\": \"hawkinsnick/Phrygian\"\n}\n"
+      },
+      {
+        "command": "python ai-skill/scripts/build_bundle.py",
+        "exit": 0,
+        "output": ""
+      },
+      {
+        "command": "python ai-skill/scripts/validate_bundle.py",
+        "exit": 0,
+        "output": "Phrygian AI integration validation PASS\n"
+      },
+      {
+        "command": "python scripts/test_preexpert_parity.py",
+        "exit": 0,
+        "output": "{\"status\": \"PASS\", \"canonical_records\": 0, \"tm_reference_ids\": 162, \"reference_sentences\": 203, \"tokens\": 1921, \"controls\": 9, \"boundary\": \"Method parity does not equal critical-edition completeness.\"}\n"
+      }
+    ],
+    "Eteocypriot": [
+      {
+        "command": "python scripts/p1_source_followup.py",
+        "exit": 0,
+        "output": "{\"status\": \"PASS_BOUNDED_SOURCE_FOLLOWUP\", \"repository\": \"hawkinsnick/Eteocypriot\", \"cases\": 1, \"inspected_pdf_pages\": 0, \"scientific_acceptance_granted\": false}\n"
+      },
+      {
+        "command": "python -m unittest discover -s tests",
+        "exit": 0,
+        "output": "......................................................\n----------------------------------------------------------------------\nRan 54 tests in 0.693s\n\nOK\n"
+      },
+      {
+        "command": "python scripts/test_native_evidence_query.py",
+        "exit": 0,
+        "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.019s\n\nOK\n"
+      },
+      {
+        "command": "python scripts/evidence_query.py --check",
+        "exit": 0,
+        "output": "{\n  \"status\": \"PASS_NATIVE_EVIDENCE_REPLAY\",\n  \"repository\": \"hawkinsnick/Eteocypriot\"\n}\n"
+      },
+      {
+        "command": "python ai-skill/scripts/build_bundle.py",
+        "exit": 0,
+        "output": ""
+      },
+      {
+        "command": "python ai-skill/scripts/validate_bundle.py",
+        "exit": 0,
+        "output": "Eteocypriot AI integration validation PASS\n"
+      },
+      {
+        "command": "python scripts/test_preexpert_parity.py",
+        "exit": 0,
+        "output": "{\"status\": \"PASS\", \"candidate_responses\": 26, \"parsed_concordance_entries\": 25, \"physical_objects_certified\": 0}\n"
+      }
+    ],
+    "Sidetic": [
+      {
+        "command": "python scripts/p1_source_followup.py",
+        "exit": 0,
+        "output": "{\"status\": \"PASS_BOUNDED_SOURCE_FOLLOWUP\", \"repository\": \"hawkinsnick/Sidetic\", \"cases\": 4, \"inspected_pdf_pages\": 12, \"scientific_acceptance_granted\": false}\n"
+      },
+      {
+        "command": "python -m unittest discover -s tests",
+        "exit": 0,
+        "output": "......................................................s.\n----------------------------------------------------------------------\nRan 55 tests in 0.443s\n\nOK (skipped=1)\n"
+      },
+      {
+        "command": "python scripts/test_native_evidence_query.py",
+        "exit": 0,
+        "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.013s\n\nOK\n"
+      },
+      {
+        "command": "python scripts/evidence_query.py --check",
+        "exit": 0,
+        "output": "{\n  \"status\": \"PASS_NATIVE_EVIDENCE_REPLAY\",\n  \"repository\": \"hawkinsnick/Sidetic\"\n}\n"
+      },
+      {
+        "command": "python ai-skill/scripts/build_bundle.py",
+        "exit": 0,
+        "output": "AI evidence bundle built: 06fb64c1620b8a9ff5aa1e90a1a87aa194f7edb4c2ac0b539631d806c3a8b57b\n"
+      },
+      {
+        "command": "python ai-skill/scripts/validate_bundle.py",
+        "exit": 0,
+        "output": "AI authority/hash/version validation PASS\n"
+      },
+      {
+        "command": "python scripts/test_preexpert_parity.py",
+        "exit": 0,
+        "output": "{\"status\": \"PASS\", \"legacy_reference_records\": 11, \"source_lines\": 32, \"primary_verified\": 0, \"objects_verified\": 0, \"boundary\": \"2025 publications expand the frontier but do not silently rewrite the legacy eDiAna snapshot.\"}\n"
+      }
+    ]
+  },
+  "central_checks": [
+    {
+      "command": "python scripts/validate_current_state.py",
+      "exit": 0,
+      "output": "{\"status\": \"PASS\", \"version\": \"3.0.15\", \"json_files\": 283, \"schemas\": 8, \"evidence_counts\": {}, \"scientific_gate_claim\": \"UNCHANGED\"}\n"
+    },
+    {
+      "command": "python corpus-factory/validate_p1_refresh.py --checkouts /workspace/scratch/55aa2f382b12",
+      "exit": 0,
+      "output": "{\"status\": \"PASS_REVISION_BOUND_P1_REFRESH\", \"members\": 18, \"authority_blobs_replayed\": 39, \"native_followups\": 3, \"all_p1_closed\": false, \"scientific_acceptance_granted\": false}\n"
+    },
+    {
+      "command": "python corpus-factory/validate_fleet.py",
+      "exit": 0,
+      "output": "PASS: 18 corpus projects; fleet/master parity validated; admitted members meet AI contracts, pending members explicitly gated; non-corpus projects excluded\n"
+    },
+    {
+      "command": "python corpus-factory/validate_evidence_queries.py",
+      "exit": 0,
+      "output": "{\"status\": \"PASS_RECORDED_NATIVE_QUERY_ROLLOUT\", \"members\": 18, \"scientific_acceptance_added\": false}\n"
+    },
+    {
+      "command": "python corpus-factory/validate_attribution_reviews.py",
+      "exit": 0,
+      "output": "{\"status\": \"PASS_BOUNDED_ATTRIBUTION_REVIEW_SNAPSHOTS\", \"members\": 18, \"documentary_review_tasks\": 238, \"scholarly_acceptance_added\": false}\n"
+    },
+    {
+      "command": "python corpus-factory/validate_source_collation_20261015.py",
+      "exit": 0,
+      "output": "{\"status\": \"PASS_FOUR_MEMBER_DOCUMENTARY_SNAPSHOTS\", \"members\": 4, \"selected_comparison_tasks\": 17, \"rendered_page_inspections\": 44, \"project_representation_corrections\": 1, \"scholarly_acceptance_added\": false}\n"
+    },
+    {
+      "command": "python -m unittest discover -s corpus-factory -p test_*.py",
+      "exit": 0,
+      "output": "..............................................\n----------------------------------------------------------------------\nRan 46 tests in 0.712s\n\nOK\n"
+    },
+    {
+      "command": "python combined-ai-skill/scripts/validate.py",
+      "exit": 0,
+      "output": "{\n  \"status\": \"PASS_BOUNDED_MASTER_DEPENDENCIES\",\n  \"groups\": 15,\n  \"published_projections\": 17,\n  \"source_receipts_replayed\": false,\n  \"scientific_approval_granted\": false\n}\nCombined registry PASS: 18 registered projects, 18 admitted, 0 pending; 28 adversarial cases\n"
+    },
+    {
+      "command": "python -m unittest discover -s combined-ai-skill/tests",
+      "exit": 0,
+      "output": "owner/repo: API unavailable; exact public Git tree acquired at immutable\nowner/repo: immutable authority replay PASS at immutable\n.............From /tmp/tmp2l982wod/remote\n * branch            main       -> FETCH_HEAD\n   9971c05..908b817  main       -> origin/main\n.From /tmp/tmpf69uk9ka/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpf69uk9ka/remote.git\n   9971c05..de08935  HEAD -> main\n.From /tmp/tmpp9wcshae/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpp9wcshae/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpp9wcshae/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n....\n----------------------------------------------------------------------\nRan 19 tests in 0.829s\n\nOK\n"
+    }
+  ],
+  "scientific_acceptance_granted": false
+}

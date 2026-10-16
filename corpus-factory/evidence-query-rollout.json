@@ -53,9 +53,10 @@
     {
       "repository": "hawkinsnick/Eteocypriot",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Eteocypriot.json",
-      "profile_sha256": "2af8cbcd14a78c49b915448291b8c51e9443aebb54e287ff814439550d159341",
+      "profile_sha256": "4be5ba995fc04abbb5b6e986edda4e155fa8c45d7b0bf74fea9698ae8c81355a",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": null
+      "native_artifacts_snapshot_commit": null,
+      "snapshot_sha256": "3e182157948595568acaee7306b80235a361b1030756c47edca623cb3ed355d7"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -74,9 +75,10 @@
     {
       "repository": "hawkinsnick/Phrygian",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Phrygian.json",
-      "profile_sha256": "3931553c49b7d6614909d0cb376c6797e6d8db8fd9b3b5bc055d8eeb6826c92e",
+      "profile_sha256": "0dc78ba481de4939f2a360290380aa38d4b980ae5ba9700b654b191c4da613b1",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": null
+      "native_artifacts_snapshot_commit": null,
+      "snapshot_sha256": "7da41a14cf6eb8343763507fbab8e636069296e03145364239835c11ea9c7a08"
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",
@@ -109,9 +111,10 @@
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Sidetic.json",
-      "profile_sha256": "78f54331dc2e39381e700427dae77cfef71f5185fa60889e3a6233dd311761e5",
+      "profile_sha256": "79211222e0382581480d3b5016a29d2c9dcbfc1dff97117b00d3f7c2fea7369e",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
-      "native_artifacts_snapshot_commit": null
+      "native_artifacts_snapshot_commit": null,
+      "snapshot_sha256": "aa89800d6c6d62c80fbfec798eccb2a7c8a5f288c8a600387a2bbe72061ed98e"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -131,5 +134,6 @@
   "scope": "Pinned native evidence-query views, not new collation or scholarly acceptance. Snapshots describe byte-bound local native sources; publication receipts are separate.",
   "unique_inscription_total": null,
   "new_verified_readings": 0,
-  "expert_acceptance_added": false
+  "expert_acceptance_added": false,
+  "checked": "2026-10-16"
 }

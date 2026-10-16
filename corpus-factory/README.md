@@ -25,3 +25,5 @@ A new corpus is not fleet-admitted until all of the following exist and validate
 A repository, dataset, release, or green local workflow does not waive these gates. Camera/OCR applications and other downstream software remain separate from corpus scholarly authority.
 
 Software integrity checkpoint: [2026-10-16 scoped P0 re-audit](P0-REAUDIT-2026-10-16.md), with revision-bound commands and explicit research dependencies.
+
+Current P1 work: [16October execution checkpoint](P1-EXECUTION-2026-10-16.md) and [machine-readable residual work](p1-current-work.json). All18 member authorities are revision-pinned; source and expert dependencies remain explicit.

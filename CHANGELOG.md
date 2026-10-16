@@ -154,3 +154,7 @@ Confirmed two modern DOI identities and105 existing digital row-label routes to 
 ### 2026-10-15 Lydian/Sidetic supplied-PDF follow-up
 
 Updated documentary snapshots, source-collation guide and master/native AI guidance after three supplied-PDF checks. Seventeen selected tasks remain17;44 page inspections include one blank leaf. No canonical reading, independent review or object count added.
+
+## 2026-10-16 P1 status and source reconciliation
+
+Refreshed all18 native authority receipts and stale coverage summaries; added three revision-pinned native follow-up packets and current query snapshots. See corpus-factory/P1-EXECUTION-2026-10-16.md for bounded completed work and unresolved source/identity requirements. Individual and master AI instructions preserve the same qualifications.

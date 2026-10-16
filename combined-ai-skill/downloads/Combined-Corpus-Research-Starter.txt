@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 56fc96f70b01595bc1c397c16c44525149b78e44de25da84d34541f47e9dc331
+Instruction snapshot SHA-256: 0f76f656799052e383d7bcb94869376f2e9b1218cad6a8395013f98f9babd904
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1168,7 +1168,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: bfcb6d1a50570950801693ee9796dfc352c0854b80aa59862c1b435d3b295872
+SHA-256: cd390fe84f769637849be7eba05c0d353093214a7da0f8951992ce3676f93645
 
 ---
 name: combined-corpus-research
@@ -1529,6 +1529,10 @@ The current four-corpus source-collation guide and native packets supersede thei
 ## Software P0 audit evidence
 
 Read `corpus-factory/P0-REAUDIT-2026-10-16.md` and its revision-bound `p0-validation-2026-10-16.json` before citing the 2026-10-16 software audit. Preserve its scoped exclusions. Revalidate changed authorities; never infer scientific acceptance, resolved permissions, or independent review from passing software checks or an empty issue search.
+
+## Current P1 execution and evidence limits
+
+Consult `corpus-factory/P1-EXECUTION-2026-10-16.md`, `corpus-factory/p1-current-work.json` and each member's revision-bound `current_evidence` in the fleet gap register for current work. Treat the18-member status refresh as completed, while preserving the explicitly open source/identity/edition and independent-review requirements. Retrieve the new Phrygian, Eteocypriot and Sidetic native `p1-source-followup` dispositions before using their affected records. Do not repeat completed TL55 documentary accounting or supplied-PDF typography checks as missing work. Do not turn new documentary task/page counts into objects, independent witnesses or accepted readings.
 
 === END SOURCE FILE ===
 
@@ -2614,39 +2618,93 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: fe6f4d293489c56d43e793c832d70aafaf8df3552fedd82b4755413623d1f613
+SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
 
 {
   "schema_version": "1.0",
   "benchmark": "Linear-A governance/reproducibility parity",
-  "checked": "2026-10-11",
+  "checked": "2026-10-16",
   "members": [
     {
       "repo": "Linear-A",
       "evidence_depth": "HIGH",
       "coverage_state": "802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion.",
       "top_gap": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
-      "status_source": "analysis/critical-pilot-audit.json"
+      "status_source": "analysis/critical-pilot-audit.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Linear-A",
+        "source_commit": "5e1b92373cb11eb306c603783ba3b9c906cd5696",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/critical-pilot-audit.json",
+            "sha256": "bc2329fbfe9de66826c4cbe0f4371aede76a1be7ab550c0507a3f0273a259872"
+          },
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "10a9979afd89ce197a1a522273105e66b0748e46dd0a11f578cf9cc6519ec74d"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Cypro-Minoan",
       "evidence_depth": "LOW_MEDIUM",
-      "coverage_state": "254 controlled slots / 254 source-attributed sigla; 21 rich records, 16 partial occurrences on nine records; 12 uncovered. Six primary and ten dependent-secondary occurrences. Fourteen explicit catalogue joins, seven unresolved rich-record joins and 240 slots without a rich join. Three positional reassessments preserve competing labels; no independent review or physical certification. Original 15-record expert cohort retained as a dated baseline. Existing occurrence and identity reconciliation is complete as accounting; all 21 rich records have source-qualified dispositions. Three sign disagreements, seven catalogue joins and physical duplicate adjudication remain unresolved.",
-      "top_gap": "Broader partial/complete reading evidence for 12 uncovered rich records; direct primary-edition collation, unresolved positional alternatives and object joins; independent review and post-corpus discovery remain open.",
+      "coverage_state": "254 controlled catalogue slots; 21 rich records; 28 encoded source-attributed occurrences on 13 rich records; eight rich records without encoded occurrences. Catalogue, record and occurrence denominators remain separate. Six selected publication comparisons retain five indirect Olivier sides and one internal Valério09/10 inconsistency. Identity reconciliation is accounting, not physical certification.",
+      "top_gap": "Acquire direct Olivier pages; resolve or retain damaged-sign/09–10 alternatives and seven uncertain rich-record catalogue joins; extend source-supported readings to eight uncovered rich records; expert adjudication remains separate.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cypro-Minoan",
-      "status_source_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
-      "status_source_sha256": "cc4570a059f66cc289943f253aadcc5c4ddb8b9a90929af7790fd2aca212cafb",
       "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
       "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
-      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json"
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "source_commit": "6a29f3ff30370c7066d6a8d9b94c2d7478e7cd66",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "b40ecb611a2d2b9eec3a7469969b173ac2a436b453c10c0c9ff399e88bce674d"
+          },
+          {
+            "path": "analysis/occurrence-coverage-v1.json",
+            "sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac"
+          },
+          {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "061110c15f0611cda3bcd12bed95012c79e91fa1facc1f5dd066b585c7c80a57"
+          },
+          {
+            "path": "research/identity-reconciliation-v2.json",
+            "sha256": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Linear-B",
       "evidence_depth": "HIGH",
       "coverage_state": "5,932 unchanged source IDs / 5,890 surfaces; complete local identity/missingness register, collision accounting and public aggregate audit",
       "top_gap": "legitimate aligned linguistic gold export and authoritative graphical occurrence mapping",
-      "status_source": "analysis/pre-expert-source-audit.json"
+      "status_source": "analysis/pre-expert-source-audit.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Linear-B",
+        "source_commit": "74b0b219fe10b3247d376d014c781032f0374058",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/pre-expert-source-audit.json",
+            "sha256": "4c043cc9c4cbccde5f3601d9c2ede734c14788da762b688a5a71dc65fb57ba50"
+          },
+          {
+            "path": "research/damos-published-id-example-2026-10-14.json",
+            "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Cretan-hieroglyphs",
@@ -2655,115 +2713,351 @@ SHA-256: fe6f4d293489c56d43e793c832d70aafaf8df3552fedd82b4755413623d1f613
       "top_gap": "Representative H/I/S/Y reading coverage; direct primary comparison of digital numeric readings and resolution or retention of two material conflicts; bounded object concordances and independent review.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Cretan-hieroglyphs",
-      "status_source_commit": "3c7be167741a108e00d70915ca39b54da4083126",
-      "status_source_sha256": "8b1a6fe4c89d88de8481fc8efa0f3ff3a293b3065b2b35d1df8f27e62cb94882",
       "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
-      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json"
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "source_commit": "49a5ccb3562cb7f909c9122b3886fbab7f00ea32",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "36889142f6eac7ced9620db7887e6c7c2d897fb1352fc193ddf9b5399907d3b2"
+          },
+          {
+            "path": "research/reference-reconciliation-v2.json",
+            "sha256": "a9397e546c324edd4e98ad6cd072778fed4566bfef0b1e4fb22c854dab7a3b0a"
+          },
+          {
+            "path": "research/identity-reconciliation-v2.json",
+            "sha256": "422c1b82bce89b7feff88737907780eea178c2a2f91a705106e9dec3f4dc3005"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Phaistos-Disc",
       "evidence_depth": "HIGH_FOR_SURVIVING_OBJECT",
       "coverage_state": "1 object; 61 groups; 242 project slots; 1 unknown",
-      "top_gap": "independent expert review and count convention reconciliation"
+      "top_gap": "independent expert review and count convention reconciliation",
+      "current_evidence": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "source_commit": "3db771677bd2b04617f44c41f783831185fd2eec",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "ced39c1026bf67926e73386ccfc89d2b92fbf968e939e5be4f0d5ea0a57e50aa"
+          },
+          {
+            "path": "analysis/acceptance-2.0.json",
+            "sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Byblos-syllabary",
       "evidence_depth": "LOW_WITH_SELECTED_PRIMARY_NUMBERING_AND_SOURCE_UNIT_AUDIT",
       "coverage_state": "123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused comparisons; 103 historical display targets across ten figures (98 horizontal bands / five columns / fifteen panels). Six count-policy review questions. Zero new canonical lines, verified sequences or expert approvals.",
       "top_gap": "Scoped pause after agreed final pass, not terminal readiness. Direct lawful Dunand 1945/1978 plates and physical images; source rights, object identities, count policies and independent review. Further accessible literature remains open.",
-      "status_source": "analysis/current-status.json"
+      "status_source": "analysis/current-status.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "source_commit": "be80ebdbf5a30c369e7cb52a49efb1bfc2b4915e",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1"
+          },
+          {
+            "path": "research/count-assignment-checkpoint-2026-10-14.json",
+            "sha256": "7c4c03ee487b880921e8bb516314679921fbdd0a5b799e4a2e59cf332d42336c"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Cypriot-syllabic-Greek",
       "evidence_depth": "MEDIUM",
       "coverage_state": "593-source snapshot; 592 records; 170 source-interpreted Greek",
-      "top_gap": "expand beyond frozen fascicle and independent review"
+      "top_gap": "expand beyond frozen fascicle and independent review",
+      "current_evidence": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "source_commit": "effd8e7782ac333a174b9574d88bc29e4fb553c6",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "exports/audit.json",
+            "sha256": "9b3152aa0c75af858db2a5a5e731cf874bb634dd0aa46ad72f09ef1432f5bc7a"
+          },
+          {
+            "path": "exports/greek-subset.json",
+            "sha256": "4da61071a22c002190eb5d3de31432e288a1647b96a3cf0cfa0d1c54ba2bf7e9"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Eteocypriot",
       "evidence_depth": "LOW_MEDIUM_WITH_SOURCE_CONCORDANCE",
-      "coverage_state": "26 native candidates; 25 parsed entries / 29 components; 17 source-attributed entries; seven qualified historical joins; eight licensed coin comparison sources outside admission",
+      "coverage_state": "26 native candidates; 25 parsed entries / 29 components; 17 source-attributed entries; seven qualified historical joins; eight licensed coin comparison sources outside admission Entry150 XML reacquired16Oct: identical malformed bytes; quarantine retained and separately queryable.",
       "top_gap": "Resolve modern item-level edition, physical identity, provenance and language questions. Historical numbering is separate from IG numbering; grouped AM799 metadata and four coin parts do not certify object or specimen independence. Four source conflicts, six critical-reading questions and eight discovery leads remain open. Entry 150 remains quarantined.",
       "source_route_recheck": "research/source-route-recheck-2026-10-05.json",
-      "source_concordance_audit": "research/source-concordance-audit.json"
+      "source_concordance_audit": "research/source-concordance-audit.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "source_commit": "4b1e45dadd2924b980379a98487ff5a133e20ce1",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "research/source-concordance-audit.json",
+            "sha256": "e4d1e77a188909a44db417ea5cdc5cf600f62674e56b27cf8e0a5ebe97714c01"
+          },
+          {
+            "path": "research/source-route-recheck-2026-10-05.json",
+            "sha256": "fdc29eadb13f86f3e67318c3a8ac20a5a6bf800b153d0d60ee995eba2d261bf8"
+          },
+          {
+            "path": "research/p1-source-followup-2026-10-16.json",
+            "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Eteocretan",
       "evidence_depth": "LOW_WITH_PRIMARY_TEXT_DESCRIPTION_JOIN",
       "coverage_state": "Azoria upper bin-lining handle linked textually to Figure 42 / 06-0334 (D346.1); second identifier unresolved; same-pithos hypothesis qualified. Three D300 and seventeen site-wide inscribed sherds are separate non-language denominators. Zero canonical admissions.",
       "top_gap": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
-      "status_source": "analysis/source-critical-dossier.json"
+      "status_source": "analysis/source-critical-dossier.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Eteocretan",
+        "source_commit": "a04b6e9391c171f790ae70f5623aa702f402cb31",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/source-critical-dossier.json",
+            "sha256": "4631040aa4c7f9f15ecba5e9c93cc582bafcb19cf276f027ef60d191a51460bc"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Lycian-and-Carian",
       "evidence_depth": "HIGH_DIGITAL",
       "coverage_state": "453 eDiAna catalogue entries in separate partitions",
-      "top_gap": "edition-level independent/source collation"
+      "top_gap": "edition-level independent/source collation",
+      "current_evidence": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "source_commit": "27205eb065d6a8f8bf653dcee4fb0dbce48572a7",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "exports/audit.json",
+            "sha256": "f51e90f6532b62a9fbec0d77e751326a239c23208760403ae8a39e2371509ae8"
+          },
+          {
+            "path": "exports/corpus.json",
+            "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Phrygian",
       "evidence_depth": "MEDIUM_WITH_PRIMARY_PDF_REPLAY_AND_OPEN_IDENTITY_BRIDGE",
-      "coverage_state": "3 of 162 explicit edition lineages; 159 unjoined. TM1002268 string located in general formula rather than object fragment; source bytes and pages replayed. TM1002269 short text matches with alternative retained. Independent collation and canonical admissions remain zero.",
+      "coverage_state": "3 of 162 explicit edition lineages; 159 unjoined. TM1002268 string located in general formula rather than object fragment; source bytes and pages replayed. TM1002269 short text matches with alternative retained. Independent collation and canonical admissions remain zero. Two publication PDFs reacquired; four rendered-page checks replay the formula/fragment distinction and conditional restoration. Both TM catalogue routes still502; no external identity certified.",
       "top_gap": "resolve TM1002268 catalogue bridge and upstream assignment intent (both public TM routes HTTP 502); independently collate TM1002269 competing restoration; extend edition lineage",
-      "status_source": "analysis/new-primary-comparison.json"
+      "status_source": "analysis/new-primary-comparison.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Phrygian",
+        "source_commit": "3c2fb15c10e44cc0ebd08902896bdcbf732378e1",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/new-primary-comparison.json",
+            "sha256": "467377825e437e56c419407208ef849af5d4b29267f6f2b12c81567b646d3f49"
+          },
+          {
+            "path": "research/new-phrygian-primary-dossier.json",
+            "sha256": "757db8e72bde0bccd736e862f09c61d4e33ab3ee1afd83cfbe9aafb4bc3304a7"
+          },
+          {
+            "path": "research/p1-source-followup-2026-10-16.json",
+            "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Anatolian-Hieroglyphic",
       "evidence_depth": "STRUCTURED_DIGITAL_IDENTITY",
       "coverage_state": "287-entry eDiAna Hieroglyphic text-entry denominator established; 314-entry monumental discovery register remains a separate discovery view; explicit portable/non-monumental subset classified",
       "top_gap": "classify/reconcile all 287 eDiAna entries to CHLI and decompose grouped sigla only with authority support",
-      "status_source": "research/monumental-discovery-register.json"
+      "status_source": "research/monumental-discovery-register.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "source_commit": "7cf820fb45744fd04d53c3e90a9c4c832239e1f0",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "research/monumental-discovery-register.json",
+            "sha256": "de7877e2ea0fff5bb3269549644a5fa4d112d1b06b537dd4ff482c9a168728b6"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Archanes-Script",
       "evidence_depth": "SOURCE_RECONCILED_PARTIAL",
       "coverage_state": "16-object Decorte baseline; direct INSCRIBE museum/CHIC reconciliation for AS#01-04 subset; later-authority face crosswalk; AS#04 Bone/Ivory disagreement preserved",
       "top_gap": "complete direct object reconciliation for remaining AS objects and later-authority occurrence deltas",
-      "status_source": "research/corpus-quality-audit.json"
+      "status_source": "research/corpus-quality-audit.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "source_commit": "2a667dcfa133d94669e510f8c7738692e9005d90",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "research/corpus-quality-audit.json",
+            "sha256": "c2cb9f32bd619235bd3b249e2e2271575fd5cc30d1ccc623cc5deb197894527b"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Aegean-anomalous",
       "evidence_depth": "SOURCE_RECONCILED_ANCHORS",
       "coverage_state": "Arkalochori conservation packet plus Malia direct INSCRIBE/CHIC #328 object metadata and 16-slot/13-distinct transnumeration; historical 14/15/16 count states preserved",
       "top_gap": "reconcile Chapouthier boundary-bar segmentation against CHIC/INSCRIBE drawing state; lawful Arkalochori geometry",
-      "status_source": "research/pre-expert-gate-summary.json"
+      "status_source": "research/pre-expert-gate-summary.json",
+      "current_evidence": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "source_commit": "ac269b3db436b94ebd137d7dccc58b31fef9864a",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "research/pre-expert-gate-summary.json",
+            "sha256": "2a710980f92cd1a5647263ceefb1c25ccf630003a4bc96488c2f6434dc21da7c"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Lydian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 118 records / 471 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
-      "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
+      "coverage_state": "118 source document IDs / 471 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 118 records / 471 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added. Selected LW40 Payne–Sasseville2016 typography, images and commentary checked from supplied PDF; this is complete documentary consultation, not RTI/object adjudication.",
+      "top_gap": "Remaining edition/row-level collation, inventory and numbering conflicts; LW40 interactive RTI/object access and independent damaged-sign assessment. Supplied-PDF typography check is complete.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Lydian",
-      "status_source_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
-      "status_source_sha256": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86"
+      "current_evidence": {
+        "repository": "hawkinsnick/Lydian",
+        "source_commit": "32e6c52e832b29a66f887daaaaf1c8962cab46fa",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "ad2e7691e84ce6f53f691088b2565bd900af56dd16b4eab2b6ffca1313f2fc86"
+          },
+          {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Sidetic",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 11 records / 32 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
-      "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 11 records / 32 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added. Supplied Phillips–Rutherford2025 and Rizza–Zinko2025 PDF/figure checks complete in selected scope; ewpel underdot attribution corrected with prose uncertainty retained. Darga early Seleukeia publication acquired: twelve leaves visually inspected; four qualified Greek-component/name/custody/notation comparisons query-linked to S6. Date-role discrepancy and historical sign system retained. Brixhe–Neumann1988 remains unconsulted.",
+      "top_gap": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, other2025 Abydos edition comparison and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Sidetic",
-      "status_source_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
-      "status_source_sha256": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18"
+      "current_evidence": {
+        "repository": "hawkinsnick/Sidetic",
+        "source_commit": "7e030332539fd3811679f8d27e79bef6f94b0821",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "8e9e2c4e09938a270254efc73b252bdf37b3d6d66fe7c23d5fb305deabd35f18"
+          },
+          {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "28eee2baba3da54e66b71c92f12a8feda2c008edbc1915b610e98e7a901483ea"
+          },
+          {
+            "path": "research/p1-source-followup-2026-10-16.json",
+            "sha256": "bad037f0a965445ce0ce5a8547c23be1c5d5a8a15a8824f60f9c590dec57a992"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Pisidian",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 54 records / 99 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added.",
+      "coverage_state": "54 source document IDs / 99 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 54 records / 99 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added. Four selected source comparisons include printed lines/vacat, circumflex conventions and qualified formula restoration; these documentary checks do not certify readings.",
       "top_gap": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Pisidian",
-      "status_source_commit": "fd30fead96c78b6da3a67066652084440b6df701",
-      "status_source_sha256": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311"
+      "current_evidence": {
+        "repository": "hawkinsnick/Pisidian",
+        "source_commit": "cbf12a45edbead3da780470bee2498f8ca7ed702",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "analysis/current-status.json",
+            "sha256": "4f8e474f7f3088fba316e60306d4302eea68cd873acb45523cd16fcfd84fa311"
+          },
+          {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     },
     {
       "repo": "Milyan-Lycian-B",
       "evidence_depth": "FROZEN_DIGITAL_REFERENCE_WITH_INSPECTED_PRIMARY_LOCATORS",
-      "coverage_state": "3 provisional targets; 2 eDiAna catalogue entries, 114 text rows (34 c + 71 d + 9 TL55); zero verified canonical readings. Reference views overlap targets and are not new physical objects.",
-      "top_gap": "Critical-edition reading/variant comparison and TL55 eight-versus-nine segmentation reconciliation; independent expert acceptance. Frozen eDiAna CC-BY-SA-4.0 component rights explicit; other components remain source-specific.",
-      "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B"
+      "coverage_state": "114 frozen eDiAna reference rows (34 c + 71 d + 9 TL55), zero verified canonical readings. TL55 historical eight-line versus nine-edition-group count voices reconciled; bounded documentary comparison accounts for 1,441 encoded comparison records, 152 flags and 58 documentary cases, with unresolved point pairings retained. TL44: 105 page/label routes and two modern bibliographic identities documented, not 105 sign collations.",
+      "top_gap": "Obtain modern TL44c/d article PDFs and collate revised readings/apparatus; TL55 sign/restoration adjudication and ambiguous point pairings remain independent expert questions. No need to repeat completed TL55 documentary flag accounting.",
+      "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B",
+      "current_evidence": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "source_commit": "167d152ada09c5b303527bac69b60b54bd9835a4",
+        "inspected_on": "2026-10-16",
+        "artifacts": [
+          {
+            "path": "research/tl55-count-reconciliation-2026-10-14.json",
+            "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1"
+          },
+          {
+            "path": "research/tl55-documentary-sign-review.json",
+            "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9"
+          },
+          {
+            "path": "research/tl44-source-checkpoint.json",
+            "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee"
+          }
+        ],
+        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+      }
     }
   ],
   "required_capabilities": [
@@ -2792,7 +3086,8 @@ SHA-256: fe6f4d293489c56d43e793c832d70aafaf8df3552fedd82b4755413623d1f613
       "repo": "Egyptian-Hieroglyphic-Corpus",
       "reason": "Independent Egyptian hieroglyphic application/reference project, not part of the ancient-script corpus fleet."
     }
-  ]
+  ],
+  "refresh_scope": "All 18 member authorities revision-pinned; manual summaries reconciled with the listed bounded checkpoints. Native authorities retain precedence; refresh is not source collation or scholarly acceptance."
 }
 
 === END SOURCE FILE ===

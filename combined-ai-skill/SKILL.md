@@ -357,3 +357,7 @@ The current four-corpus source-collation guide and native packets supersede thei
 ## Software P0 audit evidence
 
 Read `corpus-factory/P0-REAUDIT-2026-10-16.md` and its revision-bound `p0-validation-2026-10-16.json` before citing the 2026-10-16 software audit. Preserve its scoped exclusions. Revalidate changed authorities; never infer scientific acceptance, resolved permissions, or independent review from passing software checks or an empty issue search.
+
+## Current P1 execution and evidence limits
+
+Consult `corpus-factory/P1-EXECUTION-2026-10-16.md`, `corpus-factory/p1-current-work.json` and each member's revision-bound `current_evidence` in the fleet gap register for current work. Treat the18-member status refresh as completed, while preserving the explicitly open source/identity/edition and independent-review requirements. Retrieve the new Phrygian, Eteocypriot and Sidetic native `p1-source-followup` dispositions before using their affected records. Do not repeat completed TL55 documentary accounting or supplied-PDF typography checks as missing work. Do not turn new documentary task/page counts into objects, independent witnesses or accepted readings.

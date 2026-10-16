@@ -1,0 +1,217 @@
+{
+  "format": "corpus-p1-execution-v1",
+  "checked": "2026-10-16",
+  "requested_order": [
+    5,
+    1,
+    2
+  ],
+  "registry_refresh_status": "COMPLETE_18_MEMBER_REVISION_BOUND_REFRESH",
+  "attribution_status": "BOUNDED_FOLLOWUP_COMPLETE_WITH_UNRESOLVED_SOURCE_IDENTITIES",
+  "primary_comparison_status": "PROGRESSED_NEW_EARLY_SIDETIC_COMPARISON_AND_PHRYGIAN_REPLAY",
+  "all_p1_closed": false,
+  "scientific_acceptance_granted": false,
+  "native_followups": [
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "3c2fb15c10e44cc0ebd08902896bdcbf732378e1",
+      "native_path": "research/p1-source-followup-2026-10-16.json",
+      "snapshot_path": "corpus-factory/p1-followup-snapshots/Phrygian.json",
+      "snapshot_sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+      "cases": 2
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "4b1e45dadd2924b980379a98487ff5a133e20ce1",
+      "native_path": "research/p1-source-followup-2026-10-16.json",
+      "snapshot_path": "corpus-factory/p1-followup-snapshots/Eteocypriot.json",
+      "snapshot_sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+      "cases": 1
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "7e030332539fd3811679f8d27e79bef6f94b0821",
+      "native_path": "research/p1-source-followup-2026-10-16.json",
+      "snapshot_path": "corpus-factory/p1-followup-snapshots/Sidetic.json",
+      "snapshot_sha256": "bad037f0a965445ce0ce5a8547c23be1c5d5a8a15a8824f60f9c590dec57a992",
+      "cases": 4
+    }
+  ],
+  "remaining_work": [
+    {
+      "id": "PHR-TM1002268-ROLE",
+      "repository": "hawkinsnick/Phrygian",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "External TM record inspection and upstream assignment intent; no inference from formula resemblance.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "PHR-TM1002269-RESTORATION",
+      "repository": "hawkinsnick/Phrygian",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "Independent damaged-letter/restoration adjudication; external TM namespace bridge.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "ETE-IG150-QUARANTINE",
+      "repository": "hawkinsnick/Eteocypriot",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "Corrected source-issued XML or a separately inspected authoritative edition with explicit entry identity and language evidence.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "SID-S6-DARGA-GREEK",
+      "repository": "hawkinsnick/Sidetic",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "Direct Brixhe–Neumann1988 comparison and damaged-letter assessment remain open.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "SID-S6-DARGA-NAME",
+      "repository": "hawkinsnick/Sidetic",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "Do not normalize historical sign numbers/values into modern Nollé numbering.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "SID-S6-DARGA-LOCATION",
+      "repository": "hawkinsnick/Sidetic",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "Obtain a current item-level inventory; dated custody is not present-location certification.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "SID-S6-DARGA-PLATES",
+      "repository": "hawkinsnick/Sidetic",
+      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "evidence_needed": "Resolve damaged signs with adequate object evidence; historical no.6 u is not an automatic modern N6 mapping.",
+      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+    },
+    {
+      "id": "Linear-A-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Linear-A",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Cypro-Minoan-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Acquire direct Olivier pages; resolve or retain damaged-sign/09–10 alternatives and seven uncertain rich-record catalogue joins; extend source-supported readings to eight uncovered rich records; expert adjudication remains separate.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Linear-B-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Linear-B",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "legitimate aligned linguistic gold export and authoritative graphical occurrence mapping",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Cretan-hieroglyphs-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Representative H/I/S/Y reading coverage; direct primary comparison of digital numeric readings and resolution or retention of two material conflicts; bounded object concordances and independent review.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Phaistos-Disc-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "independent expert review and count convention reconciliation",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Byblos-syllabary-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Scoped pause after agreed final pass, not terminal readiness. Direct lawful Dunand 1945/1978 plates and physical images; source rights, object identities, count policies and independent review. Further accessible literature remains open.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Cypriot-syllabic-Greek-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "expand beyond frozen fascicle and independent review",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Eteocypriot-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Eteocypriot",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Resolve modern item-level edition, physical identity, provenance and language questions. Historical numbering is separate from IG numbering; grouped AM799 metadata and four coin parts do not certify object or specimen independence. Four source conflicts, six critical-reading questions and eight discovery leads remain open. Entry 150 remains quarantined.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Eteocretan-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Eteocretan",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Lycian-and-Carian-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "edition-level independent/source collation",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Phrygian-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Phrygian",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "resolve TM1002268 catalogue bridge and upstream assignment intent (both public TM routes HTTP 502); independently collate TM1002269 competing restoration; extend edition lineage",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Anatolian-Hieroglyphic-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "classify/reconcile all 287 eDiAna entries to CHLI and decompose grouped sigla only with authority support",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Archanes-Script-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Archanes-Script",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "complete direct object reconciliation for remaining AS objects and later-authority occurrence deltas",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Aegean-anomalous-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "reconcile Chapouthier boundary-bar segmentation against CHIC/INSCRIBE drawing state; lawful Arkalochori geometry",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Lydian-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Lydian",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Remaining edition/row-level collation, inventory and numbering conflicts; LW40 interactive RTI/object access and independent damaged-sign assessment. Supplied-PDF typography check is complete.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Sidetic-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Sidetic",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, other2025 Abydos edition comparison and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Pisidian-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Pisidian",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    },
+    {
+      "id": "Milyan-Lycian-B-NATIVE-FRONTIER",
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "status": "OPEN_NATIVE_SCOPE",
+      "evidence_needed": "Obtain modern TL44c/d article PDFs and collate revised readings/apparatus; TL55 sign/restoration adjudication and ambiguous point pairings remain independent expert questions. No need to repeat completed TL55 documentary flag accounting.",
+      "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
+    }
+  ]
+}

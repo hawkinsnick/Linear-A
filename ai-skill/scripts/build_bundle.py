@@ -49,6 +49,8 @@ CANDIDATES=[("milyan_tl44_source_checkpoint", "corpus-factory/MILYAN-TL44-SOURCE
  ("rights_and_licensing","docs/RIGHTS-AND-LICENSING.md"),("notice","NOTICE"),("third_party","THIRD-PARTY-NOTICES.md")
 ]
 CANDIDATES += [("software_p0_audit_guide", "corpus-factory/P0-REAUDIT-2026-10-16.md"), ("software_p0_validation_receipts", "corpus-factory/p0-validation-2026-10-16.json")]
+CANDIDATES += [('current_p1_evidence', 'corpus-factory/fleet-gap-register.json'), ('current_p1_evidence', 'corpus-factory/p1-current-work.json'), ('current_p1_evidence', 'corpus-factory/P1-EXECUTION-2026-10-16.md'), ('current_p1_evidence', 'corpus-factory/validate_p1_refresh.py'), ('current_p1_evidence', 'corpus-factory/test_p1_refresh.py'), ('p1_native_followup', 'corpus-factory/p1-followup-snapshots/Phrygian.json'), ('p1_native_followup', 'corpus-factory/p1-followup-snapshots/Eteocypriot.json'), ('p1_native_followup', 'corpus-factory/p1-followup-snapshots/Sidetic.json')]
+CANDIDATES += [("p1_validation_receipts", "corpus-factory/p1-validation-2026-10-16.json")]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel
