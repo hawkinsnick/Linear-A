@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c9f3e14fa1060fb547d9c190d5573f9dbd6ad405",
-  "generated_at_utc": "2026-10-16T15:01:36+00:00",
+  "source_commit": "8f79d29f8a7b71fe373bffa21c430f835f338570",
+  "generated_at_utc": "2026-10-16T19:00:23+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -274,8 +274,8 @@
     {
       "role": "fleet_evidence_query_rollout",
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "c2aecb34f1941c60b00ada215f3df01b8d739c4f6b94f0f54bf635ed77fc147e",
-      "bytes": 7278
+      "sha256": "0bc2d8cb1fb6fda0904f4c71f0df2af0aba1ea1b936d2de545b074bfddd66877",
+      "bytes": 7584
     },
     {
       "role": "native_evidence_profile",
@@ -406,8 +406,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "bfcb6d1a50570950801693ee9796dfc352c0854b80aa59862c1b435d3b295872",
-      "bytes": 57359
+      "sha256": "cd390fe84f769637849be7eba05c0d353093214a7da0f8951992ce3676f93645",
+      "bytes": 58073
     },
     {
       "role": "source_delivery_guide",
@@ -478,8 +478,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "dccda4b9c50cb88755d3c18c0b3f347d2de6dfca6883e33f06afdc254d795ac7",
-      "bytes": 35316
+      "sha256": "3b9394cfe9060356a33a51cfd304fa0c7d340393e034326b944560593d9ac3bc",
+      "bytes": 36030
     },
     {
       "role": "cross_corpus_dependencies",
@@ -798,6 +798,60 @@
       "path": "corpus-factory/p0-validation-2026-10-16.json",
       "sha256": "83d10d03d846b3d22d5a9671aeaa8f030a1e8a842a64d969e56780629a7d78ea",
       "bytes": 61671
+    },
+    {
+      "role": "current_p1_evidence",
+      "path": "corpus-factory/fleet-gap-register.json",
+      "sha256": "3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41",
+      "bytes": 28461
+    },
+    {
+      "role": "current_p1_evidence",
+      "path": "corpus-factory/p1-current-work.json",
+      "sha256": "187e8d8a9825628d7ba4d806689017290c954a036cd11f8e4fe1666730d51658",
+      "bytes": 14565
+    },
+    {
+      "role": "current_p1_evidence",
+      "path": "corpus-factory/P1-EXECUTION-2026-10-16.md",
+      "sha256": "7542c44128ede1e067402386a074985413d81b70c2f168c52cb2cac50edcd8e7",
+      "bytes": 4447
+    },
+    {
+      "role": "current_p1_evidence",
+      "path": "corpus-factory/validate_p1_refresh.py",
+      "sha256": "a6b6bcc293ce5569600ff8094408ec18fce2009d24c952bdd9ca346ac135b43a",
+      "bytes": 3690
+    },
+    {
+      "role": "current_p1_evidence",
+      "path": "corpus-factory/test_p1_refresh.py",
+      "sha256": "084fbca3e981566299f21bd4f98aff228507f2e1d2855c7a5a549dd976761708",
+      "bytes": 1339
+    },
+    {
+      "role": "p1_native_followup",
+      "path": "corpus-factory/p1-followup-snapshots/Phrygian.json",
+      "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+      "bytes": 5079
+    },
+    {
+      "role": "p1_native_followup",
+      "path": "corpus-factory/p1-followup-snapshots/Eteocypriot.json",
+      "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+      "bytes": 2426
+    },
+    {
+      "role": "p1_native_followup",
+      "path": "corpus-factory/p1-followup-snapshots/Sidetic.json",
+      "sha256": "bad037f0a965445ce0ce5a8547c23be1c5d5a8a15a8824f60f9c590dec57a992",
+      "bytes": 7634
+    },
+    {
+      "role": "p1_validation_receipts",
+      "path": "corpus-factory/p1-validation-2026-10-16.json",
+      "sha256": "84809c1a286226613cbff47a7363f28cb84f0dd9a01696fb8633bc54d4241ed6",
+      "bytes": 9399
     }
   ]
 }
