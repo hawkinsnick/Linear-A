@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Lydian",
-  "profile_sha256": "c98487e62ee7ebb11070ce1a0343254b5f020d8a1eef058b05f7eb75bf1a95ad",
+  "profile_sha256": "ca1b49486dd0dc5e0caec0b772757566c0cb70ce8d41489c2c0f2103b6467dab",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -54,7 +54,7 @@
       ],
       "provenance": {
         "path": "research/attribution-review.json",
-        "sha256": "a5950cfd5d6f1654e1787de11de09062b05fd1a8715a52bd083c651c706e6c69",
+        "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
         "pointer": "/cases",
         "native_artifacts_snapshot_commit": null,
         "role": "bounded attribution review",
@@ -65,7 +65,7 @@
       "name": "source-collation-2026-10-15",
       "native_unit": "selected source collation task",
       "record_count": 3,
-      "scope": "Three selected comparisons. Littmann’s tentative historical interpretation and Gusmani’s d/v ambiguity, conventions and published figure context are directly page-checked. Payne–Sasseville2016 was freshly inspected as author-posted web text only; exact PDF typography and RTI remain open after403 responses.",
+      "scope": "All three selected source contexts now have rendered-PDF consultation records. The supplied Payne–Sasseville PDF closes the LW40 printed-typography check; the authors’ object/RTI evidence remains distinct from project examination.",
       "example_ids": [
         "LYD-LW40-HISTORICAL",
         "LYD-LW40-2016",
@@ -73,7 +73,7 @@
       ],
       "provenance": {
         "path": "research/source-collation-2026-10-15.json",
-        "sha256": "efe7cf4e240d4b98adc40a3df8d63812493ba4ef8de58f47ddfb3601a4da9cd6",
+        "sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67",
         "pointer": "/cases",
         "native_artifacts_snapshot_commit": null,
         "role": "fresh bounded source collation; consultation modes differ by source",
@@ -116,7 +116,7 @@
     },
     {
       "path": "research/source-checks.json",
-      "sha256": "d4a8e59b525c5e8740374da3b76866140561ac8162498cd39f29e4f036776d95",
+      "sha256": "3f5f81168c775d924e9cfce25880bbe5cb1966c1c2234467d135986233d5c5e0",
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "corpus-level source/rights/context register",
@@ -164,7 +164,7 @@
     },
     {
       "path": "research/attribution-review.json",
-      "sha256": "a5950cfd5d6f1654e1787de11de09062b05fd1a8715a52bd083c651c706e6c69",
+      "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
@@ -172,7 +172,7 @@
     },
     {
       "path": "research/source-collation-2026-10-15.json",
-      "sha256": "efe7cf4e240d4b98adc40a3df8d63812493ba4ef8de58f47ddfb3601a4da9cd6",
+      "sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67",
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "fresh bounded source collation; consultation modes differ by source",
