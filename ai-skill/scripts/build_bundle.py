@@ -67,6 +67,8 @@ CANDIDATES += [('northwestern_publication', p) for p in ['corpus-factory/verify_
 
 CANDIDATES += [("specialist_task_pilot", p) for p in ['scripts/task_pilot.py', 'scripts/test_task_pilot.py', 'docs/RESEARCH-TASK-PILOT.md', 'analysis/task-pilot-example.json', 'research/task-pilot.json']]
 CANDIDATES += [("specialist_task_pilot_master", "corpus-factory/SPECIALIST-RESEARCH-PILOTS.md")]
+CANDIDATES += [("bounded_source_study", p) for p in ['research/source-study-2026-10-17.json', 'scripts/source_study.py', 'scripts/test_source_study.py', 'docs/SOURCE-STUDY-2026-10-17.md', 'review/source-study-packet.json', 'review/source-study-response.json', 'analysis/source-study-audit.json']]
+CANDIDATES += [("source_study_master_route", "corpus-factory/SOURCE-STUDIES-2026-10-17.md")]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

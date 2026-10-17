@@ -413,3 +413,6 @@ review, or delivery controls as closure of scholarly P0/P1 source/permission gap
 ## Specialist research-task pilots
 
 Read `corpus-factory/SPECIALIST-RESEARCH-PILOTS.md` and each native `docs/RESEARCH-TASK-PILOT.md` / `analysis/task-pilot-example.json`. Route Linear B to its 25-record literal retrieval with a character-marker sensitivity screen, Linear A to its 25-entry exact source-label/group concordance, and Luwian to seven documentary edition routes. Do not call the Luwian sign-reading study executed or Linear B literal matches identified people/secure readings. Preserve all local-only payload defaults, component rights, unknowns, raw flags and source/physical/edition distinctions. Do not pool pilot counts or imply named scholar participation, endorsement, model evaluation or human acceptance. Require admitted source/linguistic evidence before interpretation.
+
+
+For the 2026-10-17 Linear B, Linear A and Anatolian Hieroglyphic source studies, first read `corpus-factory/SOURCE-STUDIES-2026-10-17.md`, then the member-native source-study register and review packet. Keep documentary identity, script classification and attributed reading-level assertions distinct. Prepared specialist packets do not establish expert acceptance.

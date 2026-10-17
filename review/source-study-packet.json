@@ -1,0 +1,85 @@
+{
+  "format": "specialist-source-review-packet-v1",
+  "repository": "hawkinsnick/Linear-A",
+  "study_id": "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017",
+  "status": "PREPARED_NOT_REVIEWED",
+  "study_provenance": {
+    "path": "research/source-study-2026-10-17.json",
+    "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+    "pointer": "",
+    "native_artifacts_snapshot_commit": null,
+    "role": "bounded directly consulted source study",
+    "encoding": "json"
+  },
+  "profile_sha256": "98576b8ca15fbdd2529a6f9517ff72982c5df808061aeae96270d334031371cc",
+  "question": "How do the directly inspected Palaima and Owens arguments differ over the script assignment of the Knossos painted wall sign?",
+  "review_questions": [
+    "Does the summary fairly preserve each author’s actual preference and qualifications at the cited pages?",
+    "Is the shared-fragment documentary identification justified without certifying modern physical identity or source independence?",
+    "What additional object/context evidence is needed before choosing a script assignment?"
+  ],
+  "source_requirements": [
+    {
+      "source_id": "PALAIMA1981",
+      "citation": "Thomas G. Palaima (1981), On the Painted Linear Sign from a Wall at Knossos, Kadmos 20, 79–82.",
+      "receipt": {
+        "id": "la-palaima",
+        "url": "https://sites.utexas.edu/scripts/wp-content/uploads/sites/3428/2019/10/1981-TGP-paintedLinearSignKnossosPu.pdf",
+        "final_url": "https://sites.utexas.edu/scripts/wp-content/uploads/sites/3428/2019/10/1981-TGP-paintedLinearSignKnossosPu.pdf",
+        "status": 200,
+        "bytes": 1251858,
+        "sha256": "55bfa942b50c8a52793084a087887a56487c241cbfe5bc237b207da8c285dcee",
+        "content_type": "application/pdf"
+      },
+      "locators": [
+        {
+          "pdf_ordinal": 2,
+          "printed_page": "80",
+          "inspection": "Text and rendered page checked"
+        },
+        {
+          "pdf_ordinal": 3,
+          "printed_page": "81",
+          "inspection": "Text and rendered page checked"
+        }
+      ],
+      "rights": "Copyrighted source; public academic offprint access does not confer a bulk reuse licence. Original short attributed comparison notes only; no source text, figure, facsimile or reconstructed edition is redistributed."
+    },
+    {
+      "source_id": "OWENS1990_91",
+      "citation": "Gareth Owens, Three Re-discovered Linear A Inscriptions from Knossos, Minos 25–26 (1990–1991), 367–372.",
+      "receipt": {
+        "url": "https://revistas.usal.es/dos/index.php/0544-3733/es/article/download/2692/2731/7668",
+        "final_url": "https://revistas.usal.es/dos/index.php/0544-3733/es/article/download/2692/2731/7668",
+        "status": 200,
+        "bytes": 4342681,
+        "sha256": "ca79d9e6c0eb34bf936745b362ee620deb8ce5c06b45a7b0f25e94f6dcdc3746",
+        "pdf_magic": true
+      },
+      "locators": [
+        {
+          "pdf_ordinal": 4,
+          "printed_page": "370",
+          "inspection": "Text and rendered page checked, including footnote7"
+        },
+        {
+          "pdf_ordinal": 5,
+          "printed_page": "371",
+          "inspection": "Text and rendered page checked"
+        }
+      ],
+      "rights": "No source PDF/images/edition transcription redistributed. Only original source-attributed comparison notes and bibliographic locators are admitted."
+    }
+  ],
+  "native_dossier_command": "python scripts/research_delivery.py --dossier LA-KNZD46-SCRIPT-ASSIGNMENT-20261017 --collection source-study",
+  "response_form": "review/source-study-response.json",
+  "reviewer": null,
+  "assessment": null,
+  "scientific_approval_granted": false,
+  "native_changes_applied": false,
+  "remaining_gates": [
+    "Independent epigraphic/script assignment and physical-object/context review",
+    "A separate directly attributed same-locus competing word-reading pair for any critical transcription exercise"
+  ],
+  "boundary": "Packet preparation and structural validation do not authenticate expertise, source independence or epigraphic truth. No outreach is sent."
+}

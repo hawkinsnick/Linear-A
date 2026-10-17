@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-A",
-  "profile_sha256": "bfb7e406225c3f191b7bf1c90e33e76738ba131386a840784b36a7e19643f60e",
+  "profile_sha256": "98576b8ca15fbdd2529a6f9517ff72982c5df808061aeae96270d334031371cc",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -98,6 +98,23 @@
         "role": "bounded attribution review",
         "encoding": "json"
       }
+    },
+    {
+      "name": "source-study",
+      "native_unit": "bounded source-acquisition or scholarly-argument study",
+      "record_count": 1,
+      "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review.",
+      "example_ids": [
+        "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017"
+      ],
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -180,12 +197,21 @@
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
       "encoding": "json"
+    },
+    {
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded directly consulted source study",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
     "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

@@ -295,3 +295,8 @@ redistribution rights. Label any model-generated analysis separately and cite it
 ## Specialist task pilot
 
 Read `docs/RESEARCH-TASK-PILOT.md`, `research/task-pilot.json` and `analysis/task-pilot-example.json` for the 25-entry Haghia Triada source-label concordance. Seven exact KU RO matches share non-null source group labels. Preserve literal labels, every raw flag, source provenance and source-array indices. Do not infer f3 semantics, pronunciation, meaning, morphology or secure-reading status. The U008 attribution audit is a separate source/locus task, not a competing edition of this sequence. Retain SigLA CC BY-NC-SA obligations and the GORILA exclusion. No named scholar participation, endorsement or independent review is established by the pilot.
+
+
+## Source study and review handoff (2026-10-17)
+
+Route source-study questions through `docs/SOURCE-STUDY-2026-10-17.md`, `research/source-study-2026-10-17.json` and the native evidence-query `source-study` collection. Preserve source attribution, exact locators, reuse terms and uncertainty. The prepared `review/source-study-packet.json` and draft response do not establish specialist participation or acceptance. No canonical readings or calibration results are added by this study.

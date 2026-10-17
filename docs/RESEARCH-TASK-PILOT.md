@@ -49,3 +49,6 @@ The bounded review question is: “Does this concordance faithfully reproduce th
 ## Attribution and rights
 
 The existing SigLA-derived public source and derived concordance retain CC BY-NC-SA 4.0. Attribute Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean. Preserve the [license matrix](../DATA-LICENSE-MATRIX.md), source provenance and component notices. No raw upstream drawings, GORILA content or sealed prospective outcomes are added.
+
+
+Subsequent bounded source work: [Source study and specialist handoff](SOURCE-STUDY-2026-10-17.md). Its scope and evidence are separate from this historical pilot.

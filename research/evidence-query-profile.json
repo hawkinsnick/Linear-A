@@ -41,6 +41,15 @@
       "id_pointer": "/review_id",
       "unit": "bounded documentary attribution review task",
       "scope": "Ten joined legacy cases retain their existing case-specific attribution audit; five unjoined queue cases remain outside that earlier pass. No fully attributed same-locus competing pair was established. GORILA refusal remains binding."
+    },
+    {
+      "name": "source-study",
+      "path": "research/source-study-2026-10-17.json",
+      "pointer": "",
+      "id_pointer": "/study_id",
+      "singleton": true,
+      "unit": "bounded source-acquisition or scholarly-argument study",
+      "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review."
     }
   ],
   "relations": [
@@ -136,12 +145,20 @@
       "encoding": "json",
       "role": "bounded attribution review",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+      "encoding": "json",
+      "role": "bounded directly consulted source study",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
     "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
     "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
   ],
   "native_artifacts_snapshot_commit": null,
   "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."

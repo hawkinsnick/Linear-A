@@ -266,6 +266,46 @@
       "path": "corpus-factory/SPECIALIST-RESEARCH-PILOTS.md",
       "role": "specialist_task_pilot_master",
       "required": true
+    },
+    {
+      "path": "research/source-study-2026-10-17.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "scripts/source_study.py",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "scripts/test_source_study.py",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "review/source-study-packet.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "review/source-study-response.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "analysis/source-study-audit.json",
+      "role": "bounded_source_study",
+      "required": true
+    },
+    {
+      "path": "corpus-factory/SOURCE-STUDIES-2026-10-17.md",
+      "role": "source_study_master_route",
+      "required": true
     }
   ],
   "behavioral_gates": [
@@ -275,6 +315,7 @@
     "Calibration and independent-confirmation blockers must be disclosed",
     "SigLA-derived rights preserved",
     "A source request, copy access or contact-page HTTP success is not source delivery, publication permission, exact alignment or scholarly acceptance. Follow component-specific delivery and rights boundaries.",
-    "lineara.xyz is an attributed dependent discovery reference; this project has no GORILA redistribution permission. No indirect restricted-source reconstruction or independent-gold claim."
+    "lineara.xyz is an attributed dependent discovery reference; this project has no GORILA redistribution permission. No indirect restricted-source reconstruction or independent-gold claim.",
+    "Source-study author assertions and prepared review packets are not canonical readings, independent witnesses, delivered linguistic annotations or expert acceptance."
   ]
 }
