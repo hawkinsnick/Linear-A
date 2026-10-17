@@ -1,0 +1,11 @@
+{
+  "source_path": "research/sigla-source-documents.jsonl",
+  "source_sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+  "source_document_entries": 802,
+  "attestation_slots": 5144,
+  "selected_id": "ARKH 1a",
+  "selected_slots": 18,
+  "selected_blank_kind_slots": 1,
+  "selected_nonempty_sign_labels": 17,
+  "scope": "All nonempty JSONL rows; all attestation slots retained, including blanks. Source entries are not certified unique objects; sign labels are not translations."
+}

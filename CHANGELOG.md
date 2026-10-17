@@ -1,5 +1,9 @@
 ## 3.0.21 — pre-expert maximum and rights-dominant residual gates
 
+## 2026-10-17 — Researcher worked examples
+
+Added three executed Linear A teaching examples with browser, AI and Python steps, complete saved dossiers, count script, citation log and explicit scholarly limits. Linked setup guides and synchronized individual/master instructions and starter packaging. No new readings or expert acceptance.
+
 - Reclassifies the blocker ledger so machine-resolvable corpus engineering is separated from evidence that requires lawful independent source access or human/object review.
 - Declares the current pre-expert machine-resolvable maximum: all listed machine tasks are complete or concretely source/rights blocked.
 - Keeps prospective outcomes sealed; source independence cannot be manufactured by additional software.

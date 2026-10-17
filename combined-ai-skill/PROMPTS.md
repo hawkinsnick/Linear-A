@@ -1,5 +1,7 @@
 # Research prompts
 
+**New: [Follow three worked examples](WORKED-EXAMPLES.md)** — trace a real record, assess an unresolved comparison, and reproduce a calculation. Browser-only and optional AI/Python routes include verified results.
+
 Use these after the starter is loaded. Replace the bracketed details with your question. The assistant should identify accessible evidence before presenting findings.
 
 ## Find a starting point

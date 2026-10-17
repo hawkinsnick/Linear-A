@@ -1,5 +1,7 @@
 # Combined Corpus Research AI
 
+**New: [Follow three worked examples](WORKED-EXAMPLES.md)** — trace a real record, assess an unresolved comparison, and reproduce a calculation. Browser-only and optional AI/Python routes include verified results.
+
 A vendor-neutral, evidence-first research orchestrator for the registered **corpus projects**.
 
 It does not merge the corpora. It routes a question to each project's own AI skill and evidence bundle, preserves that project's provenance, uncertainty, exclusions and rights, and only permits cross-corpus inference after a comparability check.

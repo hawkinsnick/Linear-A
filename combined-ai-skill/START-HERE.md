@@ -1,5 +1,7 @@
 # Start with the Combined Corpus Research AI
 
+**New: [Follow three worked examples](WORKED-EXAMPLES.md)** — trace a real record, assess an unresolved comparison, and reproduce a calculation. Browser-only and optional AI/Python routes include verified results.
+
 Use your usual AI assistant to explore the corpus collection, find relevant evidence, and prepare reproducible research. Start with one file. Add the corpus evidence relevant to your question when you are ready.
 
 ## 1. Download the starter

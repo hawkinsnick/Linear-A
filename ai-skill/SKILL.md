@@ -8,6 +8,19 @@ version: 0.3.1
 
 Use the supplied Linear A Open Corpus files as the primary evidence base.
 
+## Guide a researcher's first session
+
+Use `combined-ai-skill/WORKED-EXAMPLES.md` for step-by-step onboarding.
+Offer the browser-only route before optional AI or Python execution. Retrieve
+canonical evidence or the explicitly identified saved dossier before answering;
+examples and expected results are teaching snapshots, not fresh executions.
+For ARKH 1a retain source-reported metadata, upstream attribution and rights;
+for U008 preserve the unresolved locus/attribution gap without choosing a reading.
+For counts retain the native unit, blanks, denominator, input hash and method.
+Identify accessible files and distinguish expected, saved and newly executed
+outputs. Route other languages through their native evidence guides; do not
+transfer Linear A fields or readiness claims to them.
+
 ## Linear A research-readiness controls
 
 For public SigLA-view provenance, context coverage or export/replay questions,

@@ -53,6 +53,11 @@ CANDIDATES += [('current_p1_evidence', 'corpus-factory/fleet-gap-register.json')
 CANDIDATES += [("p1_validation_receipts", "corpus-factory/p1-validation-2026-10-16.json")]
 CANDIDATES += [('human_validation_routing', 'corpus-factory/p1-human-readiness.json'), ('human_validation_routing', 'corpus-factory/HUMAN-VALIDATION-ROUTE.md'), ('human_validation_routing', 'corpus-factory/validate_human_readiness.py'), ('human_validation_routing', 'corpus-factory/test_human_readiness.py'), ('human_validation_routing', 'corpus-factory/p1-human-validation-results.json')]
 CANDIDATES += [('research_readiness', p) for p in ['docs/NORTHWESTERN-RESEARCH-READINESS.md', 'analysis/research-readiness.json', 'scripts/research_readiness.py', 'scripts/test_research_readiness.py', 'scripts/build_research_package.py', 'scripts/export_research_layer.py', 'scripts/build_source_context.py', 'analysis/evidence-population-coverage.json']]
+CANDIDATES += [('researcher_walkthrough', p) for p in [
+ 'combined-ai-skill/WORKED-EXAMPLES.md', 'scripts/walkthrough_count.py',
+ 'docs/examples/researcher-walkthrough/ARKH-1a.json',
+ 'docs/examples/researcher-walkthrough/U008.json',
+ 'docs/examples/researcher-walkthrough/counts.json']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

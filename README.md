@@ -1,5 +1,7 @@
 # Linear A Open Corpus
 
+**For researchers: [Start with three step-by-step worked examples](combined-ai-skill/WORKED-EXAMPLES.md)** — real records, verified outputs and citation guidance; no programming required for the browser route.
+
 <!-- CURRENT-STATUS:START -->
 ## Current evidence status
 
