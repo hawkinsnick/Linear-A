@@ -322,7 +322,7 @@
     },
     {
       "repository": "hawkinsnick/Sidetic",
-      "source_commit": "88b6cfa45607a374d66d82a2cd87dc15cce87cb0",
+      "source_commit": "387e3e2814d07471bbc78e6cf9c22477e36c176e",
       "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
       "remaining_work_categories": [
         "edition_acquisition",
@@ -330,15 +330,15 @@
         "item_inventory_acquisition",
         "epigraphic_judgment"
       ],
-      "native_prerequisites": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, other2025 Abydos edition comparison and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
+      "native_prerequisites": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, independent adjudication of the now-compared2025 Abydos alternatives and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
       "native_review_inputs": [
         {
           "path": "review/collection-packet.json",
-          "sha256": "f73588b7efe8606599f0791a1f102527b15be45d632d33f6caa9da1e2c4181cb"
+          "sha256": "4f5e312adf341e6a59a4fda20415821540c9b8f51fc7354f5395dfbc7a3579c9"
         },
         {
           "path": "review/p1-human-request.json",
-          "sha256": "31ae690f5e0fe348276cc0ed2738bf57fd35accc289e32b00324456a3502e34e"
+          "sha256": "c97b75f5d46392591192fe64ca8238a74331ec1a45d46d106a2c3bdc032a6a7d"
         }
       ],
       "native_acceptance_controls_remain_required": true,

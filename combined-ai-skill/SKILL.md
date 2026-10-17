@@ -377,3 +377,8 @@ Consult `corpus-factory/P1-EXECUTION-2026-10-16.md`, `corpus-factory/p1-current-
 ## Route residual P1s to human validation
 
 Use `corpus-factory/HUMAN-VALIDATION-ROUTE.md` and the revision-bound `corpus-factory/p1-human-readiness.json` to distinguish acquisition/permission prerequisites, source-editor or catalogue clarification, enforced policy controls and independent epigraphic judgment. Follow each native acceptance gate. Prepared requests and documentary/software checks are not human validation. TL44 now has105-row/199-code-point-span accounting and47 qualified historical boundary contexts; c40 exceptional routing, damage/editorial distinctions and page/column transitions remain explicit. Do not infer accepted readings, unique sign alignment, independent witnesses, completed modern-edition collation or whole-corpus human-only readiness.
+
+
+## Competing Abydos editions — 2026-10-16
+
+Read `corpus-factory/SIDETIC-ABYDOS-EDITION-COMPARISON-2026-10-16.md` and the current Sidetic source-collation packet. The supplied Ferrer–Soler–Adiego2025 PDF closes the selected two-edition documentary comparison; Pojau / final u, qualified w(?) and possible overwriting remain attributed alternatives, not an adopted reading. Preserve j/y source conventions, N02/new-u versus N22, separate S9 identity, initial submissions versus final-article dependence, and first-graffito-only revised scope. Same17 selected tasks, now49 logged page inspections, one historical blank-leaf inspection included; no objects, independent reviews or accepted readings added. Fuller new-vowel source comparison and physical adjudication remain separate work.

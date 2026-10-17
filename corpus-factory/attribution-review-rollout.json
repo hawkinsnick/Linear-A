@@ -127,8 +127,8 @@
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/attribution-review-snapshots/Sidetic.json",
-      "snapshot_sha256": "74843662053ee020a2139c1eeb738965f81197bfb392845563d0afef7823626f",
-      "review_manifest_sha256": "975f81896b8423afdb0431a08f0f0785ea395826df8f462e2e4e830bbd41ddbb",
+      "snapshot_sha256": "57aa660361e7dfec500289982c2fb4c9c2ee51c40bbcb9f776f374751d12d396",
+      "review_manifest_sha256": "240abb1d8bd4bf5a6b3cbba678d9d3bf1e19088e1f191a9a82c7153a0ac7080b",
       "review_base_commit": "9c5b78bee9620ae7e2ca15cf28c9a687ab6469c4",
       "scope": "Five controls plus all four source checks, including Ferrer’s damaged-name proposal and separate Greek ethnic, N22 and S9 proposals. No canonical sign remapping.",
       "follow_up_source_collation_path": "research/source-collation-2026-10-15.json"

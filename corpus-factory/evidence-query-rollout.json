@@ -111,7 +111,7 @@
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/evidence-query-snapshots/Sidetic.json",
-      "profile_sha256": "79211222e0382581480d3b5016a29d2c9dcbfc1dff97117b00d3f7c2fea7369e",
+      "profile_sha256": "5e2087449b8fa213b30dba0026ee2b5a7d48108a93590c012ae496115d0037b9",
       "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "native_artifacts_snapshot_commit": null,
       "snapshot_sha256": "aa89800d6c6d62c80fbfec798eccb2a7c8a5f288c8a600387a2bbe72061ed98e"

@@ -19,8 +19,8 @@
     {
       "repository": "hawkinsnick/Sidetic",
       "snapshot_path": "corpus-factory/source-collation-snapshots/Sidetic-2026-10-15.json",
-      "snapshot_sha256": "f29a8e42157715035755fe632f2a4f408767d38af7b6c412ab07eec075a7cdd7",
-      "packet_sha256": "28eee2baba3da54e66b71c92f12a8feda2c008edbc1915b610e98e7a901483ea",
+      "snapshot_sha256": "455f8cc0bba529002f1df2cdb8496f3d6595b94054e4b3b50ed522bdfc9d89ab",
+      "packet_sha256": "35d1e964000a42df59c572408c6b77e074e3e1b091ef793c45f0d0c99161a8a0",
       "source_path": "research/source-collation-2026-10-15.json"
     },
     {
@@ -32,7 +32,7 @@
     }
   ],
   "selected_comparison_tasks": 17,
-  "rendered_page_inspections": 44,
+  "rendered_page_inspections": 49,
   "project_representation_corrections": 1,
   "accepted_readings_added": 0,
   "independent_reviews_added": 0,
@@ -45,5 +45,17 @@
     "new_rendered_page_inspections": 17,
     "blank_final_leaf_inspections_in_follow_up": 1,
     "scope": "Lydian LW40 and two Sidetic2025 publication checks; no new canonical readings, independent reviews or objects."
-  }
+  },
+  "additional_followups": [
+    {
+      "checked_local_date": "2026-10-16",
+      "repository": "hawkinsnick/Sidetic",
+      "source": "Ferrer–Soler–Adiego2025, Sidetic in Egypt",
+      "supplied_pdf_sources": 1,
+      "new_rendered_page_inspections": 5,
+      "new_selected_tasks": 0,
+      "canonical_readings_added": 0,
+      "independent_reviews_added": 0
+    }
+  ]
 }
