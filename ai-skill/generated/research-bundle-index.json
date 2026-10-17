@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c5f7e8747d561b930d99a8cd705da529f45f855a",
-  "generated_at_utc": "2026-10-17T00:51:35+00:00",
+  "source_commit": "b426b78b1576eadbe59d4c2b93d6a4d94c99b7c5",
+  "generated_at_utc": "2026-10-17T00:55:28+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -406,8 +406,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "01a33177006395b82431ce4dbf4fe752519d5275553482e5ee1f71fac25be77f",
-      "bytes": 58845
+      "sha256": "60ee1f28f21281d0c9fa1da214a7c49abaf5553bc555b249ce46d91ad0791341",
+      "bytes": 59595
     },
     {
       "role": "source_delivery_guide",
@@ -478,8 +478,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "614a343ed10aa4fc9cafcf292de1a6fbf23980dc0edff876f83ec8181782ff6c",
-      "bytes": 36802
+      "sha256": "f5c4b572fbd994326d322f5eaa7c7397c1aca66efc942ca2fc33042d577e9976",
+      "bytes": 37552
     },
     {
       "role": "cross_corpus_dependencies",
@@ -532,8 +532,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "03aa9f9036e6c0f83a94ffdd5d4300912d34334bc495f7802a88fef80dbab38c",
-      "bytes": 19759
+      "sha256": "b182fd76a04280c18639ce2713229e57c952ee13b34940081984d61c9d223796",
+      "bytes": 20233
     },
     {
       "role": "current_summary_builder",
@@ -882,6 +882,54 @@
       "path": "corpus-factory/p1-human-validation-results.json",
       "sha256": "dbdfa15dbef0e0e0395ccfb48617762e297a68acdd65318efb4ae8c9900f14ff",
       "bytes": 10668
+    },
+    {
+      "role": "research_readiness",
+      "path": "docs/NORTHWESTERN-RESEARCH-READINESS.md",
+      "sha256": "60d75bd6ffaf65ec5fe7e2b5c0316acc349282b5300adc1df707deb9573f2bb0",
+      "bytes": 4332
+    },
+    {
+      "role": "research_readiness",
+      "path": "analysis/research-readiness.json",
+      "sha256": "bc71f71773d777f627fd1f50503ed5c8b11b477049089c05a42d76becdaff4fa",
+      "bytes": 1971
+    },
+    {
+      "role": "research_readiness",
+      "path": "scripts/research_readiness.py",
+      "sha256": "fc7ffc158c7e7f961a10478f4c97c62e6f6db4dac2a6cb38645e3f2ce0f332a6",
+      "bytes": 5136
+    },
+    {
+      "role": "research_readiness",
+      "path": "scripts/test_research_readiness.py",
+      "sha256": "892465cb1f96eb07748092edc38e96186cc3aad9724f90d6c11660f477766ca3",
+      "bytes": 6079
+    },
+    {
+      "role": "research_readiness",
+      "path": "scripts/build_research_package.py",
+      "sha256": "49ccb9b393756035e2320f1573ace306412d218b3bc51195e44278ae283eaad5",
+      "bytes": 2899
+    },
+    {
+      "role": "research_readiness",
+      "path": "scripts/export_research_layer.py",
+      "sha256": "82cb7ebd34feb8d5bf43221cd8d71b27346bd24240957192ebf7d45012ec4f9a",
+      "bytes": 4586
+    },
+    {
+      "role": "research_readiness",
+      "path": "scripts/build_source_context.py",
+      "sha256": "8a62cc840158d0240e3db05b352b44765947b2c5589eb4610689fbfbff0c5a40",
+      "bytes": 1458
+    },
+    {
+      "role": "research_readiness",
+      "path": "analysis/evidence-population-coverage.json",
+      "sha256": "252a2b98dedb950f31613d892307b478ae3618dfddfd10df7d7eaddf7870bcfa",
+      "bytes": 1062
     }
   ]
 }
