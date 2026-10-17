@@ -49,7 +49,10 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -159,7 +162,10 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -599,7 +605,10 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py"
     },
     {
       "id": "archanes_script",

@@ -244,3 +244,7 @@ units and all scholarly, rights and expert-review dependencies.
 and review workflow](corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md).
 All 18 registered language members retain their native scientific and rights
 gates; delivery verification does not certify full scholarly closure.
+
+## Specialist research-task pilot
+
+[Step-by-step research pilot with executed results](docs/RESEARCH-TASK-PILOT.md). Source scope, reproducible commands, interpretation limits and review questions are explicit. This tooling adds no scholarly acceptance.

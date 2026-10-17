@@ -155,3 +155,7 @@ These walkthroughs were executed against source revision
 `7eab440986e696d65bc8be026a68cbd78e9b3ad8` on 17 October 2026 UTC
 (16 October in Chicago). They add documentation and derived example outputs,
 not new readings, primary-source collation or expert acceptance.
+
+## Specialist research questions
+
+Continue with the [Linear A, Linear B and Luwian task pilots](../corpus-factory/SPECIALIST-RESEARCH-PILOTS.md). Each guide distinguishes its executed exercise from the evidence required for deeper interpretation.

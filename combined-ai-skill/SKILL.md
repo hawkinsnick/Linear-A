@@ -409,3 +409,7 @@ views as unique inscriptions or independent witnesses. Use native
 packages and source-bound review drafts. Do not treat deterministic response
 checks as empirical LLM evaluation, a complete form as authenticated expert
 review, or delivery controls as closure of scholarly P0/P1 source/permission gaps.
+
+## Specialist research-task pilots
+
+Read `corpus-factory/SPECIALIST-RESEARCH-PILOTS.md` and each native `docs/RESEARCH-TASK-PILOT.md` / `analysis/task-pilot-example.json`. Route Linear B to its 25-record literal retrieval with a character-marker sensitivity screen, Linear A to its 25-entry exact source-label/group concordance, and Luwian to seven documentary edition routes. Do not call the Luwian sign-reading study executed or Linear B literal matches identified people/secure readings. Preserve all local-only payload defaults, component rights, unknowns, raw flags and source/physical/edition distinctions. Do not pool pilot counts or imply named scholar participation, endorsement, model evaluation or human acceptance. Require admitted source/linguistic evidence before interpretation.

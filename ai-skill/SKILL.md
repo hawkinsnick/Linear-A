@@ -291,3 +291,7 @@ Prepare bounded review drafts with `--review-template`; validate submissions wit
 and deterministic answer tests as engineering checks, not empirical LLM validation
 or completion of scholarly/source-permission work. Local packaging grants no new
 redistribution rights. Label any model-generated analysis separately and cite it.
+
+## Specialist task pilot
+
+Read `docs/RESEARCH-TASK-PILOT.md`, `research/task-pilot.json` and `analysis/task-pilot-example.json` for the 25-entry Haghia Triada source-label concordance. Seven exact KU RO matches share non-null source group labels. Preserve literal labels, every raw flag, source provenance and source-array indices. Do not infer f3 semantics, pronunciation, meaning, morphology or secure-reading status. The U008 attribution audit is a separate source/locus task, not a competing edition of this sequence. Retain SigLA CC BY-NC-SA obligations and the GORILA exclusion. No named scholar participation, endorsement or independent review is established by the pilot.

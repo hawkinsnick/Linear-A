@@ -1,0 +1,377 @@
+{
+  "format": "linear-a-task-result-v1",
+  "pilot": {
+    "format": "linear-a-task-pilot-v1",
+    "pilot_id": "HT-25-KU-RO-v1",
+    "source_path": "research/sigla-source-documents.jsonl",
+    "source_sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+    "source_records": 802,
+    "site_literal": "Haghia Triada",
+    "document_ids": [
+      "HT 1",
+      "HT 100",
+      "HT 101",
+      "HT 102",
+      "HT 103",
+      "HT 104",
+      "HT 107",
+      "HT 108",
+      "HT 109",
+      "HT 10a",
+      "HT 10b",
+      "HT 110a",
+      "HT 110b",
+      "HT 112a",
+      "HT 112b",
+      "HT 113",
+      "HT 113 ter",
+      "HT 114a",
+      "HT 114b",
+      "HT 115a",
+      "HT 115b",
+      "HT 116a",
+      "HT 116b",
+      "HT 117a",
+      "HT 117b"
+    ],
+    "selection": "First 25 matching source rows in frozen JSONL order, not a representative sample, physical tablet series or complete site corpus.",
+    "sequence": [
+      "KU",
+      "RO"
+    ],
+    "method": "Exact contiguous source sign-label sequence with all slots assigned to the same non-null source word label. No normalization or reading preference.",
+    "rights": "SigLA-derived evidence retains CC BY-NC-SA 4.0; Ester Salgarella and Simon Castellan, SigLA; derivative Ryan Pavlicek/pyaegean. No GORILA ingestion.",
+    "unsupported": [
+      "phonetic value",
+      "word meaning or translation",
+      "morphological analysis",
+      "independent witness",
+      "collated competing reading",
+      "physical sign certification"
+    ],
+    "scholar_relationship": "Research-use hypothesis only; no scholar participation or endorsement."
+  },
+  "reproduction": {
+    "source_sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+    "spec_sha256": "c8fc2eaf9dd0a68c4e727ad629770473a678b05fea79e98a2750403a0631447f",
+    "code_sha256": "b7255eb67e32fd53f406580c1df48625ee31a9ae16ac62b78bf9ccf7ca0d6eba"
+  },
+  "summary": {
+    "selected_source_documents": 25,
+    "source_sequence_matches": 7,
+    "matching_source_documents": 7,
+    "collated_competing_pairs": null,
+    "meanings_established": null
+  },
+  "hits": [
+    {
+      "source_record_id": "HT 100",
+      "attestation_indices": [
+        6,
+        7
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            8,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/16",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/16/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    },
+    {
+      "source_record_id": "HT 102",
+      "attestation_indices": [
+        20,
+        21
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 6,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            21,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 6,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            22,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/18",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/18/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    },
+    {
+      "source_record_id": "HT 104",
+      "attestation_indices": [
+        17,
+        18
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 4,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            19,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/20",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/20/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    },
+    {
+      "source_record_id": "HT 109",
+      "attestation_indices": [
+        3,
+        4
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 3,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            5,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/23",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/23/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    },
+    {
+      "source_record_id": "HT 110a",
+      "attestation_indices": [
+        8,
+        9
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            9,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 2,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            10,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/26",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/26/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    },
+    {
+      "source_record_id": "HT 116b",
+      "attestation_indices": [
+        0,
+        1
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 0,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/37",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/37/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    },
+    {
+      "source_record_id": "HT 117a",
+      "attestation_indices": [
+        39,
+        40
+      ],
+      "source_attestations": [
+        {
+          "sign": "KU",
+          "kind": "syllable",
+          "word": 13,
+          "series": "AB",
+          "number": 81,
+          "raw_flags": [
+            40,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "sign": "RO",
+          "kind": "syllable",
+          "word": 13,
+          "series": "AB",
+          "number": 2,
+          "raw_flags": [
+            41,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "source_provenance": {
+        "input_sha256": "9a5e4783146144fc5ac54c5dc2b372b39cc0e0ea40ca15207243f8c539f03dd8",
+        "json_pointer": "/documents/38",
+        "license": "CC BY-NC-SA 4.0",
+        "attribution": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+      },
+      "source_pointer": "/38/source_fields/attestations",
+      "locator_scope": "JSONL row and zero-based source-array slots, not physical lines or graphical coordinates."
+    }
+  ],
+  "uncertainty": "Retain every raw flag literally. Do not infer f3 semantics or secure-reading status from this search. A source-defined group is not an independently adjudicated linguistic word.",
+  "alternative_comparison_route": {
+    "case": "U008",
+    "collection": "attribution-audit",
+    "command": "python scripts/evidence_query.py --record U008 --collection attribution-audit",
+    "limit": "Separate attribution/locus audit; not a competing edition of the queried sequence."
+  },
+  "scientific_status": "SOURCE_LABEL_CONCORDANCE_NOT_DECIPHERMENT_OR_EXPERT_ACCEPTANCE"
+}
