@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 15801b202a4495053060cd0f69aacd9d7db6d986d68449a98171201edaf265f5
+Instruction snapshot SHA-256: 05321dc0757e386fdd3fcda5ea6fa2d1301d9cbf40cbc1bcb04202e4bfa61d09
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1489,7 +1489,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: a563aea04d3fcbfe15470cdc733a5f83cc9c305c4545988ac9bd274fa0e5bc44
+SHA-256: 3af7edd461beab13766a1c988c8ee3da0962e1eae373e3fac73aaca012e91524
 
 ---
 name: combined-corpus-research
@@ -1907,6 +1907,9 @@ review, or delivery controls as closure of scholarly P0/P1 source/permission gap
 
 Read `corpus-factory/SPECIALIST-RESEARCH-PILOTS.md` and each native `docs/RESEARCH-TASK-PILOT.md` / `analysis/task-pilot-example.json`. Route Linear B to its 25-record literal retrieval with a character-marker sensitivity screen, Linear A to its 25-entry exact source-label/group concordance, and Luwian to seven documentary edition routes. Do not call the Luwian sign-reading study executed or Linear B literal matches identified people/secure readings. Preserve all local-only payload defaults, component rights, unknowns, raw flags and source/physical/edition distinctions. Do not pool pilot counts or imply named scholar participation, endorsement, model evaluation or human acceptance. Require admitted source/linguistic evidence before interpretation.
 
+
+For the 2026-10-17 Linear B, Linear A and Anatolian Hieroglyphic source studies, first read `corpus-factory/SOURCE-STUDIES-2026-10-17.md`, then the member-native source-study register and review packet. Keep documentary identity, script classification and attributed reading-level assertions distinct. Prepared specialist packets do not establish expert acceptance.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1979,7 +1982,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
+SHA-256: fc792828a03e1fe97ab05ae99d5f338475bfec637c1017b3bacc17c7d30062de
 
 {
   "schema_version": "1.0.0",
@@ -2011,7 +2014,7 @@ SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
         "master_ai_member": true
       },
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion. Bounded joined-case attribution pass: ten cases/twenty queued alternatives, three qualified publication contexts, explicit evidence gaps in all ten; no fully attributed same-locus competing pair, new reading or expert acceptance. Current attribution audit qualifies unsupported older project register claims.",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison\u2013Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion. Bounded joined-case attribution pass: ten cases/twenty queued alternatives, three qualified publication contexts, explicit evidence gaps in all ten; no fully attributed same-locus competing pair, new reading or expert acceptance. Current attribution audit qualifies unsupported older project register claims.",
       "source_audit_path": "analysis/pre-expert-source-audit.json",
       "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
       "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
@@ -2035,7 +2038,10 @@ SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
       "attribution_review_query_path": "scripts/attribution_review.py",
       "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
       "task_pilot_result_path": "analysis/task-pilot-example.json",
-      "task_pilot_replay_path": "scripts/task_pilot.py"
+      "task_pilot_replay_path": "scripts/task_pilot.py",
+      "source_study_path": "research/source-study-2026-10-17.json",
+      "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "source_study_review_packet_path": "review/source-study-packet.json"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -2148,7 +2154,10 @@ SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
       "attribution_review_query_path": "scripts/attribution_review.py",
       "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
       "task_pilot_result_path": "analysis/task-pilot-example.json",
-      "task_pilot_replay_path": "scripts/task_pilot.py"
+      "task_pilot_replay_path": "scripts/task_pilot.py",
+      "source_study_path": "research/source-study-2026-10-17.json",
+      "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "source_study_review_packet_path": "review/source-study-packet.json"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -2161,7 +2170,7 @@ SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions. The 2026-10-13 primary H/Y supplement closes the bounded 127-route discovery gap through historical museum/provenance/type assertions; three-route union 331/331, reading coverage unchanged. Vrysinas text comparisons await primary visual collation; CMS comparands remain script-unassigned.",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 \u03b3 omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions. The 2026-10-13 primary H/Y supplement closes the bounded 127-route discovery gap through historical museum/provenance/type assertions; three-route union 331/331, reading coverage unchanged. Vrysinas text comparisons await primary visual collation; CMS comparands remain script-unassigned.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
@@ -2591,7 +2600,10 @@ SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
       "attribution_review_query_path": "scripts/attribution_review.py",
       "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
       "task_pilot_result_path": "analysis/task-pilot-example.json",
-      "task_pilot_replay_path": "scripts/task_pilot.py"
+      "task_pilot_replay_path": "scripts/task_pilot.py",
+      "source_study_path": "research/source-study-2026-10-17.json",
+      "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "source_study_review_packet_path": "review/source-study-packet.json"
     },
     {
       "id": "archanes_script",
@@ -2874,7 +2886,7 @@ SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
       "authority_profile_path": "ai-skill/references/authority-profile.json",
       "validation_path": "ai-skill/scripts/validate_bundle.py",
       "pre_expert_maximum_path": "research/pre-expert-maximum.json",
-      "current_gate": "TL44: two modern DOI identities confirmed from publisher-deposited metadata;105 existing digital row-label/page routes to visually inspected Kalinka1901 pages, three selected boundary/inventory observations. These are not105 sign collations. Both modern article PDFs remain unacquired; West pagination55–105 versus55–106 unresolved pending PDF inspection. No accepted readings or independent witness added. TL55 bounded documentary sign comparison COMPLETE: all152 flagged candidate records have58 source-located assessments; all36 algorithm flags retain explicit positional(19), repeated-run(2) or range-only(15) dispositions. No unique epigraphic pairing or accepted restoration is fabricated. Independent expert adjudication remains open. PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open. TL55 exhaustive encoded-sign comparison now accounts for1348 literal reference grapheme/notation units and1233 printed source-unit positions in1441 candidate alignment records, including36 ambiguous records. The152-item sign-adjudication supplement is prepared, not reviewed. Exact-PDF local glyph/algorithm replay passed; this is not independent epigraphic acceptance. No source PDF/full modern transcription/images are public, all114 frozen source rows unchanged and zero accepted canonical readings.",
+      "current_gate": "TL44: two modern DOI identities confirmed from publisher-deposited metadata;105 existing digital row-label/page routes to visually inspected Kalinka1901 pages, three selected boundary/inventory observations. These are not105 sign collations. Both modern article PDFs remain unacquired; West pagination55\u2013105 versus55\u2013106 unresolved pending PDF inspection. No accepted readings or independent witness added. TL55 bounded documentary sign comparison COMPLETE: all152 flagged candidate records have58 source-located assessments; all36 algorithm flags retain explicit positional(19), repeated-run(2) or range-only(15) dispositions. No unique epigraphic pairing or accepted restoration is fabricated. Independent expert adjudication remains open. PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open. TL55 exhaustive encoded-sign comparison now accounts for1348 literal reference grapheme/notation units and1233 printed source-unit positions in1441 candidate alignment records, including36 ambiguous records. The152-item sign-adjudication supplement is prepared, not reviewed. Exact-PDF local glyph/algorithm replay passed; this is not independent epigraphic acceptance. No source PDF/full modern transcription/images are public, all114 frozen source rows unchanged and zero accepted canonical readings.",
       "admission": {
         "status": "PASS",
         "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
