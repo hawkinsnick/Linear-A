@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "eb123e08f636812f8936ff0041d2c1c399b953cb",
-  "generated_at_utc": "2026-10-17T01:03:48+00:00",
+  "source_commit": "aa467e8befae6457477febfbed6b830b2b2dfa5b",
+  "generated_at_utc": "2026-10-17T01:10:25+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -412,8 +412,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "c66dbcee0a441e12e12ad61f454f76a39a214df65fc5450214f0ca69377e02b9",
-      "bytes": 61181
+      "sha256": "52c2c55f6fa1311c6b00c1f9750609c48c2f4999cd39a8631aeca6e69af35b45",
+      "bytes": 62083
     },
     {
       "role": "source_delivery_guide",
@@ -484,8 +484,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "e14c279d112c95882fa27b123f12a2987c0e05861d9d8850f28fb9fe16b6ed5f",
-      "bytes": 38749
+      "sha256": "d0220c360bfc995f160056b118065f5a61ca4edfc884dcee6f2926258c64f066",
+      "bytes": 39765
     },
     {
       "role": "cross_corpus_dependencies",
@@ -538,8 +538,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "5a91ac38ef7393de5b4730e3f9293f63fbdac181e70d597442adff7912f33992",
-      "bytes": 20446
+      "sha256": "f2e0ac340008f81838a959bf40ec9eec2034efcdea87a627e06839b45f041a52",
+      "bytes": 21080
     },
     {
       "role": "current_summary_builder",
@@ -966,6 +966,84 @@
       "path": "docs/examples/researcher-walkthrough/counts.json",
       "sha256": "4da1d4af7ac4fde297b4d7e88bbb611345aa9a15152c26456654585973c7aec0",
       "bytes": 508
+    },
+    {
+      "role": "research_delivery",
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
+      "role": "research_delivery",
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
+    },
+    {
+      "role": "research_delivery",
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
+    },
+    {
+      "role": "research_delivery",
+      "path": "analysis/research-delivery.json",
+      "sha256": "837dca5d45d7bed1bf5ad1f2c11e08f18afa8c35b41ccc6846656a4dae79a5da",
+      "bytes": 8216
+    },
+    {
+      "role": "northwestern_program",
+      "path": "corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md",
+      "sha256": "aa85da69dd6598c7c414aa497e2e220bdf38f91c9bc9ed070bfe0b231f6c7598",
+      "bytes": 6918
+    },
+    {
+      "role": "northwestern_program",
+      "path": "corpus-factory/federated_research.py",
+      "sha256": "71e52f92a9b109a689182048a8e58c8dc71e23b0b4edee1d1c63538790f9e6f1",
+      "bytes": 8024
+    },
+    {
+      "role": "northwestern_program",
+      "path": "corpus-factory/test_federated_research.py",
+      "sha256": "b6e65f5661a1a331cc5cd9f37b0c89d7a755a4324b48350cddf3e1c2443f0412",
+      "bytes": 2895
+    },
+    {
+      "role": "northwestern_program",
+      "path": "corpus-factory/research-delivery-fleet.json",
+      "sha256": "ced98881a487394c67cb3bb693fe8eb9bccf8ebcb7cf7f02732ea63cd175fe87",
+      "bytes": 79682
+    },
+    {
+      "role": "northwestern_program",
+      "path": "corpus-factory/northwestern-exercises.json",
+      "sha256": "083c227db9d78ecfd5332f9d5e15b75d1a625c06a81201f38fc76b2671ab1654",
+      "bytes": 10601
+    },
+    {
+      "role": "northwestern_program",
+      "path": "corpus-factory/northwestern-validation.json",
+      "sha256": "346c872bafddd523095830fbdaf12fb953a26d7fda0c589a662061abb8bd477b",
+      "bytes": 91162
+    },
+    {
+      "role": "northwestern_requirements",
+      "path": "corpus-factory/northwestern-work-program.json",
+      "sha256": "8b376114564e4bcd38731da0f7c0b2d57e29462917e2bb53230fb0b6702bea06",
+      "bytes": 2706
+    },
+    {
+      "role": "northwestern_requirements",
+      "path": "corpus-factory/validate_northwestern_program.py",
+      "sha256": "5a12a6a376a76547634c435912b02a125366781b8ee3d6f297b8af705cf5699b",
+      "bytes": 2860
+    },
+    {
+      "role": "northwestern_requirements",
+      "path": "corpus-factory/test_northwestern_program.py",
+      "sha256": "275a7278b02a445a8cd8a1675002c9d973cdf42a42aa0a38e51b9d173406c744",
+      "bytes": 1552
     }
   ]
 }
