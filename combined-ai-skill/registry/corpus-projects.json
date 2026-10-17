@@ -399,7 +399,10 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -535,7 +538,10 @@
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -805,7 +811,10 @@
       "source_collation_path": "research/source-collation-2026-10-15.json",
       "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
       "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
-      "source_collation_query_path": "scripts/source_collation.py"
+      "source_collation_query_path": "scripts/source_collation.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -937,7 +946,10 @@
       "tl44_source_checkpoint_guide_path": "docs/TL44-SOURCE-CHECKPOINT.md",
       "tl44_source_checkpoint_validator_path": "scripts/tl44_source_checkpoint.py",
       "tl44_label_routes": 105,
-      "tl44_modern_article_pdfs_acquired": 0
+      "tl44_modern_article_pdfs_acquired": 0,
+      "p1_human_request_path": "review/tl44-boundary-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     }
   ],
   "corpus_factory": {

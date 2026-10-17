@@ -27,3 +27,5 @@ A repository, dataset, release, or green local workflow does not waive these gat
 Software integrity checkpoint: [2026-10-16 scoped P0 re-audit](P0-REAUDIT-2026-10-16.md), with revision-bound commands and explicit research dependencies.
 
 Current P1 work: [16October execution checkpoint](P1-EXECUTION-2026-10-16.md) and [machine-readable residual work](p1-current-work.json). All18 member authorities are revision-pinned; source and expert dependencies remain explicit.
+
+Later16October follow-up: [route residual P1 work to scoped human validation](HUMAN-VALIDATION-ROUTE.md). The TL44 boundary-context pass and prepared requests extend this checkpoint; they do not close missing editions or grant independent review.

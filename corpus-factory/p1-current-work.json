@@ -41,49 +41,49 @@
     {
       "id": "PHR-TM1002268-ROLE",
       "repository": "hawkinsnick/Phrygian",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "status": "UPSTREAM_CLARIFICATION_PENDING",
       "evidence_needed": "External TM record inspection and upstream assignment intent; no inference from formula resemblance.",
       "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
     },
     {
       "id": "PHR-TM1002269-RESTORATION",
       "repository": "hawkinsnick/Phrygian",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "status": "SCOPED_EPIGRAPHIC_REVIEW_AND_EXTERNAL_IDENTITY_PENDING",
       "evidence_needed": "Independent damaged-letter/restoration adjudication; external TM namespace bridge.",
       "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
     },
     {
       "id": "ETE-IG150-QUARANTINE",
       "repository": "hawkinsnick/Eteocypriot",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "status": "CORRECTED_SOURCE_PENDING",
       "evidence_needed": "Corrected source-issued XML or a separately inspected authoritative edition with explicit entry identity and language evidence.",
       "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
     },
     {
       "id": "SID-S6-DARGA-GREEK",
       "repository": "hawkinsnick/Sidetic",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "status": "SOURCE_ACQUISITION_BEFORE_ADJUDICATION",
       "evidence_needed": "Direct Brixhe–Neumann1988 comparison and damaged-letter assessment remain open.",
       "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
     },
     {
       "id": "SID-S6-DARGA-NAME",
       "repository": "hawkinsnick/Sidetic",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
-      "evidence_needed": "Do not normalize historical sign numbers/values into modern Nollé numbering.",
-      "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
+      "status": "POLICY_CONTROL_ENFORCED_READING_REVIEW_PENDING",
+      "evidence_needed": "No-normalization policy is already enforced. Remaining task: qualified comparison of restored/damaged name proposals with adequate source evidence.",
+      "next_action": "Use the exact native human request; do not confuse an enforced notation control with an unperformed expert reading."
     },
     {
       "id": "SID-S6-DARGA-LOCATION",
       "repository": "hawkinsnick/Sidetic",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "status": "ITEM_LEVEL_INVENTORY_PENDING",
       "evidence_needed": "Obtain a current item-level inventory; dated custody is not present-location certification.",
       "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
     },
     {
       "id": "SID-S6-DARGA-PLATES",
       "repository": "hawkinsnick/Sidetic",
-      "status": "OPEN_EVIDENCE_OR_ADJUDICATION",
+      "status": "SCOPED_EPIGRAPHIC_REVIEW_PENDING",
       "evidence_needed": "Resolve damaged signs with adequate object evidence; historical no.6 u is not an automatic modern N6 mapping.",
       "next_action": "Obtain and inspect the named authority/object evidence; retain qualifications until a source supports a scoped decision."
     },
@@ -210,8 +210,10 @@
       "id": "Milyan-Lycian-B-NATIVE-FRONTIER",
       "repository": "hawkinsnick/Milyan-Lycian-B",
       "status": "OPEN_NATIVE_SCOPE",
-      "evidence_needed": "Obtain modern TL44c/d article PDFs and collate revised readings/apparatus; TL55 sign/restoration adjudication and ambiguous point pairings remain independent expert questions. No need to repeat completed TL55 documentary flag accounting.",
+      "evidence_needed": "Acquire modern TL44c/d editions for updated text/apparatus collation. Scoped TL44 boundary-route and TL55 documentary packets prepared for qualified independent review; historical contexts do not certify unique sign or physical-line alignment.",
       "next_action": "Use the revision-pinned native authorities to select exact item/edition loci. Collate lawful available evidence, preserve unresolved alternatives, then request independent adjudication where required."
     }
-  ]
+  ],
+  "human_validation_routing": "corpus-factory/p1-human-readiness.json",
+  "human_validation_performed": false
 }

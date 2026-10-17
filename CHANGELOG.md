@@ -158,3 +158,7 @@ Updated documentary snapshots, source-collation guide and master/native AI guida
 ## 2026-10-16 P1 status and source reconciliation
 
 Refreshed all18 native authority receipts and stale coverage summaries; added three revision-pinned native follow-up packets and current query snapshots. See corpus-factory/P1-EXECUTION-2026-10-16.md for bounded completed work and unresolved source/identity requirements. Individual and master AI instructions preserve the same qualifications.
+
+## 2026-10-16 P1 human-validation preparation
+
+Added18-member revision-bound human/source-authority routing, four strengthened native scopes and explicit no-acceptance guards. TL44 historical boundary accounting now covers105 rows,199 code-point spans and47 qualified marker contexts. New requests distinguish source-editor clarification, acquisition, enforced notation controls and epigraphic judgment. See corpus-factory/HUMAN-VALIDATION-ROUTE.md.

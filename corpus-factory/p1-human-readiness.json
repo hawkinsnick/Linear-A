@@ -1,0 +1,426 @@
+{
+  "format": "corpus-p1-human-validation-routing-v1",
+  "checked_local_date": "2026-10-16",
+  "date_basis": "America/Chicago",
+  "scope": "18-member triage and revision-pinned native review routes; four strengthened scoped packets. Not final readiness or scientific certification.",
+  "human_validation_performed": false,
+  "all_p1_closed": false,
+  "all_source_work_complete": false,
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "9273925d53902108f310445ad81c803734c9890c",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_access_or_permission",
+        "object_identity",
+        "epigraphic_judgment"
+      ],
+      "native_prerequisites": "lawful Raison–Pope acquisition and entry concordance; complete critical transcriptions and graphical uncertainty; trace legacy alternative witnesses; verify physical joins, modern inventory and independent expert review",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "19d530f40537bfccae7a3315b23657e001b8f678d6085b5a27257b0889ff56ab"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "6a29f3ff30370c7066d6a8d9b94c2d7478e7cd66",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_acquisition",
+        "object_identity",
+        "epigraphic_judgment"
+      ],
+      "native_prerequisites": "Acquire direct Olivier pages; resolve or retain damaged-sign/09–10 alternatives and seven uncertain rich-record catalogue joins; extend source-supported readings to eight uncovered rich records; expert adjudication remains separate.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "84d7be68639e7c2a93e435b5ec3abbe02ec349938e088c0b9fab102ef03b0687"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "74b0b219fe10b3247d376d014c781032f0374058",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "aligned_linguistic_gold_acquisition",
+        "graphical_evidence_acquisition",
+        "calibration_gate"
+      ],
+      "native_prerequisites": "legitimate aligned linguistic gold export and authoritative graphical occurrence mapping",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "b0599ca604506d81f4d9f93b7bc1a9bb261b9ab122509b0ceb6d7a847b91e4fa"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "49a5ccb3562cb7f909c9122b3886fbab7f00ea32",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_collation",
+        "object_identity",
+        "material_and_reading_judgment"
+      ],
+      "native_prerequisites": "Representative H/I/S/Y reading coverage; direct primary comparison of digital numeric readings and resolution or retention of two material conflicts; bounded object concordances and independent review.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "1812540842625a2da45638cde7e33895aa0603bf2cbac036f5208a62edf4c4ab"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "3db771677bd2b04617f44c41f783831185fd2eec",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "independent_human_evidence_and_maintainer_acceptance"
+      ],
+      "native_prerequisites": "independent expert review and count convention reconciliation",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "bb4bb982546d65a4c1e979de9dc59003d0d9af88b85bed3e2e27a054e5dcc08e"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "be80ebdbf5a30c369e7cb52a49efb1bfc2b4915e",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_acquisition",
+        "count_and_identity_judgment"
+      ],
+      "native_prerequisites": "Scoped pause after agreed final pass, not terminal readiness. Direct lawful Dunand 1945/1978 plates and physical images; source rights, object identities, count policies and independent review. Further accessible literature remains open.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "500305c73348566614d9d96e6385730b90ec1d3c3f322cf4eb7abda0a02506ab"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "effd8e7782ac333a174b9574d88bc29e4fb553c6",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "bounded_coverage_expansion",
+        "language_and_object_review"
+      ],
+      "native_prerequisites": "expand beyond frozen fascicle and independent review",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "1a8f47d79b8689306eb6481c293c8a2c6b452bc0df43f50c2973cf41a0f2b745"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "88fa7b8492a722a6a7637bbf475bdf208d0f8c0e",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_editor_correction",
+        "item_identity_acquisition",
+        "language_and_reading_judgment"
+      ],
+      "native_prerequisites": "Resolve modern item-level edition, physical identity, provenance and language questions. Historical numbering is separate from IG numbering; grouped AM799 metadata and four coin parts do not certify object or specimen independence. Four source conflicts, six critical-reading questions and eight discovery leads remain open. Entry 150 remains quarantined.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "7b6062bc835d131b2a497949c60bed5e0d9d96b7be0f1dabe82a48d557553bca"
+        },
+        {
+          "path": "review/p1-human-request.json",
+          "sha256": "c7b37c4eaf9012776b00cc37c2e901a67942bb6b8a661b27c4433c2fc315a54b"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "a04b6e9391c171f790ae70f5623aa702f402cb31",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_and_image_acquisition",
+        "language_and_identity_judgment"
+      ],
+      "native_prerequisites": "lawful Guarducci pp. 137–142 collation; Azoria Figure 42 pixels, second handle identifier, museum accessions and language adjudication",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "044554617c1c074c1ffa993e5b39603e07c26c9ad34aab6fa1b541dbb111eee2"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "27205eb065d6a8f8bf653dcee4fb0dbce48572a7",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "edition_collation",
+        "epigraphic_judgment"
+      ],
+      "native_prerequisites": "edition-level independent/source collation",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "0a087a67b0d7afe5391ba9f56d9e3f65d7b394101f3f846d522d00cf465caa6e"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "5ba55cb68a5d8f0a5a25f57260e77e911a096c33",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "upstream_assignment_clarification",
+        "catalogue_identity_acquisition",
+        "damaged_reading_judgment"
+      ],
+      "native_prerequisites": "resolve TM1002268 catalogue bridge and upstream assignment intent (both public TM routes HTTP 502); independently collate TM1002269 competing restoration; extend edition lineage",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "2bcff9737e061f6df786e78a182a46a3e591c894f7dae4556deec980f3ac1e48"
+        },
+        {
+          "path": "review/p1-human-request.json",
+          "sha256": "367f162300bea18cb83ec1dd570437b27c4bfd163bd689ce5a28db7ef128ebc5"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "7cf820fb45744fd04d53c3e90a9c4c832239e1f0",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "catalogue_unit_and_edition_reconciliation",
+        "source_acquisition"
+      ],
+      "native_prerequisites": "classify/reconcile all 287 eDiAna entries to CHLI and decompose grouped sigla only with authority support",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "82f10abda277af1c1a39a74de1ceea36c9d20477e35198194c4325b1ef35af84"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "2a667dcfa133d94669e510f8c7738692e9005d90",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "item_reconciliation",
+        "material_and_occurrence_judgment"
+      ],
+      "native_prerequisites": "complete direct object reconciliation for remaining AS objects and later-authority occurrence deltas",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "49b102e6c316fbe45e95eb117401132d810408687ae0dbf09bd1a16a3a6df3db"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "ac269b3db436b94ebd137d7dccc58b31fef9864a",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "source_geometry_acquisition",
+        "segmentation_and_classification_judgment"
+      ],
+      "native_prerequisites": "reconcile Chapouthier boundary-bar segmentation against CHIC/INSCRIBE drawing state; lawful Arkalochori geometry",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "9fc5d698faed717c5718e3ed3a645d8467a5464f6af60485c266aab3af19bc8f"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "32e6c52e832b29a66f887daaaaf1c8962cab46fa",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "edition_and_RTI_or_object_acquisition",
+        "reading_and_inventory_judgment"
+      ],
+      "native_prerequisites": "Remaining edition/row-level collation, inventory and numbering conflicts; LW40 interactive RTI/object access and independent damaged-sign assessment. Supplied-PDF typography check is complete.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "82583170451eba0457e868fe5ee1aa451674da15e7a83cd05b57299812ada415"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "88b6cfa45607a374d66d82a2cd87dc15cce87cb0",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "edition_acquisition",
+        "historical_notation_controls",
+        "item_inventory_acquisition",
+        "epigraphic_judgment"
+      ],
+      "native_prerequisites": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, other2025 Abydos edition comparison and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "f73588b7efe8606599f0791a1f102527b15be45d632d33f6caa9da1e2c4181cb"
+        },
+        {
+          "path": "review/p1-human-request.json",
+          "sha256": "31ae690f5e0fe348276cc0ed2738bf57fd35accc289e32b00324456a3502e34e"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "cbf12a45edbead3da780470bee2498f8ca7ed702",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "edition_collation",
+        "reading_and_identity_judgment"
+      ],
+      "native_prerequisites": "complete remaining edition acquisition and row-level collation; reconcile changed numbering, competing readings, inventory and scoped independent review",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "b03218fcc635e310f062fafbfa66a7b2d2ef4e626a1d5d78ae3d535e36deac2d"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "ba8498c3bdd317c8874c08f289209bf5bea2eea4",
+      "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
+      "remaining_work_categories": [
+        "modern_edition_acquisition",
+        "scoped_TL55_and_TL44_review",
+        "epigraphic_judgment"
+      ],
+      "native_prerequisites": "Acquire modern TL44c/d editions for updated text/apparatus collation. Scoped TL44 boundary-route and TL55 documentary packets prepared for qualified independent review; historical contexts do not certify unique sign or physical-line alignment.",
+      "native_review_inputs": [
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "252132c17b5920f134acf5367e041780b1c8ef77208f0318da3bd8ae19c1e395"
+        },
+        {
+          "path": "review/tl44-boundary-human-request.json",
+          "sha256": "b5fb5aca452db5127ef77f12041b5dc981ee205ea2e27d912edcbe131b9674db"
+        },
+        {
+          "path": "research/tl44-boundary-documentary-review.json",
+          "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f"
+        },
+        {
+          "path": "review/tl55-independent-review.json",
+          "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5"
+        }
+      ],
+      "native_acceptance_controls_remain_required": true,
+      "expert_review_performed": false,
+      "source_exhaustion_claimed": false,
+      "scope_caution": "Native collection packets and selected decision requests are review aids; their existence does not prove missing source work is complete."
+    }
+  ],
+  "new_documentary_work": {
+    "repository": "hawkinsnick/Milyan-Lycian-B",
+    "reference_rows_accounted": 105,
+    "codepoint_spans": 199,
+    "literal_boundary_contexts": 47,
+    "new_accepted_readings": 0,
+    "new_independent_reviews": 0
+  },
+  "source_access_followup": [
+    {
+      "source": "Brixhe–Neumann1988",
+      "doi": "10.1515/kadmos-1988-0108",
+      "route": "https://www.degruyterbrill.com/document/doi/10.1515/kadmos-1988-0108/pdf",
+      "observation": "Web retrieval failed405; no PDF acquired. Failure is route-specific, not proof of worldwide unavailability."
+    },
+    {
+      "source": "Ferrer–Soler–Adiego2025, Sidetic in Egypt",
+      "doi": "10.1515/kadmos-2025-0011",
+      "route": "https://www.degruyterbrill.com/document/doi/10.1515/kadmos-2025-0011/pdf",
+      "observation": "Web tool could not retrieve this route; no PDF acquired in this pass. Retain earlier empty202 receipt as historical, not a current payload."
+    }
+  ],
+  "acceptance_policy": "Human/source-editor replies, documentary comparisons and software tests have separate roles. Native independent-review and human-maintainer verification govern admission; a prepared request or AI response cannot grant acceptance."
+}

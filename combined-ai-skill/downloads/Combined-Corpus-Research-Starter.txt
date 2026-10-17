@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 0f76f656799052e383d7bcb94869376f2e9b1218cad6a8395013f98f9babd904
+Instruction snapshot SHA-256: c1d4b29013cf6e7b1d5c3388fba907e2e7a75d601ed94ca6fcd198b1f8644194
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1168,7 +1168,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: cd390fe84f769637849be7eba05c0d353093214a7da0f8951992ce3676f93645
+SHA-256: 01a33177006395b82431ce4dbf4fe752519d5275553482e5ee1f71fac25be77f
 
 ---
 name: combined-corpus-research
@@ -1534,6 +1534,10 @@ Read `corpus-factory/P0-REAUDIT-2026-10-16.md` and its revision-bound `p0-valida
 
 Consult `corpus-factory/P1-EXECUTION-2026-10-16.md`, `corpus-factory/p1-current-work.json` and each member's revision-bound `current_evidence` in the fleet gap register for current work. Treat the18-member status refresh as completed, while preserving the explicitly open source/identity/edition and independent-review requirements. Retrieve the new Phrygian, Eteocypriot and Sidetic native `p1-source-followup` dispositions before using their affected records. Do not repeat completed TL55 documentary accounting or supplied-PDF typography checks as missing work. Do not turn new documentary task/page counts into objects, independent witnesses or accepted readings.
 
+## Route residual P1s to human validation
+
+Use `corpus-factory/HUMAN-VALIDATION-ROUTE.md` and the revision-bound `corpus-factory/p1-human-readiness.json` to distinguish acquisition/permission prerequisites, source-editor or catalogue clarification, enforced policy controls and independent epigraphic judgment. Follow each native acceptance gate. Prepared requests and documentary/software checks are not human validation. TL44 now has105-row/199-code-point-span accounting and47 qualified historical boundary contexts; c40 exceptional routing, damage/editorial distinctions and page/column transitions remain explicit. Do not infer accepted readings, unique sign alignment, independent witnesses, completed modern-edition collation or whole-corpus human-only readiness.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1606,7 +1610,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 62b2fb07b7fbcdef7b0994e337f47abbd2bbdb9bb4b3f0a3903c53b2a1cf866a
+SHA-256: 4f5c238d2532f4daf547f55e08ec17bb284372b090656d74825b7bd2dfeb198b
 
 {
   "schema_version": "1.0.0",
@@ -2009,7 +2013,10 @@ SHA-256: 62b2fb07b7fbcdef7b0994e337f47abbd2bbdb9bb4b3f0a3903c53b2a1cf866a
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     },
     {
       "repository": "hawkinsnick/Eteocretan",
@@ -2145,7 +2152,10 @@ SHA-256: 62b2fb07b7fbcdef7b0994e337f47abbd2bbdb9bb4b3f0a3903c53b2a1cf866a
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     },
     {
       "id": "anatolian_hieroglyphic",
@@ -2415,7 +2425,10 @@ SHA-256: 62b2fb07b7fbcdef7b0994e337f47abbd2bbdb9bb4b3f0a3903c53b2a1cf866a
       "source_collation_path": "research/source-collation-2026-10-15.json",
       "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
       "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
-      "source_collation_query_path": "scripts/source_collation.py"
+      "source_collation_query_path": "scripts/source_collation.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -2547,7 +2560,10 @@ SHA-256: 62b2fb07b7fbcdef7b0994e337f47abbd2bbdb9bb4b3f0a3903c53b2a1cf866a
       "tl44_source_checkpoint_guide_path": "docs/TL44-SOURCE-CHECKPOINT.md",
       "tl44_source_checkpoint_validator_path": "scripts/tl44_source_checkpoint.py",
       "tl44_label_routes": 105,
-      "tl44_modern_article_pdfs_acquired": 0
+      "tl44_modern_article_pdfs_acquired": 0,
+      "p1_human_request_path": "review/tl44-boundary-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
     }
   ],
   "corpus_factory": {
@@ -2618,7 +2634,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
+SHA-256: 66a9fe8fc5c2e978902985518fe26b4bf0126d2572411d285c88a1bb66a20c6d
 
 {
   "schema_version": "1.0",
@@ -2812,7 +2828,7 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
       "source_concordance_audit": "research/source-concordance-audit.json",
       "current_evidence": {
         "repository": "hawkinsnick/Eteocypriot",
-        "source_commit": "4b1e45dadd2924b980379a98487ff5a133e20ce1",
+        "source_commit": "88fa7b8492a722a6a7637bbf475bdf208d0f8c0e",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -2826,6 +2842,10 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
           {
             "path": "research/p1-source-followup-2026-10-16.json",
             "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad"
+          },
+          {
+            "path": "review/p1-human-request.json",
+            "sha256": "c7b37c4eaf9012776b00cc37c2e901a67942bb6b8a661b27c4433c2fc315a54b"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
@@ -2880,7 +2900,7 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
       "status_source": "analysis/new-primary-comparison.json",
       "current_evidence": {
         "repository": "hawkinsnick/Phrygian",
-        "source_commit": "3c2fb15c10e44cc0ebd08902896bdcbf732378e1",
+        "source_commit": "5ba55cb68a5d8f0a5a25f57260e77e911a096c33",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -2894,6 +2914,10 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
           {
             "path": "research/p1-source-followup-2026-10-16.json",
             "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a"
+          },
+          {
+            "path": "review/p1-human-request.json",
+            "sha256": "367f162300bea18cb83ec1dd570437b27c4bfd163bd689ce5a28db7ef128ebc5"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
@@ -2989,7 +3013,7 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "7e030332539fd3811679f8d27e79bef6f94b0821",
+        "source_commit": "88b6cfa45607a374d66d82a2cd87dc15cce87cb0",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -3003,6 +3027,10 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
           {
             "path": "research/p1-source-followup-2026-10-16.json",
             "sha256": "bad037f0a965445ce0ce5a8547c23be1c5d5a8a15a8824f60f9c590dec57a992"
+          },
+          {
+            "path": "review/p1-human-request.json",
+            "sha256": "31ae690f5e0fe348276cc0ed2738bf57fd35accc289e32b00324456a3502e34e"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
@@ -3035,12 +3063,12 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
     {
       "repo": "Milyan-Lycian-B",
       "evidence_depth": "FROZEN_DIGITAL_REFERENCE_WITH_INSPECTED_PRIMARY_LOCATORS",
-      "coverage_state": "114 frozen eDiAna reference rows (34 c + 71 d + 9 TL55), zero verified canonical readings. TL55 historical eight-line versus nine-edition-group count voices reconciled; bounded documentary comparison accounts for 1,441 encoded comparison records, 152 flags and 58 documentary cases, with unresolved point pairings retained. TL44: 105 page/label routes and two modern bibliographic identities documented, not 105 sign collations.",
-      "top_gap": "Obtain modern TL44c/d article PDFs and collate revised readings/apparatus; TL55 sign/restoration adjudication and ambiguous point pairings remain independent expert questions. No need to repeat completed TL55 documentary flag accounting.",
+      "coverage_state": "114 frozen eDiAna reference rows (34 c + 71 d + 9 TL55), zero verified canonical readings. TL55 historical eight-line versus nine-edition-group count voices reconciled; bounded documentary comparison accounts for 1,441 encoded comparison records, 152 flags and 58 documentary cases, with unresolved point pairings retained. TL44: 105 page/label routes and two modern bibliographic identities documented, not 105 sign collations. TL44 historical boundary pass:105 frozen rows partitioned into199 exact code-point spans,47 explicit marker contexts visually compared with Kalinka43–44. Qualified c40 routing exception and page/column transitions retained; no full-row sign collation or accepted reading.",
+      "top_gap": "Acquire modern TL44c/d editions for updated text/apparatus collation. Scoped TL44 boundary-route and TL55 documentary packets prepared for qualified independent review; historical contexts do not certify unique sign or physical-line alignment.",
       "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B",
       "current_evidence": {
         "repository": "hawkinsnick/Milyan-Lycian-B",
-        "source_commit": "167d152ada09c5b303527bac69b60b54bd9835a4",
+        "source_commit": "ba8498c3bdd317c8874c08f289209bf5bea2eea4",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -3054,6 +3082,18 @@ SHA-256: 3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41
           {
             "path": "research/tl44-source-checkpoint.json",
             "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee"
+          },
+          {
+            "path": "review/tl44-boundary-human-request.json",
+            "sha256": "b5fb5aca452db5127ef77f12041b5dc981ee205ea2e27d912edcbe131b9674db"
+          },
+          {
+            "path": "research/tl44-boundary-documentary-review.json",
+            "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f"
+          },
+          {
+            "path": "review/tl55-independent-review.json",
+            "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."

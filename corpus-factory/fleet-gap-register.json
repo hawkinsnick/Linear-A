@@ -190,7 +190,7 @@
       "source_concordance_audit": "research/source-concordance-audit.json",
       "current_evidence": {
         "repository": "hawkinsnick/Eteocypriot",
-        "source_commit": "4b1e45dadd2924b980379a98487ff5a133e20ce1",
+        "source_commit": "88fa7b8492a722a6a7637bbf475bdf208d0f8c0e",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -204,6 +204,10 @@
           {
             "path": "research/p1-source-followup-2026-10-16.json",
             "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad"
+          },
+          {
+            "path": "review/p1-human-request.json",
+            "sha256": "c7b37c4eaf9012776b00cc37c2e901a67942bb6b8a661b27c4433c2fc315a54b"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
@@ -258,7 +262,7 @@
       "status_source": "analysis/new-primary-comparison.json",
       "current_evidence": {
         "repository": "hawkinsnick/Phrygian",
-        "source_commit": "3c2fb15c10e44cc0ebd08902896bdcbf732378e1",
+        "source_commit": "5ba55cb68a5d8f0a5a25f57260e77e911a096c33",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -272,6 +276,10 @@
           {
             "path": "research/p1-source-followup-2026-10-16.json",
             "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a"
+          },
+          {
+            "path": "review/p1-human-request.json",
+            "sha256": "367f162300bea18cb83ec1dd570437b27c4bfd163bd689ce5a28db7ef128ebc5"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
@@ -367,7 +375,7 @@
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "7e030332539fd3811679f8d27e79bef6f94b0821",
+        "source_commit": "88b6cfa45607a374d66d82a2cd87dc15cce87cb0",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -381,6 +389,10 @@
           {
             "path": "research/p1-source-followup-2026-10-16.json",
             "sha256": "bad037f0a965445ce0ce5a8547c23be1c5d5a8a15a8824f60f9c590dec57a992"
+          },
+          {
+            "path": "review/p1-human-request.json",
+            "sha256": "31ae690f5e0fe348276cc0ed2738bf57fd35accc289e32b00324456a3502e34e"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
@@ -413,12 +425,12 @@
     {
       "repo": "Milyan-Lycian-B",
       "evidence_depth": "FROZEN_DIGITAL_REFERENCE_WITH_INSPECTED_PRIMARY_LOCATORS",
-      "coverage_state": "114 frozen eDiAna reference rows (34 c + 71 d + 9 TL55), zero verified canonical readings. TL55 historical eight-line versus nine-edition-group count voices reconciled; bounded documentary comparison accounts for 1,441 encoded comparison records, 152 flags and 58 documentary cases, with unresolved point pairings retained. TL44: 105 page/label routes and two modern bibliographic identities documented, not 105 sign collations.",
-      "top_gap": "Obtain modern TL44c/d article PDFs and collate revised readings/apparatus; TL55 sign/restoration adjudication and ambiguous point pairings remain independent expert questions. No need to repeat completed TL55 documentary flag accounting.",
+      "coverage_state": "114 frozen eDiAna reference rows (34 c + 71 d + 9 TL55), zero verified canonical readings. TL55 historical eight-line versus nine-edition-group count voices reconciled; bounded documentary comparison accounts for 1,441 encoded comparison records, 152 flags and 58 documentary cases, with unresolved point pairings retained. TL44: 105 page/label routes and two modern bibliographic identities documented, not 105 sign collations. TL44 historical boundary pass:105 frozen rows partitioned into199 exact code-point spans,47 explicit marker contexts visually compared with Kalinka43–44. Qualified c40 routing exception and page/column transitions retained; no full-row sign collation or accepted reading.",
+      "top_gap": "Acquire modern TL44c/d editions for updated text/apparatus collation. Scoped TL44 boundary-route and TL55 documentary packets prepared for qualified independent review; historical contexts do not certify unique sign or physical-line alignment.",
       "status_source": "https://github.com/hawkinsnick/Milyan-Lycian-B",
       "current_evidence": {
         "repository": "hawkinsnick/Milyan-Lycian-B",
-        "source_commit": "167d152ada09c5b303527bac69b60b54bd9835a4",
+        "source_commit": "ba8498c3bdd317c8874c08f289209bf5bea2eea4",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -432,6 +444,18 @@
           {
             "path": "research/tl44-source-checkpoint.json",
             "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee"
+          },
+          {
+            "path": "review/tl44-boundary-human-request.json",
+            "sha256": "b5fb5aca452db5127ef77f12041b5dc981ee205ea2e27d912edcbe131b9674db"
+          },
+          {
+            "path": "research/tl44-boundary-documentary-review.json",
+            "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f"
+          },
+          {
+            "path": "review/tl55-independent-review.json",
+            "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5"
           }
         ],
         "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
