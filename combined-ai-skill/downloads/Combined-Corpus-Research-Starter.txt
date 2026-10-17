@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: db0f3b5752534c308702a426ac3bacea92d8ae454b69c304bb916ddf993ba918
+Instruction snapshot SHA-256: 15801b202a4495053060cd0f69aacd9d7db6d986d68449a98171201edaf265f5
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -113,7 +113,7 @@ using the supplied records while those scholarly tasks remain visible.
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/WORKED-EXAMPLES.md ===
-SHA-256: d3de52da85400cd8c6ef53869b051fcdfaa8cbf4f308dcc34a9212246f2503ae
+SHA-256: 548d6231b3549e1c67c83fe173cb561b3aacd32bbca2baf178b05f4cd5677ea8
 
 # A researcher's first session: three worked examples
 
@@ -272,6 +272,10 @@ These walkthroughs were executed against source revision
 `7eab440986e696d65bc8be026a68cbd78e9b3ad8` on 17 October 2026 UTC
 (16 October in Chicago). They add documentation and derived example outputs,
 not new readings, primary-source collation or expert acceptance.
+
+## Specialist research questions
+
+Continue with the [Linear A, Linear B and Luwian task pilots](../corpus-factory/SPECIALIST-RESEARCH-PILOTS.md). Each guide distinguishes its executed exercise from the evidence required for deeper interpretation.
 
 === END SOURCE FILE ===
 
@@ -1485,7 +1489,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 52c2c55f6fa1311c6b00c1f9750609c48c2f4999cd39a8631aeca6e69af35b45
+SHA-256: a563aea04d3fcbfe15470cdc733a5f83cc9c305c4545988ac9bd274fa0e5bc44
 
 ---
 name: combined-corpus-research
@@ -1899,6 +1903,10 @@ packages and source-bound review drafts. Do not treat deterministic response
 checks as empirical LLM evaluation, a complete form as authenticated expert
 review, or delivery controls as closure of scholarly P0/P1 source/permission gaps.
 
+## Specialist research-task pilots
+
+Read `corpus-factory/SPECIALIST-RESEARCH-PILOTS.md` and each native `docs/RESEARCH-TASK-PILOT.md` / `analysis/task-pilot-example.json`. Route Linear B to its 25-record literal retrieval with a character-marker sensitivity screen, Linear A to its 25-entry exact source-label/group concordance, and Luwian to seven documentary edition routes. Do not call the Luwian sign-reading study executed or Linear B literal matches identified people/secure readings. Preserve all local-only payload defaults, component rights, unknowns, raw flags and source/physical/edition distinctions. Do not pool pilot counts or imply named scholar participation, endorsement, model evaluation or human acceptance. Require admitted source/linguistic evidence before interpretation.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -1971,7 +1979,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 4f5c238d2532f4daf547f55e08ec17bb284372b090656d74825b7bd2dfeb198b
+SHA-256: b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002
 
 {
   "schema_version": "1.0.0",
@@ -2024,7 +2032,10 @@ SHA-256: 4f5c238d2532f4daf547f55e08ec17bb284372b090656d74825b7bd2dfeb198b
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -2134,7 +2145,10 @@ SHA-256: 4f5c238d2532f4daf547f55e08ec17bb284372b090656d74825b7bd2dfeb198b
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -2574,7 +2588,10 @@ SHA-256: 4f5c238d2532f4daf547f55e08ec17bb284372b090656d74825b7bd2dfeb198b
       "attribution_review_path": "research/attribution-review.json",
       "attribution_review_audit_path": "analysis/attribution-review-audit.json",
       "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
-      "attribution_review_query_path": "scripts/attribution_review.py"
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py"
     },
     {
       "id": "archanes_script",

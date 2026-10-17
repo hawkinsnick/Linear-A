@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "5100bf8fb7d1d614cd3ec850b22fa875f640157016781265d553009fe2fd38a7",
+  "build_script_sha256": "e61743d596fdb373bc1f8b380e127c7f60744045b2adfa7a5bfdf8cd51def34a",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,13 +55,13 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "445143349353e013f78ca5e8b02f3e7dbab71dc806e99eb171c36617d51fd32e",
-      "bytes": 11149
+      "sha256": "d4f250a91aca92e2b09223ec2d5f30bb8de4b345796b17ebd865dfb64caef393",
+      "bytes": 11278
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "52c2c55f6fa1311c6b00c1f9750609c48c2f4999cd39a8631aeca6e69af35b45",
-      "bytes": 62083
+      "sha256": "a563aea04d3fcbfe15470cdc733a5f83cc9c305c4545988ac9bd274fa0e5bc44",
+      "bytes": 62878
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -70,8 +70,8 @@
     },
     {
       "path": "combined-ai-skill/WORKED-EXAMPLES.md",
-      "sha256": "d3de52da85400cd8c6ef53869b051fcdfaa8cbf4f308dcc34a9212246f2503ae",
-      "bytes": 12524
+      "sha256": "548d6231b3549e1c67c83fe173cb561b3aacd32bbca2baf178b05f4cd5677ea8",
+      "bytes": 12772
     },
     {
       "path": "combined-ai-skill/manifest.json",
@@ -90,8 +90,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "4f5c238d2532f4daf547f55e08ec17bb284372b090656d74825b7bd2dfeb198b",
-      "bytes": 64656
+      "sha256": "b104a7c4045ca1a451809bcf2cb0badf388d75291193ea09c4c3afd5226c9002",
+      "bytes": 65217
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -199,6 +199,11 @@
       "bytes": 3881
     },
     {
+      "path": "corpus-factory/SPECIALIST-RESEARCH-PILOTS.md",
+      "sha256": "cedd9260b352f4f4a7c6c3d153a8c4f2e71664e2be638d906d900836d4913c74",
+      "bytes": 5504
+    },
+    {
       "path": "corpus-factory/attribution-review-rollout.json",
       "sha256": "c8fe0229c5d523080eef9d5bff33e4e1583bfdc5f9f03999ff36c1ece1831d42",
       "bytes": 11640
@@ -274,5 +279,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "db0f3b5752534c308702a426ac3bacea92d8ae454b69c304bb916ddf993ba918"
+  "snapshot_sha256": "15801b202a4495053060cd0f69aacd9d7db6d986d68449a98171201edaf265f5"
 }
