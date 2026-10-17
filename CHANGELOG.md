@@ -179,3 +179,10 @@ Added18-member revision-bound human/source-authority routing, four strengthened 
 ### 2026-10-16 Sidetic Abydos edition comparison
 
 Updated selected source/query/attribution snapshots, Sidetic P1 receipt bindings, guide and master/native AI routing after the supplied *Sidetic in Egypt* comparison. Preserved competing final-sign analyses and source dependence. Same17 selected tasks;49 page inspections including one historical blank leaf. No scientific acceptance, independent review or corpus-object growth added.
+
+## 2026-10-17 — Research delivery controls
+
+Add checksum-bound native search/evidence responses, deterministic local research
+packaging and offline replay, revision-bound review submission forms and rejection
+tests. Update individual AI instructions and documentation. No source record,
+reading, expert acceptance or redistribution permission is added by this change.

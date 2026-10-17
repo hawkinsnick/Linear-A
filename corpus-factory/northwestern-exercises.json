@@ -1,0 +1,299 @@
+{
+  "format": "northwestern-five-research-exercises-v1",
+  "exercises": [
+    {
+      "exercise": "1 Trace an exact source record",
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-documents",
+      "id": "ARKH 1a",
+      "source": {
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "source-documents",
+        "encoding": "jsonl"
+      },
+      "result": "PASS_EXACT_NATIVE_DOSSIER"
+    },
+    {
+      "exercise": "2 Search across corpora without pooling",
+      "query": "?",
+      "matched_collections": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "collection": "source-documents",
+          "native_unit": "SigLA source document entry",
+          "matched_view_rows": 780
+        },
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "collection": "critical-pilot",
+          "native_unit": "selected critical pilot entry",
+          "matched_view_rows": 3
+        },
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "collection": "legacy-cases",
+          "native_unit": "legacy project queue case",
+          "matched_view_rows": 3
+        },
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "collection": "catalogue-mappings",
+          "native_unit": "source catalogue-number mapping",
+          "matched_view_rows": 8
+        },
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "collection": "catalogue-dossiers",
+          "native_unit": "CHIC catalogue dossier",
+          "matched_view_rows": 135
+        },
+        {
+          "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+          "collection": "digital-entries",
+          "native_unit": "digital edition entry",
+          "matched_view_rows": 120
+        },
+        {
+          "repository": "hawkinsnick/Eteocypriot",
+          "collection": "digital-entries",
+          "native_unit": "digital edition entry",
+          "matched_view_rows": 15
+        },
+        {
+          "repository": "hawkinsnick/Eteocretan",
+          "collection": "reading-versions",
+          "native_unit": "attributed digital reading version",
+          "matched_view_rows": 9
+        },
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "collection": "digital-entries",
+          "native_unit": "digital catalogue entry",
+          "matched_view_rows": 453
+        },
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "collection": "ud-reference",
+          "native_unit": "UD reference sentence/segment",
+          "matched_view_rows": 34
+        },
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "collection": "titus-headings",
+          "native_unit": "TITUS source heading",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "collection": "primary-comparison-dossiers",
+          "native_unit": "bounded primary-comparison dossier",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "digital-entry-dossiers",
+          "native_unit": "digital text-entry dossier",
+          "matched_view_rows": 287
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "edition-metadata-pilot",
+          "native_unit": "edition metadata pilot entry",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "collection": "inscribe-metadata",
+          "native_unit": "INSCRIBE metadata reconciliation",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Lydian",
+          "collection": "digital-reference",
+          "native_unit": "frozen eDiAna directory record",
+          "matched_view_rows": 13
+        },
+        {
+          "repository": "hawkinsnick/Lydian",
+          "collection": "source-collation-2026-10-15",
+          "native_unit": "selected source collation task",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "collection": "digital-reference",
+          "native_unit": "frozen eDiAna directory record",
+          "matched_view_rows": 2
+        },
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "collection": "source-collation-2026-10-15",
+          "native_unit": "selected source collation task",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Pisidian",
+          "collection": "digital-reference",
+          "native_unit": "frozen eDiAna directory record",
+          "matched_view_rows": 5
+        },
+        {
+          "repository": "hawkinsnick/Pisidian",
+          "collection": "source-collation-2026-10-15",
+          "native_unit": "selected source collation task",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "collection": "digital-entries",
+          "native_unit": "digital catalogue entry",
+          "matched_view_rows": 2
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "collection": "source-text-rows",
+          "native_unit": "digital source text row",
+          "matched_view_rows": 114
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "collection": "qualified-tl55-rows",
+          "native_unit": "qualified source-label comparison row",
+          "matched_view_rows": 9
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "collection": "tl44-boundary-contexts",
+          "native_unit": "qualified documentary boundary context",
+          "matched_view_rows": 1
+        }
+      ],
+      "result": "PASS_NAMESPACED_SOURCE_RETRIEVAL"
+    },
+    {
+      "exercise": "3 Preserve literal uncertainty/editorial notation",
+      "matched_records_checked": 1000,
+      "interpretation_of_question_mark": "NOT_ASSUMED",
+      "result": "PASS_NATIVE_PAYLOAD_EQUALITY"
+    },
+    {
+      "exercise": "4 Reproduce local research packages",
+      "packages": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "sha256": "38686101bd587457b2a8d5f1c0d1a08cd7ed8b9cb49fac197125f9353abec0bb",
+          "bytes": 2255731
+        },
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "sha256": "851c1db264f43d922589c5ff8454407ceaf1813c31214f21357cbc10b08b10e1",
+          "bytes": 1268813
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "sha256": "74dc65b0ae40d5c943d5c2c583a991746369dbf00683dd4eba28eb48f748509f",
+          "bytes": 126871
+        },
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "sha256": "360af7f2d675a544da0969e566a48dba956bac993072fa5c77efd243d3555720",
+          "bytes": 1666871
+        },
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "sha256": "6b96d39a4bc68e84533c0c888c4315d92670a8604e88e62f8121b2fee085b44f",
+          "bytes": 263347
+        },
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "sha256": "229a6cc922306fdf52d68eae12bc6329ea7f230eb56a87cfbe02d818e41510f3",
+          "bytes": 476848
+        },
+        {
+          "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+          "sha256": "7d20ad365533128416782ca4536e0ea422084e6ef280db92b60e5f0ed76bb0b8",
+          "bytes": 3445250
+        },
+        {
+          "repository": "hawkinsnick/Eteocypriot",
+          "sha256": "532069f7ba4df880b20ae6b797737d030a71e1cee1b51f8a53e80089e35aa335",
+          "bytes": 314086
+        },
+        {
+          "repository": "hawkinsnick/Eteocretan",
+          "sha256": "7258cd8c6aa1a1b1588f2501e26ad46fb90ec7a1cc037b892b00466fb5df4ca6",
+          "bytes": 256708
+        },
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "sha256": "7c2b6f7336647c8475662ac06437b82c059b01af0876f310a609df10874d67e7",
+          "bytes": 4672917
+        },
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "sha256": "95722f1ff715f4f0d26ff0de0283910a702afa2625b5b6907f9a44058043596b",
+          "bytes": 585563
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "sha256": "0e2e241d40bb7ac0ecb26cdbe6407225025ec49787a71309511de7038584d383",
+          "bytes": 1053212
+        },
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "sha256": "3f830cca931bf39876a4ea8fd3ca325acba6dc8a9e8571d89f208a5f53299cb0",
+          "bytes": 112906
+        },
+        {
+          "repository": "hawkinsnick/Aegean-anomalous",
+          "sha256": "d93c94c9e3dae2c220334020585e5b1b9b6908d70d0123a91e421b7ee923ccd6",
+          "bytes": 110978
+        },
+        {
+          "repository": "hawkinsnick/Lydian",
+          "sha256": "eb696c0973ba78cf4b7fd960aa4e808a73fe4cbd75beb1307012995684195f15",
+          "bytes": 632285
+        },
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "sha256": "b90a55872779650ad1b9fa9a1245b5fd621207a4d0701f48691e387ea05d6f97",
+          "bytes": 213809
+        },
+        {
+          "repository": "hawkinsnick/Pisidian",
+          "sha256": "29d3efc2d820e0f29c52ae3c2792f10831e1358df0f7b8b0db199ab23197e403",
+          "bytes": 366507
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "sha256": "c430da0b2d54b152aaf7f675df0dc82fd679c6934c5b6c5fb8b4d5b38425ae32",
+          "bytes": 1964480
+        }
+      ],
+      "result": "PASS_REPEAT_BUILD_AND_MEMBER_HASHES"
+    },
+    {
+      "exercise": "5 Prepare feedback without manufacturing acceptance",
+      "target": {
+        "collection": "source-documents",
+        "id": "ARKH 1a",
+        "provenance": {
+          "path": "research/sigla-source-documents.jsonl",
+          "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+          "pointer": "/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "source-documents",
+          "encoding": "jsonl"
+        }
+      },
+      "result": "PASS_DRAFT_CREATED_AND_REJECTED_AS_COMPLETED_REVIEW",
+      "real_review_performed": false
+    }
+  ],
+  "new_readings": 0,
+  "expert_acceptance_added": false,
+  "scope": "Reproducible workflows over current native views; not new historical conclusions or empirical LLM evaluation."
+}

@@ -231,3 +231,16 @@ The public source view now has regression-tested provenance and interpretation
 boundaries, corrected source context extraction, byte-bound exports and an offline
 replayable research package. These engineering checks do not establish full primary
 collation or expert acceptance. [Measured scope](analysis/research-readiness.json).
+
+## Research delivery and feedback
+
+[Search, reproducible local packages, evidence-bound answers and review submissions](docs/RESEARCH-DELIVERY.md).
+[Measured delivery scope](analysis/research-delivery.json) retains native evidence
+units and all scholarly, rights and expert-review dependencies.
+
+## Full-collection research program
+
+[All seven Northwestern P0/P1 controls, five runnable exercises, federated search
+and review workflow](corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md).
+All 18 registered language members retain their native scientific and rights
+gates; delivery verification does not certify full scholarly closure.

@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "a6418fbb93bbef3751576690ac5fb725f7ff85c40ebe9a10a559987831476289",
+  "build_script_sha256": "5100bf8fb7d1d614cd3ec850b22fa875f640157016781265d553009fe2fd38a7",
   "source_files": [
     {
       "path": "LICENSE",
@@ -60,8 +60,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "c66dbcee0a441e12e12ad61f454f76a39a214df65fc5450214f0ca69377e02b9",
-      "bytes": 61181
+      "sha256": "52c2c55f6fa1311c6b00c1f9750609c48c2f4999cd39a8631aeca6e69af35b45",
+      "bytes": 62083
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -162,6 +162,11 @@
       "path": "corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md",
       "sha256": "e2294a1b366c2c5e4cf44ff84bbfc829c93bffbfc864c711fb1b178d7f64c22f",
       "bytes": 2842
+    },
+    {
+      "path": "corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md",
+      "sha256": "aa85da69dd6598c7c414aa497e2e220bdf38f91c9bc9ed070bfe0b231f6c7598",
+      "bytes": 6918
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -269,5 +274,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "0b679de972208a99ed986daea388aa9ee9f5344f15a75001dfc3af5a844d3563"
+  "snapshot_sha256": "1f2d95c28bfaed86288580327afaaad2ab7daa41543d3829b4746f4cd0f1ac0f"
 }

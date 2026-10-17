@@ -395,3 +395,17 @@ Use `corpus-factory/HUMAN-VALIDATION-ROUTE.md` and the revision-bound `corpus-fa
 ## Competing Abydos editions — 2026-10-16
 
 Read `corpus-factory/SIDETIC-ABYDOS-EDITION-COMPARISON-2026-10-16.md` and the current Sidetic source-collation packet. The supplied Ferrer–Soler–Adiego2025 PDF closes the selected two-edition documentary comparison; Pojau / final u, qualified w(?) and possible overwriting remain attributed alternatives, not an adopted reading. Preserve j/y source conventions, N02/new-u versus N22, separate S9 identity, initial submissions versus final-article dependence, and first-graffito-only revised scope. Same17 selected tasks, now49 logged page inspections, one historical blank-leaf inspection included; no objects, independent reviews or accepted readings added. Fuller new-vowel source comparison and physical adjudication remain separate work.
+
+## Full-collection research delivery and review
+
+Read `corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md` for the seven P0/P1
+controls and their limits. Run `corpus-factory/federated_research.py` against
+all registered local checkouts for exact-ID or literal-text retrieval, a live
+byte-bound audit, or the five exercises. Load each member's native dossier and
+individual skill before analysis; preserve repository/collection/ID namespaces,
+source categories, uncertainty, source dependence and rights. Never count mixed
+views as unique inscriptions or independent witnesses. Use native
+`scripts/research_delivery.py` to produce evidence-only responses, local replay
+packages and source-bound review drafts. Do not treat deterministic response
+checks as empirical LLM evaluation, a complete form as authenticated expert
+review, or delivery controls as closure of scholarly P0/P1 source/permission gaps.

@@ -276,3 +276,18 @@ Use `corpus-factory/HUMAN-VALIDATION-ROUTE.md` and the revision-bound `corpus-fa
 ## Sidetic Abydos edition routing — 2026-10-16
 
 Use `corpus-factory/SIDETIC-ABYDOS-EDITION-COMPARISON-2026-10-16.md` and the member’s exact source-collation task. The selected two-edition comparison is complete, while its u/w(?) or overwritten-sign reading remains unresolved. Keep source dependence, N02/N22 and S9/Abydos object boundaries visible; no automatic acceptance or extra witness count.
+
+## Research delivery, evidence answers and feedback
+
+Read `docs/RESEARCH-DELIVERY.md` and verify `analysis/research-delivery.json`
+with `python scripts/research_delivery.py --check` before using delivery claims.
+Use `--dossier ID --collection COLLECTION` for exact evidence-bound answers;
+preserve the complete native payload, citations, categories and limitations.
+Use `--search TEXT` for source-record retrieval. Do not convert file pointers
+into missing primary-edition citations, catalogue rows into unique objects,
+source dependence into independent confirmation, or review forms into acceptance.
+Prepare bounded review drafts with `--review-template`; validate submissions with
+`--validate-review`, then require native human-maintainer acceptance. Treat delivery
+and deterministic answer tests as engineering checks, not empirical LLM validation
+or completion of scholarly/source-permission work. Local packaging grants no new
+redistribution rights. Label any model-generated analysis separately and cite it.

@@ -1,0 +1,56 @@
+{
+  "format": "northwestern-seven-requirements-v1",
+  "all_scholarly_p0_p1_closed": false,
+  "expert_acceptance_added": false,
+  "requirements": [
+    {
+      "id": "P0-provenance",
+      "requirement": "Evidence-level provenance preservation and missing-attribution disclosure",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    },
+    {
+      "id": "P0-evidence-categories",
+      "requirement": "Facts, source assertions and hypotheses remain distinct",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    },
+    {
+      "id": "P0-reproducibility",
+      "requirement": "Reproducible native research packages",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    },
+    {
+      "id": "P1-search",
+      "requirement": "Federated traceable search",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    },
+    {
+      "id": "P1-ai-skills",
+      "requirement": "Cited evidence-only responses and defensible skill routing",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    },
+    {
+      "id": "P1-demonstrations",
+      "requirement": "Five executable research/teaching exercises",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    },
+    {
+      "id": "P1-feedback",
+      "requirement": "Revision-bound feedback and maintainer acceptance workflow",
+      "implementation_status": "IMPLEMENTED_AND_LOCALLY_TESTED",
+      "scope": "Selected public native evidence views; underlying scholarly completeness is not certified."
+    }
+  ],
+  "open_dependencies": [
+    "Per-record primary-source attribution and full collation where native registers remain incomplete",
+    "Acquisition/access and intended-use permission for missing/restricted sources",
+    "Independent object identity and epigraphic judgments",
+    "Linked authoritative linguistic gold and graphical evidence for blocked calibration",
+    "Broader empirical evaluations of AI model behavior beyond deterministic interface tests and any separately recorded bounded skill trial"
+  ]
+}
