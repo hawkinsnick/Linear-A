@@ -165,8 +165,8 @@
     },
     {
       "path": "corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md",
-      "sha256": "aa85da69dd6598c7c414aa497e2e220bdf38f91c9bc9ed070bfe0b231f6c7598",
-      "bytes": 6918
+      "sha256": "f5e91c343e70f99de36454425669cd3d9fbeecae4c852ff1a33fe485cf587de7",
+      "bytes": 7300
     },
     {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
@@ -274,5 +274,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "1f2d95c28bfaed86288580327afaaad2ab7daa41543d3829b4746f4cd0f1ac0f"
+  "snapshot_sha256": "db0f3b5752534c308702a426ac3bacea92d8ae454b69c304bb916ddf993ba918"
 }

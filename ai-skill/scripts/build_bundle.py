@@ -62,6 +62,7 @@ CANDIDATES += [('researcher_walkthrough', p) for p in [
 CANDIDATES += [("research_delivery", p) for p in ['scripts/research_delivery.py','scripts/test_research_delivery.py','docs/RESEARCH-DELIVERY.md','analysis/research-delivery.json']]
 CANDIDATES += [('northwestern_program', p) for p in ['corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md','corpus-factory/federated_research.py','corpus-factory/test_federated_research.py','corpus-factory/research-delivery-fleet.json','corpus-factory/northwestern-exercises.json','corpus-factory/northwestern-validation.json','corpus-factory/northwestern-published-revisions.json']]
 CANDIDATES += [('northwestern_requirements', p) for p in ['corpus-factory/northwestern-work-program.json','corpus-factory/validate_northwestern_program.py','corpus-factory/test_northwestern_program.py']]
+CANDIDATES += [('northwestern_publication', p) for p in ['corpus-factory/verify_federated_snapshot.py','corpus-factory/northwestern-hosted-leaf-checks.json']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

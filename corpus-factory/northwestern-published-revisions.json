@@ -1,0 +1,79 @@
+{
+  "format": "northwestern-published-source-revisions-v1",
+  "scope": "Exact implementation source checkpoints; subsequent bundle-only or receipt-only commits may advance main without changing these bound native inputs.",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "aa467e8befae6457477febfbed6b830b2b2dfa5b"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "5f03ed32b4731bcb58e23bf5babe146d59434413"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "86ce13917770dc47e10f7e3b18c1853a1bf3311f"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "c17ed0c903073039f2585b0d4462aba7ad54256b"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "904b4eaaf3edfb24c2c1462a3756a7407b71555c"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "eef9b483c010704a4d3ef4dd03e040d79be5d413"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "c2edc496ab925243921907cd1b0354d7af071090"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "c55a52fa0ac680e56d9758b3d90b23b68184a88c"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "9d6d76030308387083c5f9a93993a6f23fd29154"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "8ac5a319000a7c276d5038fdf38ec7c221774429"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "a28ecb23a5da55e8c6bea13de054cd8fd29fa768"
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "ffbe70e16fe9b519371821d1f0d85ad26bb2f8f8"
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "e58d226a029ce42c2581412cefab40ae024369e3"
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "a0970dce468439c4548d6458093bfa4a3c0c9305"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "cec5236acfeb0024d635a6ac0e5d052df573412f"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "a62770b5847e4989e878772f7765a4e412ec00f2"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "63da46c394ea2a0f970e20a5c2d856b4490163b3"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "607d3a3bf403afe43d9e523a165e94af28974d55"
+    }
+  ],
+  "expert_acceptance_added": false
+}

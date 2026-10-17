@@ -18,7 +18,13 @@ Hieroglyphic Corpus and LightroomIsSlow remain outside this collection.
 | P1 validation and feedback | Revision-bound draft/submission workflow, reviewer/source disclosures and explicit maintainer gate | Incomplete, stale and falsely accepted submissions rejected; valid form remains unaccepted | Identity, expertise, access, independence and epigraphic judgment require real review |
 
 `research-delivery-fleet.json` records exact native delivery-report and profile
-hashes. `northwestern-exercises.json` records the five execution results, including
+hashes. `northwestern-hosted-leaf-checks.json` records the 17 non-master hosted delivery
+and synchronization results. The dedicated **Northwestern research program**
+workflow replays the exact 18 published source checkpoints; run
+`python corpus-factory/verify_federated_snapshot.py --checkouts /path/to/checkouts`
+to compare the saved audit and all five exercises against those checkouts.
+
+`northwestern-exercises.json` records the five execution results, including
 all 18 local package hashes. `northwestern-validation.json` records the commands
 actually executed and their output. Each member's `analysis/research-delivery.json`
 binds its explicit input files. These receipts are snapshots, not perpetual claims

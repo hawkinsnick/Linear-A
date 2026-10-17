@@ -1,0 +1,1104 @@
+{
+  "format": "native-delivery-hosted-checks-v1",
+  "members": [
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "5f03ed32b4731bcb58e23bf5babe146d59434413",
+      "runs": [
+        {
+          "id": 38989442622,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442622"
+        },
+        {
+          "id": 38989442615,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442615"
+        },
+        {
+          "id": 38989442580,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442580"
+        },
+        {
+          "id": 38989442511,
+          "name": "Release correction tracking",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442511"
+        },
+        {
+          "id": 38989442458,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442458"
+        },
+        {
+          "id": 38989442598,
+          "name": "Validate bounded source expansion",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442598"
+        },
+        {
+          "id": 38989442529,
+          "name": "Selected source collation integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442529"
+        },
+        {
+          "id": 38989442481,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442481"
+        },
+        {
+          "id": 38989442619,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442619"
+        },
+        {
+          "id": 38989442437,
+          "name": "Research workbench milestone",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442437"
+        },
+        {
+          "id": 38989442627,
+          "name": "Validate EpiDoc pilot",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/38989442627"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "86ce13917770dc47e10f7e3b18c1853a1bf3311f",
+      "runs": [
+        {
+          "id": 38989443837,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443837"
+        },
+        {
+          "id": 38989443862,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443862"
+        },
+        {
+          "id": 38989443843,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443843"
+        },
+        {
+          "id": 38989443839,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443839"
+        },
+        {
+          "id": 38989443872,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443872"
+        },
+        {
+          "id": 38989443827,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443827"
+        },
+        {
+          "id": 38989443834,
+          "name": "Release correction tracking",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443834"
+        },
+        {
+          "id": 38989443824,
+          "name": "Research workbench milestone",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/38989443824"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "c17ed0c903073039f2585b0d4462aba7ad54256b",
+      "runs": [
+        {
+          "id": 38989437119,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437119"
+        },
+        {
+          "id": 38989437168,
+          "name": "Release correction tracking",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437168"
+        },
+        {
+          "id": 38989437174,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437174"
+        },
+        {
+          "id": 38989437158,
+          "name": "Validate bounded source expansion",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437158"
+        },
+        {
+          "id": 38989437178,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437178"
+        },
+        {
+          "id": 38989437130,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437130"
+        },
+        {
+          "id": 38989437127,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437127"
+        },
+        {
+          "id": 38989437202,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437202"
+        },
+        {
+          "id": 38989437116,
+          "name": "Research workbench milestone",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/38989437116"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "904b4eaaf3edfb24c2c1462a3756a7407b71555c",
+      "runs": [
+        {
+          "id": 38989441224,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441224"
+        },
+        {
+          "id": 38989441177,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441177"
+        },
+        {
+          "id": 38989441209,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441209"
+        },
+        {
+          "id": 38989441107,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441107"
+        },
+        {
+          "id": 38989441193,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441193"
+        },
+        {
+          "id": 38989441191,
+          "name": "Release correction tracking",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441191"
+        },
+        {
+          "id": 38989441164,
+          "name": "Research workbench milestone",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441164"
+        },
+        {
+          "id": 38989441214,
+          "name": "Validate and publish checked milestone",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/38989441214"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "eef9b483c010704a4d3ef4dd03e040d79be5d413",
+      "runs": [
+        {
+          "id": 38989438184,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/38989438184"
+        },
+        {
+          "id": 38989438109,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/38989438109"
+        },
+        {
+          "id": 38989438162,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/38989438162"
+        },
+        {
+          "id": 38989438185,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/38989438185"
+        },
+        {
+          "id": 38989438124,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/38989438124"
+        },
+        {
+          "id": 38989438112,
+          "name": "Validate corpus and reproducible export",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/38989438112"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "c2edc496ab925243921907cd1b0354d7af071090",
+      "runs": [
+        {
+          "id": 38989439633,
+          "name": "Validate corpus snapshot",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/38989439633"
+        },
+        {
+          "id": 38989439654,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/38989439654"
+        },
+        {
+          "id": 38989439660,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/38989439660"
+        },
+        {
+          "id": 38989439604,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/38989439604"
+        },
+        {
+          "id": 38989439667,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/38989439667"
+        },
+        {
+          "id": 38989439668,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/38989439668"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "c55a52fa0ac680e56d9758b3d90b23b68184a88c",
+      "runs": [
+        {
+          "id": 38989461180,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461180"
+        },
+        {
+          "id": 38989461169,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461169"
+        },
+        {
+          "id": 38989461150,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461150"
+        },
+        {
+          "id": 38989461281,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461281"
+        },
+        {
+          "id": 38989461156,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461156"
+        },
+        {
+          "id": 38989461100,
+          "name": "Validate corpus snapshot",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461100"
+        },
+        {
+          "id": 38989461153,
+          "name": "P1 source follow-up integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/38989461153"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "9d6d76030308387083c5f9a93993a6f23fd29154",
+      "runs": [
+        {
+          "id": 38989461550,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/38989461550"
+        },
+        {
+          "id": 38989461574,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/38989461574"
+        },
+        {
+          "id": 38989461580,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/38989461580"
+        },
+        {
+          "id": 38989461553,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/38989461553"
+        },
+        {
+          "id": 38989461551,
+          "name": "Validate source-attributed corpus",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/38989461551"
+        },
+        {
+          "id": 38989461567,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/38989461567"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "8ac5a319000a7c276d5038fdf38ec7c221774429",
+      "runs": [
+        {
+          "id": 38989466695,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/38989466695"
+        },
+        {
+          "id": 38989466838,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/38989466838"
+        },
+        {
+          "id": 38989466809,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/38989466809"
+        },
+        {
+          "id": 38989466777,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/38989466777"
+        },
+        {
+          "id": 38989466840,
+          "name": "Collection handoff replay",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/38989466840"
+        },
+        {
+          "id": 38989466716,
+          "name": "Validate source-attributed corpus",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/38989466716"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "a28ecb23a5da55e8c6bea13de054cd8fd29fa768",
+      "runs": [
+        {
+          "id": 38989464623,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464623"
+        },
+        {
+          "id": 38989464594,
+          "name": "Validate Phrygian corpus",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464594"
+        },
+        {
+          "id": 38989464496,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464496"
+        },
+        {
+          "id": 38989464584,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464584"
+        },
+        {
+          "id": 38989464448,
+          "name": "Frozen reference interoperability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464448"
+        },
+        {
+          "id": 38989464704,
+          "name": "P1 source follow-up integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464704"
+        },
+        {
+          "id": 38989464472,
+          "name": "Collection handoff replay",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464472"
+        },
+        {
+          "id": 38989464574,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/38989464574"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "ffbe70e16fe9b519371821d1f0d85ad26bb2f8f8",
+      "runs": [
+        {
+          "id": 38989468373,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/38989468373"
+        },
+        {
+          "id": 38989468356,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/38989468356"
+        },
+        {
+          "id": 38989468395,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/38989468395"
+        },
+        {
+          "id": 38989468371,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/38989468371"
+        },
+        {
+          "id": 38989468398,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/38989468398"
+        },
+        {
+          "id": 38989468437,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/38989468437"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "e58d226a029ce42c2581412cefab40ae024369e3",
+      "runs": [
+        {
+          "id": 38989465128,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/38989465128"
+        },
+        {
+          "id": 38989465048,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/38989465048"
+        },
+        {
+          "id": 38989465105,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/38989465105"
+        },
+        {
+          "id": 38989465092,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/38989465092"
+        },
+        {
+          "id": 38989465047,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/38989465047"
+        },
+        {
+          "id": 38989465088,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/38989465088"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "a0970dce468439c4548d6458093bfa4a3c0c9305",
+      "runs": [
+        {
+          "id": 38989490232,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/38989490232"
+        },
+        {
+          "id": 38989490265,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/38989490265"
+        },
+        {
+          "id": 38989490287,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/38989490287"
+        },
+        {
+          "id": 38989490245,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/38989490245"
+        },
+        {
+          "id": 38989490249,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/38989490249"
+        },
+        {
+          "id": 38989490229,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/38989490229"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "cec5236acfeb0024d635a6ac0e5d052df573412f",
+      "runs": [
+        {
+          "id": 38989485044,
+          "name": "Corpus integrity and AI synchronization",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485044"
+        },
+        {
+          "id": 38989485038,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485038"
+        },
+        {
+          "id": 38989485041,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485041"
+        },
+        {
+          "id": 38989485042,
+          "name": "Frozen reference interoperability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485042"
+        },
+        {
+          "id": 38989485048,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485048"
+        },
+        {
+          "id": 38989485112,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485112"
+        },
+        {
+          "id": 38989485043,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485043"
+        },
+        {
+          "id": 38989485077,
+          "name": "Selected source collation integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Lydian/actions/runs/38989485077"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "a62770b5847e4989e878772f7765a4e412ec00f2",
+      "runs": [
+        {
+          "id": 38989488916,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488916"
+        },
+        {
+          "id": 38989488929,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488929"
+        },
+        {
+          "id": 38989488891,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488891"
+        },
+        {
+          "id": 38989488934,
+          "name": "P1 source follow-up integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488934"
+        },
+        {
+          "id": 38989488915,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488915"
+        },
+        {
+          "id": 38989489001,
+          "name": "Frozen reference interoperability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989489001"
+        },
+        {
+          "id": 38989488889,
+          "name": "Corpus integrity and AI synchronization",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488889"
+        },
+        {
+          "id": 38989488941,
+          "name": "Selected source collation integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488941"
+        },
+        {
+          "id": 38989488924,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/38989488924"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "63da46c394ea2a0f970e20a5c2d856b4490163b3",
+      "runs": [
+        {
+          "id": 38989486636,
+          "name": "Selected source collation integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486636"
+        },
+        {
+          "id": 38989486617,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486617"
+        },
+        {
+          "id": 38989486611,
+          "name": "Collection source work and review handoff",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486611"
+        },
+        {
+          "id": 38989486624,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486624"
+        },
+        {
+          "id": 38989486632,
+          "name": "Corpus integrity and AI synchronization",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486632"
+        },
+        {
+          "id": 38989486620,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486620"
+        },
+        {
+          "id": 38989486614,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486614"
+        },
+        {
+          "id": 38989486608,
+          "name": "Frozen reference interoperability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/38989486608"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "607d3a3bf403afe43d9e523a165e94af28974d55",
+      "runs": [
+        {
+          "id": 38989487059,
+          "name": "Native research delivery",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989487059"
+        },
+        {
+          "id": 38989487009,
+          "name": "Attribution review integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989487009"
+        },
+        {
+          "id": 38989487010,
+          "name": "Native evidence and alternatives",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989487010"
+        },
+        {
+          "id": 38989487086,
+          "name": "Validate Milyan corpus",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989487086"
+        },
+        {
+          "id": 38989486964,
+          "name": "Collection handoff replay",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989486964"
+        },
+        {
+          "id": 38989487008,
+          "name": "Milyan frozen reference interoperability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989487008"
+        },
+        {
+          "id": 38989487056,
+          "name": "Sync AI skill",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/38989487056"
+        }
+      ]
+    }
+  ],
+  "bundle_checks": [
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "5f03ed32b4731bcb58e23bf5babe146d59434413",
+      "bundle_source": "5f03ed32b4731bcb58e23bf5babe146d59434413",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "86ce13917770dc47e10f7e3b18c1853a1bf3311f",
+      "bundle_source": "86ce13917770dc47e10f7e3b18c1853a1bf3311f",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "c17ed0c903073039f2585b0d4462aba7ad54256b",
+      "bundle_source": "c17ed0c903073039f2585b0d4462aba7ad54256b",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "904b4eaaf3edfb24c2c1462a3756a7407b71555c",
+      "bundle_source": "904b4eaaf3edfb24c2c1462a3756a7407b71555c",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "eef9b483c010704a4d3ef4dd03e040d79be5d413",
+      "bundle_source": "eef9b483c010704a4d3ef4dd03e040d79be5d413",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "c2edc496ab925243921907cd1b0354d7af071090",
+      "bundle_source": "c2edc496ab925243921907cd1b0354d7af071090",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "c55a52fa0ac680e56d9758b3d90b23b68184a88c",
+      "bundle_source": "c55a52fa0ac680e56d9758b3d90b23b68184a88c",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "9d6d76030308387083c5f9a93993a6f23fd29154",
+      "bundle_source": "9d6d76030308387083c5f9a93993a6f23fd29154",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "8ac5a319000a7c276d5038fdf38ec7c221774429",
+      "bundle_source": "8ac5a319000a7c276d5038fdf38ec7c221774429",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "a28ecb23a5da55e8c6bea13de054cd8fd29fa768",
+      "bundle_source": "a28ecb23a5da55e8c6bea13de054cd8fd29fa768",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "ffbe70e16fe9b519371821d1f0d85ad26bb2f8f8",
+      "bundle_source": "ffbe70e16fe9b519371821d1f0d85ad26bb2f8f8",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "e58d226a029ce42c2581412cefab40ae024369e3",
+      "bundle_source": "e58d226a029ce42c2581412cefab40ae024369e3",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "a0970dce468439c4548d6458093bfa4a3c0c9305",
+      "bundle_source": "a0970dce468439c4548d6458093bfa4a3c0c9305",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "cec5236acfeb0024d635a6ac0e5d052df573412f",
+      "bundle_source": "cec5236acfeb0024d635a6ac0e5d052df573412f",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "a62770b5847e4989e878772f7765a4e412ec00f2",
+      "bundle_source": "a62770b5847e4989e878772f7765a4e412ec00f2",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "63da46c394ea2a0f970e20a5c2d856b4490163b3",
+      "bundle_source": "63da46c394ea2a0f970e20a5c2d856b4490163b3",
+      "artifact_hashes_match": true,
+      "synced": true
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "607d3a3bf403afe43d9e523a165e94af28974d55",
+      "bundle_source": "607d3a3bf403afe43d9e523a165e94af28974d55",
+      "artifact_hashes_match": true,
+      "synced": true
+    }
+  ],
+  "scope": "17 non-master members checked after source publication. Master final run is linked separately."
+}

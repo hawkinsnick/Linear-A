@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 1f2d95c28bfaed86288580327afaaad2ab7daa41543d3829b4746f4cd0f1ac0f
+Instruction snapshot SHA-256: db0f3b5752534c308702a426ac3bacea92d8ae454b69c304bb916ddf993ba918
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -10,7 +10,7 @@ Directory summaries are snapshot routing metadata, not current independently che
 If a required member file cannot be accessed, identify what is missing and help select the next files.
 
 === SOURCE FILE: corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md ===
-SHA-256: aa85da69dd6598c7c414aa497e2e220bdf38f91c9bc9ed070bfe0b231f6c7598
+SHA-256: f5e91c343e70f99de36454425669cd3d9fbeecae4c852ff1a33fe485cf587de7
 
 # Northwestern research program: P0/P1 implementation
 
@@ -32,7 +32,13 @@ Hieroglyphic Corpus and LightroomIsSlow remain outside this collection.
 | P1 validation and feedback | Revision-bound draft/submission workflow, reviewer/source disclosures and explicit maintainer gate | Incomplete, stale and falsely accepted submissions rejected; valid form remains unaccepted | Identity, expertise, access, independence and epigraphic judgment require real review |
 
 `research-delivery-fleet.json` records exact native delivery-report and profile
-hashes. `northwestern-exercises.json` records the five execution results, including
+hashes. `northwestern-hosted-leaf-checks.json` records the 17 non-master hosted delivery
+and synchronization results. The dedicated **Northwestern research program**
+workflow replays the exact 18 published source checkpoints; run
+`python corpus-factory/verify_federated_snapshot.py --checkouts /path/to/checkouts`
+to compare the saved audit and all five exercises against those checkouts.
+
+`northwestern-exercises.json` records the five execution results, including
 all 18 local package hashes. `northwestern-validation.json` records the commands
 actually executed and their output. Each member's `analysis/research-delivery.json`
 binds its explicit input files. These receipts are snapshots, not perpetual claims
