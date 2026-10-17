@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "8f79d29f8a7b71fe373bffa21c430f835f338570",
-  "generated_at_utc": "2026-10-16T19:00:23+00:00",
+  "source_commit": "c5f7e8747d561b930d99a8cd705da529f45f855a",
+  "generated_at_utc": "2026-10-17T00:51:35+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -274,8 +274,8 @@
     {
       "role": "fleet_evidence_query_rollout",
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "0bc2d8cb1fb6fda0904f4c71f0df2af0aba1ea1b936d2de545b074bfddd66877",
-      "bytes": 7584
+      "sha256": "44b61f9b0205f08aa623aad62a41db057d0f60d4f976f5154ac58e528da8786a",
+      "bytes": 7677
     },
     {
       "role": "native_evidence_profile",
@@ -406,8 +406,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "cd390fe84f769637849be7eba05c0d353093214a7da0f8951992ce3676f93645",
-      "bytes": 58073
+      "sha256": "01a33177006395b82431ce4dbf4fe752519d5275553482e5ee1f71fac25be77f",
+      "bytes": 58845
     },
     {
       "role": "source_delivery_guide",
@@ -478,8 +478,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "3b9394cfe9060356a33a51cfd304fa0c7d340393e034326b944560593d9ac3bc",
-      "bytes": 36030
+      "sha256": "614a343ed10aa4fc9cafcf292de1a6fbf23980dc0edff876f83ec8181782ff6c",
+      "bytes": 36802
     },
     {
       "role": "cross_corpus_dependencies",
@@ -802,20 +802,20 @@
     {
       "role": "current_p1_evidence",
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "3db6e35849e60c6c6a85cd8a7a6c13384e9177e12f2f3c1be37f40e8bf3b2d41",
-      "bytes": 28461
+      "sha256": "66a9fe8fc5c2e978902985518fe26b4bf0126d2572411d285c88a1bb66a20c6d",
+      "bytes": 29773
     },
     {
       "role": "current_p1_evidence",
       "path": "corpus-factory/p1-current-work.json",
-      "sha256": "187e8d8a9825628d7ba4d806689017290c954a036cd11f8e4fe1666730d51658",
-      "bytes": 14565
+      "sha256": "b12c0597d04eb23c98a293138f1ceb1bb943ee99e8cec4331960bad18f1b9d7c",
+      "bytes": 14796
     },
     {
       "role": "current_p1_evidence",
       "path": "corpus-factory/P1-EXECUTION-2026-10-16.md",
-      "sha256": "7542c44128ede1e067402386a074985413d81b70c2f168c52cb2cac50edcd8e7",
-      "bytes": 4447
+      "sha256": "eb699e0032cb46012f8acc7868810bdc8b5ac2a119e11a4b2c4ab51becdf8071",
+      "bytes": 4695
     },
     {
       "role": "current_p1_evidence",
@@ -852,6 +852,36 @@
       "path": "corpus-factory/p1-validation-2026-10-16.json",
       "sha256": "84809c1a286226613cbff47a7363f28cb84f0dd9a01696fb8633bc54d4241ed6",
       "bytes": 9399
+    },
+    {
+      "role": "human_validation_routing",
+      "path": "corpus-factory/p1-human-readiness.json",
+      "sha256": "b02f783bedadc3f4bb5780e7aec0655db1ad67cb1a0ef73c6e62071715ea8e6d",
+      "bytes": 21046
+    },
+    {
+      "role": "human_validation_routing",
+      "path": "corpus-factory/HUMAN-VALIDATION-ROUTE.md",
+      "sha256": "5e345c8414c437f11a25f3cd069176c952c073838230da5a925d27dee8b82138",
+      "bytes": 8025
+    },
+    {
+      "role": "human_validation_routing",
+      "path": "corpus-factory/validate_human_readiness.py",
+      "sha256": "bd81ccef7cb3880dab2ddd0c86aceaa5063cf67ce7b98c1862837605019eb7b7",
+      "bytes": 2981
+    },
+    {
+      "role": "human_validation_routing",
+      "path": "corpus-factory/test_human_readiness.py",
+      "sha256": "a747f4f9e60e12906d12bef3e8549f2c16b05fd3e8890f9e8d00f2649a7769a7",
+      "bytes": 1302
+    },
+    {
+      "role": "human_validation_routing",
+      "path": "corpus-factory/p1-human-validation-results.json",
+      "sha256": "dbdfa15dbef0e0e0395ccfb48617762e297a68acdd65318efb4ae8c9900f14ff",
+      "bytes": 10668
     }
   ]
 }
