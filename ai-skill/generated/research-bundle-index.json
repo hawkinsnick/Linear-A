@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "7145d34c19298aa9c114f4571e752f06c5dee486",
-  "generated_at_utc": "2026-10-17T00:58:46+00:00",
+  "source_commit": "0e7928bf2e9450f101ccf379a2945037b7984cd5",
+  "generated_at_utc": "2026-10-17T01:03:19+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -412,8 +412,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "1916dfa54389e2d64f5c934ce6dcff812c4999640c620490db1140b672ac419b",
-      "bytes": 60388
+      "sha256": "c66dbcee0a441e12e12ad61f454f76a39a214df65fc5450214f0ca69377e02b9",
+      "bytes": 61181
     },
     {
       "role": "source_delivery_guide",
@@ -484,8 +484,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "eca8b8759f576479952b0c2173fa84b93eab96fb68d9489e3e95d6bd734ac6ca",
-      "bytes": 37956
+      "sha256": "e14c279d112c95882fa27b123f12a2987c0e05861d9d8850f28fb9fe16b6ed5f",
+      "bytes": 38749
     },
     {
       "role": "cross_corpus_dependencies",
@@ -538,8 +538,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "b182fd76a04280c18639ce2713229e57c952ee13b34940081984d61c9d223796",
-      "bytes": 20233
+      "sha256": "5a91ac38ef7393de5b4730e3f9293f63fbdac181e70d597442adff7912f33992",
+      "bytes": 20446
     },
     {
       "role": "current_summary_builder",
@@ -936,6 +936,36 @@
       "path": "analysis/evidence-population-coverage.json",
       "sha256": "252a2b98dedb950f31613d892307b478ae3618dfddfd10df7d7eaddf7870bcfa",
       "bytes": 1062
+    },
+    {
+      "role": "researcher_walkthrough",
+      "path": "combined-ai-skill/WORKED-EXAMPLES.md",
+      "sha256": "d3de52da85400cd8c6ef53869b051fcdfaa8cbf4f308dcc34a9212246f2503ae",
+      "bytes": 12524
+    },
+    {
+      "role": "researcher_walkthrough",
+      "path": "scripts/walkthrough_count.py",
+      "sha256": "4bc0f35e541c488a5f65f5f54ec5caea9a773c6c6509a419ab638bffcf901db5",
+      "bytes": 1247
+    },
+    {
+      "role": "researcher_walkthrough",
+      "path": "docs/examples/researcher-walkthrough/ARKH-1a.json",
+      "sha256": "72d685fe6abde97576b00561300a43369492b1247e728fa12daee018cba5878d",
+      "bytes": 10180
+    },
+    {
+      "role": "researcher_walkthrough",
+      "path": "docs/examples/researcher-walkthrough/U008.json",
+      "sha256": "8ef0cb2fdca7f278acba7aec35a5ec3a3e598d87967fdb1a5ebff165e2bc8560",
+      "bytes": 8131
+    },
+    {
+      "role": "researcher_walkthrough",
+      "path": "docs/examples/researcher-walkthrough/counts.json",
+      "sha256": "4da1d4af7ac4fde297b4d7e88bbb611345aa9a15152c26456654585973c7aec0",
+      "bytes": 508
     }
   ]
 }
