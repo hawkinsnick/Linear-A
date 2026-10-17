@@ -221,3 +221,11 @@ Milyan TL55: bounded documentary sign comparison complete, including source-loca
 ## 2026-10-16 — Milyan TL44 source checkpoint
 
 Confirmed two modern DOI identities and105 existing digital row-label routes to visually inspected Kalinka pages. Three selected boundary/inventory observations preserve frozen strings; modern article PDFs, sign/apparatus collation and West pagination confirmation remain open. [Source scope and next dependency](corpus-factory/MILYAN-TL44-SOURCE-CHECKPOINT.md). Both native and combined AI instructions retain the limits; no accepted reading or independent review is claimed.
+
+## Research-readiness P0 controls — Linear A pilot
+
+[Audit, reproduction steps and remaining gaps](docs/NORTHWESTERN-RESEARCH-READINESS.md).
+The public source view now has regression-tested provenance and interpretation
+boundaries, corrected source context extraction, byte-bound exports and an offline
+replayable research package. These engineering checks do not establish full primary
+collation or expert acceptance. [Measured scope](analysis/research-readiness.json).

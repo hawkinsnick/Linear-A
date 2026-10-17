@@ -1,0 +1,23 @@
+name: Research readiness P0 controls
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  public-view:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/research_readiness.py --check
+      - run: python scripts/test_research_readiness.py
+      - run: python scripts/test_source_layers.py
+      - run: python scripts/build_research_package.py /tmp/linear-a-research.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linear-a-research-${{ github.sha }}
+          path: |
+            /tmp/linear-a-research.zip
+            /tmp/linear-a-research.zip.sha256
+          if-no-files-found: error

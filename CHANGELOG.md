@@ -162,3 +162,11 @@ Refreshed all18 native authority receipts and stale coverage summaries; added th
 ## 2026-10-16 P1 human-validation preparation
 
 Added18-member revision-bound human/source-authority routing, four strengthened native scopes and explicit no-acceptance guards. TL44 historical boundary accounting now covers105 rows,199 code-point spans and47 qualified marker contexts. New requests distinguish source-editor clarification, acquisition, enforced notation controls and epigraphic judgment. See corpus-factory/HUMAN-VALIDATION-ROUTE.md.
+
+## 2026-10-17 — Northwestern research-readiness pilot
+
+- Audit all 802 public source-document entries, 1,401 editorial groups and 376 sign entries for identifiers, provenance and interpretation boundaries.
+- Recover 802 document-type and 634 dimension assertions from existing source fields, with exact field locators and centimetre units.
+- Bind exports to source/generator/output hashes; preserve qualifications in manifests and full-record round trips across 12 resource/format combinations.
+- Add deterministic offline replay package, tamper/semantic rejection tests and CI artifact publication.
+- Synchronize individual/master skill instructions; retain 23 unavailable publication routes and all rights, calibration and expert-review dependencies. No new reading or independent witness.

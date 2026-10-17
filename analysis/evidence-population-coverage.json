@@ -1,0 +1,42 @@
+{
+  "format": "linear-a-evidence-population-coverage-v1",
+  "version": "3.0.20",
+  "documents": 802,
+  "context": {
+    "assertions": 3016,
+    "fields": {
+      "dimensions": {
+        "assertions": 634,
+        "documents": 634,
+        "document_coverage": 0.790524
+      },
+      "document_type": {
+        "assertions": 802,
+        "documents": 802,
+        "document_coverage": 1.0
+      },
+      "period": {
+        "assertions": 778,
+        "documents": 778,
+        "document_coverage": 0.970075
+      },
+      "site": {
+        "assertions": 802,
+        "documents": 802,
+        "document_coverage": 1.0
+      },
+      "support": {
+        "assertions": 0,
+        "documents": 0,
+        "document_coverage": 0.0
+      }
+    }
+  },
+  "scholarship": {
+    "status": "SCHEMA_AND_VALIDATOR_READY_POPULATION_PENDING"
+  },
+  "geospatial": {
+    "status": "VALIDATOR_EXPORT_READY_POPULATION_PENDING"
+  },
+  "rights_boundary": "Missing values remain missing. Coverage measurement never licenses inference, source copying or GORILA-derived extraction."
+}

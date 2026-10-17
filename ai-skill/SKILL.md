@@ -8,6 +8,18 @@ version: 0.3.1
 
 Use the supplied Linear A Open Corpus files as the primary evidence base.
 
+## Linear A research-readiness controls
+
+For public SigLA-view provenance, context coverage or export/replay questions,
+read `docs/NORTHWESTERN-RESEARCH-READINESS.md` and
+`analysis/research-readiness.json`. Run `python scripts/research_readiness.py --check`
+before describing the report as current. Keep the result scoped to the committed
+public derivative; never generalize it to all inscriptions or other corpus members.
+Preserve missing publication routes, source-reported context, unresolved readings,
+rights refusals and expert/calibration gates. Use export v2 manifests to cite exact
+source/output bytes; deterministic package replay establishes byte identity only.
+Treat TEI JSON-note round trips as preservation tests, not validated EpiDoc.
+
 ## Core rules
 
 1. Distinguish observation, source transcription/classification, normalization, computational derivation, and scholarly interpretation.

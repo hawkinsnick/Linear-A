@@ -8,6 +8,18 @@ version: 1.3.0
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
 
+## Linear A research-readiness controls
+
+For public SigLA-view provenance, context coverage or export/replay questions,
+read `docs/NORTHWESTERN-RESEARCH-READINESS.md` and
+`analysis/research-readiness.json`. Run `python scripts/research_readiness.py --check`
+before describing the report as current. Keep the result scoped to the committed
+public derivative; never generalize it to all inscriptions or other corpus members.
+Preserve missing publication routes, source-reported context, unresolved readings,
+rights refusals and expert/calibration gates. Use export v2 manifests to cite exact
+source/output bytes; deterministic package replay establishes byte identity only.
+Treat TEI JSON-note round trips as preservation tests, not validated EpiDoc.
+
 ## Mandatory routing
 1. Identify which registered corpus project(s) can answer the question.
 2. Load each project's individual SKILL.md and generated research-bundle index before using its evidence.

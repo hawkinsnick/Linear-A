@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: c1d4b29013cf6e7b1d5c3388fba907e2e7a75d601ed94ca6fcd198b1f8644194
+Instruction snapshot SHA-256: 1984f1372c9d49e5c39b6c88ba22f9fd17292db0fa91dd7c25aedccd7768bbc9
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1168,7 +1168,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 01a33177006395b82431ce4dbf4fe752519d5275553482e5ee1f71fac25be77f
+SHA-256: 60ee1f28f21281d0c9fa1da214a7c49abaf5553bc555b249ce46d91ad0791341
 
 ---
 name: combined-corpus-research
@@ -1179,6 +1179,18 @@ version: 1.3.0
 # Combined Corpus Research AI — 1.4
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
+
+## Linear A research-readiness controls
+
+For public SigLA-view provenance, context coverage or export/replay questions,
+read `docs/NORTHWESTERN-RESEARCH-READINESS.md` and
+`analysis/research-readiness.json`. Run `python scripts/research_readiness.py --check`
+before describing the report as current. Keep the result scoped to the committed
+public derivative; never generalize it to all inscriptions or other corpus members.
+Preserve missing publication routes, source-reported context, unresolved readings,
+rights refusals and expert/calibration gates. Use export v2 manifests to cite exact
+source/output bytes; deterministic package replay establishes byte identity only.
+Treat TEI JSON-note round trips as preservation tests, not validated EpiDoc.
 
 ## Mandatory routing
 1. Identify which registered corpus project(s) can answer the question.

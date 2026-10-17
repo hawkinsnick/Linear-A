@@ -1,0 +1,54 @@
+{
+  "format": "linear-a-research-readiness-v1",
+  "scope": "Committed public SigLA derivative only; not all Linear A evidence or all language corpora.",
+  "p0_engineering_status": "PASS_BOUNDED_PUBLIC_VIEW",
+  "scholarly_completeness": "NOT_ESTABLISHED",
+  "expert_review_completed": false,
+  "counts": {
+    "documents": 802,
+    "source_words": 1401,
+    "signs": 376,
+    "attestation_slots": 5144
+  },
+  "inputs": [
+    {
+      "path": "research/sigla-source-documents.jsonl",
+      "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+      "records": 802
+    },
+    {
+      "path": "research/sigla-source-groups.jsonl",
+      "sha256": "c13cd9ee4c44252c5a6b31a47809bea55d77bc296c47b1d31e61beb37b2fbeb1",
+      "records": 1401
+    },
+    {
+      "path": "research/sigla-source-signs.jsonl",
+      "sha256": "26c7ec88129db9cb336fafa82b3f7aabec3fa8e348200fe21c66dcbc36d3aedc",
+      "records": 376
+    }
+  ],
+  "context": {
+    "assertions": 3016,
+    "assertions_by_field": {
+      "site": 802,
+      "document_type": 802,
+      "dimensions": 634,
+      "period": 778,
+      "support": 0
+    },
+    "meaning": "Counts are source-reported nonempty values, not independently verified archaeological facts."
+  },
+  "reference_routes": {
+    "ABSENT": 19,
+    "LITERAL_MISSING": 4,
+    "SESSION_PARAMETER_REMOVED_PUBLIC_ROUTE": 779
+  },
+  "unresolved_dependencies": [
+    "23 source entries lack a usable public reference route; do not invent publication locators.",
+    "A public edition route does not establish permission, primary collation or an attributed competing reading.",
+    "Source-reported dates and contexts are not independent object verification.",
+    "GORILA structured ingestion remains subject to the recorded EFA refusal.",
+    "Independent epigraphic review and known-answer calibration remain open under current gates.",
+    "Other corpus members require native audits before this bounded result can be generalized."
+  ]
+}

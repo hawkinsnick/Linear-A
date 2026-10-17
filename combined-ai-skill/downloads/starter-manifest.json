@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "0302af0a0eb8abc039e39ff251489f6844605d9b0bfcf553005bc5f784a21f6e",
+  "build_script_sha256": "0ff9e9da1c911dca38647a9320e28ef31c042e634feeb975af7f20313fe9a794",
   "source_files": [
     {
       "path": "LICENSE",
@@ -27,6 +27,11 @@
       "path": "LICENSING.md",
       "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
       "bytes": 2487
+    },
+    {
+      "path": "analysis/research-readiness.json",
+      "sha256": "bc71f71773d777f627fd1f50503ed5c8b11b477049089c05a42d76becdaff4fa",
+      "bytes": 1971
     },
     {
       "path": "combined-ai-skill/CORPUS-DOWNLOADS.md",
@@ -55,8 +60,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "01a33177006395b82431ce4dbf4fe752519d5275553482e5ee1f71fac25be77f",
-      "bytes": 58845
+      "sha256": "60ee1f28f21281d0c9fa1da214a7c49abaf5553bc555b249ce46d91ad0791341",
+      "bytes": 59595
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -247,7 +252,12 @@
       "path": "docs/LINEARA-XYZ-REFERENCE.md",
       "sha256": "a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1",
       "bytes": 1558
+    },
+    {
+      "path": "docs/NORTHWESTERN-RESEARCH-READINESS.md",
+      "sha256": "60d75bd6ffaf65ec5fe7e2b5c0316acc349282b5300adc1df707deb9573f2bb0",
+      "bytes": 4332
     }
   ],
-  "snapshot_sha256": "c1d4b29013cf6e7b1d5c3388fba907e2e7a75d601ed94ca6fcd198b1f8644194"
+  "snapshot_sha256": "1984f1372c9d49e5c39b6c88ba22f9fd17292db0fa91dd7c25aedccd7768bbc9"
 }
