@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "aa467e8befae6457477febfbed6b830b2b2dfa5b",
-  "generated_at_utc": "2026-10-17T01:10:25+00:00",
+  "source_commit": "f69c243cee89e6f27655425c0028a14184b4dfe6",
+  "generated_at_utc": "2026-10-17T01:12:10+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -994,8 +994,8 @@
     {
       "role": "northwestern_program",
       "path": "corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md",
-      "sha256": "aa85da69dd6598c7c414aa497e2e220bdf38f91c9bc9ed070bfe0b231f6c7598",
-      "bytes": 6918
+      "sha256": "f5e91c343e70f99de36454425669cd3d9fbeecae4c852ff1a33fe485cf587de7",
+      "bytes": 7300
     },
     {
       "role": "northwestern_program",
@@ -1028,6 +1028,12 @@
       "bytes": 91162
     },
     {
+      "role": "northwestern_program",
+      "path": "corpus-factory/northwestern-published-revisions.json",
+      "sha256": "44933064ba2164ef64f9d6ece24dca048d82f5f8eace0c59e6dd9ff996153dd1",
+      "bytes": 2581
+    },
+    {
       "role": "northwestern_requirements",
       "path": "corpus-factory/northwestern-work-program.json",
       "sha256": "8b376114564e4bcd38731da0f7c0b2d57e29462917e2bb53230fb0b6702bea06",
@@ -1044,6 +1050,18 @@
       "path": "corpus-factory/test_northwestern_program.py",
       "sha256": "275a7278b02a445a8cd8a1675002c9d973cdf42a42aa0a38e51b9d173406c744",
       "bytes": 1552
+    },
+    {
+      "role": "northwestern_publication",
+      "path": "corpus-factory/verify_federated_snapshot.py",
+      "sha256": "c168194dbe8b3884bcbd993cbe9d7f24744029999c0b2556158bd81782348714",
+      "bytes": 1723
+    },
+    {
+      "role": "northwestern_publication",
+      "path": "corpus-factory/northwestern-hosted-leaf-checks.json",
+      "sha256": "7ba058391cde0efb3216eb24bc839bf61481a96e61ba528855585a5cfb0e2404",
+      "bytes": 39109
     }
   ]
 }
