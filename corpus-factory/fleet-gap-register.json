@@ -369,13 +369,13 @@
     {
       "repo": "Sidetic",
       "evidence_depth": "ATTRIBUTED_DIGITAL_REFERENCE",
-      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 11 records / 32 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added. Supplied Phillips–Rutherford2025 and Rizza–Zinko2025 PDF/figure checks complete in selected scope; ewpel underdot attribution corrected with prose uncertainty retained. Darga early Seleukeia publication acquired: twelve leaves visually inspected; four qualified Greek-component/name/custody/notation comparisons query-linked to S6. Date-role discrepancy and historical sign system retained. Brixhe–Neumann1988 remains unconsulted.",
-      "top_gap": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, other2025 Abydos edition comparison and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
+      "coverage_state": "11 source document IDs / 32 nonempty source lines; full captured-directory acquisition; 0 independently verified objects; source-bound record review packets available; v0.4.0 targeted edition comparisons and complete frozen-record source worklist Complete native reference EpiDoc export: 11 records / 32 nonempty rows, all native fields preserved, all 57 upstream Schematron patterns executed without findings. No primary/object review added. Supplied Phillips–Rutherford2025 and Rizza–Zinko2025 PDF/figure checks complete in selected scope; ewpel underdot attribution corrected with prose uncertainty retained. Darga early Seleukeia publication acquired: twelve leaves visually inspected; four qualified Greek-component/name/custody/notation comparisons query-linked to S6. Date-role discrepancy and historical sign system retained. Brixhe–Neumann1988 remains unconsulted. The two2025 Abydos first-graffito editions have now been directly compared from supplied PDFs; final u/w(?) and possible overwriting remain unresolved, with source dependence explicit.",
+      "top_gap": "Direct early-edition comparison, Greek/Sidetic component and source-numbering reconciliation, independent adjudication of the now-compared2025 Abydos alternatives and independent damaged-sign assessment; preserve N22/N02 and source-specific notations.",
       "status_source": "analysis/current-status.json",
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "88b6cfa45607a374d66d82a2cd87dc15cce87cb0",
+        "source_commit": "387e3e2814d07471bbc78e6cf9c22477e36c176e",
         "inspected_on": "2026-10-16",
         "artifacts": [
           {
@@ -384,18 +384,18 @@
           },
           {
             "path": "research/source-collation-2026-10-15.json",
-            "sha256": "28eee2baba3da54e66b71c92f12a8feda2c008edbc1915b610e98e7a901483ea"
+            "sha256": "35d1e964000a42df59c572408c6b77e074e3e1b091ef793c45f0d0c99161a8a0"
           },
           {
             "path": "research/p1-source-followup-2026-10-16.json",
-            "sha256": "bad037f0a965445ce0ce5a8547c23be1c5d5a8a15a8824f60f9c590dec57a992"
+            "sha256": "1f4f62bc2ab8b6e2e2764bc753df074687b80cb55f551bafe3e470a8f5af213e"
           },
           {
             "path": "review/p1-human-request.json",
-            "sha256": "31ae690f5e0fe348276cc0ed2738bf57fd35accc289e32b00324456a3502e34e"
+            "sha256": "c97b75f5d46392591192fe64ca8238a74331ec1a45d46d106a2c3bdc032a6a7d"
           }
         ],
-        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+        "scope": "Revision-bound documentary status; the native packet contains fresh publication-image receipts, not project object autopsy or independent acceptance."
       }
     },
     {

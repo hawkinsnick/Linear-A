@@ -170,3 +170,8 @@ Added18-member revision-bound human/source-authority routing, four strengthened 
 - Bind exports to source/generator/output hashes; preserve qualifications in manifests and full-record round trips across 12 resource/format combinations.
 - Add deterministic offline replay package, tamper/semantic rejection tests and CI artifact publication.
 - Synchronize individual/master skill instructions; retain 23 unavailable publication routes and all rights, calibration and expert-review dependencies. No new reading or independent witness.
+
+
+### 2026-10-16 Sidetic Abydos edition comparison
+
+Updated selected source/query/attribution snapshots, Sidetic P1 receipt bindings, guide and master/native AI routing after the supplied *Sidetic in Egypt* comparison. Preserved competing final-sign analyses and source dependence. Same17 selected tasks;49 page inspections including one historical blank leaf. No scientific acceptance, independent review or corpus-object growth added.
