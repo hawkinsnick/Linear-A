@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "55d8d029e65f62e3dae3f300ffde25fc18aebbf7",
-  "generated_at_utc": "2026-10-17T11:14:03+00:00",
+  "source_commit": "305ff338f23e9e9b4e16b3c79cd290aa944f5f32",
+  "generated_at_utc": "2026-10-17T15:23:42+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -286,14 +286,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "bfb7e406225c3f191b7bf1c90e33e76738ba131386a840784b36a7e19643f60e",
-      "bytes": 6261
+      "sha256": "98576b8ca15fbdd2529a6f9517ff72982c5df808061aeae96270d334031371cc",
+      "bytes": 7111
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "7f8fcc0753ae3e7ea33a092c59dbb42cb7ec29e75e39baf54537183ebd305f89",
-      "bytes": 7658
+      "sha256": "118296e989684defcc82df736fb616aa84fa650444229d6332895c82a6558094",
+      "bytes": 8849
     },
     {
       "role": "native_evidence_query",
@@ -412,8 +412,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "a563aea04d3fcbfe15470cdc733a5f83cc9c305c4545988ac9bd274fa0e5bc44",
-      "bytes": 62878
+      "sha256": "3af7edd461beab13766a1c988c8ee3da0962e1eae373e3fac73aaca012e91524",
+      "bytes": 63246
     },
     {
       "role": "source_delivery_guide",
@@ -484,8 +484,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "6a4d43b7d2ab90d76dc3e63b51d4f8859c98060ab59ae7417d958f7b6c66ffde",
-      "bytes": 40446
+      "sha256": "95b8c8f253349d4e04386c88150bbcb5c79301d32a9e14e71a8ad61d5684aa49",
+      "bytes": 40933
     },
     {
       "role": "cross_corpus_dependencies",
@@ -988,8 +988,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "d3cb47d9b5b7352149a328635d3b406170d29085c27f8b6138e552dd6ac09459",
-      "bytes": 8216
+      "sha256": "4a1ab2cab84b854f8bd78756abc4a06b46aebdafdfdbc9d06d415a2c35b23149",
+      "bytes": 9276
     },
     {
       "role": "northwestern_program",
@@ -1078,8 +1078,8 @@
     {
       "role": "specialist_task_pilot",
       "path": "docs/RESEARCH-TASK-PILOT.md",
-      "sha256": "770eacaea2ea2b2a115e8e60a4b15c7ec9ea8b4756961ddbb5611e7b1fb47ecd",
-      "bytes": 4539
+      "sha256": "02ee2b5f0da04b5ec7ee8c4e899fd7997a85f4781e917bd9dd3d25499581b88c",
+      "bytes": 4704
     },
     {
       "role": "specialist_task_pilot",
@@ -1098,6 +1098,54 @@
       "path": "corpus-factory/SPECIALIST-RESEARCH-PILOTS.md",
       "sha256": "cedd9260b352f4f4a7c6c3d153a8c4f2e71664e2be638d906d900836d4913c74",
       "bytes": 5504
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "research/source-study-2026-10-17.json",
+      "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+      "bytes": 6755
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "scripts/source_study.py",
+      "sha256": "2174833f4857bc0916afe1137134cc530e737b5700e8dfb5e93f395446311935",
+      "bytes": 9394
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "scripts/test_source_study.py",
+      "sha256": "35147745472ec2eaed4fdf8ce594d3987b12d03900650a34cd0a11461d3a6743",
+      "bytes": 2415
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "sha256": "104c03f9161757e8fdcf3d1372c5dd33dde69b9ffbd5cfb9048f45bc15408e3d",
+      "bytes": 2470
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "review/source-study-packet.json",
+      "sha256": "450785719e789ebc68d0719f4b185640548d45b543708bbb08743af3925cbc4c",
+      "bytes": 4089
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "review/source-study-response.json",
+      "sha256": "e2c95d125ac53b09ff73928b8e7d3e9504e5902d59eff47866afdf9e7bb07f0c",
+      "bytes": 1019
+    },
+    {
+      "role": "bounded_source_study",
+      "path": "analysis/source-study-audit.json",
+      "sha256": "1fb8c2b037c5ddaca5bb6647217ebe2e2657e4d8413988f08f7e63c862191ad7",
+      "bytes": 1033
+    },
+    {
+      "role": "source_study_master_route",
+      "path": "corpus-factory/SOURCE-STUDIES-2026-10-17.md",
+      "sha256": "ac091d319ec7a4991a224bbbb18a9c44f570e48c90c9b44975a3a98ee428d823",
+      "bytes": 1747
     }
   ]
 }
