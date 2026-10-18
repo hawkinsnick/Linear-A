@@ -119,6 +119,23 @@
         "role": "bounded directly consulted source study",
         "encoding": "json"
       }
+    },
+    {
+      "name": "reading-comparisons",
+      "native_unit": "bounded documentary follow-up case",
+      "record_count": 1,
+      "scope": "Preserve text-rendition/access qualifications or catalogue-reference-candidate status; no canonical reading, linguistic join or scientific acceptance.",
+      "example_ids": [
+        "LA-PKZB21-FIRST-SIGN-20261018"
+      ],
+      "provenance": {
+        "path": "research/reading-comparison-2026-10-18.json",
+        "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded documentary follow-up",
+        "encoding": "json"
+      }
     }
   ],
   "scholarly_limits": [
@@ -165,8 +182,8 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "97b7c53b8089f9a0f959de1f5a535b6392522d5c8e5650c01a7592d5e1972a6d",
-      "bytes": 41266
+      "sha256": "66e5201d5fdbbfd1ff1e0511f3e7679960855e720881056f8dfff06312ab4c68",
+      "bytes": 41728
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
@@ -200,8 +217,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "98576b8ca15fbdd2529a6f9517ff72982c5df808061aeae96270d334031371cc",
-      "bytes": 7111
+      "sha256": "33b91a67cc26cb7334cf8489901acf4b67e472dd764db3bf84ef352a86fd3062",
+      "bytes": 7788
     },
     {
       "path": "research/legacy-case-attribution.json",
@@ -212,6 +229,11 @@
       "path": "research/legacy-case-source-searches.json",
       "sha256": "e08e4e61fa1d152abbfef7ee16f5ea3e6b4bc1b44fabd87ced29fba54c8f18bf",
       "bytes": 5653
+    },
+    {
+      "path": "research/reading-comparison-2026-10-18.json",
+      "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+      "bytes": 7403
     },
     {
       "path": "research/sigla-source-documents.jsonl",

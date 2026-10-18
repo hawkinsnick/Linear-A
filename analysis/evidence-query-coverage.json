@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-A",
-  "profile_sha256": "98576b8ca15fbdd2529a6f9517ff72982c5df808061aeae96270d334031371cc",
+  "profile_sha256": "33b91a67cc26cb7334cf8489901acf4b67e472dd764db3bf84ef352a86fd3062",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -115,6 +115,23 @@
         "role": "bounded directly consulted source study",
         "encoding": "json"
       }
+    },
+    {
+      "name": "reading-comparisons",
+      "native_unit": "bounded documentary follow-up case",
+      "record_count": 1,
+      "scope": "Preserve text-rendition/access qualifications or catalogue-reference-candidate status; no canonical reading, linguistic join or scientific acceptance.",
+      "example_ids": [
+        "LA-PKZB21-FIRST-SIGN-20261018"
+      ],
+      "provenance": {
+        "path": "research/reading-comparison-2026-10-18.json",
+        "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded documentary follow-up",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -204,6 +221,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded directly consulted source study",
+      "encoding": "json"
+    },
+    {
+      "path": "research/reading-comparison-2026-10-18.json",
+      "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded documentary follow-up",
       "encoding": "json"
     }
   ],

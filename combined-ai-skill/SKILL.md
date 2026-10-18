@@ -421,3 +421,6 @@ For the 2026-10-17 Linear B, Linear A and Anatolian Hieroglyphic source studies,
 ## Three-source acquisition status — 2026-10-18
 
 Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/source-intake-2026-10-18.json`. None of the three original-page checks is complete. Route to the native intake packets for partial consultation, corrected identity and remaining delivery requirements; do not count acquisition tasks as objects or pool them with the17 earlier comparisons. The joint Brixhe–Neumann1988 article is DOI10.1515/kadmos-1988-0105;0108 is a different Neumann article. Preserve deposited metadata versus original-page inspection and prepared versus sent requests. No global sign/numbering normalization, accepted reading or expert review follows.
+
+
+For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md`. Route to the member’s `research/review-exercise-2026-10-18.json` and exact native target. Distinguish a PKZb21 text-rendition contrast from full-word/page collation and Luwian reference candidates from exact reading joins. Never present a teaching example as human review.

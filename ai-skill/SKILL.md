@@ -305,3 +305,6 @@ Route source-study questions through `docs/SOURCE-STUDY-2026-10-17.md`, `researc
 ## Source intake routing — 2026-10-18
 
 Use `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` for the three requested source follow-ups and unresolved original-page checks. Route factual evidence to native packets; bibliographic corrections and web-text consultation do not establish inspected typography or accepted readings.
+
+
+For the source follow-up and reviewer exercise, read `docs/REVIEWER-WALKTHROUGH.md` and `research/review-exercise-2026-10-18.json`; retrieve its exact native target. Preserve the source register’s actual access level and all remaining gates. Treat `review/teaching-example.json` as a simulated project exercise with no reviewer, never a completed human assessment. Require the native blank response and independent source consultation for a real submission.

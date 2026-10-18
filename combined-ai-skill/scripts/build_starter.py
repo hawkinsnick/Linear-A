@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STARTER = "Combined-Corpus-Research-Starter"
 EXCLUDED = {"hawkinsnick/LightroomIsSlow", "hawkinsnick/Egyptian-Hieroglyphic-Corpus"}
 SOURCE_PATHS = (
+    "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md",
     "corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md",
     "corpus-factory/source-intake-2026-10-18.json",
     "corpus-factory/SOURCE-STUDIES-2026-10-17.md",

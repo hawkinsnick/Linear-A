@@ -50,6 +50,15 @@
       "singleton": true,
       "unit": "bounded source-acquisition or scholarly-argument study",
       "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review."
+    },
+    {
+      "name": "reading-comparisons",
+      "path": "research/reading-comparison-2026-10-18.json",
+      "pointer": "",
+      "id_pointer": "/case_id",
+      "singleton": true,
+      "unit": "bounded documentary follow-up case",
+      "scope": "Preserve text-rendition/access qualifications or catalogue-reference-candidate status; no canonical reading, linguistic join or scientific acceptance."
     }
   ],
   "relations": [
@@ -151,6 +160,13 @@
       "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
       "encoding": "json",
       "role": "bounded directly consulted source study",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "research/reading-comparison-2026-10-18.json",
+      "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+      "encoding": "json",
+      "role": "bounded documentary follow-up",
       "source_snapshot_commit": null
     }
   ],

@@ -1,0 +1,26 @@
+{
+  "format": "review-teaching-example-v1",
+  "status": "SIMULATED_MAINTAINER_EXERCISE_NOT_REVIEW",
+  "demonstration_only": true,
+  "human_review_occurred": false,
+  "reviewer": null,
+  "target": {
+    "collection": "reading-comparisons",
+    "id": "LA-PKZB21-FIRST-SIGN-20261018"
+  },
+  "profile_sha256": "33b91a67cc26cb7334cf8489901acf4b67e472dd764db3bf84ef352a86fd3062",
+  "provenance": {
+    "path": "research/reading-comparison-2026-10-18.json",
+    "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+    "pointer": "",
+    "native_artifacts_snapshot_commit": null,
+    "role": "bounded documentary follow-up",
+    "encoding": "json"
+  },
+  "practice_decision": "MORE_SOURCE_REQUIRED",
+  "practice_assessment": "The documentary contrast is useful, but the source record explicitly lacks original-page image checks and the complete Davis alternative. Retain the original report’s multiple possibilities, label OCR uncertainty, and request lawful full-page inspection before adjudication. The proposed decision is a teaching example, not a specialist finding.",
+  "evidence_inspected_for_this_exercise": "Committed documentary register only; this example is not a new primary-source consultation or a specialist response.",
+  "scientific_approval_granted": false,
+  "native_changes_applied": false,
+  "submission_warning": "Do not submit or reformat this example as a real review. A real reviewer must independently inspect sources, identify themselves and provide their own assessment."
+}

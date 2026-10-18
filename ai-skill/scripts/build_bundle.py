@@ -69,6 +69,8 @@ CANDIDATES += [("specialist_task_pilot", p) for p in ['scripts/task_pilot.py', '
 CANDIDATES += [("specialist_task_pilot_master", "corpus-factory/SPECIALIST-RESEARCH-PILOTS.md")]
 CANDIDATES += [("bounded_source_study", p) for p in ['research/source-study-2026-10-17.json', 'scripts/source_study.py', 'scripts/test_source_study.py', 'docs/SOURCE-STUDY-2026-10-17.md', 'review/source-study-packet.json', 'review/source-study-response.json', 'analysis/source-study-audit.json']]
 CANDIDATES += [("source_study_master_route", "corpus-factory/SOURCE-STUDIES-2026-10-17.md")]
+CANDIDATES += [("source_followup_and_review_teaching", p) for p in ['research/review-exercise-2026-10-18.json', 'scripts/review_walkthrough.py', 'scripts/test_review_walkthrough.py', 'docs/REVIEWER-WALKTHROUGH.md', 'review/teaching-example.json', 'review/followup-packet.json', 'review/followup-response.json', 'analysis/review-walkthrough-audit.json', 'research/reading-comparison-2026-10-18.json', 'docs/PK-ZB21-READING-COMPARISON.md']]
+CANDIDATES += [("review_followup_master_route", "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md")]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

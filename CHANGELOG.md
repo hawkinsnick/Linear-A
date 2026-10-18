@@ -200,3 +200,8 @@ Added attributed source-study records, reproducible native evidence bindings and
 ### 2026-10-18 three-source acquisition follow-up
 
 Published qualified progress and current delivery requirements for the two Sidetic sources and Olivier2007. Corrected joint-article DOI identity; kept partial consultation, failed PDF routes and unsent requests explicit. Updated native query routing and individual/master AI instructions; no new source-page inspection or reading acceptance.
+
+
+## 2026-10-18 — documentary follow-up and reviewer walkthrough
+
+Added an evidence-bound [reviewer walkthrough](docs/REVIEWER-WALKTHROUGH.md), explicitly simulated practice assessment, blank real response and replay controls. Added the PKZb21 first-sign contrast at text-rendition/excerpt level; full-page/full-word collation remains open. Updated the individual AI authorities and combined routing. No canonical reading, expert acceptance or outreach added.
