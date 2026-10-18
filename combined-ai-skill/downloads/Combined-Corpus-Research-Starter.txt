@@ -2,12 +2,42 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 05321dc0757e386fdd3fcda5ea6fa2d1301d9cbf40cbc1bcb04202e4bfa61d09
+Instruction snapshot SHA-256: 97c563e2f806570ddf7be26121cbcc0184fe6f212fd1e2945759b3a7bbdae40e
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
 Directory summaries are snapshot routing metadata, not current independently checked inscription facts.
 If a required member file cannot be accessed, identify what is missing and help select the next files.
+
+=== SOURCE FILE: corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md ===
+SHA-256: 928b760b68024ac931b3bc92b815561c344dc8c1982bef57b2e39ff9e928e9de
+
+# Three-source follow-up — 2026-10-18
+
+All three requested acquisition/comparison tasks were pursued. **None of the three outstanding original-PDF/page checks is complete.** No new PDF or rendered-page inspection was obtained. Ferrer’s accessible publisher-provided web text supports a bounded convention/scope check; its exact glyph and appendix-row comparison remains open. The master records these consultation limits separately from the earlier17 selected publication comparisons.
+
+| Requested source | Supported progress | Outstanding evidence |
+|---|---|---|
+| Ferrer2025, full new-vowel study | Semantic model and appendix-policy consultation recorded with page markers in the native intake packet | Lawful PDF and visual comparison of diagrams, typography and complete appendix |
+| Brixhe–Neumann1988 | Correct joint-article DOI verified from publisher-deposited metadata: **10.1515/kadmos-1988-0105** | Original article, pp.35–43; targeted Greek-component comparison |
+| Olivier2007 | Publisher route rechecked; Louvre209 bibliography used to improve the delivery request | Entries026–027 at76–77; relevant209 loci within museum-cited344–383; inspect496 to establish the role of the earlier project locator |
+
+The previously supplied DOI **10.1515/kadmos-1988-0108** identifies Günter Neumann’s separate *Zur sidetisch-griechischen Bilingue I*. It must not be used as the identifier for the joint Brixhe–Neumann article. Deposited title/author metadata establish this bibliographic distinction; neither original paper was acquired through this work.
+
+The Louvre’s bibliography is a museum assertion, not direct Olivier consultation, a confirmed reading or project physical certification. The broader209 page range does not silently invalidate the older496 locator; both require checking in the book. A museum image or bibliography cannot settle Valério’s09/10 discrepancy.
+
+## Native evidence and prepared delivery requests
+
+- [Sidetic source intake](https://github.com/hawkinsnick/Sidetic/blob/main/research/source-intake-2026-10-18.json): two task dossiers, page markers, bounded model notes, corrected bibliographic identity, failed routes and unsent request texts.
+- [Cypro-Minoan source intake](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/research/source-intake-2026-10-18.json): Olivier request scope and Louvre bibliography qualification.
+
+Run `python scripts/evidence_query.py --list source-intake-2026-10-18` within the relevant native repository. Individual cases are accessible using `--record CASE_ID --collection source-intake-2026-10-18`. These are acquisition tasks, not inscriptions, alternative pairs or independent witnesses.
+
+HTTP202 with zero bytes is not an acquired PDF;403 is route-specific. No source-access exhaustion is claimed. Requests are prepared but **not sent**; no purchase is made. The factual convention notes do not authorize normalization or canonical replacement. Frozen readings, source-file redistribution and independent-review states remain unchanged. The dated packet records native hashes and merge revisions for replay.
+
+The dated research-delivery fleet and Northwestern federated checkpoints remain historical receipts. This follow-up is bound separately to the native merge commits in `source-intake-2026-10-18.json`; it does not recertify the full fleet.
+
+=== END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md ===
 SHA-256: f5e91c343e70f99de36454425669cd3d9fbeecae4c852ff1a33fe485cf587de7
@@ -1489,7 +1519,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 3af7edd461beab13766a1c988c8ee3da0962e1eae373e3fac73aaca012e91524
+SHA-256: 4cbb4f2087de568bb6ac5c4608f9093a50025990cdfc84074f4fab05321b4e08
 
 ---
 name: combined-corpus-research
@@ -1909,6 +1939,11 @@ Read `corpus-factory/SPECIALIST-RESEARCH-PILOTS.md` and each native `docs/RESEAR
 
 
 For the 2026-10-17 Linear B, Linear A and Anatolian Hieroglyphic source studies, first read `corpus-factory/SOURCE-STUDIES-2026-10-17.md`, then the member-native source-study register and review packet. Keep documentary identity, script classification and attributed reading-level assertions distinct. Prepared specialist packets do not establish expert acceptance.
+
+
+## Three-source acquisition status — 2026-10-18
+
+Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/source-intake-2026-10-18.json`. None of the three original-page checks is complete. Route to the native intake packets for partial consultation, corrected identity and remaining delivery requirements; do not count acquisition tasks as objects or pool them with the17 earlier comparisons. The joint Brixhe–Neumann1988 article is DOI10.1515/kadmos-1988-0105;0108 is a different Neumann article. Preserve deposited metadata versus original-page inspection and prepared versus sent requests. No global sign/numbering normalization, accepted reading or expert review follows.
 
 === END SOURCE FILE ===
 
@@ -3024,7 +3059,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 337255d4fd76287c53e5ac734791e722b18b068b26c7f8fdf5244e0b5000464a
+SHA-256: a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b
 
 {
   "schema_version": "1.0",
@@ -3066,8 +3101,8 @@ SHA-256: 337255d4fd76287c53e5ac734791e722b18b068b26c7f8fdf5244e0b5000464a
       "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
       "current_evidence": {
         "repository": "hawkinsnick/Cypro-Minoan",
-        "source_commit": "6a29f3ff30370c7066d6a8d9b94c2d7478e7cd66",
-        "inspected_on": "2026-10-16",
+        "source_commit": "7eafbfff44e84d51d8ef85543ba0388de4681760",
+        "inspected_on": "2026-10-18",
         "artifacts": [
           {
             "path": "analysis/current-status.json",
@@ -3084,9 +3119,13 @@ SHA-256: 337255d4fd76287c53e5ac734791e722b18b068b26c7f8fdf5244e0b5000464a
           {
             "path": "research/identity-reconciliation-v2.json",
             "sha256": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380"
+          },
+          {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "176cc01584403aab901149f4149a55184bea67f4c8089778a536e02a6857fc2d"
           }
         ],
-        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
       }
     },
     {
@@ -3403,8 +3442,8 @@ SHA-256: 337255d4fd76287c53e5ac734791e722b18b068b26c7f8fdf5244e0b5000464a
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "387e3e2814d07471bbc78e6cf9c22477e36c176e",
-        "inspected_on": "2026-10-16",
+        "source_commit": "13cf969aa07eee1926ea17965451633974a1f82f",
+        "inspected_on": "2026-10-18",
         "artifacts": [
           {
             "path": "analysis/current-status.json",
@@ -3421,9 +3460,13 @@ SHA-256: 337255d4fd76287c53e5ac734791e722b18b068b26c7f8fdf5244e0b5000464a
           {
             "path": "review/p1-human-request.json",
             "sha256": "c97b75f5d46392591192fe64ca8238a74331ec1a45d46d106a2c3bdc032a6a7d"
+          },
+          {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "29500c325bde09c71a8141442736d80856de1a5dfc9f62d664f1c88fea41fc74"
           }
         ],
-        "scope": "Revision-bound documentary status; the native packet contains fresh publication-image receipts, not project object autopsy or independent acceptance."
+        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
       }
     },
     {

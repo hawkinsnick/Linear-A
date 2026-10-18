@@ -30,7 +30,7 @@
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
-      "source_commit": "6a29f3ff30370c7066d6a8d9b94c2d7478e7cd66",
+      "source_commit": "7eafbfff44e84d51d8ef85543ba0388de4681760",
       "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
       "remaining_work_categories": [
         "source_acquisition",
@@ -41,7 +41,11 @@
       "native_review_inputs": [
         {
           "path": "review/collection-packet.json",
-          "sha256": "84d7be68639e7c2a93e435b5ec3abbe02ec349938e088c0b9fab102ef03b0687"
+          "sha256": "8cb52f433788a287493597df194c4eb0a327931344e2ef63f4ed5e2e77ace70c"
+        },
+        {
+          "path": "research/source-intake-2026-10-18.json",
+          "sha256": "176cc01584403aab901149f4149a55184bea67f4c8089778a536e02a6857fc2d"
         }
       ],
       "native_acceptance_controls_remain_required": true,
@@ -322,7 +326,7 @@
     },
     {
       "repository": "hawkinsnick/Sidetic",
-      "source_commit": "387e3e2814d07471bbc78e6cf9c22477e36c176e",
+      "source_commit": "13cf969aa07eee1926ea17965451633974a1f82f",
       "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
       "remaining_work_categories": [
         "edition_acquisition",
@@ -334,11 +338,15 @@
       "native_review_inputs": [
         {
           "path": "review/collection-packet.json",
-          "sha256": "4f5e312adf341e6a59a4fda20415821540c9b8f51fc7354f5395dfbc7a3579c9"
+          "sha256": "65d1d2238ba304ad88bdd275238a8795d4b09c87d9f1720bfa4a510e4c7544f2"
         },
         {
           "path": "review/p1-human-request.json",
           "sha256": "c97b75f5d46392591192fe64ca8238a74331ec1a45d46d106a2c3bdc032a6a7d"
+        },
+        {
+          "path": "research/source-intake-2026-10-18.json",
+          "sha256": "29500c325bde09c71a8141442736d80856de1a5dfc9f62d664f1c88fea41fc74"
         }
       ],
       "native_acceptance_controls_remain_required": true,

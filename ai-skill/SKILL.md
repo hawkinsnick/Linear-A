@@ -300,3 +300,8 @@ Read `docs/RESEARCH-TASK-PILOT.md`, `research/task-pilot.json` and `analysis/tas
 ## Source study and review handoff (2026-10-17)
 
 Route source-study questions through `docs/SOURCE-STUDY-2026-10-17.md`, `research/source-study-2026-10-17.json` and the native evidence-query `source-study` collection. Preserve source attribution, exact locators, reuse terms and uncertainty. The prepared `review/source-study-packet.json` and draft response do not establish specialist participation or acceptance. No canonical readings or calibration results are added by this study.
+
+
+## Source intake routing — 2026-10-18
+
+Use `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` for the three requested source follow-ups and unresolved original-page checks. Route factual evidence to native packets; bibliographic corrections and web-text consultation do not establish inspected typography or accepted readings.
