@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "cb9052e291f69b2d1e6e8a8ba4afc2100dd0899f",
-  "generated_at_utc": "2026-10-18T13:41:22+00:00",
+  "source_commit": "7e7d5ee508e82bf94bfcb4d5c2ec7acc36bd2e0f",
+  "generated_at_utc": "2026-10-18T19:01:15+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -298,14 +298,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "33b91a67cc26cb7334cf8489901acf4b67e472dd764db3bf84ef352a86fd3062",
-      "bytes": 7788
+      "sha256": "68e803522077f182fa4277cda07fb2ddef06bd70f4f2938c6aa089c652d94cd1",
+      "bytes": 8430
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "84b440556f61728057a457ba5d949e6e3289cb09c6cc778b0bdc97e9678fa85a",
-      "bytes": 9851
+      "sha256": "59a8ab43433a20b0e61fdeae3a6cb00f92daeb14ad08feabfaf5cc05b12b2e77",
+      "bytes": 10868
     },
     {
       "role": "native_evidence_query",
@@ -424,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "6379938b105beb89fa40532b75d52de721fc39bb4a9c14db7d6a8fbfaa6eed5b",
-      "bytes": 64327
+      "sha256": "51d10d5aa03c55b635b9598764830bd919fa6e3b6aebbebc0d38e535746c65dd",
+      "bytes": 64796
     },
     {
       "role": "source_delivery_guide",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "66e5201d5fdbbfd1ff1e0511f3e7679960855e720881056f8dfff06312ab4c68",
-      "bytes": 41728
+      "sha256": "ab4cd7811017590ab39cf208f032caaf61479adf6efcf01423b213b03daa448c",
+      "bytes": 42234
     },
     {
       "role": "cross_corpus_dependencies",
@@ -1000,8 +1000,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "11cc2ff665abbd376fe1b48ed2aea35fbb98dcfca2d08821757953bbf4afb1fa",
-      "bytes": 10157
+      "sha256": "db1da9bcf611c2d9b53337e20b5a39b716ba7ccfb751d8fd4be96c5b2d3864dd",
+      "bytes": 11042
     },
     {
       "role": "northwestern_program",
@@ -1138,13 +1138,13 @@
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "8e8ff46919224a7f4401f34d9d4837869271e4cc2fb05d3fe898119fe5004159",
+      "sha256": "976c39ee9790adc95ccbd1857abe9b968f860d92f2d1f9f1b6360e9280b2ba20",
       "bytes": 4089
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "b97d0fb4ccca31f050cfca24be20255c307331d15d399ae3e425e6dd570aa016",
+      "sha256": "e51f11905cfc69e5c564f5246cec8751473fa3c330351e3004f5728ea94862c8",
       "bytes": 1019
     },
     {
@@ -1186,25 +1186,25 @@
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/teaching-example.json",
-      "sha256": "a9c455d61f5aed77ebb14cd83c311a3ae2bd8d0b48fa9e951da310f63bcd547e",
+      "sha256": "feff8e9ade16d208d248dfdb62394a6ba4246c91ad8eeec7257f3df7c700f94f",
       "bytes": 1522
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-packet.json",
-      "sha256": "477f9f1538481442030df12a60b1df93fae1648e1790ccbcdf62235bdaa4ebe7",
+      "sha256": "a5e82bb4dd8d22ae7575bc0788572921f87776b7a5bd30890e4e043c194e81b2",
       "bytes": 4485
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-response.json",
-      "sha256": "943039df4641018e3fee6b53b7d2c167a0afd649941904dce482a9025650f0ac",
+      "sha256": "93d9683cb80693e38b8327464d730aaad438ae3ef1c5d1313635047ef0da4574",
       "bytes": 1015
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "analysis/review-walkthrough-audit.json",
-      "sha256": "2345e106fa2e81a7aca45fb4204c769d8bc87c4d478837cd967e80d03662b545",
+      "sha256": "7bfcdb35d08dd7ea4456999e58757e717c353b1b7d8bfa144d99ae9d98c73a5c",
       "bytes": 709
     },
     {
@@ -1224,6 +1224,18 @@
       "path": "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md",
       "sha256": "4fe6e1be4fd90c92737abb0a363288c3891412b73cf659a5fe8a66a0b57e58f6",
       "bytes": 1713
+    },
+    {
+      "role": "source_page_and_structure_check",
+      "path": "research/pkzb21-page-access-2026-10-18.json",
+      "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+      "bytes": 1802
+    },
+    {
+      "role": "source_page_and_structure_check",
+      "path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
+      "sha256": "ddc5be1325fc9ae75c803804d7cbebc0130dff60d47ad96c4247a42dd067ee8d",
+      "bytes": 933
     }
   ]
 }
