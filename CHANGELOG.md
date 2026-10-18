@@ -195,3 +195,8 @@ Added a source-bound executed pilot, researcher walkthrough, reproducibility and
 ## 2026-10-17 — bounded source study
 
 Added attributed source-study records, reproducible native evidence bindings and unfilled specialist review packets. See [the scope, results and remaining gates](docs/SOURCE-STUDY-2026-10-17.md). No canonical reading or expert acceptance added.
+
+
+### 2026-10-18 three-source acquisition follow-up
+
+Published qualified progress and current delivery requirements for the two Sidetic sources and Olivier2007. Corrected joint-article DOI identity; kept partial consultation, failed PDF routes and unsent requests explicit. Updated native query routing and individual/master AI instructions; no new source-page inspection or reading acceptance.

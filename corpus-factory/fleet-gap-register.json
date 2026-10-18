@@ -38,8 +38,8 @@
       "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
       "current_evidence": {
         "repository": "hawkinsnick/Cypro-Minoan",
-        "source_commit": "6a29f3ff30370c7066d6a8d9b94c2d7478e7cd66",
-        "inspected_on": "2026-10-16",
+        "source_commit": "7eafbfff44e84d51d8ef85543ba0388de4681760",
+        "inspected_on": "2026-10-18",
         "artifacts": [
           {
             "path": "analysis/current-status.json",
@@ -56,9 +56,13 @@
           {
             "path": "research/identity-reconciliation-v2.json",
             "sha256": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380"
+          },
+          {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "176cc01584403aab901149f4149a55184bea67f4c8089778a536e02a6857fc2d"
           }
         ],
-        "scope": "Documentary status reconciliation; not a fresh independent reading or source-image inspection."
+        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
       }
     },
     {
@@ -375,8 +379,8 @@
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "387e3e2814d07471bbc78e6cf9c22477e36c176e",
-        "inspected_on": "2026-10-16",
+        "source_commit": "13cf969aa07eee1926ea17965451633974a1f82f",
+        "inspected_on": "2026-10-18",
         "artifacts": [
           {
             "path": "analysis/current-status.json",
@@ -393,9 +397,13 @@
           {
             "path": "review/p1-human-request.json",
             "sha256": "c97b75f5d46392591192fe64ca8238a74331ec1a45d46d106a2c3bdc032a6a7d"
+          },
+          {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "29500c325bde09c71a8141442736d80856de1a5dfc9f62d664f1c88fea41fc74"
           }
         ],
-        "scope": "Revision-bound documentary status; the native packet contains fresh publication-image receipts, not project object autopsy or independent acceptance."
+        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
       }
     },
     {

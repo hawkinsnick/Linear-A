@@ -1,0 +1,47 @@
+{
+  "format": "three-source-intake-followup-v1",
+  "checked_local_date": "2026-10-18",
+  "date_basis": "America/Chicago",
+  "scope": "Source acquisition and identity follow-up; no original-page typography checks completed. Do not pool these three acquisition tasks with 17 historical selected comparisons.",
+  "members": [
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "native_packet_path": "research/source-intake-2026-10-18.json",
+      "native_packet_sha256": "29500c325bde09c71a8141442736d80856de1a5dfc9f62d664f1c88fea41fc74",
+      "native_source_commit": "13cf969aa07eee1926ea17965451633974a1f82f",
+      "native_guide_path": "docs/SOURCE-INTAKE-2026-10-18.md",
+      "tasks": [
+        {
+          "case_id": "SID-FERRER2025-VOWEL-INTAKE",
+          "status": "SEMANTIC_MODEL_AND_APPENDIX_POLICY_CHECKED_PDF_TYPOGRAPHY_BLOCKED",
+          "primary_pdf_acquired": false
+        },
+        {
+          "case_id": "SID-BRIXHE-NEUMANN1988-INTAKE",
+          "status": "BIBLIOGRAPHIC_IDENTITY_CORRECTED_PRIMARY_ARTICLE_UNACQUIRED",
+          "primary_pdf_acquired": false
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "native_packet_path": "research/source-intake-2026-10-18.json",
+      "native_packet_sha256": "176cc01584403aab901149f4149a55184bea67f4c8089778a536e02a6857fc2d",
+      "native_source_commit": "7eafbfff44e84d51d8ef85543ba0388de4681760",
+      "native_guide_path": "docs/SOURCE-INTAKE-2026-10-18.md",
+      "tasks": [
+        {
+          "case_id": "CM-OLIVIER2007-INTAKE",
+          "status": "REQUEST_SCOPE_RECONCILED_EDITION_PAGES_UNACQUIRED",
+          "primary_pdf_acquired": false
+        }
+      ]
+    }
+  ],
+  "requests_sent": false,
+  "purchases_made": false,
+  "all_three_primary_checks_complete": false,
+  "accepted_readings_added": 0,
+  "independent_reviews_added": 0,
+  "new_pdf_page_inspections": 0
+}
