@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "24f954e0807c91d8aba18c33f1a2ece7c6d46bb3",
-  "generated_at_utc": "2026-10-17T15:24:30+00:00",
+  "source_commit": "cba93ec452274e8df535c28d5a71b33a00998f89",
+  "generated_at_utc": "2026-10-18T13:39:35+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -13,6 +13,18 @@
     "preserve_rights": true
   },
   "artifacts": [
+    {
+      "role": "three_source_intake",
+      "path": "corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md",
+      "sha256": "928b760b68024ac931b3bc92b815561c344dc8c1982bef57b2e39ff9e928e9de",
+      "bytes": 3347
+    },
+    {
+      "role": "three_source_intake",
+      "path": "corpus-factory/source-intake-2026-10-18.json",
+      "sha256": "c490099360cb44a0a6a5c7213ad57689f893cf56910488e66e5ea222e47f730d",
+      "bytes": 1881
+    },
     {
       "role": "sidetic_abydos_edition_comparison",
       "path": "corpus-factory/SIDETIC-ABYDOS-EDITION-COMPARISON-2026-10-16.md",
@@ -280,20 +292,20 @@
     {
       "role": "fleet_evidence_query_rollout",
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "50fc74c761caffa6c2699d166e79005fe98c78718dff80379ea77becf45555d0",
+      "sha256": "d0cb7642374b297d71b4f6e212cfe7ef2a56b6108a1923352cda28cec7722325",
       "bytes": 7677
     },
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "98576b8ca15fbdd2529a6f9517ff72982c5df808061aeae96270d334031371cc",
-      "bytes": 7111
+      "sha256": "33b91a67cc26cb7334cf8489901acf4b67e472dd764db3bf84ef352a86fd3062",
+      "bytes": 7788
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "118296e989684defcc82df736fb616aa84fa650444229d6332895c82a6558094",
-      "bytes": 8849
+      "sha256": "84b440556f61728057a457ba5d949e6e3289cb09c6cc778b0bdc97e9678fa85a",
+      "bytes": 9851
     },
     {
       "role": "native_evidence_query",
@@ -412,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "3af7edd461beab13766a1c988c8ee3da0962e1eae373e3fac73aaca012e91524",
-      "bytes": 63246
+      "sha256": "6379938b105beb89fa40532b75d52de721fc39bb4a9c14db7d6a8fbfaa6eed5b",
+      "bytes": 64327
     },
     {
       "role": "source_delivery_guide",
@@ -484,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "95b8c8f253349d4e04386c88150bbcb5c79301d32a9e14e71a8ad61d5684aa49",
-      "bytes": 40933
+      "sha256": "66e5201d5fdbbfd1ff1e0511f3e7679960855e720881056f8dfff06312ab4c68",
+      "bytes": 41728
     },
     {
       "role": "cross_corpus_dependencies",
@@ -808,8 +820,8 @@
     {
       "role": "current_p1_evidence",
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "337255d4fd76287c53e5ac734791e722b18b068b26c7f8fdf5244e0b5000464a",
-      "bytes": 30046
+      "sha256": "a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b",
+      "bytes": 30421
     },
     {
       "role": "current_p1_evidence",
@@ -862,8 +874,8 @@
     {
       "role": "human_validation_routing",
       "path": "corpus-factory/p1-human-readiness.json",
-      "sha256": "76bf71b05f8df7eca6bcac83003db9d591154a12b545ab024ea6c12987618066",
-      "bytes": 21079
+      "sha256": "d6b62b1b1b229bb5faf2d1086b56b6bdb90cb718227cacedc1587046ae8ccfd0",
+      "bytes": 21415
     },
     {
       "role": "human_validation_routing",
@@ -988,8 +1000,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "4a1ab2cab84b854f8bd78756abc4a06b46aebdafdfdbc9d06d415a2c35b23149",
-      "bytes": 9276
+      "sha256": "11cc2ff665abbd376fe1b48ed2aea35fbb98dcfca2d08821757953bbf4afb1fa",
+      "bytes": 10157
     },
     {
       "role": "northwestern_program",
@@ -1120,19 +1132,19 @@
     {
       "role": "bounded_source_study",
       "path": "docs/SOURCE-STUDY-2026-10-17.md",
-      "sha256": "104c03f9161757e8fdcf3d1372c5dd33dde69b9ffbd5cfb9048f45bc15408e3d",
-      "bytes": 2470
+      "sha256": "ebdac951deb7670756513591d3624c26f107078c269e43fb03dab859c1d2b4fd",
+      "bytes": 2654
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "450785719e789ebc68d0719f4b185640548d45b543708bbb08743af3925cbc4c",
+      "sha256": "8e8ff46919224a7f4401f34d9d4837869271e4cc2fb05d3fe898119fe5004159",
       "bytes": 4089
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "e2c95d125ac53b09ff73928b8e7d3e9504e5902d59eff47866afdf9e7bb07f0c",
+      "sha256": "b97d0fb4ccca31f050cfca24be20255c307331d15d399ae3e425e6dd570aa016",
       "bytes": 1019
     },
     {
@@ -1146,6 +1158,72 @@
       "path": "corpus-factory/SOURCE-STUDIES-2026-10-17.md",
       "sha256": "ac091d319ec7a4991a224bbbb18a9c44f570e48c90c9b44975a3a98ee428d823",
       "bytes": 1747
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "research/review-exercise-2026-10-18.json",
+      "sha256": "a70843a2e84410786b0fdba1a4a5292c35030fadcc1e423a88e4d84a0ca4f3ea",
+      "bytes": 836
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "scripts/review_walkthrough.py",
+      "sha256": "fe919dac5b73a6426af4d7240d90b6cdc65646dc477b6384654143c39537403b",
+      "bytes": 8485
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "scripts/test_review_walkthrough.py",
+      "sha256": "b018dc513ba3e1e030f79f2421ad812edfcf13382cbb66400aa86b5260694ff4",
+      "bytes": 2230
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "docs/REVIEWER-WALKTHROUGH.md",
+      "sha256": "d3c91c56b59ff5bab198b0ca43ffeb3adbfbc5c9829a088e90db530ce3070c7f",
+      "bytes": 3666
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "review/teaching-example.json",
+      "sha256": "a9c455d61f5aed77ebb14cd83c311a3ae2bd8d0b48fa9e951da310f63bcd547e",
+      "bytes": 1522
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "review/followup-packet.json",
+      "sha256": "477f9f1538481442030df12a60b1df93fae1648e1790ccbcdf62235bdaa4ebe7",
+      "bytes": 4485
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "review/followup-response.json",
+      "sha256": "943039df4641018e3fee6b53b7d2c167a0afd649941904dce482a9025650f0ac",
+      "bytes": 1015
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "analysis/review-walkthrough-audit.json",
+      "sha256": "2345e106fa2e81a7aca45fb4204c769d8bc87c4d478837cd967e80d03662b545",
+      "bytes": 709
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "research/reading-comparison-2026-10-18.json",
+      "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+      "bytes": 7403
+    },
+    {
+      "role": "source_followup_and_review_teaching",
+      "path": "docs/PK-ZB21-READING-COMPARISON.md",
+      "sha256": "eb130cfd7e1f99b0d2ff026c4a873b1cad5450bbf67c0824c944d6ac7574d7c3",
+      "bytes": 1379
+    },
+    {
+      "role": "review_followup_master_route",
+      "path": "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md",
+      "sha256": "4fe6e1be4fd90c92737abb0a363288c3891412b73cf659a5fe8a66a0b57e58f6",
+      "bytes": 1713
     }
   ]
 }
