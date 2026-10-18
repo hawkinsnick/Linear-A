@@ -2,12 +2,31 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: fcc31485dd808187c92cf8093d9b1ce99c290155513752b48995121198dfeec9
+Instruction snapshot SHA-256: 3a5f8d8f724ff5ca9e1531dc42ef1787e8459936152c0eb15d6cbe5f5ea85159
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
 Directory summaries are snapshot routing metadata, not current independently checked inscription facts.
 If a required member file cannot be accessed, identify what is missing and help select the next files.
+
+=== SOURCE FILE: corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md ===
+SHA-256: 2a7a1406a9c9a85b9df1c6bd7340dd3454c213f6758b61db2fc63e84c0bf4817
+
+# Source page and structure checkpoint, 18 October 2026
+
+| Corpus | New checked evidence | Remaining dependency |
+|---|---|---|
+| Anatolian Hieroglyphic | Publisher Peker2022 PDF, imprint and printed96–98 visually inspected; KARAHÖYÜK §3 located as `URBS.MI-ní`. | Other three target sections unresolved. Peker is not direct consultation of Hawkins2000. Preserve article notation `URBS-mi-ní` separately. |
+| Linear A | Normal Cambridge citation PDF link followed; HTTP200 returned HTML, not PDF. | Driessen1991 pp.146–147 and Davis2008 pp.55–56 original pages still needed; no full-word alternative pair. |
+| Linear B | Complete supplied DĀMOS JSON structure inspected across5,932 flat document records; no linked word annotations. | Versioned linguistic/physical word package and same-snapshot crosswalk still needed; supplied-file byte identity unproved. |
+
+Native guides: `Anatolian-Hieroglyphic/docs/EDITION-PAGE-CHECK-2026-10-18.md`, `Linear-A/docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md`, `Linear-B/docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md`. Exact native registers and query collections are recorded in the master registry. Consult them before making current access claims; earlier registers are historical snapshots.
+
+No canonical readings, physical identities, source independence, linked annotations, graphical gold or expert acceptance were added. Source rights remain distinct: Goedegebuure CC BY4.0, DĀMOS declared CC BY-NC-SA4.0, Peker source-specific copyright. Source PDFs, images, OCR and the supplied DĀMOS payload are not redistributed by this checkpoint.
+
+Concrete unsent source requests are retained in the native guides/registers. They specify original pages/typography for PK Zb21, missing exact Luwian loci and versioned DĀMOS join/annotation requirements. No messages were sent. Further closure depends on actual delivery and consultation, not another request template or software check.
+
+=== END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md ===
 SHA-256: 928b760b68024ac931b3bc92b815561c344dc8c1982bef57b2e39ff9e928e9de
@@ -1519,7 +1538,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 6379938b105beb89fa40532b75d52de721fc39bb4a9c14db7d6a8fbfaa6eed5b
+SHA-256: 51d10d5aa03c55b635b9598764830bd919fa6e3b6aebbebc0d38e535746c65dd
 
 ---
 name: combined-corpus-research
@@ -1948,6 +1967,10 @@ Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/so
 
 For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md`. Route to the member’s `research/review-exercise-2026-10-18.json` and exact native target. Distinguish a PKZb21 text-rendition contrast from full-word/page collation and Luwian reference candidates from exact reading joins. Never present a teaching example as human review.
 
+## Current page and supplied-file checks
+
+Read `corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md` and each member’s `source_page_check_path` before current source-access claims. One selected Peker section is located; Hawkins2000 is not directly inspected. PK Zb21 original pages and the linked DĀMOS annotation package remain undelivered. Do not turn a catalogue heading, HTTP200 HTML, supplied flat document file or unsent request into completed source review.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -2020,7 +2043,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 0c22867f2e891b0207044a2a3c1b1b8a72e458f0d07522fae35ea7496a1e7d3c
+SHA-256: 341fa2279acfb72926190c7cc318cc417f8dfb1354327e87d3f84dd883dcdeb6
 
 {
   "schema_version": "1.0.0",
@@ -2081,7 +2104,10 @@ SHA-256: 0c22867f2e891b0207044a2a3c1b1b8a72e458f0d07522fae35ea7496a1e7d3c
       "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
       "source_study_review_packet_path": "review/source-study-packet.json",
       "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
-      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json"
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/pkzb21-page-access-2026-10-18.json",
+      "source_page_check_guide_path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
+      "source_page_check_collection": "pkzb21-page-access"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -2199,7 +2225,10 @@ SHA-256: 0c22867f2e891b0207044a2a3c1b1b8a72e458f0d07522fae35ea7496a1e7d3c
       "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
       "source_study_review_packet_path": "review/source-study-packet.json",
       "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
-      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json"
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/damos-supplied-structure-2026-10-18.json",
+      "source_page_check_guide_path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
+      "source_page_check_collection": "damos-supplied-structure"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -2647,7 +2676,10 @@ SHA-256: 0c22867f2e891b0207044a2a3c1b1b8a72e458f0d07522fae35ea7496a1e7d3c
       "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
       "source_study_review_packet_path": "review/source-study-packet.json",
       "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
-      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json"
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/edition-page-check-2026-10-18.json",
+      "source_page_check_guide_path": "docs/EDITION-PAGE-CHECK-2026-10-18.md",
+      "source_page_check_collection": "city-edition-page-check"
     },
     {
       "id": "archanes_script",
