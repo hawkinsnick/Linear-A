@@ -361,6 +361,16 @@
       "path": "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md",
       "required": true,
       "role": "review_followup_master_route"
+    },
+    {
+      "path": "research/pkzb21-page-access-2026-10-18.json",
+      "role": "source_page_and_structure_check",
+      "required": true
+    },
+    {
+      "path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
+      "role": "source_page_and_structure_check",
+      "required": true
     }
   ],
   "behavioral_gates": [

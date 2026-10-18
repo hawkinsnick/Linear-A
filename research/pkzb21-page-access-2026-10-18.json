@@ -1,0 +1,33 @@
+{
+  "format": "bounded-source-page-check-v1",
+  "checked_date": "2026-10-18",
+  "canonical_readings_added": 0,
+  "expert_acceptance_added": false,
+  "messages_sent": false,
+  "physical_identity_certified": false,
+  "independent_witness_established": false,
+  "case_id": "LA-PKZB21-PAGE-ACCESS-20261018",
+  "repository": "hawkinsnick/Linear-A",
+  "driessen_publisher_access": {
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8C796D0730A01529FADC6116A4BD536D/S0068245400014945a.pdf/div-class-title-excavations-at-palaikastro-1990-div.pdf",
+    "status": 200,
+    "bytes": 783879,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "59fb832e34aaa33acbf96c03e39d62ce5aa09bdb163ff57e1ca5b8f16001f3e0",
+    "pdf_signature": false
+  },
+  "publisher_html_exposed_pdf_link": true,
+  "original_page_images_checked": false,
+  "full_word_reading_pair_collated": false,
+  "complete_davis_word_reading": null,
+  "access_conclusion": "Publisher PDF-link response was HTML, not PDF. Public text rendition and Aegeus introduction excerpt remain the consulted evidence; no promotion to original-page inspection.",
+  "unsent_request": {
+    "Driessen1991": "Excavations at Palaikastro, 1990; DOI10.1017/S0068245400014945; pp.146–147 §6, original typography and associated figure/caption.",
+    "Davis2008": "A New Reading of PK ZB21, Kadmos47(1–2), pp.55–56; DOI10.1515/KADMOS.2008.005; complete alternative reading and original sign/figure context.",
+    "delivery_requirements": [
+      "Original page images/PDF with publication identity and page numbers",
+      "Source reuse terms; private consultation does not imply redistribution permission",
+      "Preserve initial-sign alternatives and editorial marks; no reconstruction from search snippets"
+    ]
+  }
+}

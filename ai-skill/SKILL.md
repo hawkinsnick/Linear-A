@@ -308,3 +308,7 @@ Use `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` for the three requested
 
 
 For the source follow-up and reviewer exercise, read `docs/REVIEWER-WALKTHROUGH.md` and `research/review-exercise-2026-10-18.json`; retrieve its exact native target. Preserve the source register’s actual access level and all remaining gates. Treat `review/teaching-example.json` as a simulated project exercise with no reviewer, never a completed human assessment. Require the native blank response and independent source consultation for a real submission.
+
+## Source page and structure check (2026-10-18)
+
+Read `docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md` and `research/pkzb21-page-access-2026-10-18.json`; query `pkzb21-page-access` for the exact bounded outcome. Preserve the difference between source delivery, text rendition, page inspection, documentary correspondence and canonical acceptance. A successful HTTP status, matching heading, supplied document metadata or request draft cannot close an evidence gate. Historical registers retain their dated scope.

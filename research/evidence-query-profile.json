@@ -59,6 +59,15 @@
       "singleton": true,
       "unit": "bounded documentary follow-up case",
       "scope": "Preserve text-rendition/access qualifications or catalogue-reference-candidate status; no canonical reading, linguistic join or scientific acceptance."
+    },
+    {
+      "name": "pkzb21-page-access",
+      "path": "research/pkzb21-page-access-2026-10-18.json",
+      "pointer": "",
+      "id_pointer": "/case_id",
+      "singleton": true,
+      "unit": "bounded source access or structure inspection",
+      "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred."
     }
   ],
   "relations": [
@@ -168,6 +177,12 @@
       "encoding": "json",
       "role": "bounded documentary follow-up",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/pkzb21-page-access-2026-10-18.json",
+      "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+      "encoding": "json",
+      "role": "bounded source access or structure check"
     }
   ],
   "scholarly_limits": [

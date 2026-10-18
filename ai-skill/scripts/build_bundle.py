@@ -71,6 +71,7 @@ CANDIDATES += [("bounded_source_study", p) for p in ['research/source-study-2026
 CANDIDATES += [("source_study_master_route", "corpus-factory/SOURCE-STUDIES-2026-10-17.md")]
 CANDIDATES += [("source_followup_and_review_teaching", p) for p in ['research/review-exercise-2026-10-18.json', 'scripts/review_walkthrough.py', 'scripts/test_review_walkthrough.py', 'docs/REVIEWER-WALKTHROUGH.md', 'review/teaching-example.json', 'review/followup-packet.json', 'review/followup-response.json', 'analysis/review-walkthrough-audit.json', 'research/reading-comparison-2026-10-18.json', 'docs/PK-ZB21-READING-COMPARISON.md']]
 CANDIDATES += [("review_followup_master_route", "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md")]
+CANDIDATES += [("source_page_and_structure_check", p) for p in ['research/pkzb21-page-access-2026-10-18.json', 'docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

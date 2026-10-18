@@ -57,7 +57,10 @@
       "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
       "source_study_review_packet_path": "review/source-study-packet.json",
       "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
-      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json"
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/pkzb21-page-access-2026-10-18.json",
+      "source_page_check_guide_path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
+      "source_page_check_collection": "pkzb21-page-access"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -175,7 +178,10 @@
       "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
       "source_study_review_packet_path": "review/source-study-packet.json",
       "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
-      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json"
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/damos-supplied-structure-2026-10-18.json",
+      "source_page_check_guide_path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
+      "source_page_check_collection": "damos-supplied-structure"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -623,7 +629,10 @@
       "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
       "source_study_review_packet_path": "review/source-study-packet.json",
       "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
-      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json"
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/edition-page-check-2026-10-18.json",
+      "source_page_check_guide_path": "docs/EDITION-PAGE-CHECK-2026-10-18.md",
+      "source_page_check_collection": "city-edition-page-check"
     },
     {
       "id": "archanes_script",

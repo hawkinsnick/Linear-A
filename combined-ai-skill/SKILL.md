@@ -424,3 +424,7 @@ Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/so
 
 
 For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md`. Route to the member’s `research/review-exercise-2026-10-18.json` and exact native target. Distinguish a PKZb21 text-rendition contrast from full-word/page collation and Luwian reference candidates from exact reading joins. Never present a teaching example as human review.
+
+## Current page and supplied-file checks
+
+Read `corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md` and each member’s `source_page_check_path` before current source-access claims. One selected Peker section is located; Hawkins2000 is not directly inspected. PK Zb21 original pages and the linked DĀMOS annotation package remain undelivered. Do not turn a catalogue heading, HTTP200 HTML, supplied flat document file or unsent request into completed source review.

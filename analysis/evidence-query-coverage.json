@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-A",
-  "profile_sha256": "33b91a67cc26cb7334cf8489901acf4b67e472dd764db3bf84ef352a86fd3062",
+  "profile_sha256": "68e803522077f182fa4277cda07fb2ddef06bd70f4f2938c6aa089c652d94cd1",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -132,6 +132,23 @@
         "role": "bounded documentary follow-up",
         "encoding": "json"
       }
+    },
+    {
+      "name": "pkzb21-page-access",
+      "native_unit": "bounded source access or structure inspection",
+      "record_count": 1,
+      "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred.",
+      "example_ids": [
+        "LA-PKZB21-PAGE-ACCESS-20261018"
+      ],
+      "provenance": {
+        "path": "research/pkzb21-page-access-2026-10-18.json",
+        "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -229,6 +246,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "bounded documentary follow-up",
+      "encoding": "json"
+    },
+    {
+      "path": "research/pkzb21-page-access-2026-10-18.json",
+      "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "bounded source access or structure check",
       "encoding": "json"
     }
   ],

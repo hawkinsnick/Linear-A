@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STARTER = "Combined-Corpus-Research-Starter"
 EXCLUDED = {"hawkinsnick/LightroomIsSlow", "hawkinsnick/Egyptian-Hieroglyphic-Corpus"}
 SOURCE_PATHS = (
+    "corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md",
     "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md",
     "corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md",
     "corpus-factory/source-intake-2026-10-18.json",
@@ -117,7 +118,7 @@ def build(root=ROOT):
               "AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.\n"
               "Directory summaries are snapshot routing metadata, not current independently checked inscription facts.\n"
               "If a required member file cannot be accessed, identify what is missing and help select the next files.\n\n")
-    order = ["corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md", "corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md","combined-ai-skill/WORKED-EXAMPLES.md","corpus-factory/SIDETIC-ABYDOS-EDITION-COMPARISON-2026-10-16.md",
+    order = ["corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md", "corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md", "corpus-factory/NORTHWESTERN-RESEARCH-PROGRAM.md","combined-ai-skill/WORKED-EXAMPLES.md","corpus-factory/SIDETIC-ABYDOS-EDITION-COMPARISON-2026-10-16.md",
         "corpus-factory/FOUR-CORPUS-SOURCE-COLLATION-2026-10-15.md", "corpus-factory/ATTRIBUTION-REVIEW.md", "corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md", "corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md", "docs/LINEARA-XYZ-REFERENCE.md", "corpus-factory/MEGA-CORPUS.md", "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md", "corpus-factory/cross-corpus-dependencies.json", "combined-ai-skill/START-HERE.md", "combined-ai-skill/PROMPTS.md",
              "combined-ai-skill/SKILL.md", "combined-ai-skill/EXPERT-REVIEW.md", "combined-ai-skill/CORPUS-DOWNLOADS.md",
              "combined-ai-skill/registry/corpus-projects.json",
