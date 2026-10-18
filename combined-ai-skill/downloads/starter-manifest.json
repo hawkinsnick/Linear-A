@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "f67f111ec6f9ddb076ad75c613066674afb65543fc196b72dd00c4eefc0e17eb",
+  "build_script_sha256": "f33b86e352e59699675dc9626f642e91674aadec3e4ddfa39defdcefb3010203",
   "source_files": [
     {
       "path": "LICENSE",
@@ -60,8 +60,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "4cbb4f2087de568bb6ac5c4608f9093a50025990cdfc84074f4fab05321b4e08",
-      "bytes": 63950
+      "sha256": "6379938b105beb89fa40532b75d52de721fc39bb4a9c14db7d6a8fbfaa6eed5b",
+      "bytes": 64327
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -90,8 +90,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "fc792828a03e1fe97ab05ae99d5f338475bfec637c1017b3bacc17c7d30062de",
-      "bytes": 65866
+      "sha256": "0c22867f2e891b0207044a2a3c1b1b8a72e458f0d07522fae35ea7496a1e7d3c",
+      "bytes": 66282
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -199,6 +199,11 @@
       "bytes": 3881
     },
     {
+      "path": "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md",
+      "sha256": "4fe6e1be4fd90c92737abb0a363288c3891412b73cf659a5fe8a66a0b57e58f6",
+      "bytes": 1713
+    },
+    {
       "path": "corpus-factory/SOURCE-STUDIES-2026-10-17.md",
       "sha256": "ac091d319ec7a4991a224bbbb18a9c44f570e48c90c9b44975a3a98ee428d823",
       "bytes": 1747
@@ -294,5 +299,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "97c563e2f806570ddf7be26121cbcc0184fe6f212fd1e2945759b3a7bbdae40e"
+  "snapshot_sha256": "fcc31485dd808187c92cf8093d9b1ce99c290155513752b48995121198dfeec9"
 }
