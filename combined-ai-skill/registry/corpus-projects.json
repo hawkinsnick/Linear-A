@@ -181,7 +181,10 @@
       "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
       "source_page_check_path": "research/damos-supplied-structure-2026-10-18.json",
       "source_page_check_guide_path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
-      "source_page_check_collection": "damos-supplied-structure"
+      "source_page_check_collection": "damos-supplied-structure",
+      "public_source_route_path": "research/damos-public-routes-2026-10-19.json",
+      "public_source_route_guide_path": "docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md",
+      "public_source_route_collection": "damos-public-routes"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -632,7 +635,10 @@
       "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
       "source_page_check_path": "research/edition-page-check-2026-10-18.json",
       "source_page_check_guide_path": "docs/EDITION-PAGE-CHECK-2026-10-18.md",
-      "source_page_check_collection": "city-edition-page-check"
+      "source_page_check_collection": "city-edition-page-check",
+      "public_source_route_path": "research/visual-source-routes-2026-10-19.json",
+      "public_source_route_guide_path": "docs/VISUAL-SOURCE-ROUTES-2026-10-19.md",
+      "public_source_route_collection": "visual-source-routes"
     },
     {
       "id": "archanes_script",

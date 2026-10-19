@@ -312,3 +312,5 @@ For the source follow-up and reviewer exercise, read `docs/REVIEWER-WALKTHROUGH.
 ## Source page and structure check (2026-10-18)
 
 Read `docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md` and `research/pkzb21-page-access-2026-10-18.json`; query `pkzb21-page-access` for the exact bounded outcome. Preserve the difference between source delivery, text rendition, page inspection, documentary correspondence and canonical acceptance. A successful HTTP status, matching heading, supplied document metadata or request draft cannot close an evidence gate. Historical registers retain their dated scope.
+
+Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` for the coordinated source follow-up. New Luwian visual-source routes and DĀMOS endpoint inspections do not close the PK Zb21 original-page gap or permit cross-script sign/value transfer.

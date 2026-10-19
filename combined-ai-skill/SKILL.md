@@ -428,3 +428,7 @@ For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REV
 ## Current page and supplied-file checks
 
 Read `corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md` and each member’s `source_page_check_path` before current source-access claims. One selected Peker section is located; Hawkins2000 is not directly inspected. PK Zb21 original pages and the linked DĀMOS annotation package remain undelivered. Do not turn a catalogue heading, HTTP200 HTML, supplied flat document file or unsent request into completed source review.
+
+## Public visual and document source routes
+
+Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` and the native `public_source_route_path` registers. Treat Gelb page/plate records as presentations, not objects; preserve his limited Gürün collation. Physical line3 is not clause§3b. Hosted editorial drawings do not establish full-edition consultation. Two DĀMOS public responses for4307 supply no linked annotation package; do not generalize that negative result to every possible route or the internal database. Preserve source-specific rights and all unresolved original-page/word-crosswalk gates.

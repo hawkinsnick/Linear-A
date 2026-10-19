@@ -209,3 +209,7 @@ Added an evidence-bound [reviewer walkthrough](docs/REVIEWER-WALKTHROUGH.md), ex
 ## Source access checkpoint — 2026-10-18
 
 Added `research/pkzb21-page-access-2026-10-18.json` and guide, native evidence-query route and individual AI authorities. Retained all unresolved acquisition, rights and scholarly acceptance gates.
+
+## Coordinated public source routes — 2026-10-19 UTC
+
+Updated master registry, starter and individual AI routing for Gelb historical visual-source consultation and bounded DĀMOS public endpoint inspections. No new Linear A readings or original-page delivery.

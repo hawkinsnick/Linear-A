@@ -371,6 +371,11 @@
       "path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
       "role": "source_page_and_structure_check",
       "required": true
+    },
+    {
+      "path": "corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md",
+      "required": true,
+      "role": "public_source_master_route"
     }
   ],
   "behavioral_gates": [
