@@ -8,7 +8,7 @@
       "repository": "hawkinsnick/Sidetic",
       "native_packet_path": "research/source-intake-2026-10-18.json",
       "native_packet_sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd",
-      "native_source_commit": "5fb86376599d04a95e2f294544fa274a98f8ebdf",
+      "native_source_commit": "2e605c6779bf93eff4ed9aa5291ae64cb194fd17",
       "native_guide_path": "docs/SOURCE-INTAKE-2026-10-18.md",
       "tasks": [
         {
@@ -24,7 +24,7 @@
       ],
       "direct_pdf_comparison": {
         "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
-        "sha256": "bdf654f81f7398266a23744830da26cfb8dc5746c6334cb5b84b9870172d6361",
+        "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1",
         "guide": "docs/FERRER2025-PDF-COMPARISON-2026-10-18.md",
         "printed_pages_inspected": "149–170",
         "page_images_inspected": 22,

@@ -250,7 +250,7 @@
     },
     {
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "1e9c116d2eb92aa43bc7d8cd1f019340c27b5808469c325491c623f3545d1f3c",
+      "sha256": "a0b1a976be065cb85b78cfe4c97ff874db7058a3dee7e7e55df9b405434cb709",
       "bytes": 7677
     },
     {
@@ -260,7 +260,7 @@
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "d3db96bf5d079110852eb2dca8c6b9134c6a7a60f4080152490d5aa7f4f98af1",
+      "sha256": "6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7",
       "bytes": 30653
     },
     {
@@ -285,7 +285,7 @@
     },
     {
       "path": "corpus-factory/source-intake-2026-10-18.json",
-      "sha256": "471ba3e0fd3a7fb7ef98acc7569fdacfc3632f17cda0ac74953e243d92d4a652",
+      "sha256": "9186d37a7c3f4d752a4e198d1042a5d0bd593bea4992aed84489ebb99a036c5f",
       "bytes": 2948
     },
     {
@@ -309,5 +309,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "7d4acaa57261af6f7b804a830fc1d641b54f288427138f1715c0bf35f2bbba11"
+  "snapshot_sha256": "81122f80531189fedfb62ba4f0e2068d9e5056dfef2e9dc13c97c1106b2c6d89"
 }

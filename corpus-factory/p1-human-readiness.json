@@ -326,7 +326,7 @@
     },
     {
       "repository": "hawkinsnick/Sidetic",
-      "source_commit": "5fb86376599d04a95e2f294544fa274a98f8ebdf",
+      "source_commit": "2e605c6779bf93eff4ed9aa5291ae64cb194fd17",
       "whole_corpus_human_only_readiness": "NOT_CERTIFIED",
       "remaining_work_categories": [
         "edition_acquisition",
@@ -338,7 +338,7 @@
       "native_review_inputs": [
         {
           "path": "review/collection-packet.json",
-          "sha256": "423ece3846ab8578d1b66ffaed2b9d8383cb2357c1ec21c1fc4fdbcc70564557"
+          "sha256": "d31f5ba5af8f5bd0ccffefb1079f90369ec0c1126e11e70a9c46e119949d86aa"
         },
         {
           "path": "review/p1-human-request.json",
@@ -350,7 +350,7 @@
         },
         {
           "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
-          "sha256": "bdf654f81f7398266a23744830da26cfb8dc5746c6334cb5b84b9870172d6361"
+          "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1"
         }
       ],
       "native_acceptance_controls_remain_required": true,
