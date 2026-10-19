@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "56b0a0a92c12063e0406b474598cd6c849d8fb60",
-  "generated_at_utc": "2026-10-19T01:18:09+00:00",
+  "source_commit": "19c909d8705f0718c6a349dda2cac21b08513d39",
+  "generated_at_utc": "2026-10-19T01:22:24+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -16,14 +16,14 @@
     {
       "role": "three_source_intake",
       "path": "corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md",
-      "sha256": "928b760b68024ac931b3bc92b815561c344dc8c1982bef57b2e39ff9e928e9de",
-      "bytes": 3347
+      "sha256": "f870d3f0cb1e389519d0e42f1e4ea250ec70ca3057ca1b0682792d69df992d32",
+      "bytes": 3476
     },
     {
       "role": "three_source_intake",
       "path": "corpus-factory/source-intake-2026-10-18.json",
-      "sha256": "c490099360cb44a0a6a5c7213ad57689f893cf56910488e66e5ea222e47f730d",
-      "bytes": 1881
+      "sha256": "9186d37a7c3f4d752a4e198d1042a5d0bd593bea4992aed84489ebb99a036c5f",
+      "bytes": 2948
     },
     {
       "role": "sidetic_abydos_edition_comparison",
@@ -292,7 +292,7 @@
     {
       "role": "fleet_evidence_query_rollout",
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "d0cb7642374b297d71b4f6e212cfe7ef2a56b6108a1923352cda28cec7722325",
+      "sha256": "a0b1a976be065cb85b78cfe4c97ff874db7058a3dee7e7e55df9b405434cb709",
       "bytes": 7677
     },
     {
@@ -424,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "70bc84231718987f15cdbb3b5466f77ba5df2ae7bf3f898e4a5f7770bb9c4ac1",
-      "bytes": 65406
+      "sha256": "ce89ec90829f2899f477e07bf5b785f43a422b4c2ebc5f7839914932e583995d",
+      "bytes": 66000
     },
     {
       "role": "source_delivery_guide",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "89ad7d9f8324de9ab83877da14b03aebdbed13a750ca0479ee96459ce04b2acf",
-      "bytes": 42481
+      "sha256": "1384adfc33305c915a1d44d07824fbbc360a9625f75d60e4c8f04d71712b9313",
+      "bytes": 42958
     },
     {
       "role": "cross_corpus_dependencies",
@@ -820,8 +820,8 @@
     {
       "role": "current_p1_evidence",
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b",
-      "bytes": 30421
+      "sha256": "6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7",
+      "bytes": 30653
     },
     {
       "role": "current_p1_evidence",
@@ -874,8 +874,8 @@
     {
       "role": "human_validation_routing",
       "path": "corpus-factory/p1-human-readiness.json",
-      "sha256": "d6b62b1b1b229bb5faf2d1086b56b6bdb90cb718227cacedc1587046ae8ccfd0",
-      "bytes": 21415
+      "sha256": "3562f499f5b84497ee80df7c09119793ff3650dbf21a83328273181e2d78d79a",
+      "bytes": 21595
     },
     {
       "role": "human_validation_routing",
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "104780aa04e7ef3fa3641714b3d013de625ff444ee1918adcc65e30d1a1b688a",
+      "sha256": "ebf2975ff4dad2b44aca7079858844722470bcb12008fa181f004e1edaa60304",
       "bytes": 11042
     },
     {
