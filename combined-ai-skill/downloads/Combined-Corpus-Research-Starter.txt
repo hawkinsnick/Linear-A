@@ -2,12 +2,33 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 3a5f8d8f724ff5ca9e1531dc42ef1787e8459936152c0eb15d6cbe5f5ea85159
+Instruction snapshot SHA-256: 740b3073e79689d6fbee5ecfa4b9c84ab23f0de78bc6fa0995e900a97efdd05a
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
 Directory summaries are snapshot routing metadata, not current independently checked inscription facts.
 If a required member file cannot be accessed, identify what is missing and help select the next files.
+
+=== SOURCE FILE: corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md ===
+SHA-256: c4f8538a6ac02fbaafaef234159efe3873e8172fb6e78a1a31380b5f240d274e
+
+# Public source routes, 19 October 2026 UTC
+
+The next acquisition pass adds inspected source context without closing missing-reading or annotation gates.
+
+| Corpus | New work | Scope retained |
+|---|---|---|
+| Anatolian Hieroglyphic | Publisher Gelb1939 OIP45 acquired; pp.29,36 and platesXXXIX,LXII–LXIV visually inspected. Three hosted editorial drawing routes inspected. | Gelb's explicit limited Gürün collation; photos versus drawings; no I/II-to-upper/lower guess, physical-line-to-clause conversion, image gold or source independence claim. |
+| Linear B | Official public app routes and complete document/content-hint responses for existing example4307 inspected. | Neither selected response supplies linked word analyses or same-snapshot crosswalk. This does not rule out other routes or internal annotation. |
+| Linear A | Focused author/institutional discovery did not deliver the missing PK Zb21 originals. | Earlier text-rendition/excerpt-only status remains; no invented Davis full-word transcription. |
+
+Native guides: `Anatolian-Hieroglyphic/docs/VISUAL-SOURCE-ROUTES-2026-10-19.md` and `Linear-B/docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md`. The master registry pins each native register and collection; query them before claiming delivery. The earlier Peker KARAHÖYÜK§3 correspondence remains the only located modern target section from this follow-up.
+
+The verified Gelb download is publisher-declared CC BY-NC-ND4.0; hosted drawings retain source-specific rights. DĀMOS data CC BY-NC-SA4.0 and public application GPL3 are distinct. Registers contain receipts, schema fields and original source-critical notes. No source PDFs, OCR, images, sign tracings, app code or DĀMOS text payload are redistributed.
+
+Remaining concrete needs: Driessen1991 pp.146–147 and Davis2008 pp.55–56 original pages; Hawkins2000 exact clause apparatus and Masson1980 original pages (DOI10.1515/kadmos-1980-0206, publisher response empty); versioned linked DĀMOS words and same-snapshot26-ID crosswalk. No messages were sent; no canonical readings, physical joins or expert acceptance were added.
+
+=== END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md ===
 SHA-256: 2a7a1406a9c9a85b9df1c6bd7340dd3454c213f6758b61db2fc63e84c0bf4817
@@ -1538,7 +1559,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 51d10d5aa03c55b635b9598764830bd919fa6e3b6aebbebc0d38e535746c65dd
+SHA-256: 70bc84231718987f15cdbb3b5466f77ba5df2ae7bf3f898e4a5f7770bb9c4ac1
 
 ---
 name: combined-corpus-research
@@ -1971,6 +1992,10 @@ For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REV
 
 Read `corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md` and each member’s `source_page_check_path` before current source-access claims. One selected Peker section is located; Hawkins2000 is not directly inspected. PK Zb21 original pages and the linked DĀMOS annotation package remain undelivered. Do not turn a catalogue heading, HTTP200 HTML, supplied flat document file or unsent request into completed source review.
 
+## Public visual and document source routes
+
+Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` and the native `public_source_route_path` registers. Treat Gelb page/plate records as presentations, not objects; preserve his limited Gürün collation. Physical line3 is not clause§3b. Hosted editorial drawings do not establish full-edition consultation. Two DĀMOS public responses for4307 supply no linked annotation package; do not generalize that negative result to every possible route or the internal database. Preserve source-specific rights and all unresolved original-page/word-crosswalk gates.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -2043,7 +2068,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 341fa2279acfb72926190c7cc318cc417f8dfb1354327e87d3f84dd883dcdeb6
+SHA-256: 63f516971b48f8793a9e62177bee39e5fcf10b12bc60ca672be3ab5c57a456c3
 
 {
   "schema_version": "1.0.0",
@@ -2228,7 +2253,10 @@ SHA-256: 341fa2279acfb72926190c7cc318cc417f8dfb1354327e87d3f84dd883dcdeb6
       "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
       "source_page_check_path": "research/damos-supplied-structure-2026-10-18.json",
       "source_page_check_guide_path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
-      "source_page_check_collection": "damos-supplied-structure"
+      "source_page_check_collection": "damos-supplied-structure",
+      "public_source_route_path": "research/damos-public-routes-2026-10-19.json",
+      "public_source_route_guide_path": "docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md",
+      "public_source_route_collection": "damos-public-routes"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -2679,7 +2707,10 @@ SHA-256: 341fa2279acfb72926190c7cc318cc417f8dfb1354327e87d3f84dd883dcdeb6
       "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
       "source_page_check_path": "research/edition-page-check-2026-10-18.json",
       "source_page_check_guide_path": "docs/EDITION-PAGE-CHECK-2026-10-18.md",
-      "source_page_check_collection": "city-edition-page-check"
+      "source_page_check_collection": "city-edition-page-check",
+      "public_source_route_path": "research/visual-source-routes-2026-10-19.json",
+      "public_source_route_guide_path": "docs/VISUAL-SOURCE-ROUTES-2026-10-19.md",
+      "public_source_route_collection": "visual-source-routes"
     },
     {
       "id": "archanes_script",
