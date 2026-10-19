@@ -213,3 +213,7 @@ Added `research/pkzb21-page-access-2026-10-18.json` and guide, native evidence-q
 ## Coordinated public source routes — 2026-10-19 UTC
 
 Updated master registry, starter and individual AI routing for Gelb historical visual-source consultation and bounded DĀMOS public endpoint inspections. No new Linear A readings or original-page delivery.
+
+## Three-source direct PDF follow-up (2026-10-18)
+
+Bind the newly acquired Ferrer PDF comparison (22 rendered pages,33 appendix lines/groups) and BnF Olivier delivery locator to native merged revisions. Verify the earlier master admission/sync failure has cleared. Preserve two open original-source checks and all scientific acceptance boundaries.

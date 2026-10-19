@@ -60,8 +60,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "70bc84231718987f15cdbb3b5466f77ba5df2ae7bf3f898e4a5f7770bb9c4ac1",
-      "bytes": 65406
+      "sha256": "ce89ec90829f2899f477e07bf5b785f43a422b4c2ebc5f7839914932e583995d",
+      "bytes": 66000
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -90,8 +90,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "63f516971b48f8793a9e62177bee39e5fcf10b12bc60ca672be3ab5c57a456c3",
-      "bytes": 67417
+      "sha256": "7666b4a264354c76210dd7f4a2b954d7ce7c76ef3e917f4aad4f69652ea61b22",
+      "bytes": 67673
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -225,8 +225,8 @@
     },
     {
       "path": "corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md",
-      "sha256": "928b760b68024ac931b3bc92b815561c344dc8c1982bef57b2e39ff9e928e9de",
-      "bytes": 3347
+      "sha256": "f870d3f0cb1e389519d0e42f1e4ea250ec70ca3057ca1b0682792d69df992d32",
+      "bytes": 3476
     },
     {
       "path": "corpus-factory/attribution-review-rollout.json",
@@ -250,7 +250,7 @@
     },
     {
       "path": "corpus-factory/evidence-query-rollout.json",
-      "sha256": "d0cb7642374b297d71b4f6e212cfe7ef2a56b6108a1923352cda28cec7722325",
+      "sha256": "a0b1a976be065cb85b78cfe4c97ff874db7058a3dee7e7e55df9b405434cb709",
       "bytes": 7677
     },
     {
@@ -260,8 +260,8 @@
     },
     {
       "path": "corpus-factory/fleet-gap-register.json",
-      "sha256": "a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b",
-      "bytes": 30421
+      "sha256": "6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7",
+      "bytes": 30653
     },
     {
       "path": "corpus-factory/schemas/benchmark-status.schema.json",
@@ -285,8 +285,8 @@
     },
     {
       "path": "corpus-factory/source-intake-2026-10-18.json",
-      "sha256": "c490099360cb44a0a6a5c7213ad57689f893cf56910488e66e5ea222e47f730d",
-      "bytes": 1881
+      "sha256": "9186d37a7c3f4d752a4e198d1042a5d0bd593bea4992aed84489ebb99a036c5f",
+      "bytes": 2948
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
@@ -309,5 +309,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "740b3073e79689d6fbee5ecfa4b9c84ab23f0de78bc6fa0995e900a97efdd05a"
+  "snapshot_sha256": "81122f80531189fedfb62ba4f0e2068d9e5056dfef2e9dc13c97c1106b2c6d89"
 }

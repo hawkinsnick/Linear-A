@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 740b3073e79689d6fbee5ecfa4b9c84ab23f0de78bc6fa0995e900a97efdd05a
+Instruction snapshot SHA-256: 81122f80531189fedfb62ba4f0e2068d9e5056dfef2e9dc13c97c1106b2c6d89
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -50,32 +50,31 @@ Concrete unsent source requests are retained in the native guides/registers. The
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md ===
-SHA-256: 928b760b68024ac931b3bc92b815561c344dc8c1982bef57b2e39ff9e928e9de
+SHA-256: f870d3f0cb1e389519d0e42f1e4ea250ec70ca3057ca1b0682792d69df992d32
 
 # Three-source follow-up — 2026-10-18
 
-All three requested acquisition/comparison tasks were pursued. **None of the three outstanding original-PDF/page checks is complete.** No new PDF or rendered-page inspection was obtained. Ferrer’s accessible publisher-provided web text supports a bounded convention/scope check; its exact glyph and appendix-row comparison remains open. The master records these consultation limits separately from the earlier17 selected publication comparisons.
+The Ferrer PDF-access blocker is closed. The lawful CC BY4.0 PDF was acquired,22 rendered pages (printed149–170) inspected, and all33 appendix lines/groups compared with the frozen directory or assigned an explicit absent-counterpart disposition. Figures1–3 and the complete appendix are directly consulted. This is a bounded editorial comparison, not a glyph-complete diplomatic edition, independent object examination or accepted reading.
 
-| Requested source | Supported progress | Outstanding evidence |
+| Source | Completed | Still open |
 |---|---|---|
-| Ferrer2025, full new-vowel study | Semantic model and appendix-policy consultation recorded with page markers in the native intake packet | Lawful PDF and visual comparison of diagrams, typography and complete appendix |
-| Brixhe–Neumann1988 | Correct joint-article DOI verified from publisher-deposited metadata: **10.1515/kadmos-1988-0105** | Original article, pp.35–43; targeted Greek-component comparison |
-| Olivier2007 | Publisher route rechecked; Louvre209 bibliography used to improve the delivery request | Entries026–027 at76–77; relevant209 loci within museum-cited344–383; inspect496 to establish the role of the earlier project locator |
+| Ferrer2025, DOI10.1515/kadmos-2025-0009 | PDF acquired; figures, final conventions and whole appendix directly compared | Independent evaluation of proposals; exact diplomatic encoding if needed; original-photograph replay |
+| Brixhe–Neumann1988, DOI10.1515/kadmos-1988-0105 | Correct joint-article identity; university bibliography corroborates pp35–43 | Original article and targeted Greek-component comparison |
+| Olivier2007 | Museum209 request scope; verified BnF physical-volume locator and ISBN | Original edition pages76–77, relevant209 loci within museum-cited344–383 and legacy496 locator |
 
-The previously supplied DOI **10.1515/kadmos-1988-0108** identifies Günter Neumann’s separate *Zur sidetisch-griechischen Bilingue I*. It must not be used as the identifier for the joint Brixhe–Neumann article. Deposited title/author metadata establish this bibliographic distinction; neither original paper was acquired through this work.
+Ferrer’s discussion uses sign28=u₂ and5=u; p167 and the appendix adopt28=u,5=provisional y and6=w. This is an attributed convention, not an automatic corpus substitution. His S13 Lyrbe stele is the frozen directory’s S11 (“S13”, S I.2.6), not the uncertain Mnemon Characters S11 excluded from his appendix. S14 and some coin groups lack frozen counterparts. Retain printed S6 uncertainty and differing line arrangements.
 
-The Louvre’s bibliography is a museum assertion, not direct Olivier consultation, a confirmed reading or project physical certification. The broader209 page range does not silently invalidate the older496 locator; both require checking in the book. A museum image or bibliography cannot settle Valério’s09/10 discrepancy.
+## Native evidence and source delivery
 
-## Native evidence and prepared delivery requests
+- [Sidetic direct PDF/appendix guide](https://github.com/hawkinsnick/Sidetic/blob/main/docs/FERRER2025-PDF-COMPARISON-2026-10-18.md), with33 comparison notes in `research/ferrer2025-pdf-comparison-2026-10-18.json`. Query native collection `ferrer2025-appendix-comparison`.
+- [Sidetic intake](https://github.com/hawkinsnick/Sidetic/blob/main/research/source-intake-2026-10-18.json): acquired-PDF receipt, access history and remaining Brixhe–Neumann request. DOI0108 identifies Neumann’s separate paper, not the joint article.
+- [Cypro-Minoan intake](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/research/source-intake-2026-10-18.json): Olivier request and BnF FRBNF41246930, shelfmark487.1 OLIV e, hardback ISBN9788862270304. Catalogue holding and reproduction-service link do not prove scan eligibility or fulfilment. The Louvre bibliography is not direct book consultation or physical certification; do not discard p496 without checking it.
 
-- [Sidetic source intake](https://github.com/hawkinsnick/Sidetic/blob/main/research/source-intake-2026-10-18.json): two task dossiers, page markers, bounded model notes, corrected bibliographic identity, failed routes and unsent request texts.
-- [Cypro-Minoan source intake](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/research/source-intake-2026-10-18.json): Olivier request scope and Louvre bibliography qualification.
+The two remaining original sources could not be acquired through the checked public routes. No delivery request was sent and no purchase made. The prepared requests are in the native packets. Five Olivier comparison sides remain indirect; the09/10 inconsistency remains unresolved.
 
-Run `python scripts/evidence_query.py --list source-intake-2026-10-18` within the relevant native repository. Individual cases are accessible using `--record CASE_ID --collection source-intake-2026-10-18`. These are acquisition tasks, not inscriptions, alternative pairs or independent witnesses.
+The former master refresh failure has cleared: admission and sync checks passed at5a31b9a04738 and the published bundle77a3040 includes the earlier source-intake records. The current update binds the new native packets to their merge revisions in `source-intake-2026-10-18.json`. No controls were bypassed.
 
-HTTP202 with zero bytes is not an acquired PDF;403 is route-specific. No source-access exhaustion is claimed. Requests are prepared but **not sent**; no purchase is made. The factual convention notes do not authorize normalization or canonical replacement. Frozen readings, source-file redistribution and independent-review states remain unchanged. The dated packet records native hashes and merge revisions for replay.
-
-The dated research-delivery fleet and Northwestern federated checkpoints remain historical receipts. This follow-up is bound separately to the native merge commits in `source-intake-2026-10-18.json`; it does not recertify the full fleet.
+Source-acquisition tasks and33 appendix comparison notes are not objects or independent witnesses. Do not add them to the17 historical selected comparisons. Earlier fleet/Northwestern checkpoints remain historical receipts. No frozen readings, physical identities or independent-review states were promoted.
 
 === END SOURCE FILE ===
 
@@ -1559,7 +1558,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: 70bc84231718987f15cdbb3b5466f77ba5df2ae7bf3f898e4a5f7770bb9c4ac1
+SHA-256: ce89ec90829f2899f477e07bf5b785f43a422b4c2ebc5f7839914932e583995d
 
 ---
 name: combined-corpus-research
@@ -1983,7 +1982,7 @@ For the 2026-10-17 Linear B, Linear A and Anatolian Hieroglyphic source studies,
 
 ## Three-source acquisition status — 2026-10-18
 
-Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/source-intake-2026-10-18.json`. None of the three original-page checks is complete. Route to the native intake packets for partial consultation, corrected identity and remaining delivery requirements; do not count acquisition tasks as objects or pool them with the17 earlier comparisons. The joint Brixhe–Neumann1988 article is DOI10.1515/kadmos-1988-0105;0108 is a different Neumann article. Preserve deposited metadata versus original-page inspection and prepared versus sent requests. No global sign/numbering normalization, accepted reading or expert review follows.
+Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/source-intake-2026-10-18.json`. The Ferrer PDF is acquired:22 rendered pages and all33 appendix lines/groups have a bounded direct comparison; Brixhe–Neumann and Olivier original checks remain open. Route to the native intake packets for partial consultation, corrected identity and remaining delivery requirements; do not count acquisition tasks as objects or pool them with the17 earlier comparisons. The joint Brixhe–Neumann1988 article is DOI10.1515/kadmos-1988-0105;0108 is a different Neumann article. Preserve deposited metadata versus original-page inspection and prepared versus sent requests. No global sign/numbering normalization, accepted reading or expert review follows.
 
 
 For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md`. Route to the member’s `research/review-exercise-2026-10-18.json` and exact native target. Distinguish a PKZb21 text-rendition contrast from full-word/page collation and Luwian reference candidates from exact reading joins. Never present a teaching example as human review.
@@ -1995,6 +1994,10 @@ Read `corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md` and each member’s `
 ## Public visual and document source routes
 
 Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` and the native `public_source_route_path` registers. Treat Gelb page/plate records as presentations, not objects; preserve his limited Gürün collation. Physical line3 is not clause§3b. Hosted editorial drawings do not establish full-edition consultation. Two DĀMOS public responses for4307 supply no linked annotation package; do not generalize that negative result to every possible route or the internal database. Preserve source-specific rights and all unresolved original-page/word-crosswalk gates.
+
+## Direct Ferrer PDF follow-up
+
+Read the current three-source guide and native `research/ferrer2025-pdf-comparison-2026-10-18.json` before answering source-access or appendix questions. Preserve discussion/final sign conventions, directory S11 versus Ferrer S13 and questioned letters. The33 notes do not constitute exact diplomatic encoding, independent witnesses or expert acceptance. The master refresh block has cleared; two original-source acquisition tasks remain open.
 
 === END SOURCE FILE ===
 
@@ -2068,7 +2071,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 63f516971b48f8793a9e62177bee39e5fcf10b12bc60ca672be3ab5c57a456c3
+SHA-256: 7666b4a264354c76210dd7f4a2b954d7ce7c76ef3e917f4aad4f69652ea61b22
 
 {
   "schema_version": "1.0.0",
@@ -2925,7 +2928,10 @@ SHA-256: 63f516971b48f8793a9e62177bee39e5fcf10b12bc60ca672be3ab5c57a456c3
       "source_collation_query_path": "scripts/source_collation.py",
       "p1_human_request_path": "review/p1-human-request.json",
       "p1_human_request_status": "PREPARED_NOT_REVIEWED",
-      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory.",
+      "ferrer_pdf_comparison_path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+      "ferrer_pdf_comparison_guide_path": "docs/FERRER2025-PDF-COMPARISON-2026-10-18.md",
+      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -3131,7 +3137,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b
+SHA-256: 6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7
 
 {
   "schema_version": "1.0",
@@ -3173,7 +3179,7 @@ SHA-256: a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b
       "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
       "current_evidence": {
         "repository": "hawkinsnick/Cypro-Minoan",
-        "source_commit": "7eafbfff44e84d51d8ef85543ba0388de4681760",
+        "source_commit": "91469166ad67007edb6e6fb3ec517d11865f270d",
         "inspected_on": "2026-10-18",
         "artifacts": [
           {
@@ -3194,10 +3200,10 @@ SHA-256: a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b
           },
           {
             "path": "research/source-intake-2026-10-18.json",
-            "sha256": "176cc01584403aab901149f4149a55184bea67f4c8089778a536e02a6857fc2d"
+            "sha256": "21ce36e8ea07ffe2231d933802a51dd0c525938f8cb9a25539c5f75f92ba6886"
           }
         ],
-        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
+        "scope": "Selected direct Ferrer PDF/appendix comparison or Olivier bibliographic delivery follow-up; not all-source completion or independent scientific validation."
       }
     },
     {
@@ -3514,7 +3520,7 @@ SHA-256: a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "13cf969aa07eee1926ea17965451633974a1f82f",
+        "source_commit": "2e605c6779bf93eff4ed9aa5291ae64cb194fd17",
         "inspected_on": "2026-10-18",
         "artifacts": [
           {
@@ -3535,10 +3541,14 @@ SHA-256: a66c1c32086b15469e1f999b048e6eea05734d76b6caa914781ee01d76a3c00b
           },
           {
             "path": "research/source-intake-2026-10-18.json",
-            "sha256": "29500c325bde09c71a8141442736d80856de1a5dfc9f62d664f1c88fea41fc74"
+            "sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd"
+          },
+          {
+            "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+            "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1"
           }
         ],
-        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
+        "scope": "Selected direct Ferrer PDF/appendix comparison or Olivier bibliographic delivery follow-up; not all-source completion or independent scientific validation."
       }
     },
     {

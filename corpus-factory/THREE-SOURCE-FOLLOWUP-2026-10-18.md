@@ -1,24 +1,23 @@
 # Three-source follow-up — 2026-10-18
 
-All three requested acquisition/comparison tasks were pursued. **None of the three outstanding original-PDF/page checks is complete.** No new PDF or rendered-page inspection was obtained. Ferrer’s accessible publisher-provided web text supports a bounded convention/scope check; its exact glyph and appendix-row comparison remains open. The master records these consultation limits separately from the earlier17 selected publication comparisons.
+The Ferrer PDF-access blocker is closed. The lawful CC BY4.0 PDF was acquired,22 rendered pages (printed149–170) inspected, and all33 appendix lines/groups compared with the frozen directory or assigned an explicit absent-counterpart disposition. Figures1–3 and the complete appendix are directly consulted. This is a bounded editorial comparison, not a glyph-complete diplomatic edition, independent object examination or accepted reading.
 
-| Requested source | Supported progress | Outstanding evidence |
+| Source | Completed | Still open |
 |---|---|---|
-| Ferrer2025, full new-vowel study | Semantic model and appendix-policy consultation recorded with page markers in the native intake packet | Lawful PDF and visual comparison of diagrams, typography and complete appendix |
-| Brixhe–Neumann1988 | Correct joint-article DOI verified from publisher-deposited metadata: **10.1515/kadmos-1988-0105** | Original article, pp.35–43; targeted Greek-component comparison |
-| Olivier2007 | Publisher route rechecked; Louvre209 bibliography used to improve the delivery request | Entries026–027 at76–77; relevant209 loci within museum-cited344–383; inspect496 to establish the role of the earlier project locator |
+| Ferrer2025, DOI10.1515/kadmos-2025-0009 | PDF acquired; figures, final conventions and whole appendix directly compared | Independent evaluation of proposals; exact diplomatic encoding if needed; original-photograph replay |
+| Brixhe–Neumann1988, DOI10.1515/kadmos-1988-0105 | Correct joint-article identity; university bibliography corroborates pp35–43 | Original article and targeted Greek-component comparison |
+| Olivier2007 | Museum209 request scope; verified BnF physical-volume locator and ISBN | Original edition pages76–77, relevant209 loci within museum-cited344–383 and legacy496 locator |
 
-The previously supplied DOI **10.1515/kadmos-1988-0108** identifies Günter Neumann’s separate *Zur sidetisch-griechischen Bilingue I*. It must not be used as the identifier for the joint Brixhe–Neumann article. Deposited title/author metadata establish this bibliographic distinction; neither original paper was acquired through this work.
+Ferrer’s discussion uses sign28=u₂ and5=u; p167 and the appendix adopt28=u,5=provisional y and6=w. This is an attributed convention, not an automatic corpus substitution. His S13 Lyrbe stele is the frozen directory’s S11 (“S13”, S I.2.6), not the uncertain Mnemon Characters S11 excluded from his appendix. S14 and some coin groups lack frozen counterparts. Retain printed S6 uncertainty and differing line arrangements.
 
-The Louvre’s bibliography is a museum assertion, not direct Olivier consultation, a confirmed reading or project physical certification. The broader209 page range does not silently invalidate the older496 locator; both require checking in the book. A museum image or bibliography cannot settle Valério’s09/10 discrepancy.
+## Native evidence and source delivery
 
-## Native evidence and prepared delivery requests
+- [Sidetic direct PDF/appendix guide](https://github.com/hawkinsnick/Sidetic/blob/main/docs/FERRER2025-PDF-COMPARISON-2026-10-18.md), with33 comparison notes in `research/ferrer2025-pdf-comparison-2026-10-18.json`. Query native collection `ferrer2025-appendix-comparison`.
+- [Sidetic intake](https://github.com/hawkinsnick/Sidetic/blob/main/research/source-intake-2026-10-18.json): acquired-PDF receipt, access history and remaining Brixhe–Neumann request. DOI0108 identifies Neumann’s separate paper, not the joint article.
+- [Cypro-Minoan intake](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/research/source-intake-2026-10-18.json): Olivier request and BnF FRBNF41246930, shelfmark487.1 OLIV e, hardback ISBN9788862270304. Catalogue holding and reproduction-service link do not prove scan eligibility or fulfilment. The Louvre bibliography is not direct book consultation or physical certification; do not discard p496 without checking it.
 
-- [Sidetic source intake](https://github.com/hawkinsnick/Sidetic/blob/main/research/source-intake-2026-10-18.json): two task dossiers, page markers, bounded model notes, corrected bibliographic identity, failed routes and unsent request texts.
-- [Cypro-Minoan source intake](https://github.com/hawkinsnick/Cypro-Minoan/blob/main/research/source-intake-2026-10-18.json): Olivier request scope and Louvre bibliography qualification.
+The two remaining original sources could not be acquired through the checked public routes. No delivery request was sent and no purchase made. The prepared requests are in the native packets. Five Olivier comparison sides remain indirect; the09/10 inconsistency remains unresolved.
 
-Run `python scripts/evidence_query.py --list source-intake-2026-10-18` within the relevant native repository. Individual cases are accessible using `--record CASE_ID --collection source-intake-2026-10-18`. These are acquisition tasks, not inscriptions, alternative pairs or independent witnesses.
+The former master refresh failure has cleared: admission and sync checks passed at5a31b9a04738 and the published bundle77a3040 includes the earlier source-intake records. The current update binds the new native packets to their merge revisions in `source-intake-2026-10-18.json`. No controls were bypassed.
 
-HTTP202 with zero bytes is not an acquired PDF;403 is route-specific. No source-access exhaustion is claimed. Requests are prepared but **not sent**; no purchase is made. The factual convention notes do not authorize normalization or canonical replacement. Frozen readings, source-file redistribution and independent-review states remain unchanged. The dated packet records native hashes and merge revisions for replay.
-
-The dated research-delivery fleet and Northwestern federated checkpoints remain historical receipts. This follow-up is bound separately to the native merge commits in `source-intake-2026-10-18.json`; it does not recertify the full fleet.
+Source-acquisition tasks and33 appendix comparison notes are not objects or independent witnesses. Do not add them to the17 historical selected comparisons. Earlier fleet/Northwestern checkpoints remain historical receipts. No frozen readings, physical identities or independent-review states were promoted.
