@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "5a31b9a04738ed956810223bc54db8b93b6fcc86",
-  "generated_at_utc": "2026-10-18T19:01:50+00:00",
+  "source_commit": "0a8e3c09a688e12ee7f56923a1b1635e6d0f865f",
+  "generated_at_utc": "2026-10-19T01:17:34+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -424,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "51d10d5aa03c55b635b9598764830bd919fa6e3b6aebbebc0d38e535746c65dd",
-      "bytes": 64796
+      "sha256": "70bc84231718987f15cdbb3b5466f77ba5df2ae7bf3f898e4a5f7770bb9c4ac1",
+      "bytes": 65406
     },
     {
       "role": "source_delivery_guide",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "ab4cd7811017590ab39cf208f032caaf61479adf6efcf01423b213b03daa448c",
-      "bytes": 42234
+      "sha256": "89ad7d9f8324de9ab83877da14b03aebdbed13a750ca0479ee96459ce04b2acf",
+      "bytes": 42481
     },
     {
       "role": "cross_corpus_dependencies",
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "db1da9bcf611c2d9b53337e20b5a39b716ba7ccfb751d8fd4be96c5b2d3864dd",
+      "sha256": "104780aa04e7ef3fa3641714b3d013de625ff444ee1918adcc65e30d1a1b688a",
       "bytes": 11042
     },
     {
@@ -1236,6 +1236,12 @@
       "path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
       "sha256": "ddc5be1325fc9ae75c803804d7cbebc0130dff60d47ad96c4247a42dd067ee8d",
       "bytes": 933
+    },
+    {
+      "role": "public_source_master_route",
+      "path": "corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md",
+      "sha256": "c4f8538a6ac02fbaafaef234159efe3873e8172fb6e78a1a31380b5f240d274e",
+      "bytes": 2101
     }
   ]
 }
