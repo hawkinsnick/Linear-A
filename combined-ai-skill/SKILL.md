@@ -420,7 +420,7 @@ For the 2026-10-17 Linear B, Linear A and Anatolian Hieroglyphic source studies,
 
 ## Three-source acquisition status — 2026-10-18
 
-Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/source-intake-2026-10-18.json`. None of the three original-page checks is complete. Route to the native intake packets for partial consultation, corrected identity and remaining delivery requirements; do not count acquisition tasks as objects or pool them with the17 earlier comparisons. The joint Brixhe–Neumann1988 article is DOI10.1515/kadmos-1988-0105;0108 is a different Neumann article. Preserve deposited metadata versus original-page inspection and prepared versus sent requests. No global sign/numbering normalization, accepted reading or expert review follows.
+Read `corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md` and `corpus-factory/source-intake-2026-10-18.json`. The Ferrer PDF is acquired:22 rendered pages and all33 appendix lines/groups have a bounded direct comparison; Brixhe–Neumann and Olivier original checks remain open. Route to the native intake packets for partial consultation, corrected identity and remaining delivery requirements; do not count acquisition tasks as objects or pool them with the17 earlier comparisons. The joint Brixhe–Neumann1988 article is DOI10.1515/kadmos-1988-0105;0108 is a different Neumann article. Preserve deposited metadata versus original-page inspection and prepared versus sent requests. No global sign/numbering normalization, accepted reading or expert review follows.
 
 
 For the2026-10-18 source follow-up, read `corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md`. Route to the member’s `research/review-exercise-2026-10-18.json` and exact native target. Distinguish a PKZb21 text-rendition contrast from full-word/page collation and Luwian reference candidates from exact reading joins. Never present a teaching example as human review.
@@ -432,3 +432,7 @@ Read `corpus-factory/SOURCE-PAGE-CHECKPOINT-2026-10-18.md` and each member’s `
 ## Public visual and document source routes
 
 Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` and the native `public_source_route_path` registers. Treat Gelb page/plate records as presentations, not objects; preserve his limited Gürün collation. Physical line3 is not clause§3b. Hosted editorial drawings do not establish full-edition consultation. Two DĀMOS public responses for4307 supply no linked annotation package; do not generalize that negative result to every possible route or the internal database. Preserve source-specific rights and all unresolved original-page/word-crosswalk gates.
+
+## Direct Ferrer PDF follow-up
+
+Read the current three-source guide and native `research/ferrer2025-pdf-comparison-2026-10-18.json` before answering source-access or appendix questions. Preserve discussion/final sign conventions, directory S11 versus Ferrer S13 and questioned letters. The33 notes do not constitute exact diplomatic encoding, independent witnesses or expert acceptance. The master refresh block has cleared; two original-source acquisition tasks remain open.

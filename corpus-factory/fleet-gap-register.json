@@ -38,7 +38,7 @@
       "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
       "current_evidence": {
         "repository": "hawkinsnick/Cypro-Minoan",
-        "source_commit": "7eafbfff44e84d51d8ef85543ba0388de4681760",
+        "source_commit": "91469166ad67007edb6e6fb3ec517d11865f270d",
         "inspected_on": "2026-10-18",
         "artifacts": [
           {
@@ -59,10 +59,10 @@
           },
           {
             "path": "research/source-intake-2026-10-18.json",
-            "sha256": "176cc01584403aab901149f4149a55184bea67f4c8089778a536e02a6857fc2d"
+            "sha256": "21ce36e8ea07ffe2231d933802a51dd0c525938f8cb9a25539c5f75f92ba6886"
           }
         ],
-        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
+        "scope": "Selected direct Ferrer PDF/appendix comparison or Olivier bibliographic delivery follow-up; not all-source completion or independent scientific validation."
       }
     },
     {
@@ -379,7 +379,7 @@
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "13cf969aa07eee1926ea17965451633974a1f82f",
+        "source_commit": "5fb86376599d04a95e2f294544fa274a98f8ebdf",
         "inspected_on": "2026-10-18",
         "artifacts": [
           {
@@ -400,10 +400,14 @@
           },
           {
             "path": "research/source-intake-2026-10-18.json",
-            "sha256": "29500c325bde09c71a8141442736d80856de1a5dfc9f62d664f1c88fea41fc74"
+            "sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd"
+          },
+          {
+            "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+            "sha256": "bdf654f81f7398266a23744830da26cfb8dc5746c6334cb5b84b9870172d6361"
           }
         ],
-        "scope": "Selected source-intake metadata/web-text follow-up; original PDFs unacquired, no new original-page inspection or independent reading."
+        "scope": "Selected direct Ferrer PDF/appendix comparison or Olivier bibliographic delivery follow-up; not all-source completion or independent scientific validation."
       }
     },
     {

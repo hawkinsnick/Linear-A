@@ -314,3 +314,7 @@ For the source follow-up and reviewer exercise, read `docs/REVIEWER-WALKTHROUGH.
 Read `docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md` and `research/pkzb21-page-access-2026-10-18.json`; query `pkzb21-page-access` for the exact bounded outcome. Preserve the difference between source delivery, text rendition, page inspection, documentary correspondence and canonical acceptance. A successful HTTP status, matching heading, supplied document metadata or request draft cannot close an evidence gate. Historical registers retain their dated scope.
 
 Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` for the coordinated source follow-up. New Luwian visual-source routes and DĀMOS endpoint inspections do not close the PK Zb21 original-page gap or permit cross-script sign/value transfer.
+
+## Direct Ferrer PDF follow-up
+
+Read the current three-source guide and native `research/ferrer2025-pdf-comparison-2026-10-18.json` before answering source-access or appendix questions. Preserve discussion/final sign conventions, directory S11 versus Ferrer S13 and questioned letters. The33 notes do not constitute exact diplomatic encoding, independent witnesses or expert acceptance. The master refresh block has cleared; two original-source acquisition tasks remain open.

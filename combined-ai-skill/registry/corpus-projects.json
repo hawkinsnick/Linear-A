@@ -853,7 +853,10 @@
       "source_collation_query_path": "scripts/source_collation.py",
       "p1_human_request_path": "review/p1-human-request.json",
       "p1_human_request_status": "PREPARED_NOT_REVIEWED",
-      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory.",
+      "ferrer_pdf_comparison_path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+      "ferrer_pdf_comparison_guide_path": "docs/FERRER2025-PDF-COMPARISON-2026-10-18.md",
+      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison"
     },
     {
       "repository": "hawkinsnick/Pisidian",
