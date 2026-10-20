@@ -1,0 +1,165 @@
+{
+  "format": "standalone-master-source-index-v1",
+  "version": "1.4.0",
+  "migration_status": "PREPARED_NOT_CANONICAL",
+  "origin_repository": "hawkinsnick/Linear-A",
+  "origin_commit": "61f1cd73ae66fd6a5f98d03f2f5694b05bf11d18",
+  "native_corpus_payload_included": false,
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "006908a3b1c49e73cf299027c7657dd38fc3b61f4793ab41cacf3b44cbd4f17b",
+      "bytes": 1910
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "0ad7a9ba7d95f19466e5975f5f1d12bb1b43e1878e308b39432ce1e18edf8b5b",
+      "bytes": 31
+    },
+    {
+      "path": "CORPUS-DOWNLOADS.md",
+      "sha256": "32fe0005ea5261bb76aee11c2f11306458cbd0edd34398edab086479f74eff6f",
+      "bytes": 5269
+    },
+    {
+      "path": "EXPERT-REVIEW.md",
+      "sha256": "1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878",
+      "bytes": 4219
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "af737cfa218f4d684bb13f5434d1756975b296dac479e0ebdc2da0dd9ed2f35c",
+      "bytes": 261
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+      "bytes": 444
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+      "bytes": 969
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "28496cddc6a99fbd573081552faccffb6d78ab696c63b86b1554872894492f6f",
+      "bytes": 744
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "41860a7e01548b6935b4820233edf30ded2510d83290f30785e98c9302dffbee",
+      "bytes": 497
+    },
+    {
+      "path": "PROMPTS.md",
+      "sha256": "143e7b1fc0b30498cb4e0b682791729663c5185ad4c1f868bdd7aabaa3f0405f",
+      "bytes": 2912
+    },
+    {
+      "path": "QUICKSTART.md",
+      "sha256": "622c0b12ebc76348428ecb42179fbcfb83cc7875cb1bdcd3de295c3bca6d18e5",
+      "bytes": 5210
+    },
+    {
+      "path": "README.md",
+      "sha256": "f90f31f34191cd1b5ec3cb5f54443a37bd1f13639944db3a1ec141354d1dc336",
+      "bytes": 1714
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "ef36439b395dc66f9bc4441b625630566a47bfabf1c49726805ef5d00900000e",
+      "bytes": 6383
+    },
+    {
+      "path": "START-HERE.md",
+      "sha256": "4992ef858e6dff41cecab76577c56ca00871d53b503b9cdacbe69f25b3835cfc",
+      "bytes": 1559
+    },
+    {
+      "path": "WORKED-EXAMPLES.md",
+      "sha256": "cbde6b0728776a9ff3a0b37fe960b7a16b1ccedcd5d5fb36ec79b8cb6e60c526",
+      "bytes": 12855
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "27ecf7a95462b3e72168b209abab11d86b1306713a9c7492b5e4522bf2b9b811",
+      "bytes": 1030
+    },
+    {
+      "path": "migration/CUTOVER.md",
+      "sha256": "a3c179edd5a230dc8e7155633c4cd0b14501a0f687090fa4623aa04669d9d437",
+      "bytes": 2042
+    },
+    {
+      "path": "migration/VALIDATION.md",
+      "sha256": "73c25c9c1567176b1954040540ac4e2860b4b410a0657c76ccfd9c96a2caa34f",
+      "bytes": 1843
+    },
+    {
+      "path": "migration/member-checkpoints.json",
+      "sha256": "241e1671eb44fd427a47030dd3ad5fa568fd4c1aa4259b2367cc2629eb212c57",
+      "bytes": 2371
+    },
+    {
+      "path": "migration/origin.json",
+      "sha256": "fa6d81bba5280745fcd8f35d2f0ed8c12a7d32360bd44b2bb1eca2c31f0699c6",
+      "bytes": 3711
+    },
+    {
+      "path": "references/comparability-matrix.md",
+      "sha256": "e7ed83a62d4728d4f183c306ce57ace2a58bf682cba85cb4a98979222c234f30",
+      "bytes": 1457
+    },
+    {
+      "path": "references/native-routing.md",
+      "sha256": "0b610a4f735b0778e36169aba7dcb631dbb16e7d28614c32e69223f175530ad2",
+      "bytes": 70015
+    },
+    {
+      "path": "references/pre-expert-standing-order.md",
+      "sha256": "e84c09d4b4e812f08f57114348812525b0f715fe6387ca9498193f6166deabe9",
+      "bytes": 5919
+    },
+    {
+      "path": "registry/corpus-projects.json",
+      "sha256": "51942e8989e847dd7802741531c8d67c18f14bde59a596bbcbfdcb67635a8406",
+      "bytes": 68067
+    },
+    {
+      "path": "scripts/build_starter.py",
+      "sha256": "a1b6d0d9fe20dab80ffc313fb48be37d3bd1dd1a391463de72ebf6a68dc85268",
+      "bytes": 2872
+    },
+    {
+      "path": "scripts/common.py",
+      "sha256": "0d3e2f85c3c69de1ce448b77836c0a7eed558e2ca1ad764907aca4ac820845f4",
+      "bytes": 3057
+    },
+    {
+      "path": "scripts/query.py",
+      "sha256": "00901b1a4d8aaf63b96274314819e1a1f3dfb513982dd398febca39e056fdce8",
+      "bytes": 3244
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "ab3efc64eef43381de67c4a302410019c28db4423792db942f5ce7f16e835b06",
+      "bytes": 4391
+    },
+    {
+      "path": "tests/adversarial-cases.json",
+      "sha256": "33b458f7cb372c8d00d5576ee111894424f77cbd59b58c8aed6837a6b70df280",
+      "bytes": 7514
+    },
+    {
+      "path": "tests/test_standalone.py",
+      "sha256": "4d027cff2a6ec8bd13763c426ff4ea44a1170b3aaf8ef17ad239fbbf7cfe6e6d",
+      "bytes": 4332
+    }
+  ],
+  "starter": {
+    "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
+    "sha256": "887e35ec2dc9ee2edf26fb2c924306c53821d317cd24bd837001c9e19477c375",
+    "bytes": 77748
+  }
+}

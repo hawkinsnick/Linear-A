@@ -1,5 +1,0 @@
-{
-  "version": "1.0",
-  "rule": "Normalize trivial whitespace/punctuation only; a catalogue-level label denoting multiple source-defined faces/sides expands to ALL corresponding decoded documents. Never select/drop a side using candidate outcomes. Unresolved labels remain unresolved and are reported.",
-  "candidate_outcomes_inspected": false
-}

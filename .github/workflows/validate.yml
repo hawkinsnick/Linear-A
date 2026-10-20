@@ -1,100 +1,45 @@
-name: validate
-on: [push, pull_request]
+name: Validate standalone master skill
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
 jobs:
-  integrity:
+  standalone:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - run: python scripts/validate_source_action_plan.py
-      - run: python scripts/check_cross_corpus_dependencies.py
-      - run: python -m unittest discover -s scripts -p test_cross_corpus_dependencies.py
-      - run: python -m pip install -r requirements-validation.txt
-      - run: python scripts/build_current_summary.py --check
-      - run: python scripts/test_current_summary.py
-      - run: python scripts/validate_current_state.py
-      - run: python scripts/test_current_state.py
-      - run: python scripts/validate_pre_expert_audit.py
-      - run: python scripts/test_pre_expert_audit.py
-      - run: python scripts/build_edition_concordance.py --check
-      - run: python scripts/test_edition_concordance.py
-      - run: python scripts/build_critical_pilot.py --check
-      - run: python scripts/test_critical_pilot.py
-      - run: python scripts/build_public_sigla_layer.py --check
-      - run: python scripts/build_gorila_route_audit.py --check
-      - run: python scripts/test_source_layers.py
-      - run: python scripts/build_edition_catalogue_pilot.py --check
-      - run: python scripts/test_edition_catalogue_pilot.py
-      - run: python scripts/validate_corpus.py
-      - run: python scripts/audit_claims_3_0.py
-      - run: python scripts/test_sigla_delta.py
-      - run: python scripts/test_structural_sensitivity.py
-      - name: Reproduce pinned historical sensitivity result
+        with:
+          python-version: '3.11'
+      - run: python scripts/validate.py
+      - run: python -m unittest discover -s tests -v
+  native-members:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Acquire exact public native checkpoints
         run: |
-          python scripts/run_structural_sensitivity_v1.py --spec research/structural-sensitivity-repair-v1.json --words data/source_words.csv --candidates data/candidate_registry_0.9.csv --out /tmp/structural-result.json
           python - <<'PY'
-          import pathlib
-          assert pathlib.Path('/tmp/structural-result.json').read_bytes() == pathlib.Path('analysis/structural-sensitivity-repair-v1-result.json').read_bytes(), 'Pinned historical sensitivity result drift'
+          from pathlib import Path
+          import concurrent.futures,json,re,subprocess
+          entries=json.loads(Path('migration/member-checkpoints.json').read_text())['members']
+          registry={m['repository'] for m in json.loads(Path('registry/corpus-projects.json').read_text())['members']}
+          assert len(entries)==len(registry) and {m['repository'] for m in entries}==registry
+          def acquire(m):
+              assert re.fullmatch(r'hawkinsnick/[A-Za-z0-9-]+',m['repository'])
+              assert re.fullmatch('[a-f0-9]{40}',m['commit'])
+              target=Path('.checkouts')/m['repository'].split('/')[-1]
+              subprocess.run(['git','clone','--quiet','--no-checkout','https://github.com/'+m['repository']+'.git',str(target)],check=True)
+              subprocess.run(['git','checkout','--quiet','--detach',m['commit']],cwd=target,check=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(acquire,entries))
           PY
-      - run: python scripts/test_prospective_independence.py
-      - run: python -m unittest discover -s scripts -p test_sigla_layout_layer.py
-      - run: python scripts/build_sigla_layout_layer.py
-      - run: python scripts/test_research_api.py
-      - run: python scripts/test_capabilities_3_0_18.py
-      - run: python scripts/advanced_query.py --stats > /tmp/advanced-query.json
-      - run: python scripts/advanced_query.py --collocations --window 1 > /tmp/collocations.json
-      - run: python scripts/build_source_context.py
-      - run: python scripts/build_researcher_browser.py
-      - run: python scripts/report_evidence_coverage.py
-      - run: test -s workbench/linear-a-browser.html
-
-  verify-sigla-audit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - name: Download authenticated source locally
-        run: curl --fail --location --retry 4 --output /tmp/sigla-corpus.json https://github.com/ryanpavlicek/pyaegean/releases/download/sigla-corpus-v4/sigla-corpus.json
-      - name: Reproduce exact source audit without outcome scoring
-        run: |
-          python scripts/build_pre_expert_audit.py /tmp/sigla-corpus.json --report /tmp/pre-expert-source-audit.json
-          cmp /tmp/pre-expert-source-audit.json analysis/pre-expert-source-audit.json
-          python scripts/build_edition_concordance.py /tmp/sigla-corpus.json --check
-          python scripts/build_critical_pilot.py /tmp/sigla-corpus.json --check
-          python scripts/build_public_sigla_layer.py /tmp/sigla-corpus.json --check
-
-      - name: Replay licensed SigLA source layout
-        run: |
-          curl --fail --location --retry 4 --output /tmp/sigla-database.js https://sigla.phis.me/database.js
-          python scripts/build_sigla_layout_layer.py /tmp/sigla-database.js
-
-  publish:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: [integrity, verify-sigla-audit]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - name: Publish checked native milestone
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-        run: |
-          version=$(cat VERSION)
-          tag="v$version"
-          test -f "releases/$version.md"
-          if gh release view "$tag" >/dev/null 2>&1; then
-            echo "Existing immutable release $tag retained."
-          else
-            existing=$(git ls-remote --tags origin "refs/tags/$tag" | cut -f1)
-            if test -n "$existing"; then
-              test "$existing" = "$GITHUB_SHA"
-            else
-              git tag "$tag" "$GITHUB_SHA"
-              git push origin "refs/tags/$tag"
-            fi
-            gh release create "$tag" --verify-tag --latest=true --title "Linear-A $version" --notes-file "releases/$version.md"
-          fi
+      - run: python scripts/validate.py --checkouts .checkouts --output generated/member-validation.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: native-member-validation
+          path: generated/member-validation.json
