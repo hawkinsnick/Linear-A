@@ -1,5 +1,16 @@
 # Linear A Open Corpus
 
+
+## Use the AI research skill
+
+Start with [the individual skill](ai-skill/SKILL.md) and the
+[step-by-step use and validation guide](docs/AI-SKILL-VALIDATION.md).
+Run `python scripts/validate_ai_skill.py` on a complete matching checkout.
+The skill requires access to its native evidence; a GitHub link alone does not
+install it. Passing checks establish the documented retrieval scope, not accepted
+readings, expert review or cross-platform model accuracy.
+
+
 [20 October validity audit](corpus-factory/VALIDITY-AUDIT-2026-10-20.md): bounded engineering checks pass; primary-source completeness, calibration and independent scholarly acceptance remain unestablished.
 
 **For researchers: [Start with three step-by-step worked examples](combined-ai-skill/WORKED-EXAMPLES.md)** — real records, verified outputs and citation guidance; no programming required for the browser route.

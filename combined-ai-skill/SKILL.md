@@ -4,6 +4,20 @@ description: Vendor-neutral evidence-first orchestration skill across the regist
 version: 1.3.0
 ---
 
+## Validate every individual skill before operational claims
+
+Use `corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md` and run
+`python corpus-factory/validate_ai_skills.py --checkouts PARENT_DIRECTORY`
+against matching local checkouts. Load each member's canonical
+`ai-skill/SKILL.md` and its `docs/AI-SKILL-VALIDATION.md` before retrieval.
+The master covers 18 corpus repositories; Egyptian Hieroglyphic Corpus remains
+an independently audited acquisition project outside that membership. Do not
+claim that a GitHub URL installs a skill or supplies inaccessible evidence.
+A scoped functional pass establishes native evidence retrieval and integrity,
+not accepted translation, scholarly verification or cross-platform AI accuracy.
+If current files or execution are unavailable, state that validation was not run.
+
+
 # Combined Corpus Research AI — 1.3.0
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
