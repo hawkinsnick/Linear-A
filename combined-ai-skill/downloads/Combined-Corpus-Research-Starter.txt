@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 9314f0ad839645f4b52efe36fb13c7034388eedfd27c8d26b4561a4fc587d903
+Instruction snapshot SHA-256: 6184f9189ead1c0503d5b266798adcd76fdd513e1e66004d3d6940d7d32c447d
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1568,7 +1568,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: ae3bf70e9d89278070cd3782c1a0f2d2e9ae92d981cd122c8da7ae11276ad4c1
+SHA-256: 83e8a48e27e76772fc3b6e9b2d5d9b9f162feea261d8cb3076553051c473e441
 
 ---
 name: combined-corpus-research
@@ -2036,6 +2036,16 @@ Read `corpus-factory/VALIDITY-AUDIT-2026-10-20.md` and its revision-bound receip
 ## Current coverage and readiness entry point
 
 Read `corpus-factory/CURRENT-READINESS.md` and its pinned `readiness-snapshot.json` before collection-wide coverage or handoff claims. Run `python corpus-factory/readiness_overview.py --check` to check the committed projection; this is offline integrity validation, not a live freshness check. Keep native catalogue, reading, comparison and accepted-review units distinct. A missing status field means unknown or differently scoped, never zero or automatic completion. Current native authorities supersede the pinned overview when newer evidence is available.
+
+
+## Keep frozen native replay checkpoints coherent
+
+When a native adapter or skill-bound delivery input changes, refresh the exact
+source revisions and saved federation/exercise receipts together. Run
+`corpus-factory/verify_federated_snapshot.py --checkouts DIRECTORY` on those exact
+checkouts before citing the frozen replay. Use `corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md`
+for the 19-skill audit and the synchronization repair. Do not describe a local
+pass as a hosted workflow result; use its exact published revision and job status.
 
 === END SOURCE FILE ===
 

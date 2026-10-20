@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "90e6d8809d4b41488f6d0c738a888696e3977995",
-  "generated_at_utc": "2026-10-20T16:52:45+00:00",
+  "source_commit": "3b8f0235191501153c6dc6f3432cb5267d576f2a",
+  "generated_at_utc": "2026-10-20T16:56:14+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -424,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "ae3bf70e9d89278070cd3782c1a0f2d2e9ae92d981cd122c8da7ae11276ad4c1",
-      "bytes": 68586
+      "sha256": "83e8a48e27e76772fc3b6e9b2d5d9b9f162feea261d8cb3076553051c473e441",
+      "bytes": 69131
     },
     {
       "role": "source_delivery_guide",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "0e6e5514ab9ed46f7bbc1d05f69c6e501a7e8134aa6f84c5cf2bea6571ab7de5",
-      "bytes": 45952
+      "sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
+      "bytes": 46235
     },
     {
       "role": "cross_corpus_dependencies",
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "8ec6c038291c957e4c289d3963d550bcfded79d5c045be08856ee6d3156e967f",
+      "sha256": "1edbbe320b15f92b9834bff13b7d80526576c16c2ec3695a9b17c0b71d3a248e",
       "bytes": 11042
     },
     {
@@ -1024,14 +1024,14 @@
     {
       "role": "northwestern_program",
       "path": "corpus-factory/research-delivery-fleet.json",
-      "sha256": "ced98881a487394c67cb3bb693fe8eb9bccf8ebcb7cf7f02732ea63cd175fe87",
-      "bytes": 79682
+      "sha256": "1ff187ed76f0fda940ad29410ef8cc69c97f3d9fea46f5226c5a9a3ea2967d79",
+      "bytes": 93965
     },
     {
       "role": "northwestern_program",
       "path": "corpus-factory/northwestern-exercises.json",
-      "sha256": "083c227db9d78ecfd5332f9d5e15b75d1a625c06a81201f38fc76b2671ab1654",
-      "bytes": 10601
+      "sha256": "033b56e38c8ae3a7fdff611a69669bc7e9d0c102fa6a117ac4263deece6d674f",
+      "bytes": 13248
     },
     {
       "role": "northwestern_program",
@@ -1042,8 +1042,8 @@
     {
       "role": "northwestern_program",
       "path": "corpus-factory/northwestern-published-revisions.json",
-      "sha256": "44933064ba2164ef64f9d6ece24dca048d82f5f8eace0c59e6dd9ff996153dd1",
-      "bytes": 2581
+      "sha256": "4a84f2d4916034b88b142d7fa45e2d6502720f4bd35f8e681774598b566cf0fb",
+      "bytes": 2619
     },
     {
       "role": "northwestern_requirements",
@@ -1282,8 +1282,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "0e6e5514ab9ed46f7bbc1d05f69c6e501a7e8134aa6f84c5cf2bea6571ab7de5",
-      "bytes": 45952
+      "sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
+      "bytes": 46235
     },
     {
       "role": "skill_function_validation",
@@ -1318,8 +1318,8 @@
     {
       "role": "skill_function_audit",
       "path": "corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md",
-      "sha256": "97e5a1740e8e214a83cc1080f5deb58b69137b24f46f96f04e61c3ba4442a7db",
-      "bytes": 8429
+      "sha256": "3eccd45751f9162f1467821b2dae44e9ef576be94997feaf5b1b5ee865d7238b",
+      "bytes": 9749
     },
     {
       "role": "skill_function_audit",

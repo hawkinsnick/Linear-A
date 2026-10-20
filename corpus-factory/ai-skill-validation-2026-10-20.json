@@ -12,9 +12,9 @@
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
-      "skill_sha256": "0e6e5514ab9ed46f7bbc1d05f69c6e501a7e8134aa6f84c5cf2bea6571ab7de5",
-      "bundle_source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
-      "bundle_sha256": "aad52987aaf9e2cd6739c982e1525e4300c0d0d1caff8baa81ff253163e758b6",
+      "skill_sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
+      "bundle_source_commit": "3b8f0235191501153c6dc6f3432cb5267d576f2a",
+      "bundle_sha256": "684e7d9959e027da2d062fcd3aaf2664f4e58793fb8613d7cf900e8a466faed2",
       "indexed_artifact_entries_checked": 223,
       "unique_indexed_paths_checked": 222,
       "lookups": [

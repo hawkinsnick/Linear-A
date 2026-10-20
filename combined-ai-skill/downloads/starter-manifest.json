@@ -60,8 +60,8 @@
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "ae3bf70e9d89278070cd3782c1a0f2d2e9ae92d981cd122c8da7ae11276ad4c1",
-      "bytes": 68586
+      "sha256": "83e8a48e27e76772fc3b6e9b2d5d9b9f162feea261d8cb3076553051c473e441",
+      "bytes": 69131
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md",
-      "sha256": "97e5a1740e8e214a83cc1080f5deb58b69137b24f46f96f04e61c3ba4442a7db",
-      "bytes": 8429
+      "sha256": "3eccd45751f9162f1467821b2dae44e9ef576be94997feaf5b1b5ee865d7238b",
+      "bytes": 9749
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -324,5 +324,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "9314f0ad839645f4b52efe36fb13c7034388eedfd27c8d26b4561a4fc587d903"
+  "snapshot_sha256": "6184f9189ead1c0503d5b266798adcd76fdd513e1e66004d3d6940d7d32c447d"
 }
