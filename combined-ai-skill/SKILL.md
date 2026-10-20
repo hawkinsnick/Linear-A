@@ -4,7 +4,7 @@ description: Vendor-neutral evidence-first orchestration skill across the regist
 version: 1.3.0
 ---
 
-# Combined Corpus Research AI — 1.4
+# Combined Corpus Research AI — 1.3.0
 
 This is an orchestrator over independent corpus projects. It is not a corpus, a decipherment system, or a license umbrella.
 
@@ -132,7 +132,7 @@ For Linear A researcher-facing work, prefer the generated offline browser (`work
 
 
 ## 3.0.21 pre-expert maximum / rights-dominant gate
-The Linear A corpus has reached its machine-resolvable pre-expert maximum under currently admitted evidence. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
+Linear A has a machine-resolvable tooling baseline under admitted evidence; source acquisition, factual reconciliation, primary collation, calibration and expert judgment remain separately gated. Whole-corpus human-only readiness is not established. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
 
 
 ## Corpus-family browser standard
@@ -445,3 +445,8 @@ Route to Sidetic collection `ferrer2025-reading-assertions` and `docs/FERRER2025
 ## Validity and sanity audit routing — 20 October 2026
 
 Read `corpus-factory/VALIDITY-AUDIT-2026-10-20.md` and its revision-bound receipt before citing this audit. Treat its 163-command replay and 1,095 matching artifact entries as bounded engineering evidence. Do not infer comprehensive source verification, empirical AI accuracy, executed calibration or independent expert acceptance. Resolve current readiness per native task and evidence layer; source acquisition/collation remains separate from expert judgment.
+
+
+## Current coverage and readiness entry point
+
+Read `corpus-factory/CURRENT-READINESS.md` and its pinned `readiness-snapshot.json` before collection-wide coverage or handoff claims. Run `python corpus-factory/readiness_overview.py --check` to check the committed projection; this is offline integrity validation, not a live freshness check. Keep native catalogue, reading, comparison and accepted-review units distinct. A missing status field means unknown or differently scoped, never zero or automatic completion. Current native authorities supersede the pinned overview when newer evidence is available.

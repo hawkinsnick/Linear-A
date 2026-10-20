@@ -327,3 +327,8 @@ Route to Sidetic collection `ferrer2025-reading-assertions` and `docs/FERRER2025
 ## Validity and sanity audit routing — 20 October 2026
 
 Read `corpus-factory/VALIDITY-AUDIT-2026-10-20.md` and its revision-bound receipt before citing this audit. Treat its 163-command replay and 1,095 matching artifact entries as bounded engineering evidence. Do not infer comprehensive source verification, empirical AI accuracy, executed calibration or independent expert acceptance. Resolve current readiness per native task and evidence layer; source acquisition/collation remains separate from expert judgment.
+
+
+## Current coverage and readiness entry point
+
+Read `corpus-factory/CURRENT-READINESS.md` and its pinned `readiness-snapshot.json` before collection-wide coverage or handoff claims. Run `python corpus-factory/readiness_overview.py --check` to check the committed projection; this is offline integrity validation, not a live freshness check. Keep native catalogue, reading, comparison and accepted-review units distinct. A missing status field means unknown or differently scoped, never zero or automatic completion. Current native authorities supersede the pinned overview when newer evidence is available.

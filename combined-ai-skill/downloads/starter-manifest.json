@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "8d274ed82bebc1f036150c0113fe74e7d3c4a593b0da0e660254382b878597f8",
+  "build_script_sha256": "9a0f7445eecc286fa1bd1e98d1ddf10405e8eab763cd1f21540169da43a7933c",
   "source_files": [
     {
       "path": "LICENSE",
@@ -55,18 +55,18 @@
     },
     {
       "path": "combined-ai-skill/README.md",
-      "sha256": "d4f250a91aca92e2b09223ec2d5f30bb8de4b345796b17ebd865dfb64caef393",
-      "bytes": 11278
+      "sha256": "54a62d18144002c40f043fd9bdfb6052048c334a9a19dc28cf64313a3fc15142",
+      "bytes": 11570
     },
     {
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "71090ba7dd8223b2bcd808249c350aaae768c33c767fce4948bb7345c2fd7878",
-      "bytes": 67021
+      "sha256": "2e8593ceead2056d408c7dd55a3ef8ffe160c93e932684b22e122a76fe1f9732",
+      "bytes": 67773
     },
     {
       "path": "combined-ai-skill/START-HERE.md",
-      "sha256": "3ab2292aa6e3466f2830390ce53e9ceced33181ec37df568a9cfe00f80b4857c",
-      "bytes": 10090
+      "sha256": "9475d7e559db12d80af6b9ff725330e4beb5718ca81fe40405eb97e94c3bb0c6",
+      "bytes": 10382
     },
     {
       "path": "combined-ai-skill/WORKED-EXAMPLES.md",
@@ -90,8 +90,8 @@
     },
     {
       "path": "combined-ai-skill/registry/corpus-projects.json",
-      "sha256": "94a6d9e8cc6512d160be843f34b491b99e36cbe92c6d2ff7070c5f799daf7cec",
-      "bytes": 67926
+      "sha256": "51942e8989e847dd7802741531c8d67c18f14bde59a596bbcbfdcb67635a8406",
+      "bytes": 68067
     },
     {
       "path": "corpus-factory/ATTRIBUTION-REVIEW.md",
@@ -127,6 +127,11 @@
       "path": "corpus-factory/COVERAGE-EXPANSION-2026-10-12.md",
       "sha256": "c9e032eb54118608a70c1b39fac86f52c1891d4d433924034bca51140856aedb",
       "bytes": 2460
+    },
+    {
+      "path": "corpus-factory/CURRENT-READINESS.md",
+      "sha256": "c4a9da01f59a2be05a137b6fd2e63fda2f3aa3940ce1fa36ef0defed763e0ce3",
+      "bytes": 15753
     },
     {
       "path": "corpus-factory/DEFECT-REMEDIATION-2026-10-12.md",
@@ -229,6 +234,11 @@
       "bytes": 4493
     },
     {
+      "path": "corpus-factory/VALIDITY-AUDIT-2026-10-20.md",
+      "sha256": "27b960591da1653c7ec7b3c96402004406f224dfebecb8c87ba48858324c7120",
+      "bytes": 5487
+    },
+    {
       "path": "corpus-factory/attribution-review-rollout.json",
       "sha256": "c8fe0229c5d523080eef9d5bff33e4e1583bfdc5f9f03999ff36c1ece1831d42",
       "bytes": 11640
@@ -309,5 +319,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "b4ace0b72eece82e89201d41017cf5c6330934eecef6f6b3e6cf3aa83b4d2fa4"
+  "snapshot_sha256": "83c48e95a0a70da0f1e4460795e12b4b919bfeaf9979345c8cf00b93551f7221"
 }

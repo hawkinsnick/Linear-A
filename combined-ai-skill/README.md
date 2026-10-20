@@ -1,5 +1,7 @@
 # Combined Corpus Research AI
 
+**[Check current coverage and readiness first](https://github.com/hawkinsnick/Linear-A/blob/main/corpus-factory/CURRENT-READINESS.md).** Catalogue identities, encoded readings, source comparison and independent acceptance have different scopes. Use the pinned native evidence for your task.
+
 **New: [Follow three worked examples](WORKED-EXAMPLES.md)** — trace a real record, assess an unresolved comparison, and reproduce a calculation. Browser-only and optional AI/Python routes include verified results.
 
 A vendor-neutral, evidence-first research orchestrator for the registered **corpus projects**.

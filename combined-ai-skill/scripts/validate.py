@@ -7,6 +7,13 @@ reg=json.loads((R/"registry"/"corpus-projects.json").read_text())
 tests=json.loads((R/"tests"/"adversarial-cases.json").read_text())
 manifest=json.loads((R/"manifest.json").read_text())
 skill=(R/"SKILL.md").read_text()
+front_version = re.search(r'^version:\s*(\S+)', skill, re.M)
+heading_version = re.search(r'^# Combined Corpus Research AI — (\S+)', skill, re.M)
+if not front_version or not heading_version or front_version.group(1) != manifest.get('version') or heading_version.group(1) != manifest.get('version'):
+    errors.append('master skill heading, frontmatter and manifest versions differ')
+import subprocess
+if subprocess.run([sys.executable, str(R.parent / 'corpus-factory/readiness_overview.py'), '--check'], capture_output=True).returncode:
+    errors.append('current readiness projection is stale or invalid')
 members=reg.get("members",[])
 if reg.get("registry_version")!="2.0.0": errors.append("registry version must be 2.0.0")
 if len(members)!=manifest.get("member_count"): errors.append("registry and manifest member counts differ")

@@ -11,11 +11,8 @@ Native release version: **3.0.15**; researcher-tooling checkpoint: **3.0.21** (a
 
 Authorities: [current state](analysis/current-status.json) and [residual evidence gates](research/residual-blocker-ledger-3.0.21.json). Historical release reports retain their original scope and dates.
 
-Combined coverage checkpoint (2026-10-12): **18 corpora, 9,562 heterogeneous native-view rows**, including all 287 Anatolian dossiers and 210 Cypriot syllabic discovery identifiers. These are overlapping view rows, not unique inscriptions. [Expansion scope and remaining work](corpus-factory/COVERAGE-EXPANSION-2026-10-12.md).
+Collection scope: **18 registered corpora with different native evidence units and verification depth**. Start with [current collection readiness](corpus-factory/CURRENT-READINESS.md) for pinned native status, coverage and remaining source/review work. Earlier mixed-row totals are historical view counts, not unique inscriptions or completion measures.
 
-Earlier available-evidence checkpoint: **18 corpora / 10,527 heterogeneous rows**. [Added source layers and qualifications](corpus-factory/AVAILABLE-EVIDENCE-GROWTH-2026-10-12.md). No new readings, calibration or expert acceptance.
-
-Latest CH/CM checkpoint: **18 corpora / 10,759 heterogeneous rows**. [Source discovery and primary context](corpus-factory/CH-CM-SOURCE-GROWTH-2026-10-12.md). Reading and expert-acceptance gates remain unchanged.
 <!-- CURRENT-STATUS:END -->
 
 ## Researcher interfaces (3.0.19)
@@ -151,7 +148,7 @@ Measured 836 distinct types, 668 hapax types and 168 recurrent types among 1,283
 
 
 ## 3.0.21 pre-expert maximum / rights-dominant gate
-The Linear A corpus has reached its machine-resolvable pre-expert maximum under currently admitted evidence. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
+Linear A has a machine-resolvable tooling baseline under currently admitted evidence. Source acquisition, factual reconciliation, primary collation, calibration and independent review remain distinct open work; whole-corpus human-only readiness is not established. Read `research/residual-blocker-ledger-3.0.21.json` and `docs/RIGHTS-ONLY-READINESS-3.0.21.md`. Do not describe independent epigraphic confirmation or the sealed prospective experiment as unfinished software: they require admissible independent evidence and/or human object review. Current evidence-growth gates are dominated by source rights/access (GORILA/EFA refusal, Raison–Pope rights/access, and permission for richer object-level datasets). Optional UI/statistical/export depth may continue but is not prerequisite to ingesting lawful independent evidence.
 
 Fleet software admission reconciliation and retained scholarly gates: [10 October record](docs/FLEET-RECONCILIATION-2026-10-10.md).
 
