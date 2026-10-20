@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "6e9ff2ae7147822044f7cf8c686fdd333a2b7d11",
-  "generated_at_utc": "2026-10-20T16:14:43+00:00",
+  "source_commit": "f7584ef70c7916e0e83cdd42fd6670aa5bf0b836",
+  "generated_at_utc": "2026-10-20T16:17:27+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -550,14 +550,14 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "51a46abb7e1060beb8d18e8d0cc715b2fcc592b9333c79bd7411dda17f66ceca",
-      "bytes": 21280
+      "sha256": "ec66decb37b1936970a889d618b227151646cbcd22c40cd8adb2a6d7c7ee30ad",
+      "bytes": 21279
     },
     {
       "role": "current_summary_builder",
       "path": "scripts/build_current_summary.py",
-      "sha256": "ab81007b031b180cf1d0fca3e0dbd2ec55e211806fd54d285d069bd03e365f86",
-      "bytes": 5311
+      "sha256": "31984b9bc7df75c60479fd9a336c90a80c379ed387bbb33a9296aa0ea738c217",
+      "bytes": 4484
     },
     {
       "role": "p1_reconciliation",
@@ -580,13 +580,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "dfc8b1a7d478685dc25462ba1a85456e2b2435ec579b8748e246c83dfc9d9ba3",
+      "sha256": "ff4726256adde453ad3c0f4b346f20fcaa61c1ee20f9636764bf5b405d2833ff",
       "bytes": 841583
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "19d530f40537bfccae7a3315b23657e001b8f678d6085b5a27257b0889ff56ab",
+      "sha256": "bb852d9e72972c94058fc147aec4fb9e7d5107c92b299fa82e7bc3a4e62166e7",
       "bytes": 1824
     },
     {
@@ -778,7 +778,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "10a9979afd89ce197a1a522273105e66b0748e46dd0a11f578cf9cc6519ec74d",
+      "sha256": "e94eb4bda5855c53018abf47276cc325330fae93047b9127be857e7a9b6b6dc1",
       "bytes": 18211
     },
     {
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "7da21b6eab19e4e8cf38be5b3abee6d391e83538205b5ffd4ae966960be6b7f2",
+      "sha256": "535d0380e6d08a5c475d617237424550302c5ae5cd5edfc626dd75f3025537cf",
       "bytes": 11042
     },
     {
