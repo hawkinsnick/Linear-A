@@ -217,3 +217,7 @@ Updated master registry, starter and individual AI routing for Gelb historical v
 ## Three-source direct PDF follow-up (2026-10-18)
 
 Bind the newly acquired Ferrer PDF comparison (22 rendered pages,33 appendix lines/groups) and BnF Olivier delivery locator to native merged revisions. Verify the earlier master admission/sync failure has cleared. Preserve two open original-source checks and all scientific acceptance boundaries.
+
+## Selected Ferrer assertions (2026-10-19)
+
+Route to Sidetic collection `ferrer2025-reading-assertions` and `docs/FERRER2025-READING-ASSERTIONS.md` for six attributed names on four source lines and three directory targets. Retrieve both the source display and literal earlier reading, retain uncertainty and one shared edition dependence group. No new object, source acquisition, accepted reading or expert review is implied. The current three-source guide records the publication-bound follow-up.

@@ -63,5 +63,21 @@
     "sync_check": "SUCCESS",
     "source_intake_included": true,
     "meaning": "Observed earlier block has cleared; no bypass of admission controls. This checkpoint predates this new Ferrer packet."
+  },
+  "selected_reading_assertion_followup": {
+    "checked_local_date": "2026-10-19",
+    "repository": "hawkinsnick/Sidetic",
+    "source_commit": "c7b9e23209f9cfe23bc26dee234270a79cd9fb98",
+    "path": "research/ferrer2025-reading-assertions.json",
+    "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22",
+    "guide": "docs/FERRER2025-READING-ASSERTIONS.md",
+    "collection": "ferrer2025-reading-assertions",
+    "assertions": 6,
+    "source_lines": 4,
+    "frozen_directory_targets": 3,
+    "new_original_source_acquisitions": 0,
+    "accepted_readings_added": 0,
+    "independent_reviews_added": 0,
+    "scope": "Selected name assertions from the already inspected final appendix, not new inscriptions, independent witnesses or full diplomatic encoding."
   }
 }

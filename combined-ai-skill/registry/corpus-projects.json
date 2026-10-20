@@ -856,7 +856,10 @@
       "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory.",
       "ferrer_pdf_comparison_path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
       "ferrer_pdf_comparison_guide_path": "docs/FERRER2025-PDF-COMPARISON-2026-10-18.md",
-      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison"
+      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison",
+      "ferrer_reading_assertions_path": "research/ferrer2025-reading-assertions.json",
+      "ferrer_reading_assertions_guide_path": "docs/FERRER2025-READING-ASSERTIONS.md",
+      "ferrer_reading_assertions_collection": "ferrer2025-reading-assertions"
     },
     {
       "repository": "hawkinsnick/Pisidian",

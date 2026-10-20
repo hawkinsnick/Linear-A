@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 81122f80531189fedfb62ba4f0e2068d9e5056dfef2e9dc13c97c1106b2c6d89
+Instruction snapshot SHA-256: c57007cb3dfdf01637c0fc94608acef01c181b1ec92f0d6c4076226018b00103
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -50,7 +50,7 @@ Concrete unsent source requests are retained in the native guides/registers. The
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/THREE-SOURCE-FOLLOWUP-2026-10-18.md ===
-SHA-256: f870d3f0cb1e389519d0e42f1e4ea250ec70ca3057ca1b0682792d69df992d32
+SHA-256: 60b2266f734b5d8bba2da6175c093acb0b3663c433e0c3c79b13227f68bb3689
 
 # Three-source follow-up — 2026-10-18
 
@@ -75,6 +75,12 @@ The two remaining original sources could not be acquired through the checked pub
 The former master refresh failure has cleared: admission and sync checks passed at5a31b9a04738 and the published bundle77a3040 includes the earlier source-intake records. The current update binds the new native packets to their merge revisions in `source-intake-2026-10-18.json`. No controls were bypassed.
 
 Source-acquisition tasks and33 appendix comparison notes are not objects or independent witnesses. Do not add them to the17 historical selected comparisons. Earlier fleet/Northwestern checkpoints remain historical receipts. No frozen readings, physical identities or independent-review states were promoted.
+
+## Queryable reading assertions — 2026-10-19
+
+[Six selected Ferrer names](https://github.com/hawkinsnick/Sidetic/blob/main/docs/FERRER2025-READING-ASSERTIONS.md) are now encoded as source-attributed proposals with DOI/PDF hash, exact printed locus, literal earlier directory reading and exact JSON pointer. They cover four source lines and three directory targets. Query native collection `ferrer2025-reading-assertions`; native directory queries also retrieve the linked proposals. This extends the comparison notes into searchable evidence without replacing frozen text.
+
+Retain ewpe?l, iśtoru?o?r and the literal earlier uncertainty markup. Kadmos/Gephyra display differences and shared evidence remain explicit. All six belong to one edition dependence group. The glyph-complete diplomatic layer and independent expert evaluation remain separate. The two original-source gaps remain open; a fresh checked Brixhe–Neumann publisher route returned HTTP202 with zero bytes. No additional original was acquired.
 
 === END SOURCE FILE ===
 
@@ -1558,7 +1564,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: ce89ec90829f2899f477e07bf5b785f43a422b4c2ebc5f7839914932e583995d
+SHA-256: a210573518911afcd6a18cf98d1335fcfbb67540369cde997ead7400623448c4
 
 ---
 name: combined-corpus-research
@@ -1999,6 +2005,10 @@ Read `corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md` and the native `public_
 
 Read the current three-source guide and native `research/ferrer2025-pdf-comparison-2026-10-18.json` before answering source-access or appendix questions. Preserve discussion/final sign conventions, directory S11 versus Ferrer S13 and questioned letters. The33 notes do not constitute exact diplomatic encoding, independent witnesses or expert acceptance. The master refresh block has cleared; two original-source acquisition tasks remain open.
 
+## Selected Ferrer assertions (2026-10-19)
+
+Route to Sidetic collection `ferrer2025-reading-assertions` and `docs/FERRER2025-READING-ASSERTIONS.md` for six attributed names on four source lines and three directory targets. Retrieve both the source display and literal earlier reading, retain uncertainty and one shared edition dependence group. No new object, source acquisition, accepted reading or expert review is implied. The current three-source guide records the publication-bound follow-up.
+
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/EXPERT-REVIEW.md ===
@@ -2071,7 +2081,7 @@ Egyptian Hieroglyphic Corpus and LightroomIsSlow are independent projects outsid
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/registry/corpus-projects.json ===
-SHA-256: 7666b4a264354c76210dd7f4a2b954d7ce7c76ef3e917f4aad4f69652ea61b22
+SHA-256: 94a6d9e8cc6512d160be843f34b491b99e36cbe92c6d2ff7070c5f799daf7cec
 
 {
   "schema_version": "1.0.0",
@@ -2931,7 +2941,10 @@ SHA-256: 7666b4a264354c76210dd7f4a2b954d7ce7c76ef3e917f4aad4f69652ea61b22
       "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory.",
       "ferrer_pdf_comparison_path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
       "ferrer_pdf_comparison_guide_path": "docs/FERRER2025-PDF-COMPARISON-2026-10-18.md",
-      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison"
+      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison",
+      "ferrer_reading_assertions_path": "research/ferrer2025-reading-assertions.json",
+      "ferrer_reading_assertions_guide_path": "docs/FERRER2025-READING-ASSERTIONS.md",
+      "ferrer_reading_assertions_collection": "ferrer2025-reading-assertions"
     },
     {
       "repository": "hawkinsnick/Pisidian",
@@ -3137,7 +3150,7 @@ No maturity claim may be upgraded merely because more records were imported.
 === END SOURCE FILE ===
 
 === SOURCE FILE: corpus-factory/fleet-gap-register.json ===
-SHA-256: 6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7
+SHA-256: 2aa31e20f7edd5c5d705c18afd66707ef54857a6ec2a7868fb74b4692ef84b19
 
 {
   "schema_version": "1.0",
@@ -3520,7 +3533,7 @@ SHA-256: 6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "2e605c6779bf93eff4ed9aa5291ae64cb194fd17",
+        "source_commit": "c7b9e23209f9cfe23bc26dee234270a79cd9fb98",
         "inspected_on": "2026-10-18",
         "artifacts": [
           {
@@ -3546,6 +3559,10 @@ SHA-256: 6fa22fcc1833170ab22be22426cc2369c50575ec75097c01f40f1e61c3fc21a7
           {
             "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
             "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1"
+          },
+          {
+            "path": "research/ferrer2025-reading-assertions.json",
+            "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22"
           }
         ],
         "scope": "Selected direct Ferrer PDF/appendix comparison or Olivier bibliographic delivery follow-up; not all-source completion or independent scientific validation."
