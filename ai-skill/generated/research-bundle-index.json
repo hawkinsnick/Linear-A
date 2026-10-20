@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c6ba49b8752e123f1d0a778d32a836335df352bc",
-  "generated_at_utc": "2026-10-20T16:57:03+00:00",
+  "source_commit": "0c45da8aa47f34fca74428c68eb89f2aa49decb2",
+  "generated_at_utc": "2026-10-20T18:00:34+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "a9c37c6cfee54ff73b3cc994b6d4f40199ba8402308317b6248b6899f4b24781",
-      "bytes": 17006
+      "sha256": "6ed69477fb68561ae81709949d0da268ddad87cbba5e36b8008f301001591bfe",
+      "bytes": 17138
     },
     {
       "role": "skill_validator_code",
@@ -1350,6 +1350,18 @@
       "path": "ai-skill/scripts/sync_skill.py",
       "sha256": "a4afd4e907a41ecc923ccf73c72a1a229f0b98c78f9eea51b06f06d3f359a30e",
       "bytes": 232
+    },
+    {
+      "role": "p0_reaudit",
+      "path": "corpus-factory/P0-REAUDIT-2026-10-20.md",
+      "sha256": "c8d90b8fdf82590604803321c0a983e56d87b2dd93a6ae58318e900fea5e929d",
+      "bytes": 3127
+    },
+    {
+      "role": "p0_reaudit",
+      "path": "corpus-factory/p0-reaudit-2026-10-20.json",
+      "sha256": "fe8ea116b1d667dc1fc1305b92d349db0e1f2083f4ae891974da2c22ff5ec7bd",
+      "bytes": 95499
     }
   ]
 }
