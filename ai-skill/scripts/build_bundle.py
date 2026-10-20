@@ -78,6 +78,7 @@ CANDIDATES += [("current_readiness", p) for p in ["corpus-factory/CURRENT-READIN
 CANDIDATES += [('skill_function_validation', p) for p in ['ai-skill/SKILL.md', 'ai-skill/manifest.json', 'scripts/validate_ai_skill.py', 'scripts/test_ai_skill_validation.py', 'docs/AI-SKILL-VALIDATION.md', '.github/workflows/ai-skill-function.yml']]
 CANDIDATES += [('skill_function_audit', p) for p in ['corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md', 'corpus-factory/validate_ai_skills.py', 'corpus-factory/ai-skill-usage-exercises-2026-10-20.json']]
 CANDIDATES += [('skill_validator_code', p) for p in ['ai-skill/scripts/build_bundle.py', 'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/sync_skill.py']]
+CANDIDATES += [("p0_reaudit", p) for p in ["corpus-factory/P0-REAUDIT-2026-10-20.md", "corpus-factory/p0-reaudit-2026-10-20.json"]]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

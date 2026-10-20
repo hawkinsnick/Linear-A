@@ -6,7 +6,7 @@
   "member_count": 18,
   "member_evidence_included": false,
   "independent_review_granted": false,
-  "build_script_sha256": "8ccec61659b2a017cb36b96bd30b12524757856e1fdff592eccd9e4a3937e368",
+  "build_script_sha256": "c192a9941d0d707c0cd6496efefd2f3304b0198c3d1293337c8411c79266d933",
   "source_files": [
     {
       "path": "LICENSE",
@@ -179,6 +179,11 @@
       "bytes": 7300
     },
     {
+      "path": "corpus-factory/P0-REAUDIT-2026-10-20.md",
+      "sha256": "c8d90b8fdf82590604803321c0a983e56d87b2dd93a6ae58318e900fea5e929d",
+      "bytes": 3127
+    },
+    {
       "path": "corpus-factory/PRE-EXPERT-EXIT-CRITERIA.md",
       "sha256": "0ef8a02ef96d4daa45f4812408f58270ac4ddaafed6e92d9fb8a7b822a1c3620",
       "bytes": 3435
@@ -324,5 +329,5 @@
       "bytes": 4332
     }
   ],
-  "snapshot_sha256": "6184f9189ead1c0503d5b266798adcd76fdd513e1e66004d3d6940d7d32c447d"
+  "snapshot_sha256": "ef605b5eeb6d6002eaeed46bf59c050be32a13bea03917e543a4ec598bbafaa6"
 }

@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: 6184f9189ead1c0503d5b266798adcd76fdd513e1e66004d3d6940d7d32c447d
+Instruction snapshot SHA-256: ef605b5eeb6d6002eaeed46bf59c050be32a13bea03917e543a4ec598bbafaa6
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
