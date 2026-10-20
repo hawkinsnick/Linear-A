@@ -7,19 +7,17 @@ def run(root,*args):return subprocess.run([sys.executable,str(root/'scripts/buil
 assert run(R,'--check').returncode==0
 with tempfile.TemporaryDirectory() as td:
     root=Path(td)/'repo'
-    for rel in ['corpus-factory/ch-cm-source-growth-build-2026-10-12.json','corpus-factory/mega-corpus-evidence-growth-2026-10-12.json','corpus-factory/mega-corpus-expansion-build-2026-10-12.json','README.md','VERSION','scripts/build_current_summary.py','analysis/current-status.json','analysis/pre-expert-source-audit.json','analysis/observation-source-mapping-audit.json','research/calibration-source-recheck-2026-10-11.json','research/residual-blocker-ledger-3.0.21.json','research/reference-manifest.json','research/pre-expert-maximum.json']:
+    for rel in ['combined-ai-skill/registry/corpus-projects.json','corpus-factory/ch-cm-source-growth-build-2026-10-12.json','corpus-factory/mega-corpus-evidence-growth-2026-10-12.json','corpus-factory/mega-corpus-expansion-build-2026-10-12.json','README.md','VERSION','scripts/build_current_summary.py','analysis/current-status.json','analysis/pre-expert-source-audit.json','analysis/observation-source-mapping-audit.json','research/calibration-source-recheck-2026-10-11.json','research/residual-blocker-ledger-3.0.21.json','research/reference-manifest.json','research/pre-expert-maximum.json']:
         p=R/rel
         if p.is_file():q=root/rel;q.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,q)
     assert run(root,'--check').returncode==0
-    expansion=root/'corpus-factory/mega-corpus-expansion-build-2026-10-12.json'
-    if expansion.exists():
-        original=expansion.read_text();changed=json.loads(original);changed['build_report']['record_view_rows']+=1;expansion.write_text(json.dumps(changed));assert run(root,'--check').returncode!=0;expansion.write_text(original)
-    growth=root/'corpus-factory/mega-corpus-evidence-growth-2026-10-12.json'
-    if growth.exists():
-        original=growth.read_text();changed=json.loads(original);changed['build_report']['record_view_rows']+=1;growth.write_text(json.dumps(changed));assert run(root,'--check').returncode!=0;growth.write_text(original)
-    chcm=root/'corpus-factory/ch-cm-source-growth-build-2026-10-12.json'
-    if chcm.exists():
-        original=chcm.read_text();changed=json.loads(original);changed['build_report']['record_view_rows']+=1;chcm.write_text(json.dumps(changed));assert run(root,'--check').returncode!=0;chcm.write_text(original)
+    registry=root/'combined-ai-skill/registry/corpus-projects.json'
+    if registry.exists():
+        original=registry.read_text(); changed=json.loads(original)
+        changed['members'].append({'repository':'test/new-corpus'})
+        registry.write_text(json.dumps(changed)); assert run(root,'--check').returncode!=0
+        registry.write_text(original)
+    # Historical mixed-row checkpoints no longer control the current entry point.
     readme=root/'README.md';old=readme.read_text();readme.write_text(old.replace('## Current evidence status','## Fake current status'));assert run(root,'--check').returncode!=0;readme.write_text(old)
     if (root/'research/reference-manifest.json').exists():
         p=root/'research/reference-manifest.json';d=json.loads(p.read_text());d['coverage']['source_text_rows']+=1

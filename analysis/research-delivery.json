@@ -199,8 +199,8 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "ed0bb86f7d81910eb06b2655f4bd6536e078a9ff7c1d5aff981eecb9fb6fd7be",
-      "bytes": 43457
+      "sha256": "6a510b099a2e7453d5e902c647c1754fd21768ec9c323c9ecce33d15dc6d9a74",
+      "bytes": 44588
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
@@ -224,7 +224,7 @@
     },
     {
       "path": "research/collection-work-ledger.json",
-      "sha256": "dfc8b1a7d478685dc25462ba1a85456e2b2435ec579b8748e246c83dfc9d9ba3",
+      "sha256": "ff4726256adde453ad3c0f4b346f20fcaa61c1ee20f9636764bf5b405d2833ff",
       "bytes": 841583
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "path": "review/collection-packet.json",
-      "sha256": "19d530f40537bfccae7a3315b23657e001b8f678d6085b5a27257b0889ff56ab",
+      "sha256": "bb852d9e72972c94058fc147aec4fb9e7d5107c92b299fa82e7bc3a4e62166e7",
       "bytes": 1824
     },
     {

@@ -12,7 +12,6 @@ Native release version: **3.0.15**; researcher-tooling checkpoint: **3.0.21** (a
 Authorities: [current state](analysis/current-status.json) and [residual evidence gates](research/residual-blocker-ledger-3.0.21.json). Historical release reports retain their original scope and dates.
 
 Collection scope: **18 registered corpora with different native evidence units and verification depth**. Start with [current collection readiness](corpus-factory/CURRENT-READINESS.md) for pinned native status, coverage and remaining source/review work. Earlier mixed-row totals are historical view counts, not unique inscriptions or completion measures.
-
 <!-- CURRENT-STATUS:END -->
 
 ## Researcher interfaces (3.0.19)

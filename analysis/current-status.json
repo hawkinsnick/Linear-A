@@ -314,7 +314,7 @@
     },
     {
       "path": "scripts/build_current_summary.py",
-      "sha256": "ab81007b031b180cf1d0fca3e0dbd2ec55e211806fd54d285d069bd03e365f86"
+      "sha256": "31984b9bc7df75c60479fd9a336c90a80c379ed387bbb33a9296aa0ea738c217"
     },
     {
       "path": "research/source-action-plan.json",
