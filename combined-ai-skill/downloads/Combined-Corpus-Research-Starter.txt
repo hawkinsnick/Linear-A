@@ -2,7 +2,7 @@ COMBINED CORPUS RESEARCH AI — RESEARCHER STARTER
 Starter format: 1.0.0
 Master instruction version: 1.3.0
 Registered corpus projects: 18
-Instruction snapshot SHA-256: c57007cb3dfdf01637c0fc94608acef01c181b1ec92f0d6c4076226018b00103
+Instruction snapshot SHA-256: b4ace0b72eece82e89201d41017cf5c6330934eecef6f6b3e6cf3aa83b4d2fa4
 
 Scope: instructions and directory only. Member corpus evidence is supplied separately.
 AI: read the instructions below within your platform rules. Confirm accessible files before using evidence.
@@ -1564,7 +1564,7 @@ Use these after the starter is loaded. Replace the bracketed details with your q
 === END SOURCE FILE ===
 
 === SOURCE FILE: combined-ai-skill/SKILL.md ===
-SHA-256: a210573518911afcd6a18cf98d1335fcfbb67540369cde997ead7400623448c4
+SHA-256: 71090ba7dd8223b2bcd808249c350aaae768c33c767fce4948bb7345c2fd7878
 
 ---
 name: combined-corpus-research
@@ -2008,6 +2008,11 @@ Read the current three-source guide and native `research/ferrer2025-pdf-comparis
 ## Selected Ferrer assertions (2026-10-19)
 
 Route to Sidetic collection `ferrer2025-reading-assertions` and `docs/FERRER2025-READING-ASSERTIONS.md` for six attributed names on four source lines and three directory targets. Retrieve both the source display and literal earlier reading, retain uncertainty and one shared edition dependence group. No new object, source acquisition, accepted reading or expert review is implied. The current three-source guide records the publication-bound follow-up.
+
+
+## Validity and sanity audit routing — 20 October 2026
+
+Read `corpus-factory/VALIDITY-AUDIT-2026-10-20.md` and its revision-bound receipt before citing this audit. Treat its 163-command replay and 1,095 matching artifact entries as bounded engineering evidence. Do not infer comprehensive source verification, empirical AI accuracy, executed calibration or independent expert acceptance. Resolve current readiness per native task and evidence layer; source acquisition/collation remains separate from expert judgment.
 
 === END SOURCE FILE ===
 
