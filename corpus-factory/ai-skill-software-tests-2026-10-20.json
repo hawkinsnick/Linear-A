@@ -1,0 +1,665 @@
+{
+  "format": "ai-skill-software-regression-receipt-v1",
+  "checks": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.126s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.189s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.876s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpzf9e1zgk/remote\n * branch            main       -> FETCH_HEAD\n   9a6491a..37685a8  main       -> origin/main\n..From /tmp/tmp1l5tr3go/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp1l5tr3go/remote.git\n   9a6491a..98dd50d  HEAD -> main\n.From /tmp/tmpyu58e5qt/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpyu58e5qt/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpyu58e5qt/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.718s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "50f95a3907dc21f3dab315028eded603b237d007",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.137s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "50f95a3907dc21f3dab315028eded603b237d007",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.052s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "50f95a3907dc21f3dab315028eded603b237d007",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.380s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "50f95a3907dc21f3dab315028eded603b237d007",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmphwojuuof/remote\n * branch            main       -> FETCH_HEAD\n   5d0c59c..b1dd913  main       -> origin/main\n..From /tmp/tmpq1pb_kwe/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpq1pb_kwe/remote.git\n   5d0c59c..52fdf3b  HEAD -> main\n.From /tmp/tmpnzcb8u94/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpnzcb8u94/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpnzcb8u94/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.712s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.100s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.014s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.200s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpgsltlihr/remote\n * branch            main       -> FETCH_HEAD\n   5d0c59c..b1dd913  main       -> origin/main\n..From /tmp/tmp273vtfbb/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp273vtfbb/remote.git\n   5d0c59c..52fdf3b  HEAD -> main\n.From /tmp/tmp33ld8e1v/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp33ld8e1v/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp33ld8e1v/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.715s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "7dee79883089d4296aed5538ce82c6e183f2c490",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.124s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "7dee79883089d4296aed5538ce82c6e183f2c490",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.091s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "7dee79883089d4296aed5538ce82c6e183f2c490",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.487s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "7dee79883089d4296aed5538ce82c6e183f2c490",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmp0ntouc5v/remote\n * branch            main       -> FETCH_HEAD\n   00cd076..97e07c1  main       -> origin/main\n..From /tmp/tmpow42k7lo/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpow42k7lo/remote.git\n   00cd076..dda9147  HEAD -> main\n.From /tmp/tmpv4uzwf92/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpv4uzwf92/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpv4uzwf92/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.743s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "fb7926c6540a7044293e1e06720e174c847fa606",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.088s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "fb7926c6540a7044293e1e06720e174c847fa606",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.079s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "fb7926c6540a7044293e1e06720e174c847fa606",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.214s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "fb7926c6540a7044293e1e06720e174c847fa606",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpsdx8xahh/remote\n * branch            main       -> FETCH_HEAD\n   9a6491a..37685a8  main       -> origin/main\n..From /tmp/tmp7_rfo3_w/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp7_rfo3_w/remote.git\n   e766209..41b082e  HEAD -> main\n.From /tmp/tmpp_vttfw4/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpp_vttfw4/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpp_vttfw4/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.788s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "3eed05dbf39b819e7e59ee5394d47db8b3f34761",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.106s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "3eed05dbf39b819e7e59ee5394d47db8b3f34761",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.016s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "3eed05dbf39b819e7e59ee5394d47db8b3f34761",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.269s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "3eed05dbf39b819e7e59ee5394d47db8b3f34761",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpzwkxbfgb/remote\n * branch            main       -> FETCH_HEAD\n   00cd076..97e07c1  main       -> origin/main\n..From /tmp/tmpe6w8z9xb/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpe6w8z9xb/remote.git\n   00cd076..dda9147  HEAD -> main\n.From /tmp/tmp0gv0xcvx/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp0gv0xcvx/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp0gv0xcvx/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.740s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "a167c37a8228fcde893b50bd99023c0330639e15",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.172s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "a167c37a8228fcde893b50bd99023c0330639e15",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.125s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "a167c37a8228fcde893b50bd99023c0330639e15",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.957s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "a167c37a8228fcde893b50bd99023c0330639e15",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpzow7aztc/remote\n * branch            main       -> FETCH_HEAD\n   d30f20e..19dfb42  main       -> origin/main\n..From /tmp/tmpp6m_m8ug/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpp6m_m8ug/remote.git\n   d30f20e..a2e8555  HEAD -> main\n.From /tmp/tmpnmwv33nl/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpnmwv33nl/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpnmwv33nl/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.768s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.101s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.016s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.227s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpav_wh_a9/remote\n * branch            main       -> FETCH_HEAD\n   5d0c59c..b1dd913  main       -> origin/main\n..From /tmp/tmpslwiu4m6/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpslwiu4m6/remote.git\n   5d0c59c..52fdf3b  HEAD -> main\n.From /tmp/tmpv9h2umtr/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpv9h2umtr/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpv9h2umtr/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.695s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "b2c6a68475ca83f7313f17cdbf9e52e3b3b0f8a2",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.092s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "b2c6a68475ca83f7313f17cdbf9e52e3b3b0f8a2",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.016s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "b2c6a68475ca83f7313f17cdbf9e52e3b3b0f8a2",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.189s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "b2c6a68475ca83f7313f17cdbf9e52e3b3b0f8a2",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpjsyrwp_u/remote\n * branch            main       -> FETCH_HEAD\n   d30f20e..19dfb42  main       -> origin/main\n..From /tmp/tmpbasg32pz/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpbasg32pz/remote.git\n   5d0c59c..52fdf3b  HEAD -> main\n.From /tmp/tmp03_6qj4v/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp03_6qj4v/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp03_6qj4v/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.681s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "6d2e63c80b7a2c48ef171e42fdceb680d33445ae",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.173s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "6d2e63c80b7a2c48ef171e42fdceb680d33445ae",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.203s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "6d2e63c80b7a2c48ef171e42fdceb680d33445ae",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 1.614s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "6d2e63c80b7a2c48ef171e42fdceb680d33445ae",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmp48rkagmb/remote\n * branch            main       -> FETCH_HEAD\n   7016bca..24128a4  main       -> origin/main\n..From /tmp/tmpvganyigo/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpvganyigo/remote.git\n   7016bca..cafba1f  HEAD -> main\n.From /tmp/tmpxws6ileg/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpxws6ileg/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpxws6ileg/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.894s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "2973aa6c7f7a14827adc69cfff14068bd92650c7",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.085s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "2973aa6c7f7a14827adc69cfff14068bd92650c7",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.050s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "2973aa6c7f7a14827adc69cfff14068bd92650c7",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.283s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "2973aa6c7f7a14827adc69cfff14068bd92650c7",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmp5bnc6em1/remote\n * branch            main       -> FETCH_HEAD\n   e766209..921157f  main       -> origin/main\n..From /tmp/tmpqzuhz4tj/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpqzuhz4tj/remote.git\n   e766209..41b082e  HEAD -> main\n.From /tmp/tmpoxhsklbs/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpoxhsklbs/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpoxhsklbs/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.758s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "88047c4f1d0c8ed1bc46f4470dee4a92b78aef00",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.148s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "88047c4f1d0c8ed1bc46f4470dee4a92b78aef00",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.044s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "88047c4f1d0c8ed1bc46f4470dee4a92b78aef00",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.429s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "88047c4f1d0c8ed1bc46f4470dee4a92b78aef00",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpoc6vbsfz/remote\n * branch            main       -> FETCH_HEAD\n   00cd076..97e07c1  main       -> origin/main\n..From /tmp/tmpmeuczcci/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpmeuczcci/remote.git\n   00cd076..ccf7ad3  HEAD -> main\n.From /tmp/tmpg3ar9fhk/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpg3ar9fhk/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpg3ar9fhk/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.710s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "693339eb164d1d9aef4e86f0afed9c318f11a2da",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.106s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "693339eb164d1d9aef4e86f0afed9c318f11a2da",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.011s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "693339eb164d1d9aef4e86f0afed9c318f11a2da",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.182s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "693339eb164d1d9aef4e86f0afed9c318f11a2da",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmplvxdtyhz/remote\n * branch            main       -> FETCH_HEAD\n   00cd076..97e07c1  main       -> origin/main\n..From /tmp/tmpjsts_uxy/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpjsts_uxy/remote.git\n   00cd076..dda9147  HEAD -> main\n.From /tmp/tmp8trcoh15/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp8trcoh15/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp8trcoh15/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.767s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.114s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.009s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.191s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpgma864ll/remote\n * branch            main       -> FETCH_HEAD\n   00cd076..97e07c1  main       -> origin/main\n..From /tmp/tmpnjk0vjhj/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpnjk0vjhj/remote.git\n   00cd076..dda9147  HEAD -> main\n.From /tmp/tmpllyg45pg/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpllyg45pg/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpllyg45pg/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.787s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
+      "source_commit": "f4b7b829e44458553f9d8145812f0bc387c1c07b",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.002s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "ae86c095a63a21d676256aa2a81e6928dd4a2639",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.082s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "ae86c095a63a21d676256aa2a81e6928dd4a2639",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.020s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "ae86c095a63a21d676256aa2a81e6928dd4a2639",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.243s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "ae86c095a63a21d676256aa2a81e6928dd4a2639",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpfecu8zuu/remote\n * branch            main       -> FETCH_HEAD\n   9a6491a..37685a8  main       -> origin/main\n..From /tmp/tmpc4njty84/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpc4njty84/remote.git\n   9a6491a..98dd50d  HEAD -> main\n.From /tmp/tmptdnh0dgj/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmptdnh0dgj/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmptdnh0dgj/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.725s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "7dd8fab8ff5451ff61c2b2093ac28c61af7ad5ff",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.094s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "7dd8fab8ff5451ff61c2b2093ac28c61af7ad5ff",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.015s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "7dd8fab8ff5451ff61c2b2093ac28c61af7ad5ff",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.255s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "7dd8fab8ff5451ff61c2b2093ac28c61af7ad5ff",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpr0m19c8p/remote\n * branch            main       -> FETCH_HEAD\n   7016bca..24128a4  main       -> origin/main\n..From /tmp/tmp652i4cpk/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp652i4cpk/remote.git\n   7016bca..cafba1f  HEAD -> main\n.From /tmp/tmpsso0wwnl/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpsso0wwnl/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpsso0wwnl/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.864s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "81badfe2f9233546aac12ba315ce242d35f53147",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.101s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "81badfe2f9233546aac12ba315ce242d35f53147",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.018s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "81badfe2f9233546aac12ba315ce242d35f53147",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.171s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "81badfe2f9233546aac12ba315ce242d35f53147",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpw2w2rqdn/remote\n * branch            main       -> FETCH_HEAD\n   7016bca..24128a4  main       -> origin/main\n..From /tmp/tmpsl9gx2wk/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpsl9gx2wk/remote.git\n   7016bca..cafba1f  HEAD -> main\n.From /tmp/tmpcjyajxue/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpcjyajxue/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpcjyajxue/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.888s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+      "command": "python -m unittest discover -s scripts -p test_ai_skill_validation.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.139s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+      "command": "python -m unittest discover -s scripts -p test_native_evidence_query.py",
+      "exit_code": 0,
+      "test_count": 9,
+      "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.404s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+      "command": "python -m unittest discover -s scripts -p test_research_delivery.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.928s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+      "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+      "exit_code": 0,
+      "test_count": 6,
+      "stderr": "From /tmp/tmpxspkgqni/remote\n * branch            main       -> FETCH_HEAD\n   7016bca..24128a4  main       -> origin/main\n..From /tmp/tmpr923vja5/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpr923vja5/remote.git\n   7016bca..cafba1f  HEAD -> main\n.From /tmp/tmpjiu11ec2/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpjiu11ec2/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpjiu11ec2/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.935s\n\nOK\n",
+      "scope": "Same checked source bytes before publication; final artifact hashes are in the skill receipt."
+    }
+  ],
+  "test_count": 435,
+  "failed_commands": 0,
+  "limits": "No independent scholarly acceptance or model accuracy estimate."
+}

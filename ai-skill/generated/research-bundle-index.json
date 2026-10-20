@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "3d56589ff33c8da12a236dd0185f75a4b4c91028",
-  "generated_at_utc": "2026-10-20T16:18:46+00:00",
+  "source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
+  "generated_at_utc": "2026-10-20T16:51:11+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -424,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "2e8593ceead2056d408c7dd55a3ef8ffe160c93e932684b22e122a76fe1f9732",
-      "bytes": 67773
+      "sha256": "ae3bf70e9d89278070cd3782c1a0f2d2e9ae92d981cd122c8da7ae11276ad4c1",
+      "bytes": 68586
     },
     {
       "role": "source_delivery_guide",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "6a510b099a2e7453d5e902c647c1754fd21768ec9c323c9ecce33d15dc6d9a74",
-      "bytes": 44588
+      "sha256": "0e6e5514ab9ed46f7bbc1d05f69c6e501a7e8134aa6f84c5cf2bea6571ab7de5",
+      "bytes": 45952
     },
     {
       "role": "cross_corpus_dependencies",
@@ -550,8 +550,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "ec66decb37b1936970a889d618b227151646cbcd22c40cd8adb2a6d7c7ee30ad",
-      "bytes": 21279
+      "sha256": "b79eb98c829748cc60c0d3fa7e3d8dd244d48b7a4c5759926fa4adb850b4231e",
+      "bytes": 21737
     },
     {
       "role": "current_summary_builder",
@@ -982,8 +982,8 @@
     {
       "role": "research_delivery",
       "path": "scripts/research_delivery.py",
-      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
-      "bytes": 10075
+      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
+      "bytes": 10387
     },
     {
       "role": "research_delivery",
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "f2c8e9b2551d368455bc5df0648c5195c647600ee614fd71f92cab58e8075330",
+      "sha256": "8ec6c038291c957e4c289d3963d550bcfded79d5c045be08856ee6d3156e967f",
       "bytes": 11042
     },
     {
@@ -1278,6 +1278,78 @@
       "path": "corpus-factory/test_readiness_overview.py",
       "sha256": "ce506f164e317067a2e5b5a8cee486f51dcb367d217c91e6ed15a41af788de3f",
       "bytes": 1667
+    },
+    {
+      "role": "skill_function_validation",
+      "path": "ai-skill/SKILL.md",
+      "sha256": "0e6e5514ab9ed46f7bbc1d05f69c6e501a7e8134aa6f84c5cf2bea6571ab7de5",
+      "bytes": 45952
+    },
+    {
+      "role": "skill_function_validation",
+      "path": "ai-skill/manifest.json",
+      "sha256": "79836be4f74244a0eebb9d1d8592e05ff4204213218b93b65067d808664dad3d",
+      "bytes": 832
+    },
+    {
+      "role": "skill_function_validation",
+      "path": "scripts/validate_ai_skill.py",
+      "sha256": "aacfb721bcf218975802968d4e260abc2dc24a300ac41eac44c0bd0d15fcb9d1",
+      "bytes": 10829
+    },
+    {
+      "role": "skill_function_validation",
+      "path": "scripts/test_ai_skill_validation.py",
+      "sha256": "5c4405e2b856e976bbeb6838ff011c7f3b3d59e910d18e182ac3e6f16b737d57",
+      "bytes": 2395
+    },
+    {
+      "role": "skill_function_validation",
+      "path": "docs/AI-SKILL-VALIDATION.md",
+      "sha256": "5bc5fb0f2be92f71c48d935396624800735cd9f05347e54357f421f7b0bfc8f1",
+      "bytes": 3191
+    },
+    {
+      "role": "skill_function_validation",
+      "path": ".github/workflows/ai-skill-function.yml",
+      "sha256": "bd930d865b6081bf4cef842e5aed1ef256c14b5f47ad468b5601a10e8d346364",
+      "bytes": 789
+    },
+    {
+      "role": "skill_function_audit",
+      "path": "corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md",
+      "sha256": "97e5a1740e8e214a83cc1080f5deb58b69137b24f46f96f04e61c3ba4442a7db",
+      "bytes": 8429
+    },
+    {
+      "role": "skill_function_audit",
+      "path": "corpus-factory/validate_ai_skills.py",
+      "sha256": "2abc57c5bb19f1fefc3b335505ad6d23e360b0a2c6f49ae1476bf7d1acd4226a",
+      "bytes": 2830
+    },
+    {
+      "role": "skill_function_audit",
+      "path": "corpus-factory/ai-skill-usage-exercises-2026-10-20.json",
+      "sha256": "6c6e2166919195c058eaaf576c3bb6a691c0daa31f24a1cabe1e9aa0fd0bfc37",
+      "bytes": 15410
+    },
+    {
+      "role": "skill_validator_code",
+      "path": "ai-skill/scripts/build_bundle.py",
+      "sha256": "a9c37c6cfee54ff73b3cc994b6d4f40199ba8402308317b6248b6899f4b24781",
+      "bytes": 17006
+    },
+    {
+      "role": "skill_validator_code",
+      "path": "ai-skill/scripts/validate_bundle.py",
+      "sha256": "51006d9c8ef780ebe951b68022af68d5c56bc95805bcdce392358d6b94af2f2b",
+      "bytes": 1754
+    },
+    {
+      "role": "skill_validator_code",
+      "path": "ai-skill/scripts/sync_skill.py",
+      "sha256": "a4afd4e907a41ecc923ccf73c72a1a229f0b98c78f9eea51b06f06d3f359a30e",
+      "bytes": 232
     }
   ]
 }
