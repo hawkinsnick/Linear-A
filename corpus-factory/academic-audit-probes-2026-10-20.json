@@ -1,0 +1,697 @@
+{
+  "format": "adversarial-academic-audit-probes-v1",
+  "scope": "Deterministic checks of repository assertions and post hoc sensitivity diagnostics; not external epigraphic review.",
+  "inputs": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "scripts/run_structural_sensitivity_v1.py",
+      "sha256": "7f5ada03f7b96715087db4974712c4bd7cb9993e9eee30b384b3b07226cdf341",
+      "bytes": 6969
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "data/source_words.csv",
+      "sha256": "d2e36d78fefdb1c16ab60f4f8fdcb20a39eaae0075e07d78198db5c6e22ea86a",
+      "bytes": 287603
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "data/candidate_registry_0.9.csv",
+      "sha256": "bec2d293383643b1d17bd2a13d958090ce7db09f720c9e3a6a17c1a87c2215a9",
+      "bytes": 1140
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "research/structural-sensitivity-repair-v1.json",
+      "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+      "bytes": 2774
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "analysis/structural-sensitivity-repair-v1-result.json",
+      "sha256": "0f154b27388faf3e255b1e8c1dfd694ff235f02ca1e221c598c6a8eab5476a9c",
+      "bytes": 15134
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "path": "data/reference/ediana-milyan-source.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+      "bytes": 332547
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "path": "data/raw/ediana/milyan-1-0.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+      "bytes": 332547
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "path": "exports/corpus.json",
+      "sha256": "c58a94189ef0f6ec588f1506d6b63d9bf984fc4a24078612e207d8431b3b13dd",
+      "bytes": 2142966
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "path": "exports/corpus.json",
+      "sha256": "34334f27193977029219d92779353f6fffaf069bc7917148561b89f1822c7495",
+      "bytes": 150748
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "path": "analysis/record-admission.json",
+      "sha256": "fe3d177b0ed7f1e9fd808be3687edc73b704288d1f58064604db496b7f245fb9",
+      "bytes": 164739
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "path": "analysis/record-admission.json",
+      "sha256": "ddb3b9a08776455ea7722d2e55eb030790329a6bdefcf008ceeb78b39f3a7775",
+      "bytes": 12353
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "path": "analysis/record-admission.json",
+      "sha256": "c8da13839e75dc2de71437f72e31d127db7635020851bf4f523d5b15f502f1d8",
+      "bytes": 42011
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "path": "analysis/occurrence-coverage-v1.json",
+      "sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+      "bytes": 2415
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "path": "analysis/current-status.json",
+      "sha256": "36889142f6eac7ced9620db7887e6c7c2d897fb1352fc193ddf9b5399907d3b2",
+      "bytes": 8713
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "analysis/legacy-case-attribution-audit.json",
+      "sha256": "b780ce2e513c2e343cadf16656f78252ebac03e0d2bf757770acea62348fe13a",
+      "bytes": 636
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "path": "analysis/prospective-independence-audit-v1.json",
+      "sha256": "042a1e9cb2f85fbca8652c7609bcc01686a9ffa5338aafbbcad431ac3db23132",
+      "bytes": 757
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "path": "analysis/acceptance-2.0.json",
+      "sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+      "bytes": 3203
+    }
+  ],
+  "linear_a": {
+    "serialized_word_rows": 1401,
+    "nonempty_source_word_tokens": 1283,
+    "source_word_types": 836,
+    "hapax_types": 668,
+    "document_labels": 451,
+    "prefix_counts": {
+      "ARKH": 38,
+      "GO": 9,
+      "HS": 1,
+      "HT": 749,
+      "KE": 2,
+      "KH": 151,
+      "KN": 49,
+      "MA": 16,
+      "MI": 3,
+      "MY": 1,
+      "PA": 1,
+      "PE": 13,
+      "PH": 67,
+      "PK": 14,
+      "PS": 4,
+      "PYR": 1,
+      "SY": 3,
+      "THE": 3,
+      "TY": 21,
+      "ZA": 137
+    },
+    "leave_HT_token_count": 534,
+    "leave_HT_moments": [
+      {
+        "candidate_id": "AB004-final",
+        "all": {
+          "observed": 37,
+          "expected": 25.852631578947364,
+          "variance": 11.49541705140043,
+          "occurrences": 63,
+          "z": 3.2878348067166825
+        },
+        "without_HT_prefix": {
+          "observed": 23,
+          "expected": 15.269298245614033,
+          "variance": 5.946805940289321,
+          "occurrences": 36,
+          "z": 3.170129733291279
+        }
+      },
+      {
+        "candidate_id": "AB006-final",
+        "all": {
+          "observed": 56,
+          "expected": 36.952777777777776,
+          "variance": 19.47786265432097,
+          "occurrences": 103,
+          "z": 4.315796903931015
+        },
+        "without_HT_prefix": {
+          "observed": 22,
+          "expected": 16.369444444444444,
+          "variance": 7.125918209876545,
+          "occurrences": 41,
+          "z": 2.109263470202207
+        }
+      },
+      {
+        "candidate_id": "AB024-final",
+        "all": {
+          "observed": 31,
+          "expected": 16.19429824561404,
+          "variance": 7.604514273622655,
+          "occurrences": 43,
+          "z": 5.3689981834019855
+        },
+        "without_HT_prefix": {
+          "observed": 9,
+          "expected": 5.427631578947369,
+          "variance": 2.2634031625115423,
+          "occurrences": 14,
+          "z": 2.3745169959876122
+        }
+      },
+      {
+        "candidate_id": "AB027-final",
+        "all": {
+          "observed": 56,
+          "expected": 36.8859649122807,
+          "variance": 18.07208371806708,
+          "occurrences": 92,
+          "z": 4.496227360125461
+        },
+        "without_HT_prefix": {
+          "observed": 23,
+          "expected": 15.535964912280706,
+          "variance": 6.862917051400433,
+          "occurrences": 38,
+          "z": 2.8491761311712502
+        }
+      },
+      {
+        "candidate_id": "AB037-final",
+        "all": {
+          "observed": 44,
+          "expected": 28.34285714285713,
+          "variance": 14.955226757369608,
+          "occurrences": 78,
+          "z": 4.048703871431967
+        },
+        "without_HT_prefix": {
+          "observed": 19,
+          "expected": 12.292857142857143,
+          "variance": 6.054948979591837,
+          "occurrences": 33,
+          "z": 2.725726726529937
+        }
+      },
+      {
+        "candidate_id": "AB065-final",
+        "all": {
+          "observed": 21,
+          "expected": 12.677777777777777,
+          "variance": 6.6409876543209885,
+          "occurrences": 33,
+          "z": 3.229408409199537
+        },
+        "without_HT_prefix": {
+          "observed": 11,
+          "expected": 6.177777777777778,
+          "variance": 3.279876543209877,
+          "occurrences": 17,
+          "z": 2.6626769064329494
+        }
+      },
+      {
+        "candidate_id": "AB118-final",
+        "all": {
+          "observed": 14,
+          "expected": 6.533333333333333,
+          "variance": 3.951666666666667,
+          "occurrences": 18,
+          "z": 3.756095378904921
+        },
+        "without_HT_prefix": {
+          "observed": 8,
+          "expected": 3.4499999999999997,
+          "variance": 1.9586111111111113,
+          "occurrences": 9,
+          "z": 3.251152114609553
+        }
+      },
+      {
+        "candidate_id": "AB008-initial",
+        "all": {
+          "observed": 130,
+          "expected": 57.4397869674186,
+          "variance": 26.596562360632138,
+          "occurrences": 142,
+          "z": 14.069731043127227
+        },
+        "without_HT_prefix": {
+          "observed": 88,
+          "expected": 39.32312030075188,
+          "variance": 17.124062360632152,
+          "occurrences": 96,
+          "z": 11.76303341739157
+        }
+      },
+      {
+        "candidate_id": "AB010-initial",
+        "all": {
+          "observed": 30,
+          "expected": 18.77777777777778,
+          "variance": 8.890432098765434,
+          "occurrences": 47,
+          "z": 3.7637210644056664
+        },
+        "without_HT_prefix": {
+          "observed": 9,
+          "expected": 5.111111111111112,
+          "variance": 2.6404320987654324,
+          "occurrences": 14,
+          "z": 2.3932498098297517
+        }
+      },
+      {
+        "candidate_id": "AB016-initial",
+        "all": {
+          "observed": 22,
+          "expected": 10.45,
+          "variance": 5.750277777777779,
+          "occurrences": 30,
+          "z": 4.8165666239345075
+        },
+        "without_HT_prefix": {
+          "observed": 7,
+          "expected": 3.6666666666666665,
+          "variance": 1.888888888888889,
+          "occurrences": 9,
+          "z": 2.42535625036333
+        }
+      },
+      {
+        "candidate_id": "AB028-initial",
+        "all": {
+          "observed": 55,
+          "expected": 39.74444444444444,
+          "variance": 20.250432098765426,
+          "occurrences": 104,
+          "z": 3.3900872877847545
+        },
+        "without_HT_prefix": {
+          "observed": 28,
+          "expected": 18.46111111111111,
+          "variance": 9.277932098765435,
+          "occurrences": 52,
+          "z": 3.1316426215682833
+        }
+      },
+      {
+        "candidate_id": "AB081-initial",
+        "all": {
+          "observed": 98,
+          "expected": 58.7677109440268,
+          "variance": 28.38209442605397,
+          "occurrences": 140,
+          "z": 7.364129685525227
+        },
+        "without_HT_prefix": {
+          "observed": 20,
+          "expected": 14.517710944026733,
+          "variance": 6.991816648276219,
+          "occurrences": 37,
+          "z": 2.073322757568226
+        }
+      }
+    ],
+    "a_b_diagnostic": {
+      "rule": "Merge only exact source labels ending a/b when BOTH labels exist. This is an unverified sensitivity grouping, not a certified physical-object join.",
+      "label_families": 79,
+      "clusters": 372,
+      "replicates": 5000,
+      "seed": 2500001,
+      "original_lower_z_above_1_96_count": 6,
+      "diagnostic_lower_z_above_1_96_count": 6,
+      "results": [
+        {
+          "candidate_id": "AB004-final",
+          "original": {
+            "p025_z": 0.8173652946845132,
+            "median_z": 3.297180547422992,
+            "p975_z": 5.725066788112033,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 0.5611625824040284,
+            "median_z": 3.2779556900428273,
+            "p975_z": 6.004301864321297,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB006-final",
+          "original": {
+            "p025_z": 2.2864420093279025,
+            "median_z": 4.307889090673832,
+            "p975_z": 6.2623212397030406,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 2.17882611835541,
+            "median_z": 4.340251166773557,
+            "p975_z": 6.407243540878353,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB024-final",
+          "original": {
+            "p025_z": 3.3632715391950407,
+            "median_z": 5.379224234468624,
+            "p975_z": 7.285919242109164,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 3.261645669584621,
+            "median_z": 5.372429481221614,
+            "p975_z": 7.310429489573176,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB027-final",
+          "original": {
+            "p025_z": 2.275864730796442,
+            "median_z": 4.520862650474107,
+            "p975_z": 6.6680865782844405,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 2.3761775100171993,
+            "median_z": 4.493047763069013,
+            "p975_z": 6.493739088432739,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB037-final",
+          "original": {
+            "p025_z": 1.6997875374476197,
+            "median_z": 4.073770927974475,
+            "p975_z": 6.433909755853424,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 1.68620024060718,
+            "median_z": 4.01029157072936,
+            "p975_z": 6.334074733876885,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB065-final",
+          "original": {
+            "p025_z": 0.8439037175383879,
+            "median_z": 3.1725583598026175,
+            "p975_z": 5.431433358109833,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 0.8255852218198226,
+            "median_z": 3.175618363104399,
+            "p975_z": 5.322007767849774,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB118-final",
+          "original": {
+            "p025_z": 1.5744982886419918,
+            "median_z": 3.774982529316784,
+            "p975_z": 5.756041693425765,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 1.5972591364949547,
+            "median_z": 3.763608486711747,
+            "p975_z": 5.718720871426647,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB008-initial",
+          "original": {
+            "p025_z": 12.037557502922228,
+            "median_z": 14.074358214407729,
+            "p975_z": 16.01882933122668,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 11.987179475429821,
+            "median_z": 14.065715594475668,
+            "p975_z": 16.155413095687926,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB010-initial",
+          "original": {
+            "p025_z": 1.5196309915619202,
+            "median_z": 3.736540876156677,
+            "p975_z": 5.908705567569775,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 1.4250298848602159,
+            "median_z": 3.7406351225446417,
+            "p975_z": 5.9456755376019315,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB016-initial",
+          "original": {
+            "p025_z": 2.9062435657499464,
+            "median_z": 4.810595680983001,
+            "p975_z": 6.518161987557838,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 2.7837280183269177,
+            "median_z": 4.820141231200475,
+            "p975_z": 6.5701430542279216,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB028-initial",
+          "original": {
+            "p025_z": 1.1781075136230548,
+            "median_z": 3.3696265252027437,
+            "p975_z": 5.670967036456537,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 1.028585242800903,
+            "median_z": 3.3918201034893185,
+            "p975_z": 5.725542337240184,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        },
+        {
+          "candidate_id": "AB081-initial",
+          "original": {
+            "p025_z": 5.355779865123585,
+            "median_z": 7.38581183144413,
+            "p975_z": 9.254119714407809,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          },
+          "diagnostic": {
+            "p025_z": 5.318093944727359,
+            "median_z": 7.3662747219841425,
+            "p975_z": 9.368049424522649,
+            "scorable_replicates": 5000,
+            "zero_variance_replicates": 0
+          }
+        }
+      ],
+      "significance_claim_allowed": false
+    },
+    "legacy_attribution": {
+      "format": "linear-a-legacy-attribution-audit-v1",
+      "input_path": "research/legacy-case-attribution.json",
+      "input_sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+      "joined_cases_examined": 10,
+      "alternatives_preserved": 20,
+      "cases_with_specific_remaining_gaps": 10,
+      "qualified_published_contexts": 3,
+      "same_locus_competing_pairs_established": 0,
+      "canonical_readings_added": 0,
+      "expert_reviews_added": 0,
+      "boundary": "Bounded attribution pass complete; all scholarly cases remain open. New publication context is not new physical evidence or an independently collated alternative pair."
+    },
+    "prospective_independence": {
+      "scope": "Frozen cohort input membership only; no candidate outcome scoring.",
+      "cohort_labels": 24,
+      "membership_counts": {
+        "ABSENT_FROM_V3_PRESENT_IN_V4": 17,
+        "PRESENT_IN_V3": 7
+      },
+      "historical_analytical_input_identity": "NOT_ESTABLISHED",
+      "entire_cohort_unseen_relative_to_v3": false,
+      "prospective_scoring_allowed": false,
+      "prospective_outcomes_evaluated": false,
+      "conditional_statistical_repair": "Separate same-corpus descriptive analysis; does not establish original analytical input identity or prospective independence.",
+      "next_proof": "Authenticate original analytical-input bytes and pre-analysis exposure history for every frozen label. Retain all 24 labels; do not silently remove the seven already present in v3."
+    }
+  },
+  "source_overlap": {
+    "milyan_bytes_identical": true,
+    "milyan_shared_source_sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+    "milyan_nonempty_source_rows": 114,
+    "cypriot_full_index_source_ids": 592,
+    "eteocypriot_source_ids": 25,
+    "shared_cypriot_source_ids": 25,
+    "all_eteocypriot_ids_in_full_index": true
+  },
+  "reference_admissions": [
+    {
+      "repository": "Lydian",
+      "records": 118,
+      "analytical_admissions": 0,
+      "lines": 471,
+      "edition_locator_states": {
+        "NO_ROW_EDITION_CITATION": 3,
+        "SOURCE_CITATIONS_UNRESOLVED": 115
+      },
+      "unflagged_but_unadjudicated_lines": 187
+    },
+    {
+      "repository": "Sidetic",
+      "records": 11,
+      "analytical_admissions": 0,
+      "lines": 32,
+      "edition_locator_states": {
+        "NO_ROW_EDITION_CITATION": 11
+      },
+      "unflagged_but_unadjudicated_lines": 14
+    },
+    {
+      "repository": "Pisidian",
+      "records": 54,
+      "analytical_admissions": 0,
+      "lines": 99,
+      "edition_locator_states": {
+        "NO_ROW_EDITION_CITATION": 1,
+        "SOURCE_CITATIONS_UNRESOLVED": 53
+      },
+      "unflagged_but_unadjudicated_lines": 61
+    }
+  ],
+  "cypro_minoan": {
+    "rich_records": 21,
+    "covered_rich_records": 13,
+    "encoded_occurrences": 28,
+    "source_strata": [
+      {
+        "source_id": "bourogiannis2024",
+        "source_role": "dependent_secondary",
+        "occurrences": 3
+      },
+      {
+        "source_id": "davis-maran-prillwitz-wirghova2023",
+        "source_role": "primary_publication",
+        "occurrences": 3
+      },
+      {
+        "source_id": "valerio2016thesis",
+        "source_role": "dependent_secondary",
+        "occurrences": 16
+      },
+      {
+        "source_id": "vetters2011",
+        "source_role": "dependent_secondary",
+        "occurrences": 3
+      },
+      {
+        "source_id": "vetters2011",
+        "source_role": "primary_publication",
+        "occurrences": 3
+      }
+    ]
+  },
+  "cretan_hieroglyphic": {
+    "catalogue_identities": 331,
+    "critical_readings": 13,
+    "source_checked_occurrence_objects": 6,
+    "independently_reviewed_objects": 0,
+    "review_dossiers": 331,
+    "context_objects": 26,
+    "context_assertions": 234
+  },
+  "phaistos_disc": {
+    "final_release_allowed": false,
+    "occurrence_audit_counts": {
+      "slots": 242,
+      "source_labeled_exemplars": 46,
+      "ordinal_not_individually_certified": 196,
+      "fine_detail_certified": 0,
+      "external_reviews": 0
+    },
+    "review_evidence": {
+      "record_present": false,
+      "external_review_accepted": false,
+      "ordinal_and_detail_complete": false,
+      "physical_mark_coverage_complete": false,
+      "final_2_0_allowed": false,
+      "reviewed_slots": 0,
+      "ordinal_assessments": 0,
+      "detail_assessments": 0,
+      "mark_groups_assessed": 0,
+      "mark_groups_physical_coverage_supported": 0,
+      "receipt": null,
+      "boundary": "No human acceptance record exists. Pending review is not completed review."
+    }
+  },
+  "scholarly_acceptance_granted": false,
+  "diagnostic_warning": "All new sensitivity checks are post hoc, use the selected historical candidates and are not preregistered confirmation. The 1.96 summary is a historical diagnostic convention, not an inferential bootstrap test."
+}

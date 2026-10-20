@@ -79,6 +79,7 @@ CANDIDATES += [('skill_function_validation', p) for p in ['ai-skill/SKILL.md', '
 CANDIDATES += [('skill_function_audit', p) for p in ['corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md', 'corpus-factory/validate_ai_skills.py', 'corpus-factory/ai-skill-usage-exercises-2026-10-20.json']]
 CANDIDATES += [('skill_validator_code', p) for p in ['ai-skill/scripts/build_bundle.py', 'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/sync_skill.py']]
 CANDIDATES += [("p0_reaudit", p) for p in ["corpus-factory/P0-REAUDIT-2026-10-20.md", "corpus-factory/p0-reaudit-2026-10-20.json"]]
+CANDIDATES += [("adversarial_academic_audit", p) for p in ["corpus-factory/ACADEMIC-AUDIT-2026-10-20.md", "corpus-factory/academic-audit-probes-2026-10-20.json", "corpus-factory/academic-audit-revisions-2026-10-20.json", "corpus-factory/academic_audit_probe.py"]]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel
