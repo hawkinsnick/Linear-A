@@ -2,7 +2,7 @@
 
 Choose the corpus relevant to your question. Each ZIP is a copy of that repository's current main branch; saved copies do not refresh automatically.
 
-Extract the ZIP before uploading files. The research instructions and index are in its `ai-skill` folder. The index lists evidence files but does not contain those files. [Setup and evidence selection](START-HERE.md#4-add-evidence-for-your-question) explains what to provide.
+Extract the ZIP before uploading files. The research instructions and index are in its `ai-skill` folder. The index lists evidence files but does not contain those files. [Setup and evidence selection](START-HERE.md) explains what to provide.
 
 | Corpus | Repository | Download ZIP | Individual instructions |
 |---|---|---|---|

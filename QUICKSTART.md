@@ -6,8 +6,8 @@ This guide explains the research workflow after setup. For downloads and upload 
 
 ## Five-minute start
 
-1. [Download the starter](https://github.com/hawkinsnick/Linear-A/blob/61f1cd73ae66fd6a5f98d03f2f5694b05bf11d18/combined-ai-skill/downloads/README.md) and attach its text file to your AI conversation or project.
-2. Use the first-message prompt in [Start here](START-HERE.md#3-send-this-first-message) to confirm that the assistant can read it and identify relevant corpora.
+1. [Download the starter](downloads/Master-Corpus-AI-Skill-Starter.txt) and attach its text file to your AI conversation or project.
+2. Use the first-message prompt in [Start here](START-HERE.md) to confirm that the assistant can read it and identify relevant corpora.
 3. Choose a corpus from the [download directory](CORPUS-DOWNLOADS.md). Make its individual instructions, index, source-state and selected canonical evidence accessible. The starter and an index alone do not supply inscription evidence.
 4. Ask your research question normally. [Prompts](PROMPTS.md) cover source tracing, edition comparisons and reproducibility.
 5. For cross-corpus questions, require the AI to show the comparability check before interpreting similarities.
