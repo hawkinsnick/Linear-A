@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "0c45da8aa47f34fca74428c68eb89f2aa49decb2",
-  "generated_at_utc": "2026-10-20T18:00:34+00:00",
+  "source_commit": "fca0a76b66565cf63692544fa400d451abf58b8d",
+  "generated_at_utc": "2026-10-20T18:18:35+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "6ed69477fb68561ae81709949d0da268ddad87cbba5e36b8008f301001591bfe",
-      "bytes": 17138
+      "sha256": "bd3a3d8ad749be69f56a5d046b35e8350ddee8c3eb0d63bc43bd7589ab601e2a",
+      "bytes": 17402
     },
     {
       "role": "skill_validator_code",
@@ -1362,6 +1362,30 @@
       "path": "corpus-factory/p0-reaudit-2026-10-20.json",
       "sha256": "fe8ea116b1d667dc1fc1305b92d349db0e1f2083f4ae891974da2c22ff5ec7bd",
       "bytes": 95499
+    },
+    {
+      "role": "adversarial_academic_audit",
+      "path": "corpus-factory/ACADEMIC-AUDIT-2026-10-20.md",
+      "sha256": "7f52bfe8d1b12f7878e6b0218d3b6800c1513f11bd6d2882d6f7a46c23f21770",
+      "bytes": 25358
+    },
+    {
+      "role": "adversarial_academic_audit",
+      "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+      "sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+      "bytes": 22106
+    },
+    {
+      "role": "adversarial_academic_audit",
+      "path": "corpus-factory/academic-audit-revisions-2026-10-20.json",
+      "sha256": "32c8d296026c82e405116e3423f3da0e5017661ea481720c8eabab7e99b7b676",
+      "bytes": 2583
+    },
+    {
+      "role": "adversarial_academic_audit",
+      "path": "corpus-factory/academic_audit_probe.py",
+      "sha256": "730680ee52a4037bc367cab21deeab89660b91338e13af56ca17c833d6c39ab8",
+      "bytes": 8247
     }
   ]
 }
