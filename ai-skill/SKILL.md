@@ -322,3 +322,8 @@ Read the current three-source guide and native `research/ferrer2025-pdf-comparis
 ## Selected Ferrer assertions (2026-10-19)
 
 Route to Sidetic collection `ferrer2025-reading-assertions` and `docs/FERRER2025-READING-ASSERTIONS.md` for six attributed names on four source lines and three directory targets. Retrieve both the source display and literal earlier reading, retain uncertainty and one shared edition dependence group. No new object, source acquisition, accepted reading or expert review is implied. The current three-source guide records the publication-bound follow-up.
+
+
+## Validity and sanity audit routing — 20 October 2026
+
+Read `corpus-factory/VALIDITY-AUDIT-2026-10-20.md` and its revision-bound receipt before citing this audit. Treat its 163-command replay and 1,095 matching artifact entries as bounded engineering evidence. Do not infer comprehensive source verification, empirical AI accuracy, executed calibration or independent expert acceptance. Resolve current readiness per native task and evidence layer; source acquisition/collation remains separate from expert judgment.

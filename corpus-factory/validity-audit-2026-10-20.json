@@ -1,0 +1,947 @@
+{
+  "checked_date": "2026-10-20",
+  "scope": "Replay of the 163 commands declared by the 2026-10-16 P0 audit, at newly acquired default-branch revisions; not exhaustive testing of later additions.",
+  "scientific_approval_granted": false,
+  "initial_environment_remediation": [
+    "Installed declared jsonschema 4.26.0",
+    "Installed pytest 9.1.1 to run Anatolian pytest suite"
+  ],
+  "commands": 163,
+  "failures": 0,
+  "bundle_artifact_entries_checked": 1095,
+  "bundle_hash_mismatches": 0,
+  "exclusions": [
+    "External-source reacquisition and independent page/object collation",
+    "Browser execution",
+    "Historical cross-corpus dependency receipt replay against fetched historical revisions",
+    "Live GitHub Actions run certification",
+    "Independent human expertise and scientific acceptance",
+    "Egyptian-Hieroglyphic-Corpus, LightroomIsSlow and Open-Endurance-Coaching"
+  ],
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "commit": "fd4be834a74428114a42e6f5bb1e3aaaff2fa56d",
+      "checks": [
+        {
+          "command": "python scripts/test_capabilities_3_0_18.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS_BASELINE_LOGIC\", \"browser_records\": 2579, \"context_assertions\": 3016, \"source_groups\": 1401}\n"
+        },
+        {
+          "command": "python scripts/test_critical_pilot.py",
+          "exit": 0,
+          "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.286s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_current_summary.py",
+          "exit": 0,
+          "output": "PASS: current summary, prose drift, authority drift, replay, duplicate markers\n"
+        },
+        {
+          "command": "python scripts/test_edition_catalogue_pilot.py",
+          "exit": 0,
+          "output": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.120s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_edition_concordance.py",
+          "exit": 0,
+          "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.159s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_pre_expert_audit.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_prospective_independence.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.064s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_research_api.py",
+          "exit": 0,
+          "output": "research API smoke tests passed\n"
+        },
+        {
+          "command": "python scripts/test_sigla_delta.py",
+          "exit": 0,
+          "output": "PASS: descriptive delta, both digest guards, source-envelope and duplicate-ID refusal\n"
+        },
+        {
+          "command": "python scripts/test_source_layers.py",
+          "exit": 0,
+          "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.190s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_structural_sensitivity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"checks\": [\"exact repeated-sign moments\", \"homogeneous zero-variance refusal\", \"Holm arithmetic\", \"invalid p refusal\", \"seed determinism\", \"absent-sign negative control\", \"symmetric negative control\", \"shared permutation output\", \"cluster replicate accounting\", \"synthetic enrichment sensitivity\"]}\n"
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "{\n  \"status\": \"PASS_SOURCE_DEPENDENCY_GUARD\",\n  \"known_groups\": 0,\n  \"physical_identity_certified\": false,\n  \"independence_established\": false\n}\n{\n  \"status\": \"PASS_BOUNDED_MASTER_DEPENDENCIES\",\n  \"groups\": 15,\n  \"published_projections\": 17,\n  \"source_receipts_replayed\": false,\n  \"scientific_approval_granted\": false\n}\nLinear A AI integration validation PASS\n"
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"version\": \"3.0.15\", \"json_files\": 312, \"schemas\": 8, \"evidence_counts\": {}, \"scientific_gate_claim\": \"UNCHANGED\"}\n"
+        },
+        {
+          "command": "python scripts/validate_family_readiness.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"family_contract\": \"1.2.0\", \"members\": 5, \"pooled_analysis\": \"BLOCKED\", \"linguistic_control\": \"BLOCKED\"}\n"
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.421s\n\nOK\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.219s\n\nOK\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpl5o34e5v/remote\n * branch            main       -> FETCH_HEAD\n   24432ca..0746497  main       -> origin/main\n..From /tmp/tmp9_09l9ax/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp9_09l9ax/remote.git\n   24432ca..95a2d99  HEAD -> main\n.From /tmp/tmpzc45ecmd/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpzc45ecmd/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpzc45ecmd/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.815s\n\nOK\n"
+        },
+        {
+          "command": "python -m unittest discover -s scripts -p test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python combined-ai-skill/scripts/validate.py",
+          "exit": 0,
+          "output": "{\n  \"status\": \"PASS_BOUNDED_MASTER_DEPENDENCIES\",\n  \"groups\": 15,\n  \"published_projections\": 17,\n  \"source_receipts_replayed\": false,\n  \"scientific_approval_granted\": false\n}\nCombined registry PASS: 18 registered projects, 18 admitted, 0 pending; 28 adversarial cases\n"
+        },
+        {
+          "command": "python -m unittest discover -s combined-ai-skill/tests",
+          "exit": 0,
+          "output": "owner/repo: API unavailable; exact public Git tree acquired at immutable\nowner/repo: immutable authority replay PASS at immutable\n.............From /tmp/tmpwzqiylhg/remote\n * branch            main       -> FETCH_HEAD\n   8113051..feeb6a7  main       -> origin/main\n.From /tmp/tmpz54maplr/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpz54maplr/remote.git\n   8113051..8c25c4b  HEAD -> main\n.From /tmp/tmp3cd7mrgw/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp3cd7mrgw/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp3cd7mrgw/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n....\n----------------------------------------------------------------------\nRan 19 tests in 1.188s\n\nOK\n"
+        },
+        {
+          "command": "python -m unittest discover -s corpus-factory -p test_*.py",
+          "exit": 0,
+          "output": ".......................sssss.............................\n----------------------------------------------------------------------\nRan 57 tests in 0.778s\n\nOK (skipped=5)\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "commit": "ff1b4aea4d25285f7ddfc4702d2099a13aa52103",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Cypro-Minoan AI integration validation PASS\n"
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"version\": \"5.3.0\", \"json_files\": 158, \"schemas\": 14, \"evidence_counts\": {\"rich_records\": 21, \"source_checked_occurrences\": 28, \"review_dossiers\": 21, \"records_with_dating\": 14, \"new_date_period_assertions\": 8, \"source_attributed_catalogue_sigla\": 254}, \"scientific_gate_claim\": \"UNCHANGED\"}\n"
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0,
+          "output": "OK: JSON parses; corpus index consistent; required foundation files present. Records: 21\n"
+        },
+        {
+          "command": "python scripts/test_5_0_conformance.py",
+          "exit": 0,
+          "output": "OK: negative epistemic constraints hold.\n"
+        },
+        {
+          "command": "python scripts/test_assertion_views.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.038s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_catalogue_concordance.py",
+          "exit": 0,
+          "output": "PASS: mapping replay and seven adversarial provenance/uncertainty/coverage checks\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"checks\": [\"positive\", \"citation drift\", \"malformed schema\", \"current version drift\", \"family version drift\", \"blocked-claim tamper when applicable\", \"restored positive\"]}\n"
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.273s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_occurrence_coverage.py",
+          "exit": 0,
+          "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.008s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_pre_expert_maximum.py",
+          "exit": 0,
+          "output": "PASS: pre-expert maximum ledger\n"
+        },
+        {
+          "command": "python scripts/test_reconciliation.py",
+          "exit": 0,
+          "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.052s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.071s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_release_integrity.py",
+          "exit": 0,
+          "output": "OK: reproducibility profile/schema agree; blocked gates remain non-claiming; API examples match release.\n"
+        },
+        {
+          "command": "python scripts/test_research_dossiers.py",
+          "exit": 0,
+          "output": "PASS: source closure, orphan/duplicate rejection, generated tampering and metadata/reading boundary\n"
+        },
+        {
+          "command": "python scripts/test_scholarly_boundary.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"rich_records\": 21, \"encoded_occurrences\": 28, \"blocked_claims_preserved\": true}\n"
+        },
+        {
+          "command": "python scripts/test_source_expansion.py",
+          "exit": 0,
+          "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.048s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_uncovered_review.py",
+          "exit": 0,
+          "output": "PASS: seven adversarial source/rights/review controls\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpbik4dlf7/remote\n * branch            main       -> FETCH_HEAD\n   79cab5b..4d229b1  main       -> origin/main\n..From /tmp/tmppp1h517q/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmppp1h517q/remote.git\n   24432ca..95a2d99  HEAD -> main\n.From /tmp/tmpm7y4bubv/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpm7y4bubv/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpm7y4bubv/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.747s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "commit": "52649a4d92e2a57038598dc53eacd842bbfc67ec",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Linear B AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.026s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"version\": \"4.9.24\", \"json_files\": 121, \"schemas\": 12, \"evidence_counts\": {}, \"scientific_gate_claim\": \"UNCHANGED\"}\n"
+        },
+        {
+          "command": "python scripts/test_blind_policy_consistency.py",
+          "exit": 0,
+          "output": "PASS: shared policy, allowed inventory field, gold leakage and undeclared field refusal\n"
+        },
+        {
+          "command": "python scripts/test_calibration_intake.py",
+          "exit": 0,
+          "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.066s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"checks\": [\"positive\", \"citation drift\", \"malformed schema\", \"current version drift\", \"family version drift\", \"blocked-claim tamper when applicable\", \"restored positive\"]}\n"
+        },
+        {
+          "command": "python scripts/test_current_summary.py",
+          "exit": 0,
+          "output": "PASS: current summary, prose drift, authority drift, replay, duplicate markers\n"
+        },
+        {
+          "command": "python scripts/test_epidoc_import.py",
+          "exit": 0,
+          "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.115s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_historical_smoke_engine.py",
+          "exit": 0,
+          "output": ".\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_matched_degradation.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"engine\": \"matched-degradation-v0.4\", \"checks\": [\"cross-runtime hash ranking\", \"input-order-independent selection\", \"canonical dataset emission\", \"dataset hashing\", \"input hashing\", \"unique-document sampling\", \"all rows retained\", \"unknown refusal\", \"unsupported refusal\", \"invalid/impossible count refusal\"]}\n"
+        },
+        {
+          "command": "python scripts/test_observation_mapping.py",
+          "exit": 0,
+          "output": "PASS: content/scribe/inventory mapping, unknown preservation, excluded gold and malformed source refusal\n"
+        },
+        {
+          "command": "python scripts/test_pre_expert_audit.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preflight_representation_condition.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"checks\": [\"nested observation envelope\", \"phonetic pass\", \"raw refusal\", \"per-record field completeness\", \"empty identifier refusal\"]}\n"
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.074s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_representation_condition.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"checks\": [\"phonetic projection\", \"raw refusal\", \"structural refusal\", \"context refusal\"]}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmp9818raqm/remote\n * branch            main       -> FETCH_HEAD\n   24432ca..0746497  main       -> origin/main\n..From /tmp/tmp9r4t5uyi/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp9r4t5uyi/remote.git\n   24432ca..95a2d99  HEAD -> main\n.From /tmp/tmp1gm6xdw8/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp1gm6xdw8/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp1gm6xdw8/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.765s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "d79e358141a71b0ef41ad400b183ec688f905e30",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Cretan-hieroglpyhs AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.060s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"version\": \"5.3.0\", \"json_files\": 116, \"schemas\": 20, \"evidence_counts\": {\"catalogue_identities\": 331, \"critical_readings\": 13, \"source_checked_occurrence_objects\": 6, \"independently_reviewed_objects\": 0, \"review_dossiers\": 331, \"context_objects\": 26, \"context_assertions\": 234}, \"scientific_gate_claim\": \"UNCHANGED\"}\n"
+        },
+        {
+          "command": "python scripts/test_assertion_views.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.031s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.012s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"checks\": [\"positive\", \"citation drift\", \"malformed schema\", \"current version drift\", \"family version drift\", \"blocked-claim tamper when applicable\", \"restored positive\"]}\n"
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.260s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_pre_expert_maximum.py",
+          "exit": 0,
+          "output": "PASS: Cretan Hieroglyphic pre-expert maximum ledger\n"
+        },
+        {
+          "command": "python scripts/test_primary_pilot.py",
+          "exit": 0,
+          "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.007s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_reconciliation.py",
+          "exit": 0,
+          "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.043s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.070s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_research_dossiers.py",
+          "exit": 0,
+          "output": "PASS: source closure, orphan/duplicate rejection, generated tampering and metadata/reading boundary\n"
+        },
+        {
+          "command": "python scripts/test_source_expansion.py",
+          "exit": 0,
+          "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.033s\n\nOK\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmp4rxh80sp/remote\n * branch            main       -> FETCH_HEAD\n   24432ca..0746497  main       -> origin/main\n..From /tmp/tmpnpkuuxls/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpnpkuuxls/remote.git\n   24432ca..95a2d99  HEAD -> main\n.From /tmp/tmpbbha9t1w/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpbbha9t1w/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpbbha9t1w/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.755s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "commit": "6320a887491c2b25a5e0ef1889eaebd97c17a6dd",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Phaistos Disc AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.032s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/validate_current_state.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"version\": \"2.0.0-rc.3\", \"evidence_counts\": {\"physical_objects\": 1, \"faces\": 2, \"encoded_base_sign_types\": 45, \"checked_graphical_witnesses\": 1, \"source_checked_groups\": 61, \"source_checked_occurrence_slots\": 242, \"identified_slots\": 241, \"unknown_slots\": 1, \"project_checked_photographic_witnesses\": 1}, \"external_review\": \"BLOCKED\", \"decipherment\": \"BLOCKED\"}\n"
+        },
+        {
+          "command": "python scripts/test_acceptance_2.py",
+          "exit": 0,
+          "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.247s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_analysis.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"known_answer_scope\": \"software arithmetic and transformations only\", \"linguistic_gold\": false, \"directional_views\": 4, \"unknown_hypotheses\": 45}\n"
+        },
+        {
+          "command": "python scripts/test_apparatus_sensitivity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"source_assertion_scenarios\": 4, \"known_frequency_deltas\": 2, \"native_unchanged\": true, \"linguistic_claims\": false}\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_edition_workbench.py",
+          "exit": 0,
+          "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.116s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_evidence_workbench.py",
+          "exit": 0,
+          "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.640s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_exports.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"interop_records\": 242, \"group_records\": 61, \"unknown_round_trip\": \"PASS\", \"rights_and_provenance\": \"PASS\"}\n"
+        },
+        {
+          "command": "python scripts/test_foundation.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"negative_controls\": 22, \"restored_positive\": \"PASS\"}\n"
+        },
+        {
+          "command": "python scripts/test_occurrence_audit.py",
+          "exit": 0,
+          "output": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.007s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_release.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"embedded_workbench_data\": \"EXACT\", \"descriptive_replay\": \"EXACT\", \"export_replay\": \"EXACT\", \"family_negative_controls\": 4, \"linguistic_gates\": \"BLOCKED\"}\n"
+        },
+        {
+          "command": "python scripts/test_release_change_ledger.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.076s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_research_suite.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.109s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_review_acceptance.py",
+          "exit": 0,
+          "output": "..../workspace/scratch/6152c521690f/audit/Phaistos-Disc/scripts/build_corpus.py:6: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_gn7lob2/repo/data/evans1909-groups.csv' mode='r' encoding='utf-8'>\n  rows=list(csv.DictReader((root/'data/evans1909-groups.csv').open(newline='',encoding='utf-8')))\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n......\n----------------------------------------------------------------------\nRan 10 tests in 0.855s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_review_packet.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.014s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_rights_provenance.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.148s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_source_coverage.py",
+          "exit": 0,
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.005s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_witness_audit.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"published_exemplar_oracles\": 4, \"negative_controls\": 8}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpquhw7n7z/remote\n * branch            main       -> FETCH_HEAD\n   322cb0d..2f6e6b0  main       -> origin/main\n..From /tmp/tmp0sa474qg/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp0sa474qg/remote.git\n   322cb0d..6fab0ed  HEAD -> main\n.From /tmp/tmpqw__x3fs/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpqw__x3fs/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpqw__x3fs/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.743s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "commit": "7bf74ae0f8021cc9ceedda5be4e2b4f0eee64953",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Byblos-syllabary AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "...................................................................................................................................................................\n----------------------------------------------------------------------\nRan 163 tests in 25.265s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0,
+          "output": "PASS: 39 catalogue records; 14 reported core; 25 disputed candidates; 0 verified core sequences.\nScientific 1.0 ready: False\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpyugk9gbq/remote\n * branch            main       -> FETCH_HEAD\n   eb2f541..43f2bb3  main       -> origin/main\n..From /tmp/tmp8nycokvc/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp8nycokvc/remote.git\n   eb2f541..f1bab37  HEAD -> main\n.From /tmp/tmp7482jhzs/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp7482jhzs/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp7482jhzs/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.726s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "a61ee8ce816c0e085fbab0ed4f63d9a2dbe94011",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Cypriot-syllabic-Greek AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".......................................\n----------------------------------------------------------------------\nRan 39 tests in 2.626s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"source_responses\": 593, \"parsed_records\": 592, \"quarantined\": 1, \"whole_corpus_complete\": false}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpdinyzpj0/remote\n * branch            main       -> FETCH_HEAD\n   90d7f61..0da0f07  main       -> origin/main\n..From /tmp/tmp_ckicbet/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp_ckicbet/remote.git\n   90d7f61..4ddbd57  HEAD -> main\n.From /tmp/tmpbcxs6l6f/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpbcxs6l6f/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpbcxs6l6f/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.702s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "dd46bd14a1579949d737ab496563c010197345c9",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Eteocypriot AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "...........................................................\n----------------------------------------------------------------------\nRan 59 tests in 0.843s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"candidate_responses\": 26, \"parsed_concordance_entries\": 25, \"physical_objects_certified\": 0}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmp_g_voziw/remote\n * branch            main       -> FETCH_HEAD\n   8113051..463ad75  main       -> origin/main\n..From /tmp/tmpx9p76_xf/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpx9p76_xf/remote.git\n   9e3a1f2..87ec5db  HEAD -> main\n.From /tmp/tmpu7l8h1jg/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpu7l8h1jg/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpu7l8h1jg/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.842s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "commit": "a2d61faf97580d5de08f90e791c75bbe8a5b0555",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Eteocretan AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "..............................................................\n----------------------------------------------------------------------\nRan 62 tests in 1.416s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"records\": 12, \"coverage_entries\": 11, \"analysis_eligible_lines\": 0, \"required_controls\": 7}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpoe6y87wo/remote\n * branch            main       -> FETCH_HEAD\n   9e3a1f2..90b1ade  main       -> origin/main\n..From /tmp/tmp76w522k1/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp76w522k1/remote.git\n   90d7f61..4ddbd57  HEAD -> main\n.From /tmp/tmpejfshr_0/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpejfshr_0/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpejfshr_0/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.777s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "b44ca65af91f24e056696359e95922a595a4d8c7",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Lycian-and-Carian AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "......................................\n----------------------------------------------------------------------\nRan 38 tests in 14.186s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.169s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"records\": 453, \"lycian\": 187, \"carian\": 264, \"milyan\": 2, \"boundary\": \"Digital catalogue completeness is not world-corpus or physical-object completeness.\"}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmphheaxm2u/remote\n * branch            main       -> FETCH_HEAD\n   896aad0..4ab41c1  main       -> origin/main\n..From /tmp/tmp0qplt4f6/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp0qplt4f6/remote.git\n   896aad0..2377a29  HEAD -> main\n.From /tmp/tmpn9urfr3z/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpn9urfr3z/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpn9urfr3z/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.685s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "commit": "43d2832eef8b2461167d5d3dedc4b6e6e1f24726",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "Phrygian AI integration validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".................................................................s\n----------------------------------------------------------------------\nRan 65 tests in 0.552s\n\nOK (skipped=1)\n"
+        },
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0,
+          "output": "Phrygian scaffold validation passed.\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"canonical_records\": 0, \"tm_reference_ids\": 162, \"reference_sentences\": 203, \"tokens\": 1921, \"controls\": 9, \"boundary\": \"Method parity does not equal critical-edition completeness.\"}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpkff6cefa/remote\n * branch            main       -> FETCH_HEAD\n   322cb0d..2f6e6b0  main       -> origin/main\n..From /tmp/tmp04z292wb/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp04z292wb/remote.git\n   322cb0d..6fab0ed  HEAD -> main\n.From /tmp/tmp5j22kgta/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp5j22kgta/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp5j22kgta/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.791s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "commit": "346132d73a9ebd13dadf52112aad7de40ca3ca58",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "PASS: native listed-input integrity; native integrity; fleet contract replay follows\n"
+        },
+        {
+          "command": "python -m pytest -q",
+          "exit": 0,
+          "output": "..................................................................... [ 85%]\n............                                                             [100%]\n81 passed, 3 subtests passed in 2.22s\n",
+          "initial_environment_failure": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python: No module named pytest\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"digital_entries\": 287, \"source_edges\": 635, \"canonical_objects\": 0, \"reading_assertions\": 0, \"expert_verified\": 0, \"boundary\": \"Identity/bibliography parity does not equal a redistributed CHLI critical corpus.\"}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmp3mvcewhh/remote\n * branch            main       -> FETCH_HEAD\n   90d7f61..0da0f07  main       -> origin/main\n..From /tmp/tmpwroclvji/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpwroclvji/remote.git\n   322cb0d..6fab0ed  HEAD -> main\n.From /tmp/tmp8f2iwwdu/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp8f2iwwdu/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp8f2iwwdu/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.743s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "commit": "dc038a1f348bf428bd97d17828c4acca205898cb",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "PASS: native artifact checks; native integrity; fleet contract replay follows\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.087s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.006s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"decorte_objects\": 16, \"formula_patterns\": 7, \"canonical_consensus\": false}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpjtl153go/remote\n * branch            main       -> FETCH_HEAD\n   322cb0d..2f6e6b0  main       -> origin/main\n..From /tmp/tmpjdmf51l8/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpjdmf51l8/remote.git\n   850abc1..3568a37  HEAD -> main\n.From /tmp/tmp2ogta6zs/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp2ogta6zs/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp2ogta6zs/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.736s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "commit": "643f93144addae0fc91509b94a4ef64eb9f6af9f",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "PASS: native artifact checks; native integrity; fleet contract replay follows\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.093s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"included_candidates\": 2, \"canonical_script_claims\": 0, \"mission_creep_controlled\": true}\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpekdn6tni/remote\n * branch            main       -> FETCH_HEAD\n   850abc1..e99c374  main       -> origin/main\n..From /tmp/tmpqth3b921/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpqth3b921/remote.git\n   850abc1..3568a37  HEAD -> main\n.From /tmp/tmpm2f5eqio/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpm2f5eqio/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpm2f5eqio/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.824s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "commit": "fe874f4b4af91b8817974100b538480bb6b02aed",
+      "checks": [
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0,
+          "output": "Native integrity PASS: 118 document IDs; 471 source lines; 0 independently verified objects\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"reference_records\": 118, \"source_lines\": 471, \"primary_verified\": 0, \"objects_verified\": 0, \"controls\": 9, \"boundary\": \"Method parity does not equal an independently collated critical edition.\"}\n"
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "AI authority/hash/version validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".................................................s.\n----------------------------------------------------------------------\nRan 50 tests in 1.531s\n\nOK (skipped=1)\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpc3ghblb9/remote\n * branch            main       -> FETCH_HEAD\n   3edca37..dfd79be  main       -> origin/main\n..From /tmp/tmpm86ajc5f/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpm86ajc5f/remote.git\n   929f74c..1177699  HEAD -> main\n.From /tmp/tmpz3ryig9y/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpz3ryig9y/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmpz3ryig9y/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.802s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "commit": "0c9cf57477472dd8a186d3e80e1a52aa15726f4c",
+      "checks": [
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0,
+          "output": "Native integrity PASS: 11 document IDs; 32 source lines; 0 independently verified objects\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_preexpert_parity.py",
+          "exit": 0,
+          "output": "{\"status\": \"PASS\", \"legacy_reference_records\": 11, \"source_lines\": 32, \"primary_verified\": 0, \"objects_verified\": 0, \"boundary\": \"2025 publications expand the frontier but do not silently rewrite the legacy eDiAna snapshot.\"}\n"
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "AI authority/hash/version validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "...........................................................s.\n----------------------------------------------------------------------\nRan 60 tests in 0.683s\n\nOK (skipped=1)\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmp74a_igh5/remote\n * branch            main       -> FETCH_HEAD\n   3edca37..dfd79be  main       -> origin/main\n..From /tmp/tmpeo59dja2/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpeo59dja2/remote.git\n   3edca37..d87c99e  HEAD -> main\n.From /tmp/tmprh2lbno0/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmprh2lbno0/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmprh2lbno0/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.855s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "commit": "8c705d6d77990da81f210e8ac26e5950f989f225",
+      "checks": [
+        {
+          "command": "python scripts/validate.py",
+          "exit": 0,
+          "output": "Native integrity PASS: 54 document IDs; 99 source lines; 0 independently verified objects\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+        },
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "AI authority/hash/version validation PASS\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": ".................................................s.\n----------------------------------------------------------------------\nRan 50 tests in 0.833s\n\nOK (skipped=1)\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpffvqse0n/remote\n * branch            main       -> FETCH_HEAD\n   3edca37..dfd79be  main       -> origin/main\n..From /tmp/tmpd2d77iu1/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpd2d77iu1/remote.git\n   3edca37..68f9e3e  HEAD -> main\n.From /tmp/tmp2tmc35l9/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmp2tmc35l9/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmp2tmc35l9/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.784s\n\nOK\n"
+        }
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "b97fa58fe45a86e2d9ac52a453fd2a88a8a75554",
+      "checks": [
+        {
+          "command": "python ai-skill/scripts/validate_bundle.py",
+          "exit": 0,
+          "output": "PASS: record identity, evidence provenance, bundle counts\n"
+        },
+        {
+          "command": "python -m unittest discover -s tests",
+          "exit": 0,
+          "output": "PASS: API coverage, KWIC, inscription listing and empty line-layer semantics\n.....................................................................s....\n----------------------------------------------------------------------\nRan 73 tests in 2.209s\n\nOK (skipped=1)\n"
+        },
+        {
+          "command": "python scripts/test_cross_corpus_dependencies.py",
+          "exit": 0,
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+        },
+        {
+          "command": "python scripts/test_current_summary.py",
+          "exit": 0,
+          "output": "PASS: current summary, prose drift, authority drift, replay, duplicate markers\n"
+        },
+        {
+          "command": "python -m unittest discover -s ai-skill/scripts -p test_publish_sync.py",
+          "exit": 0,
+          "output": "From /tmp/tmpvsikz5qe/remote\n * branch            main       -> FETCH_HEAD\n   e41a539..c9355df  main       -> origin/main\n..From /tmp/tmpb9qbt743/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmpb9qbt743/remote.git\n   4dbe551..4a02bca  HEAD -> main\n.From /tmp/tmph6i29k5k/remote\n * branch            main       -> FETCH_HEAD\nTo /tmp/tmph6i29k5k/remote.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to '/tmp/tmph6i29k5k/remote.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n...\n----------------------------------------------------------------------\nRan 6 tests in 0.686s\n\nOK\n"
+        }
+      ]
+    }
+  ]
+}

@@ -73,6 +73,7 @@ CANDIDATES += [("source_followup_and_review_teaching", p) for p in ['research/re
 CANDIDATES += [("review_followup_master_route", "corpus-factory/SOURCE-FOLLOWUP-AND-REVIEW-2026-10-18.md")]
 CANDIDATES += [("source_page_and_structure_check", p) for p in ['research/pkzb21-page-access-2026-10-18.json', 'docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md']]
 CANDIDATES += [("public_source_master_route", "corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md") ]
+CANDIDATES += [("validity_audit", p) for p in ["corpus-factory/VALIDITY-AUDIT-2026-10-20.md", "corpus-factory/validity-audit-2026-10-20.json"]]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

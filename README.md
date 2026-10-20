@@ -1,5 +1,7 @@
 # Linear A Open Corpus
 
+[20 October validity audit](corpus-factory/VALIDITY-AUDIT-2026-10-20.md): bounded engineering checks pass; primary-source completeness, calibration and independent scholarly acceptance remain unestablished.
+
 **For researchers: [Start with three step-by-step worked examples](combined-ai-skill/WORKED-EXAMPLES.md)** — real records, verified outputs and citation guidance; no programming required for the browser route.
 
 <!-- CURRENT-STATUS:START -->
