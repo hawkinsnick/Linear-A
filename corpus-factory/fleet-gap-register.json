@@ -379,7 +379,7 @@
       "status_source_repository": "hawkinsnick/Sidetic",
       "current_evidence": {
         "repository": "hawkinsnick/Sidetic",
-        "source_commit": "2e605c6779bf93eff4ed9aa5291ae64cb194fd17",
+        "source_commit": "c7b9e23209f9cfe23bc26dee234270a79cd9fb98",
         "inspected_on": "2026-10-18",
         "artifacts": [
           {
@@ -405,6 +405,10 @@
           {
             "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
             "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1"
+          },
+          {
+            "path": "research/ferrer2025-reading-assertions.json",
+            "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22"
           }
         ],
         "scope": "Selected direct Ferrer PDF/appendix comparison or Olivier bibliographic delivery follow-up; not all-source completion or independent scientific validation."

@@ -21,3 +21,9 @@ The two remaining original sources could not be acquired through the checked pub
 The former master refresh failure has cleared: admission and sync checks passed at5a31b9a04738 and the published bundle77a3040 includes the earlier source-intake records. The current update binds the new native packets to their merge revisions in `source-intake-2026-10-18.json`. No controls were bypassed.
 
 Source-acquisition tasks and33 appendix comparison notes are not objects or independent witnesses. Do not add them to the17 historical selected comparisons. Earlier fleet/Northwestern checkpoints remain historical receipts. No frozen readings, physical identities or independent-review states were promoted.
+
+## Queryable reading assertions — 2026-10-19
+
+[Six selected Ferrer names](https://github.com/hawkinsnick/Sidetic/blob/main/docs/FERRER2025-READING-ASSERTIONS.md) are now encoded as source-attributed proposals with DOI/PDF hash, exact printed locus, literal earlier directory reading and exact JSON pointer. They cover four source lines and three directory targets. Query native collection `ferrer2025-reading-assertions`; native directory queries also retrieve the linked proposals. This extends the comparison notes into searchable evidence without replacing frozen text.
+
+Retain ewpe?l, iśtoru?o?r and the literal earlier uncertainty markup. Kadmos/Gephyra display differences and shared evidence remain explicit. All six belong to one edition dependence group. The glyph-complete diplomatic layer and independent expert evaluation remain separate. The two original-source gaps remain open; a fresh checked Brixhe–Neumann publisher route returned HTTP202 with zero bytes. No additional original was acquired.
