@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "f7584ef70c7916e0e83cdd42fd6670aa5bf0b836",
-  "generated_at_utc": "2026-10-20T16:17:27+00:00",
+  "source_commit": "3d56589ff33c8da12a236dd0185f75a4b4c91028",
+  "generated_at_utc": "2026-10-20T16:18:46+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -580,13 +580,13 @@
     {
       "role": "collection_work_ledger",
       "path": "research/collection-work-ledger.json",
-      "sha256": "ff4726256adde453ad3c0f4b346f20fcaa61c1ee20f9636764bf5b405d2833ff",
+      "sha256": "90a355db40418f401308eaa4e30636922b7e723a7b6d728c5495f6ec17cfe89d",
       "bytes": 841583
     },
     {
       "role": "collection_review_packet",
       "path": "review/collection-packet.json",
-      "sha256": "bb852d9e72972c94058fc147aec4fb9e7d5107c92b299fa82e7bc3a4e62166e7",
+      "sha256": "2c54b3904c3015cdb66891f69a5c4f122eb5984b5877db353842c4c609797d5b",
       "bytes": 1824
     },
     {
@@ -778,7 +778,7 @@
     {
       "role": "current_status",
       "path": "analysis/current-status.json",
-      "sha256": "e94eb4bda5855c53018abf47276cc325330fae93047b9127be857e7a9b6b6dc1",
+      "sha256": "623841ec07c5c78a05a02da42f3383a37e5e2e2e772e2f7a8138441d5dc28aa6",
       "bytes": 18211
     },
     {
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "535d0380e6d08a5c475d617237424550302c5ae5cd5edfc626dd75f3025537cf",
+      "sha256": "f2c8e9b2551d368455bc5df0648c5195c647600ee614fd71f92cab58e8075330",
       "bytes": 11042
     },
     {
