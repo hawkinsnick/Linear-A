@@ -39,10 +39,34 @@
           "matched_view_rows": 3
         },
         {
+          "repository": "hawkinsnick/Linear-A",
+          "collection": "source-study",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "collection": "reading-comparisons",
+          "native_unit": "bounded documentary follow-up case",
+          "matched_view_rows": 1
+        },
+        {
           "repository": "hawkinsnick/Cypro-Minoan",
           "collection": "catalogue-mappings",
           "native_unit": "source catalogue-number mapping",
           "matched_view_rows": 8
+        },
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "collection": "source-intake-2026-10-18",
+          "native_unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "collection": "source-study",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "matched_view_rows": 1
         },
         {
           "repository": "hawkinsnick/Cretan-hieroglyphs",
@@ -105,6 +129,36 @@
           "matched_view_rows": 1
         },
         {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "source-study",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "city-source-assertions",
+          "native_unit": "selected author-reported Table1 assertion",
+          "matched_view_rows": 2
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "city-reference-crosswalk",
+          "native_unit": "bounded documentary follow-up case",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "city-edition-page-check",
+          "native_unit": "bounded source access or structure inspection",
+          "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "collection": "visual-source-routes",
+          "native_unit": "bounded source-route inspection",
+          "matched_view_rows": 1
+        },
+        {
           "repository": "hawkinsnick/Archanes-Script",
           "collection": "inscribe-metadata",
           "native_unit": "INSCRIBE metadata reconciliation",
@@ -133,6 +187,18 @@
           "collection": "source-collation-2026-10-15",
           "native_unit": "selected source collation task",
           "matched_view_rows": 1
+        },
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "collection": "ferrer2025-appendix-comparison",
+          "native_unit": "editorial appendix line/group comparison, not an inscription or independent witness",
+          "matched_view_rows": 4
+        },
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "collection": "ferrer2025-reading-assertions",
+          "native_unit": "source-attributed selected name proposal; not independent witness or physical object",
+          "matched_view_rows": 3
         },
         {
           "repository": "hawkinsnick/Pisidian",
@@ -184,93 +250,93 @@
       "packages": [
         {
           "repository": "hawkinsnick/Linear-A",
-          "sha256": "38686101bd587457b2a8d5f1c0d1a08cd7ed8b9cb49fac197125f9353abec0bb",
-          "bytes": 2255731
+          "sha256": "21fc215eb85e4812f8846aa846881b6580a44d9a343a59446cf242fc3d5be0b4",
+          "bytes": 2284188
         },
         {
           "repository": "hawkinsnick/Cypro-Minoan",
-          "sha256": "851c1db264f43d922589c5ff8454407ceaf1813c31214f21357cbc10b08b10e1",
-          "bytes": 1268813
+          "sha256": "407e75549ec087d9b3007d0b41f8c737a87c60218c5bacad0684e01cdde21f3b",
+          "bytes": 1279054
         },
         {
           "repository": "hawkinsnick/Linear-B",
-          "sha256": "74dc65b0ae40d5c943d5c2c583a991746369dbf00683dd4eba28eb48f748509f",
-          "bytes": 126871
+          "sha256": "13aedfabb6eee7feb56221eef391f9a0023dd9ab9de29d1440152c27ed84450c",
+          "bytes": 195326
         },
         {
           "repository": "hawkinsnick/Cretan-hieroglyphs",
-          "sha256": "360af7f2d675a544da0969e566a48dba956bac993072fa5c77efd243d3555720",
-          "bytes": 1666871
+          "sha256": "bdf2430ea6668631f29068efbe4a0eb0e7dcbc8259cf17d6e1d1dda07aea0047",
+          "bytes": 1668547
         },
         {
           "repository": "hawkinsnick/Phaistos-Disc",
-          "sha256": "6b96d39a4bc68e84533c0c888c4315d92670a8604e88e62f8121b2fee085b44f",
-          "bytes": 263347
+          "sha256": "39132637f7f9d02f5a834b3c00adf796b439788aaf3f0d066a2780f88b7be9fd",
+          "bytes": 265023
         },
         {
           "repository": "hawkinsnick/Byblos-syllabary",
-          "sha256": "229a6cc922306fdf52d68eae12bc6329ea7f230eb56a87cfbe02d818e41510f3",
-          "bytes": 476848
+          "sha256": "610174b0e7c49c0abbac2fea88265075d0b37dd099df3dc8388c1cc27c7130b3",
+          "bytes": 478524
         },
         {
           "repository": "hawkinsnick/Cypriot-syllabic-Greek",
-          "sha256": "7d20ad365533128416782ca4536e0ea422084e6ef280db92b60e5f0ed76bb0b8",
-          "bytes": 3445250
+          "sha256": "60a8a7fceb726c83719c9b9100d39e2510decccabd4621cdcbf1139b9d6ee993",
+          "bytes": 3446926
         },
         {
           "repository": "hawkinsnick/Eteocypriot",
-          "sha256": "532069f7ba4df880b20ae6b797737d030a71e1cee1b51f8a53e80089e35aa335",
-          "bytes": 314086
+          "sha256": "343acf907d94a6690376ee17f2b1b2479b793f18cbe176cc116468a2f8269172",
+          "bytes": 315764
         },
         {
           "repository": "hawkinsnick/Eteocretan",
-          "sha256": "7258cd8c6aa1a1b1588f2501e26ad46fb90ec7a1cc037b892b00466fb5df4ca6",
-          "bytes": 256708
+          "sha256": "e8bf78250d5836b3aad4da5284233d50ea8815dcb83110873c00772e82d9b32b",
+          "bytes": 258384
         },
         {
           "repository": "hawkinsnick/Lycian-and-Carian",
-          "sha256": "7c2b6f7336647c8475662ac06437b82c059b01af0876f310a609df10874d67e7",
-          "bytes": 4672917
+          "sha256": "2edb2437b7a31de40468fc50e8066bd98bfe54a634b373a088a9936ede6e9462",
+          "bytes": 4674593
         },
         {
           "repository": "hawkinsnick/Phrygian",
-          "sha256": "95722f1ff715f4f0d26ff0de0283910a702afa2625b5b6907f9a44058043596b",
-          "bytes": 585563
+          "sha256": "5744519f8c4d6e692ad66ccc4b54f8e6aaa7bfe0c9c4a4f6f3ee2aaa373f0369",
+          "bytes": 587239
         },
         {
           "repository": "hawkinsnick/Anatolian-Hieroglyphic",
-          "sha256": "0e2e241d40bb7ac0ecb26cdbe6407225025ec49787a71309511de7038584d383",
-          "bytes": 1053212
+          "sha256": "5963edf7410aecf30260c5fc07f57f6421c893cc56506d884288e8117cb1b0b1",
+          "bytes": 1097778
         },
         {
           "repository": "hawkinsnick/Archanes-Script",
-          "sha256": "3f830cca931bf39876a4ea8fd3ca325acba6dc8a9e8571d89f208a5f53299cb0",
-          "bytes": 112906
+          "sha256": "c0907e4a3aac308928bb4b2f289df41f522c6021d08026f997b681b1d7118072",
+          "bytes": 114582
         },
         {
           "repository": "hawkinsnick/Aegean-anomalous",
-          "sha256": "d93c94c9e3dae2c220334020585e5b1b9b6908d70d0123a91e421b7ee923ccd6",
-          "bytes": 110978
+          "sha256": "042ffd8d128b012a83c4245d8b39fe19903b6167731ef027ca726a99073c1732",
+          "bytes": 112654
         },
         {
           "repository": "hawkinsnick/Lydian",
-          "sha256": "eb696c0973ba78cf4b7fd960aa4e808a73fe4cbd75beb1307012995684195f15",
-          "bytes": 632285
+          "sha256": "791bf2d3ed055f776efa45efa6beb774c0104276be192d68834cf8c2181fd494",
+          "bytes": 633961
         },
         {
           "repository": "hawkinsnick/Sidetic",
-          "sha256": "b90a55872779650ad1b9fa9a1245b5fd621207a4d0701f48691e387ea05d6f97",
-          "bytes": 213809
+          "sha256": "58768463f62840a4b18000298ff1b3a5e5ee0fffb9f4342e973f7ccd0b7bcdd1",
+          "bytes": 276119
         },
         {
           "repository": "hawkinsnick/Pisidian",
-          "sha256": "29d3efc2d820e0f29c52ae3c2792f10831e1358df0f7b8b0db199ab23197e403",
-          "bytes": 366507
+          "sha256": "dbb761417ed52df260c65138c245bbe8b5bf41bbd4319de098b50f0642d5fa0b",
+          "bytes": 368183
         },
         {
           "repository": "hawkinsnick/Milyan-Lycian-B",
-          "sha256": "c430da0b2d54b152aaf7f675df0dc82fd679c6934c5b6c5fb8b4d5b38425ae32",
-          "bytes": 1964480
+          "sha256": "465028d0353907904e87c2b77acb46e92487aa8b973ae728c80d73c1f7e9fe82",
+          "bytes": 1966156
         }
       ],
       "result": "PASS_REPEAT_BUILD_AND_MEMBER_HASHES"

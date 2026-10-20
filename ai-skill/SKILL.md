@@ -354,3 +354,9 @@ Read `corpus-factory/VALIDITY-AUDIT-2026-10-20.md` and its revision-bound receip
 ## Current coverage and readiness entry point
 
 Read `corpus-factory/CURRENT-READINESS.md` and its pinned `readiness-snapshot.json` before collection-wide coverage or handoff claims. Run `python corpus-factory/readiness_overview.py --check` to check the committed projection; this is offline integrity validation, not a live freshness check. Keep native catalogue, reading, comparison and accepted-review units distinct. A missing status field means unknown or differently scoped, never zero or automatic completion. Current native authorities supersede the pinned overview when newer evidence is available.
+
+
+For validation of the individual skill and master together, read
+`corpus-factory/AI-SKILL-VALIDATION-2026-10-20.md`. Keep frozen federation
+source revisions separate from current native evidence; a historical checkpoint
+must not be silently combined with a changed implementation.

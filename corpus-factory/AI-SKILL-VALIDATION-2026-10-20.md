@@ -92,3 +92,25 @@ independent witnesses, source completeness, source permissions, blinded AI
 accuracy, Linear B calibration or independent expert acceptance. Existing source
 and rights gates remain unchanged. A corpus with no verified transcription can
 have a working metadata skill; it cannot truthfully supply verified translation.
+
+## Published confirmation and frozen master replay
+
+All 19 committed native skill receipts were fetched back from their exact
+publication commits and matched the tested bytes. GitHub's new `AI skill
+functional checks` workflow passed for every corpus. See the
+[publication receipt](ai-skill-publication-2026-10-20.json) for per-corpus source
+and artifact commits, tree identities and successful workflow URLs.
+
+A post-publication master integration check detected that the frozen
+`northwestern-published-revisions.json` still selected the previous adapter
+implementation. Refresh the 18 exact source checkpoints, `research-delivery-fleet.json`
+and `northwestern-exercises.json` together whenever their native implementation
+changes. The repaired frozen set replays all 18 source checkpoints and all five
+exercises; all five integration tests pass. This repairs implementation/snapshot
+synchronization and grants no new scientific acceptance.
+
+A second fresh-context post-revision use exercise completed all 19 first-use
+validations and source lookups without an unexpected failure. All 18 query-corpus
+missing-ID requests returned explicit exit 2 absence responses; Egyptian absence
+was checked against its object manifest. These bounded exercises carry the same
+non-blinded/model-accuracy limitations described above.

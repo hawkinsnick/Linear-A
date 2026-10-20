@@ -3,8 +3,8 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "delivery_report_sha256": "837dca5d45d7bed1bf5ad1f2c11e08f18afa8c35b41ccc6846656a4dae79a5da",
-      "profile_sha256": "bfb7e406225c3f191b7bf1c90e33e76738ba131386a840784b36a7e19643f60e",
+      "delivery_report_sha256": "8ec6c038291c957e4c289d3963d550bcfded79d5c045be08856ee6d3156e967f",
+      "profile_sha256": "68e803522077f182fa4277cda07fb2ddef06bd70f4f2938c6aa089c652d94cd1",
       "collections": [
         {
           "name": "source-documents",
@@ -100,20 +100,72 @@
             "role": "bounded attribution review",
             "encoding": "json"
           }
+        },
+        {
+          "name": "source-study",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "record_count": 1,
+          "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review.",
+          "example_ids": [
+            "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017"
+          ],
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "reading-comparisons",
+          "native_unit": "bounded documentary follow-up case",
+          "record_count": 1,
+          "scope": "Preserve text-rendition/access qualifications or catalogue-reference-candidate status; no canonical reading, linguistic join or scientific acceptance.",
+          "example_ids": [
+            "LA-PKZB21-FIRST-SIGN-20261018"
+          ],
+          "provenance": {
+            "path": "research/reading-comparison-2026-10-18.json",
+            "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded documentary follow-up",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "pkzb21-page-access",
+          "native_unit": "bounded source access or structure inspection",
+          "record_count": 1,
+          "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred.",
+          "example_ids": [
+            "LA-PKZB21-PAGE-ACCESS-20261018"
+          ],
+          "provenance": {
+            "path": "research/pkzb21-page-access-2026-10-18.json",
+            "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
         }
       ],
       "scholarly_limits": [
         "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
         "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
-        "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+        "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
       ],
       "delivery_status": "PASS_DELIVERY_CONTROLS_ONLY",
       "expert_acceptance_added": false
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
-      "delivery_report_sha256": "d68fe4c8cacd0978db7a2ddf1c7d2a83ae550e8e9b5e34684c80af1df009b397",
-      "profile_sha256": "643e00e243b8add6ca9dbdaf3eb13da5ebe4deebdcb82ff506a5dd2c43895689",
+      "delivery_report_sha256": "8ec192605e9da59a2e5c9aca1a48de433e6d059c84a461016d69803e58eacde3",
+      "profile_sha256": "4c5f1ad9ba8d3e7f8656f6d5f701d4d42e9aad9ce64f39dd2fd7dd035e342bef",
       "collections": [
         {
           "name": "rich-dossiers",
@@ -228,6 +280,23 @@
             "role": "fresh bounded source collation; consultation modes differ by source",
             "encoding": "json"
           }
+        },
+        {
+          "name": "source-intake-2026-10-18",
+          "native_unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+          "record_count": 1,
+          "scope": "Current partial progress and unacquired originals; do not add these tasks to historical selected-comparison counts.",
+          "example_ids": [
+            "CM-OLIVIER2007-INTAKE"
+          ],
+          "provenance": {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "21ce36e8ea07ffe2231d933802a51dd0c525938f8cb9a25539c5f75f92ba6886",
+            "pointer": "/cases",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source intake and bibliographic identity",
+            "encoding": "json"
+          }
         }
       ],
       "scholarly_limits": [
@@ -240,8 +309,8 @@
     },
     {
       "repository": "hawkinsnick/Linear-B",
-      "delivery_report_sha256": "fbe847d33f6d6886c0b0704821eab4504454e45a8c9af4900b802731655d33e0",
-      "profile_sha256": "47a4c6b406cedd281bf4ae39fea58cf2a54dba95edd9a9436fa74dc100ed409e",
+      "delivery_report_sha256": "155ce90d1ad7eba016e7e6c135963e6dec4e26c692a8b5dff429d067dcbcffa0",
+      "profile_sha256": "13a1f459f62fb33cbe166aa6bbd5d852ffb5670ffc01134adc1b88ab52f99b1f",
       "collections": [
         {
           "name": "published-appendix-document",
@@ -296,18 +365,89 @@
             "role": "bounded attribution review",
             "encoding": "json"
           }
+        },
+        {
+          "name": "source-study",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "record_count": 1,
+          "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review.",
+          "example_ids": [
+            "LB-ANNOTATION-ACQUISITION-20261017"
+          ],
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "live-damos-identities",
+          "native_unit": "live source identity/context projection",
+          "record_count": 26,
+          "scope": "25 pilot IDs plus one paper-example ID; not same-version word alignment, physical identity or linguistic annotations.",
+          "example_ids": [
+            "4165",
+            "4166",
+            "4167"
+          ],
+          "provenance": {
+            "path": "research/damos-live-pilot-2026-10-17.json",
+            "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+            "pointer": "/rows",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "damos-supplied-structure",
+          "native_unit": "bounded source access or structure inspection",
+          "record_count": 1,
+          "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred.",
+          "example_ids": [
+            "LB-DAMOS-SUPPLIED-STRUCTURE-20261018"
+          ],
+          "provenance": {
+            "path": "research/damos-supplied-structure-2026-10-18.json",
+            "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "damos-public-routes",
+          "native_unit": "bounded source-route inspection",
+          "record_count": 1,
+          "scope": "Actual consulted pages/responses only; no unique-object counts, clause/line equivalence, linked annotation delivery, new canonical readings or independent review.",
+          "example_ids": [
+            "LB-DAMOS-PUBLIC-ROUTES-20261019"
+          ],
+          "provenance": {
+            "path": "research/damos-public-routes-2026-10-19.json",
+            "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded visual/public-route source inspection",
+            "encoding": "json"
+          }
         }
       ],
       "scholarly_limits": [
         "The 5,932 authenticated observations are not committed as a record collection in this checkout; this profile does not relabel publication examples as those observations. No gold reveal, private export inspection, same-snapshot word crosswalk or calibration is performed.",
-        "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+        "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
       ],
       "delivery_status": "PASS_DELIVERY_CONTROLS_ONLY",
       "expert_acceptance_added": false
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
-      "delivery_report_sha256": "2ea68cda5ce6a2e45e2c0e7e4cc3755d8e173c6bce126524de035469bdfd2798",
+      "delivery_report_sha256": "5877d4e5b1bf1375018207de03b24fa5426335e61f817d8f8ba5dd84a7ff7cb6",
       "profile_sha256": "74844fcc1ab55b7ba810c5d4beab085c24eb24cbe170551bee7d4a5095059b2d",
       "collections": [
         {
@@ -396,7 +536,7 @@
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
-      "delivery_report_sha256": "14000ec9276c9090cbae6707ec0c699f3aa122225bf123b1164ed90fd7b52148",
+      "delivery_report_sha256": "b9659b4011850dcb864d06db48f7cb3985c180b43cd05049b93c3a949656f9e3",
       "profile_sha256": "4cdd57c203b301fdb0a603d441ffcd6a3278b9b7d48b65128814b4f8b3e5cd71",
       "collections": [
         {
@@ -504,7 +644,7 @@
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
-      "delivery_report_sha256": "4f7e16d4bb86277190174de7c0e11944714ac5e6231981ab45783d4706d02329",
+      "delivery_report_sha256": "b1413fd63077d08999108436590293ab19add3ce48d3c421d96be657932f3f01",
       "profile_sha256": "0208ff9902d8cfcf67be552a275041fb0a712d57231d4931145ddb8d496a441b",
       "collections": [
         {
@@ -574,7 +714,7 @@
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
-      "delivery_report_sha256": "b6e98db7eb6bc90f01447f8300d13e0c92db08db4ec1566a103b827e29b42d9a",
+      "delivery_report_sha256": "bff298fe338bb83ac5a2350e1de56270d2d176eaf98edf4f13e50be0b857dbb7",
       "profile_sha256": "e3aab01e02787ddaaa5299213004b70082660cb3a130c38fc17f1fa1e00c60ef",
       "collections": [
         {
@@ -644,7 +784,7 @@
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
-      "delivery_report_sha256": "48024193e8f4c4f16e7b60dace04b0bd6beb8df5cc1a4c06191486360468245e",
+      "delivery_report_sha256": "67bdaf8107d8bfa881af578227d05a306e4952482357b458985a1f59929f70a5",
       "profile_sha256": "4be5ba995fc04abbb5b6e986edda4e155fa8c45d7b0bf74fea9698ae8c81355a",
       "collections": [
         {
@@ -731,7 +871,7 @@
     },
     {
       "repository": "hawkinsnick/Eteocretan",
-      "delivery_report_sha256": "cfc7cdc322c24247ec9ff63a503e48fdb4e579ec59a7ef9f4af1485846b4b2c3",
+      "delivery_report_sha256": "504633b74f412f3bc1b18866d74a4d95a28d4aec2577180ba9d7f33f2cd525bd",
       "profile_sha256": "a15f265e8d0f2e5852b3d6b213f55105f1e67ff5cca0dc8a98c4e71171d11ac7",
       "collections": [
         {
@@ -801,7 +941,7 @@
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
-      "delivery_report_sha256": "a76599d5e232385e14a8d5910edcebc6561cd5777efa449b627ced5faf844c3f",
+      "delivery_report_sha256": "afaea64e261dd38eb454de04aa39a032125cbed4347ad1c8aa40f81eb24b37a2",
       "profile_sha256": "80ddb4edc3256addaae6f2b5f917d838445a50abef4184f9e9119590b893d522",
       "collections": [
         {
@@ -871,7 +1011,7 @@
     },
     {
       "repository": "hawkinsnick/Phrygian",
-      "delivery_report_sha256": "fc706cee41378ac1dd8cc0a9d9a55b32af88439480d394dd779147bedfa04581",
+      "delivery_report_sha256": "687dc1a30225b5ce53457780613a9443c104b6493877fba7870f931212a53efd",
       "profile_sha256": "0dc78ba481de4939f2a360290380aa38d4b980ae5ba9700b654b191c4da613b1",
       "collections": [
         {
@@ -996,8 +1136,8 @@
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",
-      "delivery_report_sha256": "f726860d90c90a62bd651dbdf7ad1de1dac999e8f553cef245d9719d0888984f",
-      "profile_sha256": "c7f0df7bfb4505a2b3cfaa26b27508389f0816276dade03b8a8c82c4333cee06",
+      "delivery_report_sha256": "f93a0958c62176d84d38c83e6794b93143ddc8f5801d295d99afd19e6088eb22",
+      "profile_sha256": "22f8020003deddcda9368c6e385eb516fa328df61942bf81719038ec81eb28d1",
       "collections": [
         {
           "name": "digital-entry-dossiers",
@@ -1074,18 +1214,125 @@
             "role": "bounded attribution review",
             "encoding": "json"
           }
+        },
+        {
+          "name": "source-study",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "record_count": 1,
+          "scope": "Source-specific assertions and qualifications; not canonical readings, objects, gold or independent review.",
+          "example_ids": [
+            "HL-URBS-CITY-20261017"
+          ],
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "city-source-assertions",
+          "native_unit": "selected author-reported Table1 assertion",
+          "record_count": 4,
+          "scope": "Four CC BY4.0 text-table rows, retaining source notation and uncertainty; no automatic join to287 native identity dossiers or canonical acceptance.",
+          "example_ids": [
+            "HL-CITY-T1-1",
+            "HL-CITY-T1-2",
+            "HL-CITY-T1-3"
+          ],
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+            "pointer": "/attestation_assertions",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "city-reference-crosswalk",
+          "native_unit": "bounded documentary follow-up case",
+          "record_count": 1,
+          "scope": "Preserve text-rendition/access qualifications or catalogue-reference-candidate status; no canonical reading, linguistic join or scientific acceptance.",
+          "example_ids": [
+            "HL-CITY-REFERENCE-CROSSWALK-20261018"
+          ],
+          "provenance": {
+            "path": "research/city-reference-crosswalk-2026-10-18.json",
+            "sha256": "9bb4718fd74ef41e8e3f6817b282b1ce7eb8ab1f30cd2a9d56dfe0821f06ba0f",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded documentary follow-up",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "city-edition-page-check",
+          "native_unit": "bounded source access or structure inspection",
+          "record_count": 1,
+          "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred.",
+          "example_ids": [
+            "HL-CITY-EDITION-PAGES-20261018"
+          ],
+          "provenance": {
+            "path": "research/edition-page-check-2026-10-18.json",
+            "sha256": "0c9f11302fcd9180277b75e87714fea8ff06aa6b91b86d066364183fb1b9aa7e",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "visual-source-routes",
+          "native_unit": "bounded source-route inspection",
+          "record_count": 1,
+          "scope": "Actual consulted pages/responses only; no unique-object counts, clause/line equivalence, linked annotation delivery, new canonical readings or independent review.",
+          "example_ids": [
+            "HL-VISUAL-SOURCE-ROUTES-20261019"
+          ],
+          "provenance": {
+            "path": "research/visual-source-routes-2026-10-19.json",
+            "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded visual/public-route source inspection",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "historical-visual-presentations",
+          "native_unit": "page/plate presentation record",
+          "record_count": 6,
+          "scope": "Six historical source presentations, not six physical objects or independent witnesses. No admitted sign geometry.",
+          "example_ids": [
+            "GELB1939-GURUN-CONTEXT",
+            "GELB1939-KOYLUTOLU-CONTEXT",
+            "GELB1939-GURUN-PL39"
+          ],
+          "provenance": {
+            "path": "research/visual-source-routes-2026-10-19.json",
+            "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+            "pointer": "/records",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded visual/public-route source inspection",
+            "encoding": "json"
+          }
         }
       ],
       "scholarly_limits": [
         "Bibliographic citations marked direct_edition_checked=false remain uninspected leads. Secondary label matching does not certify chronology or physical object identity.",
-        "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+        "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
       ],
       "delivery_status": "PASS_DELIVERY_CONTROLS_ONLY",
       "expert_acceptance_added": false
     },
     {
       "repository": "hawkinsnick/Archanes-Script",
-      "delivery_report_sha256": "090bfc53b7d93fffe8a02f5af58973a9b1e01145a047f152f08a29e937f0ce1b",
+      "delivery_report_sha256": "8379002dce6ed4502aac3b477bb9757e61385815449e0d5af9cac91a60acffd6",
       "profile_sha256": "f7751f2e8d3ca383e8fa98301da9e4da701c7df70a4cb334bdf54baa5b85f6ad",
       "collections": [
         {
@@ -1174,7 +1421,7 @@
     },
     {
       "repository": "hawkinsnick/Aegean-anomalous",
-      "delivery_report_sha256": "8899b76ee591e2919eded4254fed69e04ae845fa01cc1cb8f138f0ba6d456eae",
+      "delivery_report_sha256": "8a1bcc8e3e6c520ec974288608f228f8e10d0f31b56f937391ba49ab95a442ef",
       "profile_sha256": "d08524a1a6a835f98e90f7eae971bb6b92f99bff3e89b8402d2e610b75c2b11f",
       "collections": [
         {
@@ -1243,7 +1490,7 @@
     },
     {
       "repository": "hawkinsnick/Lydian",
-      "delivery_report_sha256": "eda920ba895925b2eb421429e9827cff072f213071502620fcd425576f7b5a9a",
+      "delivery_report_sha256": "fe69712d1e0ff1c61dd97e98b3dac1dce3e6cbce88c36f95c1fddd61844cf081",
       "profile_sha256": "ca1b49486dd0dc5e0caec0b772757566c0cb70ce8d41489c2c0f2103b6467dab",
       "collections": [
         {
@@ -1333,8 +1580,8 @@
     },
     {
       "repository": "hawkinsnick/Sidetic",
-      "delivery_report_sha256": "cda72e30a78925238a538f4290378070d3574b370687119c5518ba8c16353c95",
-      "profile_sha256": "5e2087449b8fa213b30dba0026ee2b5a7d48108a93590c012ae496115d0037b9",
+      "delivery_report_sha256": "24ab90036fe3a7ece3ae7222f45f8512e37f04fd357205bd1f389ac97b984a7e",
+      "profile_sha256": "6ecec7cf7f71f36be9976d47ee06ee7bc6cf3aa429fd265104a0c78ade3c85ce",
       "collections": [
         {
           "name": "digital-reference",
@@ -1430,6 +1677,62 @@
             "role": "p1-source-followup",
             "encoding": "json"
           }
+        },
+        {
+          "name": "source-intake-2026-10-18",
+          "native_unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+          "record_count": 2,
+          "scope": "Direct Ferrer PDF follow-up; Brixhe–Neumann original remains unacquired. Tasks are not independent witnesses.",
+          "example_ids": [
+            "SID-FERRER2025-VOWEL-INTAKE",
+            "SID-BRIXHE-NEUMANN1988-INTAKE"
+          ],
+          "provenance": {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd",
+            "pointer": "/cases",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source intake and bibliographic identity",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "ferrer2025-appendix-comparison",
+          "native_unit": "editorial appendix line/group comparison, not an inscription or independent witness",
+          "record_count": 33,
+          "scope": "All33 source lines/groups; bibliographic joins and explicit missing counterparts only; no glyph-complete diplomatic layer or accepted reading.",
+          "example_ids": [
+            "FERRER2025-S1-1",
+            "FERRER2025-S1-2",
+            "FERRER2025-S2-1"
+          ],
+          "provenance": {
+            "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+            "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1",
+            "pointer": "/comparisons",
+            "native_artifacts_snapshot_commit": null,
+            "role": "Direct Ferrer PDF and appendix comparison",
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "ferrer2025-reading-assertions",
+          "native_unit": "source-attributed selected name proposal; not independent witness or physical object",
+          "record_count": 6,
+          "scope": "Six names at four source lines and three directory targets; final appendix display and source-specific uncertainty retained.",
+          "example_ids": [
+            "FERRER2025-APP-DARKUW",
+            "FERRER2025-APP-DIYNUSIJAS",
+            "FERRER2025-APP-MUWAKAS"
+          ],
+          "provenance": {
+            "path": "research/ferrer2025-reading-assertions.json",
+            "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22",
+            "pointer": "/assertions",
+            "native_artifacts_snapshot_commit": null,
+            "role": "selected attributed edition assertions",
+            "encoding": "json"
+          }
         }
       ],
       "scholarly_limits": [
@@ -1442,7 +1745,7 @@
     },
     {
       "repository": "hawkinsnick/Pisidian",
-      "delivery_report_sha256": "c2ad3c8b86f401f89bb3a85a62b0e9a193e08ead5365fffc64bf5db8977cdfa0",
+      "delivery_report_sha256": "1eaaf7b0c7859179d72ebda80e5ca78e331ed883e8046cff26d029ebdf48ad1a",
       "profile_sha256": "c96b16305f4403a179d09e516c52489b33d56e51561d7f5a5278a4cf94ece65a",
       "collections": [
         {
@@ -1513,7 +1816,7 @@
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "delivery_report_sha256": "fd359c14b6d9cdc1035812001dfd5778bef064aa1ab71b377b576f23fb298da1",
+      "delivery_report_sha256": "61599090a92529ae60aaf1dcd278792160a112eb17316f24f7e007e890cc8ae1",
       "profile_sha256": "4f51864456b81e1f5f6b0a34fc9973234d5f034dd71d348e6920b21a80eb9cac",
       "collections": [
         {

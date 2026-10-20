@@ -1,0 +1,250 @@
+{
+  "format": "corpus-ai-skill-publication-receipt-v1",
+  "scope": "First source-bound publication batch, followed by a separately documented master-only frozen-checkpoint repair.",
+  "individual_corpora": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "1e3ce74fda3cd56c90b41b80ee938a84ae55cc44",
+      "validated_publication_commit": "90e6d8809d4b41488f6d0c738a888696e3977995",
+      "published_tree": "57f3945f60e81315637008be56d07ec5444fd7b1",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461149707,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Linear-A/actions/runs/39461149707"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "50f95a3907dc21f3dab315028eded603b237d007",
+      "validated_publication_commit": "6f15f3bee81a21d2514d33e7baf8fcb11ae66829",
+      "published_tree": "a9ad34b0167c31a7823f27a26c791df58910fff7",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461159343,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Cypro-Minoan/actions/runs/39461159343"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+      "validated_publication_commit": "19afd3611d3e108de09714105db705251253f89f",
+      "published_tree": "5b7425db0da8d1372b3b7ef7ba9f7e6a683c6172",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461168782,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Linear-B/actions/runs/39461168782"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "7dee79883089d4296aed5538ce82c6e183f2c490",
+      "validated_publication_commit": "eebb2a7f3711113f2ae47990ed8303bd63ec9f5c",
+      "published_tree": "b4940f406467df8f109a078bfa86f77ced6118bc",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461176823,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Cretan-hieroglyphs/actions/runs/39461176823"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "fb7926c6540a7044293e1e06720e174c847fa606",
+      "validated_publication_commit": "dad16c370e378cbadb19e3ef3d51b11557fd8cf7",
+      "published_tree": "0e254dcda85bf12e71bf154f92b08255f91b783b",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461186303,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Phaistos-Disc/actions/runs/39461186303"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "3eed05dbf39b819e7e59ee5394d47db8b3f34761",
+      "validated_publication_commit": "d2b01d679472d45027c9c99edcbeebbbe6927f23",
+      "published_tree": "d309f5f0ef4dff0b5976f3af61082426798264ba",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461195318,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Byblos-syllabary/actions/runs/39461195318"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "a167c37a8228fcde893b50bd99023c0330639e15",
+      "validated_publication_commit": "08522e25e7fd5244a147bf42d486e00d4eab8541",
+      "published_tree": "b17c7979ca51eb20fd936f9c39946802216486e4",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461206167,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Cypriot-syllabic-Greek/actions/runs/39461206167"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+      "validated_publication_commit": "d00d178d04b344705f25ab49afd4d9c1827993cc",
+      "published_tree": "d0987d9076ab5c07f2279fdb8c24d7811a37e66b",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461215121,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Eteocypriot/actions/runs/39461215121"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "b2c6a68475ca83f7313f17cdbf9e52e3b3b0f8a2",
+      "validated_publication_commit": "4987454ff9fe221aa4e6b8d493c3bd4b2b318aae",
+      "published_tree": "002bdf824e7b17c51e9c9830ff46205894270df3",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461226475,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Eteocretan/actions/runs/39461226475"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "6d2e63c80b7a2c48ef171e42fdceb680d33445ae",
+      "validated_publication_commit": "ff80a908914864ded0c5a66d7db7ca5f5c801ab9",
+      "published_tree": "2e2c5349202fff3cd1b98419a7112756b72c8e36",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461235597,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Lycian-and-Carian/actions/runs/39461235597"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "2973aa6c7f7a14827adc69cfff14068bd92650c7",
+      "validated_publication_commit": "98692334bed43e23692dbfe86c7c1d7c9c43a0a7",
+      "published_tree": "da63f9c437c07dd0cd25ca1441d277c77d83bd60",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461244224,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Phrygian/actions/runs/39461244224"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "88047c4f1d0c8ed1bc46f4470dee4a92b78aef00",
+      "validated_publication_commit": "3209baba600592497e68a554c2d290b96fd466f3",
+      "published_tree": "a56dfca49e599f8a2bc677c4483ab3afd790f9d2",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461256517,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Anatolian-Hieroglyphic/actions/runs/39461256517"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "693339eb164d1d9aef4e86f0afed9c318f11a2da",
+      "validated_publication_commit": "3a421d838a27e056eb32232a1fdb1685ffa17d88",
+      "published_tree": "a52a70beb29cd18f28348534ef9ebf8c7c2c7200",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461266245,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Archanes-Script/actions/runs/39461266245"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+      "validated_publication_commit": "73eb3dafe923b08e9fb027b5cda34e16013960e8",
+      "published_tree": "aae1fe0a3e295485774beb589f8c37cd5be0f46c",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461273332,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Aegean-anomalous/actions/runs/39461273332"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
+      "source_commit": "f4b7b829e44458553f9d8145812f0bc387c1c07b",
+      "validated_publication_commit": "b1ffd60431c4d95e82b53472dc2b543882a1e8b2",
+      "published_tree": "c1c1e6b71da892517df20c58e31e553ac4a20d6f",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461285113,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Egyptian-Hieroglyphic-Corpus/actions/runs/39461285113"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "ae86c095a63a21d676256aa2a81e6928dd4a2639",
+      "validated_publication_commit": "f8d781267fe002aed607b562dc1dfe537cb7b217",
+      "published_tree": "f693a5a47fbe2bd1d08356a13ffeebc71f7bb9e8",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461294523,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Lydian/actions/runs/39461294523"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "7dd8fab8ff5451ff61c2b2093ac28c61af7ad5ff",
+      "validated_publication_commit": "52825f7d2d7a0a899e810d25b8711e8b9ee06f9c",
+      "published_tree": "8a9ce36caf8499e8a9d8ada5a1543dc3ec22c653",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461306786,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Sidetic/actions/runs/39461306786"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "81badfe2f9233546aac12ba315ce242d35f53147",
+      "validated_publication_commit": "cb3d25674ab8569d3f534e3b4fc99607ab019adf",
+      "published_tree": "22eb9650bf51c7741cd2e29747b942f292ad1a85",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461317455,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Pisidian/actions/runs/39461317455"
+      }
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+      "validated_publication_commit": "5c84a74a513df72ab9644bd88d45702ebcd4288b",
+      "published_tree": "4e7ddcbd09360dc5fd4a0a62481a6e82bc624c8a",
+      "remote_receipt_bytes_verified": true,
+      "github_skill_check": {
+        "id": 39461328109,
+        "conclusion": "success",
+        "url": "https://github.com/hawkinsnick/Milyan-Lycian-B/actions/runs/39461328109"
+      }
+    }
+  ],
+  "all_19_functional_workflows_success": true,
+  "remote_receipts_verified": 19,
+  "postrevision_fresh_context_exercise": {
+    "corpora": 19,
+    "unexpected_workflow_failures": 0,
+    "raw_development_log_sha256": "6c28e597c5437e5bd303f0073aadba1dd30c09f563b02078ea71d0caa26a3025",
+    "benchmark_accuracy_estimate": null
+  },
+  "frozen_master_repair": {
+    "status": "PASS_LOCAL_EXACT_CHECKPOINT_REPLAY",
+    "members": 18,
+    "exercises": 5,
+    "integration_tests": 5,
+    "hosted_repair_status": "Verify the workflow for the commit publishing this repair; the previous workflow failure is retained in GitHub history."
+  },
+  "scholarly_acceptance_added": false
+}

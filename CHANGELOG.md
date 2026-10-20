@@ -1,3 +1,8 @@
+## Master replay synchronization — 2026-10-20
+
+- Refresh 18 frozen implementation source revisions and federation/exercise receipts after the native delivery repair.
+- Verify published individual receipts and all 19 successful hosted AI skill checks.
+
 ## AI skill validation — 2026-10-20 (contract remains 0.3.1)
 
 - Add executable skill checks, exact native lookup examples and a GitHub check receipt.
