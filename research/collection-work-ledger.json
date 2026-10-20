@@ -2,9 +2,9 @@
   "builder_sha256": "2c5306631cb0fa09a6c1d686d5f7e7265b32cb33c1faed1edf0d519dad2f196f",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
   "config_sha256": "5988eabc100e68c5a2fa4fb1193d003744b9ae163ffbe0edcd1f67ed749635d9",
-  "evidence_fingerprint": "39c971bb15b5835bb3341596def6b1421871704e268edc9396335d8d980b1ffc",
+  "evidence_fingerprint": "ecae362d44094966d699c977f960cac894705314ee1cec432baedea09806d40f",
   "input_sha256": {
-    "analysis/current-status.json": "e94eb4bda5855c53018abf47276cc325330fae93047b9127be857e7a9b6b6dc1",
+    "analysis/current-status.json": "623841ec07c5c78a05a02da42f3383a37e5e2e2e772e2f7a8138441d5dc28aa6",
     "analysis/pre-expert-source-audit.json": "8224ce96550d0214b4902c8778fb6cd3314e6ab4fdda669b73ea17c71409a0de",
     "analysis/sigla-layout-audit.json": "6e84b39ad6cf5c235c2b786560219c30adbf143ca3b7ebb44f9fd98419a42022",
     "corpus-factory/MEGA-CORPUS.md": "2f3caee339ba05c23cc1c300e093a06ae7083800898e76386841f773788bf2f0",

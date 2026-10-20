@@ -66,15 +66,15 @@
     },
     {
       "path": "analysis/evidence-index-v1.json",
-      "sha256": "877f6b020142d6dd956a71ead461ac74a7c711e7c63314df62a6121957e47d37"
+      "sha256": "6b6c28c6b6356263c6244f90681b2506be2fec88b77702504b9951c4f57d105b"
     },
     {
       "path": "analysis/workbench-acceptance-v1.json",
-      "sha256": "075539afe0730223d79981bbc4684c956f6bb64e2e1cd34317bb1c6ab8ad927e"
+      "sha256": "0f58feea1a019d1efbb5b51c86dbdb97d33d99a42e2aaec181ab52dadfecec23"
     },
     {
       "path": "workbench/evidence.html",
-      "sha256": "eaae37c39b7ef31f636a61e6ee700356fa8b94f05e3bef86050bb71af6e97351"
+      "sha256": "16ac8350c74cad0642841cec5207803c9ca55751aae1dcaa427ac652fb55d359"
     },
     {
       "path": "research/workbench-milestone-v1.json",
