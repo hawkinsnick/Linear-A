@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "ad18f1b76b938402d8d5c521eac2554eac09136e",
-  "generated_at_utc": "2026-10-20T02:54:23+00:00",
+  "source_commit": "6e9ff2ae7147822044f7cf8c686fdd333a2b7d11",
+  "generated_at_utc": "2026-10-20T16:14:43+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -424,8 +424,8 @@
     {
       "role": "master_secondary_reference_instructions",
       "path": "combined-ai-skill/SKILL.md",
-      "sha256": "a210573518911afcd6a18cf98d1335fcfbb67540369cde997ead7400623448c4",
-      "bytes": 66499
+      "sha256": "2e8593ceead2056d408c7dd55a3ef8ffe160c93e932684b22e122a76fe1f9732",
+      "bytes": 67773
     },
     {
       "role": "source_delivery_guide",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "ed0bb86f7d81910eb06b2655f4bd6536e078a9ff7c1d5aff981eecb9fb6fd7be",
-      "bytes": 43457
+      "sha256": "6a510b099a2e7453d5e902c647c1754fd21768ec9c323c9ecce33d15dc6d9a74",
+      "bytes": 44588
     },
     {
       "role": "cross_corpus_dependencies",
@@ -550,8 +550,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "f0227244f254e976e8efaa73f7d56634f3c9cb23f69c5353ad73d01531df5659",
-      "bytes": 21335
+      "sha256": "51a46abb7e1060beb8d18e8d0cc715b2fcc592b9333c79bd7411dda17f66ceca",
+      "bytes": 21280
     },
     {
       "role": "current_summary_builder",
@@ -1242,6 +1242,42 @@
       "path": "corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md",
       "sha256": "c4f8538a6ac02fbaafaef234159efe3873e8172fb6e78a1a31380b5f240d274e",
       "bytes": 2101
+    },
+    {
+      "role": "validity_audit",
+      "path": "corpus-factory/VALIDITY-AUDIT-2026-10-20.md",
+      "sha256": "27b960591da1653c7ec7b3c96402004406f224dfebecb8c87ba48858324c7120",
+      "bytes": 5487
+    },
+    {
+      "role": "validity_audit",
+      "path": "corpus-factory/validity-audit-2026-10-20.json",
+      "sha256": "ad653da0161fb0e06154da5035ffdecded0bf9fff61ea40d67fd9ed6fc3034b6",
+      "bytes": 62121
+    },
+    {
+      "role": "current_readiness",
+      "path": "corpus-factory/CURRENT-READINESS.md",
+      "sha256": "c4a9da01f59a2be05a137b6fd2e63fda2f3aa3940ce1fa36ef0defed763e0ce3",
+      "bytes": 15753
+    },
+    {
+      "role": "current_readiness",
+      "path": "corpus-factory/readiness-snapshot.json",
+      "sha256": "ac2f45e8bc693f55f6754ea34b2f58371ffc164771e447692e2aa58288231be5",
+      "bytes": 104284
+    },
+    {
+      "role": "current_readiness",
+      "path": "corpus-factory/readiness_overview.py",
+      "sha256": "8f55ce477dc56e41f02059762e88ce517ea6cfcff66059c5ff72e9fd16b22343",
+      "bytes": 8859
+    },
+    {
+      "role": "current_readiness",
+      "path": "corpus-factory/test_readiness_overview.py",
+      "sha256": "ce506f164e317067a2e5b5a8cee486f51dcb367d217c91e6ed15a41af788de3f",
+      "bytes": 1667
     }
   ]
 }
