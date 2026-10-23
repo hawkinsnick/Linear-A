@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "fca0a76b66565cf63692544fa400d451abf58b8d",
-  "generated_at_utc": "2026-10-20T18:18:35+00:00",
+  "source_commit": "1770c73b37219e81cd26d86c96489889f9dbbcb7",
+  "generated_at_utc": "2026-10-23T00:04:39+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "bd3a3d8ad749be69f56a5d046b35e8350ddee8c3eb0d63bc43bd7589ab601e2a",
-      "bytes": 17402
+      "sha256": "ca6414fc8aeab0334da7ec7f37b9cc6cc2aea17ac266855b7ea5813c9e96fb2a",
+      "bytes": 17692
     },
     {
       "role": "skill_validator_code",
@@ -1386,6 +1386,30 @@
       "path": "corpus-factory/academic_audit_probe.py",
       "sha256": "730680ee52a4037bc367cab21deeab89660b91338e13af56ca17c833d6c39ab8",
       "bytes": 8247
+    },
+    {
+      "role": "academic_defect_register",
+      "path": "corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-22.md",
+      "sha256": "cb9f76b7271caf14f4592ea5afbfd175e6c7b129f8cedecd9684da45ab265046",
+      "bytes": 59047
+    },
+    {
+      "role": "academic_defect_register",
+      "path": "corpus-factory/academic-defect-register-2026-10-22.json",
+      "sha256": "11a2ce12873a9a64efb6afe6bc66feb2bc22b329eabd04df8e5590f996777e58",
+      "bytes": 142386
+    },
+    {
+      "role": "academic_defect_register",
+      "path": "corpus-factory/validate_academic_defect_register.py",
+      "sha256": "7aab5114aadf52b76d0b53f01cef1ebbc3573bfc0ed77f0a6be4d5dd01ca544c",
+      "bytes": 3387
+    },
+    {
+      "role": "academic_defect_register",
+      "path": "corpus-factory/academic-defect-validation-2026-10-22.json",
+      "sha256": "5e1ec3b58c278987c291c5534e53af2f7b6136edfd943973e49b4299ebd1fb7c",
+      "bytes": 342
     }
   ]
 }
