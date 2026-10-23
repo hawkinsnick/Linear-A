@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "c5adfae5e745db4b34083a7d535f50f5d5bd9f1a",
-  "generated_at_utc": "2026-10-23T00:40:22+00:00",
+  "source_commit": "db46818b1491830091e63d9fa566b86400dc0afc",
+  "generated_at_utc": "2026-10-23T00:42:41+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -1138,13 +1138,13 @@
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "976c39ee9790adc95ccbd1857abe9b968f860d92f2d1f9f1b6360e9280b2ba20",
+      "sha256": "1a4861cf2ccbbfa5c1661806dbaea450e11da23bf6548ff7516ec56fea9a34a6",
       "bytes": 4089
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "e51f11905cfc69e5c564f5246cec8751473fa3c330351e3004f5728ea94862c8",
+      "sha256": "8494685e5a1e6fd423868dc7fb4042550c685b77b9fd2fbabb50dd4dcb7d2f54",
       "bytes": 1019
     },
     {
@@ -1186,25 +1186,25 @@
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/teaching-example.json",
-      "sha256": "feff8e9ade16d208d248dfdb62394a6ba4246c91ad8eeec7257f3df7c700f94f",
+      "sha256": "d4d3f6a5820d048d4d3db7ea6a400e4b8c78ab560bdcc96d96ced77d5cab8d8d",
       "bytes": 1522
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-packet.json",
-      "sha256": "a5e82bb4dd8d22ae7575bc0788572921f87776b7a5bd30890e4e043c194e81b2",
+      "sha256": "993047d73768f6eccc1f86009ba7b0605312b2aa8fb0f72f1b91b2181c2fb55b",
       "bytes": 4485
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-response.json",
-      "sha256": "93d9683cb80693e38b8327464d730aaad438ae3ef1c5d1313635047ef0da4574",
+      "sha256": "5d10262afe6e5815643e1e3c6eb991a8258f6f36f25267d475db107c7f98f605",
       "bytes": 1015
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "analysis/review-walkthrough-audit.json",
-      "sha256": "7bfcdb35d08dd7ea4456999e58757e717c353b1b7d8bfa144d99ae9d98c73a5c",
+      "sha256": "eee039eb657c7bed91f1d504819fdbd5f08e8593908e002d58751dfe6cc676c7",
       "bytes": 709
     },
     {
