@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "d355bfd4cc86eead4d591748da4237b8bdb6ebcd",
-  "generated_at_utc": "2026-10-23T00:06:06+00:00",
+  "source_commit": "c5adfae5e745db4b34083a7d535f50f5d5bd9f1a",
+  "generated_at_utc": "2026-10-23T00:40:22+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -298,14 +298,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "68e803522077f182fa4277cda07fb2ddef06bd70f4f2938c6aa089c652d94cd1",
-      "bytes": 8430
+      "sha256": "c055e74cf08817856ae90c661b7530d89b31dabf4c3598a0a99de55b3a853ef8",
+      "bytes": 10131
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "59a8ab43433a20b0e61fdeae3a6cb00f92daeb14ad08feabfaf5cc05b12b2e77",
-      "bytes": 10868
+      "sha256": "67f7bd19e553a2f9fbdd0b0e419c8991c0c749a01322e98d7f2b2565e82975a4",
+      "bytes": 12900
     },
     {
       "role": "native_evidence_query",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
-      "bytes": 46235
+      "sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
+      "bytes": 47156
     },
     {
       "role": "cross_corpus_dependencies",
@@ -550,8 +550,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "b79eb98c829748cc60c0d3fa7e3d8dd244d48b7a4c5759926fa4adb850b4231e",
-      "bytes": 21737
+      "sha256": "defa1fd7b336881c68e5bbe16fef9e85e556137e0a1f6a2f5700c6bde5c479d1",
+      "bytes": 22020
     },
     {
       "role": "current_summary_builder",
@@ -1000,8 +1000,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "1edbbe320b15f92b9834bff13b7d80526576c16c2ec3695a9b17c0b71d3a248e",
-      "bytes": 11042
+      "sha256": "d482c380e5ddc5cd74465e6adf636e223ffd751bd821f519127df79d0d38fdc9",
+      "bytes": 12925
     },
     {
       "role": "northwestern_program",
@@ -1282,8 +1282,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
-      "bytes": 46235
+      "sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
+      "bytes": 47156
     },
     {
       "role": "skill_function_validation",
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "86df35e71fabc152c6d844137abfc1b165e333ea842ad4511a6e9974111df9cb",
-      "bytes": 17692
+      "sha256": "c5e6bb05d4487364f33b5ff5f7c36db6df146910ac88e38c447fcc21ac0e9d8c",
+      "bytes": 17942
     },
     {
       "role": "skill_validator_code",
@@ -1390,8 +1390,8 @@
     {
       "role": "academic_defect_register",
       "path": "corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-23.md",
-      "sha256": "0a5088818d5903f3498bf503be379855188a9f22fba53a454c3ac9c1fbc8c590",
-      "bytes": 62223
+      "sha256": "212dfa75ed77a142445e51f04bde6b31b6483b4992a89a7612db3dfcc3cd0600",
+      "bytes": 62427
     },
     {
       "role": "academic_defect_register",
@@ -1410,6 +1410,36 @@
       "path": "corpus-factory/academic-defect-validation-2026-10-23.json",
       "sha256": "d622654eb7962c48c0d4ed8c83c29787fde35b4a7c580b4bb8de4a96d5aef889",
       "bytes": 342
+    },
+    {
+      "role": "academic_remediation",
+      "path": "research/academic-remediation.json",
+      "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+      "bytes": 491627
+    },
+    {
+      "role": "academic_remediation",
+      "path": "scripts/academic_remediation.py",
+      "sha256": "e33142e89db9208ced3da355eb351338d32931238def4d301a4ed8ab0d563d94",
+      "bytes": 4917
+    },
+    {
+      "role": "academic_remediation",
+      "path": "scripts/test_academic_remediation.py",
+      "sha256": "44af8104e315a146304e5d7fde158964d565832505d263eb7a53b1cb956dcf5b",
+      "bytes": 3423
+    },
+    {
+      "role": "academic_remediation",
+      "path": "docs/ACADEMIC-REMEDIATION.md",
+      "sha256": "c40b42d4bc044d165f9712c2f9755859466af2ff8cf13cfaca77f91bc9dab973",
+      "bytes": 2536
+    },
+    {
+      "role": "academic_remediation",
+      "path": "corpus-factory/academic-remediation-status.json",
+      "sha256": "b9ee462f864be9508bee28838ab39199085742ac613d8771908983403850d413",
+      "bytes": 7231
     }
   ]
 }
