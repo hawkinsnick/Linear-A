@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "1770c73b37219e81cd26d86c96489889f9dbbcb7",
-  "generated_at_utc": "2026-10-23T00:04:39+00:00",
+  "source_commit": "d355bfd4cc86eead4d591748da4237b8bdb6ebcd",
+  "generated_at_utc": "2026-10-23T00:06:06+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -1336,7 +1336,7 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "ca6414fc8aeab0334da7ec7f37b9cc6cc2aea17ac266855b7ea5813c9e96fb2a",
+      "sha256": "86df35e71fabc152c6d844137abfc1b165e333ea842ad4511a6e9974111df9cb",
       "bytes": 17692
     },
     {
@@ -1389,26 +1389,26 @@
     },
     {
       "role": "academic_defect_register",
-      "path": "corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-22.md",
-      "sha256": "cb9f76b7271caf14f4592ea5afbfd175e6c7b129f8cedecd9684da45ab265046",
-      "bytes": 59047
+      "path": "corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-23.md",
+      "sha256": "0a5088818d5903f3498bf503be379855188a9f22fba53a454c3ac9c1fbc8c590",
+      "bytes": 62223
     },
     {
       "role": "academic_defect_register",
-      "path": "corpus-factory/academic-defect-register-2026-10-22.json",
-      "sha256": "11a2ce12873a9a64efb6afe6bc66feb2bc22b329eabd04df8e5590f996777e58",
-      "bytes": 142386
+      "path": "corpus-factory/academic-defect-register-2026-10-23.json",
+      "sha256": "59e3f4d9893b6edb1c22e04b3fe777f669a6c02735b2408101583316f3adebdf",
+      "bytes": 149405
     },
     {
       "role": "academic_defect_register",
       "path": "corpus-factory/validate_academic_defect_register.py",
-      "sha256": "7aab5114aadf52b76d0b53f01cef1ebbc3573bfc0ed77f0a6be4d5dd01ca544c",
+      "sha256": "411821104401b2df0581e98b58f08e4bf5f7a0a1dce0f4f8a57b6866ddc9e991",
       "bytes": 3387
     },
     {
       "role": "academic_defect_register",
-      "path": "corpus-factory/academic-defect-validation-2026-10-22.json",
-      "sha256": "5e1ec3b58c278987c291c5534e53af2f7b6136edfd943973e49b4299ebd1fb7c",
+      "path": "corpus-factory/academic-defect-validation-2026-10-23.json",
+      "sha256": "d622654eb7962c48c0d4ed8c83c29787fde35b4a7c580b4bb8de4a96d5aef889",
       "bytes": 342
     }
   ]
