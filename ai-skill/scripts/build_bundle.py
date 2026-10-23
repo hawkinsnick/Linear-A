@@ -80,7 +80,7 @@ CANDIDATES += [('skill_function_audit', p) for p in ['corpus-factory/AI-SKILL-VA
 CANDIDATES += [('skill_validator_code', p) for p in ['ai-skill/scripts/build_bundle.py', 'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/sync_skill.py']]
 CANDIDATES += [("p0_reaudit", p) for p in ["corpus-factory/P0-REAUDIT-2026-10-20.md", "corpus-factory/p0-reaudit-2026-10-20.json"]]
 CANDIDATES += [("adversarial_academic_audit", p) for p in ["corpus-factory/ACADEMIC-AUDIT-2026-10-20.md", "corpus-factory/academic-audit-probes-2026-10-20.json", "corpus-factory/academic-audit-revisions-2026-10-20.json", "corpus-factory/academic_audit_probe.py"]]
-CANDIDATES += [("academic_defect_register", p) for p in ["corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-22.md", "corpus-factory/academic-defect-register-2026-10-22.json", "corpus-factory/validate_academic_defect_register.py", "corpus-factory/academic-defect-validation-2026-10-22.json"]]
+CANDIDATES += [("academic_defect_register", p) for p in ["corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-23.md", "corpus-factory/academic-defect-register-2026-10-23.json", "corpus-factory/validate_academic_defect_register.py", "corpus-factory/academic-defect-validation-2026-10-23.json"]]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

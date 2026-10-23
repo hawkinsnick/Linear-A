@@ -1,0 +1,9 @@
+{
+  "status": "PASS_EVIDENCE_BINDING_NOT_SCHOLARLY_ACCEPTANCE",
+  "items": 50,
+  "open": 45,
+  "bounded": 5,
+  "unique_pinned_files": 38,
+  "evidence_observations_resolved": 70,
+  "scope": "Checks hashes, pointers, stored observations, counts and dependency IDs; does not establish ancient-reading correctness or close any scholarly gate."
+}

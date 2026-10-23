@@ -57,7 +57,7 @@ def validate(register, checkouts):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('--register', type=Path, default=Path(__file__).with_name('academic-defect-register-2026-10-22.json'))
+    p.add_argument('--register', type=Path, default=Path(__file__).with_name('academic-defect-register-2026-10-23.json'))
     p.add_argument('--checkouts', type=Path, required=True)
     a = p.parse_args()
     print(json.dumps(validate(a.register, a.checkouts), indent=2))
