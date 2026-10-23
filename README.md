@@ -1,5 +1,7 @@
 # Linear A Open Corpus
 
+[Academic remediation](docs/ACADEMIC-REMEDIATION.md) adds current route rejection and explicit legacy-case dispositions to researcher retrieval. [Current item status](corpus-factory/academic-remediation-status.json) separates scoped closures from remaining scholarly evidence gaps.
+
 
 ## Use the AI research skill
 

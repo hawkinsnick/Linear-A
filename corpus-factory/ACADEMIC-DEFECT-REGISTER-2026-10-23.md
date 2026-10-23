@@ -1,5 +1,7 @@
 # Itemized academic defect register — 23 October 2026
 
+For later item transitions read [current remediation status](academic-remediation-status.json) and [researcher-facing fixes](../docs/ACADEMIC-REMEDIATION.md). The counts below describe the frozen audit.
+
 **45 open work items and 5 bounded resolutions/progress records.** These are not 50 proven false readings. The earlier twelve findings were themes, not an exhaustive defect count.
 
 This is an adversarial desk audit of 18 corpus repositories plus the canonical master. It is not an independent PhD specialist review, complete primary-source collation or a guarantee that further defects do not exist. Egyptian and unrelated projects are excluded. Current repository snapshots and every evidence file hash/pointer are in the [machine-readable register](academic-defect-register-2026-10-23.json). Later changes do not silently alter these observations.

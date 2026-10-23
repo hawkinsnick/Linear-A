@@ -1,0 +1,283 @@
+{
+  "format": "academic-remediation-current-status-v1",
+  "date": "2026-10-22",
+  "frozen_register": "corpus-factory/academic-defect-register-2026-10-23.json",
+  "frozen_register_sha256": "59e3f4d9893b6edb1c22e04b3fe777f669a6c02735b2408101583316f3adebdf",
+  "date_note": "User-facing remediation date uses America/Chicago; frozen register filename retains the earlier host-date label.",
+  "original_open": 45,
+  "newly_closed_scoped_items": 2,
+  "remaining_open_including_mitigated": 43,
+  "historical_bounded_progress": 5,
+  "native_evidence": {
+    "path": "research/academic-remediation.json",
+    "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+    "route_decisions": 802,
+    "confirmed_targets": 220,
+    "rejected_targets": 2,
+    "case_dispositions": 15,
+    "admitted_alternative_pairs": 0
+  },
+  "source_access_attempt": {
+    "url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1&sp=138",
+    "outcome": "HTTP_503_SERVICE_UNAVAILABLE",
+    "replacement_verified": false
+  },
+  "items": [
+    {
+      "id": "ACD-001",
+      "original_status": "OPEN",
+      "current_status": "MITIGATED_OPEN",
+      "resolution": "All fifteen legacy cases explicitly exclude alternative-pair admission; missing scholarly witness pairs remain unresolved."
+    },
+    {
+      "id": "ACD-002",
+      "original_status": "OPEN",
+      "current_status": "CLOSED_SCOPED_DISPOSITION",
+      "resolution": "Expose existing exact component, snapshot-gap and interpretation-only dispositions in researcher retrieval.",
+      "closure_scope": "Closes routing/exclusion criterion only. The original audit omitted the already existing membership ledger; no new source membership or reading is claimed."
+    },
+    {
+      "id": "ACD-003",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-004",
+      "original_status": "OPEN",
+      "current_status": "CLOSED_REJECTED_MAPPING",
+      "resolution": "Reject known-wrong HT53a/b targets in current retrieval; retain historical URL separately; no verified replacement.",
+      "closure_scope": "The original alternative closure criterion permits rejection instead of inventing a corrected URL."
+    },
+    {
+      "id": "ACD-005",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-006",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-007",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-008",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-009",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-010",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-011",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-012",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-013",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-014",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-015",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-016",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-017",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-018",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-019",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-020",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-021",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-022",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-023",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-024",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-025",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-026",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-027",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-028",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-029",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-030",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-031",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-032",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-033",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-034",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-035",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-036",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-037",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-038",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-039",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-040",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-041",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-042",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-043",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-044",
+      "original_status": "RESOLVED_BOUNDED",
+      "current_status": "RESOLVED_BOUNDED"
+    },
+    {
+      "id": "ACD-045",
+      "original_status": "RESOLVED_BOUNDED",
+      "current_status": "RESOLVED_BOUNDED"
+    },
+    {
+      "id": "ACD-046",
+      "original_status": "RESOLVED_BOUNDED",
+      "current_status": "RESOLVED_BOUNDED"
+    },
+    {
+      "id": "ACD-047",
+      "original_status": "RESOLVED_BOUNDED",
+      "current_status": "RESOLVED_BOUNDED"
+    },
+    {
+      "id": "ACD-048",
+      "original_status": "RESOLVED_BOUNDED",
+      "current_status": "RESOLVED_BOUNDED"
+    },
+    {
+      "id": "ACD-049",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    },
+    {
+      "id": "ACD-050",
+      "original_status": "OPEN",
+      "current_status": "OPEN"
+    }
+  ],
+  "boundary": "Closure is scoped to original rejection/disposition criteria, not complete bibliography, corrected replacement locators, accepted readings or expert review. All other evidence gaps and methodological claims retain their status."
+}

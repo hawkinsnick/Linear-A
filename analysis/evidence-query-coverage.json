@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-A",
-  "profile_sha256": "68e803522077f182fa4277cda07fb2ddef06bd70f4f2938c6aa089c652d94cd1",
+  "profile_sha256": "c055e74cf08817856ae90c661b7530d89b31dabf4c3598a0a99de55b3a853ef8",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -149,6 +149,44 @@
         "role": "bounded source access or structure check",
         "encoding": "json"
       }
+    },
+    {
+      "name": "edition-route-decisions",
+      "native_unit": "source-entry edition target decision",
+      "record_count": 802,
+      "scope": "Current qualification of preserved historical assertions; no new readings, physical joins or accepted scholarly alternatives.",
+      "example_ids": [
+        "ARKH 1a",
+        "ARKH 1b",
+        "ARKH 2"
+      ],
+      "provenance": {
+        "path": "research/academic-remediation.json",
+        "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+        "pointer": "/route_decisions",
+        "native_artifacts_snapshot_commit": null,
+        "role": "current exact-ID route rejection and legacy case disposition",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "case-dispositions",
+      "native_unit": "legacy queue admission/disposition",
+      "record_count": 15,
+      "scope": "Current qualification of preserved historical assertions; no new readings, physical joins or accepted scholarly alternatives.",
+      "example_ids": [
+        "U001",
+        "U002",
+        "U003"
+      ],
+      "provenance": {
+        "path": "research/academic-remediation.json",
+        "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+        "pointer": "/case_dispositions",
+        "native_artifacts_snapshot_commit": null,
+        "role": "current exact-ID route rejection and legacy case disposition",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -255,13 +293,22 @@
       "native_artifacts_snapshot_commit": null,
       "role": "bounded source access or structure check",
       "encoding": "json"
+    },
+    {
+      "path": "research/academic-remediation.json",
+      "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "current exact-ID route rejection and legacy case disposition",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
     "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
     "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
-    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
+    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance.",
+    "For edition routes use edition-route-decisions: rejected_for_target=true overrides a historical source URL. usable_confirmed_target_url=null is unestablished. For legacy cases apply case-dispositions; no legacy alternative pair is admitted."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

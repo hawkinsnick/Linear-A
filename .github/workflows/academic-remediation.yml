@@ -1,0 +1,14 @@
+name: Academic route and legacy case remediation
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  remediation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python scripts/academic_remediation.py --check
+      - run: python scripts/test_academic_remediation.py
+      - run: python scripts/evidence_query.py --check

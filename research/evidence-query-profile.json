@@ -68,6 +68,22 @@
       "singleton": true,
       "unit": "bounded source access or structure inspection",
       "scope": "Preserve actual page/snapshot scope. No canonical readings, physical joins, linked annotation delivery or human acceptance inferred."
+    },
+    {
+      "name": "edition-route-decisions",
+      "path": "research/academic-remediation.json",
+      "pointer": "/route_decisions",
+      "id_pointer": "/source_record_id",
+      "unit": "source-entry edition target decision",
+      "scope": "Current qualification of preserved historical assertions; no new readings, physical joins or accepted scholarly alternatives."
+    },
+    {
+      "name": "case-dispositions",
+      "path": "research/academic-remediation.json",
+      "pointer": "/case_dispositions",
+      "id_pointer": "/case_id",
+      "unit": "legacy queue admission/disposition",
+      "scope": "Current qualification of preserved historical assertions; no new readings, physical joins or accepted scholarly alternatives."
     }
   ],
   "relations": [
@@ -91,6 +107,20 @@
       "from_pointer": "/case_id",
       "to_pointer": "/case_id",
       "label": "CURRENT_ATTRIBUTION_QUALIFICATION_OF_UNCHANGED_LEGACY_CASE"
+    },
+    {
+      "from": "source-documents",
+      "to": "edition-route-decisions",
+      "from_pointer": "/source_record_id",
+      "to_pointer": "/source_record_id",
+      "label": "CURRENT_TARGET_QUALIFICATION_REJECTED_URLS_NOT_USABLE"
+    },
+    {
+      "from": "legacy-cases",
+      "to": "case-dispositions",
+      "from_pointer": "/case_id",
+      "to_pointer": "/case_id",
+      "label": "CURRENT_DISPOSITION_LEGACY_STRINGS_NOT_ADMITTED_PAIRS"
     }
   ],
   "artifacts": [
@@ -183,13 +213,20 @@
       "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
       "encoding": "json",
       "role": "bounded source access or structure check"
+    },
+    {
+      "path": "research/academic-remediation.json",
+      "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+      "encoding": "json",
+      "role": "current exact-ID route rejection and legacy case disposition"
     }
   ],
   "scholarly_limits": [
     "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
     "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
     "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
-    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
+    "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance.",
+    "For edition routes use edition-route-decisions: rejected_for_target=true overrides a historical source URL. usable_confirmed_target_url=null is unestablished. For legacy cases apply case-dispositions; no legacy alternative pair is admitted."
   ],
   "native_artifacts_snapshot_commit": null,
   "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."

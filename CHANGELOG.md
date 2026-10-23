@@ -1,3 +1,9 @@
+## Academic remediation — 2026-10-22
+
+- Link all 802 source entries to current edition-target decisions; reject HT53a/b's wrong target without inventing a replacement.
+- Expose all fifteen legacy admission/disposition records, including the five cases outside exact pilot joins; preserve the existing membership evidence and unresolved scholarly pairs.
+- Add hostile retrieval tests and automated replay. Close ACD-004 rejection and ACD-002 scoped disposition criteria only; 43 scholarly work items remain open.
+
 ## Master replay synchronization — 2026-10-20
 
 - Refresh 18 frozen implementation source revisions and federation/exercise receipts after the native delivery repair.
