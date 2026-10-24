@@ -1,0 +1,40 @@
+{
+  "format": "linear-a-source-context-caution-v1",
+  "case_id": "LA-MYZF2-SOURCE-CONTEXT-20261024",
+  "source_record_id": "MY Zf 2",
+  "status": "ATTRIBUTED_SCHOLARLY_CONTEXT_NOT_ADJUDICATED",
+  "consulted": "2026-10-24",
+  "source": {
+    "author": "Anna P. Judson",
+    "title": "Processes of script adaptation and creation in Linear B: the evidence of the extra signs",
+    "version": "Cambridge repository manuscript; draft pagination and placeholders retained; final publication pagination not established in this pass",
+    "url": "https://www.repository.cam.ac.uk/bitstreams/4b308876-e334-440c-88a4-1a184601059b/download",
+    "locator": "Manuscript page 12, footnote 41; bibliography manuscript page 19 for Palaima 2003",
+    "access": "Repository PDF text retrieved through web extraction. Direct byte download and page-image retrieval returned HTTP 503.",
+    "pdf_sha256": null,
+    "page_image_inspected": false
+  },
+  "assertions": [
+    {
+      "kind": "bibliographic_identity_context",
+      "value": "The manuscript footnote explicitly associates MY Zf 2 in Younger with Karo1930–1933 object576, plateCLIX lower right, and discusses Palaima 2003.",
+      "authority": "Judson manuscript footnote 41; not a newly certified object join."
+    },
+    {
+      "kind": "author_assessment",
+      "value": "Judson treats the isolated vessel sign as ambiguous in function and relationship to a writing system, rather than a secure Linear A correspondence.",
+      "authority": "Judson manuscript footnote 41; preserve as an attributed position, not a project adjudication."
+    }
+  ],
+  "uninspected_primary_lead": {
+    "citation": "T.G. Palaima (2003), study of the Shaft Grave IV bronze cauldron, in Y. Duhoux (ed.), Briciaka (Cretan Studies 9), pp.188–201.",
+    "basis": "Bibliography in the consulted manuscript; underlying chapter not consulted this pass.",
+    "exact_target_page": null
+  },
+  "disposition": "RETAIN_SIGLA_SOURCE_ENTRY_AND_ATTRIBUTE_SCRIPT_FUNCTION_UNCERTAINTY",
+  "source_transcription_changed": false,
+  "physical_identity_certified": false,
+  "competing_reading_pair_admitted": false,
+  "independent_review_added": false,
+  "boundary": "A named source questions script/function classification. This adds a retrievable scholarly caution, not a correction of the ancient mark, a resolved sign value, a translation or proof that the upstream entry is false. The missing original reference route remains missing."
+}

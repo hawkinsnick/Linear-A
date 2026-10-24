@@ -1,3 +1,9 @@
+## Academic evidence follow-up — 2026-10-24
+
+- Recheck all 43 remaining work items against 57 source observations at current committed revisions; preserve every scholarly closure criterion and report no new scholarly closure.
+- Add a retrievable, attributed MY Zf2 script/function caution from repository manuscript text. Preserve source-access limits, missing PDF hash and unresolved original bibliography; no reading or object identity corrected.
+- Track the master's new Milyan source-row union as a bounded dependence control, with the broader academic item still open.
+
 ## Academic remediation — 2026-10-22
 
 - Link all 802 source entries to current edition-target decisions; reject HT53a/b's wrong target without inventing a replacement.

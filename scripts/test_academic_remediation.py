@@ -63,4 +63,15 @@ class RemediationTests(unittest.TestCase):
             with self.assertRaises(AssertionError):
                 m.build(root)
 
+    def test_scholarly_caution_is_linked_without_admitting_a_reading(self):
+        e=Evidence();d=e.dossier('MY Zf 2','source-documents')
+        cautions=[x['native_record'] for x in d['explicitly_linked_records'] if x['collection']=='source-context-cautions']
+        self.assertEqual(len(cautions),1)
+        q=cautions[0]
+        self.assertIsNone(q['source']['pdf_sha256'])
+        self.assertFalse(q['source']['page_image_inspected'])
+        for field in ('source_transcription_changed','physical_identity_certified','competing_reading_pair_admitted','independent_review_added'):
+            self.assertIs(q[field],False)
+        self.assertEqual(q['source_record_id'],'MY Zf 2')
+
 if __name__=='__main__':unittest.main()

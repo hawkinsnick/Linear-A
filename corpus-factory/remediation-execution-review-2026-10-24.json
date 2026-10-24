@@ -1,0 +1,1182 @@
+{
+  "format": "academic-remediation-execution-review-v1",
+  "date": "2026-10-24",
+  "scope": "Exactly the43 remaining academic work items; 18 corpus repositories plus the master. Egyptian and unrelated projects excluded.",
+  "new_closures_claimed": 0,
+  "remaining_open": 43,
+  "by_work_class": {
+    "SOURCE_COLLATION": 12,
+    "SOURCE_ACCESS": 5,
+    "STUDY_DESIGN_OR_VALIDATION": 15,
+    "SPECIALIST_ADJUDICATION": 8,
+    "KNOWN_DEPENDENCE_CONTROL": 2,
+    "COMPONENT_RIGHTS": 1
+  },
+  "method": "Current Git main snapshots fetched for19 repositories; original observations resolved against current committed evidence. Additional bounded source discovery/consultation and executable Milyan union are reported separately. This is not independent re-collation of all readings or adjudication by43 specialists.",
+  "revisions": [
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+      "previous": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "commit": "064f948408983abc5581a816649a8ca949466674",
+      "previous": "064f948408983abc5581a816649a8ca949466674",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+      "previous": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+      "previous": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+      "changed": true
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+      "previous": "148e335c3f68c790b5850fea75c7fa37835d971c",
+      "changed": true
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+      "previous": "60e36cc3da5cc882ed5f9fad4acda4edb4fc7c7f",
+      "changed": true
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+      "previous": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+      "previous": "314638026db8eac689e10b0a7193ffef0d996a07",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+      "previous": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+      "previous": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+      "previous": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+      "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+      "previous": "0369654e37e3858caf553591d78ebb4ba22bb3cd",
+      "changed": true
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+      "previous": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+      "previous": "23925bd586857b13715a11d7a38aea3a78d8e307",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+      "previous": "b0ee68112c25f89891bd2ba05c5830d816608975",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+      "previous": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+      "previous": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+      "previous": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+      "changed": false
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+      "previous": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+      "changed": false
+    }
+  ],
+  "items": [
+    {
+      "id": "ACD-001",
+      "title": "Linear A alternatives lack established same-locus witness pairs",
+      "scope": "Linear-A",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Trace each alternative to its actual author, publication and locus; otherwise retain non-evidentiary queue status.",
+      "closure_criteria_unchanged": "Every admitted pair has two inspected source assertions, a justified shared locus, explicit dependence and review disposition.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "analysis/legacy-case-attribution-audit.json",
+          "sha256": "b780ce2e513c2e343cadf16656f78252ebac03e0d2bf757770acea62348fe13a",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-003",
+      "title": "Twenty-three Linear A entries have no usable public reference route",
+      "scope": "Linear-A",
+      "work_class": "SOURCE_ACCESS",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "New MY Zf2 scholarly-context pointer obtained through repository text extraction. It is not a recovered original edition route; missing original routes remain23.",
+      "remaining_action": "Work the 23-item locator queue against permitted bibliographic evidence.",
+      "closure_criteria_unchanged": "Each entry has a verified public locator or a documented unresolved/access-limited state; remaining exclusions are reflected in tracing claims.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "analysis/research-readiness.json",
+          "sha256": "bc71f71773d777f627fd1f50503ed5c8b11b477049089c05a42d76becdaff4fa",
+          "locator_type": "json_pointer",
+          "locator": "/reference_routes",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-005",
+      "title": "Historical candidate selection prevents confirmatory interpretation",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Keep historical results exploratory; test a genuinely untouched cohort under a frozen selection and scoring plan.",
+      "closure_criteria_unchanged": "An auditable unexposed evaluation is executed and reported, including failures and the original selected family.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "research/structural-sensitivity-repair-v1.json",
+          "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+          "locator_type": "json_pointer",
+          "locator": "/interpretation",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-006",
+      "title": "Prospective cohort input independence remains unauthenticated",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Recover exact analytical-input bytes and per-label exposure history without silently dropping overlapping labels.",
+      "closure_criteria_unchanged": "All 24 labels have exposure dispositions and a defensible eligible cohort under a prospectively frozen decision; scoring gate is independently checked.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "analysis/prospective-independence-audit-v1.json",
+          "sha256": "042a1e9cb2f85fbca8652c7609bcc01686a9ffa5338aafbbcad431ac3db23132",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-007",
+      "title": "Structural statistic does not discriminate linguistic explanations",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Specify the estimand and compare plausible formula, segmentation and genre explanations using admitted controls.",
+      "closure_criteria_unchanged": "Published competing-model/control results support the actual claimed inference, or the release retains a structural-only interpretation.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "research/structural-sensitivity-repair-v1.json",
+          "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+          "locator_type": "json_pointer",
+          "locator": "/null",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "research/structural-sensitivity-repair-v1.json",
+          "sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+          "locator_type": "json_pointer",
+          "locator": "/interpretation",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-008",
+      "title": "Bootstrap clusters lack authenticated physical independence",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Authenticate object/face joins and model dependence at supported object, archive or scribe levels.",
+      "closure_criteria_unchanged": "Authority-backed cluster mapping and declared sensitivity results are published; heuristic joins stay separate from canonical identity.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/linear_a",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-009",
+      "title": "Source composition and sparse groups limit generalization",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Report source/site/genre composition, empty-group policy and sparse-data sensitivity with uncertainty.",
+      "closure_criteria_unchanged": "Declared inclusion strata and sensitivity results cover the target population; no claim that the existing diagnostic destroyed or independently confirmed the pattern.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/linear_a",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-010",
+      "title": "Linear B known-answer linguistic gold and scoring are missing",
+      "scope": "Linear-B",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Acquire permissible aligned gold; freeze predictions before joining gold and execute scoring.",
+      "closure_criteria_unchanged": "Frozen predictions, admitted gold, leakage checks, per-case scores and error analysis are published.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+          "path": "research/experiment-gates.json",
+          "sha256": "1eac133651340af52498e6604ddfa29231c3437a634a145592b7dded923f5c7b",
+          "locator_type": "json_pointer",
+          "locator": "/experiments/0",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-011",
+      "title": "Linear B degraded and graphical controls remain unavailable",
+      "scope": "Linear-B",
+      "work_class": "SOURCE_ACCESS",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Complete the baseline and source-authorized graphical alignment before executing degradation controls.",
+      "closure_criteria_unchanged": "The frozen degradation experiment is executed on source-bound controls and reports failures separately from textual calibration.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+          "path": "research/experiment-gates.json",
+          "sha256": "1eac133651340af52498e6604ddfa29231c3437a634a145592b7dded923f5c7b",
+          "locator_type": "json_pointer",
+          "locator": "/experiments/1",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+          "path": "docs/CALIBRATION-INPUTS.md",
+          "sha256": "5e87a61c26ebfe18f59431af429915dc8f584abda684cb4b23904e7712b9975d",
+          "locator_type": "text_contains",
+          "locator": "graph",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-012",
+      "title": "Eight rich Cypro-Minoan records have no encoded occurrences",
+      "scope": "Cypro-Minoan",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "All eight missing records reviewed against their native controls: museum descriptions, unresolved classification, count-only evidence and/or missing source geometry do not justify inventing positioned sign occurrences.",
+      "remaining_action": "Inspect permissible source evidence for the eight listed records and encode attributable occurrences or explicit exclusions.",
+      "closure_criteria_unchanged": "Each listed record has source-bound occurrence coverage or an evidenced unavailable/out-of-scope disposition; denominator remains the selected rich layer.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+          "path": "analysis/occurrence-coverage-v1.json",
+          "sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-013",
+      "title": "Cypro-Minoan source strata do not establish witness independence",
+      "scope": "Cypro-Minoan",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Map assertion-to-edition-to-object dependence and select a defined population before frequency analysis.",
+      "closure_criteria_unchanged": "An analysis declares admissible units, dependence groups, coverage and uncertainty; the three-assertion Tiryns check remains bounded.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+          "path": "analysis/occurrence-coverage-v1.json",
+          "sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+          "locator_type": "json_pointer",
+          "locator": "/source_strata",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+          "path": "analysis/occurrence-coverage-v1.json",
+          "sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+          "locator_type": "json_pointer",
+          "locator": "/warning",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-014",
+      "title": "Cretan Hieroglyphic readings cover only six catalogue entries",
+      "scope": "Cretan-hieroglyphs",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Extend source-defined reading coverage by a declared acquisition frame and record missingness.",
+      "closure_criteria_unchanged": "All units included in a transcription claim have source-bound readings; coverage denominators distinguish versions, catalogue entries and objects.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+          "path": "analysis/current-status.json",
+          "sha256": "36889142f6eac7ced9620db7887e6c7c2d897fb1352fc193ddf9b5399907d3b2",
+          "locator_type": "json_pointer",
+          "locator": "/committed_evidence_counts",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-015",
+      "title": "Two Cretan Hieroglyphic material assertions conflict",
+      "scope": "Cretan-hieroglyphs",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain authoritative object/material documentation and review the joins; preserve both historical assertions.",
+      "closure_criteria_unchanged": "Both cases have attributable adjudications or explicit unresolved paired values; no automatic conversion of the conflict into a false-reading count.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+          "path": "research/source-reconciliation.json",
+          "sha256": "b5f68545c018b160f6435ddc04c09de34a99f64f5fa8887e4594bbe38d8e5601",
+          "locator_type": "json_pointer",
+          "locator": "/comparisons",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-016",
+      "title": "Byblos has no verified complete sequence layer",
+      "scope": "Byblos-syllabary",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Acquire permitted complete sequence evidence and reconcile identities, numbering and direction before admission.",
+      "closure_criteria_unchanged": "Each sequence claimed as complete has exact source/locus, coverage and reviewed uncertainty; admission gates pass for the claimed subset.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+          "path": "analysis/current-status.json",
+          "sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/native_evidence_counts",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+          "path": "analysis/current-status.json",
+          "sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/scientific_results",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-017",
+      "title": "Byblos printed ordinal membership contains an unresolved collision",
+      "scope": "Byblos-syllabary",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Resolve the source conflict through source-qualified comparison; keep the candidate erratum counterfactual.",
+      "closure_criteria_unchanged": "Collision and unassigned positions have case-specific source decisions or remain excluded; no silent emendation to the literal register.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+          "path": "analysis/current-status.json",
+          "sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/unresolved_source_conflicts",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-018",
+      "title": "Byblos layout, direction and count conventions remain disputed",
+      "scope": "Byblos-syllabary",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Collate the named loci against allowed images/editions and distinguish ancient marks from editorial counting conventions.",
+      "closure_criteria_unchanged": "Each named conflict has a recorded adjudication or parallel source-specific representation with no pooled incompatible counts.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+          "path": "analysis/current-status.json",
+          "sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/unresolved_source_conflicts",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-019",
+      "title": "Cypriot Greek index is not a classified world Greek corpus",
+      "scope": "Cypriot-syllabic-Greek",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Resolve classifications only where source evidence supports them and define the target population.",
+      "closure_criteria_unchanged": "Analyses use a justified source-interpreted subset and disclose excluded/unknown classes; whole-corpus claims require an authenticated denominator.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+          "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+          "path": "exports/audit.json",
+          "sha256": "9b3152aa0c75af858db2a5a5e731cf874bb634dd0aa46ad72f09ef1432f5bc7a",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-020",
+      "title": "Eteocypriot component attribution is not linguistic gold",
+      "scope": "Eteocypriot",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Review component boundaries and source attribution with a qualified specialist.",
+      "closure_criteria_unchanged": "Component-level decisions retain uncertainty and Greek parallels, supported by actual inspected loci and attributable review.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Eteocypriot",
+          "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+          "path": "exports/audit.json",
+          "sha256": "47263bf0b416c98fcd3a545af814690cf901abfd78b1217016ba9112a7170a08",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-021",
+      "title": "Cypriot and Eteocypriot views share all 25 parsed IDs",
+      "scope": "Cypriot-syllabic-Greek; Eteocypriot",
+      "work_class": "KNOWN_DEPENDENCE_CONTROL",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Existing controlled Cypriot union rechecked:617 view rows form592 source-entry groups. The project tool controls this dataset; broader independence/linguistic claims remain unestablished.",
+      "remaining_action": "Use the existing dependence information in every pooled analysis and document which view supplies each unit.",
+      "closure_criteria_unchanged": "Any pooled dataset has explicit exclusion/weighting of overlapping units; repository namespaces are never treated as evidence of independence.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/source_overlap",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-022",
+      "title": "Eteocretan reading versions remain analytically unadmitted",
+      "scope": "Eteocretan",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain source-qualified reading, identity and authenticity decisions for a defined subset.",
+      "closure_criteria_unchanged": "Admitted rows have recorded source/locus and review; coverage and exclusions distinguish historical editions, secondary references and uncertain candidates.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Eteocretan",
+          "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+          "path": "exports/audit.json",
+          "sha256": "8f0b2b14c9a5ff79139650ff77ec5973b19cdfb561cc7dea3efd4f7cfd5a2e85",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-023",
+      "title": "Lycian/Carian digital entries do not certify physical units",
+      "scope": "Lycian-and-Carian",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Reconcile catalogue units, aggregate/deleted entries and object joins against authorities.",
+      "closure_criteria_unchanged": "Every unit in a physical-population claim has an evidenced object relation and disposition; digital snapshot totals remain separately labelled.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "analysis/current-status.json",
+          "sha256": "f51e90f6532b62a9fbec0d77e751326a239c23208760403ae8a39e2371509ae8",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-024",
+      "title": "Milyan apparatus comparisons lack full independent alternative pairs",
+      "scope": "Milyan-Lycian-B",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Complete source-qualified modern-edition comparison and inspect both sides of any asserted alternative pair.",
+      "closure_criteria_unchanged": "Each admitted pair has two actual loci, dependence status and reviewer decision; documentary apparatus rows are not counted as independent witnesses.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "analysis/attribution-review-audit.json",
+          "sha256": "deeb91b1d0e7e06ce65e77a22b674de6c65c9c58423080944e5d1b463caec7b4",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-025",
+      "title": "Milyan source cache is identical in two repositories",
+      "scope": "Milyan-Lycian-B; Lycian-and-Carian",
+      "work_class": "KNOWN_DEPENDENCE_CONTROL",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "New controlled identical-cache union executed:228 incoming view rows form114 source-text-row groups with both source pointers. Broader physical identity, reading and witness claims remain unestablished.",
+      "remaining_action": "Carry the shared source-family key into extraction, weighting and any comparison.",
+      "closure_criteria_unchanged": "Pooled analyses count each underlying source unit once or explicitly model repeated views; provenance preserves both access paths.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/source_overlap",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-026",
+      "title": "Phrygian record-specific edition lineage is missing for 159 groups",
+      "scope": "Phrygian",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Inspected pinned CoNLL-U metadata and upstream README. Corpus-level bibliography and TM sentence IDs do not supply the159 missing record-specific edition joins.",
+      "remaining_action": "Join every claimed record to the exact edition and locus and perform bounded source comparison.",
+      "closure_criteria_unchanged": "All admitted records have exact joins and review dispositions; the other 159 are individually resolved or explicitly excluded.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+          "path": "analysis/explicit-source-lineage-audit.json",
+          "sha256": "83a0c5201f741cbb95d9f45ee59eabad10c2e6b5a3b46daebe32c6d6ad54d8d7",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-027",
+      "title": "Selected Phrygian comparisons have narrower support than object readings",
+      "scope": "Phrygian",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Inspect exact edition text and restorations for each case, separately from general formula parallels.",
+      "closure_criteria_unchanged": "Case receipts identify text, restoration, line-fold transforms, access and uncertainty; no upgrade from generic parallel to object reading.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+          "path": "analysis/explicit-source-lineage-audit.json",
+          "sha256": "83a0c5201f741cbb95d9f45ee59eabad10c2e6b5a3b46daebe32c6d6ad54d8d7",
+          "locator_type": "json_pointer",
+          "locator": "/records",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-028",
+      "title": "Anatolian identity/bibliography spine lacks a reading and object concordance",
+      "scope": "Anatolian-Hieroglyphic",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Reconcile edition, text and monument units through lawful CHLI/source access; expand beyond metadata pilots.",
+      "closure_criteria_unchanged": "Claims bind exact text/object units, sources and uncertainty; missing metadata and rights-limited readings remain declared.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "commit": "064f948408983abc5581a816649a8ca949466674",
+          "path": "analysis/current-status.json",
+          "sha256": "710e36fe6e61131acd6c09ff71030e028efb0aba7de04411ede25eeb3e822322",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "commit": "064f948408983abc5581a816649a8ca949466674",
+          "path": "research/residual-blocker-ledger.json",
+          "sha256": "16f986dc79d8ddf0350d5ae37b3cd265923146e1ec35df81f9cfaf40eb8a2dc0",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-029",
+      "title": "Archanes face-level occurrence and object mapping is incomplete",
+      "scope": "Archanes-Script",
+      "work_class": "SOURCE_ACCESS",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain permissible object/figure evidence and reconcile remaining face identities.",
+      "closure_criteria_unchanged": "Every face claimed as covered has source-bound geometry/occurrence and object relations or an explicit exclusion.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+          "path": "research/residual-blocker-ledger.json",
+          "sha256": "00618cbcaaf1450637105f97117084f18a2d72376df23098c1fcb92a19e5908b",
+          "locator_type": "json_pointer",
+          "locator": "/blockers/0",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+          "path": "research/residual-blocker-ledger.json",
+          "sha256": "00618cbcaaf1450637105f97117084f18a2d72376df23098c1fcb92a19e5908b",
+          "locator_type": "json_pointer",
+          "locator": "/blockers/1",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-030",
+      "title": "Archanes script membership and sign interpretation need adjudication",
+      "scope": "Archanes-Script",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Submit actual source-backed cases for attributable specialist judgment.",
+      "closure_criteria_unchanged": "Recorded case-specific decisions identify reviewer expertise, inspected sources, uncertainty and conflicts; engineering parity grants no scholarly acceptance.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+          "path": "research/residual-blocker-ledger.json",
+          "sha256": "00618cbcaaf1450637105f97117084f18a2d72376df23098c1fcb92a19e5908b",
+          "locator_type": "json_pointer",
+          "locator": "/blockers/2",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-031",
+      "title": "Aegean anomalous geometry and segmentation lack authoritative access",
+      "scope": "Aegean-anomalous",
+      "work_class": "SOURCE_ACCESS",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain source-authorized geometry and compare count/segmentation conventions before scientific review.",
+      "closure_criteria_unchanged": "Each asserted sign boundary is source-bound and reviewable; incompatible historical counts stay source-specific until adjudicated.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Aegean-anomalous",
+          "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+          "path": "research/residual-blocker-ledger.json",
+          "sha256": "10ca7b656e4adc8932ae8bf8c0eece839fb72dae214c77da573261e309b165d8",
+          "locator_type": "json_pointer",
+          "locator": "/blockers",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-032",
+      "title": "Lydian row-level source admission remains unresolved",
+      "scope": "Lydian",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Resolve exact edition/locus, object and review prerequisites for each admitted record.",
+      "closure_criteria_unchanged": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Lydian",
+          "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+          "path": "analysis/record-admission.json",
+          "sha256": "fe3d177b0ed7f1e9fd808be3687edc73b704288d1f58064604db496b7f245fb9",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-033",
+      "title": "Sidetic row-level source admission remains unresolved",
+      "scope": "Sidetic",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Resolve exact edition/locus, object and review prerequisites for each admitted record.",
+      "closure_criteria_unchanged": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+          "path": "analysis/record-admission.json",
+          "sha256": "ddb3b9a08776455ea7722d2e55eb030790329a6bdefcf008ceeb78b39f3a7775",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-034",
+      "title": "Pisidian row-level source admission remains unresolved",
+      "scope": "Pisidian",
+      "work_class": "SOURCE_COLLATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Resolve exact edition/locus, object and review prerequisites for each admitted record.",
+      "closure_criteria_unchanged": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Pisidian",
+          "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+          "path": "analysis/record-admission.json",
+          "sha256": "c8da13839e75dc2de71437f72e31d127db7635020851bf4f523d5b15f502f1d8",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-035",
+      "title": "Phaistos ordinal and fine-detail certification is incomplete",
+      "scope": "Phaistos-Disc",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain source-adequate ordinal, detail and mark-coverage assessments under native acceptance rules.",
+      "closure_criteria_unchanged": "All required slots/groups have attributable supported assessments, including uncertainty; acceptance validator evaluates actual evidence.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+          "path": "analysis/acceptance-2.0.json",
+          "sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/occurrence_audit_counts",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+          "path": "analysis/acceptance-2.0.json",
+          "sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/review_evidence",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-036",
+      "title": "Phaistos final release lacks accepted external review",
+      "scope": "Phaistos-Disc",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Receive and verify an independent human review, expertise, source scope and case judgments.",
+      "closure_criteria_unchanged": "A verified receipt and complete native acceptance conditions permit the gate; submitting a form alone is insufficient.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+          "path": "analysis/acceptance-2.0.json",
+          "sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/review_evidence",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+          "path": "analysis/acceptance-2.0.json",
+          "sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/acceptance_requirements",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-037",
+      "title": "AI evaluation has no unexposed representative academic task set",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Have an external coordinator select source-qualified unexposed tasks, define the sampling frame and freeze scoring before collection.",
+      "closure_criteria_unchanged": "The evaluation reports exposure, exclusions, task/source hashes, uncertainty and per-case outputs against a predeclared target population.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-21-followup/evaluation-v2.json",
+          "sha256": "9e2763556f1243b7fdfd4da59e747325c688fecbdb2916b464b2aa9f48081461",
+          "locator_type": "json_pointer",
+          "locator": "/purpose",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+          "sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+          "locator_type": "json_pointer",
+          "locator": "/case_selection",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-038",
+      "title": "AI pilot has no independent source-qualified grading",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain attributable source-qualified grading, blinded to workflow where feasible, and preserve disagreements.",
+      "closure_criteria_unchanged": "Completed grades identify expertise, source access and conflicts, with adjudication/uncertainty and no substitution of packet ID matching for bibliographic truth.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-21/ai-semantic-review.json",
+          "sha256": "6e3afa52f7cb4d49fadecb29be092c2231cff4298a7c42a0a963ac46f1771355",
+          "locator_type": "json_pointer",
+          "locator": "/independent_expert_review",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+          "sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+          "locator_type": "json_pointer",
+          "locator": "/reviews_received",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-039",
+      "title": "AI pilot lacks exact build identification and platform diversity",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Record provider/model/build availability, prompts, tools and generation settings; run the declared comparator conditions.",
+      "closure_criteria_unchanged": "New results identify available versions and limitations, separate platforms/families and preserve raw outputs; unavailable historical build data remain unknown.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "RESEARCH-RESULTS.md",
+          "sha256": "a57bd737d19b6c52d3ab3219e670fc73e5497ab5c6dd623f2ecf93ee267d67a3",
+          "locator_type": "text_contains",
+          "locator": "Both response sessions",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-040",
+      "title": "Researcher workflow benefit and effort have not been measured",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Set sample size and uncertainty analysis before collecting counterbalanced equivalent-evidence human workflow outcomes.",
+      "closure_criteria_unchanged": "Actual participant outcomes, timing, failures, corrections and uncertainty are reported against the declared baseline.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-21/ai-scores.json",
+          "sha256": "eff9e34969aae3a0b397070ac0297aa41b2eba3ee354cfe365b0e70ad49b1d63",
+          "locator_type": "json_pointer",
+          "locator": "/direct_extraction_baseline",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+          "sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+          "locator_type": "json_pointer",
+          "locator": "/workflow_comparison",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-041",
+      "title": "Dependence scan does not resolve semantic or partial source overlap",
+      "scope": "All 18 members",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Add source-family, edition, locus and uncertain object relations for the exact analyses being proposed.",
+      "closure_criteria_unchanged": "Each analyzed unit has an explicit dependence disposition; unknown relations remain unknown and sensitivity analyses handle them.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "OPEN-ITEMS.md",
+          "sha256": "9a56012464c711b02f0e4bfefe06fe5845b6c3ae6f4080aea8ac016a433e7760",
+          "locator_type": "text_contains",
+          "locator": "It does not find every partial",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-042",
+      "title": "Component rights constrain a unified redistribution package",
+      "scope": "All 18 members",
+      "work_class": "COMPONENT_RIGHTS",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Carry the existing per-component terms and permissions into any concrete release manifest.",
+      "closure_criteria_unchanged": "Every redistributed component has attributable applicable terms/permission and compliant scope; excluded protected content is not reconstructed through derivatives.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "corpus-factory/ACADEMIC-AUDIT-2026-10-20.md",
+          "sha256": "7f52bfe8d1b12f7878e6b0218d3b6800c1513f11bd6d2882d6f7a46c23f21770",
+          "locator_type": "text_contains",
+          "locator": "## 11.",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-043",
+      "title": "Combined physical population and comparable sign units remain undefined",
+      "scope": "All 18 members",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Define a study-specific population, physical/object relations, compatible units and inclusion/exclusion frame.",
+      "closure_criteria_unchanged": "Any reported aggregate has a defensible denominator and unit crosswalk with dependence controls; otherwise aggregate fields remain null.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+          "path": "corpus-factory/coverage-denominators.json",
+          "sha256": "910ef524add8ecd0535eda61bd02e9fcde2a75d62aca839bfd401d2c34296e90",
+          "locator_type": "json_pointer",
+          "locator": "/aggregate_physical_population",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "RESEARCH-RESULTS.md",
+          "sha256": "a57bd737d19b6c52d3ab3219e670fc73e5497ab5c6dd623f2ecf93ee267d67a3",
+          "locator_type": "text_contains",
+          "locator": "These fields do not share",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-049",
+      "title": "Five Cypro-Minoan comparison sides still lack direct primary pages",
+      "scope": "Cypro-Minoan",
+      "work_class": "SOURCE_ACCESS",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Obtain lawful access to Olivier 2007 printed pp.76,77,496 and compare each exact locus with the preserved Valério assertion.",
+      "closure_criteria_unchanged": "Each of the five primary sides has an actual inspected-source receipt and comparison outcome; inaccessible pages remain unresolved, and doubt/lacuna are preserved.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-22/source-batch.json",
+          "sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/cases",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-22/source-batch.json",
+          "sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/inaccessible_source",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "ACD-050",
+      "title": "Cypro-Minoan internal 09/10 source discrepancy remains unresolved",
+      "scope": "Cypro-Minoan",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "status": "OPEN",
+      "current_action_or_evidence_result": "Original scholarly closure criteria remain unmet; no new acceptance is asserted.",
+      "remaining_action": "Seek an authorial correction or source-qualified sign-level assessment, distinguishing publication inconsistency from a project transcription error.",
+      "closure_criteria_unchanged": "An attributable decision resolves the discrepancy or both source-specific values remain explicitly unresolved and excluded from single-label gold.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-22/source-batch.json",
+          "sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/cases/5",
+          "recorded_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "6627d176732e32574c90d2d222fbb590b6018461",
+          "path": "research/2026-10-22/source-batch.json",
+          "sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/totals",
+          "recorded_observation_unchanged": true
+        }
+      ]
+    }
+  ],
+  "source_access_results": [
+    {
+      "source": "Cambridge Judson manuscript",
+      "text_retrieval": "Repository PDF extraction yielded manuscript page12 footnote41 and bibliography page19",
+      "direct_pdf_and_page_image": "HTTP503",
+      "source_pdf_sha256": null,
+      "new_reading_admitted": false
+    },
+    {
+      "source": "Library Byblos PDF",
+      "read_scope": "First two front-matter pages inspected as text; no new Byblos sign collation claimed",
+      "file": "The_Byblos_Script.pdf"
+    },
+    {
+      "source": "Olivier2007 primary pages",
+      "outcome": "No directly consulted primary pages acquired during this pass; five comparison sides remain indirect."
+    }
+  ],
+  "boundary": "Work classes describe the next evidence requirement, not a claim that every item is permanently blocked or that risk mitigations repair the missing scholarship. No original closure rule is weakened and no scholarly acceptance is inferred from software tests."
+}

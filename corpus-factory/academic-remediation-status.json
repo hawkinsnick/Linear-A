@@ -131,7 +131,8 @@
     {
       "id": "ACD-021",
       "original_status": "OPEN",
-      "current_status": "OPEN"
+      "current_status": "MITIGATED_OPEN",
+      "resolution": "Existing controlled Cypriot union rechecked:617 view rows form592 source-entry groups. The project tool controls this dataset; broader independence/linguistic claims remain unestablished."
     },
     {
       "id": "ACD-022",
@@ -151,7 +152,8 @@
     {
       "id": "ACD-025",
       "original_status": "OPEN",
-      "current_status": "OPEN"
+      "current_status": "MITIGATED_OPEN",
+      "resolution": "New controlled identical-cache union executed:228 incoming view rows form114 source-text-row groups with both source pointers. Broader physical identity, reading and witness claims remain unestablished."
     },
     {
       "id": "ACD-026",
@@ -279,5 +281,8 @@
       "current_status": "OPEN"
     }
   ],
-  "boundary": "Closure is scoped to original rejection/disposition criteria, not complete bibliography, corrected replacement locators, accepted readings or expert review. All other evidence gaps and methodological claims retain their status."
+  "boundary": "Closure is scoped to original rejection/disposition criteria, not complete bibliography, corrected replacement locators, accepted readings or expert review. All other evidence gaps and methodological claims retain their status.",
+  "last_execution_review": "corpus-factory/remediation-execution-review-2026-10-24.json",
+  "last_review_date": "2026-10-24",
+  "new_closures_in_execution_review": 0
 }

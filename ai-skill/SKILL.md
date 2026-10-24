@@ -366,3 +366,7 @@ must not be silently combined with a changed implementation.
 For an edition locator, retrieve `edition-route-decisions` by exact source ID and inspect the linked decision in `source-documents` dossiers. A historical URL remains a source assertion; `rejected_for_target=true` prohibits using it as that entry's target. Only `usable_confirmed_target_url` reports a target supported by the saved heading inspection; null means unestablished. HT 53a/b's original route is rejected; no replacement has been verified.
 
 For `legacy-cases`, retrieve the linked `case-dispositions` record. U010 supplies component pointers without a physical join or concatenated reading. U012/U013/U014 remain gaps in the pinned snapshot. U015 is an interpretation dossier, not an inscription. All fifteen legacy alternative pairs are unadmitted queue strings. Read `docs/ACADEMIC-REMEDIATION.md` for runnable examples and remaining evidence requirements.
+
+## Preserve record-level scholarly cautions
+
+For MY Zf 2, retrieve its linked `source-context-cautions` record. Attribute Judson's script/function uncertainty rather than treating database inclusion as a certified writing-system assignment. The consultation was text-only; the PDF checksum, page-image inspection and final publication pagination are unestablished. Neither the underlying mark nor the original source entry was corrected. Do not promote a bibliographic lead or scholarly caution to an authenticated reading pair or object join.

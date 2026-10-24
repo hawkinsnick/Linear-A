@@ -84,6 +84,15 @@
       "id_pointer": "/case_id",
       "unit": "legacy queue admission/disposition",
       "scope": "Current qualification of preserved historical assertions; no new readings, physical joins or accepted scholarly alternatives."
+    },
+    {
+      "name": "source-context-cautions",
+      "path": "research/myzf2-source-context-2026-10-24.json",
+      "pointer": "",
+      "id_pointer": "/case_id",
+      "singleton": true,
+      "unit": "attributed source-context caution",
+      "scope": "Text-only scholarly context; no source PDF hash, page-image inspection, reading adjudication or physical identity certification."
     }
   ],
   "relations": [
@@ -121,6 +130,13 @@
       "from_pointer": "/case_id",
       "to_pointer": "/case_id",
       "label": "CURRENT_DISPOSITION_LEGACY_STRINGS_NOT_ADMITTED_PAIRS"
+    },
+    {
+      "from": "source-documents",
+      "to": "source-context-cautions",
+      "from_pointer": "/source_record_id",
+      "to_pointer": "/source_record_id",
+      "label": "ATTRIBUTED_SCHOLARLY_QUALIFICATION_NOT_PROJECT_ADJUDICATION"
     }
   ],
   "artifacts": [
@@ -219,6 +235,12 @@
       "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
       "encoding": "json",
       "role": "current exact-ID route rejection and legacy case disposition"
+    },
+    {
+      "path": "research/myzf2-source-context-2026-10-24.json",
+      "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+      "encoding": "json",
+      "role": "attributed record-level scholarly caution; text-only source consultation"
     }
   ],
   "scholarly_limits": [

@@ -191,6 +191,23 @@
         "role": "current exact-ID route rejection and legacy case disposition",
         "encoding": "json"
       }
+    },
+    {
+      "name": "source-context-cautions",
+      "native_unit": "attributed source-context caution",
+      "record_count": 1,
+      "scope": "Text-only scholarly context; no source PDF hash, page-image inspection, reading adjudication or physical identity certification.",
+      "example_ids": [
+        "LA-MYZF2-SOURCE-CONTEXT-20261024"
+      ],
+      "provenance": {
+        "path": "research/myzf2-source-context-2026-10-24.json",
+        "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "attributed record-level scholarly caution; text-only source consultation",
+        "encoding": "json"
+      }
     }
   ],
   "scholarly_limits": [
@@ -238,8 +255,8 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
-      "bytes": 47156
+      "sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
+      "bytes": 47701
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
@@ -278,8 +295,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "c055e74cf08817856ae90c661b7530d89b31dabf4c3598a0a99de55b3a853ef8",
-      "bytes": 10131
+      "sha256": "fd517c88610c3daf3872f7a7f6aba116ea1b24db6b2238cbb210af7293a47e19",
+      "bytes": 11045
     },
     {
       "path": "research/legacy-case-attribution.json",
@@ -290,6 +307,11 @@
       "path": "research/legacy-case-source-searches.json",
       "sha256": "e08e4e61fa1d152abbfef7ee16f5ea3e6b4bc1b44fabd87ced29fba54c8f18bf",
       "bytes": 5653
+    },
+    {
+      "path": "research/myzf2-source-context-2026-10-24.json",
+      "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+      "bytes": 2453
     },
     {
       "path": "research/pkzb21-page-access-2026-10-18.json",
