@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "db46818b1491830091e63d9fa566b86400dc0afc",
-  "generated_at_utc": "2026-10-23T00:42:41+00:00",
+  "source_commit": "d7f131c031fe87b6b6b4a6d7aa2eee52a06540f4",
+  "generated_at_utc": "2026-10-24T13:29:52+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -298,14 +298,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "c055e74cf08817856ae90c661b7530d89b31dabf4c3598a0a99de55b3a853ef8",
-      "bytes": 10131
+      "sha256": "fd517c88610c3daf3872f7a7f6aba116ea1b24db6b2238cbb210af7293a47e19",
+      "bytes": 11045
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "67f7bd19e553a2f9fbdd0b0e419c8991c0c749a01322e98d7f2b2565e82975a4",
-      "bytes": 12900
+      "sha256": "fc08952ac709ed9d909e660c30e61a8dafc00cbe445cbfffa541f70f512b292f",
+      "bytes": 13976
     },
     {
       "role": "native_evidence_query",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
-      "bytes": 47156
+      "sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
+      "bytes": 47701
     },
     {
       "role": "cross_corpus_dependencies",
@@ -550,8 +550,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "defa1fd7b336881c68e5bbe16fef9e85e556137e0a1f6a2f5700c6bde5c479d1",
-      "bytes": 22020
+      "sha256": "7b203557d2202659110e0f75e250e91708cf6242a840d5b8b9357b07fdff7a14",
+      "bytes": 22286
     },
     {
       "role": "current_summary_builder",
@@ -1000,8 +1000,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "d482c380e5ddc5cd74465e6adf636e223ffd751bd821f519127df79d0d38fdc9",
-      "bytes": 12925
+      "sha256": "3d394a7896b15f8a60475c218c183645ea6f3a60c2a07e1ed994eb85bd667084",
+      "bytes": 13837
     },
     {
       "role": "northwestern_program",
@@ -1138,13 +1138,13 @@
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "1a4861cf2ccbbfa5c1661806dbaea450e11da23bf6548ff7516ec56fea9a34a6",
+      "sha256": "3d3ca0aca2525bda2d21b75291940d4c5169f2b102274f27d9b929f3d07f8fa9",
       "bytes": 4089
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "8494685e5a1e6fd423868dc7fb4042550c685b77b9fd2fbabb50dd4dcb7d2f54",
+      "sha256": "6ee8c321ccf281e0c948f66707ee34f8a5e054ff3084e1ac63ab6a55cd0d10bb",
       "bytes": 1019
     },
     {
@@ -1186,25 +1186,25 @@
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/teaching-example.json",
-      "sha256": "d4d3f6a5820d048d4d3db7ea6a400e4b8c78ab560bdcc96d96ced77d5cab8d8d",
+      "sha256": "acd671485dec9c24a8d5f212c1c92ebe450c681c7adca2fb3c21025d2c640173",
       "bytes": 1522
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-packet.json",
-      "sha256": "993047d73768f6eccc1f86009ba7b0605312b2aa8fb0f72f1b91b2181c2fb55b",
+      "sha256": "ea6e3112b7aa2fd15a35468d276ed17cc585590798a05321f1c65c35d41a4022",
       "bytes": 4485
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-response.json",
-      "sha256": "5d10262afe6e5815643e1e3c6eb991a8258f6f36f25267d475db107c7f98f605",
+      "sha256": "589e20594a3af65e7ce3ef55c53ccaa69c068637ed39d2a9acd781c5449a0f6f",
       "bytes": 1015
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "analysis/review-walkthrough-audit.json",
-      "sha256": "eee039eb657c7bed91f1d504819fdbd5f08e8593908e002d58751dfe6cc676c7",
+      "sha256": "5ab27547a2e1f1101d4d6fffd4cfc43f8412d9656ad5755c2e54e698e67744ff",
       "bytes": 709
     },
     {
@@ -1282,8 +1282,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
-      "bytes": 47156
+      "sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
+      "bytes": 47701
     },
     {
       "role": "skill_function_validation",
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "c5e6bb05d4487364f33b5ff5f7c36db6df146910ac88e38c447fcc21ac0e9d8c",
-      "bytes": 17942
+      "sha256": "0b8ca1a0690d29ac2a662f7659576ac241c016e8ef502a65545af0beb71e0201",
+      "bytes": 18211
     },
     {
       "role": "skill_validator_code",
@@ -1426,8 +1426,8 @@
     {
       "role": "academic_remediation",
       "path": "scripts/test_academic_remediation.py",
-      "sha256": "44af8104e315a146304e5d7fde158964d565832505d263eb7a53b1cb956dcf5b",
-      "bytes": 3423
+      "sha256": "4dbab518fd07c979bc8d02573384992d6b4c89fc8fb4073a660960c6966d89c7",
+      "bytes": 4112
     },
     {
       "role": "academic_remediation",
@@ -1438,8 +1438,32 @@
     {
       "role": "academic_remediation",
       "path": "corpus-factory/academic-remediation-status.json",
-      "sha256": "b9ee462f864be9508bee28838ab39199085742ac613d8771908983403850d413",
-      "bytes": 7231
+      "sha256": "150f0b479324deab2431bc37a66685ed61eae968f23390799c4356079edb80f0",
+      "bytes": 7855
+    },
+    {
+      "role": "academic_remediation_followup",
+      "path": "research/myzf2-source-context-2026-10-24.json",
+      "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+      "bytes": 2453
+    },
+    {
+      "role": "academic_remediation_followup",
+      "path": "docs/MY-ZF2-SOURCE-CONTEXT.md",
+      "sha256": "fcc3c5ddcb2f29157652901732466e6fefa79b5cccbe47c2ed68af6aed8efab1",
+      "bytes": 1293
+    },
+    {
+      "role": "academic_remediation_followup",
+      "path": "corpus-factory/REMEDIATION-EXECUTION-REVIEW-2026-10-24.md",
+      "sha256": "f0a42ae2857f90f47ba392384f28aaf97e0901ef477991bc5b4198937d84de35",
+      "bytes": 10917
+    },
+    {
+      "role": "academic_remediation_followup",
+      "path": "corpus-factory/remediation-execution-review-2026-10-24.json",
+      "sha256": "9476791937312b5f501dd81879fd5e99874d33102168960e34c6dcf11290a364",
+      "bytes": 59548
     }
   ]
 }
