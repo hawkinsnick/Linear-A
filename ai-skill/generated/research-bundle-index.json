@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "e33b8561e6ec5b66a1c3d32f8ed4110def7f4e26",
-  "generated_at_utc": "2026-10-24T13:30:27+00:00",
+  "source_commit": "4dda687f43779edf3e769edd7a6b28e6fb59964b",
+  "generated_at_utc": "2026-10-25T19:06:40+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -298,14 +298,14 @@
     {
       "role": "native_evidence_profile",
       "path": "research/evidence-query-profile.json",
-      "sha256": "fd517c88610c3daf3872f7a7f6aba116ea1b24db6b2238cbb210af7293a47e19",
-      "bytes": 11045
+      "sha256": "5b6e7d8f634d39b98dce003ae928e5a7e96be2d47f8396416533ee16839d3166",
+      "bytes": 11826
     },
     {
       "role": "native_evidence_coverage",
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "fc08952ac709ed9d909e660c30e61a8dafc00cbe445cbfffa541f70f512b292f",
-      "bytes": 13976
+      "sha256": "4e083c9b860bb8068cfcd3620d4ab61484ca6c5eee2e7a9749ee40ee0627a57d",
+      "bytes": 14985
     },
     {
       "role": "native_evidence_query",
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
-      "bytes": 47701
+      "sha256": "4d2db7ac34099e25c0d0d0a54735b8aca4484f7d9c877d2cbf56edc369933297",
+      "bytes": 48485
     },
     {
       "role": "cross_corpus_dependencies",
@@ -550,8 +550,8 @@
     {
       "role": "generated_current_summary",
       "path": "README.md",
-      "sha256": "7b203557d2202659110e0f75e250e91708cf6242a840d5b8b9357b07fdff7a14",
-      "bytes": 22286
+      "sha256": "335351123e78966fd9974e619f7793c1dd067b2fe311041fe263ee54e0d9b91d",
+      "bytes": 22427
     },
     {
       "role": "current_summary_builder",
@@ -1000,8 +1000,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "3d394a7896b15f8a60475c218c183645ea6f3a60c2a07e1ed994eb85bd667084",
-      "bytes": 13837
+      "sha256": "fa059469629a69ced2f74305912cbfe7b27668fbda3c46acdd8232042ed3dd30",
+      "bytes": 14692
     },
     {
       "role": "northwestern_program",
@@ -1138,13 +1138,13 @@
     {
       "role": "bounded_source_study",
       "path": "review/source-study-packet.json",
-      "sha256": "3d3ca0aca2525bda2d21b75291940d4c5169f2b102274f27d9b929f3d07f8fa9",
+      "sha256": "f3e97ec0342cb4e7ba429970764362b63a19a84de61b96b70a2210dfd775d632",
       "bytes": 4089
     },
     {
       "role": "bounded_source_study",
       "path": "review/source-study-response.json",
-      "sha256": "6ee8c321ccf281e0c948f66707ee34f8a5e054ff3084e1ac63ab6a55cd0d10bb",
+      "sha256": "a61e8940ed44b32fc5253b15209fcb52448b3ab6d8c974a2c54e6c63ff5f96cf",
       "bytes": 1019
     },
     {
@@ -1186,25 +1186,25 @@
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/teaching-example.json",
-      "sha256": "acd671485dec9c24a8d5f212c1c92ebe450c681c7adca2fb3c21025d2c640173",
+      "sha256": "1c6bad03f586209c5079129e9a637a957f66a7b2dd85b7f1b956abf9f9de3898",
       "bytes": 1522
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-packet.json",
-      "sha256": "ea6e3112b7aa2fd15a35468d276ed17cc585590798a05321f1c65c35d41a4022",
+      "sha256": "2cd831e83e5b458ea112c63d068b59ece136b53cb4100f20fa3bbf28f7525c32",
       "bytes": 4485
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "review/followup-response.json",
-      "sha256": "589e20594a3af65e7ce3ef55c53ccaa69c068637ed39d2a9acd781c5449a0f6f",
+      "sha256": "30f504c7036e9d9d0c8a7580419451bad79252550dc44dc704cff50ac6913680",
       "bytes": 1015
     },
     {
       "role": "source_followup_and_review_teaching",
       "path": "analysis/review-walkthrough-audit.json",
-      "sha256": "5ab27547a2e1f1101d4d6fffd4cfc43f8412d9656ad5755c2e54e698e67744ff",
+      "sha256": "fad493a975dea806e4704968c4cc4ccc1774edf6156d29d0189dfe530ff5f6ea",
       "bytes": 709
     },
     {
@@ -1282,8 +1282,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
-      "bytes": 47701
+      "sha256": "4d2db7ac34099e25c0d0d0a54735b8aca4484f7d9c877d2cbf56edc369933297",
+      "bytes": 48485
     },
     {
       "role": "skill_function_validation",
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "0b8ca1a0690d29ac2a662f7659576ac241c016e8ef502a65545af0beb71e0201",
-      "bytes": 18211
+      "sha256": "8aa4b5be95ffdbc7f8df121e5338ab5a9755620f6735e7ef680131f9e46d42e7",
+      "bytes": 18488
     },
     {
       "role": "skill_validator_code",
@@ -1438,8 +1438,8 @@
     {
       "role": "academic_remediation",
       "path": "corpus-factory/academic-remediation-status.json",
-      "sha256": "150f0b479324deab2431bc37a66685ed61eae968f23390799c4356079edb80f0",
-      "bytes": 7855
+      "sha256": "a9288eb65dff021fb6f51e0f0e7afea6afe0003eb4563db9fa59a7ae109e5081",
+      "bytes": 13068
     },
     {
       "role": "academic_remediation_followup",
@@ -1456,14 +1456,44 @@
     {
       "role": "academic_remediation_followup",
       "path": "corpus-factory/REMEDIATION-EXECUTION-REVIEW-2026-10-24.md",
-      "sha256": "f0a42ae2857f90f47ba392384f28aaf97e0901ef477991bc5b4198937d84de35",
-      "bytes": 10917
+      "sha256": "5068a37b0316078880f2f899e3f3a94acbb4fe088cb28afdde44aa5351c63605",
+      "bytes": 11117
     },
     {
       "role": "academic_remediation_followup",
       "path": "corpus-factory/remediation-execution-review-2026-10-24.json",
       "sha256": "9476791937312b5f501dd81879fd5e99874d33102168960e34c6dcf11290a364",
       "bytes": 59548
+    },
+    {
+      "role": "academic_closure_control",
+      "path": "research/closure-controls.json",
+      "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+      "bytes": 12184
+    },
+    {
+      "role": "academic_closure_control",
+      "path": "scripts/closure_controls.py",
+      "sha256": "b795302a2428840da1a2adf3b6437253d9219119ab823d7c59ba8d69a3990ce3",
+      "bytes": 5568
+    },
+    {
+      "role": "academic_closure_control",
+      "path": "scripts/test_closure_controls.py",
+      "sha256": "cdde99033ecb2d12dd0de172d119664a7755b36b91997b693dab95b19e57ab7c",
+      "bytes": 3868
+    },
+    {
+      "role": "academic_closure_control",
+      "path": "docs/CLOSURE-CONTROLS.md",
+      "sha256": "b07ac0acaec6c141929193da1517d2d644c5c9186455a2f58f312416265d07a8",
+      "bytes": 1156
+    },
+    {
+      "role": "scoped_closure_ledger",
+      "path": "corpus-factory/SCOPED-CLOSURES-2026-10-25.md",
+      "sha256": "5360d1fd89260e037500fe7940304ad048918553a48f1cf057a8d6bc8107882a",
+      "bytes": 2985
     }
   ]
 }
