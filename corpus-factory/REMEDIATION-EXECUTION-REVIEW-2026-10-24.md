@@ -70,3 +70,5 @@ The [machine-readable review](remediation-execution-review-2026-10-24.json) supp
 - Source-heavy gaps: the eight CM missing-occurrence cases remain missing; museum counts and proposed classifications cannot be converted into invented positions/sign labels. The five Olivier comparison sides remain indirect. Phrygian CoNLL-U sentence IDs do not provide the 159 missing edition/locus joins.
 
 Independent reviews, human workflow measurements, exact unavailable model builds and unexposed historical inputs cannot be retroactively manufactured. Those requirements remain in force. Existing null denominators, literal source conflicts and blocked scientific gates remain valid safeguards.
+
+For subsequent scoped control transitions and retained scientific follow-ups, read [25 October closures](SCOPED-CLOSURES-2026-10-25.md). This execution review preserves its historical 43-item count.

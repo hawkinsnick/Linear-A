@@ -370,3 +370,9 @@ For `legacy-cases`, retrieve the linked `case-dispositions` record. U010 supplie
 ## Preserve record-level scholarly cautions
 
 For MY Zf 2, retrieve its linked `source-context-cautions` record. Attribute Judson's script/function uncertainty rather than treating database inclusion as a certified writing-system assignment. The consultation was text-only; the PDF checksum, page-image inspection and final publication pagination are unestablished. Neither the underlying mark nor the original source entry was corrected. Do not promote a bibliographic lead or scholarly caution to an authenticated reading pair or object join.
+
+## Apply scoped closure controls
+
+Read `docs/CLOSURE-CONTROLS.md` and retrieve linked `closure-controls` before using a missing locator, conflicting material or printed type membership in a claim. Respect explicit nulls and exclusions. A completed control does not recover a source, adjudicate a conflict, establish sign identity or grant expert acceptance. Raw source literals remain available with their original qualifications.
+
+Read `corpus-factory/SCOPED-CLOSURES-2026-10-25.md` and current status for closure accounting. A completed implementation/disposition control and its still-open scientific follow-up must be reported separately. Do not treat either historical 43-item review as the current original-entry count or claim that five source-evidence questions were solved.

@@ -1,12 +1,11 @@
 {
   "format": "academic-remediation-current-status-v1",
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "frozen_register": "corpus-factory/academic-defect-register-2026-10-23.json",
   "frozen_register_sha256": "59e3f4d9893b6edb1c22e04b3fe777f669a6c02735b2408101583316f3adebdf",
   "date_note": "User-facing remediation date uses America/Chicago; frozen register filename retains the earlier host-date label.",
   "original_open": 45,
-  "newly_closed_scoped_items": 2,
-  "remaining_open_including_mitigated": 43,
+  "remaining_open_including_mitigated": 38,
   "historical_bounded_progress": 5,
   "native_evidence": {
     "path": "research/academic-remediation.json",
@@ -39,7 +38,17 @@
     {
       "id": "ACD-003",
       "original_status": "OPEN",
-      "current_status": "OPEN"
+      "current_status": "CLOSED_SCOPED_CONTROL",
+      "control_scope": "REFERENCE_ACCOUNTING_AND_EXCLUSION",
+      "control_evidence": {
+        "repository": "hawkinsnick/Linear-A",
+        "path": "research/closure-controls.json",
+        "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c"
+      },
+      "scientific_evidence_resolved": false,
+      "remaining_evidence": "The 23 original edition locators remain missing; recovering them requires source evidence.",
+      "followup_id": "FUP-003",
+      "resolution": "Original representation/exclusion criterion met by the documented tested workflow; no broader scholarly closure."
     },
     {
       "id": "ACD-004",
@@ -101,7 +110,17 @@
     {
       "id": "ACD-015",
       "original_status": "OPEN",
-      "current_status": "OPEN"
+      "current_status": "CLOSED_SCOPED_CONTROL",
+      "control_scope": "UNRESOLVED_PAIR_REPRESENTATION",
+      "control_evidence": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "path": "research/closure-controls.json",
+        "sha256": "c19f1909ccf1a701dc2487fe230dbd6ecf15e1ba3c89828e05a19205936eb970"
+      },
+      "scientific_evidence_resolved": false,
+      "remaining_evidence": "Material and physical identity remain unadjudicated for CHIC-202/252.",
+      "followup_id": "FUP-015",
+      "resolution": "Original representation/exclusion criterion met by the documented tested workflow; no broader scholarly closure."
     },
     {
       "id": "ACD-016",
@@ -111,7 +130,17 @@
     {
       "id": "ACD-017",
       "original_status": "OPEN",
-      "current_status": "OPEN"
+      "current_status": "CLOSED_SCOPED_CONTROL",
+      "control_scope": "CONFLICT_AND_GAP_EXCLUSION",
+      "control_evidence": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "path": "research/closure-controls.json",
+        "sha256": "39e8f309d6547606e2060dc972654a5073c958de9aaccce8d785105878b146e0"
+      },
+      "scientific_evidence_resolved": false,
+      "remaining_evidence": "Ordinal 32 discrepancy and eight unassigned positions remain unresolved; no erratum adopted.",
+      "followup_id": "FUP-017",
+      "resolution": "Original representation/exclusion criterion met by the documented tested workflow; no broader scholarly closure."
     },
     {
       "id": "ACD-018",
@@ -131,8 +160,17 @@
     {
       "id": "ACD-021",
       "original_status": "OPEN",
-      "current_status": "MITIGATED_OPEN",
-      "resolution": "Existing controlled Cypriot union rechecked:617 view rows form592 source-entry groups. The project tool controls this dataset; broader independence/linguistic claims remain unestablished."
+      "current_status": "CLOSED_SCOPED_CONTROL",
+      "resolution": "Original representation/exclusion criterion met by the documented tested workflow; no broader scholarly closure.",
+      "control_scope": "REGISTERED_CYPRIOT_UNION",
+      "control_evidence": {
+        "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+        "path": "research/remediation/cypriot-source-union.json",
+        "sha256": "ec92658d3a4ad52634c95f47080375ace1b399f28c60ac2a7e9026e1cef916e8"
+      },
+      "scientific_evidence_resolved": false,
+      "remaining_evidence": "Control covers this frozen source-entry union only; broader independence and physical identity claims remain unsupported.",
+      "followup_id": "FUP-021"
     },
     {
       "id": "ACD-022",
@@ -152,8 +190,17 @@
     {
       "id": "ACD-025",
       "original_status": "OPEN",
-      "current_status": "MITIGATED_OPEN",
-      "resolution": "New controlled identical-cache union executed:228 incoming view rows form114 source-text-row groups with both source pointers. Broader physical identity, reading and witness claims remain unestablished."
+      "current_status": "CLOSED_SCOPED_CONTROL",
+      "resolution": "Original representation/exclusion criterion met by the documented tested workflow; no broader scholarly closure.",
+      "control_scope": "REGISTERED_MILYAN_UNION",
+      "control_evidence": {
+        "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+        "path": "research/remediation/milyan-source-union.json",
+        "sha256": "93a7105bf746eaae851e4478f6aadf66e4e9b9fce38ae84f4ed1190a2edf5c0b"
+      },
+      "scientific_evidence_resolved": false,
+      "remaining_evidence": "Control covers this identical-cache source-row union only; readings and independent witnesses remain unvalidated.",
+      "followup_id": "FUP-025"
     },
     {
       "id": "ACD-026",
@@ -283,6 +330,49 @@
   ],
   "boundary": "Closure is scoped to original rejection/disposition criteria, not complete bibliography, corrected replacement locators, accepted readings or expert review. All other evidence gaps and methodological claims retain their status.",
   "last_execution_review": "corpus-factory/remediation-execution-review-2026-10-24.json",
-  "last_review_date": "2026-10-24",
-  "new_closures_in_execution_review": 0
+  "last_review_date": "2026-10-25",
+  "new_closures_in_execution_review": 0,
+  "control_closures_this_batch": 5,
+  "cumulative_scoped_control_closures": 7,
+  "remaining_open_original_entries": 38,
+  "scientific_followups": [
+    {
+      "id": "FUP-003",
+      "parent": "ACD-003",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "The 23 original edition locators remain missing; recovering them requires source evidence.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control."
+    },
+    {
+      "id": "FUP-015",
+      "parent": "ACD-015",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Material and physical identity remain unadjudicated for CHIC-202/252.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control."
+    },
+    {
+      "id": "FUP-017",
+      "parent": "ACD-017",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Ordinal 32 discrepancy and eight unassigned positions remain unresolved; no erratum adopted.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control."
+    },
+    {
+      "id": "FUP-021",
+      "parent": "ACD-021",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Control covers this frozen source-entry union only; broader independence and physical identity claims remain unsupported.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control."
+    },
+    {
+      "id": "FUP-025",
+      "parent": "ACD-025",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Control covers this identical-cache source-row union only; readings and independent witnesses remain unvalidated.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control."
+    }
+  ],
+  "scientific_followup_count": 5,
+  "scholarly_adjudications_added": 0,
+  "counting_note": "38 original entries remain open. Five newly closed controls retain five explicitly open scientific follow-ups. Do not report the control closures as recovered locators, adjudicated source conflicts or independent witnesses."
 }

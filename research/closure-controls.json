@@ -1,0 +1,274 @@
+{
+  "format": "academic-closure-controls-v1",
+  "kind": "linear-a-reference-gaps",
+  "inputs": [
+    {
+      "path": "research/edition-concordance.csv",
+      "sha256": "459f309ea28a1ac694fb04a59b84c31c1674c445656db2b34e2c2230a00c2dd2"
+    }
+  ],
+  "records": [
+    {
+      "id": "HT 113 ter",
+      "source_record_id": "HT 113 ter",
+      "source_row_index": 31,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "HT Wa 1147",
+      "source_record_id": "HT Wa 1147",
+      "source_row_index": 244,
+      "reference_gap": "LITERAL_MISSING",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "HT Wa 1148",
+      "source_record_id": "HT Wa 1148",
+      "source_row_index": 245,
+      "reference_gap": "LITERAL_MISSING",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "HT Wa 1150",
+      "source_record_id": "HT Wa 1150",
+      "source_row_index": 246,
+      "reference_gap": "LITERAL_MISSING",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "HT Wa 1170",
+      "source_record_id": "HT Wa 1170",
+      "source_row_index": 247,
+      "reference_gap": "LITERAL_MISSING",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KE Zb 4",
+      "source_record_id": "KE Zb 4",
+      "source_row_index": 390,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KE Zb 5",
+      "source_record_id": "KE Zb 5",
+      "source_row_index": 391,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 100",
+      "source_record_id": "KH 100",
+      "source_row_index": 394,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 20",
+      "source_record_id": "KH 20",
+      "source_row_index": 410,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 68",
+      "source_record_id": "KH 68",
+      "source_row_index": 461,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 79+89",
+      "source_record_id": "KH 79+89",
+      "source_row_index": 472,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 92",
+      "source_record_id": "KH 92",
+      "source_row_index": 487,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 94",
+      "source_record_id": "KH 94",
+      "source_row_index": 490,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 95",
+      "source_record_id": "KH 95",
+      "source_row_index": 491,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 96",
+      "source_record_id": "KH 96",
+      "source_row_index": 492,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 97a",
+      "source_record_id": "KH 97a",
+      "source_row_index": 494,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 97b",
+      "source_record_id": "KH 97b",
+      "source_row_index": 495,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KH 99",
+      "source_record_id": "KH 99",
+      "source_row_index": 496,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "KY Zg 1",
+      "source_record_id": "KY Zg 1",
+      "source_row_index": 649,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "MY Zf 2",
+      "source_record_id": "MY Zf 2",
+      "source_row_index": 671,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "PYR 1",
+      "source_record_id": "PYR 1",
+      "source_row_index": 743,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "PYR 2",
+      "source_record_id": "PYR 2",
+      "source_row_index": 744,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    },
+    {
+      "id": "SY Za 4",
+      "source_record_id": "SY Za 4",
+      "source_row_index": 745,
+      "reference_gap": "ABSENT",
+      "disposition": "EXCLUDED_FROM_EXACT_EDITION_TARGET_COHORT",
+      "admitted_exact_edition_target": false,
+      "resolved_edition_url": null,
+      "underlying_locator_recovered": false,
+      "reason": "Pinned source supplies no usable exact edition route. Retain the source entry and unresolved gap; do not substitute a context citation or guessed page."
+    }
+  ],
+  "counts": {
+    "gap_records": 23,
+    "absent": 19,
+    "literal_missing": 4,
+    "admitted_exact_targets": 0
+  },
+  "scientific_approval_granted": false,
+  "source_literals_changed": false,
+  "boundary": "A completed exclusion/representation control is not recovered missing evidence or adjudicated scholarship. Preserve native source assertions and unresolved scientific requirements."
+}

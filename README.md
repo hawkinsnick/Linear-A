@@ -1,5 +1,7 @@
 # Linear A Open Corpus
 
+[Scoped academic controls](docs/CLOSURE-CONTROLS.md) make exclusions and unresolved source qualifications explicit in researcher retrieval.
+
 [24 October execution review](corpus-factory/REMEDIATION-EXECUTION-REVIEW-2026-10-24.md) covers every remaining academic work item. [MY Zf2 source caution](docs/MY-ZF2-SOURCE-CONTEXT.md) preserves a named scholarly uncertainty without changing the upstream record.
 
 [Academic remediation](docs/ACADEMIC-REMEDIATION.md) adds current route rejection and explicit legacy-case dispositions to researcher retrieval. [Current item status](corpus-factory/academic-remediation-status.json) separates scoped closures from remaining scholarly evidence gaps.

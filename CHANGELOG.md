@@ -1,3 +1,9 @@
+## Scoped academic controls — 2026-10-25
+
+- Add source-pinned exclusion/conflict controls to researcher retrieval and AI guidance.
+- Test exact-ID queries, null/unresolved values and rejection of inconsistent source evidence.
+- Close the documented control scope only; retain missing locators, source disagreements and scientific follow-ups explicitly.
+
 ## Academic evidence follow-up — 2026-10-24
 
 - Recheck all 43 remaining work items against 57 source observations at current committed revisions; preserve every scholarly closure criterion and report no new scholarly closure.

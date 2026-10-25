@@ -83,6 +83,8 @@ CANDIDATES += [("adversarial_academic_audit", p) for p in ["corpus-factory/ACADE
 CANDIDATES += [("academic_defect_register", p) for p in ["corpus-factory/ACADEMIC-DEFECT-REGISTER-2026-10-23.md", "corpus-factory/academic-defect-register-2026-10-23.json", "corpus-factory/validate_academic_defect_register.py", "corpus-factory/academic-defect-validation-2026-10-23.json"]]
 CANDIDATES += [("academic_remediation", p) for p in ["research/academic-remediation.json", "scripts/academic_remediation.py", "scripts/test_academic_remediation.py", "docs/ACADEMIC-REMEDIATION.md", "corpus-factory/academic-remediation-status.json"]]
 CANDIDATES += [("academic_remediation_followup", p) for p in ["research/myzf2-source-context-2026-10-24.json", "docs/MY-ZF2-SOURCE-CONTEXT.md", "corpus-factory/REMEDIATION-EXECUTION-REVIEW-2026-10-24.md", "corpus-factory/remediation-execution-review-2026-10-24.json"]]
+CANDIDATES += [("academic_closure_control", p) for p in ["research/closure-controls.json", "scripts/closure_controls.py", "scripts/test_closure_controls.py", "docs/CLOSURE-CONTROLS.md"]]
+CANDIDATES += [("scoped_closure_ledger", "corpus-factory/SCOPED-CLOSURES-2026-10-25.md")]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

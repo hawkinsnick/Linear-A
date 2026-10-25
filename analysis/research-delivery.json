@@ -208,6 +208,25 @@
         "role": "attributed record-level scholarly caution; text-only source consultation",
         "encoding": "json"
       }
+    },
+    {
+      "name": "closure-controls",
+      "native_unit": "source reference-gap disposition",
+      "record_count": 23,
+      "scope": "Explicitly preserves missing evidence and source conflicts; no scholarly adjudication.",
+      "example_ids": [
+        "HT 113 ter",
+        "HT Wa 1147",
+        "HT Wa 1148"
+      ],
+      "provenance": {
+        "path": "research/closure-controls.json",
+        "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+        "pointer": "/records",
+        "native_artifacts_snapshot_commit": null,
+        "role": "scoped exclusions and unresolved-source representation controls",
+        "encoding": "json"
+      }
     }
   ],
   "scholarly_limits": [
@@ -255,8 +274,8 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
-      "bytes": 47701
+      "sha256": "4d2db7ac34099e25c0d0d0a54735b8aca4484f7d9c877d2cbf56edc369933297",
+      "bytes": 48485
     },
     {
       "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
@@ -284,6 +303,11 @@
       "bytes": 10046
     },
     {
+      "path": "research/closure-controls.json",
+      "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+      "bytes": 12184
+    },
+    {
       "path": "research/collection-work-ledger.json",
       "sha256": "90a355db40418f401308eaa4e30636922b7e723a7b6d728c5495f6ec17cfe89d",
       "bytes": 841583
@@ -295,8 +319,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "fd517c88610c3daf3872f7a7f6aba116ea1b24db6b2238cbb210af7293a47e19",
-      "bytes": 11045
+      "sha256": "5b6e7d8f634d39b98dce003ae928e5a7e96be2d47f8396416533ee16839d3166",
+      "bytes": 11826
     },
     {
       "path": "research/legacy-case-attribution.json",

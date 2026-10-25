@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Linear-A",
-  "profile_sha256": "fd517c88610c3daf3872f7a7f6aba116ea1b24db6b2238cbb210af7293a47e19",
+  "profile_sha256": "5b6e7d8f634d39b98dce003ae928e5a7e96be2d47f8396416533ee16839d3166",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -204,6 +204,25 @@
         "role": "attributed record-level scholarly caution; text-only source consultation",
         "encoding": "json"
       }
+    },
+    {
+      "name": "closure-controls",
+      "native_unit": "source reference-gap disposition",
+      "record_count": 23,
+      "scope": "Explicitly preserves missing evidence and source conflicts; no scholarly adjudication.",
+      "example_ids": [
+        "HT 113 ter",
+        "HT Wa 1147",
+        "HT Wa 1148"
+      ],
+      "provenance": {
+        "path": "research/closure-controls.json",
+        "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+        "pointer": "/records",
+        "native_artifacts_snapshot_commit": null,
+        "role": "scoped exclusions and unresolved-source representation controls",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -325,6 +344,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "attributed record-level scholarly caution; text-only source consultation",
+      "encoding": "json"
+    },
+    {
+      "path": "research/closure-controls.json",
+      "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "scoped exclusions and unresolved-source representation controls",
       "encoding": "json"
     }
   ],
