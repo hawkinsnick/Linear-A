@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "0c7c0de5f94b70249c0b344297197cd820b7a905",
-  "generated_at_utc": "2026-10-25T19:29:07+00:00",
+  "source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
+  "generated_at_utc": "2026-10-27T13:07:53+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "dfb107ec6afba1857d5bb6a5db740d795bf440ed2c1c31d6ab0b9e18e6396013",
-      "bytes": 49057
+      "sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
+      "bytes": 50704
     },
     {
       "role": "cross_corpus_dependencies",
@@ -982,8 +982,8 @@
     {
       "role": "research_delivery",
       "path": "scripts/research_delivery.py",
-      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
-      "bytes": 10387
+      "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+      "bytes": 10514
     },
     {
       "role": "research_delivery",
@@ -1000,8 +1000,8 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "15b504b1997a8bc14ccd864eede1c670f8362201ad3e814083aee3201af092cd",
-      "bytes": 14692
+      "sha256": "0f880c9fa4fa11ab9047428c3d0222cd309a34c424acd654a5f9efdfdd9d2416",
+      "bytes": 14849
     },
     {
       "role": "northwestern_program",
@@ -1282,8 +1282,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "dfb107ec6afba1857d5bb6a5db740d795bf440ed2c1c31d6ab0b9e18e6396013",
-      "bytes": 49057
+      "sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
+      "bytes": 50704
     },
     {
       "role": "skill_function_validation",
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "8aa4b5be95ffdbc7f8df121e5338ab5a9755620f6735e7ef680131f9e46d42e7",
-      "bytes": 18488
+      "sha256": "a621bbfb19334ea586148c34135f71c613eaabfc222a737d74f1fe174aef0d77",
+      "bytes": 18553
     },
     {
       "role": "skill_validator_code",
@@ -1494,6 +1494,12 @@
       "path": "corpus-factory/SCOPED-CLOSURES-2026-10-25.md",
       "sha256": "5360d1fd89260e037500fe7940304ad048918553a48f1cf057a8d6bc8107882a",
       "bytes": 2985
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "sha256": "69e500c8391b89d54763965b40b66b5e32047b1874f5540bef8a16e71ad3e0b5",
+      "bytes": 2930
     }
   ]
 }
