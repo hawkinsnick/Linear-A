@@ -32,4 +32,4 @@ jobs:
           with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:list(pool.map(clone,members))
           PY
       - run: python corpus-factory/verify_federated_snapshot.py --checkouts /tmp/native-checkpoints
-      - run: python corpus-factory/test_federated_research.py --checkouts /tmp/native-checkpoints
+      - run: python /tmp/native-checkpoints/Linear-A/corpus-factory/test_federated_research.py --checkouts /tmp/native-checkpoints
