@@ -1,0 +1,9 @@
+# SigLA live-source change — 27 October 2026
+
+The live `https://sigla.phis.me/database.js` was acquired by ordinary HTTP and differs from the frozen layout source. The [inspection receipt](../research/sigla-live-source-change-2026-10-27.json) records the exact live and frozen hashes. The live source map has 827 keys versus 802 frozen document IDs: 29 added keys and four missing old IDs. These are source-map identities, not 29 new ancient objects; potential renamings are not automatically joined.
+
+The live serialization also differs: its map values directly contain a five-field structure, while the frozen decoder expects a one-field wrapper around a five-field document. Additional child shapes differ. The old authenticated builder correctly rejects these bytes. Its hash pin, frozen derivatives, readings and coordinate assignments remain unchanged. No new live record was admitted and no application-field interpretation was guessed.
+
+The fresh-source CI lane remains blocked on this observed change. Replaying an existing derivative receipt remains possible with `python scripts/build_sigla_layout_layer.py`; this does not claim to re-download and replay the old source. Before ingesting the new source, inspect its current published application serializers and applicable terms, establish a separately versioned decoder, and produce exact source-specific differences. Preserve both old and live source identities and all unestablished relations.
+
+The separate historical Northwestern replay now executes `corpus-factory/federated_research.py` from its pinned Linear A study checkout in a subprocess. Previously it mixed old native snapshots with today's changed research-package adapter and rejected the version mismatch. The repair replays all eighteen original checkpoints and all five saved exercises without altering their receipts or upgrading scholarly status.

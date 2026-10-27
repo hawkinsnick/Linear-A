@@ -22,3 +22,7 @@ python scripts/query.py --checkouts /path/to/frozen-corpora --repository hawkins
 Expected native unit: `selected critical pilot entry`. Expected linked records: 2. Expected full-record canonical JSON SHA-256: `c6c68616e59647ca2783c1029fa801e72d103d97cc9de2c4bb65a1017967cc90` (UTF-8, sorted keys, compact separators, unescaped Unicode). Preserve the original source path, hash, pointer, uncertainty and linked assertions. Combined physical-object and independent-witness counts remain null.
 
 Read the [executed cases](https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/research/2026-10-27/research-regression.json), [component audit](https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/research/2026-10-27/package-audit.json) and [replay instructions](https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/references/nonreview-work-2026-10-27.md). Development tests do not establish representative academic accuracy or measured researcher benefit.
+
+## Later source-change and historical replay follow-up
+
+Read [the SigLA change inspection](SIGLA-LIVE-SOURCE-CHANGE-2026-10-27.md). The live-source digest and schema differ; admission remains blocked, and original source pins and study receipts remain unchanged. Historical Northwestern replay now uses the original pinned study adapter rather than today's changed packaging code.

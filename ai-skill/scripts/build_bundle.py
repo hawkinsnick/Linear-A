@@ -86,6 +86,7 @@ CANDIDATES += [("academic_remediation_followup", p) for p in ["research/myzf2-so
 CANDIDATES += [("academic_closure_control", p) for p in ["research/closure-controls.json", "scripts/closure_controls.py", "scripts/test_closure_controls.py", "docs/CLOSURE-CONTROLS.md"]]
 CANDIDATES += [("scoped_closure_ledger", "corpus-factory/SCOPED-CLOSURES-2026-10-25.md")]
 CANDIDATES += [('nonreview_workflow', 'docs/NONREVIEW-WORK.md')]
+CANDIDATES += [('live_source_change', p) for p in ['docs/SIGLA-LIVE-SOURCE-CHANGE-2026-10-27.md','research/sigla-live-source-change-2026-10-27.json']]
 artifacts=[]
 for role,rel in CANDIDATES:
  p=ROOT/rel

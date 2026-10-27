@@ -381,6 +381,16 @@
       "role": "nonreview_workflow",
       "path": "docs/NONREVIEW-WORK.md",
       "required": true
+    },
+    {
+      "role": "live_source_change",
+      "path": "docs/SIGLA-LIVE-SOURCE-CHANGE-2026-10-27.md",
+      "required": true
+    },
+    {
+      "role": "live_source_change",
+      "path": "research/sigla-live-source-change-2026-10-27.json",
+      "required": true
     }
   ],
   "behavioral_gates": [
