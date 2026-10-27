@@ -376,6 +376,11 @@
       "path": "corpus-factory/PUBLIC-SOURCE-ROUTES-2026-10-19.md",
       "required": true,
       "role": "public_source_master_route"
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "required": true
     }
   ],
   "behavioral_gates": [
