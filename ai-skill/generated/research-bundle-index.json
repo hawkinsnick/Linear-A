@@ -1,8 +1,8 @@
 {
   "schema_version": "0.3.1",
   "skill_version": "0.3.1",
-  "source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
-  "generated_at_utc": "2026-10-27T13:07:53+00:00",
+  "source_commit": "287b7ade1f150e8d0ceca7adc9cc5c8746cc4700",
+  "generated_at_utc": "2026-10-27T13:22:06+00:00",
   "canonical_repository": true,
   "contract": {
     "corpus_is_authoritative": true,
@@ -496,8 +496,8 @@
     {
       "role": "native_skill_instructions",
       "path": "ai-skill/SKILL.md",
-      "sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
-      "bytes": 50704
+      "sha256": "f392e1385d6c1a31f700420d4ae8cbfe338db4b80b59dd987025d205b7406f79",
+      "bytes": 51139
     },
     {
       "role": "cross_corpus_dependencies",
@@ -1000,7 +1000,7 @@
     {
       "role": "research_delivery",
       "path": "analysis/research-delivery.json",
-      "sha256": "0f880c9fa4fa11ab9047428c3d0222cd309a34c424acd654a5f9efdfdd9d2416",
+      "sha256": "3c6c2591ba1d1ffb24647726176f4c7ef49bb690e0ab3e03518b469fd2b8557d",
       "bytes": 14849
     },
     {
@@ -1066,8 +1066,8 @@
     {
       "role": "northwestern_publication",
       "path": "corpus-factory/verify_federated_snapshot.py",
-      "sha256": "c168194dbe8b3884bcbd993cbe9d7f24744029999c0b2556158bd81782348714",
-      "bytes": 1723
+      "sha256": "da5f2a17b83244974ebd3f2d8d71b291a699f5970749654487888b7cb933d274",
+      "bytes": 2177
     },
     {
       "role": "northwestern_publication",
@@ -1282,8 +1282,8 @@
     {
       "role": "skill_function_validation",
       "path": "ai-skill/SKILL.md",
-      "sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
-      "bytes": 50704
+      "sha256": "f392e1385d6c1a31f700420d4ae8cbfe338db4b80b59dd987025d205b7406f79",
+      "bytes": 51139
     },
     {
       "role": "skill_function_validation",
@@ -1336,8 +1336,8 @@
     {
       "role": "skill_validator_code",
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "a621bbfb19334ea586148c34135f71c613eaabfc222a737d74f1fe174aef0d77",
-      "bytes": 18553
+      "sha256": "b2e92c7c47d51566eed014a99ddb7a72f56e190e73164d4d3cd379290f226c8d",
+      "bytes": 18704
     },
     {
       "role": "skill_validator_code",
@@ -1498,8 +1498,20 @@
     {
       "role": "nonreview_workflow",
       "path": "docs/NONREVIEW-WORK.md",
-      "sha256": "69e500c8391b89d54763965b40b66b5e32047b1874f5540bef8a16e71ad3e0b5",
-      "bytes": 2930
+      "sha256": "2784f3f574237e4ac496dec63e1b4fd21621833eae2665527953f7b8093a8f65",
+      "bytes": 3312
+    },
+    {
+      "role": "live_source_change",
+      "path": "docs/SIGLA-LIVE-SOURCE-CHANGE-2026-10-27.md",
+      "sha256": "55c2fa257cfe0d447afdea24d8dcc8921a36530826f68e4934e73d7a3c7278b1",
+      "bytes": 1881
+    },
+    {
+      "role": "live_source_change",
+      "path": "research/sigla-live-source-change-2026-10-27.json",
+      "sha256": "b94cd4e7559a117ee5792fda612e189b910a5b73e59e36872f0822a7b9656387",
+      "bytes": 1871
     }
   ]
 }
